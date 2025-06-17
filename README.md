@@ -44,14 +44,10 @@ The NLM Cell Knowledge Network aims to connect this experiment data and augment 
 ## Additional repositories
 
 * [NLM Cell KN SCsilhouette Score Package](https://github.com/NIH-NLM/scsilhouette#README)
-
-  [SCsilhouette Score Read the Docs](https://nih-nlm.github.io/scsilhouette/)
   
 * [NLM Cell KN Silhouette Score Nextflow Workflow](https://github.com/NIH-NLM/scsilhouette-nf#README))
 
 * [NSForest Package](https://github.com/JCVenterInstitute/NSForest#README)
-
-  [NSForest Read the Docs](https://nsforest.readthedocs.io/en/latest/)
 
 * [NLM Cell KN NS Forest Nextflow Workflow](https://github.com/NIH-NLM/nsforest-nf#README)
 
