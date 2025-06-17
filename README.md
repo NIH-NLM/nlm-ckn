@@ -27,30 +27,19 @@ The NLM Cell Knowledge Network aims to connect this experiment data and augment 
 
 ## Navigating NLM Cell KN MVP
 
-### NLM Cell KN MVP Search Window
+![NLM Cell KN MVP Search](docs/_static/NLM_Cell_KN_MVP_Search_Window.png)
 
-![](https://github.com/NIH-NLM/cell-kn-mvp/blob/main/docs/_static/NLM_Cell_KN_Search_Window.png)
+![NLM Cell KN MVP Browse](docs/_static/NLM_Cell_KN_MVP_Browse_Database.png)
 
-### NLM Cell KN MVP Browse Database
+![NLM Cell KN MVP Explore](docs/_static/NLM_Cell_KN_MVP_Explore_the_Tree.png)
 
-![](https://github.com/NIH-NLM/cell-kn-mvp/blob/main/docs/_static/NLM_Cell_KN_Browse_Database.png)
+![NLM Cell KN MVP Gene Symbol KCKN3](docs/_static/NLM_Cell_KN_MVP_Gene_Symbol_KCKN3.png)
 
-### NLM Cell KN MVP Explore the Tree
+![NLM Cell KN MVP Inspect](docs/_static/NLM_Cell_KN_MVP_Inspect_Data_Collections.png)
 
-![](https://github.com/NIH-NLM/cell-kn-mvp/blob/main/docs/_static/NLM_Cell_KN_Explore_the_Tree.png)
+![NLM Cell KN MVP Schema](docs/_static/NLM_Cell_KN_MVP_Schema.png)
 
-### NLM Cell KN MVP Gene Symbol KCKN3 Landing Page
-
-![](https://github.com/NIH-NLM/cell-kn-mvp/blob/main/docs/_static/NLM_Cell_KN_Gene_Symbol_KCKN3.png)
-
-### NLM Cell KN MVP Inspect Data Collections
-![](https://github.com/NIH-NLM/cell-kn-mvp/blob/main/docs/_static/NLM_Cell_KN_Inspect_Data_Collections.png)
-
-### NLM Cell KN MVP Schema
-![](https://github.com/NIH-NLM/cell-kn-mvp/blob/main/docs/_static/NLM_Cell_KN_Schema.png)
-
-### NLM Cell KN MVP About
-![](https://github.com/NIH-NLM/cell-kn-mvp/blob/main/docs/_static/NLM_Cell_KN_About.png)
+![NLM Cell KN MVP About](docs/_static/NLM_Cell_KN_MVP_About.png)
 
 ## Additional repositories
 
