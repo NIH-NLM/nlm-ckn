@@ -13,6 +13,8 @@ This application creates a knowledge network encapsulating the latest knowledge 
 
 The NLM Cell Knowledge Network aims to connect these experimental data augmented with characterizing marker genes computationally derived from the [NS-Forest](https://github.com/JCVenterInstitute/NSForest/tree/master) machine learning method, which identifies the necessary and sufficient marker genes that define the data-driven cell type cluster, resolved to a cell ontological type using semantic terms updated and maintained at the [Cell Ontology](https://www.ebi.ac.uk/ols4/ontologies/cl).
 
+__*This resource is under active development. To contribute, please open an [issue](https://github.com/NIH-NLM/cell-kn-mvp/issues) on this Github repository.*__
+
 ## NLM Cell KN Infrastructure Architecture
 
 <img src="docs/_static/NLM_Cell_KN_Infrastructure.png" width="750" />
