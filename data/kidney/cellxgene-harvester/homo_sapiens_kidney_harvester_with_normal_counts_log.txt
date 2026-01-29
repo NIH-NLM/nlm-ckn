@@ -1,0 +1,853 @@
+Starting: 2026-01-28 20:48:17
+Input: data/homo_sapiens_kidney_harvester.csv
+Tissue filter: kidney
+Min age: 15 (use 0 to disable)
+Output: data/homo_sapiens_kidney_harvester_with_normal_counts.csv
+Log: data/homo_sapiens_kidney_harvester_with_normal_counts_log.txt
+
+Loaded 37 datasets from data/homo_sapiens_kidney_harvester.csv
+
+Initialized output: data/homo_sapiens_kidney_harvester_with_normal_counts.csv
+
+Processing 37 datasets...
+Progress saved after each dataset
+
+
+[1/37] Processing 9df60c57-fdf3-4e93-828e-fe9303f20438
+  Author: Muto (2021.0) - Nat Commun
+  Expected cells (from CSV): 19985.0
+    Querying Census API...
+    Census returned 19,985 total cells
+    After tissue filter (kidney): 19,985 cells
+    Census metadata:
+      Tissue (specific): cortex of kidney
+      Dev stages (all non-zero): 61-year-old stage: 5,464; 54-year-old stage: 4,114; 52-year-old stage: 3,804; 50-year-old stage: 3,683; 62-year-old stage: 2,920
+      Donors: 5
+      Age filtering (min_age=15):
+        Total cells: 19,985
+        Cells with parseable age: 19,985
+        Adult (age >= 15 or contains 'adult'): 19,985
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 19,985
+      Disease filtering:
+        Total cells: 19,985
+        Normal cells: 19,985
+  SUCCESS: 19,985 normal cells
+    (Adult: 19,985 / Total: 19,985)
+  Progress saved (1/37 complete)
+
+[2/37] Processing 13a027de-ea3e-432b-9a5e-6bc7048498fc
+  Author: Muto (2021.0) - Nat Commun
+  Expected cells (from CSV): 27034.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (2/37 complete)
+
+[3/37] Processing 8dc29642-be06-46dc-a289-8075915745d4
+  Author: Hochane (2019.0) - PLoS Biol
+  Expected cells (from CSV): 17962.0
+    Querying Census API...
+    Census returned 17,962 total cells
+    After tissue filter (kidney): 17,962 cells
+    Census metadata:
+      Tissue (specific): kidney
+      Dev stages (all non-zero): 14th week post-fertilization stage: 6,603; 9th week post-fertilization stage: 4,863; 11th week post-fertilization stage: 3,395; 16th week post-fertilization stage: 3,014; Carnegie stage 19: 87
+      Donors: 5
+      Age filtering (min_age=15):
+        Total cells: 17,962
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 17,875
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 17,962)
+  Progress saved (3/37 complete)
+
+[4/37] Processing f95d8919-1f2a-405f-8776-bfecc0ab0f3f
+  Author: Xu (2023.0) - Cell
+  Expected cells (from CSV): 194504.0
+    Querying Census API...
+    Census returned 194,504 total cells
+    After tissue filter (kidney): 160,028 cells
+    Census metadata:
+      Tissue (specific): cortex of kidney
+      Dev stages (all non-zero): 76-year-old stage: 16,664; seventh decade stage: 12,244; 67-year-old stage: 11,438; 72-year-old stage: 10,851; 53-year-old stage: 8,839; 71-year-old stage: 8,839; 63-year-old stage: 7,987; eighth decade stage: 7,774; 54-year-old stage: 6,125; 61-year-old stage: 5,464; 50-year-old stage: 5,286; 52-year-old stage: 5,133; 69-year-old stage: 5,097; 29-year-old stage: 4,836; 74-year-old stage: 4,715; 49-year-old stage: 4,273; 57-year-old stage: 3,411; 60-year-old stage: 3,401; 68-year-old stage: 3,038; 62-year-old stage: 2,920; 35-year-old stage: 2,635; 43-year-old stage: 2,437; 59-year-old stage: 1,919; 56-year-old stage: 1,896; 58-year-old stage: 1,760; 31-year-old stage: 1,631; 46-year-old stage: 1,611; 42-year-old stage: 1,540; 30-year-old stage: 1,334; 41-year-old stage: 1,166; 39-year-old stage: 962; 47-year-old stage: 740; 40-year-old stage: 635; 48-year-old stage: 519; 66-year-old stage: 517; 64-year-old stage: 198; 44-year-old stage: 131; 70-year-old stage: 62
+      Donors: 58
+      Age filtering (min_age=15):
+        Total cells: 160,028
+        Cells with parseable age: 140,010
+        Adult (age >= 15 or contains 'adult'): 140,010
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 140,010
+      Disease filtering:
+        Total cells: 140,010
+        Normal cells: 140,010
+  SUCCESS: 140,010 normal cells
+    (Adult: 140,010 / Total: 160,028)
+  Progress saved (4/37 complete)
+
+[5/37] Processing e067e5ca-e53e-485f-aa8e-efd5435229c8
+  Author: Wilson (2022.0) - Nat Commun
+  Expected cells (from CSV): 39176.0
+    Querying Census API...
+    Census returned 39,176 total cells
+    After tissue filter (kidney): 39,176 cells
+    Census metadata:
+      Tissue (specific): cortex of kidney
+      Dev stages (all non-zero): 59-year-old stage: 8,706; 52-year-old stage: 6,815; 61-year-old stage: 5,278; 50-year-old stage: 3,707; 54-year-old stage: 3,605; 57-year-old stage: 2,587; 78-year-old stage: 2,574; 62-year-old stage: 2,552; 74-year-old stage: 2,468; 51-year-old stage: 884
+      Donors: 11
+      Age filtering (min_age=15):
+        Total cells: 39,176
+        Cells with parseable age: 39,176
+        Adult (age >= 15 or contains 'adult'): 39,176
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 39,176
+      Disease filtering:
+        Total cells: 39,176
+        Normal cells: 27,667
+  SUCCESS: 27,667 normal cells
+    (Adult: 39,176 / Total: 39,176)
+  Progress saved (5/37 complete)
+
+[6/37] Processing ad0bf220-dd49-4b71-bb5c-576fee675d2b
+  Author: Wilson (2022.0) - Nat Commun
+  Expected cells (from CSV): 37747.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (6/37 complete)
+
+[7/37] Processing fd072bc3-2dfb-46f8-b4e3-467cb3223182
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 908046.0
+    Querying Census API...
+    Census returned 908,046 total cells
+    After tissue filter (kidney): 26,772 cells
+    Census metadata:
+      Tissue (specific): kidney
+      Dev stages (all non-zero): 17th week post-fertilization stage: 8,346; Carnegie stage 22: 6,399; 13th week post-fertilization stage: 6,156; 14th week post-fertilization stage: 5,871
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 26,772
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 20,373
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 26,772)
+  Progress saved (7/37 complete)
+
+[8/37] Processing d0c12af4-c0e4-4c7b-873a-70752b449689
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 318656.0
+    Querying Census API...
+    Census returned 318,656 total cells
+    After tissue filter (kidney): 18,328 cells
+    Census metadata:
+      Tissue (specific): kidney
+      Dev stages (all non-zero): 13th week post-fertilization stage: 5,137; Carnegie stage 22: 4,890; 14th week post-fertilization stage: 4,586; 17th week post-fertilization stage: 3,715
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 18,328
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 13,438
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 18,328)
+  Progress saved (8/37 complete)
+
+[9/37] Processing aa633105-e8e5-4dcc-b72d-6da6c191b3e9
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 172175.0
+    Querying Census API...
+    Census returned 172,175 total cells
+    After tissue filter (kidney): 1,852 cells
+    Census metadata:
+      Tissue (specific): kidney
+      Dev stages (all non-zero): 17th week post-fertilization stage: 1,402; 13th week post-fertilization stage: 238; 14th week post-fertilization stage: 117; Carnegie stage 22: 95
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 1,852
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 1,757
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 1,852)
+  Progress saved (9/37 complete)
+
+[10/37] Processing 804d9a85-665b-45c6-b204-13457fdcc7ac
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 149107.0
+    Querying Census API...
+    Census returned 149,107 total cells
+    After tissue filter (kidney): 199 cells
+    Census metadata:
+      Tissue (specific): kidney
+      Dev stages (all non-zero): 13th week post-fertilization stage: 61; 14th week post-fertilization stage: 55; 17th week post-fertilization stage: 45; Carnegie stage 22: 38
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 199
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 161
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 199)
+  Progress saved (10/37 complete)
+
+[11/37] Processing 6a30bf44-c490-41ac-965b-0bb58432b10a
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 40420.0
+    Querying Census API...
+    Census returned 40,420 total cells
+    After tissue filter (kidney): 86 cells
+    Census metadata:
+      Tissue (specific): kidney
+      Dev stages (all non-zero): 17th week post-fertilization stage: 35; Carnegie stage 22: 28; 13th week post-fertilization stage: 13; 14th week post-fertilization stage: 10
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 86
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 58
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 86)
+  Progress saved (11/37 complete)
+
+[12/37] Processing 48101fa2-1a63-4514-b892-53ea1d3a8657
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 589390.0
+    Querying Census API...
+    Census returned 589,390 total cells
+    After tissue filter (kidney): 8,444 cells
+    Census metadata:
+      Tissue (specific): kidney
+      Dev stages (all non-zero): 17th week post-fertilization stage: 4,631; Carnegie stage 22: 1,509; 14th week post-fertilization stage: 1,285; 13th week post-fertilization stage: 1,019
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 8,444
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 6,935
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 8,444)
+  Progress saved (12/37 complete)
+
+[13/37] Processing 3affa268-8a74-460a-ac9b-a984c0832469
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 239698.0
+    Querying Census API...
+    Census returned 239,698 total cells
+    After tissue filter (kidney): 2,406 cells
+    Census metadata:
+      Tissue (specific): kidney
+      Dev stages (all non-zero): 17th week post-fertilization stage: 1,821; 13th week post-fertilization stage: 310; 14th week post-fertilization stage: 153; Carnegie stage 22: 122
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 2,406
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 2,284
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 2,406)
+  Progress saved (13/37 complete)
+
+[14/37] Processing 2aa1c93c-4ef3-4e9a-98e7-0bd37933953c
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 218758.0
+    Querying Census API...
+    Census returned 218,758 total cells
+    After tissue filter (kidney): 5,848 cells
+    Census metadata:
+      Tissue (specific): kidney
+      Dev stages (all non-zero): 17th week post-fertilization stage: 2,755; Carnegie stage 22: 1,394; 14th week post-fertilization stage: 1,056; 13th week post-fertilization stage: 643
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 5,848
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 4,454
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 5,848)
+  Progress saved (14/37 complete)
+
+[15/37] Processing c5d88abe-f23a-45fa-a534-788985e93dad
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 592317.0
+    Querying Census API...
+    Census returned 592,317 total cells
+    After tissue filter (kidney): 1,997 cells
+    Census metadata:
+      Tissue (specific): kidney
+      Dev stages (all non-zero): 61-year-old stage: 1,997
+      Donors: 1
+      Age filtering (min_age=15):
+        Total cells: 1,997
+        Cells with parseable age: 1,997
+        Adult (age >= 15 or contains 'adult'): 1,997
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 1,997
+      Disease filtering:
+        Total cells: 1,997
+        Normal cells: 1,997
+  SUCCESS: 1,997 normal cells
+    (Adult: 1,997 / Total: 1,997)
+  Progress saved (15/37 complete)
+
+[16/37] Processing 97a17473-e2b1-4f31-a544-44a60773e2dd
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 228032.0
+    Querying Census API...
+    Census returned 228,032 total cells
+    After tissue filter (kidney): 9,278 cells
+    Census metadata:
+      Tissue (specific): kidney
+      Dev stages (all non-zero): 61-year-old stage: 9,278
+      Donors: 1
+      Age filtering (min_age=15):
+        Total cells: 9,278
+        Cells with parseable age: 9,278
+        Adult (age >= 15 or contains 'adult'): 9,278
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 9,278
+      Disease filtering:
+        Total cells: 9,278
+        Normal cells: 9,278
+  SUCCESS: 9,278 normal cells
+    (Adult: 9,278 / Total: 9,278)
+  Progress saved (16/37 complete)
+
+[17/37] Processing 5a11f879-d1ef-458a-910c-9b0bdfca5ebf
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 73195.0
+    Querying Census API...
+    Census returned 73,195 total cells
+    After tissue filter (kidney): 101 cells
+    Census metadata:
+      Tissue (specific): kidney
+      Dev stages (all non-zero): 61-year-old stage: 101
+      Donors: 1
+      Age filtering (min_age=15):
+        Total cells: 101
+        Cells with parseable age: 101
+        Adult (age >= 15 or contains 'adult'): 101
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 101
+      Disease filtering:
+        Total cells: 101
+        Normal cells: 101
+  SUCCESS: 101 normal cells
+    (Adult: 101 / Total: 101)
+  Progress saved (17/37 complete)
+
+[18/37] Processing 53d208b0-2cfd-4366-9866-c3c6114081bc
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 1136218.0
+    Querying Census API...
+    Census returned 1,136,218 total cells
+    After tissue filter (kidney): 11,376 cells
+    Census metadata:
+      Tissue (specific): kidney
+      Dev stages (all non-zero): 61-year-old stage: 11,376
+      Donors: 1
+      Age filtering (min_age=15):
+        Total cells: 11,376
+        Cells with parseable age: 11,376
+        Adult (age >= 15 or contains 'adult'): 11,376
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 11,376
+      Disease filtering:
+        Total cells: 11,376
+        Normal cells: 11,376
+  SUCCESS: 11,376 normal cells
+    (Adult: 11,376 / Total: 11,376)
+  Progress saved (18/37 complete)
+
+[19/37] Processing 2423ce2c-3149-4cca-a2ff-cf682ea29b5f
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 11376.0
+    Querying Census API...
+    Census returned 11,376 total cells
+    After tissue filter (kidney): 11,376 cells
+    Census metadata:
+      Tissue (specific): kidney
+      Dev stages (all non-zero): 61-year-old stage: 11,376
+      Donors: 1
+      Age filtering (min_age=15):
+        Total cells: 11,376
+        Cells with parseable age: 11,376
+        Adult (age >= 15 or contains 'adult'): 11,376
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 11,376
+      Disease filtering:
+        Total cells: 11,376
+        Normal cells: 11,376
+  SUCCESS: 11,376 normal cells
+    (Adult: 11,376 / Total: 11,376)
+  Progress saved (19/37 complete)
+
+[20/37] Processing 0bae7ebf-eb54-46a6-be9a-3461cecefa4c
+  Author: McEvoy (2022.0) - Nat Commun
+  Expected cells (from CSV): 27675.0
+    Querying Census API...
+    Census returned 27,675 total cells
+    After tissue filter (kidney): 27,675 cells
+    Census metadata:
+      Tissue (specific): cortex of kidney
+      Dev stages (all non-zero): 65-year-old stage: 4,738; 58-year-old stage: 3,739; 64-year-old stage: 3,280; 57-year-old stage: 2,366; 35-year-old stage: 2,262; 60-year-old stage: 1,894; 44-year-old stage: 1,811; 33-year-old stage: 1,264; 38-year-old stage: 1,102; 42-year-old stage: 1,041; 55-year-old stage: 938; 41-year-old stage: 712; 43-year-old stage: 679; 50-year-old stage: 606; 49-year-old stage: 584; 34-year-old stage: 344; 37-year-old stage: 315
+      Donors: 19
+      Age filtering (min_age=15):
+        Total cells: 27,675
+        Cells with parseable age: 27,675
+        Adult (age >= 15 or contains 'adult'): 27,675
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 27,675
+      Disease filtering:
+        Total cells: 27,675
+        Normal cells: 27,675
+  SUCCESS: 27,675 normal cells
+    (Adult: 27,675 / Total: 27,675)
+  Progress saved (20/37 complete)
+
+[21/37] Processing 867757c1-3b1a-49d9-a0cd-17767eb160cc
+  Author: Reck (2025.0) - Nat Commun
+  Expected cells (from CSV): 46957.0
+    Querying Census API...
+    Census returned 46,957 total cells
+    After tissue filter (kidney): 46,957 cells
+    Census metadata:
+      Tissue (specific): kidney
+      Dev stages (all non-zero): 79-year-old stage: 9,189; 83-year-old stage: 8,466; 82-year-old stage: 5,416; 69-year-old stage: 4,775; 84-year-old stage: 3,973; 60-year-old stage: 3,971; 62-year-old stage: 3,513; 66-year-old stage: 2,260; 63-year-old stage: 1,951; 70-year-old stage: 1,831; 68-year-old stage: 1,169; 64-year-old stage: 443
+      Donors: 12
+      Age filtering (min_age=15):
+        Total cells: 46,957
+        Cells with parseable age: 46,957
+        Adult (age >= 15 or contains 'adult'): 46,957
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 46,957
+      Disease filtering:
+        Total cells: 46,957
+        Normal cells: 15,140
+  SUCCESS: 15,140 normal cells
+    (Adult: 46,957 / Total: 46,957)
+  Progress saved (21/37 complete)
+
+[22/37] Processing 105c7dad-0468-4628-a5be-2bb42c6a8ae4
+  Author: Young (2018.0) - Science
+  Expected cells (from CSV): 40268.0
+    Querying Census API...
+    Census returned 40,268 total cells
+    After tissue filter (kidney): 34,921 cells
+    Census metadata:
+      Tissue (specific): cortex of kidney
+      Dev stages (all non-zero): 12-year-old stage: 11,047; 72-year-old stage: 8,037; 67-year-old stage: 3,546; 63-year-old stage: 3,269; 49-year-old stage: 3,231; 2-year-old stage: 2,098; 4-year-old stage: 1,948; 53-year-old stage: 852; 19-month-old stage: 502; 64-year-old stage: 198; 44-year-old stage: 131; 70-year-old stage: 62
+      Donors: 13
+      Age filtering (min_age=15):
+        Total cells: 34,921
+        Cells with parseable age: 34,419
+        Adult (age >= 15 or contains 'adult'): 19,326
+        Child (age < 15): 15,093
+        Excluded (fetal/newborn): 0
+        After filter: 19,326
+      Disease filtering:
+        Total cells: 19,326
+        Normal cells: 19,326
+  SUCCESS: 19,326 normal cells
+    (Adult: 19,326 / Total: 34,921)
+  Progress saved (22/37 complete)
+
+[23/37] Processing f801b7a9-80a6-4d09-9161-71474deb58ae
+  Author: Zhang (2021.0) - Proc. Natl. Acad. Sci. U.S.A.
+  Expected cells (from CSV): 6044.0
+    Querying Census API...
+    Census returned 6,044 total cells
+    After tissue filter (kidney): 6,044 cells
+    Census metadata:
+      Tissue (specific): kidney
+      Dev stages (all non-zero): 74-year-old stage: 1,626; 65-year-old stage: 1,526; 76-year-old stage: 1,495; 70-year-old stage: 724; 69-year-old stage: 673
+      Donors: 5
+      Age filtering (min_age=15):
+        Total cells: 6,044
+        Cells with parseable age: 6,044
+        Adult (age >= 15 or contains 'adult'): 6,044
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 6,044
+      Disease filtering:
+        Total cells: 6,044
+        Normal cells: 6,044
+  SUCCESS: 6,044 normal cells
+    (Adult: 6,044 / Total: 6,044)
+  Progress saved (23/37 complete)
+
+[24/37] Processing 2adb1f8a-a6b1-4909-8ee8-484814e2d4bf
+  Author: Han (2020.0) - Nature
+  Expected cells (from CSV): 599926.0
+    Querying Census API...
+    Census returned 598,266 total cells
+    After tissue filter (kidney): 45,630 cells
+    Census metadata:
+      Tissue (specific): kidney
+      Dev stages (all non-zero): 41-year-old stage: 9,966; 12th week post-fertilization stage: 9,932; 66-year-old stage: 9,153; 11th week post-fertilization stage: 7,791; 13th week post-fertilization stage: 4,939; 57-year-old stage: 3,849
+      Donors: 7
+      Age filtering (min_age=15):
+        Total cells: 45,630
+        Cells with parseable age: 22,968
+        Adult (age >= 15 or contains 'adult'): 22,968
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 22,662
+        After filter: 22,968
+      Disease filtering:
+        Total cells: 22,968
+        Normal cells: 22,968
+  SUCCESS: 22,968 normal cells
+    (Adult: 22,968 / Total: 45,630)
+  Progress saved (24/37 complete)
+
+[25/37] Processing d7dcfd8f-2ee7-4385-b9ac-e074c23ed190
+  Author: Stewart (2019.0) - Science
+  Expected cells (from CSV): 27197.0
+    Querying Census API...
+    Census returned 27,197 total cells
+    After tissue filter (kidney): 27,197 cells
+    Census metadata:
+      Tissue (specific): kidney
+      Dev stages (all non-zero): embryonic stage: 6,050; 13th week post-fertilization stage: 5,998; 16th week post-fertilization stage: 5,618; 12th week post-fertilization stage: 4,709; 10th week post-fertilization stage: 3,280; 9th week post-fertilization stage: 1,542
+      Donors: 6
+      Age filtering (min_age=15):
+        Total cells: 27,197
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 27,197
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 27,197)
+  Progress saved (25/37 complete)
+
+[26/37] Processing c52de62a-058d-4d78-a464-bdf552378f43
+  Author: Stewart (2019.0) - Science
+  Expected cells (from CSV): 8345.0
+    Querying Census API...
+    Census returned 8,345 total cells
+    After tissue filter (kidney): 8,345 cells
+    Census metadata:
+      Tissue (specific): kidney
+      Dev stages (all non-zero): 12th week post-fertilization stage: 1,921; 13th week post-fertilization stage: 1,851; embryonic stage: 1,497; 16th week post-fertilization stage: 1,451; 10th week post-fertilization stage: 1,139; 9th week post-fertilization stage: 486
+      Donors: 6
+      Age filtering (min_age=15):
+        Total cells: 8,345
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 8,345
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 8,345)
+  Progress saved (26/37 complete)
+
+[27/37] Processing 9ea768a2-87ab-46b6-a73d-c4e915f25af3
+  Author: Stewart (2019.0) - Science
+  Expected cells (from CSV): 40268.0
+    Querying Census API...
+    Census returned 40,268 total cells
+    After tissue filter (kidney): 34,921 cells
+    Census metadata:
+      Tissue (specific): cortex of kidney
+      Dev stages (all non-zero): 12-year-old stage: 11,047; 72-year-old stage: 8,037; 67-year-old stage: 3,546; 63-year-old stage: 3,269; 49-year-old stage: 3,231; 2-year-old stage: 2,098; 4-year-old stage: 1,948; 53-year-old stage: 852; 19-month-old stage: 502; 64-year-old stage: 198; 44-year-old stage: 131; 70-year-old stage: 62
+      Donors: 13
+      Age filtering (min_age=15):
+        Total cells: 34,921
+        Cells with parseable age: 34,419
+        Adult (age >= 15 or contains 'adult'): 19,326
+        Child (age < 15): 15,093
+        Excluded (fetal/newborn): 0
+        After filter: 19,326
+      Disease filtering:
+        Total cells: 19,326
+        Normal cells: 19,326
+  SUCCESS: 19,326 normal cells
+    (Adult: 19,326 / Total: 34,921)
+  Progress saved (27/37 complete)
+
+[28/37] Processing 2fc9c59f-3cfd-48d9-9b23-e369ea31bff3
+  Author: Stewart (2019.0) - Science
+  Expected cells (from CSV): 4620.0
+    Querying Census API...
+    Census returned 4,620 total cells
+    After tissue filter (kidney): 3,499 cells
+    Census metadata:
+      Tissue (specific): kidney
+      Dev stages (all non-zero): 67-year-old stage: 1,620; 12-year-old stage: 385; 63-year-old stage: 357; 72-year-old stage: 273; 49-year-old stage: 255; 19-month-old stage: 201; 4-year-old stage: 133; 2-year-old stage: 98; 64-year-old stage: 74; 53-year-old stage: 53; 44-year-old stage: 45; 70-year-old stage: 5
+      Donors: 13
+      Age filtering (min_age=15):
+        Total cells: 3,499
+        Cells with parseable age: 3,298
+        Adult (age >= 15 or contains 'adult'): 2,682
+        Child (age < 15): 616
+        Excluded (fetal/newborn): 0
+        After filter: 2,682
+      Disease filtering:
+        Total cells: 2,682
+        Normal cells: 2,682
+  SUCCESS: 2,682 normal cells
+    (Adult: 2,682 / Total: 3,499)
+  Progress saved (28/37 complete)
+
+[29/37] Processing 2d31c0ca-0233-41ce-bd1a-05aa8404b073
+  Author: Stewart (2019.0) - Science
+  Expected cells (from CSV): 6847.0
+    Querying Census API...
+    Census returned 6,847 total cells
+    After tissue filter (kidney): 6,847 cells
+    Census metadata:
+      Tissue (specific): kidney
+      Dev stages (all non-zero): 16th week post-fertilization stage: 2,739; 13th week post-fertilization stage: 1,502; embryonic stage: 1,471; 12th week post-fertilization stage: 733; 10th week post-fertilization stage: 283; 9th week post-fertilization stage: 119
+      Donors: 6
+      Age filtering (min_age=15):
+        Total cells: 6,847
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 6,847
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 6,847)
+  Progress saved (29/37 complete)
+
+[30/37] Processing 20d87640-4be8-487f-93d4-dce38378d00f
+  Author: Stewart (2019.0) - Science
+  Expected cells (from CSV): 7803.0
+    Querying Census API...
+    Census returned 7,803 total cells
+    After tissue filter (kidney): 7,330 cells
+    Census metadata:
+      Tissue (specific): cortex of kidney
+      Dev stages (all non-zero): 72-year-old stage: 4,333; 63-year-old stage: 816; 67-year-old stage: 734; 49-year-old stage: 389; 4-year-old stage: 345; 53-year-old stage: 301; 19-month-old stage: 139; 2-year-old stage: 93; 64-year-old stage: 77; 12-year-old stage: 46; 44-year-old stage: 38; 70-year-old stage: 19
+      Donors: 13
+      Age filtering (min_age=15):
+        Total cells: 7,330
+        Cells with parseable age: 7,191
+        Adult (age >= 15 or contains 'adult'): 6,707
+        Child (age < 15): 484
+        Excluded (fetal/newborn): 0
+        After filter: 6,707
+      Disease filtering:
+        Total cells: 6,707
+        Normal cells: 6,707
+  SUCCESS: 6,707 normal cells
+    (Adult: 6,707 / Total: 7,330)
+  Progress saved (30/37 complete)
+
+[31/37] Processing 08073b32-d389-41f4-a4fd-616de76915ab
+  Author: Stewart (2019.0) - Science
+  Expected cells (from CSV): 10790.0
+    Querying Census API...
+    Census returned 10,790 total cells
+    After tissue filter (kidney): 10,790 cells
+    Census metadata:
+      Tissue (specific): kidney
+      Dev stages (all non-zero): embryonic stage: 2,945; 13th week post-fertilization stage: 2,321; 12th week post-fertilization stage: 1,861; 10th week post-fertilization stage: 1,621; 16th week post-fertilization stage: 1,277; 9th week post-fertilization stage: 765
+      Donors: 6
+      Age filtering (min_age=15):
+        Total cells: 10,790
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 10,790
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 10,790)
+  Progress saved (31/37 complete)
+
+[32/37] Processing fa27492b-82ff-4ab7-ac61-0e2b184eee67
+  Author: Cao (2020.0) - Science
+  Expected cells (from CSV): 1001288.0
+    Querying Census API...
+    Census returned 1,001,288 total cells
+    After tissue filter (kidney): 38,555 cells
+    Census metadata:
+      Tissue (specific): kidney
+      Dev stages (all non-zero): 16th week post-fertilization stage: 14,732; 14th week post-fertilization stage: 8,955; 10th week post-fertilization stage: 4,843; 12th week post-fertilization stage: 4,532; 15th week post-fertilization stage: 2,802; 13th week post-fertilization stage: 1,529; 17th week post-fertilization stage: 1,162
+      Donors: 9
+      Age filtering (min_age=15):
+        Total cells: 38,555
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 38,555
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 38,555)
+  Progress saved (32/37 complete)
+
+[33/37] Processing f7c1c579-2dc0-47e2-ba19-8165c5a0e353
+  Author: Cao (2020.0) - Science
+  Expected cells (from CSV): 4062980.0
+    Querying Census API...
+    Census returned 4,062,980 total cells
+    After tissue filter (kidney): 155,386 cells
+    Census metadata:
+      Tissue (specific): kidney
+      Dev stages (all non-zero): 16th week post-fertilization stage: 59,326; 14th week post-fertilization stage: 35,992; 10th week post-fertilization stage: 19,512; 12th week post-fertilization stage: 18,229; 15th week post-fertilization stage: 11,346; 13th week post-fertilization stage: 6,067; 17th week post-fertilization stage: 4,914
+      Donors: 9
+      Age filtering (min_age=15):
+        Total cells: 155,386
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 155,386
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 155,386)
+  Progress saved (33/37 complete)
+
+[34/37] Processing a51c6ece-5731-4128-8c1e-5060e80c69e4
+  Author: Young (2021.0) - Nat Commun
+  Expected cells (from CSV): 27197.0
+    Querying Census API...
+    Census returned 27,197 total cells
+    After tissue filter (kidney): 27,197 cells
+    Census metadata:
+      Tissue (specific): kidney
+      Dev stages (all non-zero): organogenesis stage: 6,050; 14th week post-fertilization stage: 5,998; 17th week post-fertilization stage: 5,618; 13th week post-fertilization stage: 4,709; 10th week post-fertilization stage: 3,280; 9th week post-fertilization stage: 1,542
+      Donors: 6
+      Age filtering (min_age=15):
+        Total cells: 27,197
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 21,147
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 27,197)
+  Progress saved (34/37 complete)
+
+[35/37] Processing 32b9bdce-2481-4c85-ba1b-6ad5fcea844c
+  Author: Lake (2023.0) - Nature
+  Expected cells (from CSV): 107344.0
+    Querying Census API...
+    Census returned 107,344 total cells
+    After tissue filter (kidney): 107,344 cells
+    Census metadata:
+      Tissue (specific): kidney
+      Dev stages (all non-zero): seventh decade stage: 33,831; sixth decade stage: 17,761; eighth decade stage: 17,498; fourth decade stage: 13,029; third decade stage: 3,736; 53-year-old stage: 2,971; 35-year-old stage: 2,659; 56-year-old stage: 1,950; 31-year-old stage: 1,637; 42-year-old stage: 1,559; 52-year-old stage: 1,345; 30-year-old stage: 1,338; 57-year-old stage: 1,337; 41-year-old stage: 1,204; 49-year-old stage: 1,045; fifth decade stage: 992; 39-year-old stage: 982; 47-year-old stage: 779; 40-year-old stage: 647; 48-year-old stage: 524; 66-year-old stage: 520
+      Donors: 45
+      Age filtering (min_age=15):
+        Total cells: 107,344
+        Cells with parseable age: 20,497
+        Adult (age >= 15 or contains 'adult'): 20,497
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 20,497
+      Disease filtering:
+        Total cells: 20,497
+        Normal cells: 20,497
+  SUCCESS: 20,497 normal cells
+    (Adult: 20,497 / Total: 107,344)
+  Progress saved (35/37 complete)
+
+[36/37] Processing 0b75c598-0893-4216-afe8-5414cab7739d
+  Author: Lake (2023.0) - Nature
+  Expected cells (from CSV): 304652.0
+    Querying Census API...
+    Census returned 304,652 total cells
+    After tissue filter (kidney): 227,228 cells
+    Census metadata:
+      Tissue (specific): cortex of kidney
+      Dev stages (all non-zero): seventh decade stage: 55,434; eighth decade stage: 38,615; sixth decade stage: 23,291; fourth decade stage: 21,570; 76-year-old stage: 16,670; third decade stage: 9,555; 43-year-old stage: 8,609; 70-year-old stage: 8,084; 56-year-old stage: 4,952; 29-year-old stage: 4,837; 63-year-old stage: 4,718; 49-year-old stage: 4,232; 69-year-old stage: 3,473; 53-year-old stage: 2,952; 36-year-old stage: 2,891; 35-year-old stage: 2,635; 54-year-old stage: 2,013; 31-year-old stage: 1,631; 42-year-old stage: 1,540; 57-year-old stage: 1,336; 30-year-old stage: 1,334; 52-year-old stage: 1,329; 41-year-old stage: 1,166; fifth decade stage: 988; 39-year-old stage: 962; 47-year-old stage: 740; 40-year-old stage: 635; 48-year-old stage: 519; 66-year-old stage: 517
+      Donors: 60
+      Age filtering (min_age=15):
+        Total cells: 227,228
+        Cells with parseable age: 77,775
+        Adult (age >= 15 or contains 'adult'): 77,775
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 77,775
+      Disease filtering:
+        Total cells: 77,775
+        Normal cells: 51,945
+  SUCCESS: 51,945 normal cells
+    (Adult: 77,775 / Total: 227,228)
+  Progress saved (36/37 complete)
+
+[37/37] Processing 07854d9c-5375-4a9b-ac34-fa919d3c3686
+  Author: Lake (2023.0) - Nature
+  Expected cells (from CSV): 172847.0
+    Querying Census API...
+    Census returned 172,847 total cells
+    After tissue filter (kidney): 97,084 cells
+    Census metadata:
+      Tissue (specific): cortex of kidney
+      Dev stages (all non-zero): seventh decade stage: 22,215; eighth decade stage: 21,373; 76-year-old stage: 16,670; fourth decade stage: 8,667; sixth decade stage: 7,019; third decade stage: 6,099; 29-year-old stage: 4,837; 63-year-old stage: 4,718; 69-year-old stage: 3,473; 54-year-old stage: 2,013
+      Donors: 18
+      Age filtering (min_age=15):
+        Total cells: 97,084
+        Cells with parseable age: 31,711
+        Adult (age >= 15 or contains 'adult'): 31,711
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 31,711
+      Disease filtering:
+        Total cells: 31,711
+        Normal cells: 31,711
+  SUCCESS: 31,711 normal cells
+    (Adult: 31,711 / Total: 97,084)
+  Progress saved (37/37 complete)
+
+======================================================================
+COMPLETE
+======================================================================
+Total datasets: 37
+Successful: 35
+Failed: 2
+Skipped: 0
+
+Output: data/homo_sapiens_kidney_harvester_with_normal_counts.csv
+
+Completed: 2026-01-28 21:04:29
+Log saved to: data/homo_sapiens_kidney_harvester_with_normal_counts_log.txt
