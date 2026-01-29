@@ -1,0 +1,851 @@
+Starting: 2026-01-29 00:24:56
+Input: data/homo_sapiens_heart_harvester.csv
+Tissue filter: heart
+Min age: 15 (use 0 to disable)
+Output: data/homo_sapiens_heart_harvester_with_normal_counts.csv
+Log: data/homo_sapiens_heart_harvester_with_normal_counts_log.txt
+
+Loaded 36 datasets from data/homo_sapiens_heart_harvester.csv
+
+Initialized output: data/homo_sapiens_heart_harvester_with_normal_counts.csv
+
+Processing 36 datasets...
+Progress saved after each dataset
+
+
+[1/36] Processing d567b692-c374-4628-a508-8008f6778f22
+  Author: Kanemaru (2023.0) - Nature
+  Expected cells (from CSV): 704296.0
+    Querying Census API...
+    Census returned 704,296 total cells
+    After tissue filter (heart): 355,104 cells
+    Census metadata:
+      Tissue (specific): heart left ventricle
+      Dev stages (all non-zero): seventh decade stage: 147,996; sixth decade stage: 106,248; fifth decade stage: 85,721; eighth decade stage: 15,139
+      Donors: 16
+      Age filtering (min_age=15):
+        Total cells: 355,104
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 355,104)
+  Progress saved (1/36 complete)
+
+[2/36] Processing 364bd0c7-f7fd-48ed-99c1-ae26872b1042
+  Author: Xu (2023.0) - Cell
+  Expected cells (from CSV): 931012.0
+    Querying Census API...
+    Census returned 931,012 total cells
+    After tissue filter (heart): 590,365 cells
+    Census metadata:
+      Tissue (specific): heart left ventricle
+      Dev stages (all non-zero): seventh decade stage: 124,769; sixth decade stage: 94,554; 47-year-old stage: 35,325; fifth decade stage: 34,807; 60-year-old stage: 28,418; 44-year-old stage: 26,246; 39-year-old stage: 24,654; 63-year-old stage: 22,508; 54-year-old stage: 21,484; 59-year-old stage: 18,005; 52-year-old stage: 15,982; eighth decade stage: 14,524; 61-year-old stage: 14,340; 48-year-old stage: 14,176; 27-year-old stage: 11,813; 46-year-old stage: 10,723; 55-year-old stage: 10,679; 71-year-old stage: 8,869; 68-year-old stage: 8,763; 20-year-old stage: 7,772; 21-year-old stage: 7,761; 73-year-old stage: 7,623; 66-year-old stage: 6,713; 35-year-old stage: 6,590; 75-year-old stage: 5,535; 65-year-old stage: 3,883; 62-year-old stage: 3,849
+      Donors: 49
+      Age filtering (min_age=15):
+        Total cells: 590,365
+        Cells with parseable age: 321,711
+        Adult (age >= 15 or contains 'adult'): 321,711
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 321,711
+      Disease filtering:
+        Total cells: 321,711
+        Normal cells: 321,711
+  SUCCESS: 321,711 normal cells
+    (Adult: 321,711 / Total: 590,365)
+  Progress saved (2/36 complete)
+
+[3/36] Processing e6a11140-2545-46bc-929e-da243eed2cae
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 25832.0
+    Querying Census API...
+    Census returned 25,832 total cells
+    After tissue filter (heart): 10,304 cells
+    Census metadata:
+      Tissue (specific): heart
+      Dev stages (all non-zero): 45-year-old stage: 5,316; 60-year-old stage: 2,595; 56-year-old stage: 2,255; 59-year-old stage: 138
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 10,304
+        Cells with parseable age: 10,304
+        Adult (age >= 15 or contains 'adult'): 10,304
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 10,304
+      Disease filtering:
+        Total cells: 10,304
+        Normal cells: 10,304
+  SUCCESS: 10,304 normal cells
+    (Adult: 10,304 / Total: 10,304)
+  Progress saved (3/36 complete)
+
+[4/36] Processing c5d88abe-f23a-45fa-a534-788985e93dad
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 592317.0
+    Querying Census API...
+    Census returned 592,317 total cells
+    After tissue filter (heart): 1,005 cells
+    Census metadata:
+      Tissue (specific): heart
+      Dev stages (all non-zero): 45-year-old stage: 357; 56-year-old stage: 355; 60-year-old stage: 261; 59-year-old stage: 32
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 1,005
+        Cells with parseable age: 1,005
+        Adult (age >= 15 or contains 'adult'): 1,005
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 1,005
+      Disease filtering:
+        Total cells: 1,005
+        Normal cells: 1,005
+  SUCCESS: 1,005 normal cells
+    (Adult: 1,005 / Total: 1,005)
+  Progress saved (4/36 complete)
+
+[5/36] Processing a68b64d8-aee3-4947-81b7-36b8fe5a44d2
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 232684.0
+    Querying Census API...
+    Census returned 232,684 total cells
+    After tissue filter (heart): 3,895 cells
+    Census metadata:
+      Tissue (specific): heart
+      Dev stages (all non-zero): 45-year-old stage: 2,063; 56-year-old stage: 949; 60-year-old stage: 837; 59-year-old stage: 46
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 3,895
+        Cells with parseable age: 3,895
+        Adult (age >= 15 or contains 'adult'): 3,895
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 3,895
+      Disease filtering:
+        Total cells: 3,895
+        Normal cells: 3,895
+  SUCCESS: 3,895 normal cells
+    (Adult: 3,895 / Total: 3,895)
+  Progress saved (5/36 complete)
+
+[6/36] Processing 97a17473-e2b1-4f31-a544-44a60773e2dd
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 228032.0
+    Querying Census API...
+    Census returned 228,032 total cells
+    After tissue filter (heart): 149 cells
+    Census metadata:
+      Tissue (specific): heart
+      Dev stages (all non-zero): 60-year-old stage: 142; 59-year-old stage: 3; 45-year-old stage: 2; 56-year-old stage: 2
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 149
+        Cells with parseable age: 149
+        Adult (age >= 15 or contains 'adult'): 149
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 149
+      Disease filtering:
+        Total cells: 149
+        Normal cells: 149
+  SUCCESS: 149 normal cells
+    (Adult: 149 / Total: 149)
+  Progress saved (6/36 complete)
+
+[7/36] Processing 6e4acdae-59ef-452b-a6d4-260cba368586
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 2685.0
+    Querying Census API...
+    Census returned 2,685 total cells
+    After tissue filter (heart): 66 cells
+    Census metadata:
+      Tissue (specific): heart right ventricle
+      Dev stages (all non-zero): 56-year-old stage: 59; 60-year-old stage: 4; 45-year-old stage: 3
+      Donors: 3
+      Age filtering (min_age=15):
+        Total cells: 66
+        Cells with parseable age: 66
+        Adult (age >= 15 or contains 'adult'): 66
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 66
+      Disease filtering:
+        Total cells: 66
+        Normal cells: 66
+  SUCCESS: 66 normal cells
+    (Adult: 66 / Total: 66)
+  Progress saved (7/36 complete)
+
+[8/36] Processing 5a11f879-d1ef-458a-910c-9b0bdfca5ebf
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 73195.0
+    Querying Census API...
+    Census returned 73,195 total cells
+    After tissue filter (heart): 5,189 cells
+    Census metadata:
+      Tissue (specific): heart
+      Dev stages (all non-zero): 45-year-old stage: 2,891; 60-year-old stage: 1,351; 56-year-old stage: 890; 59-year-old stage: 57
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 5,189
+        Cells with parseable age: 5,189
+        Adult (age >= 15 or contains 'adult'): 5,189
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 5,189
+      Disease filtering:
+        Total cells: 5,189
+        Normal cells: 5,189
+  SUCCESS: 5,189 normal cells
+    (Adult: 5,189 / Total: 5,189)
+  Progress saved (8/36 complete)
+
+[9/36] Processing 53d208b0-2cfd-4366-9866-c3c6114081bc
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 1136218.0
+    Querying Census API...
+    Census returned 1,136,218 total cells
+    After tissue filter (heart): 10,304 cells
+    Census metadata:
+      Tissue (specific): heart
+      Dev stages (all non-zero): 45-year-old stage: 5,316; 60-year-old stage: 2,595; 56-year-old stage: 2,255; 59-year-old stage: 138
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 10,304
+        Cells with parseable age: 10,304
+        Adult (age >= 15 or contains 'adult'): 10,304
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 10,304
+      Disease filtering:
+        Total cells: 10,304
+        Normal cells: 10,304
+  SUCCESS: 10,304 normal cells
+    (Adult: 10,304 / Total: 10,304)
+  Progress saved (9/36 complete)
+
+[10/36] Processing fe7aae33-6f7c-41a5-8d29-9996a9ddf1ab
+  Author: Maatz (2025.0) - Nat Cardiovasc Res
+  Expected cells (from CSV): 205596.0
+    Querying Census API...
+    Census returned 205,596 total cells
+    After tissue filter (heart): 205,596 cells
+    Census metadata:
+      Tissue (specific): heart left ventricle
+      Dev stages (all non-zero): sixth decade stage: 60,215; fifth decade stage: 37,063; seventh decade stage: 26,362; eighth decade stage: 14,416; 21-year-old stage: 7,391; 52-year-old stage: 5,760; 27-year-old stage: 5,589; 31-year-old stage: 5,258; 49-year-old stage: 4,917; third decade stage: 4,835; 64-year-old stage: 4,683; 24-year-old stage: 3,896; 55-year-old stage: 3,792; 25-year-old stage: 3,168; 19-year-old stage: 3,012; 61-year-old stage: 2,956; 26-year-old stage: 2,421; 32-year-old stage: 2,253; 28-year-old stage: 1,917; 70-year-old stage: 1,752; 38-year-old stage: 1,629; 30-year-old stage: 1,498; 29-year-old stage: 813
+      Donors: 42
+      Age filtering (min_age=15):
+        Total cells: 205,596
+        Cells with parseable age: 62,705
+        Adult (age >= 15 or contains 'adult'): 62,705
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 62,705
+      Disease filtering:
+        Total cells: 62,705
+        Normal cells: 0
+  SUCCESS: 0 normal cells
+    (Adult: 62,705 / Total: 205,596)
+  Progress saved (10/36 complete)
+
+[11/36] Processing de916989-3523-4eed-a8e6-6999540f27d4
+  Author: Maatz (2025.0) - Nat Cardiovasc Res
+  Expected cells (from CSV): 58054.0
+    Querying Census API...
+    Census returned 58,054 total cells
+    After tissue filter (heart): 58,054 cells
+    Census metadata:
+      Tissue (specific): heart left ventricle
+      Dev stages (all non-zero): sixth decade stage: 20,453; fifth decade stage: 10,171; seventh decade stage: 4,875; eighth decade stage: 3,189; 21-year-old stage: 2,626; 52-year-old stage: 1,989; 31-year-old stage: 1,970; 25-year-old stage: 1,444; 27-year-old stage: 1,402; third decade stage: 1,280; 49-year-old stage: 1,205; 61-year-old stage: 1,086; 64-year-old stage: 901; 24-year-old stage: 828; 55-year-old stage: 785; 19-year-old stage: 694; 32-year-old stage: 641; 26-year-old stage: 621; 28-year-old stage: 456; 70-year-old stage: 438; 38-year-old stage: 356; 29-year-old stage: 322; 30-year-old stage: 322
+      Donors: 42
+      Age filtering (min_age=15):
+        Total cells: 58,054
+        Cells with parseable age: 18,086
+        Adult (age >= 15 or contains 'adult'): 18,086
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 18,086
+      Disease filtering:
+        Total cells: 18,086
+        Normal cells: 0
+  SUCCESS: 0 normal cells
+    (Adult: 18,086 / Total: 58,054)
+  Progress saved (11/36 complete)
+
+[12/36] Processing af33f944-ab2f-4b80-a17e-49c13e03b01d
+  Author: Maatz (2025.0) - Nat Cardiovasc Res
+  Expected cells (from CSV): 26027.0
+    Querying Census API...
+    Census returned 26,027 total cells
+    After tissue filter (heart): 26,027 cells
+    Census metadata:
+      Tissue (specific): heart left ventricle
+      Dev stages (all non-zero): seventh decade stage: 5,377; sixth decade stage: 4,896; fifth decade stage: 3,409; eighth decade stage: 2,336; 52-year-old stage: 1,120; 21-year-old stage: 1,104; 55-year-old stage: 839; 27-year-old stage: 735; 31-year-old stage: 703; third decade stage: 644; 24-year-old stage: 628; 28-year-old stage: 550; 64-year-old stage: 514; 61-year-old stage: 435; 49-year-old stage: 425; 26-year-old stage: 396; 19-year-old stage: 391; 25-year-old stage: 379; 32-year-old stage: 292; 30-year-old stage: 254; 38-year-old stage: 246; 70-year-old stage: 179; 29-year-old stage: 175
+      Donors: 42
+      Age filtering (min_age=15):
+        Total cells: 26,027
+        Cells with parseable age: 9,365
+        Adult (age >= 15 or contains 'adult'): 9,365
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 9,365
+      Disease filtering:
+        Total cells: 9,365
+        Normal cells: 0
+  SUCCESS: 0 normal cells
+    (Adult: 9,365 / Total: 26,027)
+  Progress saved (12/36 complete)
+
+[13/36] Processing a49167b8-fe43-4b8f-ac37-d9c2af16f116
+  Author: Maatz (2025.0) - Nat Cardiovasc Res
+  Expected cells (from CSV): 10363.0
+    Querying Census API...
+    Census returned 10,363 total cells
+    After tissue filter (heart): 10,363 cells
+    Census metadata:
+      Tissue (specific): heart left ventricle
+      Dev stages (all non-zero): fifth decade stage: 1,316; 24-year-old stage: 1,161; seventh decade stage: 1,061; sixth decade stage: 955; 21-year-old stage: 844; 19-year-old stage: 545; 70-year-old stage: 399; 28-year-old stage: 359; 55-year-old stage: 357; 26-year-old stage: 352; 52-year-old stage: 332; 30-year-old stage: 328; 31-year-old stage: 328; third decade stage: 310; 64-year-old stage: 301; 38-year-old stage: 289; eighth decade stage: 280; 25-year-old stage: 248; 32-year-old stage: 196; 61-year-old stage: 182; 27-year-old stage: 133; 49-year-old stage: 56; 29-year-old stage: 31
+      Donors: 42
+      Age filtering (min_age=15):
+        Total cells: 10,363
+        Cells with parseable age: 6,441
+        Adult (age >= 15 or contains 'adult'): 6,441
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 6,441
+      Disease filtering:
+        Total cells: 6,441
+        Normal cells: 0
+  SUCCESS: 0 normal cells
+    (Adult: 6,441 / Total: 10,363)
+  Progress saved (13/36 complete)
+
+[14/36] Processing 064fa88b-78dc-4edd-b9cd-bcc16964c81e
+  Author: Maatz (2025.0) - Nat Cardiovasc Res
+  Expected cells (from CSV): 90273.0
+    Querying Census API...
+    Census returned 90,273 total cells
+    After tissue filter (heart): 90,273 cells
+    Census metadata:
+      Tissue (specific): heart left ventricle
+      Dev stages (all non-zero): sixth decade stage: 30,174; fifth decade stage: 19,531; seventh decade stage: 12,993; eighth decade stage: 7,636; 49-year-old stage: 2,574; third decade stage: 2,278; 27-year-old stage: 2,169; 64-year-old stage: 1,982; 21-year-old stage: 1,560; 55-year-old stage: 1,463; 31-year-old stage: 1,248; 52-year-old stage: 1,017; 32-year-old stage: 896; 25-year-old stage: 816; 61-year-old stage: 783; 19-year-old stage: 770; 26-year-old stage: 720; 24-year-old stage: 489; 70-year-old stage: 441; 38-year-old stage: 285; 29-year-old stage: 184; 30-year-old stage: 142; 28-year-old stage: 122
+      Donors: 42
+      Age filtering (min_age=15):
+        Total cells: 90,273
+        Cells with parseable age: 17,661
+        Adult (age >= 15 or contains 'adult'): 17,661
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 17,661
+      Disease filtering:
+        Total cells: 17,661
+        Normal cells: 0
+  SUCCESS: 0 normal cells
+    (Adult: 17,661 / Total: 90,273)
+  Progress saved (14/36 complete)
+
+[15/36] Processing 02474d5c-7faa-4567-80f8-56abc0a1df62
+  Author: Maatz (2025.0) - Nat Cardiovasc Res
+  Expected cells (from CSV): 4016.0
+    Querying Census API...
+    Census returned 4,016 total cells
+    After tissue filter (heart): 4,016 cells
+    Census metadata:
+      Tissue (specific): heart left ventricle
+      Dev stages (all non-zero): sixth decade stage: 541; 21-year-old stage: 394; 24-year-old stage: 385; fifth decade stage: 342; 38-year-old stage: 257; 27-year-old stage: 239; 52-year-old stage: 227; 64-year-old stage: 221; 28-year-old stage: 205; 30-year-old stage: 172; 31-year-old stage: 142; 19-year-old stage: 135; 70-year-old stage: 125; 55-year-old stage: 120; 61-year-old stage: 91; seventh decade stage: 86; 26-year-old stage: 81; 49-year-old stage: 60; 32-year-old stage: 56; 25-year-old stage: 50; third decade stage: 37; 29-year-old stage: 33; eighth decade stage: 17
+      Donors: 42
+      Age filtering (min_age=15):
+        Total cells: 4,016
+        Cells with parseable age: 2,993
+        Adult (age >= 15 or contains 'adult'): 2,993
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 2,993
+      Disease filtering:
+        Total cells: 2,993
+        Normal cells: 0
+  SUCCESS: 0 normal cells
+    (Adult: 2,993 / Total: 4,016)
+  Progress saved (15/36 complete)
+
+[16/36] Processing 2e9d2f32-4cfb-49b5-b990-cbf4c241214e
+  Author: Selewa (2023.0) - Nat Commun
+  Expected cells (from CSV): 49359.0
+    Querying Census API...
+    Census returned 49,359 total cells
+    After tissue filter (heart): 35,650 cells
+    Census metadata:
+      Tissue (specific): apex of heart
+      Dev stages (all non-zero): 47-year-old stage: 19,047; 55-year-old stage: 9,536; 54-year-old stage: 7,067
+      Donors: 3
+      Age filtering (min_age=15):
+        Total cells: 35,650
+        Cells with parseable age: 35,650
+        Adult (age >= 15 or contains 'adult'): 35,650
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 35,650
+      Disease filtering:
+        Total cells: 35,650
+        Normal cells: 35,650
+  SUCCESS: 35,650 normal cells
+    (Adult: 35,650 / Total: 35,650)
+  Progress saved (16/36 complete)
+
+[17/36] Processing f7995301-7551-4e1d-8396-ffe3c9497ace
+  Author: Reichart (2022.0) - Science
+  Expected cells (from CSV): 311418.0
+    Querying Census API...
+    Census returned 311,418 total cells
+    After tissue filter (heart): 240,682 cells
+    Census metadata:
+      Tissue (specific): heart left ventricle
+      Dev stages (all non-zero): fifth decade stage: 64,381; sixth decade stage: 61,130; seventh decade stage: 53,489; eighth decade stage: 17,154; fourth decade stage: 16,926; third decade stage: 9,449; postnatal stage: 9,262; pediatric stage: 8,891
+      Donors: 79
+      Age filtering (min_age=15):
+        Total cells: 240,682
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 240,682)
+  Progress saved (17/36 complete)
+
+[18/36] Processing ed2b673b-0279-454a-998c-3eec361edf54
+  Author: Reichart (2022.0) - Science
+  Expected cells (from CSV): 142816.0
+    Querying Census API...
+    Census returned 142,816 total cells
+    After tissue filter (heart): 106,515 cells
+    Census metadata:
+      Tissue (specific): heart left ventricle
+      Dev stages (all non-zero): seventh decade stage: 30,782; fifth decade stage: 24,596; sixth decade stage: 23,021; fourth decade stage: 10,814; eighth decade stage: 7,277; postnatal stage: 4,930; third decade stage: 4,552; pediatric stage: 543
+      Donors: 79
+      Age filtering (min_age=15):
+        Total cells: 106,515
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 106,515)
+  Progress saved (18/36 complete)
+
+[19/36] Processing bdf69f8d-5a96-4d6f-a9f5-9ee0e33597b7
+  Author: Reichart (2022.0) - Science
+  Expected cells (from CSV): 2576.0
+    Querying Census API...
+    Census returned 2,576 total cells
+    After tissue filter (heart): 2,369 cells
+    Census metadata:
+      Tissue (specific): heart right ventricle
+      Dev stages (all non-zero): sixth decade stage: 639; fourth decade stage: 553; fifth decade stage: 526; seventh decade stage: 415; eighth decade stage: 190; third decade stage: 25; pediatric stage: 15; postnatal stage: 6
+      Donors: 65
+      Age filtering (min_age=15):
+        Total cells: 2,369
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 2,369)
+  Progress saved (19/36 complete)
+
+[20/36] Processing 9434b020-de42-43eb-bcc4-542b2be69015
+  Author: Reichart (2022.0) - Science
+  Expected cells (from CSV): 59217.0
+    Querying Census API...
+    Census returned 59,217 total cells
+    After tissue filter (heart): 45,416 cells
+    Census metadata:
+      Tissue (specific): heart left ventricle
+      Dev stages (all non-zero): fifth decade stage: 12,021; seventh decade stage: 10,537; sixth decade stage: 9,383; fourth decade stage: 5,896; postnatal stage: 3,497; third decade stage: 2,858; eighth decade stage: 946; pediatric stage: 278
+      Donors: 79
+      Age filtering (min_age=15):
+        Total cells: 45,416
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 45,416)
+  Progress saved (20/36 complete)
+
+[21/36] Processing 83b5e943-a1d5-4164-b3f2-f7a37f01b524
+  Author: Reichart (2022.0) - Science
+  Expected cells (from CSV): 7999.0
+    Querying Census API...
+    Census returned 7,999 total cells
+    After tissue filter (heart): 6,219 cells
+    Census metadata:
+      Tissue (specific): heart left ventricle
+      Dev stages (all non-zero): fifth decade stage: 1,792; seventh decade stage: 1,298; sixth decade stage: 1,253; fourth decade stage: 924; third decade stage: 381; postnatal stage: 319; eighth decade stage: 177; pediatric stage: 75
+      Donors: 79
+      Age filtering (min_age=15):
+        Total cells: 6,219
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 6,219)
+  Progress saved (21/36 complete)
+
+[22/36] Processing 65badd7a-9262-4fd1-9ce2-eb5dc0ca8039
+  Author: Reichart (2022.0) - Science
+  Expected cells (from CSV): 881081.0
+    Querying Census API...
+    Census returned 881,081 total cells
+    After tissue filter (heart): 674,208 cells
+    Census metadata:
+      Tissue (specific): heart left ventricle
+      Dev stages (all non-zero): fifth decade stage: 181,386; sixth decade stage: 159,861; seventh decade stage: 153,559; fourth decade stage: 65,522; eighth decade stage: 36,735; postnatal stage: 31,904; third decade stage: 31,410; pediatric stage: 13,831
+      Donors: 79
+      Age filtering (min_age=15):
+        Total cells: 674,208
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 674,208)
+  Progress saved (22/36 complete)
+
+[23/36] Processing 1252c5fb-945f-42d6-b1a8-8a3bd864384b
+  Author: Reichart (2022.0) - Science
+  Expected cells (from CSV): 170281.0
+    Querying Census API...
+    Census returned 170,281 total cells
+    After tissue filter (heart): 131,779 cells
+    Census metadata:
+      Tissue (specific): heart left ventricle
+      Dev stages (all non-zero): fifth decade stage: 40,381; sixth decade stage: 33,166; seventh decade stage: 26,760; fourth decade stage: 13,397; third decade stage: 6,881; postnatal stage: 5,705; eighth decade stage: 4,409; pediatric stage: 1,080
+      Donors: 79
+      Age filtering (min_age=15):
+        Total cells: 131,779
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 131,779)
+  Progress saved (23/36 complete)
+
+[24/36] Processing 1062c0f2-2a44-4cf9-a7c8-b5ed58b4728d
+  Author: Reichart (2022.0) - Science
+  Expected cells (from CSV): 115548.0
+    Querying Census API...
+    Census returned 115,548 total cells
+    After tissue filter (heart): 85,248 cells
+    Census metadata:
+      Tissue (specific): heart left ventricle
+      Dev stages (all non-zero): fifth decade stage: 22,302; sixth decade stage: 18,055; seventh decade stage: 16,312; fourth decade stage: 11,458; postnatal stage: 5,683; third decade stage: 5,235; eighth decade stage: 4,167; pediatric stage: 2,036
+      Donors: 79
+      Age filtering (min_age=15):
+        Total cells: 85,248
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 85,248)
+  Progress saved (24/36 complete)
+
+[25/36] Processing 0fdb6122-4600-40f0-a703-2da47cc7080d
+  Author: Reichart (2022.0) - Science
+  Expected cells (from CSV): 16878.0
+    Querying Census API...
+    Census returned 16,878 total cells
+    After tissue filter (heart): 13,043 cells
+    Census metadata:
+      Tissue (specific): heart left ventricle
+      Dev stages (all non-zero): fifth decade stage: 3,749; sixth decade stage: 3,387; seventh decade stage: 2,961; fourth decade stage: 1,319; postnatal stage: 716; third decade stage: 557; pediatric stage: 209; eighth decade stage: 145
+      Donors: 79
+      Age filtering (min_age=15):
+        Total cells: 13,043
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 13,043)
+  Progress saved (25/36 complete)
+
+[26/36] Processing f75f2ff4-2884-4c2d-b375-70de37a34507
+  Author: Litviňuková (2020.0) - Nature
+  Expected cells (from CSV): 3799.0
+    Querying Census API...
+    Census returned 3,799 total cells
+    After tissue filter (heart): 1,442 cells
+    Census metadata:
+      Tissue (specific): apex of heart
+      Dev stages (all non-zero): seventh decade stage: 584; sixth decade stage: 458; fifth decade stage: 252; eighth decade stage: 148
+      Donors: 13
+      Age filtering (min_age=15):
+        Total cells: 1,442
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 1,442)
+  Progress saved (26/36 complete)
+
+[27/36] Processing ed852810-a003-4386-9846-1638362cee39
+  Author: Litviňuková (2020.0) - Nature
+  Expected cells (from CSV): 40868.0
+    Querying Census API...
+    Census returned 40,868 total cells
+    After tissue filter (heart): 19,706 cells
+    Census metadata:
+      Tissue (specific): apex of heart
+      Dev stages (all non-zero): seventh decade stage: 12,747; sixth decade stage: 4,699; fifth decade stage: 1,692; eighth decade stage: 568
+      Donors: 14
+      Age filtering (min_age=15):
+        Total cells: 19,706
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 19,706)
+  Progress saved (27/36 complete)
+
+[28/36] Processing d4e69e01-3ba2-4d6b-a15d-e7048f78f22e
+  Author: Litviňuková (2020.0) - Nature
+  Expected cells (from CSV): 486134.0
+    Querying Census API...
+    Census returned 486,134 total cells
+    After tissue filter (heart): 290,031 cells
+    Census metadata:
+      Tissue (specific): heart left ventricle
+      Dev stages (all non-zero): seventh decade stage: 132,640; sixth decade stage: 104,116; fifth decade stage: 38,097; eighth decade stage: 15,178
+      Donors: 14
+      Age filtering (min_age=15):
+        Total cells: 290,031
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 290,031)
+  Progress saved (28/36 complete)
+
+[29/36] Processing 9d584fcb-a28a-4b91-a886-ceb66a88ef81
+  Author: Litviňuková (2020.0) - Nature
+  Expected cells (from CSV): 59341.0
+    Querying Census API...
+    Census returned 59,341 total cells
+    After tissue filter (heart): 30,375 cells
+    Census metadata:
+      Tissue (specific): apex of heart
+      Dev stages (all non-zero): seventh decade stage: 14,171; sixth decade stage: 9,697; eighth decade stage: 4,057; fifth decade stage: 2,450
+      Donors: 14
+      Age filtering (min_age=15):
+        Total cells: 30,375
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 30,375)
+  Progress saved (29/36 complete)
+
+[30/36] Processing 78fd69d2-75e4-4207-819a-563139f273c6
+  Author: Litviňuková (2020.0) - Nature
+  Expected cells (from CSV): 125289.0
+    Querying Census API...
+    Census returned 125,289 total cells
+    After tissue filter (heart): 96,605 cells
+    Census metadata:
+      Tissue (specific): heart left ventricle
+      Dev stages (all non-zero): sixth decade stage: 45,073; seventh decade stage: 25,939; fifth decade stage: 19,449; eighth decade stage: 6,144
+      Donors: 14
+      Age filtering (min_age=15):
+        Total cells: 96,605
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 96,605)
+  Progress saved (30/36 complete)
+
+[31/36] Processing 572f3f3e-d3e4-4d13-8e2b-88215e508481
+  Author: Litviňuková (2020.0) - Nature
+  Expected cells (from CSV): 195395.0
+    Querying Census API...
+    Census returned 195,395 total cells
+    After tissue filter (heart): 119,254 cells
+    Census metadata:
+      Tissue (specific): apex of heart
+      Dev stages (all non-zero): seventh decade stage: 70,992; sixth decade stage: 34,017; fifth decade stage: 10,694; eighth decade stage: 3,551
+      Donors: 14
+      Age filtering (min_age=15):
+        Total cells: 119,254
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 119,254)
+  Progress saved (31/36 complete)
+
+[32/36] Processing 1009f384-b12d-448e-ba9f-1b7d2ecfbb4e
+  Author: Litviňuková (2020.0) - Nature
+  Expected cells (from CSV): 3961.0
+    Querying Census API...
+    Census returned 3,961 total cells
+    After tissue filter (heart): 1,632 cells
+    Census metadata:
+      Tissue (specific): heart left ventricle
+      Dev stages (all non-zero): sixth decade stage: 771; seventh decade stage: 496; fifth decade stage: 302; eighth decade stage: 63
+      Donors: 14
+      Age filtering (min_age=15):
+        Total cells: 1,632
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 1,632)
+  Progress saved (32/36 complete)
+
+[33/36] Processing 2adb1f8a-a6b1-4909-8ee8-484814e2d4bf
+  Author: Han (2020.0) - Nature
+  Expected cells (from CSV): 599926.0
+    Querying Census API...
+    Census returned 598,266 total cells
+    After tissue filter (heart): 10,783 cells
+    Census metadata:
+      Tissue (specific): heart
+      Dev stages (all non-zero): 12th week post-fertilization stage: 5,319; 11th week post-fertilization stage: 2,678; 47-year-old stage: 1,478; 52-year-old stage: 1,308
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 10,783
+        Cells with parseable age: 2,786
+        Adult (age >= 15 or contains 'adult'): 2,786
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 7,997
+        After filter: 2,786
+      Disease filtering:
+        Total cells: 2,786
+        Normal cells: 2,786
+  SUCCESS: 2,786 normal cells
+    (Adult: 2,786 / Total: 10,783)
+  Progress saved (33/36 complete)
+
+[34/36] Processing 5500c673-1610-40a0-86d9-64d987ae50e6
+  Author: Knight-Schrijver (2022.0) - Nat Cardiovasc Res
+  Expected cells (from CSV): 60668.0
+    Querying Census API...
+    Census returned 60,668 total cells
+    After tissue filter (heart): 44,655 cells
+    Census metadata:
+      Tissue (specific): basal zone of heart
+      Dev stages (all non-zero): embryonic stage: 22,557; 10th week post-fertilization stage: 8,332; seventh decade stage: 6,961; sixth decade stage: 5,011; eighth decade stage: 1,794
+      Donors: 13
+      Age filtering (min_age=15):
+        Total cells: 44,655
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 30,889
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 44,655)
+  Progress saved (34/36 complete)
+
+[35/36] Processing fa27492b-82ff-4ab7-ac61-0e2b184eee67
+  Author: Cao (2020.0) - Science
+  Expected cells (from CSV): 1001288.0
+    Querying Census API...
+    Census returned 1,001,288 total cells
+    After tissue filter (heart): 25,092 cells
+    Census metadata:
+      Tissue (specific): heart
+      Dev stages (all non-zero): 15th week post-fertilization stage: 10,517; 17th week post-fertilization stage: 7,051; 16th week post-fertilization stage: 3,213; 12th week post-fertilization stage: 3,034; 13th week post-fertilization stage: 1,277
+      Donors: 9
+      Age filtering (min_age=15):
+        Total cells: 25,092
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 25,092
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 25,092)
+  Progress saved (35/36 complete)
+
+[36/36] Processing f7c1c579-2dc0-47e2-ba19-8165c5a0e353
+  Author: Cao (2020.0) - Science
+  Expected cells (from CSV): 4062980.0
+    Querying Census API...
+    Census returned 4,062,980 total cells
+    After tissue filter (heart): 101,749 cells
+    Census metadata:
+      Tissue (specific): heart
+      Dev stages (all non-zero): 15th week post-fertilization stage: 42,276; 17th week post-fertilization stage: 28,644; 16th week post-fertilization stage: 13,213; 12th week post-fertilization stage: 12,238; 13th week post-fertilization stage: 5,378
+      Donors: 9
+      Age filtering (min_age=15):
+        Total cells: 101,749
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 101,749
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 101,749)
+  Progress saved (36/36 complete)
+
+======================================================================
+COMPLETE
+======================================================================
+Total datasets: 36
+Successful: 36
+Failed: 0
+Skipped: 0
+
+Output: data/homo_sapiens_heart_harvester_with_normal_counts.csv
+
+Completed: 2026-01-29 00:43:11
+Log saved to: data/homo_sapiens_heart_harvester_with_normal_counts_log.txt

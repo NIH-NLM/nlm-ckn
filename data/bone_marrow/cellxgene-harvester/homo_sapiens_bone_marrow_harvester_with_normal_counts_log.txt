@@ -1,0 +1,835 @@
+Starting: 2026-01-29 04:01:07
+Input: data/homo_sapiens_bone_marrow_harvester.csv
+Tissue filter: bone marrow
+Min age: 15 (use 0 to disable)
+Output: data/homo_sapiens_bone_marrow_harvester_with_normal_counts.csv
+Log: data/homo_sapiens_bone_marrow_harvester_with_normal_counts_log.txt
+
+Loaded 35 datasets from data/homo_sapiens_bone_marrow_harvester.csv
+
+Initialized output: data/homo_sapiens_bone_marrow_harvester_with_normal_counts.csv
+
+Processing 35 datasets...
+Progress saved after each dataset
+
+
+[1/35] Processing e22482ee-19e8-40bc-9f6e-541dc3c82c20
+  Author: Ledergor (2018.0) - Nat Med
+  Expected cells (from CSV): 54753.0
+    Querying Census API...
+    Census returned 54,753 total cells
+    After tissue filter (bone marrow): 54,753 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): adult stage: 47,324; 59-year-old stage: 1,292; 66-year-old stage: 1,226; 67-year-old stage: 1,090; 68-year-old stage: 849; 51-year-old stage: 569; 57-year-old stage: 528; 84-year-old stage: 503; 58-year-old stage: 465; 62-year-old stage: 299; 64-year-old stage: 288; 61-year-old stage: 273; 40-year-old stage: 47
+      Donors: 66
+      Age filtering (min_age=15):
+        Total cells: 54,753
+        Cells with parseable age: 7,429
+        Adult (age >= 15 or contains 'adult'): 54,753
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 54,753
+      Disease filtering:
+        Total cells: 54,753
+        Normal cells: 6,701
+  SUCCESS: 6,701 normal cells
+    (Adult: 54,753 / Total: 54,753)
+  Progress saved (1/35 complete)
+
+[2/35] Processing 471647b3-04fe-4c76-8372-3264feb950e8
+  Author: Jardine (2021.0) - Nature
+  Expected cells (from CSV): 27998.0
+    Querying Census API...
+    Census returned 27,998 total cells
+    After tissue filter (bone marrow): 6,150 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): 14th week post-fertilization stage: 4,733; unknown: 1,417
+      Donors: 3
+      Age filtering (min_age=15):
+        Total cells: 6,150
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 4,733
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 6,150)
+  Progress saved (2/35 complete)
+
+[3/35] Processing 343ff97c-85df-494b-8400-beb937618611
+  Author: Jardine (2021.0) - Nature
+  Expected cells (from CSV): 8978.0
+    Querying Census API...
+    Census returned 8,978 total cells
+    After tissue filter (bone marrow): 8,978 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): fifth LMP month stage: 8,978
+      Donors: 1
+      Age filtering (min_age=15):
+        Total cells: 8,978
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 8,978
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 8,978)
+  Progress saved (3/35 complete)
+
+[4/35] Processing 1a2e3350-28a8-4f49-b33c-5b67ceb001f6
+  Author: Jardine (2021.0) - Nature
+  Expected cells (from CSV): 103228.0
+    Querying Census API...
+    Census returned 103,228 total cells
+    After tissue filter (bone marrow): 103,228 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): 15th week post-fertilization stage: 54,975; 19th week post-fertilization stage: 19,326; 17th week post-fertilization stage: 16,068; 13th week post-fertilization stage: 6,602; 16th week post-fertilization stage: 3,142; 14th week post-fertilization stage: 3,115
+      Donors: 9
+      Age filtering (min_age=15):
+        Total cells: 103,228
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 103,228
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 103,228)
+  Progress saved (4/35 complete)
+
+[5/35] Processing a20e2f2a-e171-450a-8ddc-8935c2977ad6
+  Author: Xu (2023.0) - Cell
+  Expected cells (from CSV): 66613.0
+    Querying Census API...
+    Census returned 66,613 total cells
+    After tissue filter (bone marrow): 66,613 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): seventh decade stage: 20,156; sixth decade stage: 16,459; 59-year-old stage: 5,853; 30-year-old stage: 5,638; 17-year-old stage: 5,563; 61-year-old stage: 3,417; eighth decade stage: 3,274; 31-year-old stage: 3,230; 42-year-old stage: 2,487; 22-year-old stage: 536
+      Donors: 17
+      Age filtering (min_age=15):
+        Total cells: 66,613
+        Cells with parseable age: 26,724
+        Adult (age >= 15 or contains 'adult'): 26,724
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 26,724
+      Disease filtering:
+        Total cells: 26,724
+        Normal cells: 26,724
+  SUCCESS: 26,724 normal cells
+    (Adult: 26,724 / Total: 66,613)
+  Progress saved (5/35 complete)
+
+[6/35] Processing fd072bc3-2dfb-46f8-b4e3-467cb3223182
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 908046.0
+    Querying Census API...
+    Census returned 908,046 total cells
+    After tissue filter (bone marrow): 95,066 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): 15th week post-fertilization stage: 46,485; 17th week post-fertilization stage: 27,471; 13th week post-fertilization stage: 11,751; 16th week post-fertilization stage: 6,161; 14th week post-fertilization stage: 3,198
+      Donors: 8
+      Age filtering (min_age=15):
+        Total cells: 95,066
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 95,066
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 95,066)
+  Progress saved (6/35 complete)
+
+[7/35] Processing d0c12af4-c0e4-4c7b-873a-70752b449689
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 318656.0
+    Querying Census API...
+    Census returned 318,656 total cells
+    After tissue filter (bone marrow): 3,060 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): 15th week post-fertilization stage: 2,074; 17th week post-fertilization stage: 574; 13th week post-fertilization stage: 193; 16th week post-fertilization stage: 141; 14th week post-fertilization stage: 78
+      Donors: 8
+      Age filtering (min_age=15):
+        Total cells: 3,060
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 3,060
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 3,060)
+  Progress saved (7/35 complete)
+
+[8/35] Processing aa633105-e8e5-4dcc-b72d-6da6c191b3e9
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 172175.0
+    Querying Census API...
+    Census returned 172,175 total cells
+    After tissue filter (bone marrow): 2,627 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): 15th week post-fertilization stage: 1,081; 17th week post-fertilization stage: 819; 13th week post-fertilization stage: 439; 16th week post-fertilization stage: 186; 14th week post-fertilization stage: 102
+      Donors: 8
+      Age filtering (min_age=15):
+        Total cells: 2,627
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 2,627
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 2,627)
+  Progress saved (8/35 complete)
+
+[9/35] Processing 804d9a85-665b-45c6-b204-13457fdcc7ac
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 149107.0
+    Querying Census API...
+    Census returned 149,107 total cells
+    After tissue filter (bone marrow): 23,634 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): 15th week post-fertilization stage: 15,105; 17th week post-fertilization stage: 5,672; 13th week post-fertilization stage: 1,164; 16th week post-fertilization stage: 984; 14th week post-fertilization stage: 709
+      Donors: 8
+      Age filtering (min_age=15):
+        Total cells: 23,634
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 23,634
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 23,634)
+  Progress saved (9/35 complete)
+
+[10/35] Processing 6a30bf44-c490-41ac-965b-0bb58432b10a
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 40420.0
+    Querying Census API...
+    Census returned 40,420 total cells
+    After tissue filter (bone marrow): 10,918 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): 15th week post-fertilization stage: 5,029; 17th week post-fertilization stage: 2,805; 13th week post-fertilization stage: 1,762; 16th week post-fertilization stage: 782; 14th week post-fertilization stage: 540
+      Donors: 8
+      Age filtering (min_age=15):
+        Total cells: 10,918
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 10,918
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 10,918)
+  Progress saved (10/35 complete)
+
+[11/35] Processing 48101fa2-1a63-4514-b892-53ea1d3a8657
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 589390.0
+    Querying Census API...
+    Census returned 589,390 total cells
+    After tissue filter (bone marrow): 92,006 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): 15th week post-fertilization stage: 44,411; 17th week post-fertilization stage: 26,897; 13th week post-fertilization stage: 11,558; 16th week post-fertilization stage: 6,020; 14th week post-fertilization stage: 3,120
+      Donors: 8
+      Age filtering (min_age=15):
+        Total cells: 92,006
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 92,006
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 92,006)
+  Progress saved (11/35 complete)
+
+[12/35] Processing 3affa268-8a74-460a-ac9b-a984c0832469
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 239698.0
+    Querying Census API...
+    Census returned 239,698 total cells
+    After tissue filter (bone marrow): 28,687 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): 17th week post-fertilization stage: 11,360; 15th week post-fertilization stage: 11,327; 13th week post-fertilization stage: 3,308; 16th week post-fertilization stage: 2,021; 14th week post-fertilization stage: 671
+      Donors: 8
+      Age filtering (min_age=15):
+        Total cells: 28,687
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 28,687
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 28,687)
+  Progress saved (12/35 complete)
+
+[13/35] Processing 2aa1c93c-4ef3-4e9a-98e7-0bd37933953c
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 218758.0
+    Querying Census API...
+    Census returned 218,758 total cells
+    After tissue filter (bone marrow): 41,820 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): 15th week post-fertilization stage: 18,884; 17th week post-fertilization stage: 10,670; 13th week post-fertilization stage: 7,335; 16th week post-fertilization stage: 3,126; 14th week post-fertilization stage: 1,805
+      Donors: 8
+      Age filtering (min_age=15):
+        Total cells: 41,820
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 41,820
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 41,820)
+  Progress saved (13/35 complete)
+
+[14/35] Processing e3da8320-0b3c-4bae-ad55-a89eb59ca870
+  Author: Wells (2025.0) - Nat Immunol
+  Expected cells (from CSV): 130414.0
+    Querying Census API...
+    Census returned 130,414 total cells
+    After tissue filter (bone marrow): 39,050 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): third decade stage: 11,442; 68-year-old stage: 5,327; 67-year-old stage: 5,148; 48-year-old stage: 4,472; 33-year-old stage: 2,411; 75-year-old stage: 2,000; 25-year-old stage: 1,898; 56-year-old stage: 1,685; fifth decade stage: 1,425; sixth decade stage: 1,378; 20-year-old stage: 792; 73-year-old stage: 512; eighth decade stage: 341; fourth decade stage: 219
+      Donors: 20
+      Age filtering (min_age=15):
+        Total cells: 39,050
+        Cells with parseable age: 24,245
+        Adult (age >= 15 or contains 'adult'): 24,245
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 24,245
+      Disease filtering:
+        Total cells: 24,245
+        Normal cells: 24,245
+  SUCCESS: 24,245 normal cells
+    (Adult: 24,245 / Total: 39,050)
+  Progress saved (14/35 complete)
+
+[15/35] Processing 960ecd06-e7c2-463d-9a5b-6832994376c6
+  Author: Wells (2025.0) - Nat Immunol
+  Expected cells (from CSV): 610429.0
+    Querying Census API...
+    Census returned 610,429 total cells
+    After tissue filter (bone marrow): 54,833 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): third decade stage: 11,809; 56-year-old stage: 9,406; 67-year-old stage: 6,216; 25-year-old stage: 5,655; 68-year-old stage: 4,784; 33-year-old stage: 4,448; sixth decade stage: 3,022; 48-year-old stage: 2,855; 20-year-old stage: 1,946; fifth decade stage: 1,872; 73-year-old stage: 929; eighth decade stage: 854; 75-year-old stage: 683; fourth decade stage: 354
+      Donors: 20
+      Age filtering (min_age=15):
+        Total cells: 54,833
+        Cells with parseable age: 36,922
+        Adult (age >= 15 or contains 'adult'): 36,922
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 36,922
+      Disease filtering:
+        Total cells: 36,922
+        Normal cells: 36,922
+  SUCCESS: 36,922 normal cells
+    (Adult: 36,922 / Total: 54,833)
+  Progress saved (15/35 complete)
+
+[16/35] Processing 3f766409-fcd6-4553-99e8-259bc24a6be6
+  Author: Wells (2025.0) - Nat Immunol
+  Expected cells (from CSV): 272162.0
+    Querying Census API...
+    Census returned 272,162 total cells
+    After tissue filter (bone marrow): 15,133 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): third decade stage: 7,481; 48-year-old stage: 1,526; 20-year-old stage: 1,267; sixth decade stage: 881; 25-year-old stage: 811; 73-year-old stage: 793; 67-year-old stage: 529; 68-year-old stage: 510; fifth decade stage: 322; 33-year-old stage: 288; eighth decade stage: 279; 56-year-old stage: 226; fourth decade stage: 114; 75-year-old stage: 106
+      Donors: 20
+      Age filtering (min_age=15):
+        Total cells: 15,133
+        Cells with parseable age: 6,056
+        Adult (age >= 15 or contains 'adult'): 6,056
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 6,056
+      Disease filtering:
+        Total cells: 6,056
+        Normal cells: 6,056
+  SUCCESS: 6,056 normal cells
+    (Adult: 6,056 / Total: 15,133)
+  Progress saved (16/35 complete)
+
+[17/35] Processing 1b350d0a-4535-4879-beb6-1142f3f94947
+  Author: Wells (2025.0) - Nat Immunol
+  Expected cells (from CSV): 1281499.0
+    Querying Census API...
+    Census returned 1,281,499 total cells
+    After tissue filter (bone marrow): 142,608 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): third decade stage: 34,888; 67-year-old stage: 15,632; 56-year-old stage: 12,860; 48-year-old stage: 12,627; 68-year-old stage: 11,136; sixth decade stage: 10,742; 25-year-old stage: 9,452; 73-year-old stage: 8,644; 33-year-old stage: 7,663; 20-year-old stage: 5,506; fifth decade stage: 5,208; 75-year-old stage: 4,296; eighth decade stage: 2,487; fourth decade stage: 1,467
+      Donors: 20
+      Age filtering (min_age=15):
+        Total cells: 142,608
+        Cells with parseable age: 87,816
+        Adult (age >= 15 or contains 'adult'): 87,816
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 87,816
+      Disease filtering:
+        Total cells: 87,816
+        Normal cells: 87,816
+  SUCCESS: 87,816 normal cells
+    (Adult: 87,816 / Total: 142,608)
+  Progress saved (17/35 complete)
+
+[18/35] Processing 11ae668a-88c2-4d86-ba08-524fe576a882
+  Author: Wells (2025.0) - Nat Immunol
+  Expected cells (from CSV): 225268.0
+    Querying Census API...
+    Census returned 225,268 total cells
+    After tissue filter (bone marrow): 21,484 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): 73-year-old stage: 5,503; 48-year-old stage: 2,831; third decade stage: 2,741; 67-year-old stage: 2,316; 75-year-old stage: 1,399; 56-year-old stage: 1,367; 20-year-old stage: 1,348; sixth decade stage: 1,218; fifth decade stage: 1,051; 25-year-old stage: 639; 68-year-old stage: 406; eighth decade stage: 282; 33-year-old stage: 257; fourth decade stage: 126
+      Donors: 20
+      Age filtering (min_age=15):
+        Total cells: 21,484
+        Cells with parseable age: 16,066
+        Adult (age >= 15 or contains 'adult'): 16,066
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 16,066
+      Disease filtering:
+        Total cells: 16,066
+        Normal cells: 16,066
+  SUCCESS: 16,066 normal cells
+    (Adult: 16,066 / Total: 21,484)
+  Progress saved (18/35 complete)
+
+[19/35] Processing c5d88abe-f23a-45fa-a534-788985e93dad
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 592317.0
+    Querying Census API...
+    Census returned 592,317 total cells
+    After tissue filter (bone marrow): 27,098 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): 59-year-old stage: 11,919; 61-year-old stage: 4,129; 60-year-old stage: 3,762; 45-year-old stage: 3,625; 42-year-old stage: 2,552; 56-year-old stage: 650; 22-year-old stage: 461
+      Donors: 7
+      Age filtering (min_age=15):
+        Total cells: 27,098
+        Cells with parseable age: 27,098
+        Adult (age >= 15 or contains 'adult'): 27,098
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 27,098
+      Disease filtering:
+        Total cells: 27,098
+        Normal cells: 27,098
+  SUCCESS: 27,098 normal cells
+    (Adult: 27,098 / Total: 27,098)
+  Progress saved (19/35 complete)
+
+[20/35] Processing a68b64d8-aee3-4947-81b7-36b8fe5a44d2
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 232684.0
+    Querying Census API...
+    Census returned 232,684 total cells
+    After tissue filter (bone marrow): 11 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): 59-year-old stage: 5; 60-year-old stage: 5; 45-year-old stage: 1
+      Donors: 3
+      Age filtering (min_age=15):
+        Total cells: 11
+        Cells with parseable age: 11
+        Adult (age >= 15 or contains 'adult'): 11
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 11
+      Disease filtering:
+        Total cells: 11
+        Normal cells: 11
+  SUCCESS: 11 normal cells
+    (Adult: 11 / Total: 11)
+  Progress saved (20/35 complete)
+
+[21/35] Processing 5a11f879-d1ef-458a-910c-9b0bdfca5ebf
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 73195.0
+    Querying Census API...
+    Census returned 73,195 total cells
+    After tissue filter (bone marrow): 3 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): 60-year-old stage: 2; 59-year-old stage: 1
+      Donors: 2
+      Age filtering (min_age=15):
+        Total cells: 3
+        Cells with parseable age: 3
+        Adult (age >= 15 or contains 'adult'): 3
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 3
+      Disease filtering:
+        Total cells: 3
+        Normal cells: 3
+  SUCCESS: 3 normal cells
+    (Adult: 3 / Total: 3)
+  Progress saved (21/35 complete)
+
+[22/35] Processing 53d208b0-2cfd-4366-9866-c3c6114081bc
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 1136218.0
+    Querying Census API...
+    Census returned 1,136,218 total cells
+    After tissue filter (bone marrow): 27,112 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): 59-year-old stage: 11,925; 61-year-old stage: 4,129; 60-year-old stage: 3,769; 45-year-old stage: 3,626; 42-year-old stage: 2,552; 56-year-old stage: 650; 22-year-old stage: 461
+      Donors: 7
+      Age filtering (min_age=15):
+        Total cells: 27,112
+        Cells with parseable age: 27,112
+        Adult (age >= 15 or contains 'adult'): 27,112
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 27,112
+      Disease filtering:
+        Total cells: 27,112
+        Normal cells: 27,112
+  SUCCESS: 27,112 normal cells
+    (Adult: 27,112 / Total: 27,112)
+  Progress saved (22/35 complete)
+
+[23/35] Processing 4f1555bc-4664-46c3-a606-78d34dd10d92
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 27112.0
+    Querying Census API...
+    Census returned 27,112 total cells
+    After tissue filter (bone marrow): 27,112 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): 59-year-old stage: 11,925; 61-year-old stage: 4,129; 60-year-old stage: 3,769; 45-year-old stage: 3,626; 42-year-old stage: 2,552; 56-year-old stage: 650; 22-year-old stage: 461
+      Donors: 7
+      Age filtering (min_age=15):
+        Total cells: 27,112
+        Cells with parseable age: 27,112
+        Adult (age >= 15 or contains 'adult'): 27,112
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 27,112
+      Disease filtering:
+        Total cells: 27,112
+        Normal cells: 27,112
+  SUCCESS: 27,112 normal cells
+    (Adult: 27,112 / Total: 27,112)
+  Progress saved (23/35 complete)
+
+[24/35] Processing fe52003e-1460-4a65-a213-2bb1a508332f
+  Author: Domínguez Conde (2022.0) - Science
+  Expected cells (from CSV): 51552.0
+    Querying Census API...
+    Census returned 51,552 total cells
+    After tissue filter (bone marrow): 6,878 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): seventh decade stage: 4,066; sixth decade stage: 2,012; eighth decade stage: 800
+      Donors: 10
+      Age filtering (min_age=15):
+        Total cells: 6,878
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 6,878)
+  Progress saved (24/35 complete)
+
+[25/35] Processing ae29ebd0-1973-40a4-a6af-d15a5f77a80f
+  Author: Domínguez Conde (2022.0) - Science
+  Expected cells (from CSV): 216611.0
+    Querying Census API...
+    Census returned 216,611 total cells
+    After tissue filter (bone marrow): 29,178 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): sixth decade stage: 13,723; seventh decade stage: 13,617; eighth decade stage: 1,838
+      Donors: 10
+      Age filtering (min_age=15):
+        Total cells: 29,178
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 29,178)
+  Progress saved (25/35 complete)
+
+[26/35] Processing 71be997d-ff75-41b9-8a9f-1288c865f921
+  Author: Domínguez Conde (2022.0) - Science
+  Expected cells (from CSV): 54934.0
+    Querying Census API...
+    Census returned 54,934 total cells
+    After tissue filter (bone marrow): 2,039 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): seventh decade stage: 971; sixth decade stage: 646; eighth decade stage: 422
+      Donors: 10
+      Age filtering (min_age=15):
+        Total cells: 2,039
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 2,039)
+  Progress saved (26/35 complete)
+
+[27/35] Processing 1b9d8702-5af8-4142-85ed-020eb06ec4f6
+  Author: Domínguez Conde (2022.0) - Science
+  Expected cells (from CSV): 329762.0
+    Querying Census API...
+    Census returned 329,762 total cells
+    After tissue filter (bone marrow): 40,507 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): seventh decade stage: 20,430; sixth decade stage: 16,696; eighth decade stage: 3,381
+      Donors: 10
+      Age filtering (min_age=15):
+        Total cells: 40,507
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 40,507)
+  Progress saved (27/35 complete)
+
+[28/35] Processing 78c62d4e-abf1-405b-bb51-368720814529
+  Author: Frenz-Wiessner (2024.0) - Nat Methods
+  Expected cells (from CSV): 31040.0
+    Querying Census API...
+    Census returned 31,040 total cells
+    After tissue filter (bone marrow): 31,040 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): unknown: 31,040
+      Donors: 1
+      Age filtering (min_age=15):
+        Total cells: 31,040
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 31,040)
+  Progress saved (28/35 complete)
+
+[29/35] Processing 01209dce-3575-4bed-b1df-129f57fbc031
+  Author: Szabo (2019.0) - Nat Commun
+  Expected cells (from CSV): 51876.0
+    Querying Census API...
+    Census returned 51,876 total cells
+    After tissue filter (bone marrow): 6,665 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): 65-year-old stage: 3,906; 52-year-old stage: 2,759
+      Donors: 2
+      Age filtering (min_age=15):
+        Total cells: 6,665
+        Cells with parseable age: 6,665
+        Adult (age >= 15 or contains 'adult'): 6,665
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 6,665
+      Disease filtering:
+        Total cells: 6,665
+        Normal cells: 6,665
+  SUCCESS: 6,665 normal cells
+    (Adult: 6,665 / Total: 6,665)
+  Progress saved (29/35 complete)
+
+[30/35] Processing 965386e9-1e4f-466d-bf59-ebdca4b66b9b
+  Author: Strati (2023.0) - Cell Reports Medicine
+  Expected cells (from CSV): 92676.0
+    Querying Census API...
+    Census returned 92,676 total cells
+    After tissue filter (bone marrow): 92,676 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): unknown: 42,831; 67-year-old stage: 9,221; 61-year-old stage: 8,140; 69-year-old stage: 7,016; 60-year-old stage: 6,758; 73-year-old stage: 5,709; 44-year-old stage: 3,378; 55-year-old stage: 2,918; 70-year-old stage: 2,660; 71-year-old stage: 1,505; 51-year-old stage: 1,233; 82-year-old stage: 670; 53-year-old stage: 637
+      Donors: 22
+      Age filtering (min_age=15):
+        Total cells: 92,676
+        Cells with parseable age: 49,845
+        Adult (age >= 15 or contains 'adult'): 49,845
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 49,845
+      Disease filtering:
+        Total cells: 49,845
+        Normal cells: 0
+  SUCCESS: 0 normal cells
+    (Adult: 49,845 / Total: 92,676)
+  Progress saved (30/35 complete)
+
+[31/35] Processing d3566d6a-a455-4a15-980f-45eb29114cab
+  Author: Triana (2021.0) - Nat Immunol
+  Expected cells (from CSV): 15502.0
+    Querying Census API...
+    Census returned 15,502 total cells
+    After tissue filter (bone marrow): 8,357 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): 41-year-old stage: 8,357
+      Donors: 1
+      Age filtering (min_age=15):
+        Total cells: 8,357
+        Cells with parseable age: 8,357
+        Adult (age >= 15 or contains 'adult'): 8,357
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 8,357
+      Disease filtering:
+        Total cells: 8,357
+        Normal cells: 8,357
+  SUCCESS: 8,357 normal cells
+    (Adult: 8,357 / Total: 8,357)
+  Progress saved (31/35 complete)
+
+[32/35] Processing cd4c96bb-ad66-4e83-ba9e-a7df8790eb12
+  Author: Triana (2021.0) - Nat Immunol
+  Expected cells (from CSV): 49057.0
+    Querying Census API...
+    Census returned 49,057 total cells
+    After tissue filter (bone marrow): 49,057 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): 26-year-old stage: 11,317; 65-year-old stage: 10,639; 25-year-old stage: 9,751; 34-year-old stage: 6,963; 69-year-old stage: 6,316; 59-year-old stage: 4,071
+      Donors: 6
+      Age filtering (min_age=15):
+        Total cells: 49,057
+        Cells with parseable age: 49,057
+        Adult (age >= 15 or contains 'adult'): 49,057
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 49,057
+      Disease filtering:
+        Total cells: 49,057
+        Normal cells: 49,057
+  SUCCESS: 49,057 normal cells
+    (Adult: 49,057 / Total: 49,057)
+  Progress saved (32/35 complete)
+
+[33/35] Processing c05fb583-eb2f-4e3a-8e74-f9bd6414e418
+  Author: Triana (2021.0) - Nat Immunol
+  Expected cells (from CSV): 13165.0
+    Querying Census API...
+    Census returned 13,165 total cells
+    After tissue filter (bone marrow): 13,165 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): 26-year-old stage: 13,165
+      Donors: 1
+      Age filtering (min_age=15):
+        Total cells: 13,165
+        Cells with parseable age: 13,165
+        Adult (age >= 15 or contains 'adult'): 13,165
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 13,165
+      Disease filtering:
+        Total cells: 13,165
+        Normal cells: 13,165
+  SUCCESS: 13,165 normal cells
+    (Adult: 13,165 / Total: 13,165)
+  Progress saved (33/35 complete)
+
+[34/35] Processing 2adb1f8a-a6b1-4909-8ee8-484814e2d4bf
+  Author: Han (2020.0) - Nature
+  Expected cells (from CSV): 599926.0
+    Querying Census API...
+    Census returned 598,266 total cells
+    After tissue filter (bone marrow): 8,704 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): 49-year-old stage: 6,443; 60-year-old stage: 2,261
+      Donors: 2
+      Age filtering (min_age=15):
+        Total cells: 8,704
+        Cells with parseable age: 8,704
+        Adult (age >= 15 or contains 'adult'): 8,704
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 8,704
+      Disease filtering:
+        Total cells: 8,704
+        Normal cells: 8,704
+  SUCCESS: 8,704 normal cells
+    (Adult: 8,704 / Total: 8,704)
+  Progress saved (34/35 complete)
+
+[35/35] Processing cd2f23c1-aef1-48ae-8eb4-0bcf124e567d
+  Author: Zeng (2025.0) - Blood Cancer Discovery
+  Expected cells (from CSV): 263159.0
+    Querying Census API...
+    Census returned 263,159 total cells
+    After tissue filter (bone marrow): 263,159 cells
+    Census metadata:
+      Tissue (specific): bone marrow
+      Dev stages (all non-zero): late adult stage: 26,255; 29-year-old stage: 24,820; young adult stage: 21,840; 50-year-old stage: 21,406; prime adult stage: 20,159; 19-year-old stage: 16,425; 26-year-old stage: 13,510; 39-year-old stage: 13,121; 52-year-old stage: 12,220; 35-year-old stage: 11,022; 32-year-old stage: 10,009; 36-year-old stage: 9,223; 28-year-old stage: 7,523; 60-year-old stage: 6,422; 84-year-old stage: 6,186; 58-year-old stage: 5,222; 55-year-old stage: 4,472; 67-year-old stage: 3,940; 57-year-old stage: 3,924; 24-year-old stage: 3,730; 56-year-old stage: 3,574; 46-year-old stage: 3,545; 41-year-old stage: 2,885; 43-year-old stage: 2,650; 59-year-old stage: 2,569; 47-year-old stage: 2,236; 31-year-old stage: 1,888; 30-year-old stage: 1,439; 66-year-old stage: 944
+      Donors: 45
+      Age filtering (min_age=15):
+        Total cells: 263,159
+        Cells with parseable age: 194,905
+        Adult (age >= 15 or contains 'adult'): 263,159
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 263,159
+      Disease filtering:
+        Total cells: 263,159
+        Normal cells: 263,159
+  SUCCESS: 263,159 normal cells
+    (Adult: 263,159 / Total: 263,159)
+  Progress saved (35/35 complete)
+
+======================================================================
+COMPLETE
+======================================================================
+Total datasets: 35
+Successful: 35
+Failed: 0
+Skipped: 0
+
+Output: data/homo_sapiens_bone_marrow_harvester_with_normal_counts.csv
+
+Completed: 2026-01-29 04:19:05
+Log saved to: data/homo_sapiens_bone_marrow_harvester_with_normal_counts_log.txt

@@ -1,0 +1,1472 @@
+Starting: 2026-01-29 02:01:19
+Input: data/homo_sapiens_liver_harvester.csv
+Tissue filter: liver
+Min age: 15 (use 0 to disable)
+Output: data/homo_sapiens_liver_harvester_with_normal_counts.csv
+Log: data/homo_sapiens_liver_harvester_with_normal_counts_log.txt
+
+Loaded 64 datasets from data/homo_sapiens_liver_harvester.csv
+
+Initialized output: data/homo_sapiens_liver_harvester_with_normal_counts.csv
+
+Processing 64 datasets...
+Progress saved after each dataset
+
+
+[1/64] Processing afae4675-434d-4e89-b5ce-2854c9dc38a3
+  Author: Yu (2025.0) - Nat Genet
+  Expected cells (from CSV): 372619.0
+    Querying Census API...
+    Census returned 372,619 total cells
+    After tissue filter (liver): 24,293 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): 6-month-old stage: 18,369; 3-year-old stage: 5,924
+      Donors: 2
+      Age filtering (min_age=15):
+        Total cells: 24,293
+        Cells with parseable age: 5,924
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 5,924
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 24,293)
+  Progress saved (1/64 complete)
+
+[2/64] Processing 7b95971d-05e6-4060-9e52-f7148050bbba
+  Author: Yu (2025.0) - Nat Genet
+  Expected cells (from CSV): 14344.0
+    Querying Census API...
+    Census returned 14,344 total cells
+    After tissue filter (liver): 431 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): 3-year-old stage: 243; 6-month-old stage: 188
+      Donors: 2
+      Age filtering (min_age=15):
+        Total cells: 431
+        Cells with parseable age: 243
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 243
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 431)
+  Progress saved (2/64 complete)
+
+[3/64] Processing 232e432a-cef1-4654-8850-3c80244c1a0c
+  Author: Yu (2025.0) - Nat Genet
+  Expected cells (from CSV): 205153.0
+    Querying Census API...
+    Census returned 205,153 total cells
+    After tissue filter (liver): 12,536 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): 6-month-old stage: 10,753; 3-year-old stage: 1,783
+      Donors: 2
+      Age filtering (min_age=15):
+        Total cells: 12,536
+        Cells with parseable age: 1,783
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 1,783
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 12,536)
+  Progress saved (3/64 complete)
+
+[4/64] Processing 9968be68-ab65-4a38-9e1a-c9b6abece194
+  Author: Yu (2021.0) - Cell
+  Expected cells (from CSV): 155232.0
+    Querying Census API...
+    Census returned 155,232 total cells
+    After tissue filter (liver): 4,075 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): 15th week post-fertilization stage: 4,075
+      Donors: 1
+      Age filtering (min_age=15):
+        Total cells: 4,075
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 4,075
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 4,075)
+  Progress saved (4/64 complete)
+
+[5/64] Processing 84cfa5aa-a0d1-415e-ac47-eb66c9cf8170
+  Author: Edgar (2025.0) - Hepatology Communications
+  Expected cells (from CSV): 81001.0
+    Querying Census API...
+    Census returned 81,001 total cells
+    After tissue filter (liver): 81,001 cells
+    Census metadata:
+      Tissue (specific): caudate lobe of liver
+      Dev stages (all non-zero): juvenile stage (5-14 yo): 27,261; 57-year-old stage: 12,455; 15-19 year-old: 11,139; late adult stage: 9,684; nursing stage (0-11 months): 9,328; child stage (1-4 yo): 6,287; 69-year-old stage: 2,921; prime adult stage: 806; young adult stage: 614; 26-year-old stage: 506
+      Donors: 19
+      Age filtering (min_age=15):
+        Total cells: 81,001
+        Cells with parseable age: 27,021
+        Adult (age >= 15 or contains 'adult'): 38,125
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 38,125
+      Disease filtering:
+        Total cells: 38,125
+        Normal cells: 38,125
+  SUCCESS: 38,125 normal cells
+    (Adult: 38,125 / Total: 81,001)
+  Progress saved (5/64 complete)
+
+[6/64] Processing 120cbe1a-9434-4e23-84bd-f570ac32300c
+  Author: Edgar (2025.0) - Hepatology Communications
+  Expected cells (from CSV): 69032.0
+    Querying Census API...
+    Census returned 69,032 total cells
+    After tissue filter (liver): 69,032 cells
+    Census metadata:
+      Tissue (specific): caudate lobe of liver
+      Dev stages (all non-zero): juvenile stage (5-14 yo): 24,620; 57-year-old stage: 12,455; 15-19 year-old: 11,139; late adult stage: 9,684; child stage (1-4 yo): 6,287; 69-year-old stage: 2,921; prime adult stage: 806; young adult stage: 614; 26-year-old stage: 506
+      Donors: 16
+      Age filtering (min_age=15):
+        Total cells: 69,032
+        Cells with parseable age: 27,021
+        Adult (age >= 15 or contains 'adult'): 38,125
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 38,125
+      Disease filtering:
+        Total cells: 38,125
+        Normal cells: 38,125
+  SUCCESS: 38,125 normal cells
+    (Adult: 38,125 / Total: 69,032)
+  Progress saved (6/64 complete)
+
+[7/64] Processing e347396c-a7ff-4691-9f7a-99a43555ca18
+  Author: Andrews (2024.0) - Journal of Hepatology
+  Expected cells (from CSV): 1417.0
+    Querying Census API...
+    Census returned 1,417 total cells
+    After tissue filter (liver): 1,417 cells
+    Census metadata:
+      Tissue (specific): caudate lobe of liver
+      Dev stages (all non-zero): prime adult stage: 930; young adult stage: 418; late adult stage: 69
+      Donors: 24
+      Age filtering (min_age=15):
+        Total cells: 1,417
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 1,417
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 1,417
+      Disease filtering:
+        Total cells: 1,417
+        Normal cells: 1,417
+  SUCCESS: 1,417 normal cells
+    (Adult: 1,417 / Total: 1,417)
+  Progress saved (7/64 complete)
+
+[8/64] Processing b550fd94-97e0-42e2-90f7-7434781ea2f8
+  Author: Andrews (2024.0) - Journal of Hepatology
+  Expected cells (from CSV): 11127.0
+    Querying Census API...
+    Census returned 11,127 total cells
+    After tissue filter (liver): 11,127 cells
+    Census metadata:
+      Tissue (specific): caudate lobe of liver
+      Dev stages (all non-zero): prime adult stage: 6,930; young adult stage: 3,088; late adult stage: 1,109
+      Donors: 24
+      Age filtering (min_age=15):
+        Total cells: 11,127
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 11,127
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 11,127
+      Disease filtering:
+        Total cells: 11,127
+        Normal cells: 11,127
+  SUCCESS: 11,127 normal cells
+    (Adult: 11,127 / Total: 11,127)
+  Progress saved (8/64 complete)
+
+[9/64] Processing 76af615b-12fe-4ebb-b8c6-239ad29e26e3
+  Author: Andrews (2024.0) - Journal of Hepatology
+  Expected cells (from CSV): 13635.0
+    Querying Census API...
+    Census returned 13,635 total cells
+    After tissue filter (liver): 13,635 cells
+    Census metadata:
+      Tissue (specific): caudate lobe of liver
+      Dev stages (all non-zero): prime adult stage: 7,098; young adult stage: 5,152; late adult stage: 1,385
+      Donors: 24
+      Age filtering (min_age=15):
+        Total cells: 13,635
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 13,635
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 13,635
+      Disease filtering:
+        Total cells: 13,635
+        Normal cells: 13,635
+  SUCCESS: 13,635 normal cells
+    (Adult: 13,635 / Total: 13,635)
+  Progress saved (9/64 complete)
+
+[10/64] Processing 4ce8d8ec-b94c-4b79-afcb-b094336d8a78
+  Author: Andrews (2024.0) - Journal of Hepatology
+  Expected cells (from CSV): 9422.0
+    Querying Census API...
+    Census returned 9,422 total cells
+    After tissue filter (liver): 9,422 cells
+    Census metadata:
+      Tissue (specific): caudate lobe of liver
+      Dev stages (all non-zero): prime adult stage: 5,210; young adult stage: 3,381; late adult stage: 831
+      Donors: 24
+      Age filtering (min_age=15):
+        Total cells: 9,422
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 9,422
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 9,422
+      Disease filtering:
+        Total cells: 9,422
+        Normal cells: 9,422
+  SUCCESS: 9,422 normal cells
+    (Adult: 9,422 / Total: 9,422)
+  Progress saved (10/64 complete)
+
+[11/64] Processing 4993d61c-1d04-4630-9c61-8d9431f39adc
+  Author: Andrews (2024.0) - Journal of Hepatology
+  Expected cells (from CSV): 1250.0
+    Querying Census API...
+    Census returned 1,250 total cells
+    After tissue filter (liver): 1,250 cells
+    Census metadata:
+      Tissue (specific): caudate lobe of liver
+      Dev stages (all non-zero): prime adult stage: 552; young adult stage: 364; late adult stage: 334
+      Donors: 24
+      Age filtering (min_age=15):
+        Total cells: 1,250
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 1,250
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 1,250
+      Disease filtering:
+        Total cells: 1,250
+        Normal cells: 1,250
+  SUCCESS: 1,250 normal cells
+    (Adult: 1,250 / Total: 1,250)
+  Progress saved (11/64 complete)
+
+[12/64] Processing 43560d7c-acd6-4ede-830d-c9ffc6cd0862
+  Author: Andrews (2024.0) - Journal of Hepatology
+  Expected cells (from CSV): 16665.0
+    Querying Census API...
+    Census returned 16,665 total cells
+    After tissue filter (liver): 16,665 cells
+    Census metadata:
+      Tissue (specific): caudate lobe of liver
+      Dev stages (all non-zero): prime adult stage: 8,135; young adult stage: 6,653; late adult stage: 1,877
+      Donors: 24
+      Age filtering (min_age=15):
+        Total cells: 16,665
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 16,665
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 16,665
+      Disease filtering:
+        Total cells: 16,665
+        Normal cells: 16,665
+  SUCCESS: 16,665 normal cells
+    (Adult: 16,665 / Total: 16,665)
+  Progress saved (12/64 complete)
+
+[13/64] Processing 234c23d0-d6cd-4612-a40d-e5811727564b
+  Author: Andrews (2024.0) - Journal of Hepatology
+  Expected cells (from CSV): 53015.0
+    Querying Census API...
+    Census returned 53,015 total cells
+    After tissue filter (liver): 53,015 cells
+    Census metadata:
+      Tissue (specific): caudate lobe of liver
+      Dev stages (all non-zero): prime adult stage: 29,426; young adult stage: 18,522; late adult stage: 5,067
+      Donors: 24
+      Age filtering (min_age=15):
+        Total cells: 53,015
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 53,015
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 53,015
+      Disease filtering:
+        Total cells: 53,015
+        Normal cells: 53,015
+  SUCCESS: 53,015 normal cells
+    (Adult: 53,015 / Total: 53,015)
+  Progress saved (13/64 complete)
+
+[14/64] Processing 1873a18a-66fd-4a4d-8277-a872c93f5b59
+  Author: Andrews (2024.0) - Journal of Hepatology
+  Expected cells (from CSV): 105780.0
+    Querying Census API...
+    Census returned 105,780 total cells
+    After tissue filter (liver): 105,780 cells
+    Census metadata:
+      Tissue (specific): caudate lobe of liver
+      Dev stages (all non-zero): postnatal stage: 53,629; prime adult stage: 30,892; late adult stage: 12,205; young adult stage: 9,054
+      Donors: 13
+      Age filtering (min_age=15):
+        Total cells: 105,780
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 52,151
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 52,151
+      Disease filtering:
+        Total cells: 52,151
+        Normal cells: 26,515
+  SUCCESS: 26,515 normal cells
+    (Adult: 52,151 / Total: 105,780)
+  Progress saved (14/64 complete)
+
+[15/64] Processing 0c9a8cfb-6649-4d52-b418-6d8e56bd7afe
+  Author: Andrews (2024.0) - Journal of Hepatology
+  Expected cells (from CSV): 1011.0
+    Querying Census API...
+    Census returned 1,011 total cells
+    After tissue filter (liver): 1,011 cells
+    Census metadata:
+      Tissue (specific): caudate lobe of liver
+      Dev stages (all non-zero): prime adult stage: 561; young adult stage: 373; late adult stage: 77
+      Donors: 24
+      Age filtering (min_age=15):
+        Total cells: 1,011
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 1,011
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 1,011
+      Disease filtering:
+        Total cells: 1,011
+        Normal cells: 1,011
+  SUCCESS: 1,011 normal cells
+    (Adult: 1,011 / Total: 1,011)
+  Progress saved (15/64 complete)
+
+[16/64] Processing 02792605-4760-4023-82ad-40fc4458a5db
+  Author: Andrews (2024.0) - Journal of Hepatology
+  Expected cells (from CSV): 89637.0
+    Querying Census API...
+    Census returned 89,637 total cells
+    After tissue filter (liver): 89,637 cells
+    Census metadata:
+      Tissue (specific): caudate lobe of liver
+      Dev stages (all non-zero): postnatal stage: 61,321; prime adult stage: 16,757; young adult stage: 8,649; late adult stage: 2,910
+      Donors: 16
+      Age filtering (min_age=15):
+        Total cells: 89,637
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 28,316
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 28,316
+      Disease filtering:
+        Total cells: 28,316
+        Normal cells: 24,241
+  SUCCESS: 24,241 normal cells
+    (Adult: 28,316 / Total: 89,637)
+  Progress saved (16/64 complete)
+
+[17/64] Processing ddb22b3d-a75c-4dd1-9730-dff7fc8ca530
+  Author: Andrews (2022.0) - Hepatol Commun
+  Expected cells (from CSV): 73295.0
+    Querying Census API...
+    Census returned 73,295 total cells
+    After tissue filter (liver): 73,295 cells
+    Census metadata:
+      Tissue (specific): caudate lobe of liver
+      Dev stages (all non-zero): prime adult stage: 53,022; young adult stage: 20,273
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 73,295
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 73,295
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 73,295
+      Disease filtering:
+        Total cells: 73,295
+        Normal cells: 73,295
+  SUCCESS: 73,295 normal cells
+    (Adult: 73,295 / Total: 73,295)
+  Progress saved (17/64 complete)
+
+[18/64] Processing bf176af2-4432-4391-9b35-e21bd86ca4f8
+  Author: Andrews (2022.0) - Hepatol Commun
+  Expected cells (from CSV): 6289.0
+    Querying Census API...
+    Census returned 6,289 total cells
+    After tissue filter (liver): 6,289 cells
+    Census metadata:
+      Tissue (specific): caudate lobe of liver
+      Dev stages (all non-zero): prime adult stage: 4,894; young adult stage: 1,395
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 6,289
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 6,289
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 6,289
+      Disease filtering:
+        Total cells: 6,289
+        Normal cells: 6,289
+  SUCCESS: 6,289 normal cells
+    (Adult: 6,289 / Total: 6,289)
+  Progress saved (18/64 complete)
+
+[19/64] Processing a49d9109-1d0c-4b36-8139-19aa9a83428c
+  Author: Andrews (2022.0) - Hepatol Commun
+  Expected cells (from CSV): 2346.0
+    Querying Census API...
+    Census returned 2,346 total cells
+    After tissue filter (liver): 2,346 cells
+    Census metadata:
+      Tissue (specific): caudate lobe of liver
+      Dev stages (all non-zero): prime adult stage: 1,994; young adult stage: 352
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 2,346
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 2,346
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 2,346
+      Disease filtering:
+        Total cells: 2,346
+        Normal cells: 2,346
+  SUCCESS: 2,346 normal cells
+    (Adult: 2,346 / Total: 2,346)
+  Progress saved (19/64 complete)
+
+[20/64] Processing 9f049476-2431-4645-a2d6-f6e85892b603
+  Author: Andrews (2022.0) - Hepatol Commun
+  Expected cells (from CSV): 1861.0
+    Querying Census API...
+    Census returned 1,861 total cells
+    After tissue filter (liver): 1,861 cells
+    Census metadata:
+      Tissue (specific): caudate lobe of liver
+      Dev stages (all non-zero): prime adult stage: 1,351; young adult stage: 510
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 1,861
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 1,861
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 1,861
+      Disease filtering:
+        Total cells: 1,861
+        Normal cells: 1,861
+  SUCCESS: 1,861 normal cells
+    (Adult: 1,861 / Total: 1,861)
+  Progress saved (20/64 complete)
+
+[21/64] Processing 8faa2c07-0080-4627-b1d7-e645a780d752
+  Author: Andrews (2022.0) - Hepatol Commun
+  Expected cells (from CSV): 50259.0
+    Querying Census API...
+    Census returned 50,259 total cells
+    After tissue filter (liver): 50,259 cells
+    Census metadata:
+      Tissue (specific): caudate lobe of liver
+      Dev stages (all non-zero): prime adult stage: 35,273; young adult stage: 14,986
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 50,259
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 50,259
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 50,259
+      Disease filtering:
+        Total cells: 50,259
+        Normal cells: 50,259
+  SUCCESS: 50,259 normal cells
+    (Adult: 50,259 / Total: 50,259)
+  Progress saved (21/64 complete)
+
+[22/64] Processing 524e045e-e74c-4e00-9884-d5c3bef3d862
+  Author: Andrews (2022.0) - Hepatol Commun
+  Expected cells (from CSV): 1374.0
+    Querying Census API...
+    Census returned 1,374 total cells
+    After tissue filter (liver): 1,374 cells
+    Census metadata:
+      Tissue (specific): caudate lobe of liver
+      Dev stages (all non-zero): prime adult stage: 956; young adult stage: 418
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 1,374
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 1,374
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 1,374
+      Disease filtering:
+        Total cells: 1,374
+        Normal cells: 1,374
+  SUCCESS: 1,374 normal cells
+    (Adult: 1,374 / Total: 1,374)
+  Progress saved (22/64 complete)
+
+[23/64] Processing 3b6ed41e-10a1-47dd-b995-8cde7d041fd6
+  Author: Andrews (2022.0) - Hepatol Commun
+  Expected cells (from CSV): 3977.0
+    Querying Census API...
+    Census returned 3,977 total cells
+    After tissue filter (liver): 3,977 cells
+    Census metadata:
+      Tissue (specific): caudate lobe of liver
+      Dev stages (all non-zero): prime adult stage: 2,917; young adult stage: 1,060
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 3,977
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 3,977
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 3,977
+      Disease filtering:
+        Total cells: 3,977
+        Normal cells: 3,977
+  SUCCESS: 3,977 normal cells
+    (Adult: 3,977 / Total: 3,977)
+  Progress saved (23/64 complete)
+
+[24/64] Processing 0895c838-e550-48a3-a777-dbcd35d30272
+  Author: Andrews (2022.0) - Hepatol Commun
+  Expected cells (from CSV): 146.0
+    Querying Census API...
+    Census returned 146 total cells
+    After tissue filter (liver): 146 cells
+    Census metadata:
+      Tissue (specific): caudate lobe of liver
+      Dev stages (all non-zero): prime adult stage: 129; young adult stage: 17
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 146
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 146
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 146
+      Disease filtering:
+        Total cells: 146
+        Normal cells: 146
+  SUCCESS: 146 normal cells
+    (Adult: 146 / Total: 146)
+  Progress saved (24/64 complete)
+
+[25/64] Processing 471647b3-04fe-4c76-8372-3264feb950e8
+  Author: Jardine (2021.0) - Nature
+  Expected cells (from CSV): 27998.0
+    Querying Census API...
+    Census returned 27,998 total cells
+    After tissue filter (liver): 16,099 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): fifth LMP month stage: 14,747; fourth LMP month stage: 1,352
+      Donors: 3
+      Age filtering (min_age=15):
+        Total cells: 16,099
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 16,099
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 16,099)
+  Progress saved (25/64 complete)
+
+[26/64] Processing e3a7e927-2632-4575-993d-d0905cd5da8b
+  Author: Vázquez-García (2022.0) - Nature
+  Expected cells (from CSV): 221315.0
+    Querying Census API...
+    Census returned 221,315 total cells
+    After tissue filter (liver): 968 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): 70-year-old stage: 968
+      Donors: 1
+      Age filtering (min_age=15):
+        Total cells: 968
+        Cells with parseable age: 968
+        Adult (age >= 15 or contains 'adult'): 968
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 968
+      Disease filtering:
+        Total cells: 968
+        Normal cells: 0
+  SUCCESS: 0 normal cells
+    (Adult: 968 / Total: 968)
+  Progress saved (26/64 complete)
+
+[27/64] Processing b252b015-b488-4d5c-b16e-968c13e48a2c
+  Author: Vázquez-García (2022.0) - Nature
+  Expected cells (from CSV): 927205.0
+    Querying Census API...
+    Census returned 927,205 total cells
+    After tissue filter (liver): 9,077 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): 70-year-old stage: 9,077
+      Donors: 1
+      Age filtering (min_age=15):
+        Total cells: 9,077
+        Cells with parseable age: 9,077
+        Adult (age >= 15 or contains 'adult'): 9,077
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 9,077
+      Disease filtering:
+        Total cells: 9,077
+        Normal cells: 0
+  SUCCESS: 0 normal cells
+    (Adult: 9,077 / Total: 9,077)
+  Progress saved (27/64 complete)
+
+[28/64] Processing 97d9238c-1a39-4873-b0bb-963ec2d788e6
+  Author: Vázquez-García (2022.0) - Nature
+  Expected cells (from CSV): 24025.0
+    Querying Census API...
+    Census returned 24,025 total cells
+    After tissue filter (liver): 289 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): 70-year-old stage: 289
+      Donors: 1
+      Age filtering (min_age=15):
+        Total cells: 289
+        Cells with parseable age: 289
+        Adult (age >= 15 or contains 'adult'): 289
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 289
+      Disease filtering:
+        Total cells: 289
+        Normal cells: 0
+  SUCCESS: 0 normal cells
+    (Adult: 289 / Total: 289)
+  Progress saved (28/64 complete)
+
+[29/64] Processing 44c93f2b-dd66-4d15-81ef-de9394c76290
+  Author: Vázquez-García (2022.0) - Nature
+  Expected cells (from CSV): 210107.0
+    Querying Census API...
+    Census returned 210,107 total cells
+    After tissue filter (liver): 642 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): 70-year-old stage: 642
+      Donors: 1
+      Age filtering (min_age=15):
+        Total cells: 642
+        Cells with parseable age: 642
+        Adult (age >= 15 or contains 'adult'): 642
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 642
+      Disease filtering:
+        Total cells: 642
+        Normal cells: 0
+  SUCCESS: 0 normal cells
+    (Adult: 642 / Total: 642)
+  Progress saved (29/64 complete)
+
+[30/64] Processing 0caedec7-1c7d-4e79-aba2-50f6916e643f
+  Author: Vázquez-García (2022.0) - Nature
+  Expected cells (from CSV): 166895.0
+    Querying Census API...
+    Census returned 166,895 total cells
+    After tissue filter (liver): 2,762 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): 70-year-old stage: 2,762
+      Donors: 1
+      Age filtering (min_age=15):
+        Total cells: 2,762
+        Cells with parseable age: 2,762
+        Adult (age >= 15 or contains 'adult'): 2,762
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 2,762
+      Disease filtering:
+        Total cells: 2,762
+        Normal cells: 0
+  SUCCESS: 0 normal cells
+    (Adult: 2,762 / Total: 2,762)
+  Progress saved (30/64 complete)
+
+[31/64] Processing 1d89d081-f43d-401a-be76-bd6ef9259f4e
+  Author: Xu (2023.0) - Cell
+  Expected cells (from CSV): 259678.0
+    Querying Census API...
+    Census returned 259,678 total cells
+    After tissue filter (liver): 259,678 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): prime adult stage: 53,022; adult stage: 39,132; 72-year-old stage: 23,897; 66-year-old stage: 22,272; young adult stage: 20,273; 75-year-old stage: 15,560; 73-year-old stage: 14,539; 77-year-old stage: 11,130; 55-year-old stage: 9,443; 49-year-old stage: 9,350; 68-year-old stage: 8,111; 46-year-old stage: 6,295; 58-year-old stage: 5,403; 41-year-old stage: 3,127; 28-year-old stage: 3,013; 65-year-old stage: 2,742; 53-year-old stage: 2,212; 26-year-old stage: 1,705; 64-year-old stage: 1,546; 45-year-old stage: 1,446; 21-year-old stage: 1,325; 69-year-old stage: 1,254; 52-year-old stage: 1,113; 44-year-old stage: 1,068; 34-year-old stage: 400; 70-year-old stage: 242; 67-year-old stage: 58
+      Donors: 36
+      Age filtering (min_age=15):
+        Total cells: 259,678
+        Cells with parseable age: 147,251
+        Adult (age >= 15 or contains 'adult'): 259,678
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 259,678
+      Disease filtering:
+        Total cells: 259,678
+        Normal cells: 259,678
+  SUCCESS: 259,678 normal cells
+    (Adult: 259,678 / Total: 259,678)
+  Progress saved (31/64 complete)
+
+[32/64] Processing fd072bc3-2dfb-46f8-b4e3-467cb3223182
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 908046.0
+    Querying Census API...
+    Census returned 908,046 total cells
+    After tissue filter (liver): 219,296 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): Carnegie stage 20: 32,200; 17th week post-fertilization stage: 29,782; Carnegie stage 23: 26,280; 9th week post-fertilization stage: 25,391; 15th week post-fertilization stage: 19,178; 13th week post-fertilization stage: 18,125; 10th week post-fertilization stage: 15,644; 14th week post-fertilization stage: 14,698; Carnegie stage 19: 13,034; 16th week post-fertilization stage: 9,772; 11th week post-fertilization stage: 7,793; Carnegie stage 22: 7,399
+      Donors: 14
+      Age filtering (min_age=15):
+        Total cells: 219,296
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 140,383
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 219,296)
+  Progress saved (32/64 complete)
+
+[33/64] Processing e21487a3-936c-4114-8cf2-cfcc60c7eb6d
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (33/64 complete)
+
+[34/64] Processing d0c12af4-c0e4-4c7b-873a-70752b449689
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 318656.0
+    Querying Census API...
+    Census returned 318,656 total cells
+    After tissue filter (liver): 31,872 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): Carnegie stage 20: 12,463; Carnegie stage 23: 3,990; 9th week post-fertilization stage: 3,140; 17th week post-fertilization stage: 2,561; 13th week post-fertilization stage: 1,767; 10th week post-fertilization stage: 1,421; Carnegie stage 22: 1,403; 16th week post-fertilization stage: 1,385; Carnegie stage 19: 1,332; 14th week post-fertilization stage: 1,211; 15th week post-fertilization stage: 797; 11th week post-fertilization stage: 402
+      Donors: 14
+      Age filtering (min_age=15):
+        Total cells: 31,872
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 12,684
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 31,872)
+  Progress saved (34/64 complete)
+
+[35/64] Processing aa633105-e8e5-4dcc-b72d-6da6c191b3e9
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 172175.0
+    Querying Census API...
+    Census returned 172,175 total cells
+    After tissue filter (liver): 27,227 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): 9th week post-fertilization stage: 4,523; 17th week post-fertilization stage: 4,100; 13th week post-fertilization stage: 3,893; Carnegie stage 20: 2,980; Carnegie stage 23: 2,810; 15th week post-fertilization stage: 2,278; 14th week post-fertilization stage: 1,432; 10th week post-fertilization stage: 1,217; 16th week post-fertilization stage: 1,095; 11th week post-fertilization stage: 1,075; Carnegie stage 19: 1,021; Carnegie stage 22: 803
+      Donors: 14
+      Age filtering (min_age=15):
+        Total cells: 27,227
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 19,613
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 27,227)
+  Progress saved (35/64 complete)
+
+[36/64] Processing 83de2c2c-c102-4b18-9e7d-da36e8ad76ca
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (36/64 complete)
+
+[37/64] Processing 804d9a85-665b-45c6-b204-13457fdcc7ac
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 149107.0
+    Querying Census API...
+    Census returned 149,107 total cells
+    After tissue filter (liver): 77,812 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): 17th week post-fertilization stage: 12,054; Carnegie stage 20: 10,989; 10th week post-fertilization stage: 10,331; 9th week post-fertilization stage: 6,961; Carnegie stage 23: 6,689; 14th week post-fertilization stage: 5,734; 15th week post-fertilization stage: 5,207; 16th week post-fertilization stage: 4,692; Carnegie stage 19: 4,634; 13th week post-fertilization stage: 4,325; 11th week post-fertilization stage: 3,444; Carnegie stage 22: 2,752
+      Donors: 14
+      Age filtering (min_age=15):
+        Total cells: 77,812
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 52,748
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 77,812)
+  Progress saved (37/64 complete)
+
+[38/64] Processing 6a30bf44-c490-41ac-965b-0bb58432b10a
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 40420.0
+    Querying Census API...
+    Census returned 40,420 total cells
+    After tissue filter (liver): 13,386 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): Carnegie stage 20: 4,342; 17th week post-fertilization stage: 1,455; 13th week post-fertilization stage: 1,203; Carnegie stage 23: 1,005; Carnegie stage 19: 900; 10th week post-fertilization stage: 860; 9th week post-fertilization stage: 846; 16th week post-fertilization stage: 616; 15th week post-fertilization stage: 603; 14th week post-fertilization stage: 589; Carnegie stage 22: 562; 11th week post-fertilization stage: 405
+      Donors: 14
+      Age filtering (min_age=15):
+        Total cells: 13,386
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 6,577
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 13,386)
+  Progress saved (38/64 complete)
+
+[39/64] Processing 60608f13-0141-462c-acac-4556dc6b542b
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (39/64 complete)
+
+[40/64] Processing 48101fa2-1a63-4514-b892-53ea1d3a8657
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 589390.0
+    Querying Census API...
+    Census returned 589,390 total cells
+    After tissue filter (liver): 187,424 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): 17th week post-fertilization stage: 27,221; Carnegie stage 23: 22,290; 9th week post-fertilization stage: 22,251; Carnegie stage 20: 19,737; 15th week post-fertilization stage: 18,381; 13th week post-fertilization stage: 16,358; 10th week post-fertilization stage: 14,223; 14th week post-fertilization stage: 13,487; Carnegie stage 19: 11,702; 16th week post-fertilization stage: 8,387; 11th week post-fertilization stage: 7,391; Carnegie stage 22: 5,996
+      Donors: 14
+      Age filtering (min_age=15):
+        Total cells: 187,424
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 127,699
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 187,424)
+  Progress saved (40/64 complete)
+
+[41/64] Processing 3affa268-8a74-460a-ac9b-a984c0832469
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 239698.0
+    Querying Census API...
+    Census returned 239,698 total cells
+    After tissue filter (liver): 39,270 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): 13th week post-fertilization stage: 7,392; 17th week post-fertilization stage: 6,972; 9th week post-fertilization stage: 5,145; Carnegie stage 20: 3,666; 15th week post-fertilization stage: 3,465; Carnegie stage 23: 3,164; 14th week post-fertilization stage: 1,868; 16th week post-fertilization stage: 1,770; 10th week post-fertilization stage: 1,638; 11th week post-fertilization stage: 1,597; Carnegie stage 19: 1,557; Carnegie stage 22: 1,036
+      Donors: 14
+      Age filtering (min_age=15):
+        Total cells: 39,270
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 29,847
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 39,270)
+  Progress saved (41/64 complete)
+
+[42/64] Processing 2aa1c93c-4ef3-4e9a-98e7-0bd37933953c
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 218758.0
+    Querying Census API...
+    Census returned 218,758 total cells
+    After tissue filter (liver): 84,082 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): Carnegie stage 23: 13,213; Carnegie stage 20: 11,304; 9th week post-fertilization stage: 10,660; 15th week post-fertilization stage: 10,102; 17th week post-fertilization stage: 9,457; Carnegie stage 19: 6,527; 14th week post-fertilization stage: 6,432; 13th week post-fertilization stage: 5,551; 10th week post-fertilization stage: 2,976; Carnegie stage 22: 2,679; 11th week post-fertilization stage: 2,635; 16th week post-fertilization stage: 2,546
+      Donors: 14
+      Age filtering (min_age=15):
+        Total cells: 84,082
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 50,359
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 84,082)
+  Progress saved (42/64 complete)
+
+[43/64] Processing 1b350d0a-4535-4879-beb6-1142f3f94947
+  Author: Wells (2025.0) - Nat Immunol
+  Expected cells (from CSV): 1281499.0
+    Querying Census API...
+    Census returned 1,281,499 total cells
+    After tissue filter (liver): 6,859 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): eighth decade stage: 3,565; sixth decade stage: 2,484; fifth decade stage: 810
+      Donors: 3
+      Age filtering (min_age=15):
+        Total cells: 6,859
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 6,859)
+  Progress saved (43/64 complete)
+
+[44/64] Processing c5d88abe-f23a-45fa-a534-788985e93dad
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 592317.0
+    Querying Census API...
+    Census returned 592,317 total cells
+    After tissue filter (liver): 11,977 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): 36-year-old stage: 5,410; 67-year-old stage: 3,500; 60-year-old stage: 1,846; 59-year-old stage: 1,221
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 11,977
+        Cells with parseable age: 11,977
+        Adult (age >= 15 or contains 'adult'): 11,977
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 11,977
+      Disease filtering:
+        Total cells: 11,977
+        Normal cells: 11,977
+  SUCCESS: 11,977 normal cells
+    (Adult: 11,977 / Total: 11,977)
+  Progress saved (44/64 complete)
+
+[45/64] Processing a68b64d8-aee3-4947-81b7-36b8fe5a44d2
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 232684.0
+    Querying Census API...
+    Census returned 232,684 total cells
+    After tissue filter (liver): 384 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): 36-year-old stage: 201; 67-year-old stage: 134; 59-year-old stage: 30; 60-year-old stage: 19
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 384
+        Cells with parseable age: 384
+        Adult (age >= 15 or contains 'adult'): 384
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 384
+      Disease filtering:
+        Total cells: 384
+        Normal cells: 384
+  SUCCESS: 384 normal cells
+    (Adult: 384 / Total: 384)
+  Progress saved (45/64 complete)
+
+[46/64] Processing 97a17473-e2b1-4f31-a544-44a60773e2dd
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 228032.0
+    Querying Census API...
+    Census returned 228,032 total cells
+    After tissue filter (liver): 8,079 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): 59-year-old stage: 5,516; 36-year-old stage: 1,558; 67-year-old stage: 947; 60-year-old stage: 58
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 8,079
+        Cells with parseable age: 8,079
+        Adult (age >= 15 or contains 'adult'): 8,079
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 8,079
+      Disease filtering:
+        Total cells: 8,079
+        Normal cells: 8,079
+  SUCCESS: 8,079 normal cells
+    (Adult: 8,079 / Total: 8,079)
+  Progress saved (46/64 complete)
+
+[47/64] Processing 6d41668c-168c-4500-b06a-4674ccf3e19d
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 22214.0
+    Querying Census API...
+    Census returned 22,214 total cells
+    After tissue filter (liver): 22,214 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): 36-year-old stage: 7,888; 59-year-old stage: 7,025; 67-year-old stage: 5,187; 60-year-old stage: 2,114
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 22,214
+        Cells with parseable age: 22,214
+        Adult (age >= 15 or contains 'adult'): 22,214
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 22,214
+      Disease filtering:
+        Total cells: 22,214
+        Normal cells: 22,214
+  SUCCESS: 22,214 normal cells
+    (Adult: 22,214 / Total: 22,214)
+  Progress saved (47/64 complete)
+
+[48/64] Processing 5a11f879-d1ef-458a-910c-9b0bdfca5ebf
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 73195.0
+    Querying Census API...
+    Census returned 73,195 total cells
+    After tissue filter (liver): 1,774 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): 36-year-old stage: 719; 67-year-old stage: 606; 59-year-old stage: 258; 60-year-old stage: 191
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 1,774
+        Cells with parseable age: 1,774
+        Adult (age >= 15 or contains 'adult'): 1,774
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 1,774
+      Disease filtering:
+        Total cells: 1,774
+        Normal cells: 1,774
+  SUCCESS: 1,774 normal cells
+    (Adult: 1,774 / Total: 1,774)
+  Progress saved (48/64 complete)
+
+[49/64] Processing 53d208b0-2cfd-4366-9866-c3c6114081bc
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 1136218.0
+    Querying Census API...
+    Census returned 1,136,218 total cells
+    After tissue filter (liver): 22,214 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): 36-year-old stage: 7,888; 59-year-old stage: 7,025; 67-year-old stage: 5,187; 60-year-old stage: 2,114
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 22,214
+        Cells with parseable age: 22,214
+        Adult (age >= 15 or contains 'adult'): 22,214
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 22,214
+      Disease filtering:
+        Total cells: 22,214
+        Normal cells: 22,214
+  SUCCESS: 22,214 normal cells
+    (Adult: 22,214 / Total: 22,214)
+  Progress saved (49/64 complete)
+
+[50/64] Processing e84f2780-51e8-4cfa-8aa0-13bbfef677c7
+  Author: Guilliams (2022.0) - Cell
+  Expected cells (from CSV): 167598.0
+    Querying Census API...
+    Census returned 167,598 total cells
+    After tissue filter (liver): 167,598 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): adult stage: 39,132; 72-year-old stage: 23,897; 66-year-old stage: 22,272; 75-year-old stage: 15,560; 73-year-old stage: 14,539; 49-year-old stage: 9,350; 77-year-old stage: 8,524; 68-year-old stage: 8,111; 55-year-old stage: 7,741; 46-year-old stage: 6,295; 58-year-old stage: 5,403; 28-year-old stage: 3,013; 53-year-old stage: 2,212; 64-year-old stage: 1,480; 67-year-old stage: 58; 33-year-old stage: 11
+      Donors: 19
+      Age filtering (min_age=15):
+        Total cells: 167,598
+        Cells with parseable age: 128,466
+        Adult (age >= 15 or contains 'adult'): 167,598
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 167,598
+      Disease filtering:
+        Total cells: 167,598
+        Normal cells: 167,598
+  SUCCESS: 167,598 normal cells
+    (Adult: 167,598 / Total: 167,598)
+  Progress saved (50/64 complete)
+
+[51/64] Processing dfdf1ae2-d624-4004-9353-f18b902f6bca
+  Author: Guilliams (2022.0) - Cell
+  Expected cells (from CSV): 40821.0
+    Querying Census API...
+    Census returned 40,821 total cells
+    After tissue filter (liver): 40,821 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): 72-year-old stage: 22,121; adult stage: 10,071; 75-year-old stage: 1,630; 66-year-old stage: 1,478; 77-year-old stage: 1,257; 49-year-old stage: 1,093; 55-year-old stage: 903; 46-year-old stage: 804; 28-year-old stage: 632; 73-year-old stage: 624; 53-year-old stage: 208
+      Donors: 14
+      Age filtering (min_age=15):
+        Total cells: 40,821
+        Cells with parseable age: 30,750
+        Adult (age >= 15 or contains 'adult'): 40,821
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 40,821
+      Disease filtering:
+        Total cells: 40,821
+        Normal cells: 40,821
+  SUCCESS: 40,821 normal cells
+    (Adult: 40,821 / Total: 40,821)
+  Progress saved (51/64 complete)
+
+[52/64] Processing d1cbed97-d88f-4954-8925-13302fe30b39
+  Author: Guilliams (2022.0) - Cell
+  Expected cells (from CSV): 15481.0
+    Querying Census API...
+    Census returned 15,481 total cells
+    After tissue filter (liver): 15,481 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): 68-year-old stage: 7,699; 58-year-old stage: 5,212; 64-year-old stage: 1,322; 55-year-old stage: 307; 49-year-old stage: 262; adult stage: 218; 46-year-old stage: 130; 72-year-old stage: 113; 66-year-old stage: 70; 75-year-old stage: 50; 67-year-old stage: 41; 77-year-old stage: 31; 28-year-old stage: 21; 33-year-old stage: 5
+      Donors: 15
+      Age filtering (min_age=15):
+        Total cells: 15,481
+        Cells with parseable age: 15,263
+        Adult (age >= 15 or contains 'adult'): 15,481
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 15,481
+      Disease filtering:
+        Total cells: 15,481
+        Normal cells: 15,481
+  SUCCESS: 15,481 normal cells
+    (Adult: 15,481 / Total: 15,481)
+  Progress saved (52/64 complete)
+
+[53/64] Processing b03e4ef8-4e6b-47f4-84a7-e8ed033d08cd
+  Author: Guilliams (2022.0) - Cell
+  Expected cells (from CSV): 105790.0
+    Querying Census API...
+    Census returned 105,790 total cells
+    After tissue filter (liver): 105,790 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): adult stage: 28,220; 66-year-old stage: 20,583; 73-year-old stage: 13,885; 75-year-old stage: 13,704; 49-year-old stage: 7,901; 55-year-old stage: 6,286; 46-year-old stage: 5,350; 77-year-old stage: 4,579; 28-year-old stage: 2,247; 53-year-old stage: 1,996; 72-year-old stage: 763; 64-year-old stage: 147; 68-year-old stage: 63; 58-year-old stage: 47; 67-year-old stage: 13; 33-year-old stage: 6
+      Donors: 19
+      Age filtering (min_age=15):
+        Total cells: 105,790
+        Cells with parseable age: 77,570
+        Adult (age >= 15 or contains 'adult'): 105,790
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 105,790
+      Disease filtering:
+        Total cells: 105,790
+        Normal cells: 105,790
+  SUCCESS: 105,790 normal cells
+    (Adult: 105,790 / Total: 105,790)
+  Progress saved (53/64 complete)
+
+[54/64] Processing fe52003e-1460-4a65-a213-2bb1a508332f
+  Author: Domínguez Conde (2022.0) - Science
+  Expected cells (from CSV): 51552.0
+    Querying Census API...
+    Census returned 51,552 total cells
+    After tissue filter (liver): 2,673 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): eighth decade stage: 927; seventh decade stage: 879; sixth decade stage: 867
+      Donors: 7
+      Age filtering (min_age=15):
+        Total cells: 2,673
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 2,673)
+  Progress saved (54/64 complete)
+
+[55/64] Processing ae29ebd0-1973-40a4-a6af-d15a5f77a80f
+  Author: Domínguez Conde (2022.0) - Science
+  Expected cells (from CSV): 216611.0
+    Querying Census API...
+    Census returned 216,611 total cells
+    After tissue filter (liver): 10,011 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): eighth decade stage: 4,459; sixth decade stage: 3,835; seventh decade stage: 1,717
+      Donors: 7
+      Age filtering (min_age=15):
+        Total cells: 10,011
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 10,011)
+  Progress saved (55/64 complete)
+
+[56/64] Processing 71be997d-ff75-41b9-8a9f-1288c865f921
+  Author: Domínguez Conde (2022.0) - Science
+  Expected cells (from CSV): 54934.0
+    Querying Census API...
+    Census returned 54,934 total cells
+    After tissue filter (liver): 638 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): eighth decade stage: 301; sixth decade stage: 217; seventh decade stage: 120
+      Donors: 7
+      Age filtering (min_age=15):
+        Total cells: 638
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 638)
+  Progress saved (56/64 complete)
+
+[57/64] Processing 1b9d8702-5af8-4142-85ed-020eb06ec4f6
+  Author: Domínguez Conde (2022.0) - Science
+  Expected cells (from CSV): 329762.0
+    Querying Census API...
+    Census returned 329,762 total cells
+    After tissue filter (liver): 13,368 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): eighth decade stage: 5,725; sixth decade stage: 4,923; seventh decade stage: 2,720
+      Donors: 7
+      Age filtering (min_age=15):
+        Total cells: 13,368
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 13,368)
+  Progress saved (57/64 complete)
+
+[58/64] Processing 6725ee8e-ef5b-4e68-8901-61bd14a1fe73
+  Author: Xu (2025.0) - Nat Genet
+  Expected cells (from CSV): 806646.0
+    Querying Census API...
+    Census returned 806,646 total cells
+    After tissue filter (liver): 63,319 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): unknown: 63,319
+      Donors: 19
+      Age filtering (min_age=15):
+        Total cells: 63,319
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 63,319)
+  Progress saved (58/64 complete)
+
+[59/64] Processing a43aa46b-bd16-47fe-bc3e-19a052624e79
+  Author: MacParland (2018.0) - Nat Commun
+  Expected cells (from CSV): 8444.0
+    Querying Census API...
+    Census returned 8,444 total cells
+    After tissue filter (liver): 8,444 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): 41-year-old stage: 3,127; 26-year-old stage: 1,705; 21-year-old stage: 1,325; 65-year-old stage: 1,219; 44-year-old stage: 1,068
+      Donors: 5
+      Age filtering (min_age=15):
+        Total cells: 8,444
+        Cells with parseable age: 8,444
+        Adult (age >= 15 or contains 'adult'): 8,444
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 8,444
+      Disease filtering:
+        Total cells: 8,444
+        Normal cells: 8,444
+  SUCCESS: 8,444 normal cells
+    (Adult: 8,444 / Total: 8,444)
+  Progress saved (59/64 complete)
+
+[60/64] Processing 2adb1f8a-a6b1-4909-8ee8-484814e2d4bf
+  Author: Han (2020.0) - Nature
+  Expected cells (from CSV): 599926.0
+    Querying Census API...
+    Census returned 598,266 total cells
+    After tissue filter (liver): 28,501 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): 26th week post-fertilization stage: 17,929; 23-year-old stage: 4,384; 52-year-old stage: 4,377; 21-year-old stage: 1,811
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 28,501
+        Cells with parseable age: 10,572
+        Adult (age >= 15 or contains 'adult'): 10,572
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 17,929
+        After filter: 10,572
+      Disease filtering:
+        Total cells: 10,572
+        Normal cells: 10,572
+  SUCCESS: 10,572 normal cells
+    (Adult: 10,572 / Total: 28,501)
+  Progress saved (60/64 complete)
+
+[61/64] Processing fa27492b-82ff-4ab7-ac61-0e2b184eee67
+  Author: Cao (2020.0) - Science
+  Expected cells (from CSV): 1001288.0
+    Querying Census API...
+    Census returned 1,001,288 total cells
+    After tissue filter (liver): 27,815 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): 12th week post-fertilization stage: 10,538; 17th week post-fertilization stage: 7,184; 15th week post-fertilization stage: 6,790; 13th week post-fertilization stage: 2,465; 16th week post-fertilization stage: 838
+      Donors: 9
+      Age filtering (min_age=15):
+        Total cells: 27,815
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 27,815
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 27,815)
+  Progress saved (61/64 complete)
+
+[62/64] Processing f7c1c579-2dc0-47e2-ba19-8165c5a0e353
+  Author: Cao (2020.0) - Science
+  Expected cells (from CSV): 4062980.0
+    Querying Census API...
+    Census returned 4,062,980 total cells
+    After tissue filter (liver): 113,138 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): 12th week post-fertilization stage: 42,990; 17th week post-fertilization stage: 29,155; 15th week post-fertilization stage: 27,404; 13th week post-fertilization stage: 10,177; 16th week post-fertilization stage: 3,412
+      Donors: 9
+      Age filtering (min_age=15):
+        Total cells: 113,138
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 113,138
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 113,138)
+  Progress saved (62/64 complete)
+
+[63/64] Processing 814f2c97-49e4-4a17-be26-fde3c4c57d1b
+  Author: Park (2020.0) - Science
+  Expected cells (from CSV): 27589.0
+    Querying Census API...
+    Census returned 27,589 total cells
+    After tissue filter (liver): 17,145 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): 17th week post-fertilization stage: 3,491; 12th week post-fertilization stage: 2,221; Carnegie stage 23: 2,011; 10th week post-fertilization stage: 1,791; 15th week post-fertilization stage: 1,518; 16th week post-fertilization stage: 1,457; Carnegie stage 19: 1,288; 13th week post-fertilization stage: 1,272; Carnegie stage 22: 1,232; 11th week post-fertilization stage: 864
+      Donors: 11
+      Age filtering (min_age=15):
+        Total cells: 17,145
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 12,614
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 17,145)
+  Progress saved (63/64 complete)
+
+[64/64] Processing ec6ceff8-c8bc-488d-b6bf-30df2fa92169
+  Author: Bondoc (2021.0) - Commun Biol
+  Expected cells (from CSV): 67110.0
+    Querying Census API...
+    Census returned 67,110 total cells
+    After tissue filter (liver): 67,110 cells
+    Census metadata:
+      Tissue (specific): liver
+      Dev stages (all non-zero): unknown: 67,110
+      Donors: 3
+      Age filtering (min_age=15):
+        Total cells: 67,110
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 67,110)
+  Progress saved (64/64 complete)
+
+======================================================================
+COMPLETE
+======================================================================
+Total datasets: 64
+Successful: 61
+Failed: 3
+Skipped: 0
+
+Output: data/homo_sapiens_liver_harvester_with_normal_counts.csv
+
+Completed: 2026-01-29 02:34:36
+Log saved to: data/homo_sapiens_liver_harvester_with_normal_counts_log.txt

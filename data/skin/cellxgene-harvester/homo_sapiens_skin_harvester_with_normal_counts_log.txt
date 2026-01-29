@@ -1,0 +1,581 @@
+Starting: 2026-01-29 03:05:55
+Input: data/homo_sapiens_skin_harvester.csv
+Tissue filter: skin
+Min age: 15 (use 0 to disable)
+Output: data/homo_sapiens_skin_harvester_with_normal_counts.csv
+Log: data/homo_sapiens_skin_harvester_with_normal_counts_log.txt
+
+Loaded 24 datasets from data/homo_sapiens_skin_harvester.csv
+
+Initialized output: data/homo_sapiens_skin_harvester_with_normal_counts.csv
+
+Processing 24 datasets...
+Progress saved after each dataset
+
+
+[1/24] Processing f512b8b6-369d-4a85-a695-116e0806857f
+  Author: Cheng (2018.0) - Cell Reports
+  Expected cells (from CSV): 68036.0
+    Querying Census API...
+    Census returned 68,036 total cells
+    After tissue filter (skin): 68,036 cells
+    Census metadata:
+      Tissue (specific): skin of prepuce of penis
+      Dev stages (all non-zero): adult stage: 43,054; newborn stage (0-28 days): 24,982
+      Donors: 9
+      Age filtering (min_age=15):
+        Total cells: 68,036
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 43,054
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 24,982
+        After filter: 43,054
+      Disease filtering:
+        Total cells: 43,054
+        Normal cells: 43,054
+  SUCCESS: 43,054 normal cells
+    (Adult: 43,054 / Total: 68,036)
+  Progress saved (1/24 complete)
+
+[2/24] Processing 124744b8-4681-474a-9894-683896122708
+  Author: Solé-Boldo (2020.0) - Commun Biol
+  Expected cells (from CSV): 15457.0
+    Querying Census API...
+    Census returned 15,457 total cells
+    After tissue filter (skin): 15,457 cells
+    Census metadata:
+      Tissue (specific): zone of skin
+      Dev stages (all non-zero): 69-year-old stage: 4,535; 53-year-old stage: 3,324; 25-year-old stage: 2,784; 27-year-old stage: 2,670; 70-year-old stage: 2,144
+      Donors: 5
+      Age filtering (min_age=15):
+        Total cells: 15,457
+        Cells with parseable age: 15,457
+        Adult (age >= 15 or contains 'adult'): 15,457
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 15,457
+      Disease filtering:
+        Total cells: 15,457
+        Normal cells: 15,457
+  SUCCESS: 15,457 normal cells
+    (Adult: 15,457 / Total: 15,457)
+  Progress saved (2/24 complete)
+
+[3/24] Processing f0f0d7c4-3bec-428e-9539-c99d36548d96
+  Author: Reynolds (2021.0) - Science
+  Expected cells (from CSV): 195739.0
+    Querying Census API...
+    Census returned 195,739 total cells
+    After tissue filter (skin): 99,508 cells
+    Census metadata:
+      Tissue (specific): skin epidermis
+      Dev stages (all non-zero): adult stage: 99,508
+      Donors: 5
+      Age filtering (min_age=15):
+        Total cells: 99,508
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 99,508
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 99,508
+      Disease filtering:
+        Total cells: 99,508
+        Normal cells: 99,508
+  SUCCESS: 99,508 normal cells
+    (Adult: 99,508 / Total: 99,508)
+  Progress saved (3/24 complete)
+
+[4/24] Processing fd072bc3-2dfb-46f8-b4e3-467cb3223182
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 908046.0
+    Querying Census API...
+    Census returned 908,046 total cells
+    After tissue filter (skin): 180,931 cells
+    Census metadata:
+      Tissue (specific): skin of body
+      Dev stages (all non-zero): 15th week post-fertilization stage: 46,996; 14th week post-fertilization stage: 39,003; 11th week post-fertilization stage: 17,586; Carnegie stage 23: 15,428; 9th week post-fertilization stage: 15,217; Carnegie stage 19: 11,071; Carnegie stage 20: 10,054; Carnegie stage 22: 8,231; 13th week post-fertilization stage: 8,083; 10th week post-fertilization stage: 5,450; 17th week post-fertilization stage: 3,812
+      Donors: 13
+      Age filtering (min_age=15):
+        Total cells: 180,931
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 136,147
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 180,931)
+  Progress saved (4/24 complete)
+
+[5/24] Processing d0c12af4-c0e4-4c7b-873a-70752b449689
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 318656.0
+    Querying Census API...
+    Census returned 318,656 total cells
+    After tissue filter (skin): 127,561 cells
+    Census metadata:
+      Tissue (specific): skin of body
+      Dev stages (all non-zero): 15th week post-fertilization stage: 26,906; 14th week post-fertilization stage: 26,230; 11th week post-fertilization stage: 16,549; Carnegie stage 23: 13,099; 9th week post-fertilization stage: 10,189; Carnegie stage 19: 9,228; Carnegie stage 20: 7,094; Carnegie stage 22: 5,574; 10th week post-fertilization stage: 5,150; 13th week post-fertilization stage: 4,160; 17th week post-fertilization stage: 3,382
+      Donors: 13
+      Age filtering (min_age=15):
+        Total cells: 127,561
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 92,566
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 127,561)
+  Progress saved (5/24 complete)
+
+[6/24] Processing aa633105-e8e5-4dcc-b72d-6da6c191b3e9
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 172175.0
+    Querying Census API...
+    Census returned 172,175 total cells
+    After tissue filter (skin): 15,017 cells
+    Census metadata:
+      Tissue (specific): skin of body
+      Dev stages (all non-zero): 15th week post-fertilization stage: 8,259; 14th week post-fertilization stage: 2,835; 13th week post-fertilization stage: 1,076; 9th week post-fertilization stage: 859; Carnegie stage 22: 810; Carnegie stage 23: 656; Carnegie stage 19: 282; 10th week post-fertilization stage: 108; 11th week post-fertilization stage: 74; 17th week post-fertilization stage: 41; Carnegie stage 20: 17
+      Donors: 13
+      Age filtering (min_age=15):
+        Total cells: 15,017
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 13,252
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 15,017)
+  Progress saved (6/24 complete)
+
+[7/24] Processing 804d9a85-665b-45c6-b204-13457fdcc7ac
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 149107.0
+    Querying Census API...
+    Census returned 149,107 total cells
+    After tissue filter (skin): 2,566 cells
+    Census metadata:
+      Tissue (specific): skin of body
+      Dev stages (all non-zero): Carnegie stage 20: 725; 15th week post-fertilization stage: 702; 14th week post-fertilization stage: 583; 11th week post-fertilization stage: 248; Carnegie stage 19: 83; Carnegie stage 22: 80; 9th week post-fertilization stage: 44; 13th week post-fertilization stage: 40; Carnegie stage 23: 26; 17th week post-fertilization stage: 20; 10th week post-fertilization stage: 15
+      Donors: 13
+      Age filtering (min_age=15):
+        Total cells: 2,566
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 1,652
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 2,566)
+  Progress saved (7/24 complete)
+
+[8/24] Processing 6a30bf44-c490-41ac-965b-0bb58432b10a
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 40420.0
+    Querying Census API...
+    Census returned 40,420 total cells
+    After tissue filter (skin): 777 cells
+    Census metadata:
+      Tissue (specific): skin of body
+      Dev stages (all non-zero): 15th week post-fertilization stage: 266; 14th week post-fertilization stage: 219; Carnegie stage 22: 74; Carnegie stage 20: 46; Carnegie stage 19: 43; 9th week post-fertilization stage: 42; 13th week post-fertilization stage: 29; 11th week post-fertilization stage: 25; Carnegie stage 23: 16; 10th week post-fertilization stage: 10; 17th week post-fertilization stage: 7
+      Donors: 13
+      Age filtering (min_age=15):
+        Total cells: 777
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 598
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 777)
+  Progress saved (8/24 complete)
+
+[9/24] Processing 48101fa2-1a63-4514-b892-53ea1d3a8657
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 589390.0
+    Querying Census API...
+    Census returned 589,390 total cells
+    After tissue filter (skin): 53,370 cells
+    Census metadata:
+      Tissue (specific): skin of body
+      Dev stages (all non-zero): 15th week post-fertilization stage: 20,090; 14th week post-fertilization stage: 12,773; 9th week post-fertilization stage: 5,028; 13th week post-fertilization stage: 3,923; Carnegie stage 20: 2,960; Carnegie stage 22: 2,657; Carnegie stage 23: 2,329; Carnegie stage 19: 1,843; 11th week post-fertilization stage: 1,037; 17th week post-fertilization stage: 430; 10th week post-fertilization stage: 300
+      Donors: 13
+      Age filtering (min_age=15):
+        Total cells: 53,370
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 43,581
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 53,370)
+  Progress saved (9/24 complete)
+
+[10/24] Processing 3affa268-8a74-460a-ac9b-a984c0832469
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 239698.0
+    Querying Census API...
+    Census returned 239,698 total cells
+    After tissue filter (skin): 17,532 cells
+    Census metadata:
+      Tissue (specific): skin of body
+      Dev stages (all non-zero): 15th week post-fertilization stage: 9,289; 14th week post-fertilization stage: 3,765; 13th week post-fertilization stage: 1,427; 9th week post-fertilization stage: 925; Carnegie stage 22: 869; Carnegie stage 23: 670; Carnegie stage 19: 297; 10th week post-fertilization stage: 119; 11th week post-fertilization stage: 91; 17th week post-fertilization stage: 53; Carnegie stage 20: 27
+      Donors: 13
+      Age filtering (min_age=15):
+        Total cells: 17,532
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 15,669
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 17,532)
+  Progress saved (10/24 complete)
+
+[11/24] Processing 2aa1c93c-4ef3-4e9a-98e7-0bd37933953c
+  Author: Suo (2022.0) - Science
+  Expected cells (from CSV): 218758.0
+    Querying Census API...
+    Census returned 218,758 total cells
+    After tissue filter (skin): 32,990 cells
+    Census metadata:
+      Tissue (specific): skin of body
+      Dev stages (all non-zero): 15th week post-fertilization stage: 9,987; 14th week post-fertilization stage: 8,162; 9th week post-fertilization stage: 4,049; 13th week post-fertilization stage: 2,451; Carnegie stage 20: 2,229; Carnegie stage 22: 1,808; Carnegie stage 23: 1,631; Carnegie stage 19: 1,451; 11th week post-fertilization stage: 693; 17th week post-fertilization stage: 357; 10th week post-fertilization stage: 172
+      Donors: 13
+      Age filtering (min_age=15):
+        Total cells: 32,990
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 25,871
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 32,990)
+  Progress saved (11/24 complete)
+
+[12/24] Processing 1b350d0a-4535-4879-beb6-1142f3f94947
+  Author: Wells (2025.0) - Nat Immunol
+  Expected cells (from CSV): 1281499.0
+    Querying Census API...
+    Census returned 1,281,499 total cells
+    After tissue filter (skin): 1,748 cells
+    Census metadata:
+      Tissue (specific): skin of body
+      Dev stages (all non-zero): fifth decade stage: 1,283; sixth decade stage: 273; eighth decade stage: 190; third decade stage: 2
+      Donors: 8
+      Age filtering (min_age=15):
+        Total cells: 1,748
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 1,748)
+  Progress saved (12/24 complete)
+
+[13/24] Processing c5d88abe-f23a-45fa-a534-788985e93dad
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 592317.0
+    Querying Census API...
+    Census returned 592,317 total cells
+    After tissue filter (skin): 10,684 cells
+    Census metadata:
+      Tissue (specific): skin of body
+      Dev stages (all non-zero): 45-year-old stage: 4,738; 33-year-old stage: 3,572; 59-year-old stage: 1,760; 61-year-old stage: 614
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 10,684
+        Cells with parseable age: 10,684
+        Adult (age >= 15 or contains 'adult'): 10,684
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 10,684
+      Disease filtering:
+        Total cells: 10,684
+        Normal cells: 10,684
+  SUCCESS: 10,684 normal cells
+    (Adult: 10,684 / Total: 10,684)
+  Progress saved (13/24 complete)
+
+[14/24] Processing a68b64d8-aee3-4947-81b7-36b8fe5a44d2
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 232684.0
+    Querying Census API...
+    Census returned 232,684 total cells
+    After tissue filter (skin): 4,679 cells
+    Census metadata:
+      Tissue (specific): skin of body
+      Dev stages (all non-zero): 33-year-old stage: 1,843; 59-year-old stage: 1,837; 45-year-old stage: 917; 61-year-old stage: 82
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 4,679
+        Cells with parseable age: 4,679
+        Adult (age >= 15 or contains 'adult'): 4,679
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 4,679
+      Disease filtering:
+        Total cells: 4,679
+        Normal cells: 4,679
+  SUCCESS: 4,679 normal cells
+    (Adult: 4,679 / Total: 4,679)
+  Progress saved (14/24 complete)
+
+[15/24] Processing 97a17473-e2b1-4f31-a544-44a60773e2dd
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 228032.0
+    Querying Census API...
+    Census returned 228,032 total cells
+    After tissue filter (skin): 138 cells
+    Census metadata:
+      Tissue (specific): skin of body
+      Dev stages (all non-zero): 33-year-old stage: 68; 45-year-old stage: 27; 61-year-old stage: 26; 59-year-old stage: 17
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 138
+        Cells with parseable age: 138
+        Adult (age >= 15 or contains 'adult'): 138
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 138
+      Disease filtering:
+        Total cells: 138
+        Normal cells: 138
+  SUCCESS: 138 normal cells
+    (Adult: 138 / Total: 138)
+  Progress saved (15/24 complete)
+
+[16/24] Processing 5a11f879-d1ef-458a-910c-9b0bdfca5ebf
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 73195.0
+    Querying Census API...
+    Census returned 73,195 total cells
+    After tissue filter (skin): 1,983 cells
+    Census metadata:
+      Tissue (specific): skin of body
+      Dev stages (all non-zero): 33-year-old stage: 842; 59-year-old stage: 575; 45-year-old stage: 502; 61-year-old stage: 64
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 1,983
+        Cells with parseable age: 1,983
+        Adult (age >= 15 or contains 'adult'): 1,983
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 1,983
+      Disease filtering:
+        Total cells: 1,983
+        Normal cells: 1,983
+  SUCCESS: 1,983 normal cells
+    (Adult: 1,983 / Total: 1,983)
+  Progress saved (16/24 complete)
+
+[17/24] Processing 53d208b0-2cfd-4366-9866-c3c6114081bc
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 1136218.0
+    Querying Census API...
+    Census returned 1,136,218 total cells
+    After tissue filter (skin): 17,484 cells
+    Census metadata:
+      Tissue (specific): skin of body
+      Dev stages (all non-zero): 33-year-old stage: 6,325; 45-year-old stage: 6,184; 59-year-old stage: 4,189; 61-year-old stage: 786
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 17,484
+        Cells with parseable age: 17,484
+        Adult (age >= 15 or contains 'adult'): 17,484
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 17,484
+      Disease filtering:
+        Total cells: 17,484
+        Normal cells: 17,484
+  SUCCESS: 17,484 normal cells
+    (Adult: 17,484 / Total: 17,484)
+  Progress saved (17/24 complete)
+
+[18/24] Processing 0041b9c3-6a49-4bf7-8514-9bc7190067a7
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 17786.0
+    Querying Census API...
+    Census returned 17,786 total cells
+    After tissue filter (skin): 17,484 cells
+    Census metadata:
+      Tissue (specific): skin of body
+      Dev stages (all non-zero): 33-year-old stage: 6,325; 45-year-old stage: 6,184; 59-year-old stage: 4,189; 61-year-old stage: 786
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 17,484
+        Cells with parseable age: 17,484
+        Adult (age >= 15 or contains 'adult'): 17,484
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 17,484
+      Disease filtering:
+        Total cells: 17,484
+        Normal cells: 17,484
+  SUCCESS: 17,484 normal cells
+    (Adult: 17,484 / Total: 17,484)
+  Progress saved (18/24 complete)
+
+[19/24] Processing b796f27e-e191-4f2d-b40c-e6ac58163b4e
+  Author: Gao (2021.0) - Cell Death Dis
+  Expected cells (from CSV): 24126.0
+    Querying Census API...
+    Census returned 24,126 total cells
+    After tissue filter (skin): 24,126 cells
+    Census metadata:
+      Tissue (specific): skin of body
+      Dev stages (all non-zero): 47-year-old stage: 8,923; 60-year-old stage: 4,925; 28-year-old stage: 4,601; 32-year-old stage: 2,951; 23-year-old stage: 2,726
+      Donors: 6
+      Age filtering (min_age=15):
+        Total cells: 24,126
+        Cells with parseable age: 24,126
+        Adult (age >= 15 or contains 'adult'): 24,126
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 24,126
+      Disease filtering:
+        Total cells: 24,126
+        Normal cells: 11,369
+  SUCCESS: 11,369 normal cells
+    (Adult: 24,126 / Total: 24,126)
+  Progress saved (19/24 complete)
+
+[20/24] Processing 4ed927e9-c099-49af-b8ce-a2652d069333
+  Author: Eraslan (2022.0) - Science
+  Expected cells (from CSV): 209126.0
+    Querying Census API...
+    Census returned 209,126 total cells
+    After tissue filter (skin): 5,327 cells
+    Census metadata:
+      Tissue (specific): skin of leg
+      Dev stages (all non-zero): sixth decade stage: 4,961; third decade stage: 366
+      Donors: 3
+      Age filtering (min_age=15):
+        Total cells: 5,327
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 5,327)
+  Progress saved (20/24 complete)
+
+[21/24] Processing 2adb1f8a-a6b1-4909-8ee8-484814e2d4bf
+  Author: Han (2020.0) - Nature
+  Expected cells (from CSV): 599926.0
+    Querying Census API...
+    Census returned 598,266 total cells
+    After tissue filter (skin): 6,991 cells
+    Census metadata:
+      Tissue (specific): skin of body
+      Dev stages (all non-zero): embryonic stage: 5,294; 11th week post-fertilization stage: 1,697
+      Donors: 2
+      Age filtering (min_age=15):
+        Total cells: 6,991
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 6,991
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 6,991)
+  Progress saved (21/24 complete)
+
+[22/24] Processing f1f123cc-ca2c-460f-b7f1-88240efb1e82
+  Author: Wiedemann (2023.0) - Cell Reports
+  Expected cells (from CSV): 9471.0
+    Querying Census API...
+    Census returned 9,471 total cells
+    After tissue filter (skin): 9,471 cells
+    Census metadata:
+      Tissue (specific): skin of body
+      Dev stages (all non-zero): 40-year-old stage: 3,318; 39-year-old stage: 3,174; 65-year-old stage: 1,831; 56-year-old stage: 1,148
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 9,471
+        Cells with parseable age: 9,471
+        Adult (age >= 15 or contains 'adult'): 9,471
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 9,471
+      Disease filtering:
+        Total cells: 9,471
+        Normal cells: 9,471
+  SUCCESS: 9,471 normal cells
+    (Adult: 9,471 / Total: 9,471)
+  Progress saved (22/24 complete)
+
+[23/24] Processing de94c504-4b58-4f42-b68d-74a8e4892f0e
+  Author: Wiedemann (2023.0) - Cell Reports
+  Expected cells (from CSV): 15243.0
+    Querying Census API...
+    Census returned 15,243 total cells
+    After tissue filter (skin): 11,227 cells
+    Census metadata:
+      Tissue (specific): skin of body
+      Dev stages (all non-zero): 40-year-old stage: 3,902; 39-year-old stage: 3,489; 65-year-old stage: 2,596; 56-year-old stage: 1,240
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 11,227
+        Cells with parseable age: 11,227
+        Adult (age >= 15 or contains 'adult'): 11,227
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 11,227
+      Disease filtering:
+        Total cells: 11,227
+        Normal cells: 11,227
+  SUCCESS: 11,227 normal cells
+    (Adult: 11,227 / Total: 11,227)
+  Progress saved (23/24 complete)
+
+[24/24] Processing da684768-fb01-455b-9f0f-b63a3e2f844f
+  Author: Wiedemann (2023.0) - Cell Reports
+  Expected cells (from CSV): 2303.0
+    Querying Census API...
+    Census returned 2,303 total cells
+    After tissue filter (skin): 573 cells
+    Census metadata:
+      Tissue (specific): skin of body
+      Dev stages (all non-zero): 65-year-old stage: 358; 40-year-old stage: 215
+      Donors: 2
+      Age filtering (min_age=15):
+        Total cells: 573
+        Cells with parseable age: 573
+        Adult (age >= 15 or contains 'adult'): 573
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 573
+      Disease filtering:
+        Total cells: 573
+        Normal cells: 573
+  SUCCESS: 573 normal cells
+    (Adult: 573 / Total: 573)
+  Progress saved (24/24 complete)
+
+======================================================================
+COMPLETE
+======================================================================
+Total datasets: 24
+Successful: 24
+Failed: 0
+Skipped: 0
+
+Output: data/homo_sapiens_skin_harvester_with_normal_counts.csv
+
+Completed: 2026-01-29 03:18:54
+Log saved to: data/homo_sapiens_skin_harvester_with_normal_counts_log.txt
