@@ -1,19 +1,64 @@
-Starting: 2026-01-29 03:05:55
+Starting: 2026-01-29 14:06:32
 Input: data/homo_sapiens_skin_harvester.csv
 Tissue filter: skin
 Min age: 15 (use 0 to disable)
 Output: data/homo_sapiens_skin_harvester_with_normal_counts.csv
 Log: data/homo_sapiens_skin_harvester_with_normal_counts_log.txt
 
-Loaded 24 datasets from data/homo_sapiens_skin_harvester.csv
+Loaded 36 datasets from data/homo_sapiens_skin_harvester.csv
 
 Initialized output: data/homo_sapiens_skin_harvester_with_normal_counts.csv
 
-Processing 24 datasets...
+Processing 36 datasets...
 Progress saved after each dataset
 
 
-[1/24] Processing f512b8b6-369d-4a85-a695-116e0806857f
+[1/36] Processing 7be2824e-d62a-42ef-9169-084555c6df87
+  Author: Anderson-Crannage (2023.0) - Front. Immunol.
+  Expected cells (from CSV): 9816.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (1/36 complete)
+
+[2/36] Processing 6beff4d6-98a8-4f49-8ba7-84d152494a23
+  Author: Anderson-Crannage (2023.0) - Front. Immunol.
+  Expected cells (from CSV): 2642.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (2/36 complete)
+
+[3/36] Processing 5bc26721-894b-4e9a-9423-6ecfd233ab20
+  Author: Anderson-Crannage (2023.0) - Front. Immunol.
+  Expected cells (from CSV): 3509.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (3/36 complete)
+
+[4/36] Processing 389b1fd4-2b65-4f60-baba-feeb17507665
+  Author: Anderson-Crannage (2023.0) - Front. Immunol.
+  Expected cells (from CSV): 959.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (4/36 complete)
+
+[5/36] Processing 1398f3a9-b48b-431a-a5f2-d4a1931c4b45
+  Author: Anderson-Crannage (2023.0) - Front. Immunol.
+  Expected cells (from CSV): 1562.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (5/36 complete)
+
+[6/36] Processing f512b8b6-369d-4a85-a695-116e0806857f
   Author: Cheng (2018.0) - Cell Reports
   Expected cells (from CSV): 68036.0
     Querying Census API...
@@ -35,9 +80,54 @@ Progress saved after each dataset
         Normal cells: 43,054
   SUCCESS: 43,054 normal cells
     (Adult: 43,054 / Total: 68,036)
-  Progress saved (1/24 complete)
+  Progress saved (6/36 complete)
 
-[2/24] Processing 124744b8-4681-474a-9894-683896122708
+[7/36] Processing f16a8f4d-bc97-43c5-a2f6-bbda952e4c5c
+  Author: nan (2020.0) - Nature
+  Expected cells (from CSV): 356213.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (7/36 complete)
+
+[8/36] Processing 98e5ea9f-16d6-47ec-a529-686e76515e39
+  Author: nan (2020.0) - Nature
+  Expected cells (from CSV): 110824.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (8/36 complete)
+
+[9/36] Processing 4fa55ee5-8da4-4d42-9525-1c52d4ce50bf
+  Author: nan (2020.0) - Nature
+  Expected cells (from CSV): 4454.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (9/36 complete)
+
+[10/36] Processing 48b37086-25f7-4ecd-be66-f5bb378e3aea
+  Author: nan (2020.0) - Nature
+  Expected cells (from CSV): 245389.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (10/36 complete)
+
+[11/36] Processing 1d29fd10-c8b3-4611-b0ac-3c578125adbf
+  Author: nan (2020.0) - Nature
+  Expected cells (from CSV): 4860.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (11/36 complete)
+
+[12/36] Processing 124744b8-4681-474a-9894-683896122708
   Author: Solé-Boldo (2020.0) - Commun Biol
   Expected cells (from CSV): 15457.0
     Querying Census API...
@@ -59,9 +149,9 @@ Progress saved after each dataset
         Normal cells: 15,457
   SUCCESS: 15,457 normal cells
     (Adult: 15,457 / Total: 15,457)
-  Progress saved (2/24 complete)
+  Progress saved (12/36 complete)
 
-[3/24] Processing f0f0d7c4-3bec-428e-9539-c99d36548d96
+[13/36] Processing f0f0d7c4-3bec-428e-9539-c99d36548d96
   Author: Reynolds (2021.0) - Science
   Expected cells (from CSV): 195739.0
     Querying Census API...
@@ -83,9 +173,9 @@ Progress saved after each dataset
         Normal cells: 99,508
   SUCCESS: 99,508 normal cells
     (Adult: 99,508 / Total: 99,508)
-  Progress saved (3/24 complete)
+  Progress saved (13/36 complete)
 
-[4/24] Processing fd072bc3-2dfb-46f8-b4e3-467cb3223182
+[14/36] Processing fd072bc3-2dfb-46f8-b4e3-467cb3223182
   Author: Suo (2022.0) - Science
   Expected cells (from CSV): 908046.0
     Querying Census API...
@@ -105,9 +195,9 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 180,931)
-  Progress saved (4/24 complete)
+  Progress saved (14/36 complete)
 
-[5/24] Processing d0c12af4-c0e4-4c7b-873a-70752b449689
+[15/36] Processing d0c12af4-c0e4-4c7b-873a-70752b449689
   Author: Suo (2022.0) - Science
   Expected cells (from CSV): 318656.0
     Querying Census API...
@@ -127,9 +217,9 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 127,561)
-  Progress saved (5/24 complete)
+  Progress saved (15/36 complete)
 
-[6/24] Processing aa633105-e8e5-4dcc-b72d-6da6c191b3e9
+[16/36] Processing aa633105-e8e5-4dcc-b72d-6da6c191b3e9
   Author: Suo (2022.0) - Science
   Expected cells (from CSV): 172175.0
     Querying Census API...
@@ -149,9 +239,9 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 15,017)
-  Progress saved (6/24 complete)
+  Progress saved (16/36 complete)
 
-[7/24] Processing 804d9a85-665b-45c6-b204-13457fdcc7ac
+[17/36] Processing 804d9a85-665b-45c6-b204-13457fdcc7ac
   Author: Suo (2022.0) - Science
   Expected cells (from CSV): 149107.0
     Querying Census API...
@@ -171,9 +261,9 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 2,566)
-  Progress saved (7/24 complete)
+  Progress saved (17/36 complete)
 
-[8/24] Processing 6a30bf44-c490-41ac-965b-0bb58432b10a
+[18/36] Processing 6a30bf44-c490-41ac-965b-0bb58432b10a
   Author: Suo (2022.0) - Science
   Expected cells (from CSV): 40420.0
     Querying Census API...
@@ -193,9 +283,9 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 777)
-  Progress saved (8/24 complete)
+  Progress saved (18/36 complete)
 
-[9/24] Processing 48101fa2-1a63-4514-b892-53ea1d3a8657
+[19/36] Processing 48101fa2-1a63-4514-b892-53ea1d3a8657
   Author: Suo (2022.0) - Science
   Expected cells (from CSV): 589390.0
     Querying Census API...
@@ -215,9 +305,9 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 53,370)
-  Progress saved (9/24 complete)
+  Progress saved (19/36 complete)
 
-[10/24] Processing 3affa268-8a74-460a-ac9b-a984c0832469
+[20/36] Processing 3affa268-8a74-460a-ac9b-a984c0832469
   Author: Suo (2022.0) - Science
   Expected cells (from CSV): 239698.0
     Querying Census API...
@@ -237,9 +327,9 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 17,532)
-  Progress saved (10/24 complete)
+  Progress saved (20/36 complete)
 
-[11/24] Processing 2aa1c93c-4ef3-4e9a-98e7-0bd37933953c
+[21/36] Processing 2aa1c93c-4ef3-4e9a-98e7-0bd37933953c
   Author: Suo (2022.0) - Science
   Expected cells (from CSV): 218758.0
     Querying Census API...
@@ -259,9 +349,9 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 32,990)
-  Progress saved (11/24 complete)
+  Progress saved (21/36 complete)
 
-[12/24] Processing 1b350d0a-4535-4879-beb6-1142f3f94947
+[22/36] Processing 1b350d0a-4535-4879-beb6-1142f3f94947
   Author: Wells (2025.0) - Nat Immunol
   Expected cells (from CSV): 1281499.0
     Querying Census API...
@@ -281,9 +371,9 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 1,748)
-  Progress saved (12/24 complete)
+  Progress saved (22/36 complete)
 
-[13/24] Processing c5d88abe-f23a-45fa-a534-788985e93dad
+[23/36] Processing c5d88abe-f23a-45fa-a534-788985e93dad
   Author: nan (2022.0) - Science
   Expected cells (from CSV): 592317.0
     Querying Census API...
@@ -305,9 +395,9 @@ Progress saved after each dataset
         Normal cells: 10,684
   SUCCESS: 10,684 normal cells
     (Adult: 10,684 / Total: 10,684)
-  Progress saved (13/24 complete)
+  Progress saved (23/36 complete)
 
-[14/24] Processing a68b64d8-aee3-4947-81b7-36b8fe5a44d2
+[24/36] Processing a68b64d8-aee3-4947-81b7-36b8fe5a44d2
   Author: nan (2022.0) - Science
   Expected cells (from CSV): 232684.0
     Querying Census API...
@@ -329,9 +419,9 @@ Progress saved after each dataset
         Normal cells: 4,679
   SUCCESS: 4,679 normal cells
     (Adult: 4,679 / Total: 4,679)
-  Progress saved (14/24 complete)
+  Progress saved (24/36 complete)
 
-[15/24] Processing 97a17473-e2b1-4f31-a544-44a60773e2dd
+[25/36] Processing 97a17473-e2b1-4f31-a544-44a60773e2dd
   Author: nan (2022.0) - Science
   Expected cells (from CSV): 228032.0
     Querying Census API...
@@ -353,9 +443,9 @@ Progress saved after each dataset
         Normal cells: 138
   SUCCESS: 138 normal cells
     (Adult: 138 / Total: 138)
-  Progress saved (15/24 complete)
+  Progress saved (25/36 complete)
 
-[16/24] Processing 5a11f879-d1ef-458a-910c-9b0bdfca5ebf
+[26/36] Processing 5a11f879-d1ef-458a-910c-9b0bdfca5ebf
   Author: nan (2022.0) - Science
   Expected cells (from CSV): 73195.0
     Querying Census API...
@@ -377,9 +467,9 @@ Progress saved after each dataset
         Normal cells: 1,983
   SUCCESS: 1,983 normal cells
     (Adult: 1,983 / Total: 1,983)
-  Progress saved (16/24 complete)
+  Progress saved (26/36 complete)
 
-[17/24] Processing 53d208b0-2cfd-4366-9866-c3c6114081bc
+[27/36] Processing 53d208b0-2cfd-4366-9866-c3c6114081bc
   Author: nan (2022.0) - Science
   Expected cells (from CSV): 1136218.0
     Querying Census API...
@@ -401,9 +491,9 @@ Progress saved after each dataset
         Normal cells: 17,484
   SUCCESS: 17,484 normal cells
     (Adult: 17,484 / Total: 17,484)
-  Progress saved (17/24 complete)
+  Progress saved (27/36 complete)
 
-[18/24] Processing 0041b9c3-6a49-4bf7-8514-9bc7190067a7
+[28/36] Processing 0041b9c3-6a49-4bf7-8514-9bc7190067a7
   Author: nan (2022.0) - Science
   Expected cells (from CSV): 17786.0
     Querying Census API...
@@ -425,9 +515,9 @@ Progress saved after each dataset
         Normal cells: 17,484
   SUCCESS: 17,484 normal cells
     (Adult: 17,484 / Total: 17,484)
-  Progress saved (18/24 complete)
+  Progress saved (28/36 complete)
 
-[19/24] Processing b796f27e-e191-4f2d-b40c-e6ac58163b4e
+[29/36] Processing b796f27e-e191-4f2d-b40c-e6ac58163b4e
   Author: Gao (2021.0) - Cell Death Dis
   Expected cells (from CSV): 24126.0
     Querying Census API...
@@ -449,9 +539,9 @@ Progress saved after each dataset
         Normal cells: 11,369
   SUCCESS: 11,369 normal cells
     (Adult: 24,126 / Total: 24,126)
-  Progress saved (19/24 complete)
+  Progress saved (29/36 complete)
 
-[20/24] Processing 4ed927e9-c099-49af-b8ce-a2652d069333
+[30/36] Processing 4ed927e9-c099-49af-b8ce-a2652d069333
   Author: Eraslan (2022.0) - Science
   Expected cells (from CSV): 209126.0
     Querying Census API...
@@ -471,9 +561,9 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 5,327)
-  Progress saved (20/24 complete)
+  Progress saved (30/36 complete)
 
-[21/24] Processing 2adb1f8a-a6b1-4909-8ee8-484814e2d4bf
+[31/36] Processing 2adb1f8a-a6b1-4909-8ee8-484814e2d4bf
   Author: Han (2020.0) - Nature
   Expected cells (from CSV): 599926.0
     Querying Census API...
@@ -493,9 +583,9 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 6,991)
-  Progress saved (21/24 complete)
+  Progress saved (31/36 complete)
 
-[22/24] Processing f1f123cc-ca2c-460f-b7f1-88240efb1e82
+[32/36] Processing f1f123cc-ca2c-460f-b7f1-88240efb1e82
   Author: Wiedemann (2023.0) - Cell Reports
   Expected cells (from CSV): 9471.0
     Querying Census API...
@@ -517,9 +607,9 @@ Progress saved after each dataset
         Normal cells: 9,471
   SUCCESS: 9,471 normal cells
     (Adult: 9,471 / Total: 9,471)
-  Progress saved (22/24 complete)
+  Progress saved (32/36 complete)
 
-[23/24] Processing de94c504-4b58-4f42-b68d-74a8e4892f0e
+[33/36] Processing de94c504-4b58-4f42-b68d-74a8e4892f0e
   Author: Wiedemann (2023.0) - Cell Reports
   Expected cells (from CSV): 15243.0
     Querying Census API...
@@ -541,9 +631,9 @@ Progress saved after each dataset
         Normal cells: 11,227
   SUCCESS: 11,227 normal cells
     (Adult: 11,227 / Total: 11,227)
-  Progress saved (23/24 complete)
+  Progress saved (33/36 complete)
 
-[24/24] Processing da684768-fb01-455b-9f0f-b63a3e2f844f
+[34/36] Processing da684768-fb01-455b-9f0f-b63a3e2f844f
   Author: Wiedemann (2023.0) - Cell Reports
   Expected cells (from CSV): 2303.0
     Querying Census API...
@@ -565,17 +655,35 @@ Progress saved after each dataset
         Normal cells: 573
   SUCCESS: 573 normal cells
     (Adult: 573 / Total: 573)
-  Progress saved (24/24 complete)
+  Progress saved (34/36 complete)
+
+[35/36] Processing dc7ba810-2668-4182-abcc-d97d25f9310c
+  Author: nan (2025.0) - Nature
+  Expected cells (from CSV): 25333.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (35/36 complete)
+
+[36/36] Processing a392ab34-9016-4f48-b45d-5b3a9cfa39fe
+  Author: nan (2025.0) - Nature
+  Expected cells (from CSV): 244081.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (36/36 complete)
 
 ======================================================================
 COMPLETE
 ======================================================================
-Total datasets: 24
+Total datasets: 36
 Successful: 24
-Failed: 0
+Failed: 12
 Skipped: 0
 
 Output: data/homo_sapiens_skin_harvester_with_normal_counts.csv
 
-Completed: 2026-01-29 03:18:54
+Completed: 2026-01-29 14:20:04
 Log saved to: data/homo_sapiens_skin_harvester_with_normal_counts_log.txt
