@@ -1,24 +1,24 @@
-Starting: 2026-01-29 03:36:32
+Starting: 2026-01-29 15:15:46
 Input: data/homo_sapiens_large_intestine_harvester.csv
-Tissue filter: colon|colorectum|rectum|large intestine
+Tissue filter: colon|colorectum|rectum|large instestine
 Min age: 15 (use 0 to disable)
 Output: data/homo_sapiens_large_intestine_harvester_with_normal_counts.csv
 Log: data/homo_sapiens_large_intestine_harvester_with_normal_counts_log.txt
 
-Loaded 43 datasets from data/homo_sapiens_large_intestine_harvester.csv
+Loaded 65 datasets from data/homo_sapiens_large_intestine_harvester.csv
 
 Initialized output: data/homo_sapiens_large_intestine_harvester_with_normal_counts.csv
 
-Processing 43 datasets...
+Processing 65 datasets...
 Progress saved after each dataset
 
 
-[1/43] Processing e40c6272-af77-4a10-9385-62a398884f27
+[1/65] Processing e40c6272-af77-4a10-9385-62a398884f27
   Author: Chen (2021.0) - Cell
   Expected cells (from CSV): 65088.0
     Querying Census API...
     Census returned 65,088 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 58,644 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 58,644 cells
     Census metadata:
       Tissue (specific): ascending colon
       Dev stages (all non-zero): 50-year-old stage: 19,612; 65-year-old stage: 5,880; 59-year-old stage: 4,873; 70-year-old stage: 3,819; 67-year-old stage: 3,794; 64-year-old stage: 3,428; 73-year-old stage: 2,939; 71-year-old stage: 2,670; 54-year-old stage: 2,509; 72-year-old stage: 2,404; 62-year-old stage: 2,266; 60-year-old stage: 1,966; 58-year-old stage: 992; 68-year-old stage: 752; 57-year-old stage: 740
@@ -35,14 +35,14 @@ Progress saved after each dataset
         Normal cells: 28,165
   SUCCESS: 28,165 normal cells
     (Adult: 58,644 / Total: 58,644)
-  Progress saved (1/43 complete)
+  Progress saved (1/65 complete)
 
-[2/43] Processing 9968be68-ab65-4a38-9e1a-c9b6abece194
+[2/65] Processing 9968be68-ab65-4a38-9e1a-c9b6abece194
   Author: Yu (2021.0) - Cell
   Expected cells (from CSV): 155232.0
     Querying Census API...
     Census returned 155,232 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 13,053 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 13,053 cells
     Census metadata:
       Tissue (specific): colon
       Dev stages (all non-zero): 19th week post-fertilization stage: 5,512; 15th week post-fertilization stage: 3,952; 12th week post-fertilization stage: 3,589
@@ -57,14 +57,14 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 13,053)
-  Progress saved (2/43 complete)
+  Progress saved (2/65 complete)
 
-[3/43] Processing fd89be61-2869-4342-a86e-e1fce3a8f269
+[3/65] Processing fd89be61-2869-4342-a86e-e1fce3a8f269
   Author: Fawkner-Corbett (2021.0) - Cell
   Expected cells (from CSV): 17622.0
     Querying Census API...
     Census returned 17,622 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 10,140 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 10,140 cells
     Census metadata:
       Tissue (specific): colon
       Dev stages (all non-zero): 14th week post-fertilization stage: 2,013; 13th week post-fertilization stage: 1,726; 17th week post-fertilization stage: 1,651; 18th week post-fertilization stage: 1,463; 23rd week post-fertilization stage: 876; 19th week post-fertilization stage: 746; 11th week post-fertilization stage: 725; 16th week post-fertilization stage: 495; 21st week post-fertilization stage: 410; 20th week post-fertilization stage: 35
@@ -79,14 +79,14 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 10,140)
-  Progress saved (3/43 complete)
+  Progress saved (3/65 complete)
 
-[4/43] Processing e006d4e3-35fa-44b4-9981-09a66c4322e5
+[4/65] Processing e006d4e3-35fa-44b4-9981-09a66c4322e5
   Author: Fawkner-Corbett (2021.0) - Cell
   Expected cells (from CSV): 4211.0
     Querying Census API...
     Census returned 4,211 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 2,999 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 2,999 cells
     Census metadata:
       Tissue (specific): colon
       Dev stages (all non-zero): 14th week post-fertilization stage: 734; 17th week post-fertilization stage: 455; 16th week post-fertilization stage: 353; 23rd week post-fertilization stage: 342; 11th week post-fertilization stage: 313; 18th week post-fertilization stage: 270; 13th week post-fertilization stage: 228; 19th week post-fertilization stage: 161; 21st week post-fertilization stage: 134; 20th week post-fertilization stage: 9
@@ -101,14 +101,14 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 2,999)
-  Progress saved (4/43 complete)
+  Progress saved (4/65 complete)
 
-[5/43] Processing c42c8ad3-9761-49e5-b9bf-ee8ebd50416f
+[5/65] Processing c42c8ad3-9761-49e5-b9bf-ee8ebd50416f
   Author: Fawkner-Corbett (2021.0) - Cell
   Expected cells (from CSV): 4154.0
     Querying Census API...
     Census returned 4,154 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 2,623 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 2,623 cells
     Census metadata:
       Tissue (specific): colon
       Dev stages (all non-zero): 14th week post-fertilization stage: 787; 17th week post-fertilization stage: 388; 18th week post-fertilization stage: 335; 21st week post-fertilization stage: 254; 23rd week post-fertilization stage: 204; 16th week post-fertilization stage: 203; 13th week post-fertilization stage: 185; 19th week post-fertilization stage: 130; 11th week post-fertilization stage: 90; 20th week post-fertilization stage: 47
@@ -123,14 +123,14 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 2,623)
-  Progress saved (5/43 complete)
+  Progress saved (5/65 complete)
 
-[6/43] Processing bbd16004-09e8-4b6c-b465-73ff83a52837
+[6/65] Processing bbd16004-09e8-4b6c-b465-73ff83a52837
   Author: Fawkner-Corbett (2021.0) - Cell
   Expected cells (from CSV): 4144.0
     Querying Census API...
     Census returned 4,144 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 3,024 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 3,024 cells
     Census metadata:
       Tissue (specific): colon
       Dev stages (all non-zero): 14th week post-fertilization stage: 615; 13th week post-fertilization stage: 408; 17th week post-fertilization stage: 394; 18th week post-fertilization stage: 387; 11th week post-fertilization stage: 329; 16th week post-fertilization stage: 324; 21st week post-fertilization stage: 234; 23rd week post-fertilization stage: 187; 19th week post-fertilization stage: 137; 20th week post-fertilization stage: 9
@@ -145,14 +145,41 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 3,024)
-  Progress saved (6/43 complete)
+  Progress saved (6/65 complete)
 
-[7/43] Processing 9d5df009-eb76-43a3-b6cd-22017cc53700
+[7/65] Processing b9b4cf27-9c22-410d-8bd8-5d43e379485b
+  Author: Fawkner-Corbett (2021.0) - Cell
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (7/65 complete)
+
+[8/65] Processing abd889c6-f60a-4fbd-924e-ee1e9dcf909b
+  Author: Fawkner-Corbett (2021.0) - Cell
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (8/65 complete)
+
+[9/65] Processing 9dfd2243-74d6-4924-86bd-c206ca9287b1
+  Author: Fawkner-Corbett (2021.0) - Cell
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (9/65 complete)
+
+[10/65] Processing 9d5df009-eb76-43a3-b6cd-22017cc53700
   Author: Fawkner-Corbett (2021.0) - Cell
   Expected cells (from CSV): 76592.0
     Querying Census API...
     Census returned 76,592 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 49,095 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 49,095 cells
     Census metadata:
       Tissue (specific): colon
       Dev stages (all non-zero): 14th week post-fertilization stage: 11,039; 17th week post-fertilization stage: 8,114; 18th week post-fertilization stage: 6,527; 13th week post-fertilization stage: 5,586; 23rd week post-fertilization stage: 4,102; 21st week post-fertilization stage: 3,801; 16th week post-fertilization stage: 3,045; 11th week post-fertilization stage: 2,858; 19th week post-fertilization stage: 2,854; 20th week post-fertilization stage: 1,169
@@ -167,14 +194,23 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 49,095)
-  Progress saved (7/43 complete)
+  Progress saved (10/65 complete)
 
-[8/43] Processing 58679288-9ecc-4647-9781-12a3a8f8c6fd
+[11/65] Processing 774de9c6-9752-4e39-89a9-2a88c869d52a
+  Author: Fawkner-Corbett (2021.0) - Cell
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (11/65 complete)
+
+[12/65] Processing 58679288-9ecc-4647-9781-12a3a8f8c6fd
   Author: Fawkner-Corbett (2021.0) - Cell
   Expected cells (from CSV): 2833.0
     Querying Census API...
     Census returned 2,833 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 1,993 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 1,993 cells
     Census metadata:
       Tissue (specific): colon
       Dev stages (all non-zero): 21st week post-fertilization stage: 483; 23rd week post-fertilization stage: 401; 17th week post-fertilization stage: 338; 18th week post-fertilization stage: 264; 19th week post-fertilization stage: 166; 14th week post-fertilization stage: 155; 16th week post-fertilization stage: 135; 13th week post-fertilization stage: 41; 11th week post-fertilization stage: 10
@@ -189,14 +225,14 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 1,993)
-  Progress saved (8/43 complete)
+  Progress saved (12/65 complete)
 
-[9/43] Processing 4d2e0563-cf4a-48bd-aa7f-efc26025b53a
+[13/65] Processing 4d2e0563-cf4a-48bd-aa7f-efc26025b53a
   Author: Fawkner-Corbett (2021.0) - Cell
   Expected cells (from CSV): 24081.0
     Querying Census API...
     Census returned 24,081 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 16,021 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 16,021 cells
     Census metadata:
       Tissue (specific): colon
       Dev stages (all non-zero): 14th week post-fertilization stage: 4,288; 17th week post-fertilization stage: 3,072; 13th week post-fertilization stage: 1,569; 23rd week post-fertilization stage: 1,374; 18th week post-fertilization stage: 1,359; 21st week post-fertilization stage: 1,338; 11th week post-fertilization stage: 1,122; 16th week post-fertilization stage: 1,018; 19th week post-fertilization stage: 881
@@ -211,14 +247,23 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 16,021)
-  Progress saved (9/43 complete)
+  Progress saved (13/65 complete)
 
-[10/43] Processing 4269074c-f2c1-4d88-b2c3-0946f59d5449
+[14/65] Processing 4506d9e3-4543-4464-aeae-b0b04eee1cea
+  Author: Fawkner-Corbett (2021.0) - Cell
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (14/65 complete)
+
+[15/65] Processing 4269074c-f2c1-4d88-b2c3-0946f59d5449
   Author: Fawkner-Corbett (2021.0) - Cell
   Expected cells (from CSV): 2199.0
     Querying Census API...
     Census returned 2,199 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 983 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 983 cells
     Census metadata:
       Tissue (specific): colon
       Dev stages (all non-zero): 14th week post-fertilization stage: 259; 17th week post-fertilization stage: 172; 18th week post-fertilization stage: 155; 21st week post-fertilization stage: 118; 13th week post-fertilization stage: 75; 19th week post-fertilization stage: 75; 16th week post-fertilization stage: 50; 23rd week post-fertilization stage: 49; 11th week post-fertilization stage: 17; 20th week post-fertilization stage: 13
@@ -233,14 +278,23 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 983)
-  Progress saved (10/43 complete)
+  Progress saved (15/65 complete)
 
-[11/43] Processing 04b0eb97-d816-44bb-93a5-8b2968791aa0
+[16/65] Processing 2d66790a-6621-4a49-8f0d-4002db5cc98d
+  Author: Fawkner-Corbett (2021.0) - Cell
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (16/65 complete)
+
+[17/65] Processing 04b0eb97-d816-44bb-93a5-8b2968791aa0
   Author: Fawkner-Corbett (2021.0) - Cell
   Expected cells (from CSV): 4163.0
     Querying Census API...
     Census returned 4,163 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 2,967 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 2,967 cells
     Census metadata:
       Tissue (specific): colon
       Dev stages (all non-zero): 14th week post-fertilization stage: 695; 17th week post-fertilization stage: 611; 18th week post-fertilization stage: 413; 21st week post-fertilization stage: 313; 23rd week post-fertilization stage: 299; 16th week post-fertilization stage: 216; 19th week post-fertilization stage: 169; 13th week post-fertilization stage: 133; 20th week post-fertilization stage: 68; 11th week post-fertilization stage: 50
@@ -255,20 +309,20 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 2,967)
-  Progress saved (11/43 complete)
+  Progress saved (17/65 complete)
 
-[12/43] Processing 80a2c5b6-02e7-4fc0-9f12-179f5247c1bc
+[18/65] Processing 80a2c5b6-02e7-4fc0-9f12-179f5247c1bc
   Author: Elmentaite (2021.0) - Nature
   Expected cells (from CSV): 428469.0
     Querying Census API...
     Census returned 428,469 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 121,086 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 116,397 cells
     Census metadata:
       Tissue (specific): colon
-      Dev stages (all non-zero): sixth decade stage: 28,219; 10th week post-fertilization stage: 18,235; third decade stage: 14,853; seventh decade stage: 13,495; 15th week post-fertilization stage: 9,820; 11th week post-fertilization stage: 8,090; eighth decade stage: 4,980; fifth decade stage: 4,509; Carnegie stage 20: 3,570; Carnegie stage 17: 3,333; Carnegie stage 23: 2,992; Carnegie stage 22: 2,919; 17th week post-fertilization stage: 2,519; 12th week post-fertilization stage: 1,927; Carnegie stage 19: 1,189; 16th week post-fertilization stage: 436
+      Dev stages (all non-zero): sixth decade stage: 23,530; 10th week post-fertilization stage: 18,235; third decade stage: 14,853; seventh decade stage: 13,495; 15th week post-fertilization stage: 9,820; 11th week post-fertilization stage: 8,090; eighth decade stage: 4,980; fifth decade stage: 4,509; Carnegie stage 20: 3,570; Carnegie stage 17: 3,333; Carnegie stage 23: 2,992; Carnegie stage 22: 2,919; 17th week post-fertilization stage: 2,519; 12th week post-fertilization stage: 1,927; Carnegie stage 19: 1,189; 16th week post-fertilization stage: 436
       Donors: 22
       Age filtering (min_age=15):
-        Total cells: 121,086
+        Total cells: 116,397
         Cells with parseable age: 0
         Adult (age >= 15 or contains 'adult'): 0
         Child (age < 15): 0
@@ -276,21 +330,21 @@ Progress saved after each dataset
         After filter: 0
     No adult cells found
   SUCCESS: 0 normal cells
-    (Adult: 0 / Total: 121,086)
-  Progress saved (12/43 complete)
+    (Adult: 0 / Total: 116,397)
+  Progress saved (18/65 complete)
 
-[13/43] Processing cbec7853-d996-4493-bbf8-5d82857a4e51
+[19/65] Processing cbec7853-d996-4493-bbf8-5d82857a4e51
   Author: Xu (2023.0) - Cell
   Expected cells (from CSV): 263275.0
     Querying Census API...
     Census returned 263,275 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 198,364 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 193,675 cells
     Census metadata:
       Tissue (specific): colonic epithelium
-      Dev stages (all non-zero): adult stage: 109,884; sixth decade stage: 33,557; seventh decade stage: 21,573; third decade stage: 14,839; fifth decade stage: 8,280; eighth decade stage: 4,977; 45-year-old stage: 1,984; 29-year-old stage: 1,856; 53-year-old stage: 1,414
+      Dev stages (all non-zero): adult stage: 109,884; sixth decade stage: 28,868; seventh decade stage: 21,573; third decade stage: 14,839; fifth decade stage: 8,280; eighth decade stage: 4,977; 45-year-old stage: 1,984; 29-year-old stage: 1,856; 53-year-old stage: 1,414
       Donors: 26
       Age filtering (min_age=15):
-        Total cells: 198,364
+        Total cells: 193,675
         Cells with parseable age: 5,254
         Adult (age >= 15 or contains 'adult'): 115,138
         Child (age < 15): 0
@@ -300,15 +354,15 @@ Progress saved after each dataset
         Total cells: 115,138
         Normal cells: 115,138
   SUCCESS: 115,138 normal cells
-    (Adult: 115,138 / Total: 198,364)
-  Progress saved (13/43 complete)
+    (Adult: 115,138 / Total: 193,675)
+  Progress saved (19/65 complete)
 
-[14/43] Processing 1b350d0a-4535-4879-beb6-1142f3f94947
+[20/65] Processing 1b350d0a-4535-4879-beb6-1142f3f94947
   Author: Wells (2025.0) - Nat Immunol
   Expected cells (from CSV): 1281499.0
     Querying Census API...
     Census returned 1,281,499 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 4,487 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 4,487 cells
     Census metadata:
       Tissue (specific): lamina propria of mucosa of colon
       Dev stages (all non-zero): 25-year-old stage: 4,487
@@ -325,14 +379,14 @@ Progress saved after each dataset
         Normal cells: 4,487
   SUCCESS: 4,487 normal cells
     (Adult: 4,487 / Total: 4,487)
-  Progress saved (14/43 complete)
+  Progress saved (20/65 complete)
 
-[15/43] Processing 2872f4b0-b171-46e2-abc6-befcf6de6306
+[21/65] Processing 2872f4b0-b171-46e2-abc6-befcf6de6306
   Author: James (2020.0) - Nat Immunol
   Expected cells (from CSV): 41650.0
     Querying Census API...
     Census returned 41,650 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 17,214 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 17,214 cells
     Census metadata:
       Tissue (specific): transverse colon
       Dev stages (all non-zero): seventh decade stage: 8,090; sixth decade stage: 5,348; fifth decade stage: 3,776
@@ -347,182 +401,182 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 17,214)
-  Progress saved (15/43 complete)
+  Progress saved (21/65 complete)
 
-[16/43] Processing c5d88abe-f23a-45fa-a534-788985e93dad
+[22/65] Processing c5d88abe-f23a-45fa-a534-788985e93dad
   Author: nan (2022.0) - Science
   Expected cells (from CSV): 592317.0
     Querying Census API...
     Census returned 592,317 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 16,560 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 9,974 cells
     Census metadata:
-      Tissue (specific): large intestine
-      Dev stages (all non-zero): 56-year-old stage: 6,961; 59-year-old stage: 6,580; 37-year-old stage: 2,873; 61-year-old stage: 85; 60-year-old stage: 61
-      Donors: 5
+      Tissue (specific): ascending colon
+      Dev stages (all non-zero): 56-year-old stage: 6,961; 37-year-old stage: 2,873; 61-year-old stage: 79; 60-year-old stage: 61
+      Donors: 4
       Age filtering (min_age=15):
-        Total cells: 16,560
-        Cells with parseable age: 16,560
-        Adult (age >= 15 or contains 'adult'): 16,560
+        Total cells: 9,974
+        Cells with parseable age: 9,974
+        Adult (age >= 15 or contains 'adult'): 9,974
         Child (age < 15): 0
         Excluded (fetal/newborn): 0
-        After filter: 16,560
+        After filter: 9,974
       Disease filtering:
-        Total cells: 16,560
-        Normal cells: 16,560
-  SUCCESS: 16,560 normal cells
-    (Adult: 16,560 / Total: 16,560)
-  Progress saved (16/43 complete)
+        Total cells: 9,974
+        Normal cells: 9,974
+  SUCCESS: 9,974 normal cells
+    (Adult: 9,974 / Total: 9,974)
+  Progress saved (22/65 complete)
 
-[17/43] Processing a68b64d8-aee3-4947-81b7-36b8fe5a44d2
+[23/65] Processing a68b64d8-aee3-4947-81b7-36b8fe5a44d2
   Author: nan (2022.0) - Science
   Expected cells (from CSV): 232684.0
     Querying Census API...
     Census returned 232,684 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 2,679 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 1,539 cells
     Census metadata:
       Tissue (specific): ascending colon
-      Dev stages (all non-zero): 59-year-old stage: 1,135; 56-year-old stage: 1,116; 37-year-old stage: 270; 61-year-old stage: 121; 60-year-old stage: 37
-      Donors: 5
+      Dev stages (all non-zero): 56-year-old stage: 1,116; 37-year-old stage: 270; 61-year-old stage: 116; 60-year-old stage: 37
+      Donors: 4
       Age filtering (min_age=15):
-        Total cells: 2,679
-        Cells with parseable age: 2,679
-        Adult (age >= 15 or contains 'adult'): 2,679
+        Total cells: 1,539
+        Cells with parseable age: 1,539
+        Adult (age >= 15 or contains 'adult'): 1,539
         Child (age < 15): 0
         Excluded (fetal/newborn): 0
-        After filter: 2,679
+        After filter: 1,539
       Disease filtering:
-        Total cells: 2,679
-        Normal cells: 2,679
-  SUCCESS: 2,679 normal cells
-    (Adult: 2,679 / Total: 2,679)
-  Progress saved (17/43 complete)
+        Total cells: 1,539
+        Normal cells: 1,539
+  SUCCESS: 1,539 normal cells
+    (Adult: 1,539 / Total: 1,539)
+  Progress saved (23/65 complete)
 
-[18/43] Processing 97a17473-e2b1-4f31-a544-44a60773e2dd
+[24/65] Processing 97a17473-e2b1-4f31-a544-44a60773e2dd
   Author: nan (2022.0) - Science
   Expected cells (from CSV): 228032.0
     Querying Census API...
     Census returned 228,032 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 9,649 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 7,861 cells
     Census metadata:
       Tissue (specific): sigmoid colon
-      Dev stages (all non-zero): 61-year-old stage: 4,689; 56-year-old stage: 1,631; 60-year-old stage: 1,387; 59-year-old stage: 1,345; 37-year-old stage: 597
-      Donors: 5
+      Dev stages (all non-zero): 61-year-old stage: 4,246; 56-year-old stage: 1,631; 60-year-old stage: 1,387; 37-year-old stage: 597
+      Donors: 4
       Age filtering (min_age=15):
-        Total cells: 9,649
-        Cells with parseable age: 9,649
-        Adult (age >= 15 or contains 'adult'): 9,649
+        Total cells: 7,861
+        Cells with parseable age: 7,861
+        Adult (age >= 15 or contains 'adult'): 7,861
         Child (age < 15): 0
         Excluded (fetal/newborn): 0
-        After filter: 9,649
+        After filter: 7,861
       Disease filtering:
-        Total cells: 9,649
-        Normal cells: 9,649
-  SUCCESS: 9,649 normal cells
-    (Adult: 9,649 / Total: 9,649)
-  Progress saved (18/43 complete)
+        Total cells: 7,861
+        Normal cells: 7,861
+  SUCCESS: 7,861 normal cells
+    (Adult: 7,861 / Total: 7,861)
+  Progress saved (24/65 complete)
 
-[19/43] Processing 7357cee7-9f7f-4ab0-8cec-90de8f047e38
+[25/65] Processing 7357cee7-9f7f-4ab0-8cec-90de8f047e38
   Author: nan (2022.0) - Science
   Expected cells (from CSV): 30084.0
     Querying Census API...
     Census returned 30,084 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 30,084 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 19,697 cells
     Census metadata:
       Tissue (specific): ascending colon
-      Dev stages (all non-zero): 59-year-old stage: 9,931; 56-year-old stage: 9,915; 61-year-old stage: 4,922; 37-year-old stage: 3,822; 60-year-old stage: 1,494
-      Donors: 5
+      Dev stages (all non-zero): 56-year-old stage: 9,915; 61-year-old stage: 4,466; 37-year-old stage: 3,822; 60-year-old stage: 1,494
+      Donors: 4
       Age filtering (min_age=15):
-        Total cells: 30,084
-        Cells with parseable age: 30,084
-        Adult (age >= 15 or contains 'adult'): 30,084
+        Total cells: 19,697
+        Cells with parseable age: 19,697
+        Adult (age >= 15 or contains 'adult'): 19,697
         Child (age < 15): 0
         Excluded (fetal/newborn): 0
-        After filter: 30,084
+        After filter: 19,697
       Disease filtering:
-        Total cells: 30,084
-        Normal cells: 30,084
-  SUCCESS: 30,084 normal cells
-    (Adult: 30,084 / Total: 30,084)
-  Progress saved (19/43 complete)
+        Total cells: 19,697
+        Normal cells: 19,697
+  SUCCESS: 19,697 normal cells
+    (Adult: 19,697 / Total: 19,697)
+  Progress saved (25/65 complete)
 
-[20/43] Processing 6e4acdae-59ef-452b-a6d4-260cba368586
+[26/65] Processing 6e4acdae-59ef-452b-a6d4-260cba368586
   Author: nan (2022.0) - Science
   Expected cells (from CSV): 2685.0
     Querying Census API...
     Census returned 2,685 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 847 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 121 cells
     Census metadata:
-      Tissue (specific): large intestine
-      Dev stages (all non-zero): 59-year-old stage: 726; 56-year-old stage: 88; 37-year-old stage: 32; 60-year-old stage: 1
-      Donors: 4
+      Tissue (specific): ascending colon
+      Dev stages (all non-zero): 56-year-old stage: 88; 37-year-old stage: 32; 60-year-old stage: 1
+      Donors: 3
       Age filtering (min_age=15):
-        Total cells: 847
-        Cells with parseable age: 847
-        Adult (age >= 15 or contains 'adult'): 847
+        Total cells: 121
+        Cells with parseable age: 121
+        Adult (age >= 15 or contains 'adult'): 121
         Child (age < 15): 0
         Excluded (fetal/newborn): 0
-        After filter: 847
+        After filter: 121
       Disease filtering:
-        Total cells: 847
-        Normal cells: 847
-  SUCCESS: 847 normal cells
-    (Adult: 847 / Total: 847)
-  Progress saved (20/43 complete)
+        Total cells: 121
+        Normal cells: 121
+  SUCCESS: 121 normal cells
+    (Adult: 121 / Total: 121)
+  Progress saved (26/65 complete)
 
-[21/43] Processing 5a11f879-d1ef-458a-910c-9b0bdfca5ebf
+[27/65] Processing 5a11f879-d1ef-458a-910c-9b0bdfca5ebf
   Author: nan (2022.0) - Science
   Expected cells (from CSV): 73195.0
     Querying Census API...
     Census returned 73,195 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 348 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 201 cells
     Census metadata:
-      Tissue (specific): large intestine
-      Dev stages (all non-zero): 59-year-old stage: 145; 56-year-old stage: 119; 37-year-old stage: 50; 61-year-old stage: 26; 60-year-old stage: 8
-      Donors: 5
+      Tissue (specific): ascending colon
+      Dev stages (all non-zero): 56-year-old stage: 119; 37-year-old stage: 50; 61-year-old stage: 24; 60-year-old stage: 8
+      Donors: 4
       Age filtering (min_age=15):
-        Total cells: 348
-        Cells with parseable age: 348
-        Adult (age >= 15 or contains 'adult'): 348
+        Total cells: 201
+        Cells with parseable age: 201
+        Adult (age >= 15 or contains 'adult'): 201
         Child (age < 15): 0
         Excluded (fetal/newborn): 0
-        After filter: 348
+        After filter: 201
       Disease filtering:
-        Total cells: 348
-        Normal cells: 348
-  SUCCESS: 348 normal cells
-    (Adult: 348 / Total: 348)
-  Progress saved (21/43 complete)
+        Total cells: 201
+        Normal cells: 201
+  SUCCESS: 201 normal cells
+    (Adult: 201 / Total: 201)
+  Progress saved (27/65 complete)
 
-[22/43] Processing 53d208b0-2cfd-4366-9866-c3c6114081bc
+[28/65] Processing 53d208b0-2cfd-4366-9866-c3c6114081bc
   Author: nan (2022.0) - Science
   Expected cells (from CSV): 1136218.0
     Querying Census API...
     Census returned 1,136,218 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 30,084 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 19,697 cells
     Census metadata:
       Tissue (specific): ascending colon
-      Dev stages (all non-zero): 59-year-old stage: 9,931; 56-year-old stage: 9,915; 61-year-old stage: 4,922; 37-year-old stage: 3,822; 60-year-old stage: 1,494
-      Donors: 5
+      Dev stages (all non-zero): 56-year-old stage: 9,915; 61-year-old stage: 4,466; 37-year-old stage: 3,822; 60-year-old stage: 1,494
+      Donors: 4
       Age filtering (min_age=15):
-        Total cells: 30,084
-        Cells with parseable age: 30,084
-        Adult (age >= 15 or contains 'adult'): 30,084
+        Total cells: 19,697
+        Cells with parseable age: 19,697
+        Adult (age >= 15 or contains 'adult'): 19,697
         Child (age < 15): 0
         Excluded (fetal/newborn): 0
-        After filter: 30,084
+        After filter: 19,697
       Disease filtering:
-        Total cells: 30,084
-        Normal cells: 30,084
-  SUCCESS: 30,084 normal cells
-    (Adult: 30,084 / Total: 30,084)
-  Progress saved (22/43 complete)
+        Total cells: 19,697
+        Normal cells: 19,697
+  SUCCESS: 19,697 normal cells
+    (Adult: 19,697 / Total: 19,697)
+  Progress saved (28/65 complete)
 
-[23/43] Processing faed4f71-6b50-4fc7-bd1c-8f385dccfdce
+[29/65] Processing faed4f71-6b50-4fc7-bd1c-8f385dccfdce
   Author: Nowicki-Osuch (2023.0) - Cancer Discovery
   Expected cells (from CSV): 3951.0
     Querying Census API...
     Census returned 3,951 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 2 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 2 cells
     Census metadata:
       Tissue (specific): colon
       Dev stages (all non-zero): 50-year-old stage: 1; 54-year-old stage: 1
@@ -539,14 +593,14 @@ Progress saved after each dataset
         Normal cells: 2
   SUCCESS: 2 normal cells
     (Adult: 2 / Total: 2)
-  Progress saved (23/43 complete)
+  Progress saved (29/65 complete)
 
-[24/43] Processing e5233a94-9e43-418c-8209-6f1400c31530
+[30/65] Processing e5233a94-9e43-418c-8209-6f1400c31530
   Author: Nowicki-Osuch (2023.0) - Cancer Discovery
   Expected cells (from CSV): 146583.0
     Querying Census API...
     Census returned 146,583 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 7,476 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 7,476 cells
     Census metadata:
       Tissue (specific): colon
       Dev stages (all non-zero): 67-year-old stage: 2,768; 66-year-old stage: 2,332; 54-year-old stage: 1,486; 50-year-old stage: 890
@@ -563,14 +617,14 @@ Progress saved after each dataset
         Normal cells: 7,476
   SUCCESS: 7,476 normal cells
     (Adult: 7,476 / Total: 7,476)
-  Progress saved (24/43 complete)
+  Progress saved (30/65 complete)
 
-[25/43] Processing 94423ec1-21f8-40e8-b5c9-c3ea82350ca4
+[31/65] Processing 94423ec1-21f8-40e8-b5c9-c3ea82350ca4
   Author: Nowicki-Osuch (2023.0) - Cancer Discovery
   Expected cells (from CSV): 3282.0
     Querying Census API...
     Census returned 3,282 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 7 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 7 cells
     Census metadata:
       Tissue (specific): rectum
       Dev stages (all non-zero): 50-year-old stage: 4; 54-year-old stage: 2; 67-year-old stage: 1
@@ -587,14 +641,14 @@ Progress saved after each dataset
         Normal cells: 7
   SUCCESS: 7 normal cells
     (Adult: 7 / Total: 7)
-  Progress saved (25/43 complete)
+  Progress saved (31/65 complete)
 
-[26/43] Processing 773b9b2e-70c8-40be-8cbb-e7b5abab360d
+[32/65] Processing 773b9b2e-70c8-40be-8cbb-e7b5abab360d
   Author: Nowicki-Osuch (2023.0) - Cancer Discovery
   Expected cells (from CSV): 79522.0
     Querying Census API...
     Census returned 79,522 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 7,370 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 7,370 cells
     Census metadata:
       Tissue (specific): colon
       Dev stages (all non-zero): 67-year-old stage: 2,741; 66-year-old stage: 2,331; 54-year-old stage: 1,479; 50-year-old stage: 819
@@ -611,14 +665,14 @@ Progress saved after each dataset
         Normal cells: 7,370
   SUCCESS: 7,370 normal cells
     (Adult: 7,370 / Total: 7,370)
-  Progress saved (26/43 complete)
+  Progress saved (32/65 complete)
 
-[27/43] Processing 63bb6359-3945-4658-92eb-3072419953e4
+[33/65] Processing 63bb6359-3945-4658-92eb-3072419953e4
   Author: Nowicki-Osuch (2023.0) - Cancer Discovery
   Expected cells (from CSV): 14970.0
     Querying Census API...
     Census returned 14,970 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 49 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 49 cells
     Census metadata:
       Tissue (specific): colon
       Dev stages (all non-zero): 67-year-old stage: 26; 50-year-old stage: 22; 66-year-old stage: 1
@@ -635,14 +689,14 @@ Progress saved after each dataset
         Normal cells: 49
   SUCCESS: 49 normal cells
     (Adult: 49 / Total: 49)
-  Progress saved (27/43 complete)
+  Progress saved (33/65 complete)
 
-[28/43] Processing 03d5794d-cde9-4769-a1a9-b3899d2b1d87
+[34/65] Processing 03d5794d-cde9-4769-a1a9-b3899d2b1d87
   Author: Nowicki-Osuch (2023.0) - Cancer Discovery
   Expected cells (from CSV): 9015.0
     Querying Census API...
     Census returned 9,015 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 41 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 41 cells
     Census metadata:
       Tissue (specific): rectum
       Dev stages (all non-zero): 50-year-old stage: 37; 54-year-old stage: 4
@@ -659,14 +713,14 @@ Progress saved after each dataset
         Normal cells: 41
   SUCCESS: 41 normal cells
     (Adult: 41 / Total: 41)
-  Progress saved (28/43 complete)
+  Progress saved (34/65 complete)
 
-[29/43] Processing fe52003e-1460-4a65-a213-2bb1a508332f
+[35/65] Processing fe52003e-1460-4a65-a213-2bb1a508332f
   Author: Domínguez Conde (2022.0) - Science
   Expected cells (from CSV): 51552.0
     Querying Census API...
     Census returned 51,552 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 23 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 23 cells
     Census metadata:
       Tissue (specific): transverse colon
       Dev stages (all non-zero): seventh decade stage: 23
@@ -681,14 +735,14 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 23)
-  Progress saved (29/43 complete)
+  Progress saved (35/65 complete)
 
-[30/43] Processing ae29ebd0-1973-40a4-a6af-d15a5f77a80f
+[36/65] Processing ae29ebd0-1973-40a4-a6af-d15a5f77a80f
   Author: Domínguez Conde (2022.0) - Science
   Expected cells (from CSV): 216611.0
     Querying Census API...
     Census returned 216,611 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 202 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 202 cells
     Census metadata:
       Tissue (specific): transverse colon
       Dev stages (all non-zero): seventh decade stage: 202
@@ -703,14 +757,14 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 202)
-  Progress saved (30/43 complete)
+  Progress saved (36/65 complete)
 
-[31/43] Processing 71be997d-ff75-41b9-8a9f-1288c865f921
+[37/65] Processing 71be997d-ff75-41b9-8a9f-1288c865f921
   Author: Domínguez Conde (2022.0) - Science
   Expected cells (from CSV): 54934.0
     Querying Census API...
     Census returned 54,934 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 167 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 167 cells
     Census metadata:
       Tissue (specific): transverse colon
       Dev stages (all non-zero): seventh decade stage: 167
@@ -725,14 +779,14 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 167)
-  Progress saved (31/43 complete)
+  Progress saved (37/65 complete)
 
-[32/43] Processing 1b9d8702-5af8-4142-85ed-020eb06ec4f6
+[38/65] Processing 1b9d8702-5af8-4142-85ed-020eb06ec4f6
   Author: Domínguez Conde (2022.0) - Science
   Expected cells (from CSV): 329762.0
     Querying Census API...
     Census returned 329,762 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 395 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 395 cells
     Census metadata:
       Tissue (specific): transverse colon
       Dev stages (all non-zero): seventh decade stage: 395
@@ -747,14 +801,38 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 395)
-  Progress saved (32/43 complete)
+  Progress saved (38/65 complete)
 
-[33/43] Processing 776a1e4a-f141-49bb-9978-d0588a4cee9f
+[39/65] Processing 9bfecd44-e6b5-4072-9b64-cb7f0a117f88
+  Author: Garrido-Trigo (2023.0) - Nat Commun
+  Expected cells (from CSV): 46700.0
+    Querying Census API...
+    Census returned 46,700 total cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 46,700 cells
+    Census metadata:
+      Tissue (specific): colonic mucosa
+      Dev stages (all non-zero): 51-year-old stage: 6,290; 56-year-old stage: 5,618; 22-year-old stage: 4,961; 68-year-old stage: 3,603; 23-year-old stage: 3,300; 46-year-old stage: 3,001; 43-year-old stage: 2,597; 63-year-old stage: 2,555; 49-year-old stage: 2,485; 65-year-old stage: 2,258; 33-year-old stage: 2,104; 66-year-old stage: 1,898; 21-year-old stage: 1,544; 45-year-old stage: 1,542; 61-year-old stage: 1,531; 48-year-old stage: 1,413
+      Donors: 18
+      Age filtering (min_age=15):
+        Total cells: 46,700
+        Cells with parseable age: 46,700
+        Adult (age >= 15 or contains 'adult'): 46,700
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 46,700
+      Disease filtering:
+        Total cells: 46,700
+        Normal cells: 15,170
+  SUCCESS: 15,170 normal cells
+    (Adult: 46,700 / Total: 46,700)
+  Progress saved (39/65 complete)
+
+[40/65] Processing 776a1e4a-f141-49bb-9978-d0588a4cee9f
   Author: Xu (2025.0) - Nat Genet
   Expected cells (from CSV): 353140.0
     Querying Census API...
     Census returned 353,140 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 53,217 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 53,217 cells
     Census metadata:
       Tissue (specific): colon
       Dev stages (all non-zero): unknown: 53,217
@@ -769,14 +847,14 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 53,217)
-  Progress saved (33/43 complete)
+  Progress saved (40/65 complete)
 
-[34/43] Processing 6725ee8e-ef5b-4e68-8901-61bd14a1fe73
+[41/65] Processing 6725ee8e-ef5b-4e68-8901-61bd14a1fe73
   Author: Xu (2025.0) - Nat Genet
   Expected cells (from CSV): 806646.0
     Querying Census API...
     Census returned 806,646 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 53,217 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 53,217 cells
     Census metadata:
       Tissue (specific): colon
       Dev stages (all non-zero): unknown: 53,217
@@ -791,14 +869,38 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 53,217)
-  Progress saved (34/43 complete)
+  Progress saved (41/65 complete)
 
-[35/43] Processing 6cf3634d-e911-44ad-bf52-c747a9af3c01
+[42/65] Processing 4dd00779-7f73-4f50-89bb-e2d3c6b71b18
+  Author: Smillie (2019.0) - Cell
+  Expected cells (from CSV): 34772.0
+    Querying Census API...
+    Census returned 34,772 total cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 30,476 cells
+    Census metadata:
+      Tissue (specific): colonic epithelium
+      Dev stages (all non-zero): adult stage: 30,476
+      Donors: 11
+      Age filtering (min_age=15):
+        Total cells: 30,476
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 30,476
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 30,476
+      Disease filtering:
+        Total cells: 30,476
+        Normal cells: 30,476
+  SUCCESS: 30,476 normal cells
+    (Adult: 30,476 / Total: 30,476)
+  Progress saved (42/65 complete)
+
+[43/65] Processing 6cf3634d-e911-44ad-bf52-c747a9af3c01
   Author: Kong (2023.0) - Immunity
   Expected cells (from CSV): 39433.0
     Querying Census API...
     Census returned 39,433 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 38,150 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 38,150 cells
     Census metadata:
       Tissue (specific): lamina propria of mucosa of colon
       Dev stages (all non-zero): sixth decade stage: 11,369; third decade stage: 10,958; adult stage: 7,848; fourth decade stage: 4,167; seventh decade stage: 2,590; eighth decade stage: 1,118; fifth decade stage: 100
@@ -815,14 +917,14 @@ Progress saved after each dataset
         Normal cells: 7,848
   SUCCESS: 7,848 normal cells
     (Adult: 7,848 / Total: 38,150)
-  Progress saved (35/43 complete)
+  Progress saved (43/65 complete)
 
-[36/43] Processing 5ce42b38-d867-487f-9b40-e8bb00b21d0b
+[44/65] Processing 5ce42b38-d867-487f-9b40-e8bb00b21d0b
   Author: Kong (2023.0) - Immunity
   Expected cells (from CSV): 97788.0
     Querying Census API...
     Census returned 97,788 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 93,995 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 93,995 cells
     Census metadata:
       Tissue (specific): colonic epithelium
       Dev stages (all non-zero): adult stage: 27,556; sixth decade stage: 20,985; third decade stage: 18,632; seventh decade stage: 8,676; eighth decade stage: 8,424; fourth decade stage: 5,165; fifth decade stage: 4,557
@@ -839,14 +941,14 @@ Progress saved after each dataset
         Normal cells: 27,556
   SUCCESS: 27,556 normal cells
     (Adult: 27,556 / Total: 93,995)
-  Progress saved (36/43 complete)
+  Progress saved (44/65 complete)
 
-[37/43] Processing 518d9049-2a76-44f8-8abc-1e2b59ab5ba1
+[45/65] Processing 518d9049-2a76-44f8-8abc-1e2b59ab5ba1
   Author: Kong (2023.0) - Immunity
   Expected cells (from CSV): 152509.0
     Querying Census API...
     Census returned 152,509 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 134,301 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 134,301 cells
     Census metadata:
       Tissue (specific): lamina propria of mucosa of colon
       Dev stages (all non-zero): adult stage: 41,025; sixth decade stage: 36,498; third decade stage: 33,150; seventh decade stage: 11,074; fourth decade stage: 8,022; eighth decade stage: 3,426; fifth decade stage: 1,106
@@ -863,14 +965,14 @@ Progress saved after each dataset
         Normal cells: 41,025
   SUCCESS: 41,025 normal cells
     (Adult: 41,025 / Total: 134,301)
-  Progress saved (37/43 complete)
+  Progress saved (45/65 complete)
 
-[38/43] Processing 2adb1f8a-a6b1-4909-8ee8-484814e2d4bf
+[46/65] Processing 2adb1f8a-a6b1-4909-8ee8-484814e2d4bf
   Author: Han (2020.0) - Nature
   Expected cells (from CSV): 599926.0
     Querying Census API...
     Census returned 598,266 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 28,019 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 28,019 cells
     Census metadata:
       Tissue (specific): transverse colon
       Dev stages (all non-zero): 83-year-old stage: 11,229; 47-year-old stage: 11,025; 51-year-old stage: 5,765
@@ -887,14 +989,14 @@ Progress saved after each dataset
         Normal cells: 28,019
   SUCCESS: 28,019 normal cells
     (Adult: 28,019 / Total: 28,019)
-  Progress saved (38/43 complete)
+  Progress saved (46/65 complete)
 
-[39/43] Processing b46237d1-19c6-4af2-9335-9854634bad16
+[47/65] Processing b46237d1-19c6-4af2-9335-9854634bad16
   Author: Elmentaite (2020.0) - Developmental Cell
   Expected cells (from CSV): 62849.0
     Querying Census API...
     Census returned 62,849 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 21,147 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 21,147 cells
     Census metadata:
       Tissue (specific): colon
       Dev stages (all non-zero): Carnegie stage 23: 11,579; Carnegie stage 17: 3,218; Carnegie stage 18: 2,649; Carnegie stage 22: 1,734; Carnegie stage 19: 1,168; 10th week post-fertilization stage: 799
@@ -909,14 +1011,14 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 21,147)
-  Progress saved (39/43 complete)
+  Progress saved (47/65 complete)
 
-[40/43] Processing 019c7af2-c827-4454-9970-44d5e39ce068
+[48/65] Processing 019c7af2-c827-4454-9970-44d5e39ce068
   Author: Burclaff (2022.0) - Cellular and Molecular Gastroenterology and Hepatology
   Expected cells (from CSV): 12590.0
     Querying Census API...
     Census returned 12,590 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 5,254 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 5,254 cells
     Census metadata:
       Tissue (specific): transverse colon
       Dev stages (all non-zero): 45-year-old stage: 1,984; 29-year-old stage: 1,856; 53-year-old stage: 1,414
@@ -933,14 +1035,86 @@ Progress saved after each dataset
         Normal cells: 5,254
   SUCCESS: 5,254 normal cells
     (Adult: 5,254 / Total: 5,254)
-  Progress saved (40/43 complete)
+  Progress saved (48/65 complete)
 
-[41/43] Processing cbd3d76b-eec6-42e5-a8fb-71dc825e2a74
+[49/65] Processing e2811f45-81cc-4819-aee0-dbaa6b3bb52c
+  Author: Gu (2024.0) - Nature
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (49/65 complete)
+
+[50/65] Processing b5c3a60d-1a81-4be9-abf4-070c5630e73c
+  Author: Gu (2024.0) - Nature
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (50/65 complete)
+
+[51/65] Processing ab682d61-79b8-4d66-ae9e-aab154e55aad
+  Author: Gu (2024.0) - Nature
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (51/65 complete)
+
+[52/65] Processing 7bb14472-12fa-46e4-a822-1b6eedcc8ffa
+  Author: Gu (2024.0) - Nature
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (52/65 complete)
+
+[53/65] Processing 227b0f38-7a6a-4a93-9d2e-d00b3e416a42
+  Author: Gu (2024.0) - Nature
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (53/65 complete)
+
+[54/65] Processing 18f66a91-fe76-4bd6-aa46-5ab39ded35a0
+  Author: Gu (2024.0) - Nature
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (54/65 complete)
+
+[55/65] Processing 15849d77-1325-4a16-a6ed-504fd852c610
+  Author: Gu (2024.0) - Nature
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (55/65 complete)
+
+[56/65] Processing 0d49001d-cc88-4b70-8f0c-f1ca385d0199
+  Author: Gu (2024.0) - Nature
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (56/65 complete)
+
+[57/65] Processing cbd3d76b-eec6-42e5-a8fb-71dc825e2a74
   Author: Oliver (2024.0) - Nature
   Expected cells (from CSV): 94952.0
     Querying Census API...
     Census returned 94,952 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 14,458 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 14,458 cells
     Census metadata:
       Tissue (specific): colon
       Dev stages (all non-zero): 15th week post-fertilization stage: 5,324; 19th week post-fertilization stage: 3,697; 16th week post-fertilization stage: 2,834; 12th week post-fertilization stage: 1,381; 17th week post-fertilization stage: 1,222
@@ -955,14 +1129,14 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 14,458)
-  Progress saved (41/43 complete)
+  Progress saved (57/65 complete)
 
-[42/43] Processing bb0818d3-474e-44f4-a82a-169f3c62c94c
+[58/65] Processing bb0818d3-474e-44f4-a82a-169f3c62c94c
   Author: Oliver (2024.0) - Nature
   Expected cells (from CSV): 1077238.0
     Querying Census API...
     Census returned 1,077,238 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 258,120 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 258,120 cells
     Census metadata:
       Tissue (specific): colon
       Dev stages (all non-zero): seventh decade stage: 42,268; 10th week post-fertilization stage: 16,015; adult stage: 15,970; third decade stage: 15,021; juvenile stage (5-14 yo): 14,274; 55-year-old stage: 13,185; 74-year-old stage: 12,179; eighth decade stage: 8,706; pediatric stage: 8,352; fifth decade stage: 8,225; 31-year-old stage: 7,797; 15th week post-fertilization stage: 7,263; 11th week post-fertilization stage: 7,093; 19th week post-fertilization stage: 6,543; sixth decade stage: 5,929; 12th week post-fertilization stage: 5,195; 16th week post-fertilization stage: 5,186; 30-year-old stage: 4,616; 51-year-old stage: 4,570; 23-year-old stage: 3,865; 29-year-old stage: 3,601; 67-year-old stage: 3,576; 65-year-old stage: 3,472; Carnegie stage 18: 3,280; 33-year-old stage: 3,184; 50-year-old stage: 3,050; Carnegie stage 17: 3,044; 66-year-old stage: 2,980; 9th week post-fertilization stage: 2,756; 84-year-old stage: 2,700; Carnegie stage 22: 2,666; 81-year-old stage: 2,230; 17th week post-fertilization stage: 2,148; 54-year-old stage: 2,050; 85-year-old stage: 1,663; 77-year-old stage: 1,377; 52-year-old stage: 1,099; Carnegie stage 19: 992
@@ -979,14 +1153,14 @@ Progress saved after each dataset
         Normal cells: 93,164
   SUCCESS: 93,164 normal cells
     (Adult: 93,164 / Total: 258,120)
-  Progress saved (42/43 complete)
+  Progress saved (58/65 complete)
 
-[43/43] Processing 91cc8f50-9c9e-4d9b-84fe-fcd59f852bba
+[59/65] Processing 91cc8f50-9c9e-4d9b-84fe-fcd59f852bba
   Author: Oliver (2024.0) - Nature
   Expected cells (from CSV): 117094.0
     Querying Census API...
     Census returned 117,094 total cells
-    After tissue filter (colon|colorectum|rectum|large intestine): 30,293 cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 30,293 cells
     Census metadata:
       Tissue (specific): colon
       Dev stages (all non-zero): 10th week post-fertilization stage: 11,515; 11th week post-fertilization stage: 5,811; Carnegie stage 17: 2,762; Carnegie stage 18: 2,720; 12th week post-fertilization stage: 2,373; 9th week post-fertilization stage: 2,351; Carnegie stage 22: 1,942; Carnegie stage 19: 819
@@ -1001,17 +1175,127 @@ Progress saved after each dataset
     No adult cells found
   SUCCESS: 0 normal cells
     (Adult: 0 / Total: 30,293)
-  Progress saved (43/43 complete)
+  Progress saved (59/65 complete)
+
+[60/65] Processing 5ea56ccf-4662-4303-9d49-abc69b1c435a
+  Author: Oliver (2024.0) - Nature
+  Expected cells (from CSV): 4419.0
+    Querying Census API...
+    Census returned 4,419 total cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 4,419 cells
+    Census metadata:
+      Tissue (specific): colon
+      Dev stages (all non-zero): 10th week post-fertilization stage: 2,501; 12th week post-fertilization stage: 567; Carnegie stage 22: 393; Carnegie stage 18: 370; 11th week post-fertilization stage: 358; Carnegie stage 19: 108; Carnegie stage 17: 75; 9th week post-fertilization stage: 47
+      Donors: 11
+      Age filtering (min_age=15):
+        Total cells: 4,419
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 3,473
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 4,419)
+  Progress saved (60/65 complete)
+
+[61/65] Processing 5525b4bd-e4e1-49d2-8734-0e7e14c5515f
+  Author: Oliver (2024.0) - Nature
+  Expected cells (from CSV): 4475.0
+    Querying Census API...
+    Census returned 4,475 total cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 4,475 cells
+    Census metadata:
+      Tissue (specific): colon
+      Dev stages (all non-zero): 19th week post-fertilization stage: 1,607; 16th week post-fertilization stage: 1,493; 15th week post-fertilization stage: 661; 17th week post-fertilization stage: 554; 12th week post-fertilization stage: 160
+      Donors: 7
+      Age filtering (min_age=15):
+        Total cells: 4,475
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 4,475
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 4,475)
+  Progress saved (61/65 complete)
+
+[62/65] Processing f71eeea6-aa46-4d14-a53e-fb862806acee
+  Author: nan (2025.0) - Nature
+  Expected cells (from CSV): 1560.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (62/65 complete)
+
+[63/65] Processing a392ab34-9016-4f48-b45d-5b3a9cfa39fe
+  Author: nan (2025.0) - Nature
+  Expected cells (from CSV): 244081.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (63/65 complete)
+
+[64/65] Processing 80d7111d-f9fe-49fd-871e-6e618312c341
+  Author: Wang (2020.0) - Journal of Experimental Medicine
+  Expected cells (from CSV): 3797.0
+    Querying Census API...
+    Census returned 3,797 total cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 3,797 cells
+    Census metadata:
+      Tissue (specific): rectum
+      Dev stages (all non-zero): 66-year-old stage: 2,792; 50-year-old stage: 1,005
+      Donors: 2
+      Age filtering (min_age=15):
+        Total cells: 3,797
+        Cells with parseable age: 3,797
+        Adult (age >= 15 or contains 'adult'): 3,797
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 3,797
+      Disease filtering:
+        Total cells: 3,797
+        Normal cells: 3,797
+  SUCCESS: 3,797 normal cells
+    (Adult: 3,797 / Total: 3,797)
+  Progress saved (64/65 complete)
+
+[65/65] Processing 4e74d843-8d7a-497a-918a-f079ef141b6d
+  Author: Wang (2020.0) - Journal of Experimental Medicine
+  Expected cells (from CSV): 4329.0
+    Querying Census API...
+    Census returned 4,329 total cells
+    After tissue filter (colon|colorectum|rectum|large instestine): 4,329 cells
+    Census metadata:
+      Tissue (specific): ascending colon
+      Dev stages (all non-zero): 67-year-old stage: 2,604; 54-year-old stage: 1,725
+      Donors: 2
+      Age filtering (min_age=15):
+        Total cells: 4,329
+        Cells with parseable age: 4,329
+        Adult (age >= 15 or contains 'adult'): 4,329
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 4,329
+      Disease filtering:
+        Total cells: 4,329
+        Normal cells: 4,329
+  SUCCESS: 4,329 normal cells
+    (Adult: 4,329 / Total: 4,329)
+  Progress saved (65/65 complete)
 
 ======================================================================
 COMPLETE
 ======================================================================
-Total datasets: 43
-Successful: 43
-Failed: 0
+Total datasets: 65
+Successful: 49
+Failed: 16
 Skipped: 0
 
 Output: data/homo_sapiens_large_intestine_harvester_with_normal_counts.csv
 
-Completed: 2026-01-29 03:54:17
+Completed: 2026-01-29 15:36:52
 Log saved to: data/homo_sapiens_large_intestine_harvester_with_normal_counts_log.txt
