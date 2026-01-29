@@ -1,0 +1,1826 @@
+Starting: 2026-01-29 16:04:47
+Input: data/homo_sapiens_lung_harvester.csv
+Tissue filter: lung
+Min age: 15 (use 0 to disable)
+Output: data/homo_sapiens_lung_harvester_with_normal_counts.csv
+Log: data/homo_sapiens_lung_harvester_with_normal_counts_log.txt
+
+Loaded 99 datasets from data/homo_sapiens_lung_harvester.csv
+
+Initialized output: data/homo_sapiens_lung_harvester_with_normal_counts.csv
+
+Processing 99 datasets...
+Progress saved after each dataset
+
+
+[1/99] Processing 3de0ad6d-4378-4f62-b37b-ec0b75a50d94
+  Author: Wang (2020.0) - eLife
+  Expected cells (from CSV): 46500.0
+    Querying Census API...
+    Census returned 46,500 total cells
+    After tissue filter (lung): 46,500 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 3-year-old stage: 19,081; 31st week post-fertilization stage: 17,026; 31-year-old stage: 10,393
+      Donors: 9
+      Age filtering (min_age=15):
+        Total cells: 46,500
+        Cells with parseable age: 29,474
+        Adult (age >= 15 or contains 'adult'): 10,393
+        Child (age < 15): 19,081
+        Excluded (fetal/newborn): 17,026
+        After filter: 10,393
+      Disease filtering:
+        Total cells: 10,393
+        Normal cells: 10,393
+  SUCCESS: 10,393 normal cells
+    (Adult: 10,393 / Total: 46,500)
+  Progress saved (1/99 complete)
+
+[2/99] Processing 066943a2-fdac-4b29-b348-40cede398e4e
+  Author: Sikkema (2023.0) - Nat Med
+  Expected cells (from CSV): 584944.0
+    Querying Census API...
+    Census returned 584,944 total cells
+    After tissue filter (lung): 333,468 cells
+    Census metadata:
+      Tissue (specific): lung parenchyma
+      Dev stages (all non-zero): 25-year-old stage: 40,957; 55-year-old stage: 22,494; 52-year-old stage: 18,612; 46-year-old stage: 18,541; fifth decade stage: 16,899; 51-year-old stage: 16,898; seventh decade stage: 16,719; 49-year-old stage: 14,613; 57-year-old stage: 13,796; 30-year-old stage: 13,533; 29-year-old stage: 11,743; sixth decade stage: 10,396; 23-year-old stage: 10,172; 64-year-old stage: 9,480; 34-year-old stage: 9,134; 47-year-old stage: 8,016; 41-year-old stage: 7,850; 75-year-old stage: 7,523; 62-year-old stage: 7,286; 38-year-old stage: 5,972; 63-year-old stage: 5,390; 21-year-old stage: 4,880; 53-year-old stage: 4,592; 59-year-old stage: 4,516; 69-year-old stage: 4,305; 22-year-old stage: 4,241; 54-year-old stage: 4,061; fourth decade stage: 3,771; 18-year-old stage: 3,272; 36-year-old stage: 2,542; 56-year-old stage: 2,217; 40-year-old stage: 1,739; 58-year-old stage: 1,605; 42-year-old stage: 1,411; 35-year-old stage: 1,296; 31-year-old stage: 1,208; 76-year-old stage: 704; 71-year-old stage: 601; 27-year-old stage: 436; 15-year-old stage: 47
+      Donors: 66
+      Age filtering (min_age=15):
+        Total cells: 333,468
+        Cells with parseable age: 285,683
+        Adult (age >= 15 or contains 'adult'): 285,683
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 285,683
+      Disease filtering:
+        Total cells: 285,683
+        Normal cells: 285,683
+  SUCCESS: 285,683 normal cells
+    (Adult: 285,683 / Total: 333,468)
+  Progress saved (2/99 complete)
+
+[3/99] Processing 9968be68-ab65-4a38-9e1a-c9b6abece194
+  Author: Yu (2021.0) - Cell
+  Expected cells (from CSV): 155232.0
+    Querying Census API...
+    Census returned 155,232 total cells
+    After tissue filter (lung): 47,909 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 18th week post-fertilization stage: 23,619; 15th week post-fertilization stage: 12,785; 12th week post-fertilization stage: 11,505
+      Donors: 3
+      Age filtering (min_age=15):
+        Total cells: 47,909
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 47,909
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 47,909)
+  Progress saved (3/99 complete)
+
+[4/99] Processing c69fb6cd-fc4d-4216-85cb-8d80e7771786
+  Author: Redman (2024.0) - Am J Respir Cell Mol Biol
+  Expected cells (from CSV): 10224.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (4/99 complete)
+
+[5/99] Processing 2f132ec9-24b5-422f-9be0-ccef03b4fe28
+  Author: Lukassen (2020.0) - The EMBO Journal
+  Expected cells (from CSV): 39778.0
+    Querying Census API...
+    Census returned 39,778 total cells
+    After tissue filter (lung): 39,778 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 45-year-old stage: 10,939; 44-year-old stage: 4,395; 49-year-old stage: 4,138; 46-year-old stage: 3,627; 50-year-old stage: 3,606; 75-year-old stage: 3,417; 47-year-old stage: 3,004; 79-year-old stage: 2,550; 56-year-old stage: 2,440; 76-year-old stage: 1,662
+      Donors: 12
+      Age filtering (min_age=15):
+        Total cells: 39,778
+        Cells with parseable age: 39,778
+        Adult (age >= 15 or contains 'adult'): 39,778
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 39,778
+      Disease filtering:
+        Total cells: 39,778
+        Normal cells: 39,778
+  SUCCESS: 39,778 normal cells
+    (Adult: 39,778 / Total: 39,778)
+  Progress saved (5/99 complete)
+
+[6/99] Processing 5f4556b6-017e-49b3-b31c-c6e8e226c9fb
+  Author: Gray (2024.0) - Sci. Immunol.
+  Expected cells (from CSV): 7417.0
+    Querying Census API...
+    Census returned 7,417 total cells
+    After tissue filter (lung): 1,367 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 25-year-old stage: 448; 33-year-old stage: 408; 56-year-old stage: 113; 20-year-old stage: 85; 41-year-old stage: 65; 68-year-old stage: 43; 48-year-old stage: 38; 27-year-old stage: 34; 67-year-old stage: 27; 23-year-old stage: 23; 52-year-old stage: 19; 21-year-old stage: 17; 38-year-old stage: 17; 75-year-old stage: 10; 64-year-old stage: 8; third decade stage: 4; 73-year-old stage: 3; 74-year-old stage: 3; 54-year-old stage: 2
+      Donors: 19
+      Age filtering (min_age=15):
+        Total cells: 1,367
+        Cells with parseable age: 1,363
+        Adult (age >= 15 or contains 'adult'): 1,363
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 1,363
+      Disease filtering:
+        Total cells: 1,363
+        Normal cells: 1,363
+  SUCCESS: 1,363 normal cells
+    (Adult: 1,363 / Total: 1,367)
+  Progress saved (6/99 complete)
+
+[7/99] Processing 92594117-6e7c-47bd-bd6b-65c52cea167b
+  Author: Long (2024.0) - Nat Commun
+  Expected cells (from CSV): 116778.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (7/99 complete)
+
+[8/99] Processing f16a8f4d-bc97-43c5-a2f6-bbda952e4c5c
+  Author: nan (2020.0) - Nature
+  Expected cells (from CSV): 356213.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (8/99 complete)
+
+[9/99] Processing 98e5ea9f-16d6-47ec-a529-686e76515e39
+  Author: nan (2020.0) - Nature
+  Expected cells (from CSV): 110824.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (9/99 complete)
+
+[10/99] Processing 48b37086-25f7-4ecd-be66-f5bb378e3aea
+  Author: nan (2020.0) - Nature
+  Expected cells (from CSV): 245389.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (10/99 complete)
+
+[11/99] Processing 0fb7916e-7a68-4a4c-a441-3ab3989f29a7
+  Author: nan (2020.0) - Nature
+  Expected cells (from CSV): 24540.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (11/99 complete)
+
+[12/99] Processing 05e6f6e3-0473-4b85-9f94-bcc5f1b5e04b
+  Author: nan (2020.0) - Nature
+  Expected cells (from CSV): 5218.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (12/99 complete)
+
+[13/99] Processing 4b6af54a-4a21-46e0-bc8d-673c0561a836
+  Author: Wang (2023.0) - Immunity
+  Expected cells (from CSV): 18386.0
+    Querying Census API...
+    Census returned 18,386 total cells
+    After tissue filter (lung): 18,386 cells
+    Census metadata:
+      Tissue (specific): alveolus of lung
+      Dev stages (all non-zero): 63-year-old stage: 6,182; 65-year-old stage: 3,651; 73-year-old stage: 3,635; 60-year-old stage: 3,262; 61-year-old stage: 1,656
+      Donors: 6
+      Age filtering (min_age=15):
+        Total cells: 18,386
+        Cells with parseable age: 18,386
+        Adult (age >= 15 or contains 'adult'): 18,386
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 18,386
+      Disease filtering:
+        Total cells: 18,386
+        Normal cells: 9,383
+  SUCCESS: 9,383 normal cells
+    (Adult: 18,386 / Total: 18,386)
+  Progress saved (13/99 complete)
+
+[14/99] Processing 214bf9eb-93db-48c8-8e3c-9bb22fa3bc63
+  Author: Wang (2023.0) - Immunity
+  Expected cells (from CSV): 3662.0
+    Querying Census API...
+    Census returned 3,662 total cells
+    After tissue filter (lung): 3,662 cells
+    Census metadata:
+      Tissue (specific): alveolus of lung
+      Dev stages (all non-zero): 63-year-old stage: 1,262; 61-year-old stage: 839; 60-year-old stage: 590; 73-year-old stage: 525; 65-year-old stage: 446
+      Donors: 6
+      Age filtering (min_age=15):
+        Total cells: 3,662
+        Cells with parseable age: 3,662
+        Adult (age >= 15 or contains 'adult'): 3,662
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 3,662
+      Disease filtering:
+        Total cells: 3,662
+        Normal cells: 2,443
+  SUCCESS: 2,443 normal cells
+    (Adult: 3,662 / Total: 3,662)
+  Progress saved (14/99 complete)
+
+[15/99] Processing 1e5bd3b8-6a0e-4959-8d69-cafed30fe814
+  Author: Wang (2023.0) - Immunity
+  Expected cells (from CSV): 35699.0
+    Querying Census API...
+    Census returned 35,699 total cells
+    After tissue filter (lung): 35,699 cells
+    Census metadata:
+      Tissue (specific): alveolus of lung
+      Dev stages (all non-zero): 63-year-old stage: 11,720; 65-year-old stage: 7,646; 73-year-old stage: 7,592; 61-year-old stage: 5,817; 60-year-old stage: 2,924
+      Donors: 6
+      Age filtering (min_age=15):
+        Total cells: 35,699
+        Cells with parseable age: 35,699
+        Adult (age >= 15 or contains 'adult'): 35,699
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 35,699
+      Disease filtering:
+        Total cells: 35,699
+        Normal cells: 12,910
+  SUCCESS: 12,910 normal cells
+    (Adult: 35,699 / Total: 35,699)
+  Progress saved (15/99 complete)
+
+[16/99] Processing eb499fd8-7000-419f-8854-926b9b61b11f
+  Author: Guo (2023.0) - Nat Commun
+  Expected cells (from CSV): 347970.0
+    Querying Census API...
+    Census returned 347,970 total cells
+    After tissue filter (lung): 347,970 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 51-year-old stage: 33,762; 46-year-old stage: 24,707; 29-year-old stage: 20,951; 52-year-old stage: 17,624; 35-year-old stage: 16,167; 70-year-old stage: 12,135; 76-year-old stage: 11,867; 57-year-old stage: 10,853; 30-year-old stage: 10,800; 41-year-old stage: 10,263; 13-year-old stage: 10,090; 66-year-old stage: 8,714; 75-year-old stage: 8,369; 32-year-old stage: 8,204; 59-year-old stage: 8,162; 68-year-old stage: 7,892; 25-year-old stage: 7,530; 69-year-old stage: 7,504; 21-year-old stage: 6,963; 23-year-old stage: 6,624; 55-year-old stage: 6,362; 22-year-old stage: 6,192; 65-year-old stage: 5,612; 17-year-old stage: 5,038; 49-year-old stage: 4,863; 63-year-old stage: 4,815; 31-year-old stage: 4,580; 33-year-old stage: 4,517; 38-year-old stage: 4,202; 42-year-old stage: 4,112; 79-year-old stage: 3,888; 47-year-old stage: 3,793; 12-year-old stage: 3,774; 64-year-old stage: 3,617; 27-year-old stage: 3,519; 20-year-old stage: 2,431; 72-year-old stage: 2,293; 67-year-old stage: 2,107; 40-year-old stage: 2,046; 54-year-old stage: 2,025; 61-year-old stage: 1,997; 36-year-old stage: 1,921; 62-year-old stage: 1,881; 39-year-old stage: 1,820; 10-year-old stage: 1,771; 56-year-old stage: 1,752; 44-year-old stage: 1,740; 45-year-old stage: 1,587; 80-year-old stage: 1,450; 24-year-old stage: 1,007; 50-year-old stage: 735; 26-year-old stage: 694; 48-year-old stage: 507; 37-year-old stage: 141
+      Donors: 104
+      Age filtering (min_age=15):
+        Total cells: 347,970
+        Cells with parseable age: 347,970
+        Adult (age >= 15 or contains 'adult'): 332,335
+        Child (age < 15): 15,635
+        Excluded (fetal/newborn): 0
+        After filter: 332,335
+      Disease filtering:
+        Total cells: 332,335
+        Normal cells: 332,335
+  SUCCESS: 332,335 normal cells
+    (Adult: 332,335 / Total: 347,970)
+  Progress saved (16/99 complete)
+
+[17/99] Processing ef1a4b05-540c-4f73-8ceb-49dfa800645d
+  Author: Kim (2024.0) - Cells
+  Expected cells (from CSV): 15806.0
+    Querying Census API...
+    Census returned 5,594 total cells
+    After tissue filter (lung): 5,594 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): late adult stage: 3,331; middle aged stage: 2,263
+      Donors: 2
+      Age filtering (min_age=15):
+        Total cells: 5,594
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 3,331
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 3,331
+      Disease filtering:
+        Total cells: 3,331
+        Normal cells: 3,331
+  SUCCESS: 3,331 normal cells
+    (Adult: 3,331 / Total: 5,594)
+  Progress saved (17/99 complete)
+
+[18/99] Processing 493a8b60-d676-44d1-b022-d14c1ad0b36c
+  Author: Xu (2023.0) - Cell
+  Expected cells (from CSV): 318426.0
+    Querying Census API...
+    Census returned 318,426 total cells
+    After tissue filter (lung): 282,981 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 46-year-old stage: 29,270; seventh decade stage: 28,201; 75-year-old stage: 24,737; 51-year-old stage: 24,655; 32-year-old stage: 22,269; 66-year-old stage: 20,568; 35-year-old stage: 18,417; 64-year-old stage: 17,326; fifth decade stage: 13,563; 65-year-old stage: 9,999; 29-year-old stage: 9,601; 41-year-old stage: 9,127; sixth decade stage: 8,425; eighth decade stage: 7,983; 59-year-old stage: 7,533; 58-year-old stage: 4,728; 21-year-old stage: 4,541; 62-year-old stage: 3,990; 67-year-old stage: 3,415; 56-year-old stage: 2,610; 61-year-old stage: 2,272; 23-year-old stage: 2,037; 22-year-old stage: 1,849; 37-year-old stage: 1,240; 31-year-old stage: 1,102; 54-year-old stage: 998; 20-year-old stage: 962; 49-year-old stage: 705; 25-year-old stage: 693; 50-year-old stage: 165
+      Donors: 43
+      Age filtering (min_age=15):
+        Total cells: 282,981
+        Cells with parseable age: 224,809
+        Adult (age >= 15 or contains 'adult'): 224,809
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 224,809
+      Disease filtering:
+        Total cells: 224,809
+        Normal cells: 224,809
+  SUCCESS: 224,809 normal cells
+    (Adult: 224,809 / Total: 282,981)
+  Progress saved (18/99 complete)
+
+[19/99] Processing e3da8320-0b3c-4bae-ad55-a89eb59ca870
+  Author: Wells (2025.0) - Nat Immunol
+  Expected cells (from CSV): 130414.0
+    Querying Census API...
+    Census returned 130,414 total cells
+    After tissue filter (lung): 19,260 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 27-year-old stage: 3,369; 67-year-old stage: 2,197; fifth decade stage: 1,831; 48-year-old stage: 1,785; 33-year-old stage: 1,385; 75-year-old stage: 1,320; 68-year-old stage: 1,301; 25-year-old stage: 1,008; third decade stage: 984; 20-year-old stage: 936; 73-year-old stage: 826; 56-year-old stage: 764; fourth decade stage: 641; 64-year-old stage: 374; 23-year-old stage: 340; sixth decade stage: 187; eighth decade stage: 12
+      Donors: 19
+      Age filtering (min_age=15):
+        Total cells: 19,260
+        Cells with parseable age: 15,605
+        Adult (age >= 15 or contains 'adult'): 15,605
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 15,605
+      Disease filtering:
+        Total cells: 15,605
+        Normal cells: 15,605
+  SUCCESS: 15,605 normal cells
+    (Adult: 15,605 / Total: 19,260)
+  Progress saved (19/99 complete)
+
+[20/99] Processing 960ecd06-e7c2-463d-9a5b-6832994376c6
+  Author: Wells (2025.0) - Nat Immunol
+  Expected cells (from CSV): 610429.0
+    Querying Census API...
+    Census returned 610,429 total cells
+    After tissue filter (lung): 25,379 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 25-year-old stage: 5,475; 23-year-old stage: 2,749; 33-year-old stage: 2,521; 67-year-old stage: 2,260; fifth decade stage: 1,936; 56-year-old stage: 1,426; fourth decade stage: 1,426; 68-year-old stage: 1,260; 20-year-old stage: 1,146; 27-year-old stage: 1,100; sixth decade stage: 1,047; third decade stage: 1,010; 48-year-old stage: 679; 64-year-old stage: 599; 75-year-old stage: 403; 73-year-old stage: 304; eighth decade stage: 38
+      Donors: 19
+      Age filtering (min_age=15):
+        Total cells: 25,379
+        Cells with parseable age: 19,922
+        Adult (age >= 15 or contains 'adult'): 19,922
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 19,922
+      Disease filtering:
+        Total cells: 19,922
+        Normal cells: 19,922
+  SUCCESS: 19,922 normal cells
+    (Adult: 19,922 / Total: 25,379)
+  Progress saved (20/99 complete)
+
+[21/99] Processing 3f766409-fcd6-4553-99e8-259bc24a6be6
+  Author: Wells (2025.0) - Nat Immunol
+  Expected cells (from CSV): 272162.0
+    Querying Census API...
+    Census returned 272,162 total cells
+    After tissue filter (lung): 2,893 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 23-year-old stage: 827; fifth decade stage: 305; 25-year-old stage: 274; 68-year-old stage: 208; 73-year-old stage: 169; third decade stage: 166; sixth decade stage: 142; 20-year-old stage: 132; 27-year-old stage: 116; 67-year-old stage: 113; fourth decade stage: 107; 33-year-old stage: 97; 56-year-old stage: 87; 64-year-old stage: 56; 48-year-old stage: 41; 75-year-old stage: 37; eighth decade stage: 16
+      Donors: 18
+      Age filtering (min_age=15):
+        Total cells: 2,893
+        Cells with parseable age: 2,157
+        Adult (age >= 15 or contains 'adult'): 2,157
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 2,157
+      Disease filtering:
+        Total cells: 2,157
+        Normal cells: 2,157
+  SUCCESS: 2,157 normal cells
+    (Adult: 2,157 / Total: 2,893)
+  Progress saved (21/99 complete)
+
+[22/99] Processing 1b350d0a-4535-4879-beb6-1142f3f94947
+  Author: Wells (2025.0) - Nat Immunol
+  Expected cells (from CSV): 1281499.0
+    Querying Census API...
+    Census returned 1,281,499 total cells
+    After tissue filter (lung): 129,457 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 25-year-old stage: 15,464; 56-year-old stage: 13,406; 68-year-old stage: 11,082; 27-year-old stage: 9,750; fifth decade stage: 9,521; 23-year-old stage: 9,069; sixth decade stage: 9,016; 67-year-old stage: 7,962; 33-year-old stage: 7,897; 48-year-old stage: 7,146; 64-year-old stage: 6,292; 73-year-old stage: 5,952; 20-year-old stage: 5,065; third decade stage: 4,850; 75-year-old stage: 3,633; fourth decade stage: 3,202; eighth decade stage: 150
+      Donors: 19
+      Age filtering (min_age=15):
+        Total cells: 129,457
+        Cells with parseable age: 102,718
+        Adult (age >= 15 or contains 'adult'): 102,718
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 102,718
+      Disease filtering:
+        Total cells: 102,718
+        Normal cells: 102,718
+  SUCCESS: 102,718 normal cells
+    (Adult: 102,718 / Total: 129,457)
+  Progress saved (22/99 complete)
+
+[23/99] Processing 11ae668a-88c2-4d86-ba08-524fe576a882
+  Author: Wells (2025.0) - Nat Immunol
+  Expected cells (from CSV): 225268.0
+    Querying Census API...
+    Census returned 225,268 total cells
+    After tissue filter (lung): 79,515 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 56-year-old stage: 11,014; 25-year-old stage: 8,591; 68-year-old stage: 8,106; sixth decade stage: 7,488; fifth decade stage: 5,247; 64-year-old stage: 5,133; 23-year-old stage: 5,100; 27-year-old stage: 4,867; 73-year-old stage: 4,542; 48-year-old stage: 4,429; 33-year-old stage: 3,830; 67-year-old stage: 2,827; 20-year-old stage: 2,806; third decade stage: 2,660; 75-year-old stage: 1,833; fourth decade stage: 959; eighth decade stage: 83
+      Donors: 19
+      Age filtering (min_age=15):
+        Total cells: 79,515
+        Cells with parseable age: 63,078
+        Adult (age >= 15 or contains 'adult'): 63,078
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 63,078
+      Disease filtering:
+        Total cells: 63,078
+        Normal cells: 63,078
+  SUCCESS: 63,078 normal cells
+    (Adult: 63,078 / Total: 79,515)
+  Progress saved (23/99 complete)
+
+[24/99] Processing c5d88abe-f23a-45fa-a534-788985e93dad
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 592317.0
+    Querying Census API...
+    Census returned 592,317 total cells
+    After tissue filter (lung): 29,636 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 59-year-old stage: 15,400; 61-year-old stage: 10,378; 60-year-old stage: 3,858
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 29,636
+        Cells with parseable age: 29,636
+        Adult (age >= 15 or contains 'adult'): 29,636
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 29,636
+      Disease filtering:
+        Total cells: 29,636
+        Normal cells: 29,636
+  SUCCESS: 29,636 normal cells
+    (Adult: 29,636 / Total: 29,636)
+  Progress saved (24/99 complete)
+
+[25/99] Processing a68b64d8-aee3-4947-81b7-36b8fe5a44d2
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 232684.0
+    Querying Census API...
+    Census returned 232,684 total cells
+    After tissue filter (lung): 2,784 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 60-year-old stage: 1,109; 61-year-old stage: 911; 59-year-old stage: 764
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 2,784
+        Cells with parseable age: 2,784
+        Adult (age >= 15 or contains 'adult'): 2,784
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 2,784
+      Disease filtering:
+        Total cells: 2,784
+        Normal cells: 2,784
+  SUCCESS: 2,784 normal cells
+    (Adult: 2,784 / Total: 2,784)
+  Progress saved (25/99 complete)
+
+[26/99] Processing 97a17473-e2b1-4f31-a544-44a60773e2dd
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 228032.0
+    Querying Census API...
+    Census returned 228,032 total cells
+    After tissue filter (lung): 22,779 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 59-year-old stage: 10,220; 61-year-old stage: 8,691; 60-year-old stage: 3,868
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 22,779
+        Cells with parseable age: 22,779
+        Adult (age >= 15 or contains 'adult'): 22,779
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 22,779
+      Disease filtering:
+        Total cells: 22,779
+        Normal cells: 22,779
+  SUCCESS: 22,779 normal cells
+    (Adult: 22,779 / Total: 22,779)
+  Progress saved (26/99 complete)
+
+[27/99] Processing 5a11f879-d1ef-458a-910c-9b0bdfca5ebf
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 73195.0
+    Querying Census API...
+    Census returned 73,195 total cells
+    After tissue filter (lung): 10,648 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 61-year-old stage: 4,668; 59-year-old stage: 3,099; 60-year-old stage: 2,881
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 10,648
+        Cells with parseable age: 10,648
+        Adult (age >= 15 or contains 'adult'): 10,648
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 10,648
+      Disease filtering:
+        Total cells: 10,648
+        Normal cells: 10,648
+  SUCCESS: 10,648 normal cells
+    (Adult: 10,648 / Total: 10,648)
+  Progress saved (27/99 complete)
+
+[28/99] Processing 53d208b0-2cfd-4366-9866-c3c6114081bc
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 1136218.0
+    Querying Census API...
+    Census returned 1,136,218 total cells
+    After tissue filter (lung): 65,847 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 59-year-old stage: 29,483; 61-year-old stage: 24,648; 60-year-old stage: 11,716
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 65,847
+        Cells with parseable age: 65,847
+        Adult (age >= 15 or contains 'adult'): 65,847
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 65,847
+      Disease filtering:
+        Total cells: 65,847
+        Normal cells: 65,847
+  SUCCESS: 65,847 normal cells
+    (Adult: 65,847 / Total: 65,847)
+  Progress saved (28/99 complete)
+
+[29/99] Processing 0d2ee4ac-05ee-40b2-afb6-ebb584caa867
+  Author: nan (2022.0) - Science
+  Expected cells (from CSV): 65847.0
+    Querying Census API...
+    Census returned 65,847 total cells
+    After tissue filter (lung): 65,847 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 59-year-old stage: 29,483; 61-year-old stage: 24,648; 60-year-old stage: 11,716
+      Donors: 4
+      Age filtering (min_age=15):
+        Total cells: 65,847
+        Cells with parseable age: 65,847
+        Adult (age >= 15 or contains 'adult'): 65,847
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 65,847
+      Disease filtering:
+        Total cells: 65,847
+        Normal cells: 65,847
+  SUCCESS: 65,847 normal cells
+    (Adult: 65,847 / Total: 65,847)
+  Progress saved (29/99 complete)
+
+[30/99] Processing fe52003e-1460-4a65-a213-2bb1a508332f
+  Author: Domínguez Conde (2022.0) - Science
+  Expected cells (from CSV): 51552.0
+    Querying Census API...
+    Census returned 51,552 total cells
+    After tissue filter (lung): 25,321 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): sixth decade stage: 17,032; seventh decade stage: 6,067; eighth decade stage: 2,222
+      Donors: 10
+      Age filtering (min_age=15):
+        Total cells: 25,321
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 25,321)
+  Progress saved (30/99 complete)
+
+[31/99] Processing ae29ebd0-1973-40a4-a6af-d15a5f77a80f
+  Author: Domínguez Conde (2022.0) - Science
+  Expected cells (from CSV): 216611.0
+    Querying Census API...
+    Census returned 216,611 total cells
+    After tissue filter (lung): 8,852 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): seventh decade stage: 5,906; sixth decade stage: 2,634; eighth decade stage: 312
+      Donors: 10
+      Age filtering (min_age=15):
+        Total cells: 8,852
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 8,852)
+  Progress saved (31/99 complete)
+
+[32/99] Processing 71be997d-ff75-41b9-8a9f-1288c865f921
+  Author: Domínguez Conde (2022.0) - Science
+  Expected cells (from CSV): 54934.0
+    Querying Census API...
+    Census returned 54,934 total cells
+    After tissue filter (lung): 329 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): seventh decade stage: 185; sixth decade stage: 108; eighth decade stage: 36
+      Donors: 9
+      Age filtering (min_age=15):
+        Total cells: 329
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 329)
+  Progress saved (32/99 complete)
+
+[33/99] Processing 1b9d8702-5af8-4142-85ed-020eb06ec4f6
+  Author: Domínguez Conde (2022.0) - Science
+  Expected cells (from CSV): 329762.0
+    Querying Census API...
+    Census returned 329,762 total cells
+    After tissue filter (lung): 35,419 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): sixth decade stage: 19,901; seventh decade stage: 12,893; eighth decade stage: 2,625
+      Donors: 10
+      Age filtering (min_age=15):
+        Total cells: 35,419
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 35,419)
+  Progress saved (33/99 complete)
+
+[34/99] Processing 429d21fd-bb9a-4abf-922b-c15138524bdd
+  Author: Wong (2024.0) - American Journal of Transplantation
+  Expected cells (from CSV): 108613.0
+    Querying Census API...
+    Census returned 108,613 total cells
+    After tissue filter (lung): 108,613 cells
+    Census metadata:
+      Tissue (specific): middle lobe of right lung
+      Dev stages (all non-zero): 37-year-old stage: 23,514; 51-year-old stage: 23,343; 36-year-old stage: 18,291; 66-year-old stage: 14,536; 28-year-old stage: 13,655; 19-year-old stage: 13,315; 64-year-old stage: 612; 65-year-old stage: 542; 71-year-old stage: 405; 55-year-old stage: 392; 43-year-old stage: 8
+      Donors: 12
+      Age filtering (min_age=15):
+        Total cells: 108,613
+        Cells with parseable age: 108,613
+        Adult (age >= 15 or contains 'adult'): 108,613
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 108,613
+      Disease filtering:
+        Total cells: 108,613
+        Normal cells: 108,613
+  SUCCESS: 108,613 normal cells
+    (Adult: 108,613 / Total: 108,613)
+  Progress saved (34/99 complete)
+
+[35/99] Processing 01209dce-3575-4bed-b1df-129f57fbc031
+  Author: Szabo (2019.0) - Nat Commun
+  Expected cells (from CSV): 51876.0
+    Querying Census API...
+    Census returned 51,876 total cells
+    After tissue filter (lung): 11,059 cells
+    Census metadata:
+      Tissue (specific): lower lobe of left lung
+      Dev stages (all non-zero): 52-year-old stage: 7,125; 65-year-old stage: 3,934
+      Donors: 2
+      Age filtering (min_age=15):
+        Total cells: 11,059
+        Cells with parseable age: 11,059
+        Adult (age >= 15 or contains 'adult'): 11,059
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 11,059
+      Disease filtering:
+        Total cells: 11,059
+        Normal cells: 11,059
+  SUCCESS: 11,059 normal cells
+    (Adult: 11,059 / Total: 11,059)
+  Progress saved (35/99 complete)
+
+[36/99] Processing 6725ee8e-ef5b-4e68-8901-61bd14a1fe73
+  Author: Xu (2025.0) - Nat Genet
+  Expected cells (from CSV): 806646.0
+    Querying Census API...
+    Census returned 806,646 total cells
+    After tissue filter (lung): 100,892 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): unknown: 100,892
+      Donors: 23
+      Age filtering (min_age=15):
+        Total cells: 100,892
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 100,892)
+  Progress saved (36/99 complete)
+
+[37/99] Processing 569bce19-14c3-436f-bebf-543e5ea025dc
+  Author: Xu (2025.0) - Nat Genet
+  Expected cells (from CSV): 221425.0
+    Querying Census API...
+    Census returned 221,425 total cells
+    After tissue filter (lung): 100,892 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): unknown: 100,892
+      Donors: 23
+      Age filtering (min_age=15):
+        Total cells: 100,892
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 100,892)
+  Progress saved (37/99 complete)
+
+[38/99] Processing 9dbab10c-118d-496b-966a-67f1763a6b7d
+  Author: Ren (2021.0) - Cell
+  Expected cells (from CSV): 1462702.0
+    Querying Census API...
+    Census returned 1,462,702 total cells
+    After tissue filter (lung): 49,014 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 66-year-old stage: 15,935; 62-year-old stage: 12,689; 72-year-old stage: 6,291; 36-year-old stage: 3,032; 37-year-old stage: 2,910; 46-year-old stage: 2,309; 57-year-old stage: 1,934; 65-year-old stage: 1,629; 63-year-old stage: 988; 55-year-old stage: 579; 41-year-old stage: 403; 35-year-old stage: 315
+      Donors: 13
+      Age filtering (min_age=15):
+        Total cells: 49,014
+        Cells with parseable age: 49,014
+        Adult (age >= 15 or contains 'adult'): 49,014
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 49,014
+      Disease filtering:
+        Total cells: 49,014
+        Normal cells: 0
+  SUCCESS: 0 normal cells
+    (Adult: 49,014 / Total: 49,014)
+  Progress saved (38/99 complete)
+
+[39/99] Processing 2e877cd3-5587-4fc1-8667-a48fe9e2a695
+  Author: Toth (2022.0) - Sci. Transl. Med.
+  Expected cells (from CSV): 120042.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (39/99 complete)
+
+[40/99] Processing 8fbed309-d3d4-441b-b3ff-e2dcbcec2d35
+  Author: Watanabe (2022.0) - Am J Respir Cell Mol Biol
+  Expected cells (from CSV): 57918.0
+    Querying Census API...
+    Census returned 57,918 total cells
+    After tissue filter (lung): 57,918 cells
+    Census metadata:
+      Tissue (specific): lung parenchyma
+      Dev stages (all non-zero): 51-year-old stage: 7,905; 61-year-old stage: 6,820; 72-year-old stage: 5,341; 62-year-old stage: 5,004; 33-year-old stage: 4,512; 65-year-old stage: 4,313; 56-year-old stage: 4,249; 64-year-old stage: 3,163; 58-year-old stage: 2,996; 79-year-old stage: 2,756; 81-year-old stage: 2,615; 77-year-old stage: 2,581; 67-year-old stage: 2,288; 76-year-old stage: 1,843; 71-year-old stage: 1,532
+      Donors: 16
+      Age filtering (min_age=15):
+        Total cells: 57,918
+        Cells with parseable age: 57,918
+        Adult (age >= 15 or contains 'adult'): 57,918
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 57,918
+      Disease filtering:
+        Total cells: 57,918
+        Normal cells: 35,799
+  SUCCESS: 35,799 normal cells
+    (Adult: 57,918 / Total: 57,918)
+  Progress saved (40/99 complete)
+
+[41/99] Processing 4ed927e9-c099-49af-b8ce-a2652d069333
+  Author: Eraslan (2022.0) - Science
+  Expected cells (from CSV): 209126.0
+    Querying Census API...
+    Census returned 209,126 total cells
+    After tissue filter (lung): 35,284 cells
+    Census metadata:
+      Tissue (specific): lingula of left lung
+      Dev stages (all non-zero): sixth decade stage: 35,284
+      Donors: 3
+      Age filtering (min_age=15):
+        Total cells: 35,284
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 35,284)
+  Progress saved (41/99 complete)
+
+[42/99] Processing 047d57f2-4d14-45de-aa98-336c6f583750
+  Author: Zepp (2021.0) - Science
+  Expected cells (from CSV): 67794.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (42/99 complete)
+
+[43/99] Processing 2672b679-8048-4f5e-9786-f1b196ccfd08
+  Author: Madissoon (2020.0) - Genome Biol
+  Expected cells (from CSV): 57019.0
+    Querying Census API...
+    Census returned 57,019 total cells
+    After tissue filter (lung): 57,019 cells
+    Census metadata:
+      Tissue (specific): lung parenchyma
+      Dev stages (all non-zero): seventh decade stage: 28,201; fifth decade stage: 13,563; eighth decade stage: 7,983; sixth decade stage: 7,272
+      Donors: 5
+      Age filtering (min_age=15):
+        Total cells: 57,019
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 57,019)
+  Progress saved (43/99 complete)
+
+[44/99] Processing 2adb1f8a-a6b1-4909-8ee8-484814e2d4bf
+  Author: Han (2020.0) - Nature
+  Expected cells (from CSV): 599926.0
+    Querying Census API...
+    Census returned 598,266 total cells
+    After tissue filter (lung): 33,698 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 21-year-old stage: 14,448; 49-year-old stage: 9,603; 11th week post-fertilization stage: 5,121; 12th week post-fertilization stage: 4,526
+      Donors: 5
+      Age filtering (min_age=15):
+        Total cells: 33,698
+        Cells with parseable age: 24,051
+        Adult (age >= 15 or contains 'adult'): 24,051
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 9,647
+        After filter: 24,051
+      Disease filtering:
+        Total cells: 24,051
+        Normal cells: 24,051
+  SUCCESS: 24,051 normal cells
+    (Adult: 24,051 / Total: 33,698)
+  Progress saved (44/99 complete)
+
+[45/99] Processing e48cdb8c-c436-418c-bfa9-7946044d408a
+  Author: Glasner (2023.0) - Nat Immunol
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (45/99 complete)
+
+[46/99] Processing c9d294c7-857f-4ae5-8abe-6480d1584c6f
+  Author: Glasner (2023.0) - Nat Immunol
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (46/99 complete)
+
+[47/99] Processing b681d612-87ba-4234-8d37-5a7fd83526cb
+  Author: Glasner (2023.0) - Nat Immunol
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (47/99 complete)
+
+[48/99] Processing 939794ef-3106-4126-a40c-541ee3c4b077
+  Author: Glasner (2023.0) - Nat Immunol
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (48/99 complete)
+
+[49/99] Processing 89b7ced8-7d2e-4c75-b0a8-45bb07d15c80
+  Author: Glasner (2023.0) - Nat Immunol
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (49/99 complete)
+
+[50/99] Processing 76df68b2-9608-45ce-9dd8-06b66905558f
+  Author: Glasner (2023.0) - Nat Immunol
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (50/99 complete)
+
+[51/99] Processing 5e044266-bba1-4cc6-aa95-6b1a5b0811d7
+  Author: Glasner (2023.0) - Nat Immunol
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (51/99 complete)
+
+[52/99] Processing 3dd69434-56fa-45da-8a23-579dcf3dc0e1
+  Author: Glasner (2023.0) - Nat Immunol
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (52/99 complete)
+
+[53/99] Processing 781cc817-3fd0-487c-a55a-b47b2786a05d
+  Author: Lim (2025.0) - EMBO J
+  Expected cells (from CSV): 9619.0
+    Querying Census API...
+    Census returned 9,619 total cells
+    After tissue filter (lung): 9,619 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): unknown: 9,619
+      Donors: 5
+      Age filtering (min_age=15):
+        Total cells: 9,619
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 9,619)
+  Progress saved (53/99 complete)
+
+[54/99] Processing fcadb222-82e2-43eb-a3ab-6af0a22051fe
+  Author: Barnes (2023.0) - Sci. Immunol.
+  Expected cells (from CSV): 77559.0
+    Querying Census API...
+    Census returned 77,559 total cells
+    After tissue filter (lung): 77,559 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 21st week post-fertilization stage: 28,180; 13th week post-fertilization stage: 21,455; 10th week post-fertilization stage: 11,433; 20th week post-fertilization stage: 4,319; 18th week post-fertilization stage: 4,195; 22nd week post-fertilization stage: 3,863; 15th week post-fertilization stage: 2,909; 9th week post-fertilization stage: 797; 11th week post-fertilization stage: 345; Carnegie stage 16: 44; Carnegie stage 19: 14; unknown: 5
+      Donors: 32
+      Age filtering (min_age=15):
+        Total cells: 77,559
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 77,496
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 77,559)
+  Progress saved (54/99 complete)
+
+[55/99] Processing 8dc858b0-b076-4326-94bb-7c2d1cd721a3
+  Author: Barnes (2023.0) - Sci. Immunol.
+  Expected cells (from CSV): 8556.0
+    Querying Census API...
+    Census returned 8,556 total cells
+    After tissue filter (lung): 8,556 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): unknown: 8,556
+      Donors: 1
+      Age filtering (min_age=15):
+        Total cells: 8,556
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 8,556)
+  Progress saved (55/99 complete)
+
+[56/99] Processing 350237e0-9f48-4cbd-9140-3b44495549f3
+  Author: Barnes (2023.0) - Sci. Immunol.
+  Expected cells (from CSV): 670749.0
+    Querying Census API...
+    Census returned 670,749 total cells
+    After tissue filter (lung): 670,749 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 15th week post-fertilization stage: 146,898; 17th week post-fertilization stage: 92,480; 13th week post-fertilization stage: 86,042; Carnegie stage 20: 61,625; 14th week post-fertilization stage: 41,250; 16th week post-fertilization stage: 35,893; 9th week post-fertilization stage: 29,118; 21st week post-fertilization stage: 28,180; 10th week post-fertilization stage: 27,925; 11th week post-fertilization stage: 27,715; Carnegie stage 23: 24,619; 12th week post-fertilization stage: 16,475; Carnegie stage 19: 15,418; Carnegie stage 13: 13,267; Carnegie stage 22: 11,418; 20th week post-fertilization stage: 4,319; 18th week post-fertilization stage: 4,195; 22nd week post-fertilization stage: 3,863; Carnegie stage 16: 44; unknown: 5
+      Donors: 57
+      Age filtering (min_age=15):
+        Total cells: 670,749
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 544,353
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 670,749)
+  Progress saved (56/99 complete)
+
+[57/99] Processing e04daea4-4412-45b5-989e-76a9be070a89
+  Author: Travaglini (2020.0) - Nature
+  Expected cells (from CSV): 9409.0
+    Querying Census API...
+    Census returned 9,409 total cells
+    After tissue filter (lung): 8,657 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 46-year-old stage: 3,273; 75-year-old stage: 3,235; 51-year-old stage: 2,149
+      Donors: 3
+      Age filtering (min_age=15):
+        Total cells: 8,657
+        Cells with parseable age: 8,657
+        Adult (age >= 15 or contains 'adult'): 8,657
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 8,657
+      Disease filtering:
+        Total cells: 8,657
+        Normal cells: 8,657
+  SUCCESS: 8,657 normal cells
+    (Adult: 8,657 / Total: 8,657)
+  Progress saved (57/99 complete)
+
+[58/99] Processing 8c42cfd0-0b0a-46d5-910c-fc833d83c45e
+  Author: Travaglini (2020.0) - Nature
+  Expected cells (from CSV): 65662.0
+    Querying Census API...
+    Census returned 65,662 total cells
+    After tissue filter (lung): 60,993 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 46-year-old stage: 28,793; 51-year-old stage: 24,676; 75-year-old stage: 7,524
+      Donors: 3
+      Age filtering (min_age=15):
+        Total cells: 60,993
+        Cells with parseable age: 60,993
+        Adult (age >= 15 or contains 'adult'): 60,993
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 60,993
+      Disease filtering:
+        Total cells: 60,993
+        Normal cells: 60,993
+  SUCCESS: 60,993 normal cells
+    (Adult: 60,993 / Total: 60,993)
+  Progress saved (58/99 complete)
+
+[59/99] Processing 89840cec-5734-455d-b68e-34d27650e148
+  Author: Niethamer (2025.0) - Cell Stem Cell
+  Expected cells (from CSV): 123154.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (59/99 complete)
+
+[60/99] Processing 43a1506b-aa9e-46a3-b288-d210f4595ddf
+  Author: Lim (2023.0) - Cell Stem Cell
+  Expected cells (from CSV): 20475.0
+    Querying Census API...
+    Census returned 20,475 total cells
+    After tissue filter (lung): 20,475 cells
+    Census metadata:
+      Tissue (specific): lung epithelium
+      Dev stages (all non-zero): sixth LMP month stage: 20,475
+      Donors: 15
+      Age filtering (min_age=15):
+        Total cells: 20,475
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 20,475
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 20,475)
+  Progress saved (60/99 complete)
+
+[61/99] Processing d8da613f-e681-4c69-b463-e94f5e66847f
+  Author: Melms (2021.0) - Nature
+  Expected cells (from CSV): 116313.0
+    Querying Census API...
+    Census returned 116,313 total cells
+    After tissue filter (lung): 116,313 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 80-year-old stage: 16,532; 69-year-old stage: 12,707; 68-year-old stage: 12,270; 70-year-old stage: 10,980; 79-year-old stage: 10,725; unknown: 8,204; 72-year-old stage: 7,198; 58-year-old stage: 6,987; 73-year-old stage: 5,060; 63-year-old stage: 4,862; 65-year-old stage: 4,651; 83-year-old stage: 4,149; 75-year-old stage: 4,090; 71-year-old stage: 3,296; 78-year-old stage: 3,052; 84-year-old stage: 1,550
+      Donors: 27
+      Age filtering (min_age=15):
+        Total cells: 116,313
+        Cells with parseable age: 108,109
+        Adult (age >= 15 or contains 'adult'): 108,109
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 108,109
+      Disease filtering:
+        Total cells: 108,109
+        Normal cells: 36,677
+  SUCCESS: 36,677 normal cells
+    (Adult: 108,109 / Total: 116,313)
+  Progress saved (61/99 complete)
+
+[62/99] Processing fa27492b-82ff-4ab7-ac61-0e2b184eee67
+  Author: Cao (2020.0) - Science
+  Expected cells (from CSV): 1001288.0
+    Querying Census API...
+    Census returned 1,001,288 total cells
+    After tissue filter (lung): 53,429 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 17th week post-fertilization stage: 18,482; 15th week post-fertilization stage: 14,320; 16th week post-fertilization stage: 9,876; 12th week post-fertilization stage: 8,224; 13th week post-fertilization stage: 2,527
+      Donors: 11
+      Age filtering (min_age=15):
+        Total cells: 53,429
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 53,429
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 53,429)
+  Progress saved (62/99 complete)
+
+[63/99] Processing f7c1c579-2dc0-47e2-ba19-8165c5a0e353
+  Author: Cao (2020.0) - Science
+  Expected cells (from CSV): 4062980.0
+    Querying Census API...
+    Census returned 4,062,980 total cells
+    After tissue filter (lung): 217,738 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 17th week post-fertilization stage: 75,751; 15th week post-fertilization stage: 57,847; 16th week post-fertilization stage: 40,482; 12th week post-fertilization stage: 33,553; 13th week post-fertilization stage: 10,105
+      Donors: 11
+      Age filtering (min_age=15):
+        Total cells: 217,738
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 217,738
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 217,738)
+  Progress saved (63/99 complete)
+
+[64/99] Processing f6dafdd1-d746-407e-8019-4470e02d4cbd
+  Author: Madissoon (2023.0) - Nat Genet
+  Expected cells (from CSV): 3699.0
+    Querying Census API...
+    Census returned 3,699 total cells
+    After tissue filter (lung): 2,137 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 75-year-old stage: 408; seventh decade stage: 399; 35-year-old stage: 342; 58-year-old stage: 263; 64-year-old stage: 232; 59-year-old stage: 217; 66-year-old stage: 160; sixth decade stage: 115; 29-year-old stage: 1
+      Donors: 9
+      Age filtering (min_age=15):
+        Total cells: 2,137
+        Cells with parseable age: 1,623
+        Adult (age >= 15 or contains 'adult'): 1,623
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 1,623
+      Disease filtering:
+        Total cells: 1,623
+        Normal cells: 1,623
+  SUCCESS: 1,623 normal cells
+    (Adult: 1,623 / Total: 2,137)
+  Progress saved (64/99 complete)
+
+[65/99] Processing e871881f-b42d-4500-906d-0972a14ba47d
+  Author: Madissoon (2023.0) - Nat Genet
+  Expected cells (from CSV): 20515.0
+    Querying Census API...
+    Census returned 20,515 total cells
+    After tissue filter (lung): 12,989 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 75-year-old stage: 3,138; sixth decade stage: 1,985; 58-year-old stage: 1,767; 35-year-old stage: 1,518; 64-year-old stage: 1,474; seventh decade stage: 1,430; 59-year-old stage: 1,099; 66-year-old stage: 530; 29-year-old stage: 48
+      Donors: 9
+      Age filtering (min_age=15):
+        Total cells: 12,989
+        Cells with parseable age: 9,574
+        Adult (age >= 15 or contains 'adult'): 9,574
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 9,574
+      Disease filtering:
+        Total cells: 9,574
+        Normal cells: 9,574
+  SUCCESS: 9,574 normal cells
+    (Adult: 9,574 / Total: 12,989)
+  Progress saved (65/99 complete)
+
+[66/99] Processing e22c2ab4-c025-4804-b7a3-0b0ebd48c87a
+  Author: Madissoon (2023.0) - Nat Genet
+  Expected cells (from CSV): 5156.0
+    Querying Census API...
+    Census returned 5,156 total cells
+    After tissue filter (lung): 3,421 cells
+    Census metadata:
+      Tissue (specific): lower lobe of left lung
+      Dev stages (all non-zero): 35-year-old stage: 1,199; 75-year-old stage: 760; 58-year-old stage: 338; 66-year-old stage: 298; sixth decade stage: 291; seventh decade stage: 196; 59-year-old stage: 183; 64-year-old stage: 153; 29-year-old stage: 3
+      Donors: 9
+      Age filtering (min_age=15):
+        Total cells: 3,421
+        Cells with parseable age: 2,934
+        Adult (age >= 15 or contains 'adult'): 2,934
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 2,934
+      Disease filtering:
+        Total cells: 2,934
+        Normal cells: 2,934
+  SUCCESS: 2,934 normal cells
+    (Adult: 2,934 / Total: 3,421)
+  Progress saved (66/99 complete)
+
+[67/99] Processing b3d060c6-bbd7-4db0-9ef7-9df42475875a
+  Author: Madissoon (2023.0) - Nat Genet
+  Expected cells (from CSV): 37502.0
+    Querying Census API...
+    Census returned 37,502 total cells
+    After tissue filter (lung): 24,580 cells
+    Census metadata:
+      Tissue (specific): lower lobe of left lung
+      Dev stages (all non-zero): 75-year-old stage: 5,328; 64-year-old stage: 4,233; 66-year-old stage: 3,201; 59-year-old stage: 3,189; 35-year-old stage: 2,734; 58-year-old stage: 2,689; seventh decade stage: 1,745; sixth decade stage: 1,398; 29-year-old stage: 63
+      Donors: 9
+      Age filtering (min_age=15):
+        Total cells: 24,580
+        Cells with parseable age: 21,437
+        Adult (age >= 15 or contains 'adult'): 21,437
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 21,437
+      Disease filtering:
+        Total cells: 21,437
+        Normal cells: 21,437
+  SUCCESS: 21,437 normal cells
+    (Adult: 21,437 / Total: 24,580)
+  Progress saved (67/99 complete)
+
+[68/99] Processing b2c9f2c0-3c3c-4f2c-816d-3e5a10f573bd
+  Author: Madissoon (2023.0) - Nat Genet
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (68/99 complete)
+
+[69/99] Processing 708a7f62-260b-43f4-837a-d329c29f830b
+  Author: Madissoon (2023.0) - Nat Genet
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (69/99 complete)
+
+[70/99] Processing 4ebcbeeb-2208-4d30-acb2-8142a5201814
+  Author: Madissoon (2023.0) - Nat Genet
+  Expected cells (from CSV): 20855.0
+    Querying Census API...
+    Census returned 20,855 total cells
+    After tissue filter (lung): 14,318 cells
+    Census metadata:
+      Tissue (specific): lower lobe of left lung
+      Dev stages (all non-zero): 35-year-old stage: 4,848; 75-year-old stage: 3,835; 66-year-old stage: 2,427; 58-year-old stage: 896; 59-year-old stage: 873; 64-year-old stage: 659; seventh decade stage: 448; sixth decade stage: 318; 29-year-old stage: 14
+      Donors: 9
+      Age filtering (min_age=15):
+        Total cells: 14,318
+        Cells with parseable age: 13,552
+        Adult (age >= 15 or contains 'adult'): 13,552
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 13,552
+      Disease filtering:
+        Total cells: 13,552
+        Normal cells: 13,552
+  SUCCESS: 13,552 normal cells
+    (Adult: 13,552 / Total: 14,318)
+  Progress saved (70/99 complete)
+
+[71/99] Processing 39202b1d-6447-41e0-b409-84e7e9e551f1
+  Author: Madissoon (2023.0) - Nat Genet
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (71/99 complete)
+
+[72/99] Processing 2d85960a-2ba8-4f54-9aec-537fae839f5d
+  Author: Madissoon (2023.0) - Nat Genet
+  Expected cells (from CSV): 40634.0
+    Querying Census API...
+    Census returned 40,634 total cells
+    After tissue filter (lung): 22,517 cells
+    Census metadata:
+      Tissue (specific): upper lobe of left lung
+      Dev stages (all non-zero): 64-year-old stage: 11,208; 59-year-old stage: 2,271; 66-year-old stage: 2,033; 58-year-old stage: 1,988; 35-year-old stage: 1,843; seventh decade stage: 1,274; 75-year-old stage: 1,204; sixth decade stage: 623; 29-year-old stage: 73
+      Donors: 9
+      Age filtering (min_age=15):
+        Total cells: 22,517
+        Cells with parseable age: 20,620
+        Adult (age >= 15 or contains 'adult'): 20,620
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 20,620
+      Disease filtering:
+        Total cells: 20,620
+        Normal cells: 20,620
+  SUCCESS: 20,620 normal cells
+    (Adult: 20,620 / Total: 22,517)
+  Progress saved (72/99 complete)
+
+[73/99] Processing 0e9d47fb-89b1-42d8-b426-2c7630b5f5fa
+  Author: Madissoon (2023.0) - Nat Genet
+  Expected cells (from CSV): 29505.0
+    Querying Census API...
+    Census returned 29,505 total cells
+    After tissue filter (lung): 11,781 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): seventh decade stage: 3,117; 59-year-old stage: 2,469; 58-year-old stage: 2,316; sixth decade stage: 1,802; 64-year-old stage: 1,008; 75-year-old stage: 642; 66-year-old stage: 285; 35-year-old stage: 123; 29-year-old stage: 19
+      Donors: 9
+      Age filtering (min_age=15):
+        Total cells: 11,781
+        Cells with parseable age: 6,862
+        Adult (age >= 15 or contains 'adult'): 6,862
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 6,862
+      Disease filtering:
+        Total cells: 6,862
+        Normal cells: 6,862
+  SUCCESS: 6,862 normal cells
+    (Adult: 6,862 / Total: 11,781)
+  Progress saved (73/99 complete)
+
+[74/99] Processing 093d3bfe-6f0f-4ac0-a7a1-829f94d0a49f
+  Author: Madissoon (2023.0) - Nat Genet
+  Expected cells (from CSV): 193108.0
+    Querying Census API...
+    Census returned 193,108 total cells
+    After tissue filter (lung): 122,399 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 64-year-old stage: 23,324; 75-year-old stage: 19,087; 35-year-old stage: 16,264; seventh decade stage: 16,197; 58-year-old stage: 14,709; 59-year-old stage: 13,208; 66-year-old stage: 10,655; sixth decade stage: 8,479; 29-year-old stage: 476
+      Donors: 9
+      Age filtering (min_age=15):
+        Total cells: 122,399
+        Cells with parseable age: 97,723
+        Adult (age >= 15 or contains 'adult'): 97,723
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 97,723
+      Disease filtering:
+        Total cells: 97,723
+        Normal cells: 97,723
+  SUCCESS: 97,723 normal cells
+    (Adult: 97,723 / Total: 122,399)
+  Progress saved (74/99 complete)
+
+[75/99] Processing d3bbb7e6-40df-4a4f-bfe0-49001bc06396
+  Author: nan (2025.0) - Nature
+  Expected cells (from CSV): 34084.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (75/99 complete)
+
+[76/99] Processing a392ab34-9016-4f48-b45d-5b3a9cfa39fe
+  Author: nan (2025.0) - Nature
+  Expected cells (from CSV): 244081.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (76/99 complete)
+
+[77/99] Processing f9846bb4-784d-4582-92c1-3f279e4c6f0c
+  Author: He (2022.0) - Cell
+  Expected cells (from CSV): 39204.0
+    Querying Census API...
+    Census returned 39,204 total cells
+    After tissue filter (lung): 39,204 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 11th week post-fertilization stage: 6,644; 18th week post-fertilization stage: 6,120; 15th week post-fertilization stage: 6,099; 9th week post-fertilization stage: 5,935; 22nd week post-fertilization stage: 5,650; Carnegie stage 19: 3,936; Carnegie stage 16: 3,072; 20th week post-fertilization stage: 1,572; unknown: 176
+      Donors: 13
+      Age filtering (min_age=15):
+        Total cells: 39,204
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 32,020
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 39,204)
+  Progress saved (77/99 complete)
+
+[78/99] Processing e8a11a27-9c47-4673-b65d-11b9cd6065e1
+  Author: He (2022.0) - Cell
+  Expected cells (from CSV): 9096.0
+    Querying Census API...
+    Census returned 9,096 total cells
+    After tissue filter (lung): 9,096 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 11th week post-fertilization stage: 2,110; 9th week post-fertilization stage: 2,045; 15th week post-fertilization stage: 1,729; 18th week post-fertilization stage: 1,570; 22nd week post-fertilization stage: 656; Carnegie stage 16: 412; Carnegie stage 19: 399; 20th week post-fertilization stage: 175
+      Donors: 12
+      Age filtering (min_age=15):
+        Total cells: 9,096
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 8,285
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 9,096)
+  Progress saved (78/99 complete)
+
+[79/99] Processing e887bd14-bb23-48ed-9616-aa3f9b11c446
+  Author: He (2022.0) - Cell
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (79/99 complete)
+
+[80/99] Processing e69d2744-9033-4afd-80c0-d395be398ec2
+  Author: He (2022.0) - Cell
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (80/99 complete)
+
+[81/99] Processing dc522d04-8e07-4e07-91a4-dd6da72ad25c
+  Author: He (2022.0) - Cell
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (81/99 complete)
+
+[82/99] Processing cdefb878-7f00-4b9d-9eda-b3652cfac0c8
+  Author: He (2022.0) - Cell
+  Expected cells (from CSV): 1641.0
+    Querying Census API...
+    Census returned 1,641 total cells
+    After tissue filter (lung): 1,641 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 20th week post-fertilization stage: 687; 22nd week post-fertilization stage: 438; 18th week post-fertilization stage: 263; 15th week post-fertilization stage: 245; 11th week post-fertilization stage: 8
+      Donors: 9
+      Age filtering (min_age=15):
+        Total cells: 1,641
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 1,641
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 1,641)
+  Progress saved (82/99 complete)
+
+[83/99] Processing c932254f-f3b2-4b70-9b79-9557b6a3bbd7
+  Author: He (2022.0) - Cell
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (83/99 complete)
+
+[84/99] Processing ae4817c0-7951-443d-b3b9-45b6b88986bd
+  Author: He (2022.0) - Cell
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (84/99 complete)
+
+[85/99] Processing a6529751-6e49-4e86-93d3-ec03fcd551dc
+  Author: He (2022.0) - Cell
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (85/99 complete)
+
+[86/99] Processing 810ac45f-8969-4698-b42c-652f802f75c2
+  Author: He (2022.0) - Cell
+  Expected cells (from CSV): 5467.0
+    Querying Census API...
+    Census returned 5,467 total cells
+    After tissue filter (lung): 5,467 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 22nd week post-fertilization stage: 1,586; 15th week post-fertilization stage: 1,043; 18th week post-fertilization stage: 987; 20th week post-fertilization stage: 712; Carnegie stage 19: 368; 11th week post-fertilization stage: 332; Carnegie stage 16: 286; 9th week post-fertilization stage: 143; unknown: 10
+      Donors: 13
+      Age filtering (min_age=15):
+        Total cells: 5,467
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 4,803
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 5,467)
+  Progress saved (86/99 complete)
+
+[87/99] Processing 7b3368a5-c1a0-4973-9e75-d95b4150c7da
+  Author: He (2022.0) - Cell
+  Expected cells (from CSV): 4138.0
+    Querying Census API...
+    Census returned 4,138 total cells
+    After tissue filter (lung): 4,138 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 20th week post-fertilization stage: 1,637; 18th week post-fertilization stage: 1,286; 22nd week post-fertilization stage: 678; 15th week post-fertilization stage: 517; 11th week post-fertilization stage: 18; 9th week post-fertilization stage: 2
+      Donors: 10
+      Age filtering (min_age=15):
+        Total cells: 4,138
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 4,138
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 4,138)
+  Progress saved (87/99 complete)
+
+[88/99] Processing 703f00e6-b996-48e5-bc34-00c41b9876f4
+  Author: He (2022.0) - Cell
+  Expected cells (from CSV): 649.0
+    Querying Census API...
+    Census returned 649 total cells
+    After tissue filter (lung): 649 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): Carnegie stage 16: 389; 11th week post-fertilization stage: 91; Carnegie stage 19: 73; 9th week post-fertilization stage: 49; 15th week post-fertilization stage: 25; 22nd week post-fertilization stage: 11; 18th week post-fertilization stage: 10; 20th week post-fertilization stage: 1
+      Donors: 10
+      Age filtering (min_age=15):
+        Total cells: 649
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 187
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 649)
+  Progress saved (88/99 complete)
+
+[89/99] Processing 62315937-e268-4fa5-a032-8f7d776f3a3f
+  Author: He (2022.0) - Cell
+  Expected cells (from CSV): 4778.0
+    Querying Census API...
+    Census returned 4,778 total cells
+    After tissue filter (lung): 4,778 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 22nd week post-fertilization stage: 1,621; 20th week post-fertilization stage: 1,217; 18th week post-fertilization stage: 1,161; 15th week post-fertilization stage: 712; 11th week post-fertilization stage: 38; 9th week post-fertilization stage: 22; Carnegie stage 19: 7
+      Donors: 11
+      Age filtering (min_age=15):
+        Total cells: 4,778
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 4,771
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 4,778)
+  Progress saved (89/99 complete)
+
+[90/99] Processing 56139b1e-9fc5-4aab-9058-0102bc7cc74a
+  Author: He (2022.0) - Cell
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (90/99 complete)
+
+[91/99] Processing 47a267c5-06f4-4d8b-afee-a4dc643fd9cd
+  Author: He (2022.0) - Cell
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (91/99 complete)
+
+[92/99] Processing 4023a2bc-6325-47db-bfdf-9639e91042c2
+  Author: He (2022.0) - Cell
+  Expected cells (from CSV): 70495.0
+    Querying Census API...
+    Census returned 70,495 total cells
+    After tissue filter (lung): 70,495 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): unknown: 61,399; 11th week post-fertilization stage: 2,110; 9th week post-fertilization stage: 2,045; 15th week post-fertilization stage: 1,729; 18th week post-fertilization stage: 1,570; 22nd week post-fertilization stage: 656; Carnegie stage 16: 412; Carnegie stage 19: 399; 20th week post-fertilization stage: 175
+      Donors: 21
+      Age filtering (min_age=15):
+        Total cells: 70,495
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 8,285
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 70,495)
+  Progress saved (92/99 complete)
+
+[93/99] Processing 3dc61ca1-ce40-46b6-8337-f27260fd9a03
+  Author: He (2022.0) - Cell
+  Expected cells (from CSV): 71752.0
+    Querying Census API...
+    Census returned 71,752 total cells
+    After tissue filter (lung): 71,752 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 18th week post-fertilization stage: 13,170; 22nd week post-fertilization stage: 12,217; 15th week post-fertilization stage: 12,071; 11th week post-fertilization stage: 9,531; 9th week post-fertilization stage: 8,280; 20th week post-fertilization stage: 7,490; Carnegie stage 19: 4,790; Carnegie stage 16: 4,203
+      Donors: 12
+      Age filtering (min_age=15):
+        Total cells: 71,752
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 62,759
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 71,752)
+  Progress saved (93/99 complete)
+
+[94/99] Processing 30354fd6-4c1b-4083-b6da-8cfbcce1f7b9
+  Author: He (2022.0) - Cell
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (94/99 complete)
+
+[95/99] Processing 2adc282f-60f1-4afa-a990-940065af4b53
+  Author: He (2022.0) - Cell
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (95/99 complete)
+
+[96/99] Processing 1c6f271e-dfc0-48b5-8fb4-65d297a7666c
+  Author: He (2022.0) - Cell
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (96/99 complete)
+
+[97/99] Processing 0c3901c3-2ef7-44e4-80cb-b281ea2b0de9
+  Author: He (2022.0) - Cell
+  Expected cells (from CSV): 4992.0
+    Querying Census API...
+    WARNING: Census returned 0 cells
+      Dataset may not be in Census or ID mismatch
+  FAILED
+  Progress saved (97/99 complete)
+
+[98/99] Processing 0ba16f4b-cb87-4fa3-9363-19fc51eec6e7
+  Author: He (2022.0) - Cell
+  Expected cells (from CSV): 6947.0
+    Querying Census API...
+    Census returned 6,947 total cells
+    After tissue filter (lung): 6,947 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): 18th week post-fertilization stage: 1,766; 15th week post-fertilization stage: 1,694; 22nd week post-fertilization stage: 1,571; 20th week post-fertilization stage: 1,487; 11th week post-fertilization stage: 290; 9th week post-fertilization stage: 84; Carnegie stage 16: 44; Carnegie stage 19: 7; unknown: 4
+      Donors: 13
+      Age filtering (min_age=15):
+        Total cells: 6,947
+        Cells with parseable age: 0
+        Adult (age >= 15 or contains 'adult'): 0
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 6,892
+        After filter: 0
+    No adult cells found
+  SUCCESS: 0 normal cells
+    (Adult: 0 / Total: 6,947)
+  Progress saved (98/99 complete)
+
+[99/99] Processing f14bc322-1322-4184-8d16-409557525ea5
+  Author: Natri (2024.0) - Nat Genet
+  Expected cells (from CSV): 471905.0
+    Querying Census API...
+    Census returned 471,905 total cells
+    After tissue filter (lung): 471,905 cells
+    Census metadata:
+      Tissue (specific): lung
+      Dev stages (all non-zero): unknown: 47,666; 69-year-old stage: 36,976; 65-year-old stage: 30,455; 67-year-old stage: 26,700; 61-year-old stage: 26,215; 56-year-old stage: 22,886; 55-year-old stage: 22,554; 68-year-old stage: 18,453; 59-year-old stage: 17,590; 63-year-old stage: 16,477; 70-year-old stage: 16,413; 58-year-old stage: 16,364; 50-year-old stage: 16,311; 60-year-old stage: 15,609; 64-year-old stage: 15,577; 62-year-old stage: 15,576; 71-year-old stage: 10,938; 30-year-old stage: 10,173; 40-year-old stage: 10,142; 66-year-old stage: 8,374; 54-year-old stage: 7,257; 19-year-old stage: 6,586; 41-year-old stage: 5,708; 53-year-old stage: 5,443; 73-year-old stage: 5,219; 43-year-old stage: 4,908; 34-year-old stage: 4,889; 57-year-old stage: 4,516; 72-year-old stage: 3,252; 29-year-old stage: 2,770; 25-year-old stage: 2,755; 46-year-old stage: 2,709; 17-year-old stage: 2,508; 36-year-old stage: 2,209; 38-year-old stage: 2,064; 74-year-old stage: 1,558; 49-year-old stage: 1,386; 44-year-old stage: 1,192; 35-year-old stage: 1,022; 31-year-old stage: 789; 45-year-old stage: 667; 47-year-old stage: 427; 52-year-old stage: 369; 27-year-old stage: 247; 15-year-old stage: 6
+      Donors: 119
+      Age filtering (min_age=15):
+        Total cells: 471,905
+        Cells with parseable age: 424,239
+        Adult (age >= 15 or contains 'adult'): 424,239
+        Child (age < 15): 0
+        Excluded (fetal/newborn): 0
+        After filter: 424,239
+      Disease filtering:
+        Total cells: 424,239
+        Normal cells: 102,755
+  SUCCESS: 102,755 normal cells
+    (Adult: 424,239 / Total: 471,905)
+  Progress saved (99/99 complete)
+
+======================================================================
+COMPLETE
+======================================================================
+Total datasets: 99
+Successful: 64
+Failed: 35
+Skipped: 0
+
+Output: data/homo_sapiens_lung_harvester_with_normal_counts.csv
+
+Completed: 2026-01-29 16:36:43
+Log saved to: data/homo_sapiens_lung_harvester_with_normal_counts_log.txt
