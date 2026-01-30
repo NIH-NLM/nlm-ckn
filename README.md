@@ -29,7 +29,7 @@ __*This resource is under active development. To contribute, please open an [iss
 
 * [NLM Cell KN User Interface](https://github.com/NIH-NLM/cell-kn-mvp-ui#README)
 
-## Navigating NLM Cell KN MVP
+## Navigating NLM Cell KN
 
 ### Search Landing Page - A good place to start
 
@@ -61,13 +61,13 @@ Exploring can also begin with the available data collections.
 
 <img src="docs/_static/NLM_Cell_KN_MVP_Inspect_Data_Collections.png" width="750" />
 
-### The NLM Cell MVP Schema
+### The NLM Cell Schema
 
 You can see the relationships held in the graph by looking at the static schema.  
 
 <img src="docs/_static/NLM_Cell_KN_MVP_Schema.png" width="750" />
 
-### About the NLM Cell KN MVP
+### About the NLM Cell KN
 
 <img src="docs/_static/NLM_Cell_KN_MVP_About.png" width="750" />
 
