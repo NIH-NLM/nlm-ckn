@@ -1,3 +1,4 @@
 {
-    cellxgene-harvester-version:1.0
+    "cellxgene-harvester":"v1.0",
+    "organ":"kidney"
 }
