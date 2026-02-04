@@ -1,0 +1,76 @@
+clusterName,onTarget
+Adaptive / Maladaptive / Repairing Fibroblast,0.42753368616104126
+Adaptive / Maladaptive / Repairing Proximal Tubule Epithelial Cell,0.7062879204750061
+Adaptive / Maladaptive / Repairing Thick Ascending Limb Cell,0.27309557795524597
+Afferent / Efferent Arteriole Endothelial Cell,0.7789716720581055
+Ascending Thin Limb Cell,0.7728468179702759
+Ascending Vasa Recta Endothelial Cell,1.0
+B Cell,1.0
+Classical Dendritic Cell,1.0
+Connecting Tubule Cell,0.11891105026006699
+Connecting Tubule Intercalated Cell Type A,0.24003919959068298
+Connecting Tubule Principal Cell,0.40843555331230164
+Cortical Collecting Duct Intercalated Cell Type A,0.37305939197540283
+Cortical Collecting Duct Principal Cell,0.3198240399360657
+Cortical Thick Ascending Limb Cell,1.0
+Cycling Connecting Tubule Cell,1.0
+Cycling Distal Convoluted Tubule Cell,1.0
+Cycling Endothelial Cell,0.7111058235168457
+Cycling Mononuclear Phagocyte,0.24271593987941742
+Cycling Myofibroblast,0.7793643474578857
+Cycling Natural Killer Cell / Natural Killer T Cell,1.0
+Cycling Proximal Tubule Epithelial Cell,0.19191983342170715
+Degenerative Ascending Thin Limb Cell,0.43755829334259033
+Degenerative Connecting Tubule Cell,0.28582245111465454
+Degenerative Cortical Intercalated Cell Type A,0.4372495412826538
+Degenerative Cortical Thick Ascending Limb Cell,0.2350507527589798
+Degenerative Descending Thin Limb Cell Type 3,0.9402966499328613
+Degenerative Distal Convoluted Tubule Cell,1.0
+Degenerative Endothelial Cell,0.212316632270813
+Degenerative Fibroblast,0.9308173656463623
+Degenerative Inner Medullary Collecting Duct Cell,0.6296993494033813
+Degenerative Medullary Fibroblast,0.11847259104251862
+Degenerative Medullary Thick Ascending Limb Cell,0.16311046481132507
+Degenerative Outer Medullary Collecting Duct Principal Cell,0.22929738461971283
+Degenerative Peritubular Capilary Endothelial Cell,0.11127950251102448
+Degenerative Podocyte,0.6857129335403442
+Degenerative Proximal Tubule Epithelial Cell,1.0
+Degenerative Vascular Smooth Muscle Cell,1.0
+Descending Thin Limb Cell Type 1,0.6459701061248779
+Descending Thin Limb Cell Type 2,0.7372449636459351
+Descending Thin Limb Cell Type 3,1.0
+Descending Vasa Recta Endothelial Cell,1.0
+Distal Convoluted Tubule Cell Type 1,0.6948481798171997
+Distal Convoluted Tubule Cell Type 2,0.2625432014465332
+Fibroblast,0.3306558430194855
+Glomerular Capillary Endothelial Cell,1.0
+Inner Medullary Collecting Duct Cell,0.7001917362213135
+Intercalated Cell Type B,0.909312903881073
+Lymphatic Endothelial Cell,1.0
+M2 Macrophage,1.0
+Macula Densa Cell,0.9192831516265869
+Mast Cell,0.7994572520256042
+Medullary Fibroblast,1.0
+Medullary Thick Ascending Limb Cell,1.0
+Mesangial Cell,0.5325268507003784
+Monocyte-derived Cell,0.6929463148117065
+Myofibroblast,0.669406533241272
+Natural Killer Cell / Natural Killer T Cell,1.0
+Neutrophil,1.0
+Non-classical Monocyte,1.0
+Outer Medullary Collecting Duct Intercalated Cell Type A,1.0
+Outer Medullary Collecting Duct Principal Cell,0.7109740376472473
+Papillary Tip Epithelial Cell,1.0
+Parietal Epithelial Cell,0.8684563636779785
+Peritubular Capilary Endothelial Cell ,0.5929033160209656
+Plasma Cell,1.0
+Plasmacytoid Dendritic Cell,1.0
+Podocyte,1.0
+Proximal Tubule Epithelial Cell Segment 1 / Segment 2,0.6805351376533508
+Proximal Tubule Epithelial Cell Segment 3,0.9577487707138062
+Renin-positive Juxtaglomerular Granular Cell,1.0
+Schwann Cell / Neural,1.0
+T Cell,1.0
+Transitional Principal-Intercalated Cell,0.31111904978752136
+Vascular Smooth Muscle Cell,1.0
+Vascular Smooth Muscle Cell / Pericyte,0.27739542722702026
