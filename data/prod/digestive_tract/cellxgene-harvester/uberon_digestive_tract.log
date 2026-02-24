@@ -1,0 +1,30 @@
+======================================================================
+CellxGene Harvester - 0 Resolve Uberon
+======================================================================
+Started : 2026-02-20 18:10:03
+Log file: data/uberon_digestive_tract.log
+Command : python /mnt/libraries/envs/cellxgene/bin/cellxgene-harvester resolve-uberon digestive tract
+
+
+Resolving: 'digestive tract'
+  Searching OLS4 for: 'digestive tract'
+  Exact match: UBERON:0001555  digestive tract
+  Root term: UBERON:0001555  digestive tract
+  Found 1,295 descendants for UBERON:0001555
+  [terms resolved for 'digestive tract']
+    Before :        1 terms
+    After  :    1,296 terms
+    Removed:   -1,295 terms  (-129500.0%)
+  [deduplication]
+    Before :    1,296 terms
+    After  :    1,296 terms
+    Removed:        0 terms  (0.0%)
+
+Saved JSON: data/uberon_digestive_tract.json
+Saved CSV : data/uberon_digestive_tract.csv
+Total terms: 1,296  (root + descendants)
+
+======================================================================
+Finished: 2026-02-20 18:10:33
+Output  : data/uberon_digestive_tract.csv
+======================================================================

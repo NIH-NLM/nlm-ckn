@@ -1,0 +1,53 @@
+{
+  "queries": [
+    "bone marrow"
+  ],
+  "root_terms": [
+    {
+      "obo_id": "UBERON:0002371",
+      "label": "bone marrow",
+      "level": "root"
+    }
+  ],
+  "obo_ids": [
+    "UBERON:0002371",
+    "UBERON:0007195",
+    "UBERON:0000361",
+    "UBERON:0000332",
+    "UBERON:8410080",
+    "UBERON:8410079"
+  ],
+  "terms": [
+    {
+      "obo_id": "UBERON:0002371",
+      "label": "bone marrow",
+      "level": "root"
+    },
+    {
+      "obo_id": "UBERON:0007195",
+      "label": "stroma of bone marrow",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000361",
+      "label": "red bone marrow",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000332",
+      "label": "yellow bone marrow",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410080",
+      "label": "red bone marrow of sternum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410079",
+      "label": "red bone marrow of iliac crest",
+      "level": "descendant"
+    }
+  ],
+  "total": 6
+}

@@ -1,0 +1,46 @@
+======================================================================
+CellxGene Harvester - 4 Filter Datasets
+======================================================================
+Started : 2026-02-20 18:21:54
+Log file: data/homo_sapiens_liver_harvester.log
+Command : python /mnt/libraries/envs/cellxgene/bin/cellxgene-harvester filter-datasets --input data/all_datasets_complete.csv --uberon data/uberon_liver.json --organism Homo sapiens --no-preprints --exclude-cancer --exclude-spatial --output data/homo_sapiens_liver_harvester.csv
+
+Input : data/all_datasets_complete.csv
+Loaded 2,067 datasets
+
+  Loaded UBERON terms : data/uberon_liver.json
+  Queries             : liver
+  Root terms          : liver
+  Total labels        : 75 (root + all descendants)
+  Note: label text matching on 'tissue' column
+        (tissue_ontology_term_id precision applied in step 5)
+  [UBERON label tissue filter]
+    Before :    2,067 datasets
+    After  :      143 datasets
+    Removed:    1,924 datasets  (93.1%)
+  [organism filter (Homo sapiens)]
+    Before :      143 datasets
+    After  :      122 datasets
+    Removed:       21 datasets  (14.7%)
+  [preprint exclusion]
+    Before :      122 datasets
+    After  :      122 datasets
+    Removed:        0 datasets  (0.0%)
+  [cancer exclusion]
+    Before :      122 datasets
+    After  :       78 datasets
+    Removed:       44 datasets  (36.1%)
+  [spatial exclusion]
+    Before :       78 datasets
+    After  :       64 datasets
+    Removed:       14 datasets  (17.9%)
+
+  [TOTAL]
+    Before :    2,067 datasets
+    After  :       64 datasets
+    Removed:    2,003 datasets  (96.9%)
+
+======================================================================
+Finished: 2026-02-20 18:21:55
+Output  : data/homo_sapiens_liver_harvester.csv
+======================================================================

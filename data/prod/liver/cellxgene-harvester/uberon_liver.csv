@@ -1,0 +1,76 @@
+obo_id,label,level
+UBERON:0002107,liver,root
+UBERON:8920039,left artery of caudate lobe,descendant
+UBERON:8920040,right artery of caudate lobe,descendant
+UBERON:8400024,subcapsular region of liver,descendant
+UBERON:8400023,liver subserosa,descendant
+UBERON:8400021,liver serosa,descendant
+UBERON:8400005,metabolic zone of liver,descendant
+UBERON:3010404,capillary system of liver,descendant
+UBERON:2005174,ventral liver lobe,descendant
+UBERON:0035444,triangular ligament of liver,descendant
+UBERON:0035756,capillary network of liver,descendant
+UBERON:0016890,intrahepatic branch of portal vein,descendant
+UBERON:0016479,capsule of liver,descendant
+UBERON:0016478,liver stroma,descendant
+UBERON:0015796,liver blood vessel,descendant
+UBERON:0014779,liver reticuloendothelial system,descendant
+UBERON:0013139,ligament of liver,descendant
+UBERON:0010183,liver trabecula,descendant
+UBERON:0006877,vasculature of liver,descendant
+UBERON:0005050,liver papillary process,descendant
+UBERON:0004058,biliary ductule,descendant
+UBERON:0003704,intrahepatic bile duct,descendant
+UBERON:0001280,liver parenchyma,descendant
+UBERON:0001113,lobe of liver,descendant
+UBERON:0001281,hepatic sinusoid,descendant
+UBERON:8400008,liver lobule midzonal region,descendant
+UBERON:8400007,liver lobule centrilobular region,descendant
+UBERON:8400006,liver lobule periportal region,descendant
+UBERON:8400003,hepatic acinus zone 2,descendant
+UBERON:8400002,hepatic acinus zone 3,descendant
+UBERON:8400001,hepatic acinus zone 1,descendant
+UBERON:0016480,interlobular stroma of liver,descendant
+UBERON:8600085,hepatic portal venule,descendant
+UBERON:0039222,cystic artery,descendant
+UBERON:0015482,right hepatic artery,descendant
+UBERON:0015481,left hepatic artery,descendant
+UBERON:0006841,central vein of liver,descendant
+UBERON:0001143,hepatic vein,descendant
+UBERON:0013138,coronary ligament of liver,descendant
+UBERON:0006588,round ligament of liver,descendant
+UBERON:0001247,falciform ligament,descendant
+UBERON:0005605,intrahepatic part of hepatic duct,descendant
+UBERON:0004823,intrahepatic bile duct epithelium,descendant
+UBERON:0001282,intralobular bile duct,descendant
+UBERON:0001246,interlobular bile duct,descendant
+UBERON:0005222,liver left lobe parenchyma,descendant
+UBERON:0005221,liver right lobe parenchyma,descendant
+UBERON:0004647,liver lobule,descendant
+UBERON:0001172,hepatic acinus,descendant
+UBERON:0001171,portal lobule,descendant
+UBERON:0001115,left lobe of liver,descendant
+UBERON:0001114,right lobe of liver,descendant
+UBERON:0014400,hepatic sinusoidal space,descendant
+UBERON:0009549,hepatic sinusoid of right lobe of liver,descendant
+UBERON:0009548,hepatic sinusoid of left lobe of liver,descendant
+UBERON:0015455,accessory hepatic vein,descendant
+UBERON:0011957,middle hepatic vein,descendant
+UBERON:0011956,right hepatic vein,descendant
+UBERON:0011955,left hepatic vein,descendant
+UBERON:0015142,falciform fat,descendant
+UBERON:0010706,parenchyma of caudate lobe of liver,descendant
+UBERON:0010704,parenchyma of quadrate lobe of liver,descendant
+UBERON:0006729,liver perisinusoidal space,descendant
+UBERON:0001283,bile canaliculus,descendant
+UBERON:0005452,hepatic cord,descendant
+UBERON:0001279,portal triad,descendant
+UBERON:0006728,liver left medial lobe,descendant
+UBERON:0006727,liver left lateral lobe,descendant
+UBERON:0001117,caudate lobe of liver,descendant
+UBERON:8600016,anterior sector of right lobe of liver,descendant
+UBERON:8600015,posterior sector of right lobe of liver,descendant
+UBERON:0001149,bare area of liver,descendant
+UBERON:0001116,quadrate lobe of liver,descendant
+UBERON:0011738,quadrate lobe hepatic sinusoid,descendant
+UBERON:0011737,caudate lobe hepatic sinusoid,descendant

@@ -1,0 +1,467 @@
+{
+  "queries": [
+    "liver"
+  ],
+  "root_terms": [
+    {
+      "obo_id": "UBERON:0002107",
+      "label": "liver",
+      "level": "root"
+    }
+  ],
+  "obo_ids": [
+    "UBERON:0002107",
+    "UBERON:8920039",
+    "UBERON:8920040",
+    "UBERON:8400024",
+    "UBERON:8400023",
+    "UBERON:8400021",
+    "UBERON:8400005",
+    "UBERON:3010404",
+    "UBERON:2005174",
+    "UBERON:0035444",
+    "UBERON:0035756",
+    "UBERON:0016890",
+    "UBERON:0016479",
+    "UBERON:0016478",
+    "UBERON:0015796",
+    "UBERON:0014779",
+    "UBERON:0013139",
+    "UBERON:0010183",
+    "UBERON:0006877",
+    "UBERON:0005050",
+    "UBERON:0004058",
+    "UBERON:0003704",
+    "UBERON:0001280",
+    "UBERON:0001113",
+    "UBERON:0001281",
+    "UBERON:8400008",
+    "UBERON:8400007",
+    "UBERON:8400006",
+    "UBERON:8400003",
+    "UBERON:8400002",
+    "UBERON:8400001",
+    "UBERON:0016480",
+    "UBERON:8600085",
+    "UBERON:0039222",
+    "UBERON:0015482",
+    "UBERON:0015481",
+    "UBERON:0006841",
+    "UBERON:0001143",
+    "UBERON:0013138",
+    "UBERON:0006588",
+    "UBERON:0001247",
+    "UBERON:0005605",
+    "UBERON:0004823",
+    "UBERON:0001282",
+    "UBERON:0001246",
+    "UBERON:0005222",
+    "UBERON:0005221",
+    "UBERON:0004647",
+    "UBERON:0001172",
+    "UBERON:0001171",
+    "UBERON:0001115",
+    "UBERON:0001114",
+    "UBERON:0014400",
+    "UBERON:0009549",
+    "UBERON:0009548",
+    "UBERON:0015455",
+    "UBERON:0011957",
+    "UBERON:0011956",
+    "UBERON:0011955",
+    "UBERON:0015142",
+    "UBERON:0010706",
+    "UBERON:0010704",
+    "UBERON:0006729",
+    "UBERON:0001283",
+    "UBERON:0005452",
+    "UBERON:0001279",
+    "UBERON:0006728",
+    "UBERON:0006727",
+    "UBERON:0001117",
+    "UBERON:8600016",
+    "UBERON:8600015",
+    "UBERON:0001149",
+    "UBERON:0001116",
+    "UBERON:0011738",
+    "UBERON:0011737"
+  ],
+  "terms": [
+    {
+      "obo_id": "UBERON:0002107",
+      "label": "liver",
+      "level": "root"
+    },
+    {
+      "obo_id": "UBERON:8920039",
+      "label": "left artery of caudate lobe",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8920040",
+      "label": "right artery of caudate lobe",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8400024",
+      "label": "subcapsular region of liver",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8400023",
+      "label": "liver subserosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8400021",
+      "label": "liver serosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8400005",
+      "label": "metabolic zone of liver",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3010404",
+      "label": "capillary system of liver",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2005174",
+      "label": "ventral liver lobe",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035444",
+      "label": "triangular ligament of liver",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035756",
+      "label": "capillary network of liver",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016890",
+      "label": "intrahepatic branch of portal vein",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016479",
+      "label": "capsule of liver",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016478",
+      "label": "liver stroma",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015796",
+      "label": "liver blood vessel",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014779",
+      "label": "liver reticuloendothelial system",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013139",
+      "label": "ligament of liver",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010183",
+      "label": "liver trabecula",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006877",
+      "label": "vasculature of liver",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005050",
+      "label": "liver papillary process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004058",
+      "label": "biliary ductule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003704",
+      "label": "intrahepatic bile duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001280",
+      "label": "liver parenchyma",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001113",
+      "label": "lobe of liver",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001281",
+      "label": "hepatic sinusoid",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8400008",
+      "label": "liver lobule midzonal region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8400007",
+      "label": "liver lobule centrilobular region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8400006",
+      "label": "liver lobule periportal region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8400003",
+      "label": "hepatic acinus zone 2",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8400002",
+      "label": "hepatic acinus zone 3",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8400001",
+      "label": "hepatic acinus zone 1",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016480",
+      "label": "interlobular stroma of liver",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600085",
+      "label": "hepatic portal venule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0039222",
+      "label": "cystic artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015482",
+      "label": "right hepatic artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015481",
+      "label": "left hepatic artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006841",
+      "label": "central vein of liver",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001143",
+      "label": "hepatic vein",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013138",
+      "label": "coronary ligament of liver",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006588",
+      "label": "round ligament of liver",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001247",
+      "label": "falciform ligament",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005605",
+      "label": "intrahepatic part of hepatic duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004823",
+      "label": "intrahepatic bile duct epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001282",
+      "label": "intralobular bile duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001246",
+      "label": "interlobular bile duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005222",
+      "label": "liver left lobe parenchyma",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005221",
+      "label": "liver right lobe parenchyma",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004647",
+      "label": "liver lobule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001172",
+      "label": "hepatic acinus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001171",
+      "label": "portal lobule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001115",
+      "label": "left lobe of liver",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001114",
+      "label": "right lobe of liver",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014400",
+      "label": "hepatic sinusoidal space",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009549",
+      "label": "hepatic sinusoid of right lobe of liver",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009548",
+      "label": "hepatic sinusoid of left lobe of liver",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015455",
+      "label": "accessory hepatic vein",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011957",
+      "label": "middle hepatic vein",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011956",
+      "label": "right hepatic vein",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011955",
+      "label": "left hepatic vein",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015142",
+      "label": "falciform fat",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010706",
+      "label": "parenchyma of caudate lobe of liver",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010704",
+      "label": "parenchyma of quadrate lobe of liver",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006729",
+      "label": "liver perisinusoidal space",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001283",
+      "label": "bile canaliculus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005452",
+      "label": "hepatic cord",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001279",
+      "label": "portal triad",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006728",
+      "label": "liver left medial lobe",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006727",
+      "label": "liver left lateral lobe",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001117",
+      "label": "caudate lobe of liver",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600016",
+      "label": "anterior sector of right lobe of liver",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600015",
+      "label": "posterior sector of right lobe of liver",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001149",
+      "label": "bare area of liver",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001116",
+      "label": "quadrate lobe of liver",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011738",
+      "label": "quadrate lobe hepatic sinusoid",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011737",
+      "label": "caudate lobe hepatic sinusoid",
+      "level": "descendant"
+    }
+  ],
+  "total": 75
+}

@@ -1,0 +1,46 @@
+======================================================================
+CellxGene Harvester - 4 Filter Datasets
+======================================================================
+Started : 2026-02-20 18:21:55
+Log file: data/homo_sapiens_pancreas_harvester.log
+Command : python /mnt/libraries/envs/cellxgene/bin/cellxgene-harvester filter-datasets --input data/all_datasets_complete.csv --uberon data/uberon_pancreas.json --organism Homo sapiens --no-preprints --exclude-cancer --exclude-spatial --output data/homo_sapiens_pancreas_harvester.csv
+
+Input : data/all_datasets_complete.csv
+Loaded 2,067 datasets
+
+  Loaded UBERON terms : data/uberon_pancreas.json
+  Queries             : pancreas
+  Root terms          : pancreas
+  Total labels        : 35 (root + all descendants)
+  Note: label text matching on 'tissue' column
+        (tissue_ontology_term_id precision applied in step 5)
+  [UBERON label tissue filter]
+    Before :    2,067 datasets
+    After  :       33 datasets
+    Removed:    2,034 datasets  (98.4%)
+  [organism filter (Homo sapiens)]
+    Before :       33 datasets
+    After  :       19 datasets
+    Removed:       14 datasets  (42.4%)
+  [preprint exclusion]
+    Before :       19 datasets
+    After  :       15 datasets
+    Removed:        4 datasets  (21.1%)
+  [cancer exclusion]
+    Before :       15 datasets
+    After  :       15 datasets
+    Removed:        0 datasets  (0.0%)
+  [spatial exclusion]
+    Before :       15 datasets
+    After  :       15 datasets
+    Removed:        0 datasets  (0.0%)
+
+  [TOTAL]
+    Before :    2,067 datasets
+    After  :       15 datasets
+    Removed:    2,052 datasets  (99.3%)
+
+======================================================================
+Finished: 2026-02-20 18:21:55
+Output  : data/homo_sapiens_pancreas_harvester.csv
+======================================================================

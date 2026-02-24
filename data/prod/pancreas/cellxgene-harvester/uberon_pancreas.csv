@@ -1,0 +1,36 @@
+obo_id,label,level
+UBERON:0001264,pancreas,root
+UBERON:8480032,neck of pancreas,descendant
+UBERON:0018235,capsule of pancreas,descendant
+UBERON:0018234,stroma of pancreas,descendant
+UBERON:0015454,pancreatic fat pad,descendant
+UBERON:0014726,intercalated duct of pancreas,descendant
+UBERON:0009709,ventral pancreas,descendant
+UBERON:0009708,dorsal pancreas,descendant
+UBERON:0009752,pancreas mesenchyme,descendant
+UBERON:0007329,pancreatic duct,descendant
+UBERON:0004795,pancreas secretion,descendant
+UBERON:0002527,pancreatic lymph node,descendant
+UBERON:0001978,parenchyma of pancreas,descendant
+UBERON:0001151,tail of pancreas,descendant
+UBERON:0001150,body of pancreas,descendant
+UBERON:0001069,head of pancreas,descendant
+UBERON:0000017,exocrine pancreas,descendant
+UBERON:0000016,endocrine pancreas,descendant
+UBERON:2005346,extrapancreatic duct,descendant
+UBERON:0009970,epithelium of pancreatic duct,descendant
+UBERON:0005429,dorsal pancreatic duct,descendant
+UBERON:0001064,ventral pancreatic duct,descendant
+UBERON:0004793,secretion of exocrine pancreas,descendant
+UBERON:0004792,secretion of endocrine pancreas,descendant
+UBERON:0037530,inferior pancreatic lymph node,descendant
+UBERON:0005224,pancreas tail parenchyma,descendant
+UBERON:0005223,pancreas body parenchyma,descendant
+UBERON:0005220,pancreas head parenchyma,descendant
+UBERON:0010373,uncinate process of pancreas,descendant
+UBERON:0013697,exocrine pancreas epithelium,descendant
+UBERON:0007324,pancreatic lobule,descendant
+UBERON:0001263,pancreatic acinus,descendant
+UBERON:0000006,islet of Langerhans,descendant
+UBERON:0015281,pancreas right lobe,descendant
+UBERON:0015280,pancreas left lobe,descendant

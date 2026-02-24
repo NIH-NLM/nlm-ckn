@@ -1,0 +1,2081 @@
+{
+  "queries": [
+    "skin of body"
+  ],
+  "root_terms": [
+    {
+      "obo_id": "UBERON:0002097",
+      "label": "skin of body",
+      "level": "root"
+    }
+  ],
+  "obo_ids": [
+    "UBERON:0002097",
+    "UBERON:0016852",
+    "UBERON:0012177",
+    "UBERON:0004790",
+    "UBERON:0003487",
+    "UBERON:0002419",
+    "UBERON:0002284",
+    "UBERON:0002067",
+    "UBERON:0001003",
+    "UBERON:0000014",
+    "UBERON:0016853",
+    "UBERON:0012281",
+    "UBERON:0000382",
+    "UBERON:0003484",
+    "UBERON:0007771",
+    "UBERON:0003605",
+    "UBERON:3010599",
+    "UBERON:2001186",
+    "UBERON:2001183",
+    "UBERON:2002242",
+    "UBERON:0035611",
+    "UBERON:0035501",
+    "UBERON:1000010",
+    "UBERON:0011806",
+    "UBERON:0011801",
+    "UBERON:0007380",
+    "UBERON:0007377",
+    "UBERON:0003719",
+    "UBERON:0003585",
+    "UBERON:0003426",
+    "UBERON:0001993",
+    "UBERON:0001992",
+    "UBERON:3010802",
+    "UBERON:2001181",
+    "UBERON:2001179",
+    "UBERON:0018278",
+    "UBERON:0013206",
+    "UBERON:0012447",
+    "UBERON:0012244",
+    "UBERON:0012243",
+    "UBERON:0013487",
+    "UBERON:0011807",
+    "UBERON:0011783",
+    "UBERON:0009564",
+    "UBERON:0010402",
+    "UBERON:0008198",
+    "UBERON:0007381",
+    "UBERON:0009200",
+    "UBERON:0007330",
+    "UBERON:0005083",
+    "UBERON:0004882",
+    "UBERON:0002073",
+    "UBERON:0002071",
+    "UBERON:0002069",
+    "UBERON:0002027",
+    "UBERON:0002026",
+    "UBERON:0002025",
+    "UBERON:0001821",
+    "UBERON:0001820",
+    "UBERON:0001705",
+    "UBERON:0001037",
+    "UBERON:0000423",
+    "UBERON:8480074",
+    "UBERON:8480029",
+    "UBERON:8480025",
+    "UBERON:4300031",
+    "UBERON:0036150",
+    "UBERON:0035610",
+    "UBERON:0019243",
+    "UBERON:0019204",
+    "UBERON:0016915",
+    "UBERON:0014481",
+    "UBERON:0012180",
+    "UBERON:0008877",
+    "UBERON:0007121",
+    "UBERON:0003967",
+    "UBERON:0003534",
+    "UBERON:0001554",
+    "UBERON:0001483",
+    "UBERON:0001419",
+    "UBERON:0001417",
+    "UBERON:0001331",
+    "UBERON:0001085",
+    "UBERON:0035074",
+    "UBERON:0034762",
+    "UBERON:0018232",
+    "UBERON:0013228",
+    "UBERON:0013211",
+    "UBERON:0013231",
+    "UBERON:4500003",
+    "UBERON:4300222",
+    "UBERON:4300102",
+    "UBERON:4000052",
+    "UBERON:4300188",
+    "UBERON:4000081",
+    "UBERON:4000080",
+    "UBERON:4000070",
+    "UBERON:2002285",
+    "UBERON:2002273",
+    "UBERON:2002122",
+    "UBERON:2002119",
+    "UBERON:2002118",
+    "UBERON:2002051",
+    "UBERON:2001824",
+    "UBERON:0018310",
+    "UBERON:0000041",
+    "UBERON:4000107",
+    "UBERON:4000104",
+    "UBERON:0000412",
+    "UBERON:0011809",
+    "UBERON:0011808",
+    "UBERON:0008963",
+    "UBERON:0008201",
+    "UBERON:0015484",
+    "UBERON:0007332",
+    "UBERON:0007331",
+    "UBERON:0015252",
+    "UBERON:0010419",
+    "UBERON:0006005",
+    "UBERON:0005975",
+    "UBERON:0005968",
+    "UBERON:0005932",
+    "UBERON:2002195",
+    "UBERON:0015251",
+    "UBERON:0011846",
+    "UBERON:0011845",
+    "UBERON:0011827",
+    "UBERON:0003485",
+    "UBERON:0007773",
+    "UBERON:0015886",
+    "UBERON:0011190",
+    "UBERON:0009567",
+    "UBERON:0009565",
+    "UBERON:0005274",
+    "UBERON:0005273",
+    "UBERON:0004105",
+    "UBERON:0002283",
+    "UBERON:0000212",
+    "UBERON:0037467",
+    "UBERON:0037466",
+    "UBERON:0037465",
+    "UBERON:0037463",
+    "UBERON:0037462",
+    "UBERON:0037461",
+    "UBERON:0037459",
+    "UBERON:0037458",
+    "UBERON:0022285",
+    "UBERON:0016447",
+    "UBERON:0016446",
+    "UBERON:0015150",
+    "UBERON:0013699",
+    "UBERON:0013698",
+    "UBERON:0013494",
+    "UBERON:0015149",
+    "UBERON:0015148",
+    "UBERON:0011901",
+    "UBERON:0010514",
+    "UBERON:0010509",
+    "UBERON:0006378",
+    "UBERON:0005184",
+    "UBERON:0002074",
+    "UBERON:0002077",
+    "UBERON:0001702",
+    "UBERON:0000329",
+    "UBERON:8480064",
+    "UBERON:0035073",
+    "UBERON:0014391",
+    "UBERON:0015479",
+    "UBERON:0005298",
+    "UBERON:0004084",
+    "UBERON:0015474",
+    "UBERON:0011782",
+    "UBERON:0019246",
+    "UBERON:0019247",
+    "UBERON:0006004",
+    "UBERON:0016919",
+    "UBERON:0016918",
+    "UBERON:0010854",
+    "UBERON:0001084",
+    "UBERON:0004034",
+    "UBERON:8480071",
+    "UBERON:0015790",
+    "UBERON:0003532",
+    "UBERON:0003531",
+    "UBERON:0001471",
+    "UBERON:0034726",
+    "UBERON:0003836",
+    "UBERON:0001418",
+    "UBERON:0001068",
+    "UBERON:0018233",
+    "UBERON:0001818",
+    "UBERON:4000055",
+    "UBERON:4000051",
+    "UBERON:4000074",
+    "UBERON:4000105",
+    "UBERON:4300235",
+    "UBERON:2002274",
+    "UBERON:2002249",
+    "UBERON:4300242",
+    "UBERON:4300238",
+    "UBERON:0011255",
+    "UBERON:0008999",
+    "UBERON:4200165",
+    "UBERON:0018317",
+    "UBERON:0018309",
+    "UBERON:0011673",
+    "UBERON:0011936",
+    "UBERON:0005933",
+    "UBERON:1000022",
+    "UBERON:0000359",
+    "UBERON:0011854",
+    "UBERON:0004000",
+    "UBERON:0011844",
+    "UBERON:0011281",
+    "UBERON:0011280",
+    "UBERON:0011279",
+    "UBERON:0011278",
+    "UBERON:0011282",
+    "UBERON:0011277",
+    "UBERON:0011276",
+    "UBERON:0011275",
+    "UBERON:0011274",
+    "UBERON:0011273",
+    "UBERON:0005278",
+    "UBERON:0005279",
+    "UBERON:0037464",
+    "UBERON:0015144",
+    "UBERON:0010513",
+    "UBERON:8420000",
+    "UBERON:0022279",
+    "UBERON:0010171",
+    "UBERON:0013496",
+    "UBERON:0013495",
+    "UBERON:0013196",
+    "UBERON:0010512",
+    "UBERON:0010511",
+    "UBERON:0010510",
+    "UBERON:0011940",
+    "UBERON:0002076",
+    "UBERON:0019255",
+    "UBERON:0019254",
+    "UBERON:0018134",
+    "UBERON:0011375",
+    "UBERON:0004085",
+    "UBERON:0004014",
+    "UBERON:0011805",
+    "UBERON:0010880",
+    "UBERON:8480028",
+    "UBERON:8300000",
+    "UBERON:1000021",
+    "UBERON:0034720",
+    "UBERON:0012458",
+    "UBERON:0001459",
+    "UBERON:0015249",
+    "UBERON:0013776",
+    "UBERON:0012348",
+    "UBERON:0001519",
+    "UBERON:0001513",
+    "UBERON:0001511",
+    "UBERON:0010855",
+    "UBERON:0002427",
+    "UBERON:8410021",
+    "UBERON:0009014",
+    "UBERON:0001416",
+    "UBERON:0001415",
+    "UBERON:0009015",
+    "UBERON:0001868",
+    "UBERON:8480052",
+    "UBERON:0011674",
+    "UBERON:0011939",
+    "UBERON:0011938",
+    "UBERON:0011937",
+    "UBERON:0005942",
+    "UBERON:0005941",
+    "UBERON:0005943",
+    "UBERON:0005302",
+    "UBERON:0005301",
+    "UBERON:0015145",
+    "UBERON:0015146",
+    "UBERON:0015147",
+    "UBERON:0011931",
+    "UBERON:0013720",
+    "UBERON:1000015",
+    "UBERON:1000003",
+    "UBERON:0016475",
+    "UBERON:0016462",
+    "UBERON:0015476",
+    "UBERON:0012304",
+    "UBERON:0010515",
+    "UBERON:0008803",
+    "UBERON:0001457",
+    "UBERON:0001458",
+    "UBERON:0012305",
+    "UBERON:0036219",
+    "UBERON:0014931",
+    "UBERON:0005275",
+    "UBERON:0003533",
+    "UBERON:0003530",
+    "UBERON:0013778",
+    "UBERON:0013777",
+    "UBERON:0013623",
+    "UBERON:0013622",
+    "UBERON:0012349",
+    "UBERON:0008838",
+    "UBERON:0008839",
+    "UBERON:0001518",
+    "UBERON:0008840",
+    "UBERON:0001512",
+    "UBERON:0004264",
+    "UBERON:0004262",
+    "UBERON:0001510",
+    "UBERON:0010878",
+    "UBERON:0004263",
+    "UBERON:0003403",
+    "UBERON:0001517",
+    "UBERON:8480023",
+    "UBERON:8480053",
+    "UBERON:0036149",
+    "UBERON:8480026",
+    "UBERON:8480024",
+    "UBERON:8480014",
+    "UBERON:0012336",
+    "UBERON:8480073",
+    "UBERON:8480030",
+    "UBERON:0019200",
+    "UBERON:0035609",
+    "UBERON:0034765",
+    "UBERON:0008802",
+    "UBERON:0013766",
+    "UBERON:0018151",
+    "UBERON:0018150",
+    "UBERON:0005277",
+    "UBERON:0005276",
+    "UBERON:0013628",
+    "UBERON:0013629",
+    "UBERON:0012350",
+    "UBERON:0013627",
+    "UBERON:0013626",
+    "UBERON:0015873",
+    "UBERON:8480072",
+    "UBERON:8480050",
+    "UBERON:0014482",
+    "UBERON:0013641",
+    "UBERON:0013640"
+  ],
+  "terms": [
+    {
+      "obo_id": "UBERON:0002097",
+      "label": "skin of body",
+      "level": "root"
+    },
+    {
+      "obo_id": "UBERON:0016852",
+      "label": "skin scent gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012177",
+      "label": "skin apocrine gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004790",
+      "label": "skin mucous gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003487",
+      "label": "skin sebaceous gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002419",
+      "label": "skin gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002284",
+      "label": "hyponychium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002067",
+      "label": "dermis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001003",
+      "label": "skin epidermis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000014",
+      "label": "zone of skin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016853",
+      "label": "interdigital gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012281",
+      "label": "perianal sebaceous gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000382",
+      "label": "apocrine sweat gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003484",
+      "label": "eye sebaceous gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007771",
+      "label": "epidermis gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003605",
+      "label": "eye skin gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3010599",
+      "label": "stratum spongiosum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001186",
+      "label": "collagenous dermal stroma",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001183",
+      "label": "dermal superficial region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2002242",
+      "label": "scale primordium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035611",
+      "label": "hair peg",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035501",
+      "label": "unencapsulated tactile receptor",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:1000010",
+      "label": "mole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011806",
+      "label": "dermis of feather follicle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011801",
+      "label": "dermal condensation of feather follicle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007380",
+      "label": "dermal scale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007377",
+      "label": "stratum compactum of dermis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003719",
+      "label": "Pacinian corpuscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003585",
+      "label": "dermis connective tissue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003426",
+      "label": "dermis adipose tissue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001993",
+      "label": "reticular layer of dermis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001992",
+      "label": "papillary layer of dermis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3010802",
+      "label": "courtship gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001181",
+      "label": "epidermal intermediate stratum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001179",
+      "label": "epidermal superficial stratum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018278",
+      "label": "epidermal egg tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013206",
+      "label": "nasal tentacle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012447",
+      "label": "podotheca",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012244",
+      "label": "stratum intermedium of epidermis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012243",
+      "label": "nuptial pad",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013487",
+      "label": "epidermal ridge of digit",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011807",
+      "label": "epidermis of feather follicle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011783",
+      "label": "feather follicle placode",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009564",
+      "label": "distal limb integumentary appendage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010402",
+      "label": "epidermis suprabasal layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008198",
+      "label": "nail plate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007381",
+      "label": "epidermal scale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009200",
+      "label": "limb epidermis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007330",
+      "label": "rhamphotheca",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005083",
+      "label": "nipple sheath",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004882",
+      "label": "eponychium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002073",
+      "label": "hair follicle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002071",
+      "label": "stratum lucidum of epidermis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002069",
+      "label": "stratum granulosum of epidermis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002027",
+      "label": "stratum corneum of epidermis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002026",
+      "label": "stratum spinosum of epidermis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002025",
+      "label": "stratum basale of epidermis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001821",
+      "label": "sebaceous gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001820",
+      "label": "sweat gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001705",
+      "label": "nail",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001037",
+      "label": "strand of hair",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000423",
+      "label": "eccrine sweat gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8480074",
+      "label": "skin of gonad",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8480029",
+      "label": "skin of external genitalia",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8480025",
+      "label": "skin of clavicle region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4300031",
+      "label": "fin web",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0036150",
+      "label": "skin appendage follicle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035610",
+      "label": "hair canal",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0019243",
+      "label": "skin crease",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0019204",
+      "label": "skin epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016915",
+      "label": "vermilion",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014481",
+      "label": "sex skin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012180",
+      "label": "head or neck skin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008877",
+      "label": "epidermal-dermal junction",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007121",
+      "label": "skin nerve field",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003967",
+      "label": "cutaneous elastic tissue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003534",
+      "label": "tail skin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001554",
+      "label": "skin of hip",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001483",
+      "label": "skin of shoulder",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001419",
+      "label": "skin of limb",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001417",
+      "label": "skin of neck",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001331",
+      "label": "skin of penis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001085",
+      "label": "skin of trunk",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035074",
+      "label": "duct of apocrine sweat gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034762",
+      "label": "areolar sweat gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018232",
+      "label": "axillary sweat gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013228",
+      "label": "sweat gland of eyelid",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013211",
+      "label": "cerumen gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013231",
+      "label": "sebaceous gland of eyelid",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4500003",
+      "label": "predorsal scale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4300222",
+      "label": "axilar scale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4300102",
+      "label": "postcleithral scale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4000052",
+      "label": "ganoid scale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4300188",
+      "label": "terminal scale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4000081",
+      "label": "cosmoid scale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4000080",
+      "label": "keratin-based scale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4000070",
+      "label": "elasmoid scale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2002285",
+      "label": "cycloid scale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2002273",
+      "label": "ctenoid scale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2002122",
+      "label": "pouch scale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2002119",
+      "label": "dermal scale focus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2002118",
+      "label": "scale radius",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2002051",
+      "label": "scale circulus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001824",
+      "label": "lateral line scale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018310",
+      "label": "cephalic dermal scale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000041",
+      "label": "odontode scale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4000107",
+      "label": "elasmodine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4000104",
+      "label": "ganoine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000412",
+      "label": "dermal papilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011809",
+      "label": "inner epidermal layer of feather follicle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011808",
+      "label": "outer epidermal layer of feather follicle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008963",
+      "label": "hoof",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008201",
+      "label": "scute",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015484",
+      "label": "epidermis of metapodial pad",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007332",
+      "label": "mandibular rhamphotheca",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007331",
+      "label": "maxillary rhamphotheca",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015252",
+      "label": "coat hair follicle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010419",
+      "label": "vibrissa follicle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006005",
+      "label": "hair follicle isthmus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005975",
+      "label": "hair follicle bulge",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005968",
+      "label": "infundibulum of hair follicle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005932",
+      "label": "bulb of hair follicle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2002195",
+      "label": "epidermal placode",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015251",
+      "label": "modified sebaceous gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011846",
+      "label": "acinus of sebaceous gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011845",
+      "label": "duct of sebaceous gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011827",
+      "label": "areolar gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003485",
+      "label": "vagina sebaceous gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007773",
+      "label": "scrotal sweat gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015886",
+      "label": "root of nail",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011190",
+      "label": "lunule of nail",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009567",
+      "label": "nail of pedal digit",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009565",
+      "label": "nail of manual digit",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005274",
+      "label": "proximal nail bed",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005273",
+      "label": "nail bed",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004105",
+      "label": "subungual region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002283",
+      "label": "nail matrix",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000212",
+      "label": "toilet claw",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0037467",
+      "label": "anagen hair",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0037466",
+      "label": "telogen hair",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0037465",
+      "label": "catagen hair",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0037463",
+      "label": "terminal hair",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0037462",
+      "label": "vellus hair",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0037461",
+      "label": "primary hair",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0037459",
+      "label": "hair of limb",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0037458",
+      "label": "hair of neck",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0022285",
+      "label": "strand of tylotrich hair",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016447",
+      "label": "hair of trunk",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016446",
+      "label": "hair of head",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015150",
+      "label": "dorsal hair",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013699",
+      "label": "strand of axillary hair",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013698",
+      "label": "strand of pubic hair",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013494",
+      "label": "keratin-coated spine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015149",
+      "label": "ventral hair",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015148",
+      "label": "tail hair",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011901",
+      "label": "hair matrix",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010514",
+      "label": "strand of duvet hair",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010509",
+      "label": "strand of pelage hair",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006378",
+      "label": "strand of vibrissa hair",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005184",
+      "label": "hair medulla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002074",
+      "label": "hair shaft",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002077",
+      "label": "cortex of hair",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001702",
+      "label": "eyelash",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000329",
+      "label": "hair root",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8480064",
+      "label": "secretory coil of eccrine sweat gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035073",
+      "label": "duct of eccrine sweat gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014391",
+      "label": "palmar/plantar sweat gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015479",
+      "label": "scrotum skin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005298",
+      "label": "skin of clitoris",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004084",
+      "label": "genital labium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015474",
+      "label": "axilla skin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011782",
+      "label": "feather follicle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0019246",
+      "label": "palmar skin crease",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0019247",
+      "label": "plantar skin crease",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006004",
+      "label": "hair follicle matrix region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016919",
+      "label": "lower vermilion",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016918",
+      "label": "upper vermilion",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010854",
+      "label": "skin of front of neck",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001084",
+      "label": "skin of head",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004034",
+      "label": "cutaneous microfibril",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8480071",
+      "label": "skin of lobe of tail",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015790",
+      "label": "autopod skin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003532",
+      "label": "hindlimb skin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003531",
+      "label": "forelimb skin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001471",
+      "label": "skin of prepuce of penis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034726",
+      "label": "trunk taste bud",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003836",
+      "label": "abdominal segment skin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001418",
+      "label": "skin of thorax",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001068",
+      "label": "skin of back",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018233",
+      "label": "gland of Zeis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001818",
+      "label": "tarsal gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4000055",
+      "label": "polypteroid scale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4000051",
+      "label": "lepidosteoid scale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4000074",
+      "label": "palaeoniscoid scale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4000105",
+      "label": "limiting layer of elasmoid scale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4300235",
+      "label": "spinoid scale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2002274",
+      "label": "transforming ctenoid scale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2002249",
+      "label": "ctenius",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4300242",
+      "label": "lateral line scale 6",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4300238",
+      "label": "pored lateral line scale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011255",
+      "label": "Eimer's organ",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008999",
+      "label": "hoof lamina",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4200165",
+      "label": "basal scute",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018317",
+      "label": "dorsal osteoderm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018309",
+      "label": "central figure of scute",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011673",
+      "label": "plastron scute",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011936",
+      "label": "vibrissa hair bulb",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005933",
+      "label": "hair root sheath",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:1000022",
+      "label": "Zymbal's gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000359",
+      "label": "preputial gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011854",
+      "label": "acinus of areolar gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004000",
+      "label": "tarsal gland acinus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011844",
+      "label": "duct of areolar gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011281",
+      "label": "nail of pedal digit 4",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011280",
+      "label": "nail of pedal digit 3",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011279",
+      "label": "nail of pedal digit 2",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011278",
+      "label": "nail of pedal digit 1",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011282",
+      "label": "nail of pedal digit 5",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011277",
+      "label": "nail of manual digit 5",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011276",
+      "label": "nail of manual digit 4",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011275",
+      "label": "nail of manual digit 3",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011274",
+      "label": "nail of manual digit 2",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011273",
+      "label": "nail of manual digit 1",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005278",
+      "label": "nail bed of finger",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005279",
+      "label": "nail bed of toe",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0037464",
+      "label": "androgenic hair",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015144",
+      "label": "autopod hair",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010513",
+      "label": "strand of zigzag hair",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8420000",
+      "label": "hair of scalp",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0022279",
+      "label": "strand of hair on external ear",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010171",
+      "label": "strand of hair of face",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013496",
+      "label": "unbarbed keratin-coated spine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013495",
+      "label": "barbed keratin-coated spine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013196",
+      "label": "strand of wool",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010512",
+      "label": "strand of guard hair",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010511",
+      "label": "strand of awl hair",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010510",
+      "label": "strand of auchene hair",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011940",
+      "label": "arrector pili muscle of vibrissa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002076",
+      "label": "cuticle of hair",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0019255",
+      "label": "lower eyelash",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0019254",
+      "label": "upper eyelash",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018134",
+      "label": "rugal fold of scrotum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011375",
+      "label": "skin of prepuce of clitoris",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004085",
+      "label": "labium majora",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004014",
+      "label": "labium minora",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011805",
+      "label": "cavity of feather follicle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010880",
+      "label": "gular fold",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8480028",
+      "label": "skin of temple",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8300000",
+      "label": "skin of scalp",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:1000021",
+      "label": "skin of face",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034720",
+      "label": "head taste bud",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012458",
+      "label": "antler velvet",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001459",
+      "label": "skin of external ear",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015249",
+      "label": "digit skin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013776",
+      "label": "skin of palmar/plantar part of autopod",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012348",
+      "label": "autopod pad",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001519",
+      "label": "skin of manus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001513",
+      "label": "skin of pes",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001511",
+      "label": "skin of leg",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010855",
+      "label": "skin of forelimb wing",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002427",
+      "label": "arm skin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410021",
+      "label": "inguinal region skin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009014",
+      "label": "lower back skin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001416",
+      "label": "skin of abdomen",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001415",
+      "label": "skin of pelvis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009015",
+      "label": "upper back skin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001868",
+      "label": "skin of chest",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8480052",
+      "label": "skin of thoracolumbar junction",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011674",
+      "label": "carapace scute",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011939",
+      "label": "vibrissa outer root sheath",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011938",
+      "label": "vibrissa inner root sheath",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011937",
+      "label": "vibrissa root sheath",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005942",
+      "label": "hair outer root sheath",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005941",
+      "label": "hair inner root sheath",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005943",
+      "label": "hair root sheath matrix",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005302",
+      "label": "female preputial gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005301",
+      "label": "male preputial gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015145",
+      "label": "pes hair",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015146",
+      "label": "manus hair",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015147",
+      "label": "pinna hair",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011931",
+      "label": "nasal hair",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013720",
+      "label": "dartos muscle of labia majora",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:1000015",
+      "label": "skin of snout",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:1000003",
+      "label": "dewlap",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016475",
+      "label": "skin of forehead",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016462",
+      "label": "periorbital skin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015476",
+      "label": "nose skin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012304",
+      "label": "nasal diverticulum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010515",
+      "label": "brille",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008803",
+      "label": "skin of cheek",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001457",
+      "label": "skin of eyelid",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001458",
+      "label": "skin of lip",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012305",
+      "label": "marginal cutaneous pouch of ear",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0036219",
+      "label": "ungulate coronary band",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014931",
+      "label": "periungual skin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005275",
+      "label": "dorsal skin of digit",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003533",
+      "label": "manual digit skin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003530",
+      "label": "pedal digit skin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013778",
+      "label": "skin of sole of pes",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013777",
+      "label": "skin of palm of manus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013623",
+      "label": "pedal autopod pad",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013622",
+      "label": "manual autopod pad",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012349",
+      "label": "digital pad",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008838",
+      "label": "metapodial pad",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008839",
+      "label": "palmar pad",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001518",
+      "label": "skin of wrist",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008840",
+      "label": "plantar pad",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001512",
+      "label": "skin of ankle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004264",
+      "label": "lower leg skin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004262",
+      "label": "upper leg skin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001510",
+      "label": "skin of knee",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010878",
+      "label": "humeral patagium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004263",
+      "label": "upper arm skin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003403",
+      "label": "skin of forearm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001517",
+      "label": "skin of elbow",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8480023",
+      "label": "skin of lateral lumbar region of abdomen",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8480053",
+      "label": "skin of umbilical area",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0036149",
+      "label": "suprapubic skin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8480026",
+      "label": "skin of iliac crest region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8480024",
+      "label": "skin of sacral region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8480014",
+      "label": "skin of buttock",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012336",
+      "label": "perianal skin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8480073",
+      "label": "skin of scapula region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8480030",
+      "label": "skin of breast",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0019200",
+      "label": "skin of anterior chest",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035609",
+      "label": "outer root sheath companion layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034765",
+      "label": "glabella skin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008802",
+      "label": "cheek pouch",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013766",
+      "label": "epicanthal fold",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018151",
+      "label": "skin of upper lip",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018150",
+      "label": "skin of lower lip",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005277",
+      "label": "dorsal skin of toe",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005276",
+      "label": "dorsal skin of finger",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013628",
+      "label": "pollical pad",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013629",
+      "label": "hallical pad",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012350",
+      "label": "carpal pad",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013627",
+      "label": "lateral metatarsal pad",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013626",
+      "label": "medial metatarsal pad",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015873",
+      "label": "heel skin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8480072",
+      "label": "skin of shin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8480050",
+      "label": "skin of calf",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014482",
+      "label": "ischial callosity",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013641",
+      "label": "external cheek pouch",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013640",
+      "label": "internal cheek pouch",
+      "level": "descendant"
+    }
+  ],
+  "total": 344
+}

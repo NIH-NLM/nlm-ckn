@@ -1,0 +1,46 @@
+======================================================================
+CellxGene Harvester - 4 Filter Datasets
+======================================================================
+Started : 2026-02-20 18:21:57
+Log file: data/homo_sapiens_skin_of_body_harvester.log
+Command : python /mnt/libraries/envs/cellxgene/bin/cellxgene-harvester filter-datasets --input data/all_datasets_complete.csv --uberon data/uberon_skin_of_body.json --organism Homo sapiens --no-preprints --exclude-cancer --exclude-spatial --output data/homo_sapiens_skin_of_body_harvester.csv
+
+Input : data/all_datasets_complete.csv
+Loaded 2,067 datasets
+
+  Loaded UBERON terms : data/uberon_skin_of_body.json
+  Queries             : skin of body
+  Root terms          : skin of body
+  Total labels        : 344 (root + all descendants)
+  Note: label text matching on 'tissue' column
+        (tissue_ontology_term_id precision applied in step 5)
+  [UBERON label tissue filter]
+    Before :    2,067 datasets
+    After  :       72 datasets
+    Removed:    1,995 datasets  (96.5%)
+  [organism filter (Homo sapiens)]
+    Before :       72 datasets
+    After  :       57 datasets
+    Removed:       15 datasets  (20.8%)
+  [preprint exclusion]
+    Before :       57 datasets
+    After  :       55 datasets
+    Removed:        2 datasets  (3.5%)
+  [cancer exclusion]
+    Before :       55 datasets
+    After  :       42 datasets
+    Removed:       13 datasets  (23.6%)
+  [spatial exclusion]
+    Before :       42 datasets
+    After  :       24 datasets
+    Removed:       18 datasets  (42.9%)
+
+  [TOTAL]
+    Before :    2,067 datasets
+    After  :       24 datasets
+    Removed:    2,043 datasets  (98.8%)
+
+======================================================================
+Finished: 2026-02-20 18:21:57
+Output  : data/homo_sapiens_skin_of_body_harvester.csv
+======================================================================

@@ -1,0 +1,1787 @@
+{
+  "queries": [
+    "kidney"
+  ],
+  "root_terms": [
+    {
+      "obo_id": "UBERON:0002113",
+      "label": "kidney",
+      "level": "root"
+    }
+  ],
+  "obo_ids": [
+    "UBERON:0002113",
+    "UBERON:8920012",
+    "UBERON:8920011",
+    "UBERON:8920009",
+    "UBERON:8920008",
+    "UBERON:8920007",
+    "UBERON:8920006",
+    "UBERON:8920005",
+    "UBERON:8920004",
+    "UBERON:8410073",
+    "UBERON:7770009",
+    "UBERON:0035762",
+    "UBERON:0035758",
+    "UBERON:0035471",
+    "UBERON:0035368",
+    "UBERON:0014464",
+    "UBERON:0014401",
+    "UBERON:0010181",
+    "UBERON:0010532",
+    "UBERON:0009917",
+    "UBERON:0009914",
+    "UBERON:0009913",
+    "UBERON:0009201",
+    "UBERON:0008716",
+    "UBERON:0007684",
+    "UBERON:0007132",
+    "UBERON:0008987",
+    "UBERON:0006553",
+    "UBERON:0006544",
+    "UBERON:0006171",
+    "UBERON:0005215",
+    "UBERON:0004819",
+    "UBERON:0004538",
+    "UBERON:0004539",
+    "UBERON:0004100",
+    "UBERON:0003644",
+    "UBERON:0003527",
+    "UBERON:0003517",
+    "UBERON:0002120",
+    "UBERON:0002015",
+    "UBERON:0001294",
+    "UBERON:0001225",
+    "UBERON:0001224",
+    "UBERON:0000362",
+    "UBERON:0000082",
+    "UBERON:0000081",
+    "UBERON:0000080",
+    "UBERON:0001293",
+    "UBERON:0001284",
+    "UBERON:0005269",
+    "UBERON:0005168",
+    "UBERON:0004719",
+    "UBERON:0010535",
+    "UBERON:0010534",
+    "UBERON:0007654",
+    "UBERON:0007653",
+    "UBERON:0004199",
+    "UBERON:0004198",
+    "UBERON:0003074",
+    "UBERON:0003060",
+    "UBERON:0001285",
+    "UBERON:0001232",
+    "UBERON:0001229",
+    "UBERON:0006856",
+    "UBERON:3010394",
+    "UBERON:3010392",
+    "UBERON:2005292",
+    "UBERON:2002225",
+    "UBERON:0034884",
+    "UBERON:0004726",
+    "UBERON:0004190",
+    "UBERON:0006196",
+    "UBERON:0006195",
+    "UBERON:0006194",
+    "UBERON:0006174",
+    "UBERON:0018114",
+    "UBERON:0018113",
+    "UBERON:0006373",
+    "UBERON:0005270",
+    "UBERON:0005211",
+    "UBERON:0002319",
+    "UBERON:0012441",
+    "UBERON:0005108",
+    "UBERON:0005103",
+    "UBERON:0004788",
+    "UBERON:0004211",
+    "UBERON:0018119",
+    "UBERON:0018117",
+    "UBERON:0018120",
+    "UBERON:0018118",
+    "UBERON:0005268",
+    "UBERON:0004723",
+    "UBERON:0004640",
+    "UBERON:0004639",
+    "UBERON:0001552",
+    "UBERON:0005272",
+    "UBERON:0004212",
+    "UBERON:0009622",
+    "UBERON:0007308",
+    "UBERON:0007298",
+    "UBERON:0006175",
+    "UBERON:0006173",
+    "UBERON:0006172",
+    "UBERON:0007307",
+    "UBERON:0007306",
+    "UBERON:0005309",
+    "UBERON:0005308",
+    "UBERON:0004739",
+    "UBERON:0006170",
+    "UBERON:0005137",
+    "UBERON:8600037",
+    "UBERON:0005214",
+    "UBERON:0004776",
+    "UBERON:0004205",
+    "UBERON:0003455",
+    "UBERON:0001228",
+    "UBERON:0010533",
+    "UBERON:0009883",
+    "UBERON:0009871",
+    "UBERON:0006853",
+    "UBERON:0006851",
+    "UBERON:0005271",
+    "UBERON:0004203",
+    "UBERON:0004134",
+    "UBERON:0002303",
+    "UBERON:0002189",
+    "UBERON:0001287",
+    "UBERON:0001292",
+    "UBERON:0018116",
+    "UBERON:0018115",
+    "UBERON:0006517",
+    "UBERON:0005249",
+    "UBERON:0005006",
+    "UBERON:0004227",
+    "UBERON:0034997",
+    "UBERON:0005185",
+    "UBERON:0004200",
+    "UBERON:0005151",
+    "UBERON:0005149",
+    "UBERON:0005148",
+    "UBERON:0005147",
+    "UBERON:0005144",
+    "UBERON:0005141",
+    "UBERON:0005140",
+    "UBERON:0005139",
+    "UBERON:0005136",
+    "UBERON:0005135",
+    "UBERON:0005134",
+    "UBERON:0005133",
+    "UBERON:0005132",
+    "UBERON:0005130",
+    "UBERON:0005127",
+    "UBERON:0005126",
+    "UBERON:0005125",
+    "UBERON:0005124",
+    "UBERON:0005123",
+    "UBERON:0005122",
+    "UBERON:0005121",
+    "UBERON:0005120",
+    "UBERON:0005119",
+    "UBERON:0005118",
+    "UBERON:0005117",
+    "UBERON:0005129",
+    "UBERON:0005115",
+    "UBERON:0005114",
+    "UBERON:0005111",
+    "UBERON:0005110",
+    "UBERON:0005109",
+    "UBERON:0005106",
+    "UBERON:0005146",
+    "UBERON:0005145",
+    "UBERON:0004737",
+    "UBERON:0004736",
+    "UBERON:0004738",
+    "UBERON:0005116",
+    "UBERON:2001293",
+    "UBERON:2001200",
+    "UBERON:0010537",
+    "UBERON:0006857",
+    "UBERON:0006192",
+    "UBERON:0006189",
+    "UBERON:0006183",
+    "UBERON:0006182",
+    "UBERON:0006190",
+    "UBERON:0005331",
+    "UBERON:0005330",
+    "UBERON:0005329",
+    "UBERON:0005328",
+    "UBERON:0005327",
+    "UBERON:0005326",
+    "UBERON:0005325",
+    "UBERON:0005324",
+    "UBERON:0005323",
+    "UBERON:0005322",
+    "UBERON:0005321",
+    "UBERON:0005320",
+    "UBERON:0005319",
+    "UBERON:0005332",
+    "UBERON:0000083",
+    "UBERON:8600036",
+    "UBERON:0034996",
+    "UBERON:0006341",
+    "UBERON:0005213",
+    "UBERON:0004775",
+    "UBERON:0004204",
+    "UBERON:0004202",
+    "UBERON:0004201",
+    "UBERON:0011574",
+    "UBERON:0000084",
+    "UBERON:2001055",
+    "UBERON:0004195",
+    "UBERON:0004194",
+    "UBERON:0005100",
+    "UBERON:0005099",
+    "UBERON:0001231",
+    "UBERON:0014388",
+    "UBERON:0005167",
+    "UBERON:0005777",
+    "UBERON:0002321",
+    "UBERON:0001230",
+    "UBERON:0000074",
+    "UBERON:0009202",
+    "UBERON:0009091",
+    "UBERON:0004189",
+    "UBERON:0002320",
+    "UBERON:0012352",
+    "UBERON:0005912",
+    "UBERON:2005311",
+    "UBERON:0005102",
+    "UBERON:0004810",
+    "UBERON:0004188",
+    "UBERON:0005101",
+    "UBERON:0002335",
+    "UBERON:0006374",
+    "UBERON:0004294",
+    "UBERON:3011121",
+    "UBERON:3011120",
+    "UBERON:0005310",
+    "UBERON:0009092",
+    "UBERON:0009089",
+    "UBERON:0004193",
+    "UBERON:0009095",
+    "UBERON:0010531",
+    "UBERON:0006854",
+    "UBERON:0005202",
+    "UBERON:0001290",
+    "UBERON:0008404",
+    "UBERON:0009650",
+    "UBERON:0012428",
+    "UBERON:0004197",
+    "UBERON:0004196",
+    "UBERON:0003546",
+    "UBERON:0001227",
+    "UBERON:0001226",
+    "UBERON:0005008",
+    "UBERON:0005007",
+    "UBERON:3010393",
+    "UBERON:0012238",
+    "UBERON:0006364",
+    "UBERON:0005892",
+    "UBERON:0005105",
+    "UBERON:0005104",
+    "UBERON:0006542",
+    "UBERON:0006541",
+    "UBERON:0009093",
+    "UBERON:0009090",
+    "UBERON:0005312",
+    "UBERON:0005081",
+    "UBERON:0005080",
+    "UBERON:0009651",
+    "UBERON:0007685",
+    "UBERON:0005789",
+    "UBERON:0005788",
+    "UBERON:0005787",
+    "UBERON:0005750",
+    "UBERON:0005749",
+    "UBERON:0005751",
+    "UBERON:0001286",
+    "UBERON:0008408",
+    "UBERON:0006376",
+    "UBERON:0009035",
+    "UBERON:0006534",
+    "UBERON:0006337",
+    "UBERON:0005097",
+    "UBERON:0004136",
+    "UBERON:0004135",
+    "UBERON:0001289",
+    "UBERON:0001288",
+    "UBERON:0001291",
+    "UBERON:0005096",
+    "UBERON:0005164",
+    "UBERON:0004207",
+    "UBERON:0004206",
+    "UBERON:0004033",
+    "UBERON:0004032"
+  ],
+  "terms": [
+    {
+      "obo_id": "UBERON:0002113",
+      "label": "kidney",
+      "level": "root"
+    },
+    {
+      "obo_id": "UBERON:8920012",
+      "label": "segmental renal vein",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8920011",
+      "label": "stellate vein of kidney",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8920009",
+      "label": "posterior segmental renal artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8920008",
+      "label": "inferior segmental renal artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8920007",
+      "label": "anterior inferior segmental renal artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8920006",
+      "label": "anterior superior segmental renal artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8920005",
+      "label": "superior segmental renal artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8920004",
+      "label": "segmental renal artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410073",
+      "label": "medullary region of kidney",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:7770009",
+      "label": "kidney interpolar region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035762",
+      "label": "capillary network of kidney",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035758",
+      "label": "peritubular capillary plexus of kidney",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035471",
+      "label": "posterior surface of kidney",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035368",
+      "label": "anterior surface of kidney",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014464",
+      "label": "renal fat pad",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014401",
+      "label": "renal venous blood vessel",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010181",
+      "label": "straight venules of kidney",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010532",
+      "label": "primitive nephron",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009917",
+      "label": "kidney corticomedullary boundary",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009914",
+      "label": "renal lobule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009913",
+      "label": "renal lobe",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009201",
+      "label": "nephric duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008716",
+      "label": "hilum of kidney",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007684",
+      "label": "uriniferous tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007132",
+      "label": "head kidney",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008987",
+      "label": "renal parenchyma",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006553",
+      "label": "renal duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006544",
+      "label": "kidney vasculature",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006171",
+      "label": "renal sinus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005215",
+      "label": "kidney interstitium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004819",
+      "label": "kidney epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004538",
+      "label": "left kidney",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004539",
+      "label": "right kidney",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004100",
+      "label": "renal collecting system",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003644",
+      "label": "kidney arterial blood vessel",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003527",
+      "label": "kidney capillary",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003517",
+      "label": "kidney blood vessel",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002120",
+      "label": "pronephros",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002015",
+      "label": "kidney capsule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001294",
+      "label": "inner medulla of kidney",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001225",
+      "label": "cortex of kidney",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001224",
+      "label": "renal pelvis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000362",
+      "label": "renal medulla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000082",
+      "label": "adult mammalian kidney",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000081",
+      "label": "metanephros",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000080",
+      "label": "mesonephros",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001293",
+      "label": "outer medulla of kidney",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001284",
+      "label": "renal column",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005269",
+      "label": "renal cortex vein",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005168",
+      "label": "renal interlobular vein",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004719",
+      "label": "kidney arcuate vein",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010535",
+      "label": "primitive metanephric nephron",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010534",
+      "label": "primitive mesonephric nephron",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007654",
+      "label": "maturing nephron",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007653",
+      "label": "capillary loop nephron",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004199",
+      "label": "S-shaped body",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004198",
+      "label": "comma-shaped body",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003074",
+      "label": "mesonephric duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003060",
+      "label": "pronephric duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001285",
+      "label": "nephron",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001232",
+      "label": "collecting duct of renal tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001229",
+      "label": "renal corpuscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006856",
+      "label": "interrenal gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3010394",
+      "label": "mesonephric late proximal tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3010392",
+      "label": "mesonephric early proximal tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2005292",
+      "label": "distal late tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2002225",
+      "label": "posterior pronephric duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034884",
+      "label": "juxtaglomerular arteriole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004726",
+      "label": "vasa recta",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004190",
+      "label": "renal glomerulus vasculature",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006196",
+      "label": "mesonephric sinus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006195",
+      "label": "renal sinus of left kidney",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006194",
+      "label": "renal sinus of right kidney",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006174",
+      "label": "pronephric sinus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018114",
+      "label": "right kidney interstitium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018113",
+      "label": "left kidney interstitium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006373",
+      "label": "perihilar interstitium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005270",
+      "label": "renal cortex interstitium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005211",
+      "label": "renal medulla interstitium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002319",
+      "label": "mesangium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012441",
+      "label": "endothelium of peritubular capillary",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005108",
+      "label": "metanephric epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005103",
+      "label": "mesonephric epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004788",
+      "label": "kidney pelvis urothelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004211",
+      "label": "nephron epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018119",
+      "label": "left renal medulla interstitium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018117",
+      "label": "left renal cortex interstitium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018120",
+      "label": "right renal medulla interstitium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018118",
+      "label": "right renal cortex interstitium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005268",
+      "label": "renal cortex artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004723",
+      "label": "interlobular artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004640",
+      "label": "renal efferent arteriole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004639",
+      "label": "renal afferent arteriole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001552",
+      "label": "kidney arcuate artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005272",
+      "label": "peritubular capillary",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004212",
+      "label": "glomerular capillary",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009622",
+      "label": "pronephric proximal straight tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007308",
+      "label": "pronephric distal early tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007298",
+      "label": "pronephric proximal convoluted tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006175",
+      "label": "pronephric distal tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006173",
+      "label": "pronephric proximal tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006172",
+      "label": "rectal diverticulum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007307",
+      "label": "pronephric glomerular basement membrane",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007306",
+      "label": "pronephric glomerular capillary",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005309",
+      "label": "pronephric nephron",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005308",
+      "label": "nephrostome",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004739",
+      "label": "pronephric glomerulus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006170",
+      "label": "mesonephric capsule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005137",
+      "label": "metanephric capsule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600037",
+      "label": "kidney loop of Henle long descending thin limb inner medulla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005214",
+      "label": "inner renal medulla interstitium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004776",
+      "label": "inner renal medulla vasa recta",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004205",
+      "label": "inner medullary collecting duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003455",
+      "label": "inner renal medulla loop of Henle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001228",
+      "label": "renal papilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010533",
+      "label": "metanephros cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009883",
+      "label": "medullary ray",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009871",
+      "label": "nephrogenic zone",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006853",
+      "label": "renal cortex tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006851",
+      "label": "renal cortex peritubular capillary",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005271",
+      "label": "juxtamedullary cortex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004203",
+      "label": "cortical collecting duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004134",
+      "label": "proximal tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002303",
+      "label": "juxtaglomerular apparatus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002189",
+      "label": "outer cortex of kidney",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001287",
+      "label": "proximal convoluted tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001292",
+      "label": "distal convoluted tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018116",
+      "label": "right renal pelvis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018115",
+      "label": "left renal pelvis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006517",
+      "label": "kidney calyx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005249",
+      "label": "metanephric renal pelvis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005006",
+      "label": "mucosa of renal pelvis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004227",
+      "label": "kidney pelvis smooth muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034997",
+      "label": "renal medulla loop of Henle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005185",
+      "label": "renal medulla collecting duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004200",
+      "label": "kidney pyramid",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005151",
+      "label": "metanephric proximal tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005149",
+      "label": "metanephric connecting tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005148",
+      "label": "metanephric S-shaped body",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005147",
+      "label": "metanephric renal vesicle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005144",
+      "label": "metanephric glomerular capillary",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005141",
+      "label": "metanephric short descending thin limb",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005140",
+      "label": "metanephric short nephron",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005139",
+      "label": "metanephric long descending thin limb",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005136",
+      "label": "metanephric glomerular endothelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005135",
+      "label": "metanephric glomerular epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005134",
+      "label": "metanephric nephron epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005133",
+      "label": "metanephric glomerulus vasculature",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005132",
+      "label": "metanephric long nephron",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005130",
+      "label": "metanephric loop of Henle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005127",
+      "label": "metanephric thick ascending limb",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005126",
+      "label": "metanephric S1",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005125",
+      "label": "metanephric proximal straight tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005124",
+      "label": "metanephric proximal convoluted tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005123",
+      "label": "metanephric prebend segment",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005122",
+      "label": "metanephric macula densa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005121",
+      "label": "metanephric long descending thin limb bend",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005120",
+      "label": "metanephric late distal convoluted tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005119",
+      "label": "metanephric glomerular mesangium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005118",
+      "label": "metanephric early distal convoluted tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005117",
+      "label": "metanephric distal convoluted tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005129",
+      "label": "metanephric distal tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005115",
+      "label": "metanephric cortical collecting duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005114",
+      "label": "metanephric ascending thin limb",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005111",
+      "label": "metanephric pyramid",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005110",
+      "label": "metanephric nephron",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005109",
+      "label": "metanephric smooth muscle tissue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005106",
+      "label": "metanephric tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005146",
+      "label": "metanephric nephron tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005145",
+      "label": "metanephric comma-shaped body",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004737",
+      "label": "metanephric collecting duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004736",
+      "label": "metanephric glomerulus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004738",
+      "label": "metanephric juxtaglomerular apparatus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005116",
+      "label": "metanephric descending thin limb",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001293",
+      "label": "posterior kidney",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001200",
+      "label": "corpuscles of Stannius",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010537",
+      "label": "mesonephric nephron progenitor",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006857",
+      "label": "interrenal primordium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006192",
+      "label": "mesonephric proximal tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006189",
+      "label": "mesonephric connecting tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006183",
+      "label": "mesonephric glomerular capillary",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006182",
+      "label": "mesonephric glomerular mesangium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006190",
+      "label": "mesonephric distal tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005331",
+      "label": "mesonephric renal vesicle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005330",
+      "label": "mesonephric nephron epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005329",
+      "label": "mesonephric nephron tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005328",
+      "label": "mesonephric comma-shaped body",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005327",
+      "label": "mesonephric glomerular epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005326",
+      "label": "mesonephric glomerulus vasculature",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005325",
+      "label": "mesonephric glomerulus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005324",
+      "label": "mesonephric macula densa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005323",
+      "label": "mesonephric mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005322",
+      "label": "mesonephric nephron",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005321",
+      "label": "mesonephric smooth muscle tissue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005320",
+      "label": "mesonephric juxtaglomerular apparatus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005319",
+      "label": "mesonephric collecting duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005332",
+      "label": "mesonephric S-shaped body",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000083",
+      "label": "mesonephric tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600036",
+      "label": "kidney loop of Henle long descending thin limb outer medulla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034996",
+      "label": "outer renal medulla loop of Henle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006341",
+      "label": "outer renal medulla peritubular capillary",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005213",
+      "label": "outer renal medulla interstitium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004775",
+      "label": "outer renal medulla vasa recta",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004204",
+      "label": "outer medullary collecting duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004202",
+      "label": "kidney outer medulla outer stripe",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004201",
+      "label": "kidney outer medulla inner stripe",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011574",
+      "label": "mesonephric duct lumen",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000084",
+      "label": "ureteric bud",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001055",
+      "label": "pronephric duct opening",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004195",
+      "label": "short nephron",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004194",
+      "label": "long nephron",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005100",
+      "label": "long descending thin limb",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005099",
+      "label": "short descending thin limb",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001231",
+      "label": "nephron tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014388",
+      "label": "kidney collecting duct epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005167",
+      "label": "papillary duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005777",
+      "label": "glomerular basement membrane",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002321",
+      "label": "extraglomerular mesangium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001230",
+      "label": "glomerular capsule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000074",
+      "label": "renal glomerulus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009202",
+      "label": "descending vasa recta",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009091",
+      "label": "ascending vasa recta",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004189",
+      "label": "glomerular endothelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002320",
+      "label": "glomerular mesangium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012352",
+      "label": "mesangial matrix",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005912",
+      "label": "transitional epithelium of major calyx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2005311",
+      "label": "pronephric glomerular capsule epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005102",
+      "label": "late distal convoluted tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004810",
+      "label": "nephron tubule epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004188",
+      "label": "glomerular epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005101",
+      "label": "early distal convoluted tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002335",
+      "label": "macula densa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006374",
+      "label": "part of afferent arteriole forming the juxtaglomerular complex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004294",
+      "label": "glomerular capillary endothelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3011121",
+      "label": "late distal segment",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3011120",
+      "label": "early proximal tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005310",
+      "label": "pronephric nephron tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009092",
+      "label": "inner medulla ascending vasa recta",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009089",
+      "label": "inner medulla descending vasa recta",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004193",
+      "label": "loop of Henle ascending limb thin segment",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009095",
+      "label": "tip of renal papilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010531",
+      "label": "metanephros induced blastemal cells",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006854",
+      "label": "distal straight tubule postmacula segment",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005202",
+      "label": "distal straight tubule macula densa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001290",
+      "label": "proximal straight tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008404",
+      "label": "proximal tubular epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009650",
+      "label": "cortical arch of kidney",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012428",
+      "label": "proximal convoluted tubule brush border",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004197",
+      "label": "proximal convoluted tubule segment 2",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004196",
+      "label": "proximal convoluted tubule segment 1",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003546",
+      "label": "distal convoluted tubule macula densa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001227",
+      "label": "minor calyx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001226",
+      "label": "major calyx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005008",
+      "label": "mucosa of minor calyx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005007",
+      "label": "mucosa of major calyx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3010393",
+      "label": "mesonephric late distal segment",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012238",
+      "label": "ureteric bud trunk",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006364",
+      "label": "ureteric bud tip",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005892",
+      "label": "mesonephric early distal tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005105",
+      "label": "posterior mesonephric tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005104",
+      "label": "anterior mesonephric tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006542",
+      "label": "outer medulla outer stripe loop of Henle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006541",
+      "label": "outer medulla inner stripe loop of Henle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009093",
+      "label": "outer medulla ascending vasa recta",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009090",
+      "label": "outer medulla descending vasa recta",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005312",
+      "label": "primary ureteric bud",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005081",
+      "label": "ureter ureteric bud",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005080",
+      "label": "metanephric ureteric bud",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009651",
+      "label": "nephron tubule basement membrane",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007685",
+      "label": "region of nephron tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005789",
+      "label": "lamina rara externa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005788",
+      "label": "lamina rara interna",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005787",
+      "label": "lamina densa of glomerular basement membrane",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005750",
+      "label": "glomerular parietal epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005749",
+      "label": "glomerular tuft",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005751",
+      "label": "glomerular visceral epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001286",
+      "label": "Bowman's space",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008408",
+      "label": "distal tubular epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006376",
+      "label": "premacula segment of distal straight tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009035",
+      "label": "renal straight tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006534",
+      "label": "renal convoluted tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006337",
+      "label": "distal early tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005097",
+      "label": "renal connecting tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004136",
+      "label": "intermediate tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004135",
+      "label": "distal tubule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001289",
+      "label": "descending limb of loop of Henle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001288",
+      "label": "loop of Henle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001291",
+      "label": "thick ascending limb of loop of Henle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005096",
+      "label": "descending thin limb",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005164",
+      "label": "ascending limb of loop of Henle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004207",
+      "label": "prebend segment of loop of Henle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004206",
+      "label": "long descending thin limb bend",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004033",
+      "label": "podocyte slit junction",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004032",
+      "label": "podocyte slit diaphragm",
+      "level": "descendant"
+    }
+  ],
+  "total": 295
+}

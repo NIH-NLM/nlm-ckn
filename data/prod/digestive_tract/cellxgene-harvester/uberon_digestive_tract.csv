@@ -1,0 +1,1297 @@
+obo_id,label,level
+UBERON:0001555,digestive tract,root
+UBERON:2001324,enteric musculature,descendant
+UBERON:0018261,muscular coat of digestive tract,descendant
+UBERON:0018257,submucosa of digestive tract,descendant
+UBERON:0015232,nematode pharynx,descendant
+UBERON:0011904,gastrolith,descendant
+UBERON:0011640,palatoglossal arch,descendant
+UBERON:0010039,food storage organ,descendant
+UBERON:0009854,digestive tract diverticulum,descendant
+UBERON:0006909,lumen of digestive tract,descendant
+UBERON:0006235,foregut-midgut junction,descendant
+UBERON:0006264,mouth-foregut junction,descendant
+UBERON:0006676,muscularis mucosa,descendant
+UBERON:0005052,gizzard,descendant
+UBERON:0004921,subdivision of digestive tract,descendant
+UBERON:0004906,ectodermal part of digestive tract,descendant
+UBERON:0004786,gastrointestinal system mucosa,descendant
+UBERON:0004185,endodermal part of digestive tract,descendant
+UBERON:0004163,anterior ectodermal midgut,descendant
+UBERON:0003929,digestive tract epithelium,descendant
+UBERON:0003408,gland of digestive tract,descendant
+UBERON:0001962,gut-associated lymphoid tissue,descendant
+UBERON:0001245,anus,descendant
+UBERON:0000328,gut wall,descendant
+UBERON:0000162,cloaca,descendant
+UBERON:2005279,enteric circular muscle,descendant
+UBERON:0012486,muscle layer of cloaca,descendant
+UBERON:0012367,muscle layer of intestine,descendant
+UBERON:0011878,muscle layer of esophagus,descendant
+UBERON:0008856,stomach muscularis externa,descendant
+UBERON:0012482,submucosa of cloaca,descendant
+UBERON:0009566,intestinal submucosa,descendant
+UBERON:0004924,submucosa of pharynx,descendant
+UBERON:0001972,submucosa of esophagus,descendant
+UBERON:0001200,submucosa of stomach,descendant
+UBERON:0000945,stomach,descendant
+UBERON:4300174,actinopterygian pyloric caecum,descendant
+UBERON:0036072,respiratory primordium epithelium,descendant
+UBERON:0012474,hepatic cecum,descendant
+UBERON:0012287,Rathkes pouch epithelium,descendant
+UBERON:0009855,echinoderm gastric caecum,descendant
+UBERON:0008836,liver bud,descendant
+UBERON:0008835,hepatic diverticulum,descendant
+UBERON:0004912,biliary bud,descendant
+UBERON:0001153,caecum,descendant
+UBERON:0013158,foregut-midgut junction gland,descendant
+UBERON:0009890,anterior intestinal portal,descendant
+UBERON:0009550,endoderm of foregut-midgut junction,descendant
+UBERON:0009497,epithelium of foregut-midgut junction,descendant
+UBERON:0009483,mesentery of foregut-midgut junction,descendant
+UBERON:0009482,associated mesenchyme of foregut-midgut junction,descendant
+UBERON:0006211,buccopharyngeal membrane,descendant
+UBERON:0035840,esophagogastric junction muscularis mucosa,descendant
+UBERON:0012494,muscularis mucosae of duodenum,descendant
+UBERON:0006912,urinary bladder muscularis mucosa,descendant
+UBERON:0004648,esophagus muscularis mucosa,descendant
+UBERON:0001240,muscularis mucosae of intestine,descendant
+UBERON:0001203,muscularis mucosae of stomach,descendant
+UBERON:0011903,gizzard smooth muscle,descendant
+UBERON:8410050,anorectum,descendant
+UBERON:6005380,insect pharynx,descendant
+UBERON:0013644,duodenal ampulla,descendant
+UBERON:0013474,middle part of esophagus,descendant
+UBERON:0013473,lower esophagus,descendant
+UBERON:0013472,upper esophagus,descendant
+UBERON:0012652,colorectum,descendant
+UBERON:0012273,periampullary region of duodenum,descendant
+UBERON:0011698,midgut loop,descendant
+UBERON:0009870,zone of stomach,descendant
+UBERON:0008250,cardiac stomach,descendant
+UBERON:0008248,echinoderm pyloric cecum,descendant
+UBERON:0008246,pyloric stomach,descendant
+UBERON:0007364,reticulorumen,descendant
+UBERON:0006866,terminal part of digestive tract,descendant
+UBERON:0006562,pharynx,descendant
+UBERON:0004908,upper digestive tract,descendant
+UBERON:0004907,lower digestive tract,descendant
+UBERON:0004045,tailgut,descendant
+UBERON:0003287,midgut region of duodenum,descendant
+UBERON:0003286,foregut region of duodenum,descendant
+UBERON:0002116,ileum,descendant
+UBERON:0002115,jejunum,descendant
+UBERON:0002114,duodenum,descendant
+UBERON:0002108,small intestine,descendant
+UBERON:0001155,colon,descendant
+UBERON:0001052,rectum,descendant
+UBERON:0001046,hindgut,descendant
+UBERON:0001045,midgut,descendant
+UBERON:0001043,esophagus,descendant
+UBERON:0001041,foregut,descendant
+UBERON:0000168,proximal-distal subdivision of colon,descendant
+UBERON:0000160,intestine,descendant
+UBERON:0000059,large intestine,descendant
+UBERON:0000165,mouth,descendant
+UBERON:0005023,mucosa of oropharynx,descendant
+UBERON:0004780,gastrointestinal system lamina propria,descendant
+UBERON:0001199,mucosa of stomach,descendant
+UBERON:0001242,intestinal mucosa,descendant
+UBERON:0035037,jaw epithelium,descendant
+UBERON:0016885,epithelium of terminal part of digestive tract,descendant
+UBERON:0016547,lower foregut region endoderm,descendant
+UBERON:0015833,foregut epithelium,descendant
+UBERON:0014705,median lingual swelling epithelium,descendant
+UBERON:0012481,cloacal epithelium,descendant
+UBERON:0009846,embryonic cloacal epithelium,descendant
+UBERON:0009722,entire pharyngeal arch endoderm,descendant
+UBERON:0009522,lateral lingual swelling epithelium,descendant
+UBERON:0009697,epithelium of appendix,descendant
+UBERON:0009695,epithelium of laryngopharynx,descendant
+UBERON:0009099,typhlosole,descendant
+UBERON:0006913,lip epithelium,descendant
+UBERON:0004809,salivary gland epithelium,descendant
+UBERON:0003357,epithelium of tongue,descendant
+UBERON:0003353,epithelium of hindgut,descendant
+UBERON:0003352,epithelium of midgut,descendant
+UBERON:0003351,pharyngeal epithelium,descendant
+UBERON:0002424,oral epithelium,descendant
+UBERON:0001976,epithelium of esophagus,descendant
+UBERON:0001952,epithelium of oropharynx,descendant
+UBERON:0001951,epithelium of nasopharynx,descendant
+UBERON:0001277,intestinal epithelium,descendant
+UBERON:0012478,cloacal gland,descendant
+UBERON:0010264,hepatopancreas,descendant
+UBERON:0010047,oral gland,descendant
+UBERON:0008989,submucosal esophageal gland,descendant
+UBERON:0004760,gland of anal canal,descendant
+UBERON:0004757,rectal salt gland,descendant
+UBERON:0003295,pharyngeal gland,descendant
+UBERON:0003294,gland of foregut,descendant
+UBERON:0001212,duodenal gland,descendant
+UBERON:0000333,intestinal gland,descendant
+UBERON:0013478,cecal tonsil,descendant
+UBERON:0012330,nasal-associated lymphoid tissue,descendant
+UBERON:0002372,tonsil,descendant
+UBERON:0001735,tonsillar ring,descendant
+UBERON:0001211,Peyer's patch,descendant
+UBERON:0035401,posterior wall of nasopharynx,descendant
+UBERON:0035383,lateral wall of nasopharynx,descendant
+UBERON:0035313,posterior wall of laryngopharynx,descendant
+UBERON:0035286,lateral wall of oropharynx,descendant
+UBERON:0035270,roof of nasopharynx,descendant
+UBERON:0035240,posterior wall of oropharynx,descendant
+UBERON:0035120,fauces,descendant
+UBERON:0001262,wall of intestine,descendant
+UBERON:0001096,wall of esophagus,descendant
+UBERON:0001167,wall of stomach,descendant
+UBERON:3001003,cloacal fold,descendant
+UBERON:3010590,amphibian cloacal gland,descendant
+UBERON:3010589,cloacal papilla,descendant
+UBERON:0014785,levator cloacae,descendant
+UBERON:0014784,transverse cloacal muscle,descendant
+UBERON:0014783,cloacal muscle,descendant
+UBERON:0013501,cloacal sphincter,descendant
+UBERON:0012485,cloacal villus,descendant
+UBERON:0012483,serosa of cloaca,descendant
+UBERON:0012480,cloacal mucosa,descendant
+UBERON:0012463,cloacal lumen,descendant
+UBERON:0012462,proctodeum portion of cloaca,descendant
+UBERON:0012464,cloacal vent,descendant
+UBERON:0012421,urodeum,descendant
+UBERON:0012420,coprodeum,descendant
+UBERON:0011510,cloacal bursa,descendant
+UBERON:0000163,embryonic cloaca,descendant
+UBERON:0011201,muscle layer of small intestine,descendant
+UBERON:0011198,muscle layer of large intestine,descendant
+UBERON:0002439,myenteric nerve plexus,descendant
+UBERON:0035833,lower esophagus muscularis layer,descendant
+UBERON:0008863,stomach smooth muscle outer longitudinal layer,descendant
+UBERON:0008857,stomach smooth muscle circular layer,descendant
+UBERON:0008862,stomach smooth muscle inner oblique layer,descendant
+UBERON:0001208,submucosa of large intestine,descendant
+UBERON:0001205,submucosa of small intestine,descendant
+UBERON:0004925,submucosa of laryngopharynx,descendant
+UBERON:0035843,lower esophagus submucosa,descendant
+UBERON:0004937,submucosa of pylorus,descendant
+UBERON:0004935,submucosa of cardia of stomach,descendant
+UBERON:0004934,submucosa of body of stomach,descendant
+UBERON:0004933,submucosa of fundus of stomach,descendant
+UBERON:8600138,stomach lamina propria,descendant
+UBERON:0013525,stomach lumen,descendant
+UBERON:0012650,gastroduodenal junction,descendant
+UBERON:0012270,forestomach-glandular stomach junction,descendant
+UBERON:0010040,stomach non-glandular epithelium,descendant
+UBERON:0008994,equine glandular stomach,descendant
+UBERON:0008791,rugal fold of stomach,descendant
+UBERON:0007366,ruminant stomach,descendant
+UBERON:0006924,stomach glandular epithelium,descendant
+UBERON:0006921,stomach squamous epithelium,descendant
+UBERON:0004222,stomach smooth muscle,descendant
+UBERON:0003281,mesentery of stomach,descendant
+UBERON:0001276,epithelium of stomach,descendant
+UBERON:0006242,gallbladder primordium,descendant
+UBERON:8600139,caecum lamina propria,descendant
+UBERON:0005686,caecum dorsal mesentery,descendant
+UBERON:0005636,caecum epithelium,descendant
+UBERON:0005677,caecum mesentery,descendant
+UBERON:0004927,submucosa of cecum,descendant
+UBERON:0000314,cecum mucosa,descendant
+UBERON:0003894,liver primordium,descendant
+UBERON:0009502,ventral mesentery of mesentery of foregut-midgut junction,descendant
+UBERON:0009484,dorsal mesentery of mesentery of foregut-midgut junction,descendant
+UBERON:0009480,endoderm of buccopharyngeal membrane,descendant
+UBERON:0009479,ectoderm of buccopharyngeal membrane,descendant
+UBERON:0016500,muscularis mucosa of fundus of urinary bladder,descendant
+UBERON:0035844,lower esophagus muscularis mucosa,descendant
+UBERON:0001239,muscularis mucosae of large intestine,descendant
+UBERON:0001210,muscularis mucosae of small intestine,descendant
+UBERON:0016501,muscularis mucosae of fundus of stomach,descendant
+UBERON:8410056,capillary of anorectum,descendant
+UBERON:8410055,lymphatic capillary of anorectum,descendant
+UBERON:8410009,arteriole of anorectum,descendant
+UBERON:8410008,venule of anorectum,descendant
+UBERON:8410007,myenteric nerve plexus of anorectum,descendant
+UBERON:8410006,submucous nerve plexus of anorectum,descendant
+UBERON:0035834,lower esophagus mucosa,descendant
+UBERON:0013067,colorectal mucosa,descendant
+UBERON:0011954,stomach non-glandular region,descendant
+UBERON:0011953,stomach glandular region,descendant
+UBERON:0008858,pyloric canal,descendant
+UBERON:0002399,lesser omentum,descendant
+UBERON:0001166,pylorus,descendant
+UBERON:0001165,pyloric antrum,descendant
+UBERON:0001164,greater curvature of stomach,descendant
+UBERON:0001163,lesser curvature of stomach,descendant
+UBERON:0001162,cardia of stomach,descendant
+UBERON:0001161,body of stomach,descendant
+UBERON:0001160,fundus of stomach,descendant
+UBERON:0007365,rumen,descendant
+UBERON:0007362,omasum,descendant
+UBERON:0007361,ruminant reticulum,descendant
+UBERON:0016886,muscle tissue of terminal part of digestive tract,descendant
+UBERON:0012465,lumen of terminal part of digestive tract,descendant
+UBERON:0034721,pharyngeal taste bud,descendant
+UBERON:0006870,endostyle,descendant
+UBERON:0001731,cavity of pharynx,descendant
+UBERON:0001042,chordate pharynx,descendant
+UBERON:0005644,midgut duodenum epithelium,descendant
+UBERON:0005643,foregut duodenum epithelium,descendant
+UBERON:8600035,ileum lamina propria,descendant
+UBERON:0022357,mesentery of ileum,descendant
+UBERON:0014390,muscle layer of ileum,descendant
+UBERON:0013481,crypt of Lieberkuhn of ileum,descendant
+UBERON:0008345,ileal epithelium,descendant
+UBERON:0008344,intestinal villus of ileum,descendant
+UBERON:0004946,submucosa of ileum,descendant
+UBERON:0003705,Meckel's diverticulum,descendant
+UBERON:0000331,ileal mucosa,descendant
+UBERON:8600034,jejunum lamina propria,descendant
+UBERON:0016519,muscularis mucosae of jejunum,descendant
+UBERON:0016517,lumen of jejunum,descendant
+UBERON:0013483,crypt of Lieberkuhn of jejunum,descendant
+UBERON:0012377,muscle layer of jejunum,descendant
+UBERON:0008343,intestinal villus of jejunum,descendant
+UBERON:0003398,mesentery of jejunum,descendant
+UBERON:0003337,serosa of jejunum,descendant
+UBERON:0003333,submucosa of jejunum,descendant
+UBERON:0000400,jejunal epithelium,descendant
+UBERON:0000399,jejunal mucosa,descendant
+UBERON:0015834,duodenum lamina propria,descendant
+UBERON:0016512,lumen of duodenum,descendant
+UBERON:0013482,crypt of Lieberkuhn of duodenum,descendant
+UBERON:0012488,muscle layer of duodenum,descendant
+UBERON:0008346,duodenal epithelium,descendant
+UBERON:0008342,intestinal villus of duodenum,descendant
+UBERON:0003336,serosa of duodenum,descendant
+UBERON:0003332,submucosa of duodenum,descendant
+UBERON:0003397,mesentery of duodenum,descendant
+UBERON:0000320,duodenal mucosa,descendant
+UBERON:8600119,myenteric ganglion of small intestine,descendant
+UBERON:8410068,capillary of small intestine,descendant
+UBERON:8410064,submucous nerve plexus of small intestine,descendant
+UBERON:8410063,myenteric nerve plexus of small intestine,descendant
+UBERON:8410019,jejuno-ileal junction,descendant
+UBERON:8410002,small intestine lymphatic vessel,descendant
+UBERON:8410000,duodeno-jejunal junction,descendant
+UBERON:0013744,wall of crypt of Lieberkuhn of small intestine,descendant
+UBERON:0013743,base of crypt of Lieberkuhn of small intestine,descendant
+UBERON:0010016,spiral valve of intestine,descendant
+UBERON:0004239,small intestine smooth muscle,descendant
+UBERON:0003454,small intestine Peyer's patch,descendant
+UBERON:0001902,epithelium of small intestine,descendant
+UBERON:0001238,lamina propria of small intestine,descendant
+UBERON:0001206,serosa of small intestine,descendant
+UBERON:0001204,mucosa of small intestine,descendant
+UBERON:0001170,mesentery of small intestine,descendant
+UBERON:0001168,wall of small intestine,descendant
+UBERON:0001241,crypt of Lieberkuhn of small intestine,descendant
+UBERON:8410061,colon smooth muscle longitudinal layer,descendant
+UBERON:8410060,colon smooth muscle circular layer,descendant
+UBERON:8410059,submucous nerve plexus of colon,descendant
+UBERON:8410058,myenteric nerve plexus of colon,descendant
+UBERON:8410057,capillary of colon,descendant
+UBERON:8410054,lymphatic capillary of colon,descendant
+UBERON:8410051,lymphatic vessel of colon,descendant
+UBERON:8410048,venule of colon,descendant
+UBERON:8410015,arteriole of colon,descendant
+UBERON:0022275,colic flexure,descendant
+UBERON:0013485,crypt of Lieberkuhn of colon,descendant
+UBERON:0012489,muscle layer of colon,descendant
+UBERON:0013695,colon endothelium,descendant
+UBERON:0008972,right colon,descendant
+UBERON:0008971,left colon,descendant
+UBERON:0007159,lumen of colon,descendant
+UBERON:0003335,serosa of colon,descendant
+UBERON:0003331,submucosa of colon,descendant
+UBERON:0003396,mesentery of colon,descendant
+UBERON:0000397,colonic epithelium,descendant
+UBERON:0000317,colonic mucosa,descendant
+UBERON:8600140,rectum lamina propria,descendant
+UBERON:8600057,middle hemorrhoidal vein,descendant
+UBERON:0035377,transverse fold of rectum,descendant
+UBERON:0018112,rectum smooth muscle tissue,descendant
+UBERON:0018111,muscle layer of rectum,descendant
+UBERON:0017627,rectal valve,descendant
+UBERON:0017626,transverse folds of rectum,descendant
+UBERON:0012497,muscularis mucosae of rectum,descendant
+UBERON:0009670,rectal lumen,descendant
+UBERON:0003395,mesentery of rectum,descendant
+UBERON:0003354,epithelium of rectum,descendant
+UBERON:0003346,mucosa of rectum,descendant
+UBERON:0003334,serosa of rectum,descendant
+UBERON:0003330,submucosa of rectum,descendant
+UBERON:0009503,mesenchyme of hindgut,descendant
+UBERON:0007148,lumen of hindgut,descendant
+UBERON:0003394,mesentery of hindgut,descendant
+UBERON:0003260,endoderm of hindgut,descendant
+UBERON:0009478,associated mesenchyme of midgut,descendant
+UBERON:0007147,lumen of midgut,descendant
+UBERON:0005712,midgut duodenum mesentery,descendant
+UBERON:0005685,midgut dorsal mesentery,descendant
+UBERON:0003284,mesentery of midgut,descendant
+UBERON:0003259,endoderm of midgut,descendant
+UBERON:8700002,stratum spinosum of esophageal epithelium,descendant
+UBERON:2001430,pneumatic duct,descendant
+UBERON:0035450,cervical part of esophagus,descendant
+UBERON:0035216,thoracic part of esophagus,descendant
+UBERON:0035177,abdominal part of esophagus,descendant
+UBERON:0034724,esophageal taste bud,descendant
+UBERON:0016499,esophageal-pneumatic duct sphincter,descendant
+UBERON:0012504,adventitia of esophagus,descendant
+UBERON:0011566,lumen of esophagus,descendant
+UBERON:0009960,esophagus smooth muscle circular layer,descendant
+UBERON:0007652,esophageal sphincter,descendant
+UBERON:0007356,crop,descendant
+UBERON:0006976,peptonephridium,descendant
+UBERON:0006920,esophagus squamous epithelium,descendant
+UBERON:0004794,esophagus secretion,descendant
+UBERON:0004831,esophagus skeletal muscle,descendant
+UBERON:0003832,esophagus muscle,descendant
+UBERON:0003283,mesentery of oesophagus,descendant
+UBERON:0002469,esophagus mucosa,descendant
+UBERON:0002112,smooth muscle of esophagus,descendant
+UBERON:0001975,serosa of esophagus,descendant
+UBERON:0001974,lamina propria of esophagus,descendant
+UBERON:0009145,pharyngeal region of foregut,descendant
+UBERON:0006257,laryngotracheal groove,descendant
+UBERON:0005711,foregut duodenum mesentery,descendant
+UBERON:0003258,endoderm of foregut,descendant
+UBERON:8410016,descending sigmoid junction,descendant
+UBERON:0010239,spiral colon,descendant
+UBERON:0001159,sigmoid colon,descendant
+UBERON:0001158,descending colon,descendant
+UBERON:0001157,transverse colon,descendant
+UBERON:0001156,ascending colon,descendant
+UBERON:8410024,intestinal junction,descendant
+UBERON:2005273,intestinal mucosal muscle,descendant
+UBERON:2001076,intestinal bulb,descendant
+UBERON:0036214,rectosigmoid junction,descendant
+UBERON:0018543,lumen of intestine,descendant
+UBERON:0012427,intestinal brush border layer,descendant
+UBERON:0012425,striated border microvillus layer,descendant
+UBERON:0004221,intestine smooth muscle,descendant
+UBERON:0001243,serosa of intestine,descendant
+UBERON:0001073,ileocecal junction,descendant
+UBERON:0013742,wall of crypt of Lieberkuhn of large intestine,descendant
+UBERON:0013741,base of crypt of Lieberkuhn of large intestine,descendant
+UBERON:0011189,lamina propria of large intestine,descendant
+UBERON:0004220,large intestine smooth muscle,descendant
+UBERON:0003453,large intestine Peyer's patch,descendant
+UBERON:0001984,crypt of Lieberkuhn of large intestine,descendant
+UBERON:0001278,epithelium of large intestine,descendant
+UBERON:0001209,serosa of large intestine,descendant
+UBERON:0001207,mucosa of large intestine,descendant
+UBERON:0001154,vermiform appendix,descendant
+UBERON:0001169,wall of large intestine,descendant
+UBERON:0000159,anal canal,descendant
+UBERON:4300139,posterolingual region,descendant
+UBERON:4300138,labial region,descendant
+UBERON:4300137,lingual region,descendant
+UBERON:2002108,buccal papilla,descendant
+UBERON:0036293,oral frenulum,descendant
+UBERON:0035942,space between upper and lower jaws,descendant
+UBERON:1000011,labial commissure,descendant
+UBERON:0034767,buccal vestibule,descendant
+UBERON:0016915,vermilion,descendant
+UBERON:0016482,dental plaque,descendant
+UBERON:0013656,dulla,descendant
+UBERON:0012105,baleen plate,descendant
+UBERON:0011595,jaw region,descendant
+UBERON:0011349,pterygomandibular raphe,descendant
+UBERON:0011303,lamprey sucker,descendant
+UBERON:0011268,sublingua,descendant
+UBERON:0010056,future tongue,descendant
+UBERON:0008805,gingival groove,descendant
+UBERON:0008802,cheek pouch,descendant
+UBERON:0008253,Aristotle's lantern,descendant
+UBERON:0005905,insect labrum,descendant
+UBERON:0003729,mouth mucosa,descendant
+UBERON:0003700,temporomandibular joint,descendant
+UBERON:0003679,mouth floor,descendant
+UBERON:0001833,lip,descendant
+UBERON:0001733,soft palate,descendant
+UBERON:0001723,tongue,descendant
+UBERON:0001716,secondary palate,descendant
+UBERON:0000378,tongue muscle,descendant
+UBERON:0000167,oral cavity,descendant
+UBERON:0000166,oral opening,descendant
+UBERON:8480046,mucosa of rumen,descendant
+UBERON:0012651,mucosa of gastroduodenal junction,descendant
+UBERON:0006931,stomach glandular region mucosa,descendant
+UBERON:0004998,mucosa of pylorus,descendant
+UBERON:0004996,mucosa of cardia of stomach,descendant
+UBERON:0004995,mucosa of body of stomach,descendant
+UBERON:0004994,mucosa of fundus of stomach,descendant
+UBERON:0000424,gastric pit,descendant
+UBERON:0001983,crypt of Lieberkuhn,descendant
+UBERON:0003236,epithelium of lower jaw,descendant
+UBERON:0003235,epithelium of upper jaw,descendant
+UBERON:0001949,gingival epithelium,descendant
+UBERON:0013155,1st arch mandibular ectoderm,descendant
+UBERON:0012313,1st arch maxillary ectoderm,descendant
+UBERON:0010030,ventral part of pharyngeal pouch 5,descendant
+UBERON:0010029,dorsal part of pharyngeal pouch 5,descendant
+UBERON:0010028,ventral part of pharyngeal pouch 4,descendant
+UBERON:0010027,dorsal part of pharyngeal pouch 4,descendant
+UBERON:0010026,ventral part of pharyngeal pouch 3,descendant
+UBERON:0010025,dorsal part of pharyngeal pouch 3,descendant
+UBERON:0010024,ventral part of pharyngeal pouch 2,descendant
+UBERON:0010023,dorsal part of pharyngeal pouch 2,descendant
+UBERON:0010022,ventral part of pharyngeal pouch 1,descendant
+UBERON:0010021,dorsal part of pharyngeal pouch 1,descendant
+UBERON:0004902,urogenital sinus epithelium,descendant
+UBERON:0013156,1st arch mandibular endoderm,descendant
+UBERON:0013154,1st arch maxillary endoderm,descendant
+UBERON:0007690,early pharyngeal endoderm,descendant
+UBERON:0015766,epithelium of duct of salivary gland,descendant
+UBERON:0003361,epithelium of sublingual gland,descendant
+UBERON:0003360,epithelium of parotid gland,descendant
+UBERON:0003359,epithelium of submandibular gland,descendant
+UBERON:0019206,tongue papilla epithelium,descendant
+UBERON:0014452,gustatory epithelium of tongue,descendant
+UBERON:0006919,tongue squamous epithelium,descendant
+UBERON:0006918,parakeratinized epithelium of tongue,descendant
+UBERON:0006699,foramen cecum of tongue,descendant
+UBERON:0016545,pharyngeal ectoderm,descendant
+UBERON:0013696,tonsil epithelium,descendant
+UBERON:0005562,thymus primordium,descendant
+UBERON:0014453,gustatory epithelium of palate,descendant
+UBERON:0011642,oral epithelium from ectoderm,descendant
+UBERON:0009671,nasal fin,descendant
+UBERON:0008420,buccal epithelium,descendant
+UBERON:2005256,intervillus pockets,descendant
+UBERON:2005126,intestinal bulb epithelium,descendant
+UBERON:0011184,epithelium of crypt of Lieberkuhn,descendant
+UBERON:0004693,Peyer's patch epithelium,descendant
+UBERON:0001213,intestinal villus,descendant
+UBERON:4300130,lateral pelvic gland,descendant
+UBERON:4300129,dorsal pelvic gland,descendant
+UBERON:0017164,dorsal cloacal gland,descendant
+UBERON:0012479,urodeal gland,descendant
+UBERON:0010266,arthropod hepatopancreas,descendant
+UBERON:0010265,mollusc hepatopancreas,descendant
+UBERON:0010050,infralabial gland,descendant
+UBERON:0010049,supralabial gland,descendant
+UBERON:0010048,Duvernoy's gland,descendant
+UBERON:0003409,gland of tongue,descendant
+UBERON:0001044,saliva-secreting gland,descendant
+UBERON:0008310,nasopharyngeal gland,descendant
+UBERON:0009116,thymoid,descendant
+UBERON:0003410,oropharyngeal gland,descendant
+UBERON:0000325,gastric gland,descendant
+UBERON:0001732,pharyngeal tonsil,descendant
+UBERON:0036274,tonsillar pillar,descendant
+UBERON:0035228,tonsillar fossa,descendant
+UBERON:0013688,tonsil germinal center,descendant
+UBERON:0012181,tonsil crypt,descendant
+UBERON:0010423,primary lymphoid nodule of tonsil,descendant
+UBERON:0007250,lingual tonsil,descendant
+UBERON:0005207,tonsil capsule,descendant
+UBERON:0003949,tubal tonsil,descendant
+UBERON:0002373,palatine tonsil,descendant
+UBERON:0010387,Peyer's patch T cell area,descendant
+UBERON:0010386,Peyer's patch follicle,descendant
+UBERON:0004697,Peyer's patch germinal center,descendant
+UBERON:0001201,serosa of stomach,descendant
+UBERON:0009669,embryonic cloacal lumen,descendant
+UBERON:0003903,bursa of Fabricius,descendant
+UBERON:0006217,cloacal membrane,descendant
+UBERON:0000164,primitive urogenital sinus,descendant
+UBERON:0012402,small intestine smooth muscle longitudinal layer,descendant
+UBERON:0012401,small intestine smooth muscle circular layer,descendant
+UBERON:0012490,muscle layer of anal canal,descendant
+UBERON:0012419,taenia coli,descendant
+UBERON:8600118,myenteric ganglion,descendant
+UBERON:8410011,myenteric nerve plexus of appendix,descendant
+UBERON:0004928,submucosa of appendix,descendant
+UBERON:0003329,submucosa of anal canal,descendant
+UBERON:0004936,submucosa of pyloric antrum,descendant
+UBERON:0016511,lamina propria of fundus of stomach,descendant
+UBERON:0008285,rumen epithelium,descendant
+UBERON:0007359,ruminant forestomach,descendant
+UBERON:0007358,abomasum,descendant
+UBERON:0005602,dorsal mesogastrium,descendant
+UBERON:0005626,ventral mesogastrium,descendant
+UBERON:0005637,pyloric region epithelium,descendant
+UBERON:0005477,stomach fundus epithelium,descendant
+UBERON:8410031,muscularis mucosae of appendix,descendant
+UBERON:0007178,muscularis mucosae of colon,descendant
+UBERON:0008827,murine forestomach,descendant
+UBERON:0007357,proventriculus,descendant
+UBERON:0012472,hepatoduodenal ligament,descendant
+UBERON:0012471,hepatogastric ligament,descendant
+UBERON:0010238,torus pylorus,descendant
+UBERON:0008861,pyloric gastric gland,descendant
+UBERON:0001202,pyloric sphincter,descendant
+UBERON:0004997,mucosa of pyloric antrum,descendant
+UBERON:0008859,cardiac gastric gland,descendant
+UBERON:0004550,gastroesophageal sphincter,descendant
+UBERON:0016502,stomach fundus lumen,descendant
+UBERON:0012503,serosa of fundus of stomach,descendant
+UBERON:0010038,fundic gastric gland,descendant
+UBERON:0008860,intermediate gastric gland,descendant
+UBERON:0010228,ruminal fluid,descendant
+UBERON:0014510,lamina of omasum,descendant
+UBERON:0014475,endostylar duct,descendant
+UBERON:0010061,lumen of nasopharynx,descendant
+UBERON:0009959,lumen of oropharynx,descendant
+UBERON:0010384,lumen of laryngopharynx,descendant
+UBERON:2002116,epibranchial organ,descendant
+UBERON:2002057,gill opening,descendant
+UBERON:2001990,epibranchial arborescent organ,descendant
+UBERON:2001467,pharyngeal mesoderm,descendant
+UBERON:0034937,pharyngeal bar,descendant
+UBERON:0011345,pharyngeal raphe,descendant
+UBERON:0011289,pharyngobasilar fascia,descendant
+UBERON:0010937,salpingopharyngeus muscle,descendant
+UBERON:0010234,palatopharyngeus muscle,descendant
+UBERON:0010060,pharyngeal opening of pharyngotympanic tube,descendant
+UBERON:0009867,Hatschek's diverticulum,descendant
+UBERON:0009119,branchial basket,descendant
+UBERON:0008815,pharyngeal slit,descendant
+UBERON:0008804,stylopharyngeus muscle,descendant
+UBERON:0007689,thyroid diverticulum,descendant
+UBERON:0007303,pharyngeal vasculature,descendant
+UBERON:0006685,pharyngeal tubercle,descendant
+UBERON:0003384,skeletal muscle tissue of pharynx,descendant
+UBERON:0003091,thyroid primordium,descendant
+UBERON:0001729,oropharynx,descendant
+UBERON:0001728,nasopharynx,descendant
+UBERON:0001051,hypopharynx,descendant
+UBERON:0000355,pharyngeal mucosa,descendant
+UBERON:0004914,duodenal papilla,descendant
+UBERON:8410040,high endothelial venule of small intestine Peyer's patch,descendant
+UBERON:0022280,epithelium of crypt of Lieberkuhn of small intestine,descendant
+UBERON:0013636,epithelium of intestinal villus,descendant
+UBERON:0006359,mesoduodenum,descendant
+UBERON:0022277,hepatic flexure of colon,descendant
+UBERON:0022276,splenic flexure of colon,descendant
+UBERON:0035805,muscle layer of sigmoid colon,descendant
+UBERON:0004932,submucosa of sigmoid colon,descendant
+UBERON:0004931,submucosa of descending colon,descendant
+UBERON:0004930,submucosa of transverse colon,descendant
+UBERON:0004929,submucosa of ascending colon,descendant
+UBERON:7770008,sigmoid colon epithelium,descendant
+UBERON:7770007,descending colon epithelium,descendant
+UBERON:7770006,transverse colon epithelium,descendant
+UBERON:7770005,ascending colon epithelium,descendant
+UBERON:0007177,lamina propria of mucosa of colon,descendant
+UBERON:0004993,mucosa of sigmoid colon,descendant
+UBERON:0004992,mucosa of descending colon,descendant
+UBERON:0004991,mucosa of transverse colon,descendant
+UBERON:0004990,mucosa of ascending colon,descendant
+UBERON:0009130,dorsal meso-duodenum,descendant
+UBERON:0009961,esophagus smooth muscle longitudinal layer,descendant
+UBERON:0006223,dorsal meso-oesophagus,descendant
+UBERON:0008814,pharyngeal arch system,descendant
+UBERON:0022361,lung field,descendant
+UBERON:0012172,stomach primordium,descendant
+UBERON:0008947,respiratory primordium,descendant
+UBERON:0004117,pharyngeal pouch,descendant
+UBERON:8600136,sigmoid colon lamina propria,descendant
+UBERON:8600135,descending colon lamina propria,descendant
+UBERON:8600137,transverse colon lamina propria,descendant
+UBERON:8600134,ascending colon lamina propria,descendant
+UBERON:0006574,pectinate line,descendant
+UBERON:0000569,ileocecal valve,descendant
+UBERON:0012399,large intestine smooth muscle longitudinal layer,descendant
+UBERON:0012398,large intestine smooth muscle circular layer,descendant
+UBERON:0022281,epithelium of crypt of Lieberkuhn of large intestine,descendant
+UBERON:0013486,crypt of Lieberkuhn of appendix,descendant
+UBERON:0015716,anal canal epithelium,descendant
+UBERON:0012498,serosa of appendix,descendant
+UBERON:0004989,mucosa of appendix,descendant
+UBERON:0003342,mucosa of anal canal,descendant
+UBERON:8410047,appendix smooth muscle longitudinal layer,descendant
+UBERON:8410046,appendix smooth muscle circular layer,descendant
+UBERON:8410045,artery of appendix,descendant
+UBERON:8410044,vein of appendix,descendant
+UBERON:8410039,high endothelial venule of appendix,descendant
+UBERON:8410030,lymphatic vessel of appendix,descendant
+UBERON:8410029,lymphatic capillary of appendix,descendant
+UBERON:8410028,arteriole of appendix,descendant
+UBERON:8410020,venule of appendix,descendant
+UBERON:8410012,submucous nerve plexus of appendix,descendant
+UBERON:0036337,wall of appendix,descendant
+UBERON:0013689,appendix lymphoid tissue,descendant
+UBERON:0036362,wall of anal canal,descendant
+UBERON:0035243,anal sinus,descendant
+UBERON:0009882,anal column,descendant
+UBERON:0007158,lumen of anal canal,descendant
+UBERON:0001357,inferior rectal artery,descendant
+UBERON:0016910,frenulum of lip,descendant
+UBERON:0006689,frenulum of tongue,descendant
+UBERON:0016919,lower vermilion,descendant
+UBERON:0016918,upper vermilion,descendant
+UBERON:0016485,supragingival dental plaque,descendant
+UBERON:0016484,subgingival dental plaque,descendant
+UBERON:0012106,baleen plate bristle,descendant
+UBERON:0034995,jaw mesenchyme,descendant
+UBERON:0012360,bone of jaw,descendant
+UBERON:0009654,alveolar artery,descendant
+UBERON:0001828,gingiva,descendant
+UBERON:0001710,lower jaw region,descendant
+UBERON:0001709,upper jaw region,descendant
+UBERON:0001708,jaw skeleton,descendant
+UBERON:0010059,hypoglossal cord,descendant
+UBERON:0010057,hypopharyngeal eminence,descendant
+UBERON:0010034,copula linguae,descendant
+UBERON:0006260,lingual swellings,descendant
+UBERON:0013641,external cheek pouch,descendant
+UBERON:0013640,internal cheek pouch,descendant
+UBERON:0012621,muscle of Aristotle's lantern,descendant
+UBERON:0036294,mucosa of lip,descendant
+UBERON:0035967,alveolar mucosa,descendant
+UBERON:0006956,buccal mucosa,descendant
+UBERON:0005020,mucosa of tongue,descendant
+UBERON:0005019,mucosa of palate,descendant
+UBERON:0003343,mucosa of oral region,descendant
+UBERON:0011320,ligament of temporomandibular joint,descendant
+UBERON:0011319,disk of temporomandibular joint,descendant
+UBERON:0011318,capsule of temporomandibular joint,descendant
+UBERON:2001935,oral disk,descendant
+UBERON:0034719,lip taste bud,descendant
+UBERON:0004833,lip skeletal muscle,descendant
+UBERON:0001835,lower lip,descendant
+UBERON:0001834,upper lip,descendant
+UBERON:0001458,skin of lip,descendant
+UBERON:0034670,palatal taste bud,descendant
+UBERON:0014916,velar vocal fold,descendant
+UBERON:0014780,palatine aponeurosis,descendant
+UBERON:0011348,raphe of soft palate,descendant
+UBERON:0005024,mucosa of soft palate,descendant
+UBERON:0003682,palatal muscle,descendant
+UBERON:0003417,mesenchyme of soft palate,descendant
+UBERON:0003358,epithelium of soft palate,descendant
+UBERON:0001734,palatine uvula,descendant
+UBERON:0034934,Weber's gland,descendant
+UBERON:0014790,lingual septum,descendant
+UBERON:0013476,dermal layer of tongue,descendant
+UBERON:0011877,margin of tongue,descendant
+UBERON:0011876,body of tongue,descendant
+UBERON:0014451,tongue taste bud,descendant
+UBERON:0009471,dorsum of tongue,descendant
+UBERON:0010032,anterior part of tongue,descendant
+UBERON:0006916,non-keratinized epithelium of tongue,descendant
+UBERON:0006688,sublingual caruncle,descendant
+UBERON:0006330,anterior lingual gland,descendant
+UBERON:0007367,surface of tongue,descendant
+UBERON:0004650,tongue keratinized epithelium,descendant
+UBERON:0003416,mesenchyme of tongue,descendant
+UBERON:0001576,intrinsic muscle of tongue,descendant
+UBERON:0001610,lingual artery,descendant
+UBERON:0011346,palatine raphe,descendant
+UBERON:0010426,oropharyngeal choana,descendant
+UBERON:0009207,geschmacksstreifen,descendant
+UBERON:0003216,hard palate,descendant
+UBERON:0001575,extrinsic muscle of tongue,descendant
+UBERON:0001574,palatoglossus muscle,descendant
+UBERON:0018149,angle of oral opening,descendant
+UBERON:0009672,oronasal membrane,descendant
+UBERON:0008806,buccal funnel,descendant
+UBERON:0006272,oronasal cavity,descendant
+UBERON:0005867,mandibular prominence,descendant
+UBERON:0010154,inner lining mucosa of the abomasum,descendant
+UBERON:0013740,wall of crypt of Lieberkuhn,descendant
+UBERON:0013739,base of crypt of Lieberkuhn,descendant
+UBERON:0011596,future lower lip,descendant
+UBERON:0006957,submandibular gland primordium epithelium,descendant
+UBERON:0005710,lower jaw incisor epithelium,descendant
+UBERON:0005654,lower jaw molar epithelium,descendant
+UBERON:0011592,future upper lip,descendant
+UBERON:0005709,upper jaw incisor epithelium,descendant
+UBERON:0005659,primary palate epithelium,descendant
+UBERON:0005658,secondary palatal shelf epithelium,descendant
+UBERON:0005653,upper jaw molar epithelium,descendant
+UBERON:0003368,epithelium of hard palate,descendant
+UBERON:0035149,gingival epithelial attachment,descendant
+UBERON:0013195,parakeratinized epithelium of gingiva,descendant
+UBERON:0009847,prostate field,descendant
+UBERON:0003820,prostate bud,descendant
+UBERON:0035076,parotid gland myoepithelium,descendant
+UBERON:0005879,pharyngeal cleft,descendant
+UBERON:0008817,thymus primordium endoderm,descendant
+UBERON:8700001,follicle associated epithelium,descendant
+UBERON:8410004,small intestine arteriole,descendant
+UBERON:8410001,small intestine venule,descendant
+UBERON:0018410,lacteal,descendant
+UBERON:0013475,gustatory gland,descendant
+UBERON:0035053,interlobular duct of salivary gland,descendant
+UBERON:0035049,excretory duct of salivary gland,descendant
+UBERON:0014727,intercalated duct of salivary gland,descendant
+UBERON:0017653,intermaxillary salivary gland,descendant
+UBERON:0011850,acinus of salivary gland,descendant
+UBERON:0012102,buccal salivary gland,descendant
+UBERON:0001837,duct of salivary gland,descendant
+UBERON:0001830,minor salivary gland,descendant
+UBERON:0001829,major salivary gland,descendant
+UBERON:0009971,principal gastric gland,descendant
+UBERON:0003904,bursal plica,descendant
+UBERON:0016505,Mullerian tubercle,descendant
+UBERON:0013244,vaginal plate,descendant
+UBERON:0013245,sinovaginal bulb,descendant
+UBERON:0009844,urogenital sinus lumen,descendant
+UBERON:0010153,rumen papilla,descendant
+UBERON:0001247,falciform ligament,descendant
+UBERON:0018103,posterior fascicle of palatopharyngeus,descendant
+UBERON:0009869,Hatschek's right diverticulum,descendant
+UBERON:0009868,Hatschek's left diverticulum,descendant
+UBERON:2000666,filamental artery,descendant
+UBERON:0004363,pharyngeal arch artery,descendant
+UBERON:0003261,thyroid primordium endoderm,descendant
+UBERON:0001761,future foramen cecum,descendant
+UBERON:0005022,mucosa of nasopharynx,descendant
+UBERON:0003582,nasopharynx connective tissue,descendant
+UBERON:0004987,mucosa of laryngopharynx,descendant
+UBERON:0000388,epiglottis,descendant
+UBERON:0012272,minor duodenal papilla,descendant
+UBERON:0012271,major duodenal papilla,descendant
+UBERON:0004913,hepatopancreatic ampulla,descendant
+UBERON:0010046,entire pharyngeal arch associated mesenchyme,descendant
+UBERON:0006216,cervical sinus of His,descendant
+UBERON:0002539,pharyngeal arch,descendant
+UBERON:0036073,respiratory primordium mesenchyme,descendant
+UBERON:0005597,lung primordium,descendant
+UBERON:2001129,pharyngeal pouches 2-6,descendant
+UBERON:0007127,pharyngeal pouch 6,descendant
+UBERON:0007126,pharyngeal pouch 5,descendant
+UBERON:0007125,pharyngeal pouch 4,descendant
+UBERON:0007124,pharyngeal pouch 3,descendant
+UBERON:0007123,pharyngeal pouch 2,descendant
+UBERON:0007122,pharyngeal pouch 1,descendant
+UBERON:8410005,transitional glandular epithelium of anorectum,descendant
+UBERON:8410049,serosal nerve fiber of appendix,descendant
+UBERON:0016913,frenulum of lower lip,descendant
+UBERON:0016912,frenulum of upper lip,descendant
+UBERON:0003324,mesenchyme of lower jaw,descendant
+UBERON:0003323,mesenchyme of upper jaw,descendant
+UBERON:3000645,corpus,descendant
+UBERON:0011597,bone of upper jaw,descendant
+UBERON:0004768,bone of lower jaw,descendant
+UBERON:0014693,inferior alveolar artery,descendant
+UBERON:0012376,retromolar triangle,descendant
+UBERON:0011602,gingiva of lower jaw,descendant
+UBERON:0011601,gingiva of upper jaw,descendant
+UBERON:7500053,lower fourth secondary premolar tooth,descendant
+UBERON:3010144,odontoids,descendant
+UBERON:2001805,articular bone,descendant
+UBERON:2000422,retroarticular,descendant
+UBERON:0035117,diastema between lower central incisors,descendant
+UBERON:0018623,lower secondary incisor tooth,descendant
+UBERON:0018622,lower canine tooth,descendant
+UBERON:0018617,primary lower tooth,descendant
+UBERON:0018614,permanent lower tooth,descendant
+UBERON:0018602,lower lateral incisor tooth,descendant
+UBERON:0018601,lower central incisor tooth,descendant
+UBERON:0018600,lower second primary molar tooth,descendant
+UBERON:0018598,lower primary canine tooth,descendant
+UBERON:0018589,lower first primary molar tooth,descendant
+UBERON:0018580,lower third secondary molar tooth,descendant
+UBERON:0018579,lower second secondary molar tooth,descendant
+UBERON:0018578,lower first secondary molar tooth,descendant
+UBERON:0018574,lower second secondary premolar tooth,descendant
+UBERON:0018573,lower first secondary premolar tooth,descendant
+UBERON:0018562,lower secondary canine tooth,descendant
+UBERON:0018285,lower premolar 2,descendant
+UBERON:0018284,lower premolar 1,descendant
+UBERON:0018282,lower molar 3,descendant
+UBERON:0018281,lower deciduous premolar 5,descendant
+UBERON:0017748,lower primary incisor tooth,descendant
+UBERON:0017612,cingulum of lower jaw molar,descendant
+UBERON:0017299,cingulum of lower incisor tooth,descendant
+UBERON:0017272,lower primary premolar tooth,descendant
+UBERON:0016943,lower premolar tooth,descendant
+UBERON:0016453,lower secondary premolar tooth,descendant
+UBERON:0016624,lunge feeding vibrissa,descendant
+UBERON:0013621,lower secondary molar tooth,descendant
+UBERON:0013620,lower primary molar tooth,descendant
+UBERON:0013612,lower jaw cingulum,descendant
+UBERON:0011636,surangular bone,descendant
+UBERON:0011079,angular bone,descendant
+UBERON:0010013,lower beak,descendant
+UBERON:0008199,chin,descendant
+UBERON:0006669,alveolar canal,descendant
+UBERON:0006606,mandibular symphysis,descendant
+UBERON:0006298,submandibular gland primordium,descendant
+UBERON:0003667,lower jaw molar,descendant
+UBERON:0003451,lower jaw incisor,descendant
+UBERON:0003268,tooth of lower jaw,descendant
+UBERON:0003278,skeleton of lower jaw,descendant
+UBERON:0001831,parotid gland,descendant
+UBERON:0001736,submandibular gland,descendant
+UBERON:7500057,upper fourth secondary molar tooth,descendant
+UBERON:4300133,upper jaw symphyseal region,descendant
+UBERON:4300017,rostrodermethmoid,descendant
+UBERON:3000597,symphysis maxillaris,descendant
+UBERON:3000547,rostral process,descendant
+UBERON:3000295,median symphysis,descendant
+UBERON:2002092,rostral cartilage,descendant
+UBERON:2001632,ectopterygoid tooth,descendant
+UBERON:2001406,kinethmoid bone,descendant
+UBERON:0035116,diastema between upper central incisors,descendant
+UBERON:0034909,intermaxillary suture,descendant
+UBERON:0019253,upper secondary incisor tooth,descendant
+UBERON:0018648,upper premolar 4,descendant
+UBERON:0018621,upper canine tooth,descendant
+UBERON:0018616,primary upper tooth,descendant
+UBERON:0018613,secondary upper tooth,descendant
+UBERON:0018604,upper lateral incisor tooth,descendant
+UBERON:0018603,upper central incisor tooth,descendant
+UBERON:0018599,upper second primary molar tooth,descendant
+UBERON:0018597,upper primary canine tooth,descendant
+UBERON:0018591,upper primary incisor tooth,descendant
+UBERON:0018588,upper first primary molar tooth,descendant
+UBERON:0018572,upper second secondary premolar tooth,descendant
+UBERON:0018571,upper first secondary premolar tooth,descendant
+UBERON:0018561,upper secondary canine tooth,descendant
+UBERON:0018302,upper molar 1,descendant
+UBERON:0018301,upper deciduous premolar 5,descendant
+UBERON:0018300,upper canine 1,descendant
+UBERON:0018577,upper third secondary molar tooth,descendant
+UBERON:0018576,upper second secondary molar tooth,descendant
+UBERON:0018575,upper first secondary molar tooth,descendant
+UBERON:0017613,cingulum of upper jaw molar,descendant
+UBERON:0017298,cingulum of upper incisor tooth,descendant
+UBERON:0017271,upper primary premolar tooth,descendant
+UBERON:0016944,upper premolar tooth,descendant
+UBERON:0016455,upper lateral secondary incisor tooth,descendant
+UBERON:0016454,upper central secondary incisor tooth,descendant
+UBERON:0016452,upper secondary premolar tooth,descendant
+UBERON:0013619,upper secondary molar tooth,descendant
+UBERON:0013617,upper primary molar tooth,descendant
+UBERON:0013613,upper jaw cingulum,descendant
+UBERON:0011634,ectopterygoid bone,descendant
+UBERON:0010169,moustache,descendant
+UBERON:0010012,upper beak,descendant
+UBERON:0003666,upper jaw molar,descendant
+UBERON:0003450,upper jaw incisor,descendant
+UBERON:0003277,skeleton of upper jaw,descendant
+UBERON:0003267,tooth of upper jaw,descendant
+UBERON:4200250,meckelian bone,descendant
+UBERON:3000998,suprarostral cartilage,descendant
+UBERON:3000237,infrarostral cartilage,descendant
+UBERON:0018297,resorption pit,descendant
+UBERON:0013135,interdental plate,descendant
+UBERON:0012111,diastema,descendant
+UBERON:0004103,alveolar ridge,descendant
+UBERON:0001035,dento-alveolar joint,descendant
+UBERON:0006756,median lingual swelling,descendant
+UBERON:0006757,lateral lingual swelling,descendant
+UBERON:0005032,mucosa of lower lip,descendant
+UBERON:0005031,mucosa of upper lip,descendant
+UBERON:0010052,mucosa of dorsum of tongue,descendant
+UBERON:0001726,papilla of tongue,descendant
+UBERON:0005046,mucosa of hard palate,descendant
+UBERON:0005334,oral lamina propria,descendant
+UBERON:0018150,skin of lower lip,descendant
+UBERON:3010091,upper lip protuberances,descendant
+UBERON:0018151,skin of upper lip,descendant
+UBERON:0005402,philtrum,descendant
+UBERON:0005025,mucosa of uvula,descendant
+UBERON:0010235,uvular muscle,descendant
+UBERON:0008586,tensor veli palatini,descendant
+UBERON:0008585,levator veli palatini,descendant
+UBERON:0010033,posterior part of tongue,descendant
+UBERON:0006360,tongue intermolar eminence,descendant
+UBERON:0015445,anterior lingual gland duct,descendant
+UBERON:0007373,inferior surface of tongue,descendant
+UBERON:0007371,superior surface of tongue,descendant
+UBERON:0008584,vertical muscle of tongue,descendant
+UBERON:0008583,transverse muscle of tongue,descendant
+UBERON:0008582,superior longitudinal muscle of tongue,descendant
+UBERON:8600097,deep lingual artery,descendant
+UBERON:0011347,raphe of hard palate,descendant
+UBERON:0035122,interincisive suture,descendant
+UBERON:0035127,suture of hard palate,descendant
+UBERON:0035126,transverse palatine suture,descendant
+UBERON:0012074,bony part of hard palate,descendant
+UBERON:0008799,transverse palatine fold,descendant
+UBERON:0006672,incisive canal,descendant
+UBERON:0003424,mesenchyme of hard palate,descendant
+UBERON:0001572,hyoglossus muscle,descendant
+UBERON:0001571,genioglossus muscle,descendant
+UBERON:0001573,styloglossus,descendant
+UBERON:0006905,mandibular process mesenchyme,descendant
+UBERON:0013157,1st arch maxillary-mandibular cleft,descendant
+UBERON:0005875,4th arch pharyngeal cleft,descendant
+UBERON:0005874,3rd arch pharyngeal cleft,descendant
+UBERON:0005873,2nd arch pharyngeal cleft,descendant
+UBERON:0005872,1st arch pharyngeal cleft,descendant
+UBERON:0035078,parotid gland interlobular duct,descendant
+UBERON:0035048,parotid gland excretory duct,descendant
+UBERON:0035046,parotid gland intercalated duct,descendant
+UBERON:0011847,acinus of parotid gland,descendant
+UBERON:0010242,anterior buccal gland,descendant
+UBERON:0010241,molar gland,descendant
+UBERON:0010240,zygomatic gland,descendant
+UBERON:0035045,parotid gland intralobular duct,descendant
+UBERON:0014729,striated duct of salivary gland,descendant
+UBERON:0002334,submandibular duct,descendant
+UBERON:0001838,sublingual duct,descendant
+UBERON:8480065,labial gland,descendant
+UBERON:0002447,palatine gland,descendant
+UBERON:0001832,sublingual gland,descendant
+UBERON:0003905,bursal follicle,descendant
+UBERON:0015142,falciform fat,descendant
+UBERON:2005018,efferent filamental artery,descendant
+UBERON:2005012,afferent filamental artery,descendant
+UBERON:2000716,afferent portion of pharyngeal arch artery,descendant
+UBERON:2000202,efferent portion of pharyngeal arch artery,descendant
+UBERON:0003123,pharyngeal arch artery 6,descendant
+UBERON:0003122,pharyngeal arch artery 5,descendant
+UBERON:0003121,pharyngeal arch artery 4,descendant
+UBERON:0003120,pharyngeal arch artery 3,descendant
+UBERON:0003119,pharyngeal arch artery 2,descendant
+UBERON:0003118,pharyngeal arch artery 1,descendant
+UBERON:0004982,mucosa of epiglottis,descendant
+UBERON:0001742,epiglottic cartilage,descendant
+UBERON:0004915,sphincter of hepatopancreatic ampulla,descendant
+UBERON:0010360,pharyngeal arch mesenchyme from head mesenchyme,descendant
+UBERON:0010359,pharyngeal arch mesenchyme from neural crest,descendant
+UBERON:0009494,pharyngeal arch mesenchymal region,descendant
+UBERON:0009210,pharyngeal membrane,descendant
+UBERON:0008896,post-hyoid pharyngeal arch,descendant
+UBERON:0004362,pharyngeal arch 1,descendant
+UBERON:0003117,pharyngeal arch 6,descendant
+UBERON:0003116,pharyngeal arch 5,descendant
+UBERON:0003115,pharyngeal arch 4,descendant
+UBERON:0003114,pharyngeal arch 3,descendant
+UBERON:0003066,pharyngeal arch 2,descendant
+UBERON:0009539,mesenchyme of submandibular gland primordium,descendant
+UBERON:0005708,lower jaw incisor odontogenic papilla,descendant
+UBERON:0005701,lower jaw molar odontogenic papilla,descendant
+UBERON:0003419,mesenchyme of parotid,descendant
+UBERON:0003418,mesenchyme of submandibular gland,descendant
+UBERON:0003414,mesenchyme of mandible,descendant
+UBERON:0005705,primary palate mesenchyme,descendant
+UBERON:0005704,secondary palatal shelf mesenchyme,descendant
+UBERON:0005700,upper jaw molar odontogenic papilla,descendant
+UBERON:0005707,upper jaw incisor odontogenic papilla,descendant
+UBERON:3000646,margo libera,descendant
+UBERON:3000509,processus suprafenestralis,descendant
+UBERON:3000492,processus infrafenestralis,descendant
+UBERON:3000110,crista contacta,descendant
+UBERON:3000323,nasopremaxilla,descendant
+UBERON:3000288,maxillopalatine,descendant
+UBERON:2002020,hypomaxilla,descendant
+UBERON:2001692,median premaxilla,descendant
+UBERON:2000620,autopalatine,descendant
+UBERON:2000240,metapterygoid,descendant
+UBERON:2000103,supramaxilla,descendant
+UBERON:2000657,entopterygoid,descendant
+UBERON:0011773,upper jaw opening,descendant
+UBERON:0011628,early premaxilla,descendant
+UBERON:0011267,quadratojugal bone,descendant
+UBERON:0006597,quadrate bone,descendant
+UBERON:0002397,maxilla,descendant
+UBERON:0002396,vomer,descendant
+UBERON:0002244,premaxilla,descendant
+UBERON:0001682,palatine bone,descendant
+UBERON:4300199,postsplenial,descendant
+UBERON:4200245,parasymphysial plate,descendant
+UBERON:3000966,angulosplenial,descendant
+UBERON:3000518,pseudodentary,descendant
+UBERON:3000515,pseudoangular,descendant
+UBERON:2001274,coronomeckelian,descendant
+UBERON:0011637,prearticular bone,descendant
+UBERON:0011635,splenial bone,descendant
+UBERON:0011598,coronoid bone,descendant
+UBERON:0011772,lower jaw opening,descendant
+UBERON:0011770,mentomeckelian,descendant
+UBERON:0004744,articular/anguloarticular,descendant
+UBERON:0004742,dentary,descendant
+UBERON:0018570,lower lateral secondary incisor tooth,descendant
+UBERON:0018568,lower central secondary incisor tooth,descendant
+UBERON:0017313,cingulum of lower canine tooth,descendant
+UBERON:0018596,lower lateral primary incisor tooth,descendant
+UBERON:0018595,lower central primary incisor tooth,descendant
+UBERON:8490047,left lower second primary molar tooth,descendant
+UBERON:8490021,right lower second primary molar tooth,descendant
+UBERON:8490049,left lower primary canine tooth,descendant
+UBERON:8490023,right lower primary canine tooth,descendant
+UBERON:8490048,left lower first primary molar tooth,descendant
+UBERON:8490022,right lower first primary molar tooth,descendant
+UBERON:8490034,left lower third secondary molar tooth,descendant
+UBERON:8490008,right lower third secondary molar tooth,descendant
+UBERON:8490035,left lower second secondary molar tooth,descendant
+UBERON:8490009,right lower second secondary molar tooth,descendant
+UBERON:8490036,left lower first secondary molar tooth,descendant
+UBERON:8490010,right lower first secondary molar tooth,descendant
+UBERON:8490037,left lower second secondary premolar tooth,descendant
+UBERON:8490011,right lower second secondary premolar tooth,descendant
+UBERON:8490038,left lower first secondary premolar tooth,descendant
+UBERON:8490012,right lower first secondary premolar tooth,descendant
+UBERON:8490039,left lower secondary canine tooth,descendant
+UBERON:8490013,right lower secondary canine tooth,descendant
+UBERON:7500054,lower third secondary premolar tooth,descendant
+UBERON:7500052,lower fourth secondary molar tooth,descendant
+UBERON:4200243,surangular pit line,descendant
+UBERON:0007332,mandibular rhamphotheca,descendant
+UBERON:1000000,chin ventral margin,descendant
+UBERON:0008596,mentalis muscle,descendant
+UBERON:0001655,submental vein,descendant
+UBERON:0001581,depressor labii inferioris,descendant
+UBERON:0016621,lunge feeding organ,descendant
+UBERON:3000519,pseudodentary tooth,descendant
+UBERON:0018299,mandibular symphyseal tooth,descendant
+UBERON:0011603,coronoid tooth,descendant
+UBERON:0011594,dentary tooth,descendant
+UBERON:3000450,posterior mental process,descendant
+UBERON:3000038,basimandibulare,descendant
+UBERON:0018338,medial cotyla,descendant
+UBERON:0018333,labial cartilage,descendant
+UBERON:0018331,intraramal joint,descendant
+UBERON:0014684,Helicoprion tooth whorl,descendant
+UBERON:0014683,parasymphisial tooth whorl,descendant
+UBERON:0009679,set of lower jaw teeth,descendant
+UBERON:0003107,Meckel's cartilage,descendant
+UBERON:0035047,parotid gland striated duct,descendant
+UBERON:0001065,parotid main excretory duct,descendant
+UBERON:0017312,cingulum of upper canine tooth,descendant
+UBERON:0018594,upper lateral primary incisor tooth,descendant
+UBERON:0018593,upper central primary incisor tooth,descendant
+UBERON:8490042,left upper second primary molar tooth,descendant
+UBERON:8490016,right upper second primary molar tooth,descendant
+UBERON:8490044,left upper primary canine tooth,descendant
+UBERON:8490018,right upper primary canine tooth,descendant
+UBERON:8490043,left upper first primary molar tooth,descendant
+UBERON:8490017,right upper first primary molar tooth,descendant
+UBERON:8490029,left upper second secondary premolar tooth,descendant
+UBERON:8490003,right upper second secondary premolar tooth,descendant
+UBERON:8490004,right upper first secondary premolar tooth,descendant
+UBERON:8490030,left upper first secondary premolar tooth,descendant
+UBERON:8490031,left upper secondary canine tooth,descendant
+UBERON:8490005,right upper secondary canine tooth,descendant
+UBERON:8490026,left upper third secondary molar tooth,descendant
+UBERON:8490000,right upper third secondary molar tooth,descendant
+UBERON:8490027,left upper second secondary molar tooth,descendant
+UBERON:8490001,right upper second secondary molar tooth,descendant
+UBERON:8490028,left upper first secondary molar tooth,descendant
+UBERON:8490002,right upper first secondary molar tooth,descendant
+UBERON:8490032,left upper lateral secondary incisor tooth,descendant
+UBERON:8490006,right upper lateral secondary incisor tooth,descendant
+UBERON:8490033,left upper central secondary incisor tooth,descendant
+UBERON:8490007,right upper central secondary incisor tooth,descendant
+UBERON:7500059,upper third secondary premolar tooth,descendant
+UBERON:7500058,upper fourth secondary premolar tooth,descendant
+UBERON:0007331,maxillary rhamphotheca,descendant
+UBERON:0015852,narwhal tusk,descendant
+UBERON:0015851,upper right incisor tusk,descendant
+UBERON:0015847,upper left incisor tooth,descendant
+UBERON:0011085,palatoquadrate arch,descendant
+UBERON:0009680,set of upper jaw teeth,descendant
+UBERON:0005619,secondary palatal shelf,descendant
+UBERON:3000642,maxillopalatine tooth,descendant
+UBERON:2001626,premaxillary tooth,descendant
+UBERON:0012070,palatal tooth,descendant
+UBERON:0011593,maxillary tooth,descendant
+UBERON:4200251,meckelian foramen,descendant
+UBERON:3010458,suprarostral ala,descendant
+UBERON:0035119,diastema between incisors,descendant
+UBERON:0034898,alveolar ridge of premaxilla,descendant
+UBERON:0004528,alveolar ridge of mandible,descendant
+UBERON:0004527,alveolar process of maxilla,descendant
+UBERON:0003686,tooth socket,descendant
+UBERON:0023541,conical papilla,descendant
+UBERON:0014389,gustatory papilla of tongue,descendant
+UBERON:0013638,horny papilla of tongue,descendant
+UBERON:0013639,mechanical papilla of tongue,descendant
+UBERON:0002448,fungiform papilla,descendant
+UBERON:0002467,filiform papilla,descendant
+UBERON:0016442,median palatine suture,descendant
+UBERON:0036144,incisive duct,descendant
+UBERON:0011535,chondroglossus muscle,descendant
+UBERON:0008428,ceratoglossus,descendant
+UBERON:0010337,mandibular process mesenchyme from head mesenchyme,descendant
+UBERON:0010336,mandibular process mesenchyme from neural crest,descendant
+UBERON:0003986,minor sublingual duct,descendant
+UBERON:0003985,major sublingual duct,descendant
+UBERON:0003420,mesenchyme of sublingual gland,descendant
+UBERON:2005019,efferent lamellar arteriole,descendant
+UBERON:2005015,afferent lamellar arteriole,descendant
+UBERON:2005014,recurrent branch afferent branchial artery,descendant
+UBERON:2005013,concurrent branch afferent branchial artery,descendant
+UBERON:0010347,6th arch mesenchyme from head mesenchyme,descendant
+UBERON:0010345,4th arch mesenchyme from head mesenchyme,descendant
+UBERON:0010344,3rd arch mesenchyme from head mesenchyme,descendant
+UBERON:0010343,2nd arch mesenchyme from head mesenchyme,descendant
+UBERON:0010341,1st arch mesenchyme from head mesenchyme,descendant
+UBERON:0010259,1st arch mesenchyme from neural crest,descendant
+UBERON:0010257,6th arch mesenchyme from neural crest,descendant
+UBERON:0010256,4th arch mesenchyme from neural crest,descendant
+UBERON:0010255,3rd arch mesenchyme from neural crest,descendant
+UBERON:0010254,2nd arch mesenchyme from neural crest,descendant
+UBERON:0013502,5th arch mesenchyme,descendant
+UBERON:0010042,1st arch mesenchyme,descendant
+UBERON:0010031,6th arch mesenchyme,descendant
+UBERON:0005691,4th arch mesenchyme,descendant
+UBERON:0005690,3rd arch mesenchyme,descendant
+UBERON:0005689,2nd arch mesenchyme,descendant
+UBERON:0009217,pharyngeal membrane of 4th arch,descendant
+UBERON:0009216,pharyngeal membrane of 3rd arch,descendant
+UBERON:0009215,pharyngeal membrane of 2nd arch,descendant
+UBERON:0009213,pharyngeal membrane of 1st arch,descendant
+UBERON:0011638,pharyngeal arch 8,descendant
+UBERON:0011087,pharyngeal arch 7,descendant
+UBERON:0007238,1st arch maxillary component,descendant
+UBERON:0007237,1st arch mandibular component,descendant
+UBERON:0005666,4th arch endoderm,descendant
+UBERON:0005662,4th arch ectoderm,descendant
+UBERON:0005665,3rd arch endoderm,descendant
+UBERON:0005661,3rd arch ectoderm,descendant
+UBERON:0005664,2nd arch endoderm,descendant
+UBERON:0005660,2nd arch ectoderm,descendant
+UBERON:0004368,Reichert's cartilage,descendant
+UBERON:3000647,crista interna,descendant
+UBERON:3000401,pars facialis of maxillopalatine,descendant
+UBERON:2001578,anterior dorsomedial process of autopalatine,descendant
+UBERON:2000699,entopterygoid vertical strut,descendant
+UBERON:3000605,tentacular foramen,descendant
+UBERON:3000654,pars jugalis,descendant
+UBERON:3000177,flange of quadratojugal,descendant
+UBERON:3000653,pars glenoidalis of quadratojugal,descendant
+UBERON:2001611,quadrate posterodorsal process,descendant
+UBERON:2001610,quadrate dorsal process,descendant
+UBERON:2000224,quadrate ventral process,descendant
+UBERON:0018353,quadrate condyle,descendant
+UBERON:0018337,medial condyle of quadrate,descendant
+UBERON:0018334,lateral condyle of quadrate,descendant
+UBERON:3000651,lamina anterior of maxilla,descendant
+UBERON:3000650,processus frontalis of maxilla,descendant
+UBERON:3000581,sulcus dentalis of maxilla,descendant
+UBERON:3000540,recessus vaginiformis,descendant
+UBERON:3000512,processus zygomatico-maxillaris,descendant
+UBERON:3000500,processus posterior of maxilla,descendant
+UBERON:3000400,pars facialis of maxilla,descendant
+UBERON:3000281,margo orbitalis of maxilla,descendant
+UBERON:3000652,fossa maxillaris,descendant
+UBERON:2001603,maxilla ascending process,descendant
+UBERON:0035139,anterior nasal spine of maxilla,descendant
+UBERON:0018409,infra-orbital groove of maxilla,descendant
+UBERON:0018407,infra-orbital foramen of maxilla,descendant
+UBERON:0018336,maxillary shank,descendant
+UBERON:0018136,maxillary fenestra,descendant
+UBERON:0013767,frontal process of maxilla,descendant
+UBERON:0013217,zygomatic plate,descendant
+UBERON:0011245,infra-orbital canal of maxilla,descendant
+UBERON:0005871,palatine process of maxilla,descendant
+UBERON:0001764,maxillary sinus,descendant
+UBERON:3000661,crista vomeri,descendant
+UBERON:3000660,margo choanalis,descendant
+UBERON:3000659,postchoanal process,descendant
+UBERON:3000658,prechoanal process,descendant
+UBERON:3000657,dentigerous process,descendant
+UBERON:3000649,anterior process of vomer,descendant
+UBERON:3000453,posterolateral vomerine process,descendant
+UBERON:3000634,vomerine canal,descendant
+UBERON:7500112,prosthion,descendant
+UBERON:4500018,premaxilla maxillary process,descendant
+UBERON:4500016,premaxilla articular process,descendant
+UBERON:3000582,sulcus dentalis of premaxilla,descendant
+UBERON:3000539,recessus marsupiatus of premaxilla,descendant
+UBERON:3000115,crista lateralis of premaxilla,descendant
+UBERON:3000003,alary process of premaxilla,descendant
+UBERON:2002257,premaxilla dentigerous process,descendant
+UBERON:2001577,premaxilla ascending process,descendant
+UBERON:0034900,palatine process of premaxilla,descendant
+UBERON:0018341,nasal process of premaxilla,descendant
+UBERON:0018137,premaxillary fenestra,descendant
+UBERON:0017249,incisive process of premaxilla,descendant
+UBERON:0005620,primary palate,descendant
+UBERON:7500084,lesser palatine foramen,descendant
+UBERON:7500083,greater palatine foramen,descendant
+UBERON:4300002,palatine prong,descendant
+UBERON:0018314,choanal groove,descendant
+UBERON:0018242,palatine bone horizontal plate,descendant
+UBERON:0013068,palatine torus,descendant
+UBERON:4200247,lateral parasymphysial foramen,descendant
+UBERON:4200246,mesial parasymphysial foramen,descendant
+UBERON:3000012,angulosplenial coronoid process,descendant
+UBERON:3000543,retroarticular process,descendant
+UBERON:3000493,processus internus of pseudoangular,descendant
+UBERON:3000446,posterior condyle,descendant
+UBERON:3000459,prearticular coronoid process,descendant
+UBERON:4200237,posterior coronoid bone,descendant
+UBERON:4200236,anterior coronoid bone,descendant
+UBERON:4200235,postcoronoid bone,descendant
+UBERON:4200234,precoronoid bone,descendant
+UBERON:3000006,alveolar foramen,descendant
+UBERON:2002012,dentary foramen,descendant
+UBERON:0018542,mandibular symphyseal region,descendant
+UBERON:0001684,mandible,descendant
+UBERON:8490040,left lower lateral secondary incisor tooth,descendant
+UBERON:8490014,right lower lateral secondary incisor tooth,descendant
+UBERON:8490041,left lower central secondary incisor tooth,descendant
+UBERON:8490015,right lower central secondary incisor tooth,descendant
+UBERON:8490050,left lower lateral primary incisor tooth,descendant
+UBERON:8490024,right lower lateral primary incisor tooth,descendant
+UBERON:8490051,left lower central primary incisor tooth,descendant
+UBERON:8490025,right lower central primary incisor tooth,descendant
+UBERON:0016622,lunge feeding organ papilla,descendant
+UBERON:4200238,coronoid fang,descendant
+UBERON:4300247,dentary tooth 3,descendant
+UBERON:4300246,dentary tooth 2,descendant
+UBERON:3000394,pars articularis of mandibular arch,descendant
+UBERON:8490045,left upper lateral primary incisor tooth,descendant
+UBERON:8490019,right upper lateral primary incisor tooth,descendant
+UBERON:8490046,left upper central primary incisor tooth,descendant
+UBERON:8490020,right upper central primary incisor tooth,descendant
+UBERON:0015853,dental pulp of median incisor tusk,descendant
+UBERON:0015850,upper left incisor tusk,descendant
+UBERON:4300252,ethmo-palatine cartilage,descendant
+UBERON:0004752,palatoquadrate cartilage,descendant
+UBERON:4300244,premaxillary tooth 3,descendant
+UBERON:4300243,premaxillary tooth 2,descendant
+UBERON:0012073,tooth of palatine bone,descendant
+UBERON:0004767,vomerine tooth,descendant
+UBERON:0035115,diastema between central incisors,descendant
+UBERON:3000112,crista dentalis of premaxilla,descendant
+UBERON:3000505,processus pterygoideus of maxilla,descendant
+UBERON:3000111,crista dentalis of maxilla,descendant
+UBERON:3000017,anterior process of pars palatina of maxilla,descendant
+UBERON:0002468,foliate papilla,descendant
+UBERON:0000396,vallate papilla,descendant
+UBERON:0010339,1st arch mandibular mesenchyme from head mesenchyme,descendant
+UBERON:0010338,1st arch maxillary mesenchyme from head mesenchyme,descendant
+UBERON:0010253,1st arch maxillary mesenchyme from neural crest,descendant
+UBERON:0010252,1st arch mandibular mesenchyme from neural crest,descendant
+UBERON:0010045,1st arch maxillary mesenchyme,descendant
+UBERON:0009584,1st arch mandibular mesenchyme,descendant
+UBERON:3000467,preorbital process of the pars facialis of the maxilla,descendant
+UBERON:3000375,palatine process of the pars facialis of the maxilla,descendant
+UBERON:3000255,lamina anterior of pars facialis,descendant
+UBERON:3000022,antorbital process,descendant
+UBERON:0008809,foramina of scarpa,descendant
+UBERON:3000583,sulcus for Meckels cartilage,descendant
+UBERON:4200198,incisor process,descendant
+UBERON:0013471,retromolar space,descendant
+UBERON:0013450,simian shelf,descendant
+UBERON:0011342,surface of mandible,descendant
+UBERON:0011309,body of mandible,descendant
+UBERON:0011310,masseteric fossa,descendant
+UBERON:0006959,mandible angular process,descendant
+UBERON:0006812,mental foramen,descendant
+UBERON:0006673,mandibular canal,descendant
+UBERON:0004661,mandible temporal crest,descendant
+UBERON:0004660,mandible coronoid process,descendant
+UBERON:0004659,mandible neck,descendant
+UBERON:0004657,mandible condylar process,descendant
+UBERON:0000401,mandibular ramus,descendant
+UBERON:3010824,processus triangularis of palatoquadrate cartilage,descendant
+UBERON:3010821,hyoquadrate process,descendant
+UBERON:3010820,suboccular arch,descendant
+UBERON:3010528,articular process of palatoquadrate,descendant
+UBERON:3010061,anterior quadratocranial commissure,descendant
+UBERON:3000527,quadrate process of palatoquadrate,descendant
+UBERON:3000516,pseudobasal process,descendant
+UBERON:3000380,palatoquadrate articular process,descendant
+UBERON:3000365,otic process,descendant
+UBERON:3000363,otic ligament,descendant
+UBERON:3000036,basal process of palatoquadrate,descendant
+UBERON:3000031,ascending process of palatoquadrate,descendant
+UBERON:3000523,pterygoid process of palatoquadrate,descendant
+UBERON:0011344,lateral surface of mandible,descendant
+UBERON:0011343,medial surface of mandible,descendant
+UBERON:0004658,mandible head,descendant
+UBERON:3010094,quadratoethmoid process,descendant

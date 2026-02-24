@@ -1,0 +1,3983 @@
+{
+  "queries": [
+    "respiratory system",
+    "nose"
+  ],
+  "root_terms": [
+    {
+      "obo_id": "UBERON:0001004",
+      "label": "respiratory system",
+      "level": "root"
+    },
+    {
+      "obo_id": "UBERON:0000004",
+      "label": "nose",
+      "level": "root"
+    }
+  ],
+  "obo_ids": [
+    "UBERON:0001004",
+    "UBERON:3010200",
+    "UBERON:3010524",
+    "UBERON:0036225",
+    "UBERON:0036071",
+    "UBERON:0015786",
+    "UBERON:0015329",
+    "UBERON:0014479",
+    "UBERON:0014398",
+    "UBERON:0012087",
+    "UBERON:0010019",
+    "UBERON:0009060",
+    "UBERON:0005155",
+    "UBERON:0004903",
+    "UBERON:0004849",
+    "UBERON:0004848",
+    "UBERON:0004807",
+    "UBERON:0004798",
+    "UBERON:0004785",
+    "UBERON:0004779",
+    "UBERON:0004777",
+    "UBERON:0004702",
+    "UBERON:0004830",
+    "UBERON:0004225",
+    "UBERON:0003831",
+    "UBERON:0003611",
+    "UBERON:0003570",
+    "UBERON:0003529",
+    "UBERON:0003526",
+    "UBERON:0003495",
+    "UBERON:0003494",
+    "UBERON:0003456",
+    "UBERON:0003643",
+    "UBERON:0003406",
+    "UBERON:0002535",
+    "UBERON:0003469",
+    "UBERON:0003490",
+    "UBERON:0003489",
+    "UBERON:0003504",
+    "UBERON:0001825",
+    "UBERON:0001042",
+    "UBERON:0001005",
+    "UBERON:0000977",
+    "UBERON:0000171",
+    "UBERON:0000065",
+    "UBERON:0001103",
+    "UBERON:8410077",
+    "UBERON:0019190",
+    "UBERON:0012278",
+    "UBERON:0005204",
+    "UBERON:0004789",
+    "UBERON:0003295",
+    "UBERON:0005385",
+    "UBERON:0009653",
+    "UBERON:0009652",
+    "UBERON:0011495",
+    "UBERON:0009948",
+    "UBERON:0009062",
+    "UBERON:0009061",
+    "UBERON:6005054",
+    "UBERON:0003127",
+    "UBERON:0004802",
+    "UBERON:0003389",
+    "UBERON:0003351",
+    "UBERON:0004799",
+    "UBERON:0005039",
+    "UBERON:0001826",
+    "UBERON:0001824",
+    "UBERON:0000410",
+    "UBERON:0000379",
+    "UBERON:0000355",
+    "UBERON:0000031",
+    "UBERON:0004952",
+    "UBERON:0004924",
+    "UBERON:0004778",
+    "UBERON:0002202",
+    "UBERON:0001957",
+    "UBERON:0013479",
+    "UBERON:0004495",
+    "UBERON:0003384",
+    "UBERON:0004297",
+    "UBERON:0004296",
+    "UBERON:0004233",
+    "UBERON:0012100",
+    "UBERON:0010937",
+    "UBERON:0010936",
+    "UBERON:0010928",
+    "UBERON:0010234",
+    "UBERON:0008804",
+    "UBERON:0001568",
+    "UBERON:0003617",
+    "UBERON:0003616",
+    "UBERON:0003615",
+    "UBERON:0011345",
+    "UBERON:0006670",
+    "UBERON:0003583",
+    "UBERON:0003582",
+    "UBERON:0003580",
+    "UBERON:0016405",
+    "UBERON:8600094",
+    "UBERON:8600024",
+    "UBERON:0018227",
+    "UBERON:0012416",
+    "UBERON:0004368",
+    "UBERON:0003603",
+    "UBERON:0001739",
+    "UBERON:0011150",
+    "UBERON:0009120",
+    "UBERON:0008892",
+    "UBERON:0008891",
+    "UBERON:0000206",
+    "UBERON:0000205",
+    "UBERON:8600081",
+    "UBERON:8600060",
+    "UBERON:2005019",
+    "UBERON:2005018",
+    "UBERON:2005015",
+    "UBERON:2005014",
+    "UBERON:2005013",
+    "UBERON:2005012",
+    "UBERON:2001857",
+    "UBERON:2000716",
+    "UBERON:2000666",
+    "UBERON:2000202",
+    "UBERON:0004363",
+    "UBERON:0003493",
+    "UBERON:0003492",
+    "UBERON:0003518",
+    "UBERON:0003512",
+    "UBERON:0003505",
+    "UBERON:0011985",
+    "UBERON:0002453",
+    "UBERON:0001764",
+    "UBERON:0001724",
+    "UBERON:0001760",
+    "UBERON:2002116",
+    "UBERON:2002057",
+    "UBERON:2001990",
+    "UBERON:2001467",
+    "UBERON:0034937",
+    "UBERON:0016545",
+    "UBERON:0011289",
+    "UBERON:0010060",
+    "UBERON:0009867",
+    "UBERON:0009119",
+    "UBERON:0008815",
+    "UBERON:0007689",
+    "UBERON:0007303",
+    "UBERON:0009116",
+    "UBERON:0006685",
+    "UBERON:0003091",
+    "UBERON:0001735",
+    "UBERON:0001729",
+    "UBERON:0001728",
+    "UBERON:0001051",
+    "UBERON:0000929",
+    "UBERON:0002401",
+    "UBERON:0002400",
+    "UBERON:0012121",
+    "UBERON:0002048",
+    "UBERON:0001737",
+    "UBERON:0000117",
+    "UBERON:0000072",
+    "UBERON:0035831",
+    "UBERON:0035468",
+    "UBERON:0016458",
+    "UBERON:0015214",
+    "UBERON:0014765",
+    "UBERON:0007145",
+    "UBERON:8410043",
+    "UBERON:0005203",
+    "UBERON:0035077",
+    "UBERON:0013233",
+    "UBERON:0002232",
+    "UBERON:0008310",
+    "UBERON:0005562",
+    "UBERON:0003410",
+    "UBERON:0009067",
+    "UBERON:0009066",
+    "UBERON:0009065",
+    "UBERON:0009064",
+    "UBERON:0009063",
+    "UBERON:6005043",
+    "UBERON:0006832",
+    "UBERON:0004816",
+    "UBERON:0004815",
+    "UBERON:0004814",
+    "UBERON:0002051",
+    "UBERON:0013696",
+    "UBERON:0009695",
+    "UBERON:0001952",
+    "UBERON:0001951",
+    "UBERON:0004800",
+    "UBERON:8600002",
+    "UBERON:0005041",
+    "UBERON:0005040",
+    "UBERON:0005386",
+    "UBERON:0005384",
+    "UBERON:0005047",
+    "UBERON:0005036",
+    "UBERON:0005038",
+    "UBERON:0005037",
+    "UBERON:0002338",
+    "UBERON:0034721",
+    "UBERON:0005023",
+    "UBERON:0005022",
+    "UBERON:0004987",
+    "UBERON:0004925",
+    "UBERON:0004951",
+    "UBERON:0004950",
+    "UBERON:0004949",
+    "UBERON:0004895",
+    "UBERON:0004515",
+    "UBERON:0004242",
+    "UBERON:0003387",
+    "UBERON:0018103",
+    "UBERON:0011025",
+    "UBERON:0010927",
+    "UBERON:0011312",
+    "UBERON:0006328",
+    "UBERON:0006327",
+    "UBERON:0011157",
+    "UBERON:0006326",
+    "UBERON:0006494",
+    "UBERON:0001741",
+    "UBERON:0003592",
+    "UBERON:0003571",
+    "UBERON:0000114",
+    "UBERON:8600067",
+    "UBERON:8600061",
+    "UBERON:0003604",
+    "UBERON:0001956",
+    "UBERON:0002375",
+    "UBERON:0001740",
+    "UBERON:0001738",
+    "UBERON:0001742",
+    "UBERON:2000319",
+    "UBERON:2000211",
+    "UBERON:0003123",
+    "UBERON:0003122",
+    "UBERON:0003121",
+    "UBERON:0003120",
+    "UBERON:0003119",
+    "UBERON:0003118",
+    "UBERON:8920019",
+    "UBERON:8920018",
+    "UBERON:8920017",
+    "UBERON:8920016",
+    "UBERON:8920015",
+    "UBERON:8920014",
+    "UBERON:8600077",
+    "UBERON:8600052",
+    "UBERON:8600051",
+    "UBERON:0013074",
+    "UBERON:0005879",
+    "UBERON:0009869",
+    "UBERON:0009868",
+    "UBERON:0003261",
+    "UBERON:0001761",
+    "UBERON:0002372",
+    "UBERON:0035286",
+    "UBERON:0035240",
+    "UBERON:0035120",
+    "UBERON:0009959",
+    "UBERON:0035401",
+    "UBERON:0035383",
+    "UBERON:0035270",
+    "UBERON:0012330",
+    "UBERON:0010061",
+    "UBERON:0001732",
+    "UBERON:0035313",
+    "UBERON:0010384",
+    "UBERON:0000388",
+    "UBERON:0035431",
+    "UBERON:0013653",
+    "UBERON:0035767",
+    "UBERON:0018226",
+    "UBERON:0011862",
+    "UBERON:0010368",
+    "UBERON:0009072",
+    "UBERON:0009071",
+    "UBERON:0009058",
+    "UBERON:0008961",
+    "UBERON:0008946",
+    "UBERON:0009073",
+    "UBERON:0006524",
+    "UBERON:0004886",
+    "UBERON:0004883",
+    "UBERON:0003948",
+    "UBERON:0002299",
+    "UBERON:0002186",
+    "UBERON:0002168",
+    "UBERON:0002167",
+    "UBERON:0002173",
+    "UBERON:0000115",
+    "UBERON:0000102",
+    "UBERON:0000101",
+    "UBERON:3010613",
+    "UBERON:0036263",
+    "UBERON:0036068",
+    "UBERON:0035453",
+    "UBERON:0014385",
+    "UBERON:0014372",
+    "UBERON:0010932",
+    "UBERON:0010221",
+    "UBERON:0010212",
+    "UBERON:0011311",
+    "UBERON:0008577",
+    "UBERON:0008576",
+    "UBERON:0004478",
+    "UBERON:0002486",
+    "UBERON:0001743",
+    "UBERON:0003126",
+    "UBERON:0002185",
+    "UBERON:0002169",
+    "UBERON:0001558",
+    "UBERON:0001557",
+    "UBERON:0015215",
+    "UBERON:0007162",
+    "UBERON:0007161",
+    "UBERON:0014767",
+    "UBERON:0014766",
+    "UBERON:0007167",
+    "UBERON:0007166",
+    "UBERON:8600010",
+    "UBERON:8600011",
+    "UBERON:0015785",
+    "UBERON:0015784",
+    "UBERON:0008817",
+    "UBERON:6003039",
+    "UBERON:0008397",
+    "UBERON:8600001",
+    "UBERON:0001958",
+    "UBERON:0001955",
+    "UBERON:0012181",
+    "UBERON:0001997",
+    "UBERON:0009672",
+    "UBERON:0009671",
+    "UBERON:0005035",
+    "UBERON:0005034",
+    "UBERON:0004982",
+    "UBERON:0004948",
+    "UBERON:0004947",
+    "UBERON:8600003",
+    "UBERON:0004517",
+    "UBERON:0004516",
+    "UBERON:0004241",
+    "UBERON:0006680",
+    "UBERON:0010958",
+    "UBERON:0001566",
+    "UBERON:0003591",
+    "UBERON:0003590",
+    "UBERON:0009644",
+    "UBERON:8600022",
+    "UBERON:0009078",
+    "UBERON:0006679",
+    "UBERON:0001102",
+    "UBERON:3000948",
+    "UBERON:3000678",
+    "UBERON:3000677",
+    "UBERON:3000676",
+    "UBERON:3000689",
+    "UBERON:3000688",
+    "UBERON:0034680",
+    "UBERON:0011623",
+    "UBERON:0013157",
+    "UBERON:0005875",
+    "UBERON:0005874",
+    "UBERON:0005873",
+    "UBERON:0005872",
+    "UBERON:0036274",
+    "UBERON:0035228",
+    "UBERON:0013688",
+    "UBERON:0010423",
+    "UBERON:0007250",
+    "UBERON:0005207",
+    "UBERON:0003949",
+    "UBERON:0002373",
+    "UBERON:8600009",
+    "UBERON:0002184",
+    "UBERON:0002183",
+    "UBERON:0010369",
+    "UBERON:0012086",
+    "UBERON:0008870",
+    "UBERON:0007311",
+    "UBERON:0006526",
+    "UBERON:0006525",
+    "UBERON:0004893",
+    "UBERON:0004888",
+    "UBERON:0004887",
+    "UBERON:0009603",
+    "UBERON:0009602",
+    "UBERON:0004884",
+    "UBERON:8850000",
+    "UBERON:0035963",
+    "UBERON:0008873",
+    "UBERON:0004894",
+    "UBERON:0004861",
+    "UBERON:0004821",
+    "UBERON:0004862",
+    "UBERON:0002172",
+    "UBERON:0000116",
+    "UBERON:8600000",
+    "UBERON:0012067",
+    "UBERON:0003539",
+    "UBERON:0003538",
+    "UBERON:0002187",
+    "UBERON:0002188",
+    "UBERON:0009536",
+    "UBERON:0008953",
+    "UBERON:0008952",
+    "UBERON:0008951",
+    "UBERON:0005673",
+    "UBERON:0003543",
+    "UBERON:0003541",
+    "UBERON:0003537",
+    "UBERON:0003405",
+    "UBERON:0003365",
+    "UBERON:0009537",
+    "UBERON:0006518",
+    "UBERON:0005672",
+    "UBERON:0004901",
+    "UBERON:0004890",
+    "UBERON:0003542",
+    "UBERON:0003540",
+    "UBERON:0003536",
+    "UBERON:0003404",
+    "UBERON:0003364",
+    "UBERON:0002171",
+    "UBERON:0002170",
+    "UBERON:0002174",
+    "UBERON:0010002",
+    "UBERON:0002341",
+    "UBERON:0002339",
+    "UBERON:0004889",
+    "UBERON:8600017",
+    "UBERON:0008955",
+    "UBERON:0008949",
+    "UBERON:0008948",
+    "UBERON:0008573",
+    "UBERON:0008572",
+    "UBERON:0010213",
+    "UBERON:0010215",
+    "UBERON:8480036",
+    "UBERON:0003706",
+    "UBERON:0013171",
+    "UBERON:0006325",
+    "UBERON:0001730",
+    "UBERON:0015247",
+    "UBERON:0009505",
+    "UBERON:0007267",
+    "UBERON:0009074",
+    "UBERON:0006833",
+    "UBERON:0003279",
+    "UBERON:0001901",
+    "UBERON:0016481",
+    "UBERON:0012088",
+    "UBERON:0012082",
+    "UBERON:0002182",
+    "UBERON:0002041",
+    "UBERON:0002031",
+    "UBERON:0001963",
+    "UBERON:8600123",
+    "UBERON:0009778",
+    "UBERON:0007196",
+    "UBERON:0006257",
+    "UBERON:0000170",
+    "UBERON:0015787",
+    "UBERON:8910024",
+    "UBERON:0015246",
+    "UBERON:0008575",
+    "UBERON:0008574",
+    "UBERON:0001570",
+    "UBERON:0011625",
+    "UBERON:0011624",
+    "UBERON:0012085",
+    "UBERON:0005680",
+    "UBERON:0005679",
+    "UBERON:0005678",
+    "UBERON:0012084",
+    "UBERON:0004892",
+    "UBERON:0008874",
+    "UBERON:0005315",
+    "UBERON:0005314",
+    "UBERON:0012056",
+    "UBERON:0012055",
+    "UBERON:0012068",
+    "UBERON:0012059",
+    "UBERON:0005682",
+    "UBERON:0005681",
+    "UBERON:0012066",
+    "UBERON:0012065",
+    "UBERON:0008954",
+    "UBERON:0015794",
+    "UBERON:0005675",
+    "UBERON:0005674",
+    "UBERON:0005676",
+    "UBERON:0004900",
+    "UBERON:0004899",
+    "UBERON:0004897",
+    "UBERON:0008950",
+    "UBERON:0005655",
+    "UBERON:0004896",
+    "UBERON:0015795",
+    "UBERON:0012063",
+    "UBERON:0005245",
+    "UBERON:0005244",
+    "UBERON:0005640",
+    "UBERON:0005639",
+    "UBERON:0010220",
+    "UBERON:0010219",
+    "UBERON:0010214",
+    "UBERON:0013169",
+    "UBERON:0013168",
+    "UBERON:0013170",
+    "UBERON:0013167",
+    "UBERON:0013172",
+    "UBERON:0009075",
+    "UBERON:0012083",
+    "UBERON:0009504",
+    "UBERON:0003280",
+    "UBERON:0002178",
+    "UBERON:0002177",
+    "UBERON:0002340",
+    "UBERON:0004818",
+    "UBERON:0002402",
+    "UBERON:0015472",
+    "UBERON:0015788",
+    "UBERON:0009077",
+    "UBERON:0009076",
+    "UBERON:0038900",
+    "UBERON:0038897",
+    "UBERON:0001707",
+    "UBERON:3010197",
+    "UBERON:3000089",
+    "UBERON:3000086",
+    "UBERON:3000085",
+    "UBERON:3000088",
+    "UBERON:3000087",
+    "UBERON:0004110",
+    "UBERON:0000402",
+    "UBERON:0000004",
+    "UBERON:8600089",
+    "UBERON:2001428",
+    "UBERON:0019306",
+    "UBERON:0015245",
+    "UBERON:0015216",
+    "UBERON:0011931",
+    "UBERON:0008522",
+    "UBERON:0008340",
+    "UBERON:0006813",
+    "UBERON:0006332",
+    "UBERON:0006266",
+    "UBERON:0007827",
+    "UBERON:0005928",
+    "UBERON:0005870",
+    "UBERON:0004101",
+    "UBERON:0002255",
+    "UBERON:0002109",
+    "UBERON:0001706",
+    "UBERON:0001681",
+    "UBERON:0001823",
+    "UBERON:0019307",
+    "UBERON:0004692",
+    "UBERON:0003367",
+    "UBERON:0003356",
+    "UBERON:0013208",
+    "UBERON:0015223",
+    "UBERON:0015220",
+    "UBERON:0015219",
+    "UBERON:0015222",
+    "UBERON:0015221",
+    "UBERON:0007163",
+    "UBERON:0010953",
+    "UBERON:0008589",
+    "UBERON:0008588",
+    "UBERON:3010827",
+    "UBERON:3000644",
+    "UBERON:3000601",
+    "UBERON:3000586",
+    "UBERON:3000569",
+    "UBERON:3000565",
+    "UBERON:3000454",
+    "UBERON:3000448",
+    "UBERON:3000441",
+    "UBERON:3000434",
+    "UBERON:3000381",
+    "UBERON:3000329",
+    "UBERON:3000290",
+    "UBERON:3000264",
+    "UBERON:3000263",
+    "UBERON:3000234",
+    "UBERON:3000118",
+    "UBERON:3000117",
+    "UBERON:3000113",
+    "UBERON:3000079",
+    "UBERON:3000069",
+    "UBERON:3000068",
+    "UBERON:3000016",
+    "UBERON:3000015",
+    "UBERON:3000002",
+    "UBERON:3000389",
+    "UBERON:3000440",
+    "UBERON:3000438",
+    "UBERON:3000437",
+    "UBERON:0036254",
+    "UBERON:0011167",
+    "UBERON:3000316",
+    "UBERON:3000260",
+    "UBERON:3000259",
+    "UBERON:1000013",
+    "UBERON:1000012",
+    "UBERON:0016464",
+    "UBERON:0015476",
+    "UBERON:0012128",
+    "UBERON:0011256",
+    "UBERON:0008341",
+    "UBERON:0006906",
+    "UBERON:2001427",
+    "UBERON:2001426",
+    "UBERON:0013477",
+    "UBERON:0012304",
+    "UBERON:0010893",
+    "UBERON:0005931",
+    "UBERON:0003421",
+    "UBERON:3000294",
+    "UBERON:0005018",
+    "UBERON:0003415",
+    "UBERON:0003407",
+    "UBERON:7500073",
+    "UBERON:7500074",
+    "UBERON:3000547",
+    "UBERON:0018508",
+    "UBERON:0007822",
+    "UBERON:0007821",
+    "UBERON:0007820",
+    "UBERON:0007819",
+    "UBERON:0007818",
+    "UBERON:3000059",
+    "UBERON:3000449",
+    "UBERON:3000563",
+    "UBERON:3000645",
+    "UBERON:3000155",
+    "UBERON:3000333",
+    "UBERON:3000291",
+    "UBERON:3000190",
+    "UBERON:3000189",
+    "UBERON:3000171",
+    "UBERON:3000170",
+    "UBERON:3000167",
+    "UBERON:3000166",
+    "UBERON:3000164",
+    "UBERON:3000162",
+    "UBERON:3000161",
+    "UBERON:3000160",
+    "UBERON:3000646",
+    "UBERON:3000509",
+    "UBERON:3000492",
+    "UBERON:3000110",
+    "UBERON:3000647"
+  ],
+  "terms": [
+    {
+      "obo_id": "UBERON:0001004",
+      "label": "respiratory system",
+      "level": "root"
+    },
+    {
+      "obo_id": "UBERON:3010200",
+      "label": "vasculature of respiratory integument",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3010524",
+      "label": "bronchial tube",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0036225",
+      "label": "respiratory system gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0036071",
+      "label": "diaphragmaticus muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015786",
+      "label": "respiratory segment of nasal mucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015329",
+      "label": "respiratory system basement membrane",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014479",
+      "label": "elephant trunk",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014398",
+      "label": "respiratory muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012087",
+      "label": "air capillary of parabronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010019",
+      "label": "spiracle (sensu Vertebrata)",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009060",
+      "label": "air sac",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005155",
+      "label": "open tracheal system",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004903",
+      "label": "bronchoalveolar duct junction",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004849",
+      "label": "respiratory system venous endothelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004848",
+      "label": "respiratory system arterial endothelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004807",
+      "label": "respiratory system epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004798",
+      "label": "respiratory system basal lamina",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004785",
+      "label": "respiratory system mucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004779",
+      "label": "respiratory system lamina propria",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004777",
+      "label": "respiratory system submucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004702",
+      "label": "respiratory system blood vessel endothelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004830",
+      "label": "respiratory system skeletal muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004225",
+      "label": "respiratory system smooth muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003831",
+      "label": "respiratory system muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003611",
+      "label": "respiratory system elastic tissue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003570",
+      "label": "respiratory system connective tissue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003529",
+      "label": "respiratory system lymphatic vessel endothelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003526",
+      "label": "respiratory system capillary",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003495",
+      "label": "respiratory system arteriole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003494",
+      "label": "respiratory system venule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003456",
+      "label": "respiratory system lymphatic vessel",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003643",
+      "label": "respiratory system arterial blood vessel",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003406",
+      "label": "cartilage of respiratory system",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002535",
+      "label": "gill",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003469",
+      "label": "respiratory system artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003490",
+      "label": "respiratory system reticular lamina",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003489",
+      "label": "respiratory system capillary endothelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003504",
+      "label": "respiratory system blood vessel",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001825",
+      "label": "paranasal sinus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001042",
+      "label": "chordate pharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001005",
+      "label": "respiratory airway",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000977",
+      "label": "pleura",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000171",
+      "label": "respiration organ",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000065",
+      "label": "respiratory tract",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001103",
+      "label": "diaphragm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410077",
+      "label": "airway submucosal gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0019190",
+      "label": "mucous gland of lung",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012278",
+      "label": "gland of nasal mucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005204",
+      "label": "larynx submucosa gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004789",
+      "label": "larynx mucous gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003295",
+      "label": "pharyngeal gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005385",
+      "label": "nasal cavity respiratory epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009653",
+      "label": "trachea basement membrane",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009652",
+      "label": "bronchus basement membrane",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011495",
+      "label": "rectus thoracis muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009948",
+      "label": "clavicular air sac",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009062",
+      "label": "posterior air sac",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009061",
+      "label": "anterior air sac",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:6005054",
+      "label": "insect spiracle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003127",
+      "label": "open tracheal system trachea",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004802",
+      "label": "respiratory tract epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003389",
+      "label": "mesothelium of diaphragm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003351",
+      "label": "pharyngeal epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004799",
+      "label": "trachea basal lamina",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005039",
+      "label": "mucosa of bronchiole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001826",
+      "label": "nasal cavity mucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001824",
+      "label": "mucosa of larynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000410",
+      "label": "bronchial mucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000379",
+      "label": "tracheal mucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000355",
+      "label": "pharyngeal mucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000031",
+      "label": "lamina propria of trachea",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004952",
+      "label": "submucosa of bronchiole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004924",
+      "label": "submucosa of pharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004778",
+      "label": "larynx submucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002202",
+      "label": "submucosa of trachea",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001957",
+      "label": "submucosa of bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013479",
+      "label": "lung endothelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004495",
+      "label": "skeletal muscle tissue of diaphragm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003384",
+      "label": "skeletal muscle tissue of pharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004297",
+      "label": "respiratory system blood vessel smooth muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004296",
+      "label": "respiratory system lymphatic vessel smooth muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004233",
+      "label": "lower respiratory tract smooth muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012100",
+      "label": "appendicocostalis muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010937",
+      "label": "salpingopharyngeus muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010936",
+      "label": "thyropharyngeus muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010928",
+      "label": "cricopharyngeus muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010234",
+      "label": "palatopharyngeus muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008804",
+      "label": "stylopharyngeus muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001568",
+      "label": "muscle of larynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003617",
+      "label": "trachea elastic tissue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003616",
+      "label": "bronchus elastic tissue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003615",
+      "label": "lung elastic tissue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011345",
+      "label": "pharyngeal raphe",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006670",
+      "label": "central tendon of diaphragm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003583",
+      "label": "larynx connective tissue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003582",
+      "label": "nasopharynx connective tissue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003580",
+      "label": "lower respiratory tract connective tissue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016405",
+      "label": "pulmonary capillary",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600094",
+      "label": "intra-acinar arteriole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600024",
+      "label": "pulmonary venule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018227",
+      "label": "pulmonary lymphatic vessel",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012416",
+      "label": "respiratory system arterial smooth muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004368",
+      "label": "Reichert's cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003603",
+      "label": "lower respiratory tract cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001739",
+      "label": "laryngeal cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011150",
+      "label": "pharyngeal arch derived gill",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009120",
+      "label": "gill filament",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008892",
+      "label": "internal gill",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008891",
+      "label": "external gill",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000206",
+      "label": "pharyngeal gill",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000205",
+      "label": "papula",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600081",
+      "label": "percardiacophrenic artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600060",
+      "label": "subsegmental pulmonary artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2005019",
+      "label": "efferent lamellar arteriole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2005018",
+      "label": "efferent filamental artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2005015",
+      "label": "afferent lamellar arteriole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2005014",
+      "label": "recurrent branch afferent branchial artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2005013",
+      "label": "concurrent branch afferent branchial artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2005012",
+      "label": "afferent filamental artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001857",
+      "label": "hyoidean artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2000716",
+      "label": "afferent portion of pharyngeal arch artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2000666",
+      "label": "filamental artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2000202",
+      "label": "efferent portion of pharyngeal arch artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004363",
+      "label": "pharyngeal arch artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003493",
+      "label": "trachea reticular lamina",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003492",
+      "label": "bronchus reticular lamina",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003518",
+      "label": "main bronchus blood vessel",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003512",
+      "label": "lung blood vessel",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003505",
+      "label": "trachea blood vessel",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011985",
+      "label": "infraorbital sinus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002453",
+      "label": "ethmoid sinus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001764",
+      "label": "maxillary sinus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001724",
+      "label": "sphenoidal sinus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001760",
+      "label": "frontal sinus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2002116",
+      "label": "epibranchial organ",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2002057",
+      "label": "gill opening",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001990",
+      "label": "epibranchial arborescent organ",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001467",
+      "label": "pharyngeal mesoderm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034937",
+      "label": "pharyngeal bar",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016545",
+      "label": "pharyngeal ectoderm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011289",
+      "label": "pharyngobasilar fascia",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010060",
+      "label": "pharyngeal opening of pharyngotympanic tube",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009867",
+      "label": "Hatschek's diverticulum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009119",
+      "label": "branchial basket",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008815",
+      "label": "pharyngeal slit",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007689",
+      "label": "thyroid diverticulum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007303",
+      "label": "pharyngeal vasculature",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009116",
+      "label": "thymoid",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006685",
+      "label": "pharyngeal tubercle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003091",
+      "label": "thyroid primordium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001735",
+      "label": "tonsillar ring",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001729",
+      "label": "oropharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001728",
+      "label": "nasopharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001051",
+      "label": "hypopharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000929",
+      "label": "pharyngeal branch of vagus nerve",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002401",
+      "label": "visceral pleura",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002400",
+      "label": "parietal pleura",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012121",
+      "label": "respiratory velum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002048",
+      "label": "lung",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001737",
+      "label": "larynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000117",
+      "label": "respiratory tube",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000072",
+      "label": "proximo-distal subdivision of respiratory tract",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035831",
+      "label": "costal diaphragm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035468",
+      "label": "costodiaphragmatic recess",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016458",
+      "label": "esophageal hiatus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015214",
+      "label": "arcuate ligament",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014765",
+      "label": "crus of diaphragm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007145",
+      "label": "dome of diaphragm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410043",
+      "label": "bronchus submucosal gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005203",
+      "label": "trachea gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035077",
+      "label": "lateral nasal gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013233",
+      "label": "supraorbital gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002232",
+      "label": "olfactory gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008310",
+      "label": "nasopharyngeal gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005562",
+      "label": "thymus primordium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003410",
+      "label": "oropharyngeal gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009067",
+      "label": "abdominal air sac",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009066",
+      "label": "posterior thoracic air sac",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009065",
+      "label": "anterior thoracic air sac",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009064",
+      "label": "cervical air sac",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009063",
+      "label": "interclavicular air sac",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:6005043",
+      "label": "insect trachea",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006832",
+      "label": "lumen of open tracheal system trachea",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004816",
+      "label": "larynx epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004815",
+      "label": "lower respiratory tract epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004814",
+      "label": "upper respiratory tract epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002051",
+      "label": "epithelium of bronchiole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013696",
+      "label": "tonsil epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009695",
+      "label": "epithelium of laryngopharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001952",
+      "label": "epithelium of oropharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001951",
+      "label": "epithelium of nasopharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004800",
+      "label": "bronchus basal lamina",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600002",
+      "label": "mucosa of lobular bronchiole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005041",
+      "label": "mucosa of respiratory bronchiole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005040",
+      "label": "mucosa of terminal bronchiole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005386",
+      "label": "olfactory segment of nasal mucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005384",
+      "label": "nasal cavity epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005047",
+      "label": "mucosa of vocal fold",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005036",
+      "label": "mucosa of main bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005038",
+      "label": "mucosa of segmental bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005037",
+      "label": "mucosa of lobar bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002338",
+      "label": "lamina propria of bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034721",
+      "label": "pharyngeal taste bud",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005023",
+      "label": "mucosa of oropharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005022",
+      "label": "mucosa of nasopharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004987",
+      "label": "mucosa of laryngopharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004925",
+      "label": "submucosa of laryngopharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004951",
+      "label": "submucosa of segmental bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004950",
+      "label": "submucosa of lobar bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004949",
+      "label": "submucosa of main bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004895",
+      "label": "alveolar smooth muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004515",
+      "label": "smooth muscle tissue of bronchiole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004242",
+      "label": "bronchus smooth muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003387",
+      "label": "smooth muscle of trachea",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018103",
+      "label": "posterior fascicle of palatopharyngeus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011025",
+      "label": "aryepiglotticus muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010927",
+      "label": "thyroepiglotticus muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011312",
+      "label": "hyoepiglottic muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006328",
+      "label": "laryngeal intrinsic muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006327",
+      "label": "laryngeal extrinsic muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011157",
+      "label": "cuneiform cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006326",
+      "label": "base of arytenoid",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006494",
+      "label": "apex of arytenoid",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001741",
+      "label": "corniculate cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003592",
+      "label": "bronchus connective tissue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003571",
+      "label": "trachea connective tissue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000114",
+      "label": "lung connective tissue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600067",
+      "label": "bronchial venule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600061",
+      "label": "intra-acinar venule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003604",
+      "label": "trachea cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001956",
+      "label": "cartilage of bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002375",
+      "label": "cricoid cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001740",
+      "label": "arytenoid cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001738",
+      "label": "thyroid cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001742",
+      "label": "epiglottic cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2000319",
+      "label": "branchiostegal membrane",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2000211",
+      "label": "gill lamella",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003123",
+      "label": "pharyngeal arch artery 6",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003122",
+      "label": "pharyngeal arch artery 5",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003121",
+      "label": "pharyngeal arch artery 4",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003120",
+      "label": "pharyngeal arch artery 3",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003119",
+      "label": "pharyngeal arch artery 2",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003118",
+      "label": "pharyngeal arch artery 1",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8920019",
+      "label": "left superior pulmonary vein",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8920018",
+      "label": "right superior pulmonary vein",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8920017",
+      "label": "left inferior pulmonary vein",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8920016",
+      "label": "right inferior pulmonary vein",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8920015",
+      "label": "right bronchial vein",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8920014",
+      "label": "left bronchial vein",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600077",
+      "label": "pulmonary arteriole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600052",
+      "label": "subsegmental pulmonary vein",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600051",
+      "label": "segmental pulmonary vein",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013074",
+      "label": "cornual diverticulum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005879",
+      "label": "pharyngeal cleft",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009869",
+      "label": "Hatschek's right diverticulum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009868",
+      "label": "Hatschek's left diverticulum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003261",
+      "label": "thyroid primordium endoderm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001761",
+      "label": "future foramen cecum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002372",
+      "label": "tonsil",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035286",
+      "label": "lateral wall of oropharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035240",
+      "label": "posterior wall of oropharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035120",
+      "label": "fauces",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009959",
+      "label": "lumen of oropharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035401",
+      "label": "posterior wall of nasopharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035383",
+      "label": "lateral wall of nasopharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035270",
+      "label": "roof of nasopharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012330",
+      "label": "nasal-associated lymphoid tissue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010061",
+      "label": "lumen of nasopharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001732",
+      "label": "pharyngeal tonsil",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035313",
+      "label": "posterior wall of laryngopharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010384",
+      "label": "lumen of laryngopharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000388",
+      "label": "epiglottis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035431",
+      "label": "mediastinal pleura",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013653",
+      "label": "velar skeleton",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035767",
+      "label": "intrapulmonary bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018226",
+      "label": "pulmonary part of lymphatic system",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011862",
+      "label": "pulmonary collagen fibril",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010368",
+      "label": "pulmonary lobule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009072",
+      "label": "ventrobronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009071",
+      "label": "mesobronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009058",
+      "label": "faveolus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008961",
+      "label": "parabronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008946",
+      "label": "lung parenchyma",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009073",
+      "label": "dorsobronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006524",
+      "label": "alveolar system",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004886",
+      "label": "lung hilus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004883",
+      "label": "lung mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003948",
+      "label": "blood-air barrier",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002299",
+      "label": "alveolus of lung",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002186",
+      "label": "bronchiole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002168",
+      "label": "left lung",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002167",
+      "label": "right lung",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002173",
+      "label": "pulmonary alveolar duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000115",
+      "label": "lung epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000102",
+      "label": "lung vasculature",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000101",
+      "label": "lobe of lung",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3010613",
+      "label": "laryngo-tracheal chamber",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0036263",
+      "label": "supraglottic part of larynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0036068",
+      "label": "subglottis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035453",
+      "label": "laryngeal ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014385",
+      "label": "aryepiglottic fold",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014372",
+      "label": "fibroelastic membrane of larynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010932",
+      "label": "crico-arytenoid muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010221",
+      "label": "laryngeal associated mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010212",
+      "label": "laryngeal apparatus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011311",
+      "label": "hyoepiglottic ligament",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008577",
+      "label": "vocalis muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008576",
+      "label": "thyro-arytenoid",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004478",
+      "label": "musculature of larynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002486",
+      "label": "glottis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001743",
+      "label": "ligament of larynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003126",
+      "label": "trachea",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002185",
+      "label": "bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002169",
+      "label": "alveolar sac",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001558",
+      "label": "lower respiratory tract",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001557",
+      "label": "upper respiratory tract",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015215",
+      "label": "median arcuate ligament",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007162",
+      "label": "lateral arcuate ligament",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007161",
+      "label": "medial arcuate ligament",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014767",
+      "label": "left crus of diaphragm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014766",
+      "label": "right crus of diaphragm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007167",
+      "label": "right dome of diaphragm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007166",
+      "label": "left dome of diaphragm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600010",
+      "label": "bronchial submucosal gland ciliated duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600011",
+      "label": "tracheal submucosal gland ciliated duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015785",
+      "label": "acinus of olfactory gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015784",
+      "label": "duct of olfactory gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008817",
+      "label": "thymus primordium endoderm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:6003039",
+      "label": "dorsal trunk of insect trachea",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008397",
+      "label": "tracheobronchial epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600001",
+      "label": "epithelium of lobular bronchiole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001958",
+      "label": "terminal bronchiole epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001955",
+      "label": "epithelium of respiratory bronchiole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012181",
+      "label": "tonsil crypt",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001997",
+      "label": "olfactory epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009672",
+      "label": "oronasal membrane",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009671",
+      "label": "nasal fin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005035",
+      "label": "mucosa of left main bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005034",
+      "label": "mucosa of right main bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004982",
+      "label": "mucosa of epiglottis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004948",
+      "label": "submucosa of left main bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004947",
+      "label": "submucosa of right main bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600003",
+      "label": "smooth muscle tissue of lobular bronchiole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004517",
+      "label": "smooth muscle tissue of respiratory bronchiole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004516",
+      "label": "smooth muscle tissue of terminal bronchiole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004241",
+      "label": "main bronchus smooth muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006680",
+      "label": "trachealis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010958",
+      "label": "arytenoid muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001566",
+      "label": "cricothyroid muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003591",
+      "label": "lobar bronchus connective tissue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003590",
+      "label": "main bronchus connective tissue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009644",
+      "label": "trachea non-cartilage connective tissue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600022",
+      "label": "pulmonary interlobular septum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009078",
+      "label": "pessulus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006679",
+      "label": "carina of trachea",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001102",
+      "label": "cartilage of main bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000948",
+      "label": "articular process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000678",
+      "label": "esophageal process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000677",
+      "label": "lateral process of cricoid cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000676",
+      "label": "bronchial process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000689",
+      "label": "prominentia apicalis ventralis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000688",
+      "label": "prominentia apicalis dorsalis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034680",
+      "label": "laryngeal prominence",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011623",
+      "label": "horn of thyroid cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013157",
+      "label": "1st arch maxillary-mandibular cleft",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005875",
+      "label": "4th arch pharyngeal cleft",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005874",
+      "label": "3rd arch pharyngeal cleft",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005873",
+      "label": "2nd arch pharyngeal cleft",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005872",
+      "label": "1st arch pharyngeal cleft",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0036274",
+      "label": "tonsillar pillar",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035228",
+      "label": "tonsillar fossa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013688",
+      "label": "tonsil germinal center",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010423",
+      "label": "primary lymphoid nodule of tonsil",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007250",
+      "label": "lingual tonsil",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005207",
+      "label": "tonsil capsule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003949",
+      "label": "tubal tonsil",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002373",
+      "label": "palatine tonsil",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600009",
+      "label": "subsegmental bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002184",
+      "label": "segmental bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002183",
+      "label": "lobar bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010369",
+      "label": "secondary pulmonary lobule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012086",
+      "label": "lumen of parabronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008870",
+      "label": "pulmonary alveolar parenchyma",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007311",
+      "label": "sputum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006526",
+      "label": "right lung alveolar system",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006525",
+      "label": "left lung alveolar system",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004893",
+      "label": "interalveolar septum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004888",
+      "label": "right lung hilus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004887",
+      "label": "left lung hilus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009603",
+      "label": "right lung associated mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009602",
+      "label": "left lung associated mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004884",
+      "label": "lobar bronchus mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8850000",
+      "label": "lumen of pulmonary alveolus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035963",
+      "label": "epithelial lining fluid",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008873",
+      "label": "alveolar pore",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004894",
+      "label": "alveolar wall",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004861",
+      "label": "right lung alveolus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004821",
+      "label": "pulmonary alveolus epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004862",
+      "label": "left lung alveolus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002172",
+      "label": "alveolar atrium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000116",
+      "label": "lung saccule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600000",
+      "label": "lobular bronchiole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012067",
+      "label": "primary bronchiole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003539",
+      "label": "left lung bronchiole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003538",
+      "label": "right lung bronchiole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002187",
+      "label": "terminal bronchiole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002188",
+      "label": "respiratory bronchiole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009536",
+      "label": "vascular element of left lung",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008953",
+      "label": "lower lobe of left lung",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008952",
+      "label": "upper lobe of left lung",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008951",
+      "label": "left lung lobe",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005673",
+      "label": "left lung endothelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003543",
+      "label": "left lung respiratory bronchiole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003541",
+      "label": "left lung terminal bronchiole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003537",
+      "label": "left lung alveolar duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003405",
+      "label": "lobar bronchus of left lung",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003365",
+      "label": "epithelium of left lung",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009537",
+      "label": "vascular element of right lung",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006518",
+      "label": "right lung lobe",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005672",
+      "label": "right lung endothelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004901",
+      "label": "right lung lobar bronchus mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004890",
+      "label": "right lung accessory lobe",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003542",
+      "label": "right lung respiratory bronchiole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003540",
+      "label": "right lung terminal bronchiole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003536",
+      "label": "right lung alveolar duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003404",
+      "label": "lobar bronchus of right lung",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003364",
+      "label": "epithelium of right lung",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002171",
+      "label": "lower lobe of right lung",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002170",
+      "label": "upper lobe of right lung",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002174",
+      "label": "middle lobe of right lung",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010002",
+      "label": "pulmonary neuroendocrine body",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002341",
+      "label": "epithelium of segmental bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002339",
+      "label": "epithelium of lobar bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004889",
+      "label": "lobar bronchus vasculature",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600017",
+      "label": "bronchopulmonary segment",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008955",
+      "label": "middle lobe of lung",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008949",
+      "label": "lower lobe of lung",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008948",
+      "label": "upper lobe of lung",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008573",
+      "label": "lateral crico-arytenoid",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008572",
+      "label": "posterior crico-arytenoid",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010213",
+      "label": "laryngeal pre-cartilage condensation",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010215",
+      "label": "arytenoid swellings",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8480036",
+      "label": "posterior wall of the glottis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003706",
+      "label": "laryngeal vocal fold",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013171",
+      "label": "cricothyroid ligament",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006325",
+      "label": "laryngeal intrinsic ligament",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001730",
+      "label": "extrinsic ligament of larynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015247",
+      "label": "bifurcation of trachea",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009505",
+      "label": "mesenchyme of trachea",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007267",
+      "label": "trachea pre-cartilage rings",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009074",
+      "label": "syrinx organ",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006833",
+      "label": "lumen of trachea",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003279",
+      "label": "endothelium of trachea",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001901",
+      "label": "epithelium of trachea",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016481",
+      "label": "bronchial lymph node",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012088",
+      "label": "lateroobronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012082",
+      "label": "bronchial lumen",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002182",
+      "label": "main bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002041",
+      "label": "terminal bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002031",
+      "label": "epithelium of bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001963",
+      "label": "bronchial-associated lymphoid tissue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600123",
+      "label": "lower airway ganglion",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009778",
+      "label": "pleural sac",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007196",
+      "label": "tracheobronchial tree",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006257",
+      "label": "laryngotracheal groove",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000170",
+      "label": "pair of lungs",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015787",
+      "label": "upper respiratory conduit",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8910024",
+      "label": "airway hillock",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015246",
+      "label": "septal organ of Masera",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008575",
+      "label": "oblique arytenoid",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008574",
+      "label": "transverse arytenoid",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001570",
+      "label": "inferior pharyngeal constrictor",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011625",
+      "label": "inferior horn of thyroid cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011624",
+      "label": "superior horn of thyroid cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012085",
+      "label": "lumen of tertiary bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005680",
+      "label": "right lung accessory lobe segmental bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005679",
+      "label": "right lung caudal lobe segmental bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005678",
+      "label": "right lung cranial lobe segmental bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012084",
+      "label": "lumen of secondary bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004892",
+      "label": "lobar bronchus alveolar system",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008874",
+      "label": "pulmonary acinus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005315",
+      "label": "alveolar secondary septum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005314",
+      "label": "alveolar primary septum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012056",
+      "label": "left lung upper lobe bronchiole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012055",
+      "label": "left lung lower lobe bronchiole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012068",
+      "label": "right lung middle lobe bronchiole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012059",
+      "label": "right lung lower lobe bronchiole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005682",
+      "label": "right lung accessory lobe bronchiole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005681",
+      "label": "right lung upper lobe bronchiole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012066",
+      "label": "lobar bronchus of left lung lower lobe",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012065",
+      "label": "lobar bronchus of left lung upper lobe",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008954",
+      "label": "lingula of left lung",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015794",
+      "label": "left lung lobar bronchus epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005675",
+      "label": "right lung caudal lobe endothelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005674",
+      "label": "right lung cranial lobe endothelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005676",
+      "label": "right lung accessory lobe endothelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004900",
+      "label": "right lung middle lobe lobar bronchus mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004899",
+      "label": "right lung cranial lobe lobar bronchus mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004897",
+      "label": "right lung accessory lobe lobar bronchus mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008950",
+      "label": "azygous lobe of lung",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005655",
+      "label": "right lung accessory lobe epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004896",
+      "label": "right lung accessory lobe lobar bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015795",
+      "label": "right lung lobar bronchus epitheium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012063",
+      "label": "lobar bronchus of right lung middle lobe",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005245",
+      "label": "lobar bronchus of right lung caudal lobe",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005244",
+      "label": "lobar bronchus of right lung cranial lobe",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005640",
+      "label": "right lung caudal lobe epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005639",
+      "label": "right lung cranial lobe epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010220",
+      "label": "arytenoid pre-cartilage condensation",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010219",
+      "label": "thyroid pre-cartilage condensation",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010214",
+      "label": "cricoid pre-cartilage condensation",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013169",
+      "label": "vestibular ligament",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013168",
+      "label": "thyroepiglottic ligament",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013170",
+      "label": "cricoarytenoid ligament",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013167",
+      "label": "cricopharyngeal ligament",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013172",
+      "label": "cricotracheal ligament",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009075",
+      "label": "membrana tympaniformis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012083",
+      "label": "lumen of primary bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009504",
+      "label": "mesenchyme of main bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003280",
+      "label": "endothelium of main bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002178",
+      "label": "left main bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002177",
+      "label": "right main bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002340",
+      "label": "epithelium of main bronchus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004818",
+      "label": "terminal bronchus epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002402",
+      "label": "pleural cavity",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015472",
+      "label": "tracheobronchial lymph node",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015788",
+      "label": "olfactory apparatus chamber",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009077",
+      "label": "membrana tympaniformis medialis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009076",
+      "label": "membrana tympaniformis lateralis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0038900",
+      "label": "inferior tracheobronchial lymph node",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0038897",
+      "label": "superior tracheobronchial lymph node",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001707",
+      "label": "nasal cavity",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3010197",
+      "label": "lateral recess",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000089",
+      "label": "cavum principale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000086",
+      "label": "cavum internasale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000085",
+      "label": "cavum inferius",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000088",
+      "label": "cavum praenasale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000087",
+      "label": "cavum medius",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004110",
+      "label": "midnasal cavity",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000402",
+      "label": "nasal vestibule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000004",
+      "label": "nose",
+      "level": "root"
+    },
+    {
+      "obo_id": "UBERON:8600089",
+      "label": "transverse nasal root vein",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001428",
+      "label": "olfactory rosette",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0019306",
+      "label": "nose epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015245",
+      "label": "septal olfactory organ",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015216",
+      "label": "nasal meatus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011931",
+      "label": "nasal hair",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008522",
+      "label": "nasal muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008340",
+      "label": "nasal bridge",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006813",
+      "label": "nasal skeleton",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006332",
+      "label": "nasal capsule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006266",
+      "label": "nasolacrimal groove",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007827",
+      "label": "external nose",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005928",
+      "label": "external naris",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005870",
+      "label": "olfactory pit",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004101",
+      "label": "nasolabial region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002255",
+      "label": "vomeronasal organ",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002109",
+      "label": "pair of nares",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001706",
+      "label": "nasal septum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001681",
+      "label": "nasal bone",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001823",
+      "label": "nasal cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0019307",
+      "label": "epithelium of external nose",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004692",
+      "label": "external naris epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003367",
+      "label": "epithelium of vomeronasal organ",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003356",
+      "label": "epithelium of nasal septum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013208",
+      "label": "Grueneberg ganglion",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015223",
+      "label": "dorsal nasal meatus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015220",
+      "label": "inferior nasal meatus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015219",
+      "label": "middle nasal meatus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015222",
+      "label": "ventral nasal meatus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015221",
+      "label": "common nasal meatus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007163",
+      "label": "superior nasal meatus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010953",
+      "label": "nasalis muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008589",
+      "label": "depressor septi nasi",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008588",
+      "label": "procerus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3010827",
+      "label": "anterior prenasal cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000644",
+      "label": "processus lingularis of nasal skeleton",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000601",
+      "label": "tectum nasi",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000586",
+      "label": "superior prenasal cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000569",
+      "label": "solum nasi",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000565",
+      "label": "skeletal support for eminentia olfactoria",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000454",
+      "label": "postnasal wall",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000448",
+      "label": "posterior maxillary process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000441",
+      "label": "planum triangulare",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000434",
+      "label": "planum antorbitale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000381",
+      "label": "paranasal commissure",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000329",
+      "label": "oblique cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000290",
+      "label": "medial inferior prenasal cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000264",
+      "label": "lamina superior",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000263",
+      "label": "lamina precerebralis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000234",
+      "label": "inferior prenasal cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000118",
+      "label": "crista supraorbitalis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000117",
+      "label": "crista subnasalis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000113",
+      "label": "crista intermedia",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000079",
+      "label": "cartilago retronarina",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000069",
+      "label": "cartilago infranarina",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000068",
+      "label": "cartilago ectochoanalis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000016",
+      "label": "anterior nasal wall",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000015",
+      "label": "anterior maxillary process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000002",
+      "label": "alary cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000389",
+      "label": "paries nasi",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000440",
+      "label": "planum terminale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000438",
+      "label": "planum internasale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000437",
+      "label": "planum conchale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0036254",
+      "label": "piriform aperture",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011167",
+      "label": "septomaxilla bone",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000316",
+      "label": "nasal opening",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000260",
+      "label": "lamina nariochoanalis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000259",
+      "label": "lamina inferior",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:1000013",
+      "label": "nose vertex",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:1000012",
+      "label": "nose anterior margin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016464",
+      "label": "dorsum of nose",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015476",
+      "label": "nose skin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012128",
+      "label": "nose tip",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011256",
+      "label": "rhinarium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008341",
+      "label": "columella nasi",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006906",
+      "label": "ala of nose",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001427",
+      "label": "anterior naris",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001426",
+      "label": "posterior naris",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013477",
+      "label": "blowhole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012304",
+      "label": "nasal diverticulum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010893",
+      "label": "median external naris",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005931",
+      "label": "primary choana",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003421",
+      "label": "mesenchyme of vomeronasal organ",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000294",
+      "label": "median prenasal process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005018",
+      "label": "mucosa of nasal septum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003415",
+      "label": "mesenchyme of nasal septum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003407",
+      "label": "cartilage of nasal septum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:7500073",
+      "label": "left nasal bone",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:7500074",
+      "label": "right nasal bone",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000547",
+      "label": "rostral process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018508",
+      "label": "foramen of nasal bone",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007822",
+      "label": "vomeronasal cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007821",
+      "label": "lateral nasal cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007820",
+      "label": "accessory nasal cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007819",
+      "label": "minor alar cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007818",
+      "label": "major alar cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000059",
+      "label": "capsular process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000449",
+      "label": "posterior maxillary process dorsal process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000563",
+      "label": "seydels palatal process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000645",
+      "label": "corpus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000155",
+      "label": "extremitas anterior",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000333",
+      "label": "olfactory foramen",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000291",
+      "label": "medial orbitonasal foramen",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000190",
+      "label": "foramen orbitonasale mediale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000189",
+      "label": "foramen orbitonasale laterale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000171",
+      "label": "fenestra prechoanalis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000170",
+      "label": "fenestra precerebralis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000167",
+      "label": "fenestra nasolateralis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000166",
+      "label": "fenestra nasobasalis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000164",
+      "label": "fenestra lateralis nasi",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000162",
+      "label": "fenestra endonarina communis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000161",
+      "label": "fenestra endochoanalis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000160",
+      "label": "fenestra dorsalis nasi",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000646",
+      "label": "margo libera",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000509",
+      "label": "processus suprafenestralis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000492",
+      "label": "processus infrafenestralis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000110",
+      "label": "crista contacta",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000647",
+      "label": "crista interna",
+      "level": "descendant"
+    }
+  ],
+  "total": 660
+}

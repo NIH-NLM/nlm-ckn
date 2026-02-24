@@ -1,0 +1,7793 @@
+{
+  "queries": [
+    "digestive tract"
+  ],
+  "root_terms": [
+    {
+      "obo_id": "UBERON:0001555",
+      "label": "digestive tract",
+      "level": "root"
+    }
+  ],
+  "obo_ids": [
+    "UBERON:0001555",
+    "UBERON:2001324",
+    "UBERON:0018261",
+    "UBERON:0018257",
+    "UBERON:0015232",
+    "UBERON:0011904",
+    "UBERON:0011640",
+    "UBERON:0010039",
+    "UBERON:0009854",
+    "UBERON:0006909",
+    "UBERON:0006235",
+    "UBERON:0006264",
+    "UBERON:0006676",
+    "UBERON:0005052",
+    "UBERON:0004921",
+    "UBERON:0004906",
+    "UBERON:0004786",
+    "UBERON:0004185",
+    "UBERON:0004163",
+    "UBERON:0003929",
+    "UBERON:0003408",
+    "UBERON:0001962",
+    "UBERON:0001245",
+    "UBERON:0000328",
+    "UBERON:0000162",
+    "UBERON:2005279",
+    "UBERON:0012486",
+    "UBERON:0012367",
+    "UBERON:0011878",
+    "UBERON:0008856",
+    "UBERON:0012482",
+    "UBERON:0009566",
+    "UBERON:0004924",
+    "UBERON:0001972",
+    "UBERON:0001200",
+    "UBERON:0000945",
+    "UBERON:4300174",
+    "UBERON:0036072",
+    "UBERON:0012474",
+    "UBERON:0012287",
+    "UBERON:0009855",
+    "UBERON:0008836",
+    "UBERON:0008835",
+    "UBERON:0004912",
+    "UBERON:0001153",
+    "UBERON:0013158",
+    "UBERON:0009890",
+    "UBERON:0009550",
+    "UBERON:0009497",
+    "UBERON:0009483",
+    "UBERON:0009482",
+    "UBERON:0006211",
+    "UBERON:0035840",
+    "UBERON:0012494",
+    "UBERON:0006912",
+    "UBERON:0004648",
+    "UBERON:0001240",
+    "UBERON:0001203",
+    "UBERON:0011903",
+    "UBERON:8410050",
+    "UBERON:6005380",
+    "UBERON:0013644",
+    "UBERON:0013474",
+    "UBERON:0013473",
+    "UBERON:0013472",
+    "UBERON:0012652",
+    "UBERON:0012273",
+    "UBERON:0011698",
+    "UBERON:0009870",
+    "UBERON:0008250",
+    "UBERON:0008248",
+    "UBERON:0008246",
+    "UBERON:0007364",
+    "UBERON:0006866",
+    "UBERON:0006562",
+    "UBERON:0004908",
+    "UBERON:0004907",
+    "UBERON:0004045",
+    "UBERON:0003287",
+    "UBERON:0003286",
+    "UBERON:0002116",
+    "UBERON:0002115",
+    "UBERON:0002114",
+    "UBERON:0002108",
+    "UBERON:0001155",
+    "UBERON:0001052",
+    "UBERON:0001046",
+    "UBERON:0001045",
+    "UBERON:0001043",
+    "UBERON:0001041",
+    "UBERON:0000168",
+    "UBERON:0000160",
+    "UBERON:0000059",
+    "UBERON:0000165",
+    "UBERON:0005023",
+    "UBERON:0004780",
+    "UBERON:0001199",
+    "UBERON:0001242",
+    "UBERON:0035037",
+    "UBERON:0016885",
+    "UBERON:0016547",
+    "UBERON:0015833",
+    "UBERON:0014705",
+    "UBERON:0012481",
+    "UBERON:0009846",
+    "UBERON:0009722",
+    "UBERON:0009522",
+    "UBERON:0009697",
+    "UBERON:0009695",
+    "UBERON:0009099",
+    "UBERON:0006913",
+    "UBERON:0004809",
+    "UBERON:0003357",
+    "UBERON:0003353",
+    "UBERON:0003352",
+    "UBERON:0003351",
+    "UBERON:0002424",
+    "UBERON:0001976",
+    "UBERON:0001952",
+    "UBERON:0001951",
+    "UBERON:0001277",
+    "UBERON:0012478",
+    "UBERON:0010264",
+    "UBERON:0010047",
+    "UBERON:0008989",
+    "UBERON:0004760",
+    "UBERON:0004757",
+    "UBERON:0003295",
+    "UBERON:0003294",
+    "UBERON:0001212",
+    "UBERON:0000333",
+    "UBERON:0013478",
+    "UBERON:0012330",
+    "UBERON:0002372",
+    "UBERON:0001735",
+    "UBERON:0001211",
+    "UBERON:0035401",
+    "UBERON:0035383",
+    "UBERON:0035313",
+    "UBERON:0035286",
+    "UBERON:0035270",
+    "UBERON:0035240",
+    "UBERON:0035120",
+    "UBERON:0001262",
+    "UBERON:0001096",
+    "UBERON:0001167",
+    "UBERON:3001003",
+    "UBERON:3010590",
+    "UBERON:3010589",
+    "UBERON:0014785",
+    "UBERON:0014784",
+    "UBERON:0014783",
+    "UBERON:0013501",
+    "UBERON:0012485",
+    "UBERON:0012483",
+    "UBERON:0012480",
+    "UBERON:0012463",
+    "UBERON:0012462",
+    "UBERON:0012464",
+    "UBERON:0012421",
+    "UBERON:0012420",
+    "UBERON:0011510",
+    "UBERON:0000163",
+    "UBERON:0011201",
+    "UBERON:0011198",
+    "UBERON:0002439",
+    "UBERON:0035833",
+    "UBERON:0008863",
+    "UBERON:0008857",
+    "UBERON:0008862",
+    "UBERON:0001208",
+    "UBERON:0001205",
+    "UBERON:0004925",
+    "UBERON:0035843",
+    "UBERON:0004937",
+    "UBERON:0004935",
+    "UBERON:0004934",
+    "UBERON:0004933",
+    "UBERON:8600138",
+    "UBERON:0013525",
+    "UBERON:0012650",
+    "UBERON:0012270",
+    "UBERON:0010040",
+    "UBERON:0008994",
+    "UBERON:0008791",
+    "UBERON:0007366",
+    "UBERON:0006924",
+    "UBERON:0006921",
+    "UBERON:0004222",
+    "UBERON:0003281",
+    "UBERON:0001276",
+    "UBERON:0006242",
+    "UBERON:8600139",
+    "UBERON:0005686",
+    "UBERON:0005636",
+    "UBERON:0005677",
+    "UBERON:0004927",
+    "UBERON:0000314",
+    "UBERON:0003894",
+    "UBERON:0009502",
+    "UBERON:0009484",
+    "UBERON:0009480",
+    "UBERON:0009479",
+    "UBERON:0016500",
+    "UBERON:0035844",
+    "UBERON:0001239",
+    "UBERON:0001210",
+    "UBERON:0016501",
+    "UBERON:8410056",
+    "UBERON:8410055",
+    "UBERON:8410009",
+    "UBERON:8410008",
+    "UBERON:8410007",
+    "UBERON:8410006",
+    "UBERON:0035834",
+    "UBERON:0013067",
+    "UBERON:0011954",
+    "UBERON:0011953",
+    "UBERON:0008858",
+    "UBERON:0002399",
+    "UBERON:0001166",
+    "UBERON:0001165",
+    "UBERON:0001164",
+    "UBERON:0001163",
+    "UBERON:0001162",
+    "UBERON:0001161",
+    "UBERON:0001160",
+    "UBERON:0007365",
+    "UBERON:0007362",
+    "UBERON:0007361",
+    "UBERON:0016886",
+    "UBERON:0012465",
+    "UBERON:0034721",
+    "UBERON:0006870",
+    "UBERON:0001731",
+    "UBERON:0001042",
+    "UBERON:0005644",
+    "UBERON:0005643",
+    "UBERON:8600035",
+    "UBERON:0022357",
+    "UBERON:0014390",
+    "UBERON:0013481",
+    "UBERON:0008345",
+    "UBERON:0008344",
+    "UBERON:0004946",
+    "UBERON:0003705",
+    "UBERON:0000331",
+    "UBERON:8600034",
+    "UBERON:0016519",
+    "UBERON:0016517",
+    "UBERON:0013483",
+    "UBERON:0012377",
+    "UBERON:0008343",
+    "UBERON:0003398",
+    "UBERON:0003337",
+    "UBERON:0003333",
+    "UBERON:0000400",
+    "UBERON:0000399",
+    "UBERON:0015834",
+    "UBERON:0016512",
+    "UBERON:0013482",
+    "UBERON:0012488",
+    "UBERON:0008346",
+    "UBERON:0008342",
+    "UBERON:0003336",
+    "UBERON:0003332",
+    "UBERON:0003397",
+    "UBERON:0000320",
+    "UBERON:8600119",
+    "UBERON:8410068",
+    "UBERON:8410064",
+    "UBERON:8410063",
+    "UBERON:8410019",
+    "UBERON:8410002",
+    "UBERON:8410000",
+    "UBERON:0013744",
+    "UBERON:0013743",
+    "UBERON:0010016",
+    "UBERON:0004239",
+    "UBERON:0003454",
+    "UBERON:0001902",
+    "UBERON:0001238",
+    "UBERON:0001206",
+    "UBERON:0001204",
+    "UBERON:0001170",
+    "UBERON:0001168",
+    "UBERON:0001241",
+    "UBERON:8410061",
+    "UBERON:8410060",
+    "UBERON:8410059",
+    "UBERON:8410058",
+    "UBERON:8410057",
+    "UBERON:8410054",
+    "UBERON:8410051",
+    "UBERON:8410048",
+    "UBERON:8410015",
+    "UBERON:0022275",
+    "UBERON:0013485",
+    "UBERON:0012489",
+    "UBERON:0013695",
+    "UBERON:0008972",
+    "UBERON:0008971",
+    "UBERON:0007159",
+    "UBERON:0003335",
+    "UBERON:0003331",
+    "UBERON:0003396",
+    "UBERON:0000397",
+    "UBERON:0000317",
+    "UBERON:8600140",
+    "UBERON:8600057",
+    "UBERON:0035377",
+    "UBERON:0018112",
+    "UBERON:0018111",
+    "UBERON:0017627",
+    "UBERON:0017626",
+    "UBERON:0012497",
+    "UBERON:0009670",
+    "UBERON:0003395",
+    "UBERON:0003354",
+    "UBERON:0003346",
+    "UBERON:0003334",
+    "UBERON:0003330",
+    "UBERON:0009503",
+    "UBERON:0007148",
+    "UBERON:0003394",
+    "UBERON:0003260",
+    "UBERON:0009478",
+    "UBERON:0007147",
+    "UBERON:0005712",
+    "UBERON:0005685",
+    "UBERON:0003284",
+    "UBERON:0003259",
+    "UBERON:8700002",
+    "UBERON:2001430",
+    "UBERON:0035450",
+    "UBERON:0035216",
+    "UBERON:0035177",
+    "UBERON:0034724",
+    "UBERON:0016499",
+    "UBERON:0012504",
+    "UBERON:0011566",
+    "UBERON:0009960",
+    "UBERON:0007652",
+    "UBERON:0007356",
+    "UBERON:0006976",
+    "UBERON:0006920",
+    "UBERON:0004794",
+    "UBERON:0004831",
+    "UBERON:0003832",
+    "UBERON:0003283",
+    "UBERON:0002469",
+    "UBERON:0002112",
+    "UBERON:0001975",
+    "UBERON:0001974",
+    "UBERON:0009145",
+    "UBERON:0006257",
+    "UBERON:0005711",
+    "UBERON:0003258",
+    "UBERON:8410016",
+    "UBERON:0010239",
+    "UBERON:0001159",
+    "UBERON:0001158",
+    "UBERON:0001157",
+    "UBERON:0001156",
+    "UBERON:8410024",
+    "UBERON:2005273",
+    "UBERON:2001076",
+    "UBERON:0036214",
+    "UBERON:0018543",
+    "UBERON:0012427",
+    "UBERON:0012425",
+    "UBERON:0004221",
+    "UBERON:0001243",
+    "UBERON:0001073",
+    "UBERON:0013742",
+    "UBERON:0013741",
+    "UBERON:0011189",
+    "UBERON:0004220",
+    "UBERON:0003453",
+    "UBERON:0001984",
+    "UBERON:0001278",
+    "UBERON:0001209",
+    "UBERON:0001207",
+    "UBERON:0001154",
+    "UBERON:0001169",
+    "UBERON:0000159",
+    "UBERON:4300139",
+    "UBERON:4300138",
+    "UBERON:4300137",
+    "UBERON:2002108",
+    "UBERON:0036293",
+    "UBERON:0035942",
+    "UBERON:1000011",
+    "UBERON:0034767",
+    "UBERON:0016915",
+    "UBERON:0016482",
+    "UBERON:0013656",
+    "UBERON:0012105",
+    "UBERON:0011595",
+    "UBERON:0011349",
+    "UBERON:0011303",
+    "UBERON:0011268",
+    "UBERON:0010056",
+    "UBERON:0008805",
+    "UBERON:0008802",
+    "UBERON:0008253",
+    "UBERON:0005905",
+    "UBERON:0003729",
+    "UBERON:0003700",
+    "UBERON:0003679",
+    "UBERON:0001833",
+    "UBERON:0001733",
+    "UBERON:0001723",
+    "UBERON:0001716",
+    "UBERON:0000378",
+    "UBERON:0000167",
+    "UBERON:0000166",
+    "UBERON:8480046",
+    "UBERON:0012651",
+    "UBERON:0006931",
+    "UBERON:0004998",
+    "UBERON:0004996",
+    "UBERON:0004995",
+    "UBERON:0004994",
+    "UBERON:0000424",
+    "UBERON:0001983",
+    "UBERON:0003236",
+    "UBERON:0003235",
+    "UBERON:0001949",
+    "UBERON:0013155",
+    "UBERON:0012313",
+    "UBERON:0010030",
+    "UBERON:0010029",
+    "UBERON:0010028",
+    "UBERON:0010027",
+    "UBERON:0010026",
+    "UBERON:0010025",
+    "UBERON:0010024",
+    "UBERON:0010023",
+    "UBERON:0010022",
+    "UBERON:0010021",
+    "UBERON:0004902",
+    "UBERON:0013156",
+    "UBERON:0013154",
+    "UBERON:0007690",
+    "UBERON:0015766",
+    "UBERON:0003361",
+    "UBERON:0003360",
+    "UBERON:0003359",
+    "UBERON:0019206",
+    "UBERON:0014452",
+    "UBERON:0006919",
+    "UBERON:0006918",
+    "UBERON:0006699",
+    "UBERON:0016545",
+    "UBERON:0013696",
+    "UBERON:0005562",
+    "UBERON:0014453",
+    "UBERON:0011642",
+    "UBERON:0009671",
+    "UBERON:0008420",
+    "UBERON:2005256",
+    "UBERON:2005126",
+    "UBERON:0011184",
+    "UBERON:0004693",
+    "UBERON:0001213",
+    "UBERON:4300130",
+    "UBERON:4300129",
+    "UBERON:0017164",
+    "UBERON:0012479",
+    "UBERON:0010266",
+    "UBERON:0010265",
+    "UBERON:0010050",
+    "UBERON:0010049",
+    "UBERON:0010048",
+    "UBERON:0003409",
+    "UBERON:0001044",
+    "UBERON:0008310",
+    "UBERON:0009116",
+    "UBERON:0003410",
+    "UBERON:0000325",
+    "UBERON:0001732",
+    "UBERON:0036274",
+    "UBERON:0035228",
+    "UBERON:0013688",
+    "UBERON:0012181",
+    "UBERON:0010423",
+    "UBERON:0007250",
+    "UBERON:0005207",
+    "UBERON:0003949",
+    "UBERON:0002373",
+    "UBERON:0010387",
+    "UBERON:0010386",
+    "UBERON:0004697",
+    "UBERON:0001201",
+    "UBERON:0009669",
+    "UBERON:0003903",
+    "UBERON:0006217",
+    "UBERON:0000164",
+    "UBERON:0012402",
+    "UBERON:0012401",
+    "UBERON:0012490",
+    "UBERON:0012419",
+    "UBERON:8600118",
+    "UBERON:8410011",
+    "UBERON:0004928",
+    "UBERON:0003329",
+    "UBERON:0004936",
+    "UBERON:0016511",
+    "UBERON:0008285",
+    "UBERON:0007359",
+    "UBERON:0007358",
+    "UBERON:0005602",
+    "UBERON:0005626",
+    "UBERON:0005637",
+    "UBERON:0005477",
+    "UBERON:8410031",
+    "UBERON:0007178",
+    "UBERON:0008827",
+    "UBERON:0007357",
+    "UBERON:0012472",
+    "UBERON:0012471",
+    "UBERON:0010238",
+    "UBERON:0008861",
+    "UBERON:0001202",
+    "UBERON:0004997",
+    "UBERON:0008859",
+    "UBERON:0004550",
+    "UBERON:0016502",
+    "UBERON:0012503",
+    "UBERON:0010038",
+    "UBERON:0008860",
+    "UBERON:0010228",
+    "UBERON:0014510",
+    "UBERON:0014475",
+    "UBERON:0010061",
+    "UBERON:0009959",
+    "UBERON:0010384",
+    "UBERON:2002116",
+    "UBERON:2002057",
+    "UBERON:2001990",
+    "UBERON:2001467",
+    "UBERON:0034937",
+    "UBERON:0011345",
+    "UBERON:0011289",
+    "UBERON:0010937",
+    "UBERON:0010234",
+    "UBERON:0010060",
+    "UBERON:0009867",
+    "UBERON:0009119",
+    "UBERON:0008815",
+    "UBERON:0008804",
+    "UBERON:0007689",
+    "UBERON:0007303",
+    "UBERON:0006685",
+    "UBERON:0003384",
+    "UBERON:0003091",
+    "UBERON:0001729",
+    "UBERON:0001728",
+    "UBERON:0001051",
+    "UBERON:0000355",
+    "UBERON:0004914",
+    "UBERON:8410040",
+    "UBERON:0022280",
+    "UBERON:0013636",
+    "UBERON:0006359",
+    "UBERON:0022277",
+    "UBERON:0022276",
+    "UBERON:0035805",
+    "UBERON:0004932",
+    "UBERON:0004931",
+    "UBERON:0004930",
+    "UBERON:0004929",
+    "UBERON:7770008",
+    "UBERON:7770007",
+    "UBERON:7770006",
+    "UBERON:7770005",
+    "UBERON:0007177",
+    "UBERON:0004993",
+    "UBERON:0004992",
+    "UBERON:0004991",
+    "UBERON:0004990",
+    "UBERON:0009130",
+    "UBERON:0009961",
+    "UBERON:0006223",
+    "UBERON:0008814",
+    "UBERON:0022361",
+    "UBERON:0012172",
+    "UBERON:0008947",
+    "UBERON:0004117",
+    "UBERON:8600136",
+    "UBERON:8600135",
+    "UBERON:8600137",
+    "UBERON:8600134",
+    "UBERON:0006574",
+    "UBERON:0000569",
+    "UBERON:0012399",
+    "UBERON:0012398",
+    "UBERON:0022281",
+    "UBERON:0013486",
+    "UBERON:0015716",
+    "UBERON:0012498",
+    "UBERON:0004989",
+    "UBERON:0003342",
+    "UBERON:8410047",
+    "UBERON:8410046",
+    "UBERON:8410045",
+    "UBERON:8410044",
+    "UBERON:8410039",
+    "UBERON:8410030",
+    "UBERON:8410029",
+    "UBERON:8410028",
+    "UBERON:8410020",
+    "UBERON:8410012",
+    "UBERON:0036337",
+    "UBERON:0013689",
+    "UBERON:0036362",
+    "UBERON:0035243",
+    "UBERON:0009882",
+    "UBERON:0007158",
+    "UBERON:0001357",
+    "UBERON:0016910",
+    "UBERON:0006689",
+    "UBERON:0016919",
+    "UBERON:0016918",
+    "UBERON:0016485",
+    "UBERON:0016484",
+    "UBERON:0012106",
+    "UBERON:0034995",
+    "UBERON:0012360",
+    "UBERON:0009654",
+    "UBERON:0001828",
+    "UBERON:0001710",
+    "UBERON:0001709",
+    "UBERON:0001708",
+    "UBERON:0010059",
+    "UBERON:0010057",
+    "UBERON:0010034",
+    "UBERON:0006260",
+    "UBERON:0013641",
+    "UBERON:0013640",
+    "UBERON:0012621",
+    "UBERON:0036294",
+    "UBERON:0035967",
+    "UBERON:0006956",
+    "UBERON:0005020",
+    "UBERON:0005019",
+    "UBERON:0003343",
+    "UBERON:0011320",
+    "UBERON:0011319",
+    "UBERON:0011318",
+    "UBERON:2001935",
+    "UBERON:0034719",
+    "UBERON:0004833",
+    "UBERON:0001835",
+    "UBERON:0001834",
+    "UBERON:0001458",
+    "UBERON:0034670",
+    "UBERON:0014916",
+    "UBERON:0014780",
+    "UBERON:0011348",
+    "UBERON:0005024",
+    "UBERON:0003682",
+    "UBERON:0003417",
+    "UBERON:0003358",
+    "UBERON:0001734",
+    "UBERON:0034934",
+    "UBERON:0014790",
+    "UBERON:0013476",
+    "UBERON:0011877",
+    "UBERON:0011876",
+    "UBERON:0014451",
+    "UBERON:0009471",
+    "UBERON:0010032",
+    "UBERON:0006916",
+    "UBERON:0006688",
+    "UBERON:0006330",
+    "UBERON:0007367",
+    "UBERON:0004650",
+    "UBERON:0003416",
+    "UBERON:0001576",
+    "UBERON:0001610",
+    "UBERON:0011346",
+    "UBERON:0010426",
+    "UBERON:0009207",
+    "UBERON:0003216",
+    "UBERON:0001575",
+    "UBERON:0001574",
+    "UBERON:0018149",
+    "UBERON:0009672",
+    "UBERON:0008806",
+    "UBERON:0006272",
+    "UBERON:0005867",
+    "UBERON:0010154",
+    "UBERON:0013740",
+    "UBERON:0013739",
+    "UBERON:0011596",
+    "UBERON:0006957",
+    "UBERON:0005710",
+    "UBERON:0005654",
+    "UBERON:0011592",
+    "UBERON:0005709",
+    "UBERON:0005659",
+    "UBERON:0005658",
+    "UBERON:0005653",
+    "UBERON:0003368",
+    "UBERON:0035149",
+    "UBERON:0013195",
+    "UBERON:0009847",
+    "UBERON:0003820",
+    "UBERON:0035076",
+    "UBERON:0005879",
+    "UBERON:0008817",
+    "UBERON:8700001",
+    "UBERON:8410004",
+    "UBERON:8410001",
+    "UBERON:0018410",
+    "UBERON:0013475",
+    "UBERON:0035053",
+    "UBERON:0035049",
+    "UBERON:0014727",
+    "UBERON:0017653",
+    "UBERON:0011850",
+    "UBERON:0012102",
+    "UBERON:0001837",
+    "UBERON:0001830",
+    "UBERON:0001829",
+    "UBERON:0009971",
+    "UBERON:0003904",
+    "UBERON:0016505",
+    "UBERON:0013244",
+    "UBERON:0013245",
+    "UBERON:0009844",
+    "UBERON:0010153",
+    "UBERON:0001247",
+    "UBERON:0018103",
+    "UBERON:0009869",
+    "UBERON:0009868",
+    "UBERON:2000666",
+    "UBERON:0004363",
+    "UBERON:0003261",
+    "UBERON:0001761",
+    "UBERON:0005022",
+    "UBERON:0003582",
+    "UBERON:0004987",
+    "UBERON:0000388",
+    "UBERON:0012272",
+    "UBERON:0012271",
+    "UBERON:0004913",
+    "UBERON:0010046",
+    "UBERON:0006216",
+    "UBERON:0002539",
+    "UBERON:0036073",
+    "UBERON:0005597",
+    "UBERON:2001129",
+    "UBERON:0007127",
+    "UBERON:0007126",
+    "UBERON:0007125",
+    "UBERON:0007124",
+    "UBERON:0007123",
+    "UBERON:0007122",
+    "UBERON:8410005",
+    "UBERON:8410049",
+    "UBERON:0016913",
+    "UBERON:0016912",
+    "UBERON:0003324",
+    "UBERON:0003323",
+    "UBERON:3000645",
+    "UBERON:0011597",
+    "UBERON:0004768",
+    "UBERON:0014693",
+    "UBERON:0012376",
+    "UBERON:0011602",
+    "UBERON:0011601",
+    "UBERON:7500053",
+    "UBERON:3010144",
+    "UBERON:2001805",
+    "UBERON:2000422",
+    "UBERON:0035117",
+    "UBERON:0018623",
+    "UBERON:0018622",
+    "UBERON:0018617",
+    "UBERON:0018614",
+    "UBERON:0018602",
+    "UBERON:0018601",
+    "UBERON:0018600",
+    "UBERON:0018598",
+    "UBERON:0018589",
+    "UBERON:0018580",
+    "UBERON:0018579",
+    "UBERON:0018578",
+    "UBERON:0018574",
+    "UBERON:0018573",
+    "UBERON:0018562",
+    "UBERON:0018285",
+    "UBERON:0018284",
+    "UBERON:0018282",
+    "UBERON:0018281",
+    "UBERON:0017748",
+    "UBERON:0017612",
+    "UBERON:0017299",
+    "UBERON:0017272",
+    "UBERON:0016943",
+    "UBERON:0016453",
+    "UBERON:0016624",
+    "UBERON:0013621",
+    "UBERON:0013620",
+    "UBERON:0013612",
+    "UBERON:0011636",
+    "UBERON:0011079",
+    "UBERON:0010013",
+    "UBERON:0008199",
+    "UBERON:0006669",
+    "UBERON:0006606",
+    "UBERON:0006298",
+    "UBERON:0003667",
+    "UBERON:0003451",
+    "UBERON:0003268",
+    "UBERON:0003278",
+    "UBERON:0001831",
+    "UBERON:0001736",
+    "UBERON:7500057",
+    "UBERON:4300133",
+    "UBERON:4300017",
+    "UBERON:3000597",
+    "UBERON:3000547",
+    "UBERON:3000295",
+    "UBERON:2002092",
+    "UBERON:2001632",
+    "UBERON:2001406",
+    "UBERON:0035116",
+    "UBERON:0034909",
+    "UBERON:0019253",
+    "UBERON:0018648",
+    "UBERON:0018621",
+    "UBERON:0018616",
+    "UBERON:0018613",
+    "UBERON:0018604",
+    "UBERON:0018603",
+    "UBERON:0018599",
+    "UBERON:0018597",
+    "UBERON:0018591",
+    "UBERON:0018588",
+    "UBERON:0018572",
+    "UBERON:0018571",
+    "UBERON:0018561",
+    "UBERON:0018302",
+    "UBERON:0018301",
+    "UBERON:0018300",
+    "UBERON:0018577",
+    "UBERON:0018576",
+    "UBERON:0018575",
+    "UBERON:0017613",
+    "UBERON:0017298",
+    "UBERON:0017271",
+    "UBERON:0016944",
+    "UBERON:0016455",
+    "UBERON:0016454",
+    "UBERON:0016452",
+    "UBERON:0013619",
+    "UBERON:0013617",
+    "UBERON:0013613",
+    "UBERON:0011634",
+    "UBERON:0010169",
+    "UBERON:0010012",
+    "UBERON:0003666",
+    "UBERON:0003450",
+    "UBERON:0003277",
+    "UBERON:0003267",
+    "UBERON:4200250",
+    "UBERON:3000998",
+    "UBERON:3000237",
+    "UBERON:0018297",
+    "UBERON:0013135",
+    "UBERON:0012111",
+    "UBERON:0004103",
+    "UBERON:0001035",
+    "UBERON:0006756",
+    "UBERON:0006757",
+    "UBERON:0005032",
+    "UBERON:0005031",
+    "UBERON:0010052",
+    "UBERON:0001726",
+    "UBERON:0005046",
+    "UBERON:0005334",
+    "UBERON:0018150",
+    "UBERON:3010091",
+    "UBERON:0018151",
+    "UBERON:0005402",
+    "UBERON:0005025",
+    "UBERON:0010235",
+    "UBERON:0008586",
+    "UBERON:0008585",
+    "UBERON:0010033",
+    "UBERON:0006360",
+    "UBERON:0015445",
+    "UBERON:0007373",
+    "UBERON:0007371",
+    "UBERON:0008584",
+    "UBERON:0008583",
+    "UBERON:0008582",
+    "UBERON:8600097",
+    "UBERON:0011347",
+    "UBERON:0035122",
+    "UBERON:0035127",
+    "UBERON:0035126",
+    "UBERON:0012074",
+    "UBERON:0008799",
+    "UBERON:0006672",
+    "UBERON:0003424",
+    "UBERON:0001572",
+    "UBERON:0001571",
+    "UBERON:0001573",
+    "UBERON:0006905",
+    "UBERON:0013157",
+    "UBERON:0005875",
+    "UBERON:0005874",
+    "UBERON:0005873",
+    "UBERON:0005872",
+    "UBERON:0035078",
+    "UBERON:0035048",
+    "UBERON:0035046",
+    "UBERON:0011847",
+    "UBERON:0010242",
+    "UBERON:0010241",
+    "UBERON:0010240",
+    "UBERON:0035045",
+    "UBERON:0014729",
+    "UBERON:0002334",
+    "UBERON:0001838",
+    "UBERON:8480065",
+    "UBERON:0002447",
+    "UBERON:0001832",
+    "UBERON:0003905",
+    "UBERON:0015142",
+    "UBERON:2005018",
+    "UBERON:2005012",
+    "UBERON:2000716",
+    "UBERON:2000202",
+    "UBERON:0003123",
+    "UBERON:0003122",
+    "UBERON:0003121",
+    "UBERON:0003120",
+    "UBERON:0003119",
+    "UBERON:0003118",
+    "UBERON:0004982",
+    "UBERON:0001742",
+    "UBERON:0004915",
+    "UBERON:0010360",
+    "UBERON:0010359",
+    "UBERON:0009494",
+    "UBERON:0009210",
+    "UBERON:0008896",
+    "UBERON:0004362",
+    "UBERON:0003117",
+    "UBERON:0003116",
+    "UBERON:0003115",
+    "UBERON:0003114",
+    "UBERON:0003066",
+    "UBERON:0009539",
+    "UBERON:0005708",
+    "UBERON:0005701",
+    "UBERON:0003419",
+    "UBERON:0003418",
+    "UBERON:0003414",
+    "UBERON:0005705",
+    "UBERON:0005704",
+    "UBERON:0005700",
+    "UBERON:0005707",
+    "UBERON:3000646",
+    "UBERON:3000509",
+    "UBERON:3000492",
+    "UBERON:3000110",
+    "UBERON:3000323",
+    "UBERON:3000288",
+    "UBERON:2002020",
+    "UBERON:2001692",
+    "UBERON:2000620",
+    "UBERON:2000240",
+    "UBERON:2000103",
+    "UBERON:2000657",
+    "UBERON:0011773",
+    "UBERON:0011628",
+    "UBERON:0011267",
+    "UBERON:0006597",
+    "UBERON:0002397",
+    "UBERON:0002396",
+    "UBERON:0002244",
+    "UBERON:0001682",
+    "UBERON:4300199",
+    "UBERON:4200245",
+    "UBERON:3000966",
+    "UBERON:3000518",
+    "UBERON:3000515",
+    "UBERON:2001274",
+    "UBERON:0011637",
+    "UBERON:0011635",
+    "UBERON:0011598",
+    "UBERON:0011772",
+    "UBERON:0011770",
+    "UBERON:0004744",
+    "UBERON:0004742",
+    "UBERON:0018570",
+    "UBERON:0018568",
+    "UBERON:0017313",
+    "UBERON:0018596",
+    "UBERON:0018595",
+    "UBERON:8490047",
+    "UBERON:8490021",
+    "UBERON:8490049",
+    "UBERON:8490023",
+    "UBERON:8490048",
+    "UBERON:8490022",
+    "UBERON:8490034",
+    "UBERON:8490008",
+    "UBERON:8490035",
+    "UBERON:8490009",
+    "UBERON:8490036",
+    "UBERON:8490010",
+    "UBERON:8490037",
+    "UBERON:8490011",
+    "UBERON:8490038",
+    "UBERON:8490012",
+    "UBERON:8490039",
+    "UBERON:8490013",
+    "UBERON:7500054",
+    "UBERON:7500052",
+    "UBERON:4200243",
+    "UBERON:0007332",
+    "UBERON:1000000",
+    "UBERON:0008596",
+    "UBERON:0001655",
+    "UBERON:0001581",
+    "UBERON:0016621",
+    "UBERON:3000519",
+    "UBERON:0018299",
+    "UBERON:0011603",
+    "UBERON:0011594",
+    "UBERON:3000450",
+    "UBERON:3000038",
+    "UBERON:0018338",
+    "UBERON:0018333",
+    "UBERON:0018331",
+    "UBERON:0014684",
+    "UBERON:0014683",
+    "UBERON:0009679",
+    "UBERON:0003107",
+    "UBERON:0035047",
+    "UBERON:0001065",
+    "UBERON:0017312",
+    "UBERON:0018594",
+    "UBERON:0018593",
+    "UBERON:8490042",
+    "UBERON:8490016",
+    "UBERON:8490044",
+    "UBERON:8490018",
+    "UBERON:8490043",
+    "UBERON:8490017",
+    "UBERON:8490029",
+    "UBERON:8490003",
+    "UBERON:8490004",
+    "UBERON:8490030",
+    "UBERON:8490031",
+    "UBERON:8490005",
+    "UBERON:8490026",
+    "UBERON:8490000",
+    "UBERON:8490027",
+    "UBERON:8490001",
+    "UBERON:8490028",
+    "UBERON:8490002",
+    "UBERON:8490032",
+    "UBERON:8490006",
+    "UBERON:8490033",
+    "UBERON:8490007",
+    "UBERON:7500059",
+    "UBERON:7500058",
+    "UBERON:0007331",
+    "UBERON:0015852",
+    "UBERON:0015851",
+    "UBERON:0015847",
+    "UBERON:0011085",
+    "UBERON:0009680",
+    "UBERON:0005619",
+    "UBERON:3000642",
+    "UBERON:2001626",
+    "UBERON:0012070",
+    "UBERON:0011593",
+    "UBERON:4200251",
+    "UBERON:3010458",
+    "UBERON:0035119",
+    "UBERON:0034898",
+    "UBERON:0004528",
+    "UBERON:0004527",
+    "UBERON:0003686",
+    "UBERON:0023541",
+    "UBERON:0014389",
+    "UBERON:0013638",
+    "UBERON:0013639",
+    "UBERON:0002448",
+    "UBERON:0002467",
+    "UBERON:0016442",
+    "UBERON:0036144",
+    "UBERON:0011535",
+    "UBERON:0008428",
+    "UBERON:0010337",
+    "UBERON:0010336",
+    "UBERON:0003986",
+    "UBERON:0003985",
+    "UBERON:0003420",
+    "UBERON:2005019",
+    "UBERON:2005015",
+    "UBERON:2005014",
+    "UBERON:2005013",
+    "UBERON:0010347",
+    "UBERON:0010345",
+    "UBERON:0010344",
+    "UBERON:0010343",
+    "UBERON:0010341",
+    "UBERON:0010259",
+    "UBERON:0010257",
+    "UBERON:0010256",
+    "UBERON:0010255",
+    "UBERON:0010254",
+    "UBERON:0013502",
+    "UBERON:0010042",
+    "UBERON:0010031",
+    "UBERON:0005691",
+    "UBERON:0005690",
+    "UBERON:0005689",
+    "UBERON:0009217",
+    "UBERON:0009216",
+    "UBERON:0009215",
+    "UBERON:0009213",
+    "UBERON:0011638",
+    "UBERON:0011087",
+    "UBERON:0007238",
+    "UBERON:0007237",
+    "UBERON:0005666",
+    "UBERON:0005662",
+    "UBERON:0005665",
+    "UBERON:0005661",
+    "UBERON:0005664",
+    "UBERON:0005660",
+    "UBERON:0004368",
+    "UBERON:3000647",
+    "UBERON:3000401",
+    "UBERON:2001578",
+    "UBERON:2000699",
+    "UBERON:3000605",
+    "UBERON:3000654",
+    "UBERON:3000177",
+    "UBERON:3000653",
+    "UBERON:2001611",
+    "UBERON:2001610",
+    "UBERON:2000224",
+    "UBERON:0018353",
+    "UBERON:0018337",
+    "UBERON:0018334",
+    "UBERON:3000651",
+    "UBERON:3000650",
+    "UBERON:3000581",
+    "UBERON:3000540",
+    "UBERON:3000512",
+    "UBERON:3000500",
+    "UBERON:3000400",
+    "UBERON:3000281",
+    "UBERON:3000652",
+    "UBERON:2001603",
+    "UBERON:0035139",
+    "UBERON:0018409",
+    "UBERON:0018407",
+    "UBERON:0018336",
+    "UBERON:0018136",
+    "UBERON:0013767",
+    "UBERON:0013217",
+    "UBERON:0011245",
+    "UBERON:0005871",
+    "UBERON:0001764",
+    "UBERON:3000661",
+    "UBERON:3000660",
+    "UBERON:3000659",
+    "UBERON:3000658",
+    "UBERON:3000657",
+    "UBERON:3000649",
+    "UBERON:3000453",
+    "UBERON:3000634",
+    "UBERON:7500112",
+    "UBERON:4500018",
+    "UBERON:4500016",
+    "UBERON:3000582",
+    "UBERON:3000539",
+    "UBERON:3000115",
+    "UBERON:3000003",
+    "UBERON:2002257",
+    "UBERON:2001577",
+    "UBERON:0034900",
+    "UBERON:0018341",
+    "UBERON:0018137",
+    "UBERON:0017249",
+    "UBERON:0005620",
+    "UBERON:7500084",
+    "UBERON:7500083",
+    "UBERON:4300002",
+    "UBERON:0018314",
+    "UBERON:0018242",
+    "UBERON:0013068",
+    "UBERON:4200247",
+    "UBERON:4200246",
+    "UBERON:3000012",
+    "UBERON:3000543",
+    "UBERON:3000493",
+    "UBERON:3000446",
+    "UBERON:3000459",
+    "UBERON:4200237",
+    "UBERON:4200236",
+    "UBERON:4200235",
+    "UBERON:4200234",
+    "UBERON:3000006",
+    "UBERON:2002012",
+    "UBERON:0018542",
+    "UBERON:0001684",
+    "UBERON:8490040",
+    "UBERON:8490014",
+    "UBERON:8490041",
+    "UBERON:8490015",
+    "UBERON:8490050",
+    "UBERON:8490024",
+    "UBERON:8490051",
+    "UBERON:8490025",
+    "UBERON:0016622",
+    "UBERON:4200238",
+    "UBERON:4300247",
+    "UBERON:4300246",
+    "UBERON:3000394",
+    "UBERON:8490045",
+    "UBERON:8490019",
+    "UBERON:8490046",
+    "UBERON:8490020",
+    "UBERON:0015853",
+    "UBERON:0015850",
+    "UBERON:4300252",
+    "UBERON:0004752",
+    "UBERON:4300244",
+    "UBERON:4300243",
+    "UBERON:0012073",
+    "UBERON:0004767",
+    "UBERON:0035115",
+    "UBERON:3000112",
+    "UBERON:3000505",
+    "UBERON:3000111",
+    "UBERON:3000017",
+    "UBERON:0002468",
+    "UBERON:0000396",
+    "UBERON:0010339",
+    "UBERON:0010338",
+    "UBERON:0010253",
+    "UBERON:0010252",
+    "UBERON:0010045",
+    "UBERON:0009584",
+    "UBERON:3000467",
+    "UBERON:3000375",
+    "UBERON:3000255",
+    "UBERON:3000022",
+    "UBERON:0008809",
+    "UBERON:3000583",
+    "UBERON:4200198",
+    "UBERON:0013471",
+    "UBERON:0013450",
+    "UBERON:0011342",
+    "UBERON:0011309",
+    "UBERON:0011310",
+    "UBERON:0006959",
+    "UBERON:0006812",
+    "UBERON:0006673",
+    "UBERON:0004661",
+    "UBERON:0004660",
+    "UBERON:0004659",
+    "UBERON:0004657",
+    "UBERON:0000401",
+    "UBERON:3010824",
+    "UBERON:3010821",
+    "UBERON:3010820",
+    "UBERON:3010528",
+    "UBERON:3010061",
+    "UBERON:3000527",
+    "UBERON:3000516",
+    "UBERON:3000380",
+    "UBERON:3000365",
+    "UBERON:3000363",
+    "UBERON:3000036",
+    "UBERON:3000031",
+    "UBERON:3000523",
+    "UBERON:0011344",
+    "UBERON:0011343",
+    "UBERON:0004658",
+    "UBERON:3010094"
+  ],
+  "terms": [
+    {
+      "obo_id": "UBERON:0001555",
+      "label": "digestive tract",
+      "level": "root"
+    },
+    {
+      "obo_id": "UBERON:2001324",
+      "label": "enteric musculature",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018261",
+      "label": "muscular coat of digestive tract",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018257",
+      "label": "submucosa of digestive tract",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015232",
+      "label": "nematode pharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011904",
+      "label": "gastrolith",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011640",
+      "label": "palatoglossal arch",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010039",
+      "label": "food storage organ",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009854",
+      "label": "digestive tract diverticulum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006909",
+      "label": "lumen of digestive tract",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006235",
+      "label": "foregut-midgut junction",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006264",
+      "label": "mouth-foregut junction",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006676",
+      "label": "muscularis mucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005052",
+      "label": "gizzard",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004921",
+      "label": "subdivision of digestive tract",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004906",
+      "label": "ectodermal part of digestive tract",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004786",
+      "label": "gastrointestinal system mucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004185",
+      "label": "endodermal part of digestive tract",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004163",
+      "label": "anterior ectodermal midgut",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003929",
+      "label": "digestive tract epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003408",
+      "label": "gland of digestive tract",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001962",
+      "label": "gut-associated lymphoid tissue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001245",
+      "label": "anus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000328",
+      "label": "gut wall",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000162",
+      "label": "cloaca",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2005279",
+      "label": "enteric circular muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012486",
+      "label": "muscle layer of cloaca",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012367",
+      "label": "muscle layer of intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011878",
+      "label": "muscle layer of esophagus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008856",
+      "label": "stomach muscularis externa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012482",
+      "label": "submucosa of cloaca",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009566",
+      "label": "intestinal submucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004924",
+      "label": "submucosa of pharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001972",
+      "label": "submucosa of esophagus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001200",
+      "label": "submucosa of stomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000945",
+      "label": "stomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4300174",
+      "label": "actinopterygian pyloric caecum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0036072",
+      "label": "respiratory primordium epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012474",
+      "label": "hepatic cecum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012287",
+      "label": "Rathkes pouch epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009855",
+      "label": "echinoderm gastric caecum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008836",
+      "label": "liver bud",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008835",
+      "label": "hepatic diverticulum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004912",
+      "label": "biliary bud",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001153",
+      "label": "caecum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013158",
+      "label": "foregut-midgut junction gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009890",
+      "label": "anterior intestinal portal",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009550",
+      "label": "endoderm of foregut-midgut junction",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009497",
+      "label": "epithelium of foregut-midgut junction",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009483",
+      "label": "mesentery of foregut-midgut junction",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009482",
+      "label": "associated mesenchyme of foregut-midgut junction",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006211",
+      "label": "buccopharyngeal membrane",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035840",
+      "label": "esophagogastric junction muscularis mucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012494",
+      "label": "muscularis mucosae of duodenum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006912",
+      "label": "urinary bladder muscularis mucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004648",
+      "label": "esophagus muscularis mucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001240",
+      "label": "muscularis mucosae of intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001203",
+      "label": "muscularis mucosae of stomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011903",
+      "label": "gizzard smooth muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410050",
+      "label": "anorectum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:6005380",
+      "label": "insect pharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013644",
+      "label": "duodenal ampulla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013474",
+      "label": "middle part of esophagus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013473",
+      "label": "lower esophagus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013472",
+      "label": "upper esophagus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012652",
+      "label": "colorectum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012273",
+      "label": "periampullary region of duodenum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011698",
+      "label": "midgut loop",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009870",
+      "label": "zone of stomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008250",
+      "label": "cardiac stomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008248",
+      "label": "echinoderm pyloric cecum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008246",
+      "label": "pyloric stomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007364",
+      "label": "reticulorumen",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006866",
+      "label": "terminal part of digestive tract",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006562",
+      "label": "pharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004908",
+      "label": "upper digestive tract",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004907",
+      "label": "lower digestive tract",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004045",
+      "label": "tailgut",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003287",
+      "label": "midgut region of duodenum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003286",
+      "label": "foregut region of duodenum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002116",
+      "label": "ileum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002115",
+      "label": "jejunum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002114",
+      "label": "duodenum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002108",
+      "label": "small intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001155",
+      "label": "colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001052",
+      "label": "rectum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001046",
+      "label": "hindgut",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001045",
+      "label": "midgut",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001043",
+      "label": "esophagus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001041",
+      "label": "foregut",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000168",
+      "label": "proximal-distal subdivision of colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000160",
+      "label": "intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000059",
+      "label": "large intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000165",
+      "label": "mouth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005023",
+      "label": "mucosa of oropharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004780",
+      "label": "gastrointestinal system lamina propria",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001199",
+      "label": "mucosa of stomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001242",
+      "label": "intestinal mucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035037",
+      "label": "jaw epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016885",
+      "label": "epithelium of terminal part of digestive tract",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016547",
+      "label": "lower foregut region endoderm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015833",
+      "label": "foregut epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014705",
+      "label": "median lingual swelling epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012481",
+      "label": "cloacal epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009846",
+      "label": "embryonic cloacal epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009722",
+      "label": "entire pharyngeal arch endoderm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009522",
+      "label": "lateral lingual swelling epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009697",
+      "label": "epithelium of appendix",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009695",
+      "label": "epithelium of laryngopharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009099",
+      "label": "typhlosole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006913",
+      "label": "lip epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004809",
+      "label": "salivary gland epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003357",
+      "label": "epithelium of tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003353",
+      "label": "epithelium of hindgut",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003352",
+      "label": "epithelium of midgut",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003351",
+      "label": "pharyngeal epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002424",
+      "label": "oral epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001976",
+      "label": "epithelium of esophagus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001952",
+      "label": "epithelium of oropharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001951",
+      "label": "epithelium of nasopharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001277",
+      "label": "intestinal epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012478",
+      "label": "cloacal gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010264",
+      "label": "hepatopancreas",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010047",
+      "label": "oral gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008989",
+      "label": "submucosal esophageal gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004760",
+      "label": "gland of anal canal",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004757",
+      "label": "rectal salt gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003295",
+      "label": "pharyngeal gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003294",
+      "label": "gland of foregut",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001212",
+      "label": "duodenal gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000333",
+      "label": "intestinal gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013478",
+      "label": "cecal tonsil",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012330",
+      "label": "nasal-associated lymphoid tissue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002372",
+      "label": "tonsil",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001735",
+      "label": "tonsillar ring",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001211",
+      "label": "Peyer's patch",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035401",
+      "label": "posterior wall of nasopharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035383",
+      "label": "lateral wall of nasopharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035313",
+      "label": "posterior wall of laryngopharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035286",
+      "label": "lateral wall of oropharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035270",
+      "label": "roof of nasopharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035240",
+      "label": "posterior wall of oropharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035120",
+      "label": "fauces",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001262",
+      "label": "wall of intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001096",
+      "label": "wall of esophagus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001167",
+      "label": "wall of stomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3001003",
+      "label": "cloacal fold",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3010590",
+      "label": "amphibian cloacal gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3010589",
+      "label": "cloacal papilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014785",
+      "label": "levator cloacae",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014784",
+      "label": "transverse cloacal muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014783",
+      "label": "cloacal muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013501",
+      "label": "cloacal sphincter",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012485",
+      "label": "cloacal villus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012483",
+      "label": "serosa of cloaca",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012480",
+      "label": "cloacal mucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012463",
+      "label": "cloacal lumen",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012462",
+      "label": "proctodeum portion of cloaca",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012464",
+      "label": "cloacal vent",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012421",
+      "label": "urodeum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012420",
+      "label": "coprodeum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011510",
+      "label": "cloacal bursa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000163",
+      "label": "embryonic cloaca",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011201",
+      "label": "muscle layer of small intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011198",
+      "label": "muscle layer of large intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002439",
+      "label": "myenteric nerve plexus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035833",
+      "label": "lower esophagus muscularis layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008863",
+      "label": "stomach smooth muscle outer longitudinal layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008857",
+      "label": "stomach smooth muscle circular layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008862",
+      "label": "stomach smooth muscle inner oblique layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001208",
+      "label": "submucosa of large intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001205",
+      "label": "submucosa of small intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004925",
+      "label": "submucosa of laryngopharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035843",
+      "label": "lower esophagus submucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004937",
+      "label": "submucosa of pylorus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004935",
+      "label": "submucosa of cardia of stomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004934",
+      "label": "submucosa of body of stomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004933",
+      "label": "submucosa of fundus of stomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600138",
+      "label": "stomach lamina propria",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013525",
+      "label": "stomach lumen",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012650",
+      "label": "gastroduodenal junction",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012270",
+      "label": "forestomach-glandular stomach junction",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010040",
+      "label": "stomach non-glandular epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008994",
+      "label": "equine glandular stomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008791",
+      "label": "rugal fold of stomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007366",
+      "label": "ruminant stomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006924",
+      "label": "stomach glandular epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006921",
+      "label": "stomach squamous epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004222",
+      "label": "stomach smooth muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003281",
+      "label": "mesentery of stomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001276",
+      "label": "epithelium of stomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006242",
+      "label": "gallbladder primordium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600139",
+      "label": "caecum lamina propria",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005686",
+      "label": "caecum dorsal mesentery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005636",
+      "label": "caecum epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005677",
+      "label": "caecum mesentery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004927",
+      "label": "submucosa of cecum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000314",
+      "label": "cecum mucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003894",
+      "label": "liver primordium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009502",
+      "label": "ventral mesentery of mesentery of foregut-midgut junction",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009484",
+      "label": "dorsal mesentery of mesentery of foregut-midgut junction",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009480",
+      "label": "endoderm of buccopharyngeal membrane",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009479",
+      "label": "ectoderm of buccopharyngeal membrane",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016500",
+      "label": "muscularis mucosa of fundus of urinary bladder",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035844",
+      "label": "lower esophagus muscularis mucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001239",
+      "label": "muscularis mucosae of large intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001210",
+      "label": "muscularis mucosae of small intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016501",
+      "label": "muscularis mucosae of fundus of stomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410056",
+      "label": "capillary of anorectum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410055",
+      "label": "lymphatic capillary of anorectum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410009",
+      "label": "arteriole of anorectum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410008",
+      "label": "venule of anorectum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410007",
+      "label": "myenteric nerve plexus of anorectum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410006",
+      "label": "submucous nerve plexus of anorectum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035834",
+      "label": "lower esophagus mucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013067",
+      "label": "colorectal mucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011954",
+      "label": "stomach non-glandular region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011953",
+      "label": "stomach glandular region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008858",
+      "label": "pyloric canal",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002399",
+      "label": "lesser omentum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001166",
+      "label": "pylorus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001165",
+      "label": "pyloric antrum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001164",
+      "label": "greater curvature of stomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001163",
+      "label": "lesser curvature of stomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001162",
+      "label": "cardia of stomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001161",
+      "label": "body of stomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001160",
+      "label": "fundus of stomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007365",
+      "label": "rumen",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007362",
+      "label": "omasum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007361",
+      "label": "ruminant reticulum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016886",
+      "label": "muscle tissue of terminal part of digestive tract",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012465",
+      "label": "lumen of terminal part of digestive tract",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034721",
+      "label": "pharyngeal taste bud",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006870",
+      "label": "endostyle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001731",
+      "label": "cavity of pharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001042",
+      "label": "chordate pharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005644",
+      "label": "midgut duodenum epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005643",
+      "label": "foregut duodenum epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600035",
+      "label": "ileum lamina propria",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0022357",
+      "label": "mesentery of ileum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014390",
+      "label": "muscle layer of ileum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013481",
+      "label": "crypt of Lieberkuhn of ileum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008345",
+      "label": "ileal epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008344",
+      "label": "intestinal villus of ileum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004946",
+      "label": "submucosa of ileum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003705",
+      "label": "Meckel's diverticulum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000331",
+      "label": "ileal mucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600034",
+      "label": "jejunum lamina propria",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016519",
+      "label": "muscularis mucosae of jejunum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016517",
+      "label": "lumen of jejunum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013483",
+      "label": "crypt of Lieberkuhn of jejunum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012377",
+      "label": "muscle layer of jejunum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008343",
+      "label": "intestinal villus of jejunum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003398",
+      "label": "mesentery of jejunum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003337",
+      "label": "serosa of jejunum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003333",
+      "label": "submucosa of jejunum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000400",
+      "label": "jejunal epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000399",
+      "label": "jejunal mucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015834",
+      "label": "duodenum lamina propria",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016512",
+      "label": "lumen of duodenum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013482",
+      "label": "crypt of Lieberkuhn of duodenum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012488",
+      "label": "muscle layer of duodenum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008346",
+      "label": "duodenal epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008342",
+      "label": "intestinal villus of duodenum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003336",
+      "label": "serosa of duodenum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003332",
+      "label": "submucosa of duodenum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003397",
+      "label": "mesentery of duodenum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000320",
+      "label": "duodenal mucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600119",
+      "label": "myenteric ganglion of small intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410068",
+      "label": "capillary of small intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410064",
+      "label": "submucous nerve plexus of small intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410063",
+      "label": "myenteric nerve plexus of small intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410019",
+      "label": "jejuno-ileal junction",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410002",
+      "label": "small intestine lymphatic vessel",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410000",
+      "label": "duodeno-jejunal junction",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013744",
+      "label": "wall of crypt of Lieberkuhn of small intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013743",
+      "label": "base of crypt of Lieberkuhn of small intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010016",
+      "label": "spiral valve of intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004239",
+      "label": "small intestine smooth muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003454",
+      "label": "small intestine Peyer's patch",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001902",
+      "label": "epithelium of small intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001238",
+      "label": "lamina propria of small intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001206",
+      "label": "serosa of small intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001204",
+      "label": "mucosa of small intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001170",
+      "label": "mesentery of small intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001168",
+      "label": "wall of small intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001241",
+      "label": "crypt of Lieberkuhn of small intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410061",
+      "label": "colon smooth muscle longitudinal layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410060",
+      "label": "colon smooth muscle circular layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410059",
+      "label": "submucous nerve plexus of colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410058",
+      "label": "myenteric nerve plexus of colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410057",
+      "label": "capillary of colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410054",
+      "label": "lymphatic capillary of colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410051",
+      "label": "lymphatic vessel of colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410048",
+      "label": "venule of colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410015",
+      "label": "arteriole of colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0022275",
+      "label": "colic flexure",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013485",
+      "label": "crypt of Lieberkuhn of colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012489",
+      "label": "muscle layer of colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013695",
+      "label": "colon endothelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008972",
+      "label": "right colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008971",
+      "label": "left colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007159",
+      "label": "lumen of colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003335",
+      "label": "serosa of colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003331",
+      "label": "submucosa of colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003396",
+      "label": "mesentery of colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000397",
+      "label": "colonic epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000317",
+      "label": "colonic mucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600140",
+      "label": "rectum lamina propria",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600057",
+      "label": "middle hemorrhoidal vein",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035377",
+      "label": "transverse fold of rectum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018112",
+      "label": "rectum smooth muscle tissue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018111",
+      "label": "muscle layer of rectum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0017627",
+      "label": "rectal valve",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0017626",
+      "label": "transverse folds of rectum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012497",
+      "label": "muscularis mucosae of rectum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009670",
+      "label": "rectal lumen",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003395",
+      "label": "mesentery of rectum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003354",
+      "label": "epithelium of rectum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003346",
+      "label": "mucosa of rectum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003334",
+      "label": "serosa of rectum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003330",
+      "label": "submucosa of rectum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009503",
+      "label": "mesenchyme of hindgut",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007148",
+      "label": "lumen of hindgut",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003394",
+      "label": "mesentery of hindgut",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003260",
+      "label": "endoderm of hindgut",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009478",
+      "label": "associated mesenchyme of midgut",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007147",
+      "label": "lumen of midgut",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005712",
+      "label": "midgut duodenum mesentery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005685",
+      "label": "midgut dorsal mesentery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003284",
+      "label": "mesentery of midgut",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003259",
+      "label": "endoderm of midgut",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8700002",
+      "label": "stratum spinosum of esophageal epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001430",
+      "label": "pneumatic duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035450",
+      "label": "cervical part of esophagus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035216",
+      "label": "thoracic part of esophagus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035177",
+      "label": "abdominal part of esophagus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034724",
+      "label": "esophageal taste bud",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016499",
+      "label": "esophageal-pneumatic duct sphincter",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012504",
+      "label": "adventitia of esophagus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011566",
+      "label": "lumen of esophagus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009960",
+      "label": "esophagus smooth muscle circular layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007652",
+      "label": "esophageal sphincter",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007356",
+      "label": "crop",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006976",
+      "label": "peptonephridium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006920",
+      "label": "esophagus squamous epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004794",
+      "label": "esophagus secretion",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004831",
+      "label": "esophagus skeletal muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003832",
+      "label": "esophagus muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003283",
+      "label": "mesentery of oesophagus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002469",
+      "label": "esophagus mucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002112",
+      "label": "smooth muscle of esophagus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001975",
+      "label": "serosa of esophagus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001974",
+      "label": "lamina propria of esophagus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009145",
+      "label": "pharyngeal region of foregut",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006257",
+      "label": "laryngotracheal groove",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005711",
+      "label": "foregut duodenum mesentery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003258",
+      "label": "endoderm of foregut",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410016",
+      "label": "descending sigmoid junction",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010239",
+      "label": "spiral colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001159",
+      "label": "sigmoid colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001158",
+      "label": "descending colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001157",
+      "label": "transverse colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001156",
+      "label": "ascending colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410024",
+      "label": "intestinal junction",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2005273",
+      "label": "intestinal mucosal muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001076",
+      "label": "intestinal bulb",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0036214",
+      "label": "rectosigmoid junction",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018543",
+      "label": "lumen of intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012427",
+      "label": "intestinal brush border layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012425",
+      "label": "striated border microvillus layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004221",
+      "label": "intestine smooth muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001243",
+      "label": "serosa of intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001073",
+      "label": "ileocecal junction",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013742",
+      "label": "wall of crypt of Lieberkuhn of large intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013741",
+      "label": "base of crypt of Lieberkuhn of large intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011189",
+      "label": "lamina propria of large intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004220",
+      "label": "large intestine smooth muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003453",
+      "label": "large intestine Peyer's patch",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001984",
+      "label": "crypt of Lieberkuhn of large intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001278",
+      "label": "epithelium of large intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001209",
+      "label": "serosa of large intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001207",
+      "label": "mucosa of large intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001154",
+      "label": "vermiform appendix",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001169",
+      "label": "wall of large intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000159",
+      "label": "anal canal",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4300139",
+      "label": "posterolingual region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4300138",
+      "label": "labial region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4300137",
+      "label": "lingual region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2002108",
+      "label": "buccal papilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0036293",
+      "label": "oral frenulum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035942",
+      "label": "space between upper and lower jaws",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:1000011",
+      "label": "labial commissure",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034767",
+      "label": "buccal vestibule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016915",
+      "label": "vermilion",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016482",
+      "label": "dental plaque",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013656",
+      "label": "dulla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012105",
+      "label": "baleen plate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011595",
+      "label": "jaw region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011349",
+      "label": "pterygomandibular raphe",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011303",
+      "label": "lamprey sucker",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011268",
+      "label": "sublingua",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010056",
+      "label": "future tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008805",
+      "label": "gingival groove",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008802",
+      "label": "cheek pouch",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008253",
+      "label": "Aristotle's lantern",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005905",
+      "label": "insect labrum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003729",
+      "label": "mouth mucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003700",
+      "label": "temporomandibular joint",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003679",
+      "label": "mouth floor",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001833",
+      "label": "lip",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001733",
+      "label": "soft palate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001723",
+      "label": "tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001716",
+      "label": "secondary palate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000378",
+      "label": "tongue muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000167",
+      "label": "oral cavity",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000166",
+      "label": "oral opening",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8480046",
+      "label": "mucosa of rumen",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012651",
+      "label": "mucosa of gastroduodenal junction",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006931",
+      "label": "stomach glandular region mucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004998",
+      "label": "mucosa of pylorus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004996",
+      "label": "mucosa of cardia of stomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004995",
+      "label": "mucosa of body of stomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004994",
+      "label": "mucosa of fundus of stomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000424",
+      "label": "gastric pit",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001983",
+      "label": "crypt of Lieberkuhn",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003236",
+      "label": "epithelium of lower jaw",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003235",
+      "label": "epithelium of upper jaw",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001949",
+      "label": "gingival epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013155",
+      "label": "1st arch mandibular ectoderm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012313",
+      "label": "1st arch maxillary ectoderm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010030",
+      "label": "ventral part of pharyngeal pouch 5",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010029",
+      "label": "dorsal part of pharyngeal pouch 5",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010028",
+      "label": "ventral part of pharyngeal pouch 4",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010027",
+      "label": "dorsal part of pharyngeal pouch 4",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010026",
+      "label": "ventral part of pharyngeal pouch 3",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010025",
+      "label": "dorsal part of pharyngeal pouch 3",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010024",
+      "label": "ventral part of pharyngeal pouch 2",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010023",
+      "label": "dorsal part of pharyngeal pouch 2",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010022",
+      "label": "ventral part of pharyngeal pouch 1",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010021",
+      "label": "dorsal part of pharyngeal pouch 1",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004902",
+      "label": "urogenital sinus epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013156",
+      "label": "1st arch mandibular endoderm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013154",
+      "label": "1st arch maxillary endoderm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007690",
+      "label": "early pharyngeal endoderm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015766",
+      "label": "epithelium of duct of salivary gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003361",
+      "label": "epithelium of sublingual gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003360",
+      "label": "epithelium of parotid gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003359",
+      "label": "epithelium of submandibular gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0019206",
+      "label": "tongue papilla epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014452",
+      "label": "gustatory epithelium of tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006919",
+      "label": "tongue squamous epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006918",
+      "label": "parakeratinized epithelium of tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006699",
+      "label": "foramen cecum of tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016545",
+      "label": "pharyngeal ectoderm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013696",
+      "label": "tonsil epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005562",
+      "label": "thymus primordium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014453",
+      "label": "gustatory epithelium of palate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011642",
+      "label": "oral epithelium from ectoderm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009671",
+      "label": "nasal fin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008420",
+      "label": "buccal epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2005256",
+      "label": "intervillus pockets",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2005126",
+      "label": "intestinal bulb epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011184",
+      "label": "epithelium of crypt of Lieberkuhn",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004693",
+      "label": "Peyer's patch epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001213",
+      "label": "intestinal villus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4300130",
+      "label": "lateral pelvic gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4300129",
+      "label": "dorsal pelvic gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0017164",
+      "label": "dorsal cloacal gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012479",
+      "label": "urodeal gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010266",
+      "label": "arthropod hepatopancreas",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010265",
+      "label": "mollusc hepatopancreas",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010050",
+      "label": "infralabial gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010049",
+      "label": "supralabial gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010048",
+      "label": "Duvernoy's gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003409",
+      "label": "gland of tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001044",
+      "label": "saliva-secreting gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008310",
+      "label": "nasopharyngeal gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009116",
+      "label": "thymoid",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003410",
+      "label": "oropharyngeal gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000325",
+      "label": "gastric gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001732",
+      "label": "pharyngeal tonsil",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0036274",
+      "label": "tonsillar pillar",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035228",
+      "label": "tonsillar fossa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013688",
+      "label": "tonsil germinal center",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012181",
+      "label": "tonsil crypt",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010423",
+      "label": "primary lymphoid nodule of tonsil",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007250",
+      "label": "lingual tonsil",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005207",
+      "label": "tonsil capsule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003949",
+      "label": "tubal tonsil",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002373",
+      "label": "palatine tonsil",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010387",
+      "label": "Peyer's patch T cell area",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010386",
+      "label": "Peyer's patch follicle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004697",
+      "label": "Peyer's patch germinal center",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001201",
+      "label": "serosa of stomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009669",
+      "label": "embryonic cloacal lumen",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003903",
+      "label": "bursa of Fabricius",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006217",
+      "label": "cloacal membrane",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000164",
+      "label": "primitive urogenital sinus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012402",
+      "label": "small intestine smooth muscle longitudinal layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012401",
+      "label": "small intestine smooth muscle circular layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012490",
+      "label": "muscle layer of anal canal",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012419",
+      "label": "taenia coli",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600118",
+      "label": "myenteric ganglion",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410011",
+      "label": "myenteric nerve plexus of appendix",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004928",
+      "label": "submucosa of appendix",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003329",
+      "label": "submucosa of anal canal",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004936",
+      "label": "submucosa of pyloric antrum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016511",
+      "label": "lamina propria of fundus of stomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008285",
+      "label": "rumen epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007359",
+      "label": "ruminant forestomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007358",
+      "label": "abomasum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005602",
+      "label": "dorsal mesogastrium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005626",
+      "label": "ventral mesogastrium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005637",
+      "label": "pyloric region epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005477",
+      "label": "stomach fundus epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410031",
+      "label": "muscularis mucosae of appendix",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007178",
+      "label": "muscularis mucosae of colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008827",
+      "label": "murine forestomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007357",
+      "label": "proventriculus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012472",
+      "label": "hepatoduodenal ligament",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012471",
+      "label": "hepatogastric ligament",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010238",
+      "label": "torus pylorus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008861",
+      "label": "pyloric gastric gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001202",
+      "label": "pyloric sphincter",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004997",
+      "label": "mucosa of pyloric antrum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008859",
+      "label": "cardiac gastric gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004550",
+      "label": "gastroesophageal sphincter",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016502",
+      "label": "stomach fundus lumen",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012503",
+      "label": "serosa of fundus of stomach",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010038",
+      "label": "fundic gastric gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008860",
+      "label": "intermediate gastric gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010228",
+      "label": "ruminal fluid",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014510",
+      "label": "lamina of omasum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014475",
+      "label": "endostylar duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010061",
+      "label": "lumen of nasopharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009959",
+      "label": "lumen of oropharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010384",
+      "label": "lumen of laryngopharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2002116",
+      "label": "epibranchial organ",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2002057",
+      "label": "gill opening",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001990",
+      "label": "epibranchial arborescent organ",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001467",
+      "label": "pharyngeal mesoderm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034937",
+      "label": "pharyngeal bar",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011345",
+      "label": "pharyngeal raphe",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011289",
+      "label": "pharyngobasilar fascia",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010937",
+      "label": "salpingopharyngeus muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010234",
+      "label": "palatopharyngeus muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010060",
+      "label": "pharyngeal opening of pharyngotympanic tube",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009867",
+      "label": "Hatschek's diverticulum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009119",
+      "label": "branchial basket",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008815",
+      "label": "pharyngeal slit",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008804",
+      "label": "stylopharyngeus muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007689",
+      "label": "thyroid diverticulum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007303",
+      "label": "pharyngeal vasculature",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006685",
+      "label": "pharyngeal tubercle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003384",
+      "label": "skeletal muscle tissue of pharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003091",
+      "label": "thyroid primordium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001729",
+      "label": "oropharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001728",
+      "label": "nasopharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001051",
+      "label": "hypopharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000355",
+      "label": "pharyngeal mucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004914",
+      "label": "duodenal papilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410040",
+      "label": "high endothelial venule of small intestine Peyer's patch",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0022280",
+      "label": "epithelium of crypt of Lieberkuhn of small intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013636",
+      "label": "epithelium of intestinal villus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006359",
+      "label": "mesoduodenum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0022277",
+      "label": "hepatic flexure of colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0022276",
+      "label": "splenic flexure of colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035805",
+      "label": "muscle layer of sigmoid colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004932",
+      "label": "submucosa of sigmoid colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004931",
+      "label": "submucosa of descending colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004930",
+      "label": "submucosa of transverse colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004929",
+      "label": "submucosa of ascending colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:7770008",
+      "label": "sigmoid colon epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:7770007",
+      "label": "descending colon epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:7770006",
+      "label": "transverse colon epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:7770005",
+      "label": "ascending colon epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007177",
+      "label": "lamina propria of mucosa of colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004993",
+      "label": "mucosa of sigmoid colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004992",
+      "label": "mucosa of descending colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004991",
+      "label": "mucosa of transverse colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004990",
+      "label": "mucosa of ascending colon",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009130",
+      "label": "dorsal meso-duodenum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009961",
+      "label": "esophagus smooth muscle longitudinal layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006223",
+      "label": "dorsal meso-oesophagus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008814",
+      "label": "pharyngeal arch system",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0022361",
+      "label": "lung field",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012172",
+      "label": "stomach primordium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008947",
+      "label": "respiratory primordium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004117",
+      "label": "pharyngeal pouch",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600136",
+      "label": "sigmoid colon lamina propria",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600135",
+      "label": "descending colon lamina propria",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600137",
+      "label": "transverse colon lamina propria",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600134",
+      "label": "ascending colon lamina propria",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006574",
+      "label": "pectinate line",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000569",
+      "label": "ileocecal valve",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012399",
+      "label": "large intestine smooth muscle longitudinal layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012398",
+      "label": "large intestine smooth muscle circular layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0022281",
+      "label": "epithelium of crypt of Lieberkuhn of large intestine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013486",
+      "label": "crypt of Lieberkuhn of appendix",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015716",
+      "label": "anal canal epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012498",
+      "label": "serosa of appendix",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004989",
+      "label": "mucosa of appendix",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003342",
+      "label": "mucosa of anal canal",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410047",
+      "label": "appendix smooth muscle longitudinal layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410046",
+      "label": "appendix smooth muscle circular layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410045",
+      "label": "artery of appendix",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410044",
+      "label": "vein of appendix",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410039",
+      "label": "high endothelial venule of appendix",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410030",
+      "label": "lymphatic vessel of appendix",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410029",
+      "label": "lymphatic capillary of appendix",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410028",
+      "label": "arteriole of appendix",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410020",
+      "label": "venule of appendix",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410012",
+      "label": "submucous nerve plexus of appendix",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0036337",
+      "label": "wall of appendix",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013689",
+      "label": "appendix lymphoid tissue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0036362",
+      "label": "wall of anal canal",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035243",
+      "label": "anal sinus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009882",
+      "label": "anal column",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007158",
+      "label": "lumen of anal canal",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001357",
+      "label": "inferior rectal artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016910",
+      "label": "frenulum of lip",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006689",
+      "label": "frenulum of tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016919",
+      "label": "lower vermilion",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016918",
+      "label": "upper vermilion",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016485",
+      "label": "supragingival dental plaque",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016484",
+      "label": "subgingival dental plaque",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012106",
+      "label": "baleen plate bristle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034995",
+      "label": "jaw mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012360",
+      "label": "bone of jaw",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009654",
+      "label": "alveolar artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001828",
+      "label": "gingiva",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001710",
+      "label": "lower jaw region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001709",
+      "label": "upper jaw region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001708",
+      "label": "jaw skeleton",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010059",
+      "label": "hypoglossal cord",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010057",
+      "label": "hypopharyngeal eminence",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010034",
+      "label": "copula linguae",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006260",
+      "label": "lingual swellings",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013641",
+      "label": "external cheek pouch",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013640",
+      "label": "internal cheek pouch",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012621",
+      "label": "muscle of Aristotle's lantern",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0036294",
+      "label": "mucosa of lip",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035967",
+      "label": "alveolar mucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006956",
+      "label": "buccal mucosa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005020",
+      "label": "mucosa of tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005019",
+      "label": "mucosa of palate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003343",
+      "label": "mucosa of oral region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011320",
+      "label": "ligament of temporomandibular joint",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011319",
+      "label": "disk of temporomandibular joint",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011318",
+      "label": "capsule of temporomandibular joint",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001935",
+      "label": "oral disk",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034719",
+      "label": "lip taste bud",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004833",
+      "label": "lip skeletal muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001835",
+      "label": "lower lip",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001834",
+      "label": "upper lip",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001458",
+      "label": "skin of lip",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034670",
+      "label": "palatal taste bud",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014916",
+      "label": "velar vocal fold",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014780",
+      "label": "palatine aponeurosis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011348",
+      "label": "raphe of soft palate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005024",
+      "label": "mucosa of soft palate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003682",
+      "label": "palatal muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003417",
+      "label": "mesenchyme of soft palate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003358",
+      "label": "epithelium of soft palate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001734",
+      "label": "palatine uvula",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034934",
+      "label": "Weber's gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014790",
+      "label": "lingual septum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013476",
+      "label": "dermal layer of tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011877",
+      "label": "margin of tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011876",
+      "label": "body of tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014451",
+      "label": "tongue taste bud",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009471",
+      "label": "dorsum of tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010032",
+      "label": "anterior part of tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006916",
+      "label": "non-keratinized epithelium of tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006688",
+      "label": "sublingual caruncle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006330",
+      "label": "anterior lingual gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007367",
+      "label": "surface of tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004650",
+      "label": "tongue keratinized epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003416",
+      "label": "mesenchyme of tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001576",
+      "label": "intrinsic muscle of tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001610",
+      "label": "lingual artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011346",
+      "label": "palatine raphe",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010426",
+      "label": "oropharyngeal choana",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009207",
+      "label": "geschmacksstreifen",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003216",
+      "label": "hard palate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001575",
+      "label": "extrinsic muscle of tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001574",
+      "label": "palatoglossus muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018149",
+      "label": "angle of oral opening",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009672",
+      "label": "oronasal membrane",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008806",
+      "label": "buccal funnel",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006272",
+      "label": "oronasal cavity",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005867",
+      "label": "mandibular prominence",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010154",
+      "label": "inner lining mucosa of the abomasum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013740",
+      "label": "wall of crypt of Lieberkuhn",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013739",
+      "label": "base of crypt of Lieberkuhn",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011596",
+      "label": "future lower lip",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006957",
+      "label": "submandibular gland primordium epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005710",
+      "label": "lower jaw incisor epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005654",
+      "label": "lower jaw molar epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011592",
+      "label": "future upper lip",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005709",
+      "label": "upper jaw incisor epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005659",
+      "label": "primary palate epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005658",
+      "label": "secondary palatal shelf epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005653",
+      "label": "upper jaw molar epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003368",
+      "label": "epithelium of hard palate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035149",
+      "label": "gingival epithelial attachment",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013195",
+      "label": "parakeratinized epithelium of gingiva",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009847",
+      "label": "prostate field",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003820",
+      "label": "prostate bud",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035076",
+      "label": "parotid gland myoepithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005879",
+      "label": "pharyngeal cleft",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008817",
+      "label": "thymus primordium endoderm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8700001",
+      "label": "follicle associated epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410004",
+      "label": "small intestine arteriole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410001",
+      "label": "small intestine venule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018410",
+      "label": "lacteal",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013475",
+      "label": "gustatory gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035053",
+      "label": "interlobular duct of salivary gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035049",
+      "label": "excretory duct of salivary gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014727",
+      "label": "intercalated duct of salivary gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0017653",
+      "label": "intermaxillary salivary gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011850",
+      "label": "acinus of salivary gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012102",
+      "label": "buccal salivary gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001837",
+      "label": "duct of salivary gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001830",
+      "label": "minor salivary gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001829",
+      "label": "major salivary gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009971",
+      "label": "principal gastric gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003904",
+      "label": "bursal plica",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016505",
+      "label": "Mullerian tubercle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013244",
+      "label": "vaginal plate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013245",
+      "label": "sinovaginal bulb",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009844",
+      "label": "urogenital sinus lumen",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010153",
+      "label": "rumen papilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001247",
+      "label": "falciform ligament",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018103",
+      "label": "posterior fascicle of palatopharyngeus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009869",
+      "label": "Hatschek's right diverticulum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009868",
+      "label": "Hatschek's left diverticulum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2000666",
+      "label": "filamental artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004363",
+      "label": "pharyngeal arch artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003261",
+      "label": "thyroid primordium endoderm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001761",
+      "label": "future foramen cecum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005022",
+      "label": "mucosa of nasopharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003582",
+      "label": "nasopharynx connective tissue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004987",
+      "label": "mucosa of laryngopharynx",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000388",
+      "label": "epiglottis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012272",
+      "label": "minor duodenal papilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012271",
+      "label": "major duodenal papilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004913",
+      "label": "hepatopancreatic ampulla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010046",
+      "label": "entire pharyngeal arch associated mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006216",
+      "label": "cervical sinus of His",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002539",
+      "label": "pharyngeal arch",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0036073",
+      "label": "respiratory primordium mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005597",
+      "label": "lung primordium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001129",
+      "label": "pharyngeal pouches 2-6",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007127",
+      "label": "pharyngeal pouch 6",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007126",
+      "label": "pharyngeal pouch 5",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007125",
+      "label": "pharyngeal pouch 4",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007124",
+      "label": "pharyngeal pouch 3",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007123",
+      "label": "pharyngeal pouch 2",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007122",
+      "label": "pharyngeal pouch 1",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410005",
+      "label": "transitional glandular epithelium of anorectum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8410049",
+      "label": "serosal nerve fiber of appendix",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016913",
+      "label": "frenulum of lower lip",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016912",
+      "label": "frenulum of upper lip",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003324",
+      "label": "mesenchyme of lower jaw",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003323",
+      "label": "mesenchyme of upper jaw",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000645",
+      "label": "corpus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011597",
+      "label": "bone of upper jaw",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004768",
+      "label": "bone of lower jaw",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014693",
+      "label": "inferior alveolar artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012376",
+      "label": "retromolar triangle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011602",
+      "label": "gingiva of lower jaw",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011601",
+      "label": "gingiva of upper jaw",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:7500053",
+      "label": "lower fourth secondary premolar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3010144",
+      "label": "odontoids",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001805",
+      "label": "articular bone",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2000422",
+      "label": "retroarticular",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035117",
+      "label": "diastema between lower central incisors",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018623",
+      "label": "lower secondary incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018622",
+      "label": "lower canine tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018617",
+      "label": "primary lower tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018614",
+      "label": "permanent lower tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018602",
+      "label": "lower lateral incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018601",
+      "label": "lower central incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018600",
+      "label": "lower second primary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018598",
+      "label": "lower primary canine tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018589",
+      "label": "lower first primary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018580",
+      "label": "lower third secondary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018579",
+      "label": "lower second secondary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018578",
+      "label": "lower first secondary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018574",
+      "label": "lower second secondary premolar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018573",
+      "label": "lower first secondary premolar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018562",
+      "label": "lower secondary canine tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018285",
+      "label": "lower premolar 2",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018284",
+      "label": "lower premolar 1",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018282",
+      "label": "lower molar 3",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018281",
+      "label": "lower deciduous premolar 5",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0017748",
+      "label": "lower primary incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0017612",
+      "label": "cingulum of lower jaw molar",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0017299",
+      "label": "cingulum of lower incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0017272",
+      "label": "lower primary premolar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016943",
+      "label": "lower premolar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016453",
+      "label": "lower secondary premolar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016624",
+      "label": "lunge feeding vibrissa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013621",
+      "label": "lower secondary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013620",
+      "label": "lower primary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013612",
+      "label": "lower jaw cingulum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011636",
+      "label": "surangular bone",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011079",
+      "label": "angular bone",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010013",
+      "label": "lower beak",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008199",
+      "label": "chin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006669",
+      "label": "alveolar canal",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006606",
+      "label": "mandibular symphysis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006298",
+      "label": "submandibular gland primordium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003667",
+      "label": "lower jaw molar",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003451",
+      "label": "lower jaw incisor",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003268",
+      "label": "tooth of lower jaw",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003278",
+      "label": "skeleton of lower jaw",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001831",
+      "label": "parotid gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001736",
+      "label": "submandibular gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:7500057",
+      "label": "upper fourth secondary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4300133",
+      "label": "upper jaw symphyseal region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4300017",
+      "label": "rostrodermethmoid",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000597",
+      "label": "symphysis maxillaris",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000547",
+      "label": "rostral process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000295",
+      "label": "median symphysis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2002092",
+      "label": "rostral cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001632",
+      "label": "ectopterygoid tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001406",
+      "label": "kinethmoid bone",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035116",
+      "label": "diastema between upper central incisors",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034909",
+      "label": "intermaxillary suture",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0019253",
+      "label": "upper secondary incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018648",
+      "label": "upper premolar 4",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018621",
+      "label": "upper canine tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018616",
+      "label": "primary upper tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018613",
+      "label": "secondary upper tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018604",
+      "label": "upper lateral incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018603",
+      "label": "upper central incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018599",
+      "label": "upper second primary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018597",
+      "label": "upper primary canine tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018591",
+      "label": "upper primary incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018588",
+      "label": "upper first primary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018572",
+      "label": "upper second secondary premolar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018571",
+      "label": "upper first secondary premolar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018561",
+      "label": "upper secondary canine tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018302",
+      "label": "upper molar 1",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018301",
+      "label": "upper deciduous premolar 5",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018300",
+      "label": "upper canine 1",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018577",
+      "label": "upper third secondary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018576",
+      "label": "upper second secondary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018575",
+      "label": "upper first secondary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0017613",
+      "label": "cingulum of upper jaw molar",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0017298",
+      "label": "cingulum of upper incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0017271",
+      "label": "upper primary premolar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016944",
+      "label": "upper premolar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016455",
+      "label": "upper lateral secondary incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016454",
+      "label": "upper central secondary incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016452",
+      "label": "upper secondary premolar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013619",
+      "label": "upper secondary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013617",
+      "label": "upper primary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013613",
+      "label": "upper jaw cingulum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011634",
+      "label": "ectopterygoid bone",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010169",
+      "label": "moustache",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010012",
+      "label": "upper beak",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003666",
+      "label": "upper jaw molar",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003450",
+      "label": "upper jaw incisor",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003277",
+      "label": "skeleton of upper jaw",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003267",
+      "label": "tooth of upper jaw",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4200250",
+      "label": "meckelian bone",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000998",
+      "label": "suprarostral cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000237",
+      "label": "infrarostral cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018297",
+      "label": "resorption pit",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013135",
+      "label": "interdental plate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012111",
+      "label": "diastema",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004103",
+      "label": "alveolar ridge",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001035",
+      "label": "dento-alveolar joint",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006756",
+      "label": "median lingual swelling",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006757",
+      "label": "lateral lingual swelling",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005032",
+      "label": "mucosa of lower lip",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005031",
+      "label": "mucosa of upper lip",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010052",
+      "label": "mucosa of dorsum of tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001726",
+      "label": "papilla of tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005046",
+      "label": "mucosa of hard palate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005334",
+      "label": "oral lamina propria",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018150",
+      "label": "skin of lower lip",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3010091",
+      "label": "upper lip protuberances",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018151",
+      "label": "skin of upper lip",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005402",
+      "label": "philtrum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005025",
+      "label": "mucosa of uvula",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010235",
+      "label": "uvular muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008586",
+      "label": "tensor veli palatini",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008585",
+      "label": "levator veli palatini",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010033",
+      "label": "posterior part of tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006360",
+      "label": "tongue intermolar eminence",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015445",
+      "label": "anterior lingual gland duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007373",
+      "label": "inferior surface of tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007371",
+      "label": "superior surface of tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008584",
+      "label": "vertical muscle of tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008583",
+      "label": "transverse muscle of tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008582",
+      "label": "superior longitudinal muscle of tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600097",
+      "label": "deep lingual artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011347",
+      "label": "raphe of hard palate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035122",
+      "label": "interincisive suture",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035127",
+      "label": "suture of hard palate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035126",
+      "label": "transverse palatine suture",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012074",
+      "label": "bony part of hard palate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008799",
+      "label": "transverse palatine fold",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006672",
+      "label": "incisive canal",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003424",
+      "label": "mesenchyme of hard palate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001572",
+      "label": "hyoglossus muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001571",
+      "label": "genioglossus muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001573",
+      "label": "styloglossus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006905",
+      "label": "mandibular process mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013157",
+      "label": "1st arch maxillary-mandibular cleft",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005875",
+      "label": "4th arch pharyngeal cleft",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005874",
+      "label": "3rd arch pharyngeal cleft",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005873",
+      "label": "2nd arch pharyngeal cleft",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005872",
+      "label": "1st arch pharyngeal cleft",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035078",
+      "label": "parotid gland interlobular duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035048",
+      "label": "parotid gland excretory duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035046",
+      "label": "parotid gland intercalated duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011847",
+      "label": "acinus of parotid gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010242",
+      "label": "anterior buccal gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010241",
+      "label": "molar gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010240",
+      "label": "zygomatic gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035045",
+      "label": "parotid gland intralobular duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014729",
+      "label": "striated duct of salivary gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002334",
+      "label": "submandibular duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001838",
+      "label": "sublingual duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8480065",
+      "label": "labial gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002447",
+      "label": "palatine gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001832",
+      "label": "sublingual gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003905",
+      "label": "bursal follicle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015142",
+      "label": "falciform fat",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2005018",
+      "label": "efferent filamental artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2005012",
+      "label": "afferent filamental artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2000716",
+      "label": "afferent portion of pharyngeal arch artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2000202",
+      "label": "efferent portion of pharyngeal arch artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003123",
+      "label": "pharyngeal arch artery 6",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003122",
+      "label": "pharyngeal arch artery 5",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003121",
+      "label": "pharyngeal arch artery 4",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003120",
+      "label": "pharyngeal arch artery 3",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003119",
+      "label": "pharyngeal arch artery 2",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003118",
+      "label": "pharyngeal arch artery 1",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004982",
+      "label": "mucosa of epiglottis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001742",
+      "label": "epiglottic cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004915",
+      "label": "sphincter of hepatopancreatic ampulla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010360",
+      "label": "pharyngeal arch mesenchyme from head mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010359",
+      "label": "pharyngeal arch mesenchyme from neural crest",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009494",
+      "label": "pharyngeal arch mesenchymal region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009210",
+      "label": "pharyngeal membrane",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008896",
+      "label": "post-hyoid pharyngeal arch",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004362",
+      "label": "pharyngeal arch 1",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003117",
+      "label": "pharyngeal arch 6",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003116",
+      "label": "pharyngeal arch 5",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003115",
+      "label": "pharyngeal arch 4",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003114",
+      "label": "pharyngeal arch 3",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003066",
+      "label": "pharyngeal arch 2",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009539",
+      "label": "mesenchyme of submandibular gland primordium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005708",
+      "label": "lower jaw incisor odontogenic papilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005701",
+      "label": "lower jaw molar odontogenic papilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003419",
+      "label": "mesenchyme of parotid",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003418",
+      "label": "mesenchyme of submandibular gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003414",
+      "label": "mesenchyme of mandible",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005705",
+      "label": "primary palate mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005704",
+      "label": "secondary palatal shelf mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005700",
+      "label": "upper jaw molar odontogenic papilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005707",
+      "label": "upper jaw incisor odontogenic papilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000646",
+      "label": "margo libera",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000509",
+      "label": "processus suprafenestralis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000492",
+      "label": "processus infrafenestralis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000110",
+      "label": "crista contacta",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000323",
+      "label": "nasopremaxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000288",
+      "label": "maxillopalatine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2002020",
+      "label": "hypomaxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001692",
+      "label": "median premaxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2000620",
+      "label": "autopalatine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2000240",
+      "label": "metapterygoid",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2000103",
+      "label": "supramaxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2000657",
+      "label": "entopterygoid",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011773",
+      "label": "upper jaw opening",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011628",
+      "label": "early premaxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011267",
+      "label": "quadratojugal bone",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006597",
+      "label": "quadrate bone",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002397",
+      "label": "maxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002396",
+      "label": "vomer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002244",
+      "label": "premaxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001682",
+      "label": "palatine bone",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4300199",
+      "label": "postsplenial",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4200245",
+      "label": "parasymphysial plate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000966",
+      "label": "angulosplenial",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000518",
+      "label": "pseudodentary",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000515",
+      "label": "pseudoangular",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001274",
+      "label": "coronomeckelian",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011637",
+      "label": "prearticular bone",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011635",
+      "label": "splenial bone",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011598",
+      "label": "coronoid bone",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011772",
+      "label": "lower jaw opening",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011770",
+      "label": "mentomeckelian",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004744",
+      "label": "articular/anguloarticular",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004742",
+      "label": "dentary",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018570",
+      "label": "lower lateral secondary incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018568",
+      "label": "lower central secondary incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0017313",
+      "label": "cingulum of lower canine tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018596",
+      "label": "lower lateral primary incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018595",
+      "label": "lower central primary incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490047",
+      "label": "left lower second primary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490021",
+      "label": "right lower second primary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490049",
+      "label": "left lower primary canine tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490023",
+      "label": "right lower primary canine tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490048",
+      "label": "left lower first primary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490022",
+      "label": "right lower first primary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490034",
+      "label": "left lower third secondary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490008",
+      "label": "right lower third secondary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490035",
+      "label": "left lower second secondary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490009",
+      "label": "right lower second secondary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490036",
+      "label": "left lower first secondary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490010",
+      "label": "right lower first secondary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490037",
+      "label": "left lower second secondary premolar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490011",
+      "label": "right lower second secondary premolar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490038",
+      "label": "left lower first secondary premolar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490012",
+      "label": "right lower first secondary premolar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490039",
+      "label": "left lower secondary canine tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490013",
+      "label": "right lower secondary canine tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:7500054",
+      "label": "lower third secondary premolar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:7500052",
+      "label": "lower fourth secondary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4200243",
+      "label": "surangular pit line",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007332",
+      "label": "mandibular rhamphotheca",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:1000000",
+      "label": "chin ventral margin",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008596",
+      "label": "mentalis muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001655",
+      "label": "submental vein",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001581",
+      "label": "depressor labii inferioris",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016621",
+      "label": "lunge feeding organ",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000519",
+      "label": "pseudodentary tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018299",
+      "label": "mandibular symphyseal tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011603",
+      "label": "coronoid tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011594",
+      "label": "dentary tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000450",
+      "label": "posterior mental process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000038",
+      "label": "basimandibulare",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018338",
+      "label": "medial cotyla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018333",
+      "label": "labial cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018331",
+      "label": "intraramal joint",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014684",
+      "label": "Helicoprion tooth whorl",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014683",
+      "label": "parasymphisial tooth whorl",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009679",
+      "label": "set of lower jaw teeth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003107",
+      "label": "Meckel's cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035047",
+      "label": "parotid gland striated duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001065",
+      "label": "parotid main excretory duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0017312",
+      "label": "cingulum of upper canine tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018594",
+      "label": "upper lateral primary incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018593",
+      "label": "upper central primary incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490042",
+      "label": "left upper second primary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490016",
+      "label": "right upper second primary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490044",
+      "label": "left upper primary canine tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490018",
+      "label": "right upper primary canine tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490043",
+      "label": "left upper first primary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490017",
+      "label": "right upper first primary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490029",
+      "label": "left upper second secondary premolar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490003",
+      "label": "right upper second secondary premolar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490004",
+      "label": "right upper first secondary premolar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490030",
+      "label": "left upper first secondary premolar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490031",
+      "label": "left upper secondary canine tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490005",
+      "label": "right upper secondary canine tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490026",
+      "label": "left upper third secondary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490000",
+      "label": "right upper third secondary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490027",
+      "label": "left upper second secondary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490001",
+      "label": "right upper second secondary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490028",
+      "label": "left upper first secondary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490002",
+      "label": "right upper first secondary molar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490032",
+      "label": "left upper lateral secondary incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490006",
+      "label": "right upper lateral secondary incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490033",
+      "label": "left upper central secondary incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490007",
+      "label": "right upper central secondary incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:7500059",
+      "label": "upper third secondary premolar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:7500058",
+      "label": "upper fourth secondary premolar tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007331",
+      "label": "maxillary rhamphotheca",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015852",
+      "label": "narwhal tusk",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015851",
+      "label": "upper right incisor tusk",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015847",
+      "label": "upper left incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011085",
+      "label": "palatoquadrate arch",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009680",
+      "label": "set of upper jaw teeth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005619",
+      "label": "secondary palatal shelf",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000642",
+      "label": "maxillopalatine tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001626",
+      "label": "premaxillary tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012070",
+      "label": "palatal tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011593",
+      "label": "maxillary tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4200251",
+      "label": "meckelian foramen",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3010458",
+      "label": "suprarostral ala",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035119",
+      "label": "diastema between incisors",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034898",
+      "label": "alveolar ridge of premaxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004528",
+      "label": "alveolar ridge of mandible",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004527",
+      "label": "alveolar process of maxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003686",
+      "label": "tooth socket",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0023541",
+      "label": "conical papilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014389",
+      "label": "gustatory papilla of tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013638",
+      "label": "horny papilla of tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013639",
+      "label": "mechanical papilla of tongue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002448",
+      "label": "fungiform papilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002467",
+      "label": "filiform papilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016442",
+      "label": "median palatine suture",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0036144",
+      "label": "incisive duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011535",
+      "label": "chondroglossus muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008428",
+      "label": "ceratoglossus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010337",
+      "label": "mandibular process mesenchyme from head mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010336",
+      "label": "mandibular process mesenchyme from neural crest",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003986",
+      "label": "minor sublingual duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003985",
+      "label": "major sublingual duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003420",
+      "label": "mesenchyme of sublingual gland",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2005019",
+      "label": "efferent lamellar arteriole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2005015",
+      "label": "afferent lamellar arteriole",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2005014",
+      "label": "recurrent branch afferent branchial artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2005013",
+      "label": "concurrent branch afferent branchial artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010347",
+      "label": "6th arch mesenchyme from head mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010345",
+      "label": "4th arch mesenchyme from head mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010344",
+      "label": "3rd arch mesenchyme from head mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010343",
+      "label": "2nd arch mesenchyme from head mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010341",
+      "label": "1st arch mesenchyme from head mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010259",
+      "label": "1st arch mesenchyme from neural crest",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010257",
+      "label": "6th arch mesenchyme from neural crest",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010256",
+      "label": "4th arch mesenchyme from neural crest",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010255",
+      "label": "3rd arch mesenchyme from neural crest",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010254",
+      "label": "2nd arch mesenchyme from neural crest",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013502",
+      "label": "5th arch mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010042",
+      "label": "1st arch mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010031",
+      "label": "6th arch mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005691",
+      "label": "4th arch mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005690",
+      "label": "3rd arch mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005689",
+      "label": "2nd arch mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009217",
+      "label": "pharyngeal membrane of 4th arch",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009216",
+      "label": "pharyngeal membrane of 3rd arch",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009215",
+      "label": "pharyngeal membrane of 2nd arch",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009213",
+      "label": "pharyngeal membrane of 1st arch",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011638",
+      "label": "pharyngeal arch 8",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011087",
+      "label": "pharyngeal arch 7",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007238",
+      "label": "1st arch maxillary component",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007237",
+      "label": "1st arch mandibular component",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005666",
+      "label": "4th arch endoderm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005662",
+      "label": "4th arch ectoderm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005665",
+      "label": "3rd arch endoderm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005661",
+      "label": "3rd arch ectoderm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005664",
+      "label": "2nd arch endoderm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005660",
+      "label": "2nd arch ectoderm",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004368",
+      "label": "Reichert's cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000647",
+      "label": "crista interna",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000401",
+      "label": "pars facialis of maxillopalatine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001578",
+      "label": "anterior dorsomedial process of autopalatine",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2000699",
+      "label": "entopterygoid vertical strut",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000605",
+      "label": "tentacular foramen",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000654",
+      "label": "pars jugalis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000177",
+      "label": "flange of quadratojugal",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000653",
+      "label": "pars glenoidalis of quadratojugal",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001611",
+      "label": "quadrate posterodorsal process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001610",
+      "label": "quadrate dorsal process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2000224",
+      "label": "quadrate ventral process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018353",
+      "label": "quadrate condyle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018337",
+      "label": "medial condyle of quadrate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018334",
+      "label": "lateral condyle of quadrate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000651",
+      "label": "lamina anterior of maxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000650",
+      "label": "processus frontalis of maxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000581",
+      "label": "sulcus dentalis of maxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000540",
+      "label": "recessus vaginiformis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000512",
+      "label": "processus zygomatico-maxillaris",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000500",
+      "label": "processus posterior of maxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000400",
+      "label": "pars facialis of maxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000281",
+      "label": "margo orbitalis of maxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000652",
+      "label": "fossa maxillaris",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001603",
+      "label": "maxilla ascending process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035139",
+      "label": "anterior nasal spine of maxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018409",
+      "label": "infra-orbital groove of maxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018407",
+      "label": "infra-orbital foramen of maxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018336",
+      "label": "maxillary shank",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018136",
+      "label": "maxillary fenestra",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013767",
+      "label": "frontal process of maxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013217",
+      "label": "zygomatic plate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011245",
+      "label": "infra-orbital canal of maxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005871",
+      "label": "palatine process of maxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001764",
+      "label": "maxillary sinus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000661",
+      "label": "crista vomeri",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000660",
+      "label": "margo choanalis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000659",
+      "label": "postchoanal process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000658",
+      "label": "prechoanal process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000657",
+      "label": "dentigerous process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000649",
+      "label": "anterior process of vomer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000453",
+      "label": "posterolateral vomerine process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000634",
+      "label": "vomerine canal",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:7500112",
+      "label": "prosthion",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4500018",
+      "label": "premaxilla maxillary process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4500016",
+      "label": "premaxilla articular process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000582",
+      "label": "sulcus dentalis of premaxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000539",
+      "label": "recessus marsupiatus of premaxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000115",
+      "label": "crista lateralis of premaxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000003",
+      "label": "alary process of premaxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2002257",
+      "label": "premaxilla dentigerous process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2001577",
+      "label": "premaxilla ascending process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034900",
+      "label": "palatine process of premaxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018341",
+      "label": "nasal process of premaxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018137",
+      "label": "premaxillary fenestra",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0017249",
+      "label": "incisive process of premaxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005620",
+      "label": "primary palate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:7500084",
+      "label": "lesser palatine foramen",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:7500083",
+      "label": "greater palatine foramen",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4300002",
+      "label": "palatine prong",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018314",
+      "label": "choanal groove",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018242",
+      "label": "palatine bone horizontal plate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013068",
+      "label": "palatine torus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4200247",
+      "label": "lateral parasymphysial foramen",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4200246",
+      "label": "mesial parasymphysial foramen",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000012",
+      "label": "angulosplenial coronoid process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000543",
+      "label": "retroarticular process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000493",
+      "label": "processus internus of pseudoangular",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000446",
+      "label": "posterior condyle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000459",
+      "label": "prearticular coronoid process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4200237",
+      "label": "posterior coronoid bone",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4200236",
+      "label": "anterior coronoid bone",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4200235",
+      "label": "postcoronoid bone",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4200234",
+      "label": "precoronoid bone",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000006",
+      "label": "alveolar foramen",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2002012",
+      "label": "dentary foramen",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018542",
+      "label": "mandibular symphyseal region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001684",
+      "label": "mandible",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490040",
+      "label": "left lower lateral secondary incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490014",
+      "label": "right lower lateral secondary incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490041",
+      "label": "left lower central secondary incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490015",
+      "label": "right lower central secondary incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490050",
+      "label": "left lower lateral primary incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490024",
+      "label": "right lower lateral primary incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490051",
+      "label": "left lower central primary incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490025",
+      "label": "right lower central primary incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016622",
+      "label": "lunge feeding organ papilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4200238",
+      "label": "coronoid fang",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4300247",
+      "label": "dentary tooth 3",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4300246",
+      "label": "dentary tooth 2",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000394",
+      "label": "pars articularis of mandibular arch",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490045",
+      "label": "left upper lateral primary incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490019",
+      "label": "right upper lateral primary incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490046",
+      "label": "left upper central primary incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8490020",
+      "label": "right upper central primary incisor tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015853",
+      "label": "dental pulp of median incisor tusk",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015850",
+      "label": "upper left incisor tusk",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4300252",
+      "label": "ethmo-palatine cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004752",
+      "label": "palatoquadrate cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4300244",
+      "label": "premaxillary tooth 3",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4300243",
+      "label": "premaxillary tooth 2",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0012073",
+      "label": "tooth of palatine bone",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004767",
+      "label": "vomerine tooth",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035115",
+      "label": "diastema between central incisors",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000112",
+      "label": "crista dentalis of premaxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000505",
+      "label": "processus pterygoideus of maxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000111",
+      "label": "crista dentalis of maxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000017",
+      "label": "anterior process of pars palatina of maxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002468",
+      "label": "foliate papilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000396",
+      "label": "vallate papilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010339",
+      "label": "1st arch mandibular mesenchyme from head mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010338",
+      "label": "1st arch maxillary mesenchyme from head mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010253",
+      "label": "1st arch maxillary mesenchyme from neural crest",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010252",
+      "label": "1st arch mandibular mesenchyme from neural crest",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010045",
+      "label": "1st arch maxillary mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009584",
+      "label": "1st arch mandibular mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000467",
+      "label": "preorbital process of the pars facialis of the maxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000375",
+      "label": "palatine process of the pars facialis of the maxilla",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000255",
+      "label": "lamina anterior of pars facialis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000022",
+      "label": "antorbital process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008809",
+      "label": "foramina of scarpa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000583",
+      "label": "sulcus for Meckels cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:4200198",
+      "label": "incisor process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013471",
+      "label": "retromolar space",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013450",
+      "label": "simian shelf",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011342",
+      "label": "surface of mandible",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011309",
+      "label": "body of mandible",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011310",
+      "label": "masseteric fossa",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006959",
+      "label": "mandible angular process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006812",
+      "label": "mental foramen",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006673",
+      "label": "mandibular canal",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004661",
+      "label": "mandible temporal crest",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004660",
+      "label": "mandible coronoid process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004659",
+      "label": "mandible neck",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004657",
+      "label": "mandible condylar process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000401",
+      "label": "mandibular ramus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3010824",
+      "label": "processus triangularis of palatoquadrate cartilage",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3010821",
+      "label": "hyoquadrate process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3010820",
+      "label": "suboccular arch",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3010528",
+      "label": "articular process of palatoquadrate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3010061",
+      "label": "anterior quadratocranial commissure",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000527",
+      "label": "quadrate process of palatoquadrate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000516",
+      "label": "pseudobasal process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000380",
+      "label": "palatoquadrate articular process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000365",
+      "label": "otic process",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000363",
+      "label": "otic ligament",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000036",
+      "label": "basal process of palatoquadrate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000031",
+      "label": "ascending process of palatoquadrate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3000523",
+      "label": "pterygoid process of palatoquadrate",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011344",
+      "label": "lateral surface of mandible",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011343",
+      "label": "medial surface of mandible",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004658",
+      "label": "mandible head",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3010094",
+      "label": "quadratoethmoid process",
+      "level": "descendant"
+    }
+  ],
+  "total": 1296
+}

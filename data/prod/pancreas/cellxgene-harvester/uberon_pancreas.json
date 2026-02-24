@@ -1,0 +1,227 @@
+{
+  "queries": [
+    "pancreas"
+  ],
+  "root_terms": [
+    {
+      "obo_id": "UBERON:0001264",
+      "label": "pancreas",
+      "level": "root"
+    }
+  ],
+  "obo_ids": [
+    "UBERON:0001264",
+    "UBERON:8480032",
+    "UBERON:0018235",
+    "UBERON:0018234",
+    "UBERON:0015454",
+    "UBERON:0014726",
+    "UBERON:0009709",
+    "UBERON:0009708",
+    "UBERON:0009752",
+    "UBERON:0007329",
+    "UBERON:0004795",
+    "UBERON:0002527",
+    "UBERON:0001978",
+    "UBERON:0001151",
+    "UBERON:0001150",
+    "UBERON:0001069",
+    "UBERON:0000017",
+    "UBERON:0000016",
+    "UBERON:2005346",
+    "UBERON:0009970",
+    "UBERON:0005429",
+    "UBERON:0001064",
+    "UBERON:0004793",
+    "UBERON:0004792",
+    "UBERON:0037530",
+    "UBERON:0005224",
+    "UBERON:0005223",
+    "UBERON:0005220",
+    "UBERON:0010373",
+    "UBERON:0013697",
+    "UBERON:0007324",
+    "UBERON:0001263",
+    "UBERON:0000006",
+    "UBERON:0015281",
+    "UBERON:0015280"
+  ],
+  "terms": [
+    {
+      "obo_id": "UBERON:0001264",
+      "label": "pancreas",
+      "level": "root"
+    },
+    {
+      "obo_id": "UBERON:8480032",
+      "label": "neck of pancreas",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018235",
+      "label": "capsule of pancreas",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018234",
+      "label": "stroma of pancreas",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015454",
+      "label": "pancreatic fat pad",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014726",
+      "label": "intercalated duct of pancreas",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009709",
+      "label": "ventral pancreas",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009708",
+      "label": "dorsal pancreas",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009752",
+      "label": "pancreas mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007329",
+      "label": "pancreatic duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004795",
+      "label": "pancreas secretion",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002527",
+      "label": "pancreatic lymph node",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001978",
+      "label": "parenchyma of pancreas",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001151",
+      "label": "tail of pancreas",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001150",
+      "label": "body of pancreas",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001069",
+      "label": "head of pancreas",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000017",
+      "label": "exocrine pancreas",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000016",
+      "label": "endocrine pancreas",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2005346",
+      "label": "extrapancreatic duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009970",
+      "label": "epithelium of pancreatic duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005429",
+      "label": "dorsal pancreatic duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001064",
+      "label": "ventral pancreatic duct",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004793",
+      "label": "secretion of exocrine pancreas",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004792",
+      "label": "secretion of endocrine pancreas",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0037530",
+      "label": "inferior pancreatic lymph node",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005224",
+      "label": "pancreas tail parenchyma",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005223",
+      "label": "pancreas body parenchyma",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005220",
+      "label": "pancreas head parenchyma",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010373",
+      "label": "uncinate process of pancreas",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013697",
+      "label": "exocrine pancreas epithelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007324",
+      "label": "pancreatic lobule",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001263",
+      "label": "pancreatic acinus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000006",
+      "label": "islet of Langerhans",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015281",
+      "label": "pancreas right lobe",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015280",
+      "label": "pancreas left lobe",
+      "level": "descendant"
+    }
+  ],
+  "total": 35
+}

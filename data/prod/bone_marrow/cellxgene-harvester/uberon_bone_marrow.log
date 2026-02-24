@@ -1,0 +1,30 @@
+======================================================================
+CellxGene Harvester - 0 Resolve Uberon
+======================================================================
+Started : 2026-02-20 18:05:21
+Log file: data/uberon_bone_marrow.log
+Command : python /mnt/libraries/envs/cellxgene/bin/cellxgene-harvester resolve-uberon bone marrow
+
+
+Resolving: 'bone marrow'
+  Searching OLS4 for: 'bone marrow'
+  Exact match: UBERON:0002371  bone marrow
+  Root term: UBERON:0002371  bone marrow
+  Found 5 descendants for UBERON:0002371
+  [terms resolved for 'bone marrow']
+    Before :        1 terms
+    After  :        6 terms
+    Removed:       -5 terms  (-500.0%)
+  [deduplication]
+    Before :        6 terms
+    After  :        6 terms
+    Removed:        0 terms  (0.0%)
+
+Saved JSON: data/uberon_bone_marrow.json
+Saved CSV : data/uberon_bone_marrow.csv
+Total terms: 6  (root + descendants)
+
+======================================================================
+Finished: 2026-02-20 18:05:22
+Output  : data/uberon_bone_marrow.csv
+======================================================================

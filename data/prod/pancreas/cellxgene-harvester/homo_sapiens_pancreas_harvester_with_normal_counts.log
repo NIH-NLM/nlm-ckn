@@ -1,0 +1,195 @@
+======================================================================
+CellxGene Harvester - 5 Count Normal Cells
+======================================================================
+Started : 2026-02-20 19:07:31
+Log file: data/homo_sapiens_pancreas_harvester_with_normal_counts.log
+Command : python /mnt/libraries/envs/cellxgene/bin/cellxgene-harvester count-normal-cells --input data/homo_sapiens_pancreas_harvester.csv --uberon data/uberon_pancreas.json --min-age 15
+
+UBERON file: data/uberon_pancreas.json
+Min age    : 15
+Output     : data/homo_sapiens_pancreas_harvester_with_normal_counts.csv
+
+UBERON terms: 35 IDs  (roots: pancreas)
+
+Resuming from: data/homo_sapiens_pancreas_harvester_with_normal_counts.csv (15 datasets)
+Already processed: 0 / 15
+
+Opening Census connection (once for all datasets)...
+Census connection open
+
+
+[1/15] 31f657dc-1875-4c4b-a5ca-ce63b3ef3a82
+  Xu (2023.0) - Cell
+    Querying Census (server-side filtered)...
+    Census returned 121,916 cells (tissue+primary+normal filtered)
+  [age filter (>= 15)]
+    Before :  121,916 cells
+    After  :  121,916 cells
+    Removed:        0 cells  (0.0%)
+        Adult: 121,916  Child: 0  Fetal: 0
+  SUCCESS: 121,916 normal cells
+
+[2/15] ff45e623-7f5f-46e3-b47d-56be0341f66b
+  nan (2022.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 14,140 cells (tissue+primary+normal filtered)
+  [age filter (>= 15)]
+    Before :   14,140 cells
+    After  :   14,140 cells
+    Removed:        0 cells  (0.0%)
+        Adult: 14,140  Child: 0  Fetal: 0
+  SUCCESS: 14,140 normal cells
+
+[3/15] c5d88abe-f23a-45fa-a534-788985e93dad
+  nan (2022.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 2,819 cells (tissue+primary+normal filtered)
+  [age filter (>= 15)]
+    Before :    2,819 cells
+    After  :    2,819 cells
+    Removed:        0 cells  (0.0%)
+        Adult: 2,819  Child: 0  Fetal: 0
+  SUCCESS: 2,819 normal cells
+
+[4/15] a68b64d8-aee3-4947-81b7-36b8fe5a44d2
+  nan (2022.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 632 cells (tissue+primary+normal filtered)
+  [age filter (>= 15)]
+    Before :      632 cells
+    After  :      632 cells
+    Removed:        0 cells  (0.0%)
+        Adult: 632  Child: 0  Fetal: 0
+  SUCCESS: 632 normal cells
+
+[5/15] 97a17473-e2b1-4f31-a544-44a60773e2dd
+  nan (2022.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 8,364 cells (tissue+primary+normal filtered)
+  [age filter (>= 15)]
+    Before :    8,364 cells
+    After  :    8,364 cells
+    Removed:        0 cells  (0.0%)
+        Adult: 8,364  Child: 0  Fetal: 0
+  SUCCESS: 8,364 normal cells
+
+[6/15] 5a11f879-d1ef-458a-910c-9b0bdfca5ebf
+  nan (2022.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 2,325 cells (tissue+primary+normal filtered)
+  [age filter (>= 15)]
+    Before :    2,325 cells
+    After  :    2,325 cells
+    Removed:        0 cells  (0.0%)
+        Adult: 2,325  Child: 0  Fetal: 0
+  SUCCESS: 2,325 normal cells
+
+[7/15] 53d208b0-2cfd-4366-9866-c3c6114081bc
+  nan (2022.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 14,140 cells (tissue+primary+normal filtered)
+  [age filter (>= 15)]
+    Before :   14,140 cells
+    After  :   14,140 cells
+    Removed:        0 cells  (0.0%)
+        Adult: 14,140  Child: 0  Fetal: 0
+  SUCCESS: 14,140 normal cells
+
+[8/15] 66d15835-5dc8-4e96-b0eb-f48971cb65e8
+  Enge (2017.0) - Cell
+    Querying Census (server-side filtered)...
+    Census returned 2,544 cells (tissue+primary+normal filtered)
+  [age filter (>= 15)]
+    Before :    2,544 cells
+    After  :    1,814 cells
+    Removed:      730 cells  (28.7%)
+        Adult: 1,814  Child: 509  Fetal: 0
+  SUCCESS: 1,814 normal cells
+
+[9/15] 6725ee8e-ef5b-4e68-8901-61bd14a1fe73
+  Xu (2025.0) - Nat Genet
+    Querying Census (server-side filtered)...
+    Census returned 90,618 cells (tissue+primary+normal filtered)
+  [age filter (>= 15)]
+    Before :   90,618 cells
+    After  :        0 cells
+    Removed:   90,618 cells  (100.0%)
+        Adult: 0  Child: 0  Fetal: 0
+  SUCCESS: 0 normal cells
+
+[10/15] 3294d050-6eeb-4a00-b24c-71aacc9b777f
+  Tritschler (2022.0) - Molecular Metabolism
+    Querying Census (server-side filtered)...
+    Census returned 26,474 cells (tissue+primary+normal filtered)
+  [age filter (>= 15)]
+    Before :   26,474 cells
+    After  :   26,474 cells
+    Removed:        0 cells  (0.0%)
+        Adult: 26,474  Child: 0  Fetal: 0
+  SUCCESS: 26,474 normal cells
+
+[11/15] 37b21763-7f0f-41ae-9001-60bad6e2841d
+  Fasolino (2022.0) - Nat Metab
+    Querying Census (server-side filtered)...
+    Census returned 47,245 cells (tissue+primary+normal filtered)
+  [age filter (>= 15)]
+    Before :   47,245 cells
+    After  :   32,323 cells
+    Removed:   14,922 cells  (31.6%)
+        Adult: 32,323  Child: 14,922  Fetal: 0
+  SUCCESS: 32,323 normal cells
+
+[12/15] 2adb1f8a-a6b1-4909-8ee8-484814e2d4bf
+  Han (2020.0) - Nature
+    Querying Census (server-side filtered)...
+    Census returned 28,473 cells (tissue+primary+normal filtered)
+  [age filter (>= 15)]
+    Before :   28,473 cells
+    After  :    9,727 cells
+    Removed:   18,746 cells  (65.8%)
+        Adult: 9,727  Child: 0  Fetal: 18,746
+  SUCCESS: 9,727 normal cells
+
+[13/15] b07e5164-baf6-43d2-bdba-5a249d0da879
+  Muraro (2016.0) - Cell Systems
+    Querying Census (server-side filtered)...
+    Census returned 2,126 cells (tissue+primary+normal filtered)
+  [age filter (>= 15)]
+    Before :    2,126 cells
+    After  :    2,126 cells
+    Removed:        0 cells  (0.0%)
+        Adult: 2,126  Child: 0  Fetal: 0
+  SUCCESS: 2,126 normal cells
+
+[14/15] fa27492b-82ff-4ab7-ac61-0e2b184eee67
+  Cao (2020.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 11,291 cells (tissue+primary+normal filtered)
+  [age filter (>= 15)]
+    Before :   11,291 cells
+    After  :        0 cells
+    Removed:   11,291 cells  (100.0%)
+        Adult: 0  Child: 0  Fetal: 11,291
+  SUCCESS: 0 normal cells
+
+[15/15] f7c1c579-2dc0-47e2-ba19-8165c5a0e353
+  Cao (2020.0) - Science
+    Querying Census (server-side filtered)...
+    Census returned 45,653 cells (tissue+primary+normal filtered)
+  [age filter (>= 15)]
+    Before :   45,653 cells
+    After  :        0 cells
+    Removed:   45,653 cells  (100.0%)
+        Adult: 0  Child: 0  Fetal: 45,653
+  SUCCESS: 0 normal cells
+
+======================================================================
+  Resumed (already done) : 0
+  Newly processed        : 15
+  Failed                 : 0
+  Skipped (no ID)        : 0
+
+======================================================================
+Finished: 2026-02-20 19:09:10
+Output  : data/homo_sapiens_pancreas_harvester_with_normal_counts.csv
+======================================================================

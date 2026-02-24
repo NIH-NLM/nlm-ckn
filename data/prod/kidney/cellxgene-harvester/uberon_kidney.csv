@@ -1,0 +1,296 @@
+obo_id,label,level
+UBERON:0002113,kidney,root
+UBERON:8920012,segmental renal vein,descendant
+UBERON:8920011,stellate vein of kidney,descendant
+UBERON:8920009,posterior segmental renal artery,descendant
+UBERON:8920008,inferior segmental renal artery,descendant
+UBERON:8920007,anterior inferior segmental renal artery,descendant
+UBERON:8920006,anterior superior segmental renal artery,descendant
+UBERON:8920005,superior segmental renal artery,descendant
+UBERON:8920004,segmental renal artery,descendant
+UBERON:8410073,medullary region of kidney,descendant
+UBERON:7770009,kidney interpolar region,descendant
+UBERON:0035762,capillary network of kidney,descendant
+UBERON:0035758,peritubular capillary plexus of kidney,descendant
+UBERON:0035471,posterior surface of kidney,descendant
+UBERON:0035368,anterior surface of kidney,descendant
+UBERON:0014464,renal fat pad,descendant
+UBERON:0014401,renal venous blood vessel,descendant
+UBERON:0010181,straight venules of kidney,descendant
+UBERON:0010532,primitive nephron,descendant
+UBERON:0009917,kidney corticomedullary boundary,descendant
+UBERON:0009914,renal lobule,descendant
+UBERON:0009913,renal lobe,descendant
+UBERON:0009201,nephric duct,descendant
+UBERON:0008716,hilum of kidney,descendant
+UBERON:0007684,uriniferous tubule,descendant
+UBERON:0007132,head kidney,descendant
+UBERON:0008987,renal parenchyma,descendant
+UBERON:0006553,renal duct,descendant
+UBERON:0006544,kidney vasculature,descendant
+UBERON:0006171,renal sinus,descendant
+UBERON:0005215,kidney interstitium,descendant
+UBERON:0004819,kidney epithelium,descendant
+UBERON:0004538,left kidney,descendant
+UBERON:0004539,right kidney,descendant
+UBERON:0004100,renal collecting system,descendant
+UBERON:0003644,kidney arterial blood vessel,descendant
+UBERON:0003527,kidney capillary,descendant
+UBERON:0003517,kidney blood vessel,descendant
+UBERON:0002120,pronephros,descendant
+UBERON:0002015,kidney capsule,descendant
+UBERON:0001294,inner medulla of kidney,descendant
+UBERON:0001225,cortex of kidney,descendant
+UBERON:0001224,renal pelvis,descendant
+UBERON:0000362,renal medulla,descendant
+UBERON:0000082,adult mammalian kidney,descendant
+UBERON:0000081,metanephros,descendant
+UBERON:0000080,mesonephros,descendant
+UBERON:0001293,outer medulla of kidney,descendant
+UBERON:0001284,renal column,descendant
+UBERON:0005269,renal cortex vein,descendant
+UBERON:0005168,renal interlobular vein,descendant
+UBERON:0004719,kidney arcuate vein,descendant
+UBERON:0010535,primitive metanephric nephron,descendant
+UBERON:0010534,primitive mesonephric nephron,descendant
+UBERON:0007654,maturing nephron,descendant
+UBERON:0007653,capillary loop nephron,descendant
+UBERON:0004199,S-shaped body,descendant
+UBERON:0004198,comma-shaped body,descendant
+UBERON:0003074,mesonephric duct,descendant
+UBERON:0003060,pronephric duct,descendant
+UBERON:0001285,nephron,descendant
+UBERON:0001232,collecting duct of renal tubule,descendant
+UBERON:0001229,renal corpuscle,descendant
+UBERON:0006856,interrenal gland,descendant
+UBERON:3010394,mesonephric late proximal tubule,descendant
+UBERON:3010392,mesonephric early proximal tubule,descendant
+UBERON:2005292,distal late tubule,descendant
+UBERON:2002225,posterior pronephric duct,descendant
+UBERON:0034884,juxtaglomerular arteriole,descendant
+UBERON:0004726,vasa recta,descendant
+UBERON:0004190,renal glomerulus vasculature,descendant
+UBERON:0006196,mesonephric sinus,descendant
+UBERON:0006195,renal sinus of left kidney,descendant
+UBERON:0006194,renal sinus of right kidney,descendant
+UBERON:0006174,pronephric sinus,descendant
+UBERON:0018114,right kidney interstitium,descendant
+UBERON:0018113,left kidney interstitium,descendant
+UBERON:0006373,perihilar interstitium,descendant
+UBERON:0005270,renal cortex interstitium,descendant
+UBERON:0005211,renal medulla interstitium,descendant
+UBERON:0002319,mesangium,descendant
+UBERON:0012441,endothelium of peritubular capillary,descendant
+UBERON:0005108,metanephric epithelium,descendant
+UBERON:0005103,mesonephric epithelium,descendant
+UBERON:0004788,kidney pelvis urothelium,descendant
+UBERON:0004211,nephron epithelium,descendant
+UBERON:0018119,left renal medulla interstitium,descendant
+UBERON:0018117,left renal cortex interstitium,descendant
+UBERON:0018120,right renal medulla interstitium,descendant
+UBERON:0018118,right renal cortex interstitium,descendant
+UBERON:0005268,renal cortex artery,descendant
+UBERON:0004723,interlobular artery,descendant
+UBERON:0004640,renal efferent arteriole,descendant
+UBERON:0004639,renal afferent arteriole,descendant
+UBERON:0001552,kidney arcuate artery,descendant
+UBERON:0005272,peritubular capillary,descendant
+UBERON:0004212,glomerular capillary,descendant
+UBERON:0009622,pronephric proximal straight tubule,descendant
+UBERON:0007308,pronephric distal early tubule,descendant
+UBERON:0007298,pronephric proximal convoluted tubule,descendant
+UBERON:0006175,pronephric distal tubule,descendant
+UBERON:0006173,pronephric proximal tubule,descendant
+UBERON:0006172,rectal diverticulum,descendant
+UBERON:0007307,pronephric glomerular basement membrane,descendant
+UBERON:0007306,pronephric glomerular capillary,descendant
+UBERON:0005309,pronephric nephron,descendant
+UBERON:0005308,nephrostome,descendant
+UBERON:0004739,pronephric glomerulus,descendant
+UBERON:0006170,mesonephric capsule,descendant
+UBERON:0005137,metanephric capsule,descendant
+UBERON:8600037,kidney loop of Henle long descending thin limb inner medulla,descendant
+UBERON:0005214,inner renal medulla interstitium,descendant
+UBERON:0004776,inner renal medulla vasa recta,descendant
+UBERON:0004205,inner medullary collecting duct,descendant
+UBERON:0003455,inner renal medulla loop of Henle,descendant
+UBERON:0001228,renal papilla,descendant
+UBERON:0010533,metanephros cortex,descendant
+UBERON:0009883,medullary ray,descendant
+UBERON:0009871,nephrogenic zone,descendant
+UBERON:0006853,renal cortex tubule,descendant
+UBERON:0006851,renal cortex peritubular capillary,descendant
+UBERON:0005271,juxtamedullary cortex,descendant
+UBERON:0004203,cortical collecting duct,descendant
+UBERON:0004134,proximal tubule,descendant
+UBERON:0002303,juxtaglomerular apparatus,descendant
+UBERON:0002189,outer cortex of kidney,descendant
+UBERON:0001287,proximal convoluted tubule,descendant
+UBERON:0001292,distal convoluted tubule,descendant
+UBERON:0018116,right renal pelvis,descendant
+UBERON:0018115,left renal pelvis,descendant
+UBERON:0006517,kidney calyx,descendant
+UBERON:0005249,metanephric renal pelvis,descendant
+UBERON:0005006,mucosa of renal pelvis,descendant
+UBERON:0004227,kidney pelvis smooth muscle,descendant
+UBERON:0034997,renal medulla loop of Henle,descendant
+UBERON:0005185,renal medulla collecting duct,descendant
+UBERON:0004200,kidney pyramid,descendant
+UBERON:0005151,metanephric proximal tubule,descendant
+UBERON:0005149,metanephric connecting tubule,descendant
+UBERON:0005148,metanephric S-shaped body,descendant
+UBERON:0005147,metanephric renal vesicle,descendant
+UBERON:0005144,metanephric glomerular capillary,descendant
+UBERON:0005141,metanephric short descending thin limb,descendant
+UBERON:0005140,metanephric short nephron,descendant
+UBERON:0005139,metanephric long descending thin limb,descendant
+UBERON:0005136,metanephric glomerular endothelium,descendant
+UBERON:0005135,metanephric glomerular epithelium,descendant
+UBERON:0005134,metanephric nephron epithelium,descendant
+UBERON:0005133,metanephric glomerulus vasculature,descendant
+UBERON:0005132,metanephric long nephron,descendant
+UBERON:0005130,metanephric loop of Henle,descendant
+UBERON:0005127,metanephric thick ascending limb,descendant
+UBERON:0005126,metanephric S1,descendant
+UBERON:0005125,metanephric proximal straight tubule,descendant
+UBERON:0005124,metanephric proximal convoluted tubule,descendant
+UBERON:0005123,metanephric prebend segment,descendant
+UBERON:0005122,metanephric macula densa,descendant
+UBERON:0005121,metanephric long descending thin limb bend,descendant
+UBERON:0005120,metanephric late distal convoluted tubule,descendant
+UBERON:0005119,metanephric glomerular mesangium,descendant
+UBERON:0005118,metanephric early distal convoluted tubule,descendant
+UBERON:0005117,metanephric distal convoluted tubule,descendant
+UBERON:0005129,metanephric distal tubule,descendant
+UBERON:0005115,metanephric cortical collecting duct,descendant
+UBERON:0005114,metanephric ascending thin limb,descendant
+UBERON:0005111,metanephric pyramid,descendant
+UBERON:0005110,metanephric nephron,descendant
+UBERON:0005109,metanephric smooth muscle tissue,descendant
+UBERON:0005106,metanephric tubule,descendant
+UBERON:0005146,metanephric nephron tubule,descendant
+UBERON:0005145,metanephric comma-shaped body,descendant
+UBERON:0004737,metanephric collecting duct,descendant
+UBERON:0004736,metanephric glomerulus,descendant
+UBERON:0004738,metanephric juxtaglomerular apparatus,descendant
+UBERON:0005116,metanephric descending thin limb,descendant
+UBERON:2001293,posterior kidney,descendant
+UBERON:2001200,corpuscles of Stannius,descendant
+UBERON:0010537,mesonephric nephron progenitor,descendant
+UBERON:0006857,interrenal primordium,descendant
+UBERON:0006192,mesonephric proximal tubule,descendant
+UBERON:0006189,mesonephric connecting tubule,descendant
+UBERON:0006183,mesonephric glomerular capillary,descendant
+UBERON:0006182,mesonephric glomerular mesangium,descendant
+UBERON:0006190,mesonephric distal tubule,descendant
+UBERON:0005331,mesonephric renal vesicle,descendant
+UBERON:0005330,mesonephric nephron epithelium,descendant
+UBERON:0005329,mesonephric nephron tubule,descendant
+UBERON:0005328,mesonephric comma-shaped body,descendant
+UBERON:0005327,mesonephric glomerular epithelium,descendant
+UBERON:0005326,mesonephric glomerulus vasculature,descendant
+UBERON:0005325,mesonephric glomerulus,descendant
+UBERON:0005324,mesonephric macula densa,descendant
+UBERON:0005323,mesonephric mesenchyme,descendant
+UBERON:0005322,mesonephric nephron,descendant
+UBERON:0005321,mesonephric smooth muscle tissue,descendant
+UBERON:0005320,mesonephric juxtaglomerular apparatus,descendant
+UBERON:0005319,mesonephric collecting duct,descendant
+UBERON:0005332,mesonephric S-shaped body,descendant
+UBERON:0000083,mesonephric tubule,descendant
+UBERON:8600036,kidney loop of Henle long descending thin limb outer medulla,descendant
+UBERON:0034996,outer renal medulla loop of Henle,descendant
+UBERON:0006341,outer renal medulla peritubular capillary,descendant
+UBERON:0005213,outer renal medulla interstitium,descendant
+UBERON:0004775,outer renal medulla vasa recta,descendant
+UBERON:0004204,outer medullary collecting duct,descendant
+UBERON:0004202,kidney outer medulla outer stripe,descendant
+UBERON:0004201,kidney outer medulla inner stripe,descendant
+UBERON:0011574,mesonephric duct lumen,descendant
+UBERON:0000084,ureteric bud,descendant
+UBERON:2001055,pronephric duct opening,descendant
+UBERON:0004195,short nephron,descendant
+UBERON:0004194,long nephron,descendant
+UBERON:0005100,long descending thin limb,descendant
+UBERON:0005099,short descending thin limb,descendant
+UBERON:0001231,nephron tubule,descendant
+UBERON:0014388,kidney collecting duct epithelium,descendant
+UBERON:0005167,papillary duct,descendant
+UBERON:0005777,glomerular basement membrane,descendant
+UBERON:0002321,extraglomerular mesangium,descendant
+UBERON:0001230,glomerular capsule,descendant
+UBERON:0000074,renal glomerulus,descendant
+UBERON:0009202,descending vasa recta,descendant
+UBERON:0009091,ascending vasa recta,descendant
+UBERON:0004189,glomerular endothelium,descendant
+UBERON:0002320,glomerular mesangium,descendant
+UBERON:0012352,mesangial matrix,descendant
+UBERON:0005912,transitional epithelium of major calyx,descendant
+UBERON:2005311,pronephric glomerular capsule epithelium,descendant
+UBERON:0005102,late distal convoluted tubule,descendant
+UBERON:0004810,nephron tubule epithelium,descendant
+UBERON:0004188,glomerular epithelium,descendant
+UBERON:0005101,early distal convoluted tubule,descendant
+UBERON:0002335,macula densa,descendant
+UBERON:0006374,part of afferent arteriole forming the juxtaglomerular complex,descendant
+UBERON:0004294,glomerular capillary endothelium,descendant
+UBERON:3011121,late distal segment,descendant
+UBERON:3011120,early proximal tubule,descendant
+UBERON:0005310,pronephric nephron tubule,descendant
+UBERON:0009092,inner medulla ascending vasa recta,descendant
+UBERON:0009089,inner medulla descending vasa recta,descendant
+UBERON:0004193,loop of Henle ascending limb thin segment,descendant
+UBERON:0009095,tip of renal papilla,descendant
+UBERON:0010531,metanephros induced blastemal cells,descendant
+UBERON:0006854,distal straight tubule postmacula segment,descendant
+UBERON:0005202,distal straight tubule macula densa,descendant
+UBERON:0001290,proximal straight tubule,descendant
+UBERON:0008404,proximal tubular epithelium,descendant
+UBERON:0009650,cortical arch of kidney,descendant
+UBERON:0012428,proximal convoluted tubule brush border,descendant
+UBERON:0004197,proximal convoluted tubule segment 2,descendant
+UBERON:0004196,proximal convoluted tubule segment 1,descendant
+UBERON:0003546,distal convoluted tubule macula densa,descendant
+UBERON:0001227,minor calyx,descendant
+UBERON:0001226,major calyx,descendant
+UBERON:0005008,mucosa of minor calyx,descendant
+UBERON:0005007,mucosa of major calyx,descendant
+UBERON:3010393,mesonephric late distal segment,descendant
+UBERON:0012238,ureteric bud trunk,descendant
+UBERON:0006364,ureteric bud tip,descendant
+UBERON:0005892,mesonephric early distal tubule,descendant
+UBERON:0005105,posterior mesonephric tubule,descendant
+UBERON:0005104,anterior mesonephric tubule,descendant
+UBERON:0006542,outer medulla outer stripe loop of Henle,descendant
+UBERON:0006541,outer medulla inner stripe loop of Henle,descendant
+UBERON:0009093,outer medulla ascending vasa recta,descendant
+UBERON:0009090,outer medulla descending vasa recta,descendant
+UBERON:0005312,primary ureteric bud,descendant
+UBERON:0005081,ureter ureteric bud,descendant
+UBERON:0005080,metanephric ureteric bud,descendant
+UBERON:0009651,nephron tubule basement membrane,descendant
+UBERON:0007685,region of nephron tubule,descendant
+UBERON:0005789,lamina rara externa,descendant
+UBERON:0005788,lamina rara interna,descendant
+UBERON:0005787,lamina densa of glomerular basement membrane,descendant
+UBERON:0005750,glomerular parietal epithelium,descendant
+UBERON:0005749,glomerular tuft,descendant
+UBERON:0005751,glomerular visceral epithelium,descendant
+UBERON:0001286,Bowman's space,descendant
+UBERON:0008408,distal tubular epithelium,descendant
+UBERON:0006376,premacula segment of distal straight tubule,descendant
+UBERON:0009035,renal straight tubule,descendant
+UBERON:0006534,renal convoluted tubule,descendant
+UBERON:0006337,distal early tubule,descendant
+UBERON:0005097,renal connecting tubule,descendant
+UBERON:0004136,intermediate tubule,descendant
+UBERON:0004135,distal tubule,descendant
+UBERON:0001289,descending limb of loop of Henle,descendant
+UBERON:0001288,loop of Henle,descendant
+UBERON:0001291,thick ascending limb of loop of Henle,descendant
+UBERON:0005096,descending thin limb,descendant
+UBERON:0005164,ascending limb of loop of Henle,descendant
+UBERON:0004207,prebend segment of loop of Henle,descendant
+UBERON:0004206,long descending thin limb bend,descendant
+UBERON:0004033,podocyte slit junction,descendant
+UBERON:0004032,podocyte slit diaphragm,descendant

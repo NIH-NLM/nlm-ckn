@@ -1,0 +1,30 @@
+======================================================================
+CellxGene Harvester - 0 Resolve Uberon
+======================================================================
+Started : 2026-02-20 18:05:03
+Log file: data/uberon_liver.log
+Command : python /mnt/libraries/envs/cellxgene/bin/cellxgene-harvester resolve-uberon liver
+
+
+Resolving: 'liver'
+  Searching OLS4 for: 'liver'
+  Exact match: UBERON:0002107  liver
+  Root term: UBERON:0002107  liver
+  Found 74 descendants for UBERON:0002107
+  [terms resolved for 'liver']
+    Before :        1 terms
+    After  :       75 terms
+    Removed:      -74 terms  (-7400.0%)
+  [deduplication]
+    Before :       75 terms
+    After  :       75 terms
+    Removed:        0 terms  (0.0%)
+
+Saved JSON: data/uberon_liver.json
+Saved CSV : data/uberon_liver.csv
+Total terms: 75  (root + descendants)
+
+======================================================================
+Finished: 2026-02-20 18:05:10
+Output  : data/uberon_liver.csv
+======================================================================

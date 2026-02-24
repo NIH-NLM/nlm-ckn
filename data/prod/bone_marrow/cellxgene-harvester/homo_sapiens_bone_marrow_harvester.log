@@ -1,0 +1,46 @@
+======================================================================
+CellxGene Harvester - 4 Filter Datasets
+======================================================================
+Started : 2026-02-20 18:21:52
+Log file: data/homo_sapiens_bone_marrow_harvester.log
+Command : python /mnt/libraries/envs/cellxgene/bin/cellxgene-harvester filter-datasets --input data/all_datasets_complete.csv --uberon data/uberon_bone_marrow.json --organism Homo sapiens --no-preprints --exclude-cancer --exclude-spatial --output data/homo_sapiens_bone_marrow_harvester.csv
+
+Input : data/all_datasets_complete.csv
+Loaded 2,067 datasets
+
+  Loaded UBERON terms : data/uberon_bone_marrow.json
+  Queries             : bone marrow
+  Root terms          : bone marrow
+  Total labels        : 6 (root + all descendants)
+  Note: label text matching on 'tissue' column
+        (tissue_ontology_term_id precision applied in step 5)
+  [UBERON label tissue filter]
+    Before :    2,067 datasets
+    After  :       49 datasets
+    Removed:    2,018 datasets  (97.6%)
+  [organism filter (Homo sapiens)]
+    Before :       49 datasets
+    After  :       41 datasets
+    Removed:        8 datasets  (16.3%)
+  [preprint exclusion]
+    Before :       41 datasets
+    After  :       40 datasets
+    Removed:        1 datasets  (2.4%)
+  [cancer exclusion]
+    Before :       40 datasets
+    After  :       40 datasets
+    Removed:        0 datasets  (0.0%)
+  [spatial exclusion]
+    Before :       40 datasets
+    After  :       40 datasets
+    Removed:        0 datasets  (0.0%)
+
+  [TOTAL]
+    Before :    2,067 datasets
+    After  :       40 datasets
+    Removed:    2,027 datasets  (98.1%)
+
+======================================================================
+Finished: 2026-02-20 18:21:52
+Output  : data/homo_sapiens_bone_marrow_harvester.csv
+======================================================================

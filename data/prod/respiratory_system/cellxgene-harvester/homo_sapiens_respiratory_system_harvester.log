@@ -1,0 +1,46 @@
+======================================================================
+CellxGene Harvester - 4 Filter Datasets
+======================================================================
+Started : 2026-02-20 18:21:56
+Log file: data/homo_sapiens_respiratory_system_harvester.log
+Command : python /mnt/libraries/envs/cellxgene/bin/cellxgene-harvester filter-datasets --input data/all_datasets_complete.csv --uberon data/uberon_respiratory_system.json --organism Homo sapiens --no-preprints --exclude-cancer --exclude-spatial --output data/homo_sapiens_respiratory_system_harvester.csv
+
+Input : data/all_datasets_complete.csv
+Loaded 2,067 datasets
+
+  Loaded UBERON terms : data/uberon_respiratory_system.json
+  Queries             : respiratory system, nose
+  Root terms          : respiratory system, nose
+  Total labels        : 660 (root + all descendants)
+  Note: label text matching on 'tissue' column
+        (tissue_ontology_term_id precision applied in step 5)
+  [UBERON label tissue filter]
+    Before :    2,067 datasets
+    After  :      235 datasets
+    Removed:    1,832 datasets  (88.6%)
+  [organism filter (Homo sapiens)]
+    Before :      235 datasets
+    After  :      183 datasets
+    Removed:       52 datasets  (22.1%)
+  [preprint exclusion]
+    Before :      183 datasets
+    After  :      176 datasets
+    Removed:        7 datasets  (3.8%)
+  [cancer exclusion]
+    Before :      176 datasets
+    After  :      138 datasets
+    Removed:       38 datasets  (21.6%)
+  [spatial exclusion]
+    Before :      138 datasets
+    After  :      136 datasets
+    Removed:        2 datasets  (1.4%)
+
+  [TOTAL]
+    Before :    2,067 datasets
+    After  :      136 datasets
+    Removed:    1,931 datasets  (93.4%)
+
+======================================================================
+Finished: 2026-02-20 18:21:56
+Output  : data/homo_sapiens_respiratory_system_harvester.csv
+======================================================================

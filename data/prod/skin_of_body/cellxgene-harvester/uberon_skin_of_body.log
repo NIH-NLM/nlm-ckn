@@ -1,0 +1,30 @@
+======================================================================
+CellxGene Harvester - 0 Resolve Uberon
+======================================================================
+Started : 2026-02-20 18:04:19
+Log file: data/uberon_skin_of_body.log
+Command : python /mnt/libraries/envs/cellxgene/bin/cellxgene-harvester resolve-uberon skin of body
+
+
+Resolving: 'skin of body'
+  Searching OLS4 for: 'skin of body'
+  Exact match: UBERON:0002097  skin of body
+  Root term: UBERON:0002097  skin of body
+  Found 343 descendants for UBERON:0002097
+  [terms resolved for 'skin of body']
+    Before :        1 terms
+    After  :      344 terms
+    Removed:     -343 terms  (-34300.0%)
+  [deduplication]
+    Before :      344 terms
+    After  :      344 terms
+    Removed:        0 terms  (0.0%)
+
+Saved JSON: data/uberon_skin_of_body.json
+Saved CSV : data/uberon_skin_of_body.csv
+Total terms: 344  (root + descendants)
+
+======================================================================
+Finished: 2026-02-20 18:04:49
+Output  : data/uberon_skin_of_body.csv
+======================================================================

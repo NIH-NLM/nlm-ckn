@@ -1,0 +1,1595 @@
+{
+  "queries": [
+    "heart",
+    "pericardium"
+  ],
+  "root_terms": [
+    {
+      "obo_id": "UBERON:0000948",
+      "label": "heart",
+      "level": "root"
+    },
+    {
+      "obo_id": "UBERON:0002407",
+      "label": "pericardium",
+      "level": "root"
+    }
+  ],
+  "obo_ids": [
+    "UBERON:0000948",
+    "UBERON:8920010",
+    "UBERON:8920003",
+    "UBERON:8600055",
+    "UBERON:2000214",
+    "UBERON:0037144",
+    "UBERON:0035213",
+    "UBERON:0034697",
+    "UBERON:0018674",
+    "UBERON:0015226",
+    "UBERON:0013220",
+    "UBERON:0013152",
+    "UBERON:0011820",
+    "UBERON:0010277",
+    "UBERON:0009751",
+    "UBERON:0008307",
+    "UBERON:0006966",
+    "UBERON:0006212",
+    "UBERON:0006008",
+    "UBERON:0005985",
+    "UBERON:0005983",
+    "UBERON:0005438",
+    "UBERON:0004706",
+    "UBERON:0004292",
+    "UBERON:0004151",
+    "UBERON:0004148",
+    "UBERON:0004145",
+    "UBERON:0003906",
+    "UBERON:0003610",
+    "UBERON:0003498",
+    "UBERON:0003282",
+    "UBERON:0002349",
+    "UBERON:0002348",
+    "UBERON:0002511",
+    "UBERON:0002165",
+    "UBERON:0002099",
+    "UBERON:0002098",
+    "UBERON:0002062",
+    "UBERON:0001621",
+    "UBERON:0000946",
+    "UBERON:0036328",
+    "UBERON:0004784",
+    "UBERON:0034699",
+    "UBERON:0034698",
+    "UBERON:0002133",
+    "UBERON:0002087",
+    "UBERON:0010279",
+    "UBERON:0005601",
+    "UBERON:0005967",
+    "UBERON:0005316",
+    "UBERON:0004699",
+    "UBERON:0005997",
+    "UBERON:0005995",
+    "UBERON:0005993",
+    "UBERON:0005991",
+    "UBERON:0005994",
+    "UBERON:0005984",
+    "UBERON:0004666",
+    "UBERON:0004123",
+    "UBERON:2005068",
+    "UBERON:2005067",
+    "UBERON:2005066",
+    "UBERON:0006060",
+    "UBERON:0005248",
+    "UBERON:8470002",
+    "UBERON:0035763",
+    "UBERON:0035554",
+    "UBERON:0035553",
+    "UBERON:0004152",
+    "UBERON:0003983",
+    "UBERON:0002082",
+    "UBERON:0002081",
+    "UBERON:0002063",
+    "UBERON:0035374",
+    "UBERON:0009687",
+    "UBERON:0006958",
+    "UBERON:0006207",
+    "UBERON:0005946",
+    "UBERON:0005440",
+    "UBERON:0005432",
+    "UBERON:0005339",
+    "UBERON:0005338",
+    "UBERON:0005337",
+    "UBERON:0004271",
+    "UBERON:0004265",
+    "UBERON:0005263",
+    "UBERON:0004142",
+    "UBERON:0004246",
+    "UBERON:0002061",
+    "UBERON:0005262",
+    "UBERON:0005261",
+    "UBERON:0035422",
+    "UBERON:0006829",
+    "UBERON:0004493",
+    "UBERON:0004162",
+    "UBERON:0002350",
+    "UBERON:0002302",
+    "UBERON:0001083",
+    "UBERON:0015128",
+    "UBERON:0001082",
+    "UBERON:0006828",
+    "UBERON:0006571",
+    "UBERON:0006570",
+    "UBERON:0003452",
+    "UBERON:2005072",
+    "UBERON:0005243",
+    "UBERON:0003930",
+    "UBERON:0002166",
+    "UBERON:0001081",
+    "UBERON:0005989",
+    "UBERON:0004492",
+    "UBERON:0002085",
+    "UBERON:0002094",
+    "UBERON:0036067",
+    "UBERON:0036066",
+    "UBERON:0039232",
+    "UBERON:0001626",
+    "UBERON:0001625",
+    "UBERON:0011741",
+    "UBERON:0006009",
+    "UBERON:0005623",
+    "UBERON:0005485",
+    "UBERON:0004150",
+    "UBERON:0004149",
+    "UBERON:0002086",
+    "UBERON:0036286",
+    "UBERON:0036285",
+    "UBERON:0004126",
+    "UBERON:0004127",
+    "UBERON:0034704",
+    "UBERON:0034703",
+    "UBERON:0002134",
+    "UBERON:0002135",
+    "UBERON:0011819",
+    "UBERON:0003908",
+    "UBERON:0003907",
+    "UBERON:0010283",
+    "UBERON:0002248",
+    "UBERON:0014852",
+    "UBERON:0014851",
+    "UBERON:0004125",
+    "UBERON:0004124",
+    "UBERON:0016522",
+    "UBERON:0016514",
+    "UBERON:0016513",
+    "UBERON:0016509",
+    "UBERON:0002080",
+    "UBERON:0002078",
+    "UBERON:0002084",
+    "UBERON:0002079",
+    "UBERON:0010018",
+    "UBERON:3010243",
+    "UBERON:2005073",
+    "UBERON:0035837",
+    "UBERON:0018649",
+    "UBERON:0005455",
+    "UBERON:0004146",
+    "UBERON:0002494",
+    "UBERON:8600120",
+    "UBERON:0006618",
+    "UBERON:0006218",
+    "UBERON:0004490",
+    "UBERON:0005092",
+    "UBERON:0005091",
+    "UBERON:0005966",
+    "UBERON:0005965",
+    "UBERON:0005956",
+    "UBERON:0005953",
+    "UBERON:0009966",
+    "UBERON:0005982",
+    "UBERON:0002352",
+    "UBERON:2005075",
+    "UBERON:2005074",
+    "UBERON:0015125",
+    "UBERON:0005987",
+    "UBERON:0005986",
+    "UBERON:0002354",
+    "UBERON:0002353",
+    "UBERON:0002351",
+    "UBERON:0005988",
+    "UBERON:0005980",
+    "UBERON:0006567",
+    "UBERON:0006566",
+    "UBERON:0015129",
+    "UBERON:0004526",
+    "UBERON:0004525",
+    "UBERON:0034903",
+    "UBERON:0011005",
+    "UBERON:0009129",
+    "UBERON:0009713",
+    "UBERON:0009712",
+    "UBERON:0004491",
+    "UBERON:0003383",
+    "UBERON:0004754",
+    "UBERON:0004159",
+    "UBERON:0004155",
+    "UBERON:0004154",
+    "UBERON:0004153",
+    "UBERON:0004667",
+    "UBERON:0011745",
+    "UBERON:0011742",
+    "UBERON:0007151",
+    "UBERON:0005484",
+    "UBERON:0005998",
+    "UBERON:0005996",
+    "UBERON:0005992",
+    "UBERON:0005990",
+    "UBERON:0002146",
+    "UBERON:0002137",
+    "UBERON:0036289",
+    "UBERON:0036288",
+    "UBERON:0005066",
+    "UBERON:0005064",
+    "UBERON:0005065",
+    "UBERON:0005063",
+    "UBERON:0014855",
+    "UBERON:0035836",
+    "UBERON:0004523",
+    "UBERON:0003381",
+    "UBERON:0010189",
+    "UBERON:0006631",
+    "UBERON:0005981",
+    "UBERON:0005979",
+    "UBERON:0005208",
+    "UBERON:0003379",
+    "UBERON:0003369",
+    "UBERON:0035835",
+    "UBERON:0004524",
+    "UBERON:0003382",
+    "UBERON:0006630",
+    "UBERON:0003380",
+    "UBERON:8000009",
+    "UBERON:0004494",
+    "UBERON:0005490",
+    "UBERON:0005489",
+    "UBERON:0003378",
+    "UBERON:0015126",
+    "UBERON:0015127",
+    "UBERON:0036291",
+    "UBERON:0036290",
+    "UBERON:0011006",
+    "UBERON:0011007",
+    "UBERON:0035186",
+    "UBERON:0015225",
+    "UBERON:0009149",
+    "UBERON:0006678",
+    "UBERON:0015224",
+    "UBERON:0014854",
+    "UBERON:0014853",
+    "UBERON:0009779",
+    "UBERON:0009780",
+    "UBERON:0002407",
+    "UBERON:0007187",
+    "UBERON:0007186",
+    "UBERON:0003388",
+    "UBERON:0002359",
+    "UBERON:0002406",
+    "UBERON:0007188",
+    "UBERON:0002357",
+    "UBERON:0001074",
+    "UBERON:0002425",
+    "UBERON:0002408"
+  ],
+  "terms": [
+    {
+      "obo_id": "UBERON:0000948",
+      "label": "heart",
+      "level": "root"
+    },
+    {
+      "obo_id": "UBERON:8920010",
+      "label": "left marginal vein",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8920003",
+      "label": "right marginal artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600055",
+      "label": "atrioventricular nodal artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2000214",
+      "label": "hypobranchial vessel",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0037144",
+      "label": "wall of heart",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035213",
+      "label": "basal zone of heart",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034697",
+      "label": "inflow tract",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018674",
+      "label": "heart vasculature",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015226",
+      "label": "bulbar spiral septum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013220",
+      "label": "foramen of Panizza",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013152",
+      "label": "interventricular foramen of heart",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011820",
+      "label": "atrioventricular region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010277",
+      "label": "mesocardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009751",
+      "label": "cardiac mesenchyme",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008307",
+      "label": "heart endothelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006966",
+      "label": "coronary capillary",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006212",
+      "label": "bulbo-ventricular groove",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006008",
+      "label": "fibrous ring of heart",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005985",
+      "label": "coronary vessel",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005983",
+      "label": "heart layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005438",
+      "label": "coronary sinus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004706",
+      "label": "bulbus cordis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004292",
+      "label": "cardiac skeleton",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004151",
+      "label": "cardiac chamber",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004148",
+      "label": "cardiac vein",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004145",
+      "label": "outflow tract",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003906",
+      "label": "cardiac jelly",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003610",
+      "label": "heart elastic tissue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003498",
+      "label": "heart blood vessel",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003282",
+      "label": "mesentery of heart",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002349",
+      "label": "myocardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002348",
+      "label": "epicardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002511",
+      "label": "trabecula carnea",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002165",
+      "label": "endocardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002099",
+      "label": "cardiac septum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002098",
+      "label": "apex of heart",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002062",
+      "label": "endocardial cushion",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001621",
+      "label": "coronary artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000946",
+      "label": "cardiac valve",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0036328",
+      "label": "wall of coronary artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004784",
+      "label": "heart ventricle wall",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034699",
+      "label": "inflow tract of atrium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034698",
+      "label": "inflow tract of ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002133",
+      "label": "atrioventricular valve",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002087",
+      "label": "atrioventricular canal",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010279",
+      "label": "pericardial sinus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005601",
+      "label": "dorsal mesocardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005967",
+      "label": "conotruncal ridge",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005316",
+      "label": "endocardial endothelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004699",
+      "label": "outflow tract endothelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005997",
+      "label": "tricuspid valve anulus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005995",
+      "label": "mitral valve anulus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005993",
+      "label": "pulmonary valve anulus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005991",
+      "label": "aortic valve anulus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005994",
+      "label": "chorda tendineae",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005984",
+      "label": "subendocardium layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004666",
+      "label": "interventricular septum membranous part",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004123",
+      "label": "myocardial layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2005068",
+      "label": "bulbus arteriosus inner layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2005067",
+      "label": "bulbus arteriosus middle layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2005066",
+      "label": "bulbus arteriosus outer layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006060",
+      "label": "conotruncus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005248",
+      "label": "bulbus cordis myocardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8470002",
+      "label": "moderator band",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035763",
+      "label": "cavity of cardiac chamber",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035554",
+      "label": "right cardiac chamber",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035553",
+      "label": "left cardiac chamber",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004152",
+      "label": "bulbus arteriosus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003983",
+      "label": "conus arteriosus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002082",
+      "label": "cardiac ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002081",
+      "label": "cardiac atrium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002063",
+      "label": "sinus venosus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035374",
+      "label": "small cardiac vein",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009687",
+      "label": "middle cardiac vein",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006958",
+      "label": "great vein of heart",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006207",
+      "label": "aortico-pulmonary spiral septum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005946",
+      "label": "outflow tract of atrium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005440",
+      "label": "ductus arteriosus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005432",
+      "label": "aortic sac",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005339",
+      "label": "outflow tract pulmonary component",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005338",
+      "label": "outflow tract aortic component",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005337",
+      "label": "outflow tract of ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004271",
+      "label": "outflow tract pericardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004265",
+      "label": "outflow tract myocardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005263",
+      "label": "outflow tract cardiac jelly",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004142",
+      "label": "outflow tract septum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004246",
+      "label": "outflow tract smooth muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002061",
+      "label": "truncus arteriosus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005262",
+      "label": "ventricle cardiac jelly",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005261",
+      "label": "atrium cardiac jelly",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035422",
+      "label": "circumflex branch of left coronary artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006829",
+      "label": "remnant of left anterior vena cava",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004493",
+      "label": "cardiac muscle tissue of myocardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004162",
+      "label": "pulmonary myocardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002350",
+      "label": "conducting system of heart",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002302",
+      "label": "myocardium of atrium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001083",
+      "label": "myocardium of ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015128",
+      "label": "subepicardial layer of epicardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001082",
+      "label": "epicardium of ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006828",
+      "label": "trabecula carnea of atrium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006571",
+      "label": "trabecula carnea of left ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006570",
+      "label": "trabecula carnea of right ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003452",
+      "label": "trabecula carnea cardiac muscle tissue",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2005072",
+      "label": "endocardial ring",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005243",
+      "label": "interventricular septum endocardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003930",
+      "label": "atrioventricular canal endocardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002166",
+      "label": "endocardium of atrium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001081",
+      "label": "endocardium of ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005989",
+      "label": "atrioventricular septum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004492",
+      "label": "cardiac muscle tissue of cardiac septum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002085",
+      "label": "interatrial septum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002094",
+      "label": "interventricular septum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0036067",
+      "label": "superior endocardial cushion",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0036066",
+      "label": "inferior endocardial cushion",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0039232",
+      "label": "conus artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001626",
+      "label": "left coronary artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001625",
+      "label": "right coronary artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011741",
+      "label": "cardiac valve leaflet",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006009",
+      "label": "cusp of cardiac valve",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005623",
+      "label": "semi-lunar valve",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005485",
+      "label": "valve of inferior vena cava",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004150",
+      "label": "coronary sinus valve",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004149",
+      "label": "ventriculo bulbo valve",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002086",
+      "label": "sinoatrial valve",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0036286",
+      "label": "wall of right ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0036285",
+      "label": "wall of left ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004126",
+      "label": "trabecular layer of ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004127",
+      "label": "compact layer of ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034704",
+      "label": "inflow tract of left ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034703",
+      "label": "inflow tract of right ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002134",
+      "label": "tricuspid valve",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002135",
+      "label": "mitral valve",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011819",
+      "label": "lumen of atrioventricular canal",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003908",
+      "label": "right atrioventricular canal",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003907",
+      "label": "left atrioventricular canal",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010283",
+      "label": "oblique pericardial sinus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002248",
+      "label": "transverse pericardial sinus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014852",
+      "label": "chorda tendinea of right ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014851",
+      "label": "chorda tendinea of left ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004125",
+      "label": "myocardial compact layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004124",
+      "label": "myocardium trabecular layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016522",
+      "label": "cavity of right atrium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016514",
+      "label": "cavity of left ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016513",
+      "label": "cavity of left atrium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0016509",
+      "label": "cavity of right ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002080",
+      "label": "heart right ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002078",
+      "label": "right cardiac atrium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002084",
+      "label": "heart left ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002079",
+      "label": "left cardiac atrium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010018",
+      "label": "spiral valve of conus arteriosus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:3010243",
+      "label": "ventricular musculature",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2005073",
+      "label": "atrioventricular ring",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035837",
+      "label": "apical region of heart ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018649",
+      "label": "cardiac muscle tissue of ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005455",
+      "label": "interventricular groove",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004146",
+      "label": "His-Purkinje system",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002494",
+      "label": "papillary muscle of heart",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8600120",
+      "label": "atrial intrinsic cardiac ganglion",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006618",
+      "label": "atrium auricular region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006218",
+      "label": "common atrial chamber",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004490",
+      "label": "cardiac muscle tissue of atrium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005092",
+      "label": "right horn of sinus venosus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005091",
+      "label": "left horn of sinus venosus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005966",
+      "label": "outflow part of left atrium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005965",
+      "label": "outflow part of right atrium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005956",
+      "label": "outflow part of left ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005953",
+      "label": "outflow part of right ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009966",
+      "label": "internodal tract",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005982",
+      "label": "Bachmann's bundle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002352",
+      "label": "atrioventricular node",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2005075",
+      "label": "peripheral cardiac conduction system",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:2005074",
+      "label": "central cardiac conduction system",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015125",
+      "label": "anterior internodal tract",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005987",
+      "label": "right bundle branch",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005986",
+      "label": "left bundle branch",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002354",
+      "label": "cardiac Purkinje fiber",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002353",
+      "label": "bundle of His",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002351",
+      "label": "sinoatrial node",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005988",
+      "label": "atrium myocardial trabecula",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005980",
+      "label": "pectinate muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006567",
+      "label": "right ventricle myocardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006566",
+      "label": "left ventricle myocardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015129",
+      "label": "epicardial fat",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004526",
+      "label": "cardiac muscle tissue of trabecula carnea of left ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004525",
+      "label": "cardiac muscle tissue of trabecula carnea of right ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0034903",
+      "label": "left atrium endocardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011005",
+      "label": "endocardium of auricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009129",
+      "label": "right atrium endocardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009713",
+      "label": "endocardium of left ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009712",
+      "label": "endocardium of right ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004491",
+      "label": "cardiac muscle tissue of interatrial septum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003383",
+      "label": "cardiac muscle tissue of interventricular septum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004754",
+      "label": "foramen ovale of heart",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004159",
+      "label": "atrial septum intermedium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004155",
+      "label": "atrial septum secundum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004154",
+      "label": "atrial septum primum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004153",
+      "label": "ventricular septum intermedium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004667",
+      "label": "interventricular septum muscular part",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011745",
+      "label": "pulmonary valve leaflets",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011742",
+      "label": "aortic valve leaflet",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007151",
+      "label": "mitral valve leaflet",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005484",
+      "label": "tricuspid valve leaflet",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005998",
+      "label": "tricuspid valve cusp",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005996",
+      "label": "mitral valve cusp",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005992",
+      "label": "pulmonary valve cusp",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005990",
+      "label": "aortic valve cusp",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002146",
+      "label": "pulmonary valve",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002137",
+      "label": "aortic valve",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0036289",
+      "label": "anterior wall of right ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0036288",
+      "label": "anterior wall of left ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005066",
+      "label": "right ventricular trabecular myocardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005064",
+      "label": "left ventricular trabecular myocardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005065",
+      "label": "right ventricular compact myocardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005063",
+      "label": "left ventricular compact myocardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014855",
+      "label": "posterior leaflet of mitral valve",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035836",
+      "label": "apical region of right ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004523",
+      "label": "papillary muscle of right ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003381",
+      "label": "cardiac muscle of right ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010189",
+      "label": "right atrium venous valve",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006631",
+      "label": "right atrium auricular region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005981",
+      "label": "vena cava sinus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005979",
+      "label": "crista terminalis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005208",
+      "label": "right atrium valve",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003379",
+      "label": "cardiac muscle of right atrium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003369",
+      "label": "fossa ovalis of heart",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035835",
+      "label": "apical region of left ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004524",
+      "label": "papillary muscle of left ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003382",
+      "label": "cardiac muscle of left ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006630",
+      "label": "left atrium auricular region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003380",
+      "label": "cardiac muscle of left atrium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8000009",
+      "label": "Purkinje fiber network",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004494",
+      "label": "cardiac muscle tissue of papillary muscle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005490",
+      "label": "posterior interventricular sulcus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005489",
+      "label": "anterior interventricular sulcus",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003378",
+      "label": "cardiac muscle of auricular region",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015126",
+      "label": "middle internodal tract",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015127",
+      "label": "posterior internodal tract",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0036291",
+      "label": "myocardium of anterior wall of right ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0036290",
+      "label": "myocardium of anterior wall of left ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011006",
+      "label": "endocardium of left auricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0011007",
+      "label": "endocardium of right auricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035186",
+      "label": "valve of foramen ovale",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015225",
+      "label": "atrial foramen intermedium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009149",
+      "label": "foramen primum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006678",
+      "label": "foramen secundum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0015224",
+      "label": "interventricular foramen intermedium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014854",
+      "label": "anterior leaflet of mitral valve",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0014853",
+      "label": "commissural leaflet of mitral valve",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009779",
+      "label": "cardiac muscle tissue of right auricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009780",
+      "label": "cardiac muscle tissue of left auricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002407",
+      "label": "pericardium",
+      "level": "root"
+    },
+    {
+      "obo_id": "UBERON:0007187",
+      "label": "pericardial parietal mesothelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007186",
+      "label": "pericardial visceral mesothelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003388",
+      "label": "mesothelium of pericardial cavity",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002359",
+      "label": "fibrous pericardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002406",
+      "label": "pericardial sac",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007188",
+      "label": "mesothelium of serous pericardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002357",
+      "label": "serous pericardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001074",
+      "label": "pericardial cavity",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002425",
+      "label": "visceral serous pericardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002408",
+      "label": "parietal serous pericardium",
+      "level": "descendant"
+    }
+  ],
+  "total": 262
+}

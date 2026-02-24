@@ -1,0 +1,30 @@
+======================================================================
+CellxGene Harvester - 0 Resolve Uberon
+======================================================================
+Started : 2026-02-20 18:04:01
+Log file: data/uberon_pancreas.log
+Command : python /mnt/libraries/envs/cellxgene/bin/cellxgene-harvester resolve-uberon pancreas
+
+
+Resolving: 'pancreas'
+  Searching OLS4 for: 'pancreas'
+  Exact match: UBERON:0001264  pancreas
+  Root term: UBERON:0001264  pancreas
+  Found 34 descendants for UBERON:0001264
+  [terms resolved for 'pancreas']
+    Before :        1 terms
+    After  :       35 terms
+    Removed:      -34 terms  (-3400.0%)
+  [deduplication]
+    Before :       35 terms
+    After  :       35 terms
+    Removed:        0 terms  (0.0%)
+
+Saved JSON: data/uberon_pancreas.json
+Saved CSV : data/uberon_pancreas.csv
+Total terms: 35  (root + descendants)
+
+======================================================================
+Finished: 2026-02-20 18:04:03
+Output  : data/uberon_pancreas.csv
+======================================================================

@@ -1,0 +1,7 @@
+obo_id,label,level
+UBERON:0002371,bone marrow,root
+UBERON:0007195,stroma of bone marrow,descendant
+UBERON:0000361,red bone marrow,descendant
+UBERON:0000332,yellow bone marrow,descendant
+UBERON:8410080,red bone marrow of sternum,descendant
+UBERON:8410079,red bone marrow of iliac crest,descendant

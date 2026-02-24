@@ -1,0 +1,40 @@
+======================================================================
+CellxGene Harvester - 0 Resolve Uberon
+======================================================================
+Started : 2026-02-20 18:10:59
+Log file: data/uberon_respiratory_system.log
+Command : python /mnt/libraries/envs/cellxgene/bin/cellxgene-harvester resolve-uberon respiratory system nose
+
+
+Resolving: 'respiratory system'
+  Searching OLS4 for: 'respiratory system'
+  Exact match: UBERON:0001004  respiratory system
+  Root term: UBERON:0001004  respiratory system
+  Found 540 descendants for UBERON:0001004
+  [terms resolved for 'respiratory system']
+    Before :        1 terms
+    After  :      541 terms
+    Removed:     -540 terms  (-54000.0%)
+
+Resolving: 'nose'
+  Searching OLS4 for: 'nose'
+  Exact match: UBERON:0000004  nose
+  Root term: UBERON:0000004  nose
+  Found 143 descendants for UBERON:0000004
+  [terms resolved for 'nose']
+    Before :        1 terms
+    After  :      144 terms
+    Removed:     -143 terms  (-14300.0%)
+  [deduplication]
+    Before :      685 terms
+    After  :      660 terms
+    Removed:       25 terms  (3.6%)
+
+Saved JSON: data/uberon_respiratory_system.json
+Saved CSV : data/uberon_respiratory_system.csv
+Total terms: 660  (root + descendants)
+
+======================================================================
+Finished: 2026-02-20 18:11:18
+Output  : data/uberon_respiratory_system.csv
+======================================================================

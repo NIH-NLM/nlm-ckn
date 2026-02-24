@@ -1,0 +1,345 @@
+obo_id,label,level
+UBERON:0002097,skin of body,root
+UBERON:0016852,skin scent gland,descendant
+UBERON:0012177,skin apocrine gland,descendant
+UBERON:0004790,skin mucous gland,descendant
+UBERON:0003487,skin sebaceous gland,descendant
+UBERON:0002419,skin gland,descendant
+UBERON:0002284,hyponychium,descendant
+UBERON:0002067,dermis,descendant
+UBERON:0001003,skin epidermis,descendant
+UBERON:0000014,zone of skin,descendant
+UBERON:0016853,interdigital gland,descendant
+UBERON:0012281,perianal sebaceous gland,descendant
+UBERON:0000382,apocrine sweat gland,descendant
+UBERON:0003484,eye sebaceous gland,descendant
+UBERON:0007771,epidermis gland,descendant
+UBERON:0003605,eye skin gland,descendant
+UBERON:3010599,stratum spongiosum,descendant
+UBERON:2001186,collagenous dermal stroma,descendant
+UBERON:2001183,dermal superficial region,descendant
+UBERON:2002242,scale primordium,descendant
+UBERON:0035611,hair peg,descendant
+UBERON:0035501,unencapsulated tactile receptor,descendant
+UBERON:1000010,mole,descendant
+UBERON:0011806,dermis of feather follicle,descendant
+UBERON:0011801,dermal condensation of feather follicle,descendant
+UBERON:0007380,dermal scale,descendant
+UBERON:0007377,stratum compactum of dermis,descendant
+UBERON:0003719,Pacinian corpuscle,descendant
+UBERON:0003585,dermis connective tissue,descendant
+UBERON:0003426,dermis adipose tissue,descendant
+UBERON:0001993,reticular layer of dermis,descendant
+UBERON:0001992,papillary layer of dermis,descendant
+UBERON:3010802,courtship gland,descendant
+UBERON:2001181,epidermal intermediate stratum,descendant
+UBERON:2001179,epidermal superficial stratum,descendant
+UBERON:0018278,epidermal egg tooth,descendant
+UBERON:0013206,nasal tentacle,descendant
+UBERON:0012447,podotheca,descendant
+UBERON:0012244,stratum intermedium of epidermis,descendant
+UBERON:0012243,nuptial pad,descendant
+UBERON:0013487,epidermal ridge of digit,descendant
+UBERON:0011807,epidermis of feather follicle,descendant
+UBERON:0011783,feather follicle placode,descendant
+UBERON:0009564,distal limb integumentary appendage,descendant
+UBERON:0010402,epidermis suprabasal layer,descendant
+UBERON:0008198,nail plate,descendant
+UBERON:0007381,epidermal scale,descendant
+UBERON:0009200,limb epidermis,descendant
+UBERON:0007330,rhamphotheca,descendant
+UBERON:0005083,nipple sheath,descendant
+UBERON:0004882,eponychium,descendant
+UBERON:0002073,hair follicle,descendant
+UBERON:0002071,stratum lucidum of epidermis,descendant
+UBERON:0002069,stratum granulosum of epidermis,descendant
+UBERON:0002027,stratum corneum of epidermis,descendant
+UBERON:0002026,stratum spinosum of epidermis,descendant
+UBERON:0002025,stratum basale of epidermis,descendant
+UBERON:0001821,sebaceous gland,descendant
+UBERON:0001820,sweat gland,descendant
+UBERON:0001705,nail,descendant
+UBERON:0001037,strand of hair,descendant
+UBERON:0000423,eccrine sweat gland,descendant
+UBERON:8480074,skin of gonad,descendant
+UBERON:8480029,skin of external genitalia,descendant
+UBERON:8480025,skin of clavicle region,descendant
+UBERON:4300031,fin web,descendant
+UBERON:0036150,skin appendage follicle,descendant
+UBERON:0035610,hair canal,descendant
+UBERON:0019243,skin crease,descendant
+UBERON:0019204,skin epithelium,descendant
+UBERON:0016915,vermilion,descendant
+UBERON:0014481,sex skin,descendant
+UBERON:0012180,head or neck skin,descendant
+UBERON:0008877,epidermal-dermal junction,descendant
+UBERON:0007121,skin nerve field,descendant
+UBERON:0003967,cutaneous elastic tissue,descendant
+UBERON:0003534,tail skin,descendant
+UBERON:0001554,skin of hip,descendant
+UBERON:0001483,skin of shoulder,descendant
+UBERON:0001419,skin of limb,descendant
+UBERON:0001417,skin of neck,descendant
+UBERON:0001331,skin of penis,descendant
+UBERON:0001085,skin of trunk,descendant
+UBERON:0035074,duct of apocrine sweat gland,descendant
+UBERON:0034762,areolar sweat gland,descendant
+UBERON:0018232,axillary sweat gland,descendant
+UBERON:0013228,sweat gland of eyelid,descendant
+UBERON:0013211,cerumen gland,descendant
+UBERON:0013231,sebaceous gland of eyelid,descendant
+UBERON:4500003,predorsal scale,descendant
+UBERON:4300222,axilar scale,descendant
+UBERON:4300102,postcleithral scale,descendant
+UBERON:4000052,ganoid scale,descendant
+UBERON:4300188,terminal scale,descendant
+UBERON:4000081,cosmoid scale,descendant
+UBERON:4000080,keratin-based scale,descendant
+UBERON:4000070,elasmoid scale,descendant
+UBERON:2002285,cycloid scale,descendant
+UBERON:2002273,ctenoid scale,descendant
+UBERON:2002122,pouch scale,descendant
+UBERON:2002119,dermal scale focus,descendant
+UBERON:2002118,scale radius,descendant
+UBERON:2002051,scale circulus,descendant
+UBERON:2001824,lateral line scale,descendant
+UBERON:0018310,cephalic dermal scale,descendant
+UBERON:0000041,odontode scale,descendant
+UBERON:4000107,elasmodine,descendant
+UBERON:4000104,ganoine,descendant
+UBERON:0000412,dermal papilla,descendant
+UBERON:0011809,inner epidermal layer of feather follicle,descendant
+UBERON:0011808,outer epidermal layer of feather follicle,descendant
+UBERON:0008963,hoof,descendant
+UBERON:0008201,scute,descendant
+UBERON:0015484,epidermis of metapodial pad,descendant
+UBERON:0007332,mandibular rhamphotheca,descendant
+UBERON:0007331,maxillary rhamphotheca,descendant
+UBERON:0015252,coat hair follicle,descendant
+UBERON:0010419,vibrissa follicle,descendant
+UBERON:0006005,hair follicle isthmus,descendant
+UBERON:0005975,hair follicle bulge,descendant
+UBERON:0005968,infundibulum of hair follicle,descendant
+UBERON:0005932,bulb of hair follicle,descendant
+UBERON:2002195,epidermal placode,descendant
+UBERON:0015251,modified sebaceous gland,descendant
+UBERON:0011846,acinus of sebaceous gland,descendant
+UBERON:0011845,duct of sebaceous gland,descendant
+UBERON:0011827,areolar gland,descendant
+UBERON:0003485,vagina sebaceous gland,descendant
+UBERON:0007773,scrotal sweat gland,descendant
+UBERON:0015886,root of nail,descendant
+UBERON:0011190,lunule of nail,descendant
+UBERON:0009567,nail of pedal digit,descendant
+UBERON:0009565,nail of manual digit,descendant
+UBERON:0005274,proximal nail bed,descendant
+UBERON:0005273,nail bed,descendant
+UBERON:0004105,subungual region,descendant
+UBERON:0002283,nail matrix,descendant
+UBERON:0000212,toilet claw,descendant
+UBERON:0037467,anagen hair,descendant
+UBERON:0037466,telogen hair,descendant
+UBERON:0037465,catagen hair,descendant
+UBERON:0037463,terminal hair,descendant
+UBERON:0037462,vellus hair,descendant
+UBERON:0037461,primary hair,descendant
+UBERON:0037459,hair of limb,descendant
+UBERON:0037458,hair of neck,descendant
+UBERON:0022285,strand of tylotrich hair,descendant
+UBERON:0016447,hair of trunk,descendant
+UBERON:0016446,hair of head,descendant
+UBERON:0015150,dorsal hair,descendant
+UBERON:0013699,strand of axillary hair,descendant
+UBERON:0013698,strand of pubic hair,descendant
+UBERON:0013494,keratin-coated spine,descendant
+UBERON:0015149,ventral hair,descendant
+UBERON:0015148,tail hair,descendant
+UBERON:0011901,hair matrix,descendant
+UBERON:0010514,strand of duvet hair,descendant
+UBERON:0010509,strand of pelage hair,descendant
+UBERON:0006378,strand of vibrissa hair,descendant
+UBERON:0005184,hair medulla,descendant
+UBERON:0002074,hair shaft,descendant
+UBERON:0002077,cortex of hair,descendant
+UBERON:0001702,eyelash,descendant
+UBERON:0000329,hair root,descendant
+UBERON:8480064,secretory coil of eccrine sweat gland,descendant
+UBERON:0035073,duct of eccrine sweat gland,descendant
+UBERON:0014391,palmar/plantar sweat gland,descendant
+UBERON:0015479,scrotum skin,descendant
+UBERON:0005298,skin of clitoris,descendant
+UBERON:0004084,genital labium,descendant
+UBERON:0015474,axilla skin,descendant
+UBERON:0011782,feather follicle,descendant
+UBERON:0019246,palmar skin crease,descendant
+UBERON:0019247,plantar skin crease,descendant
+UBERON:0006004,hair follicle matrix region,descendant
+UBERON:0016919,lower vermilion,descendant
+UBERON:0016918,upper vermilion,descendant
+UBERON:0010854,skin of front of neck,descendant
+UBERON:0001084,skin of head,descendant
+UBERON:0004034,cutaneous microfibril,descendant
+UBERON:8480071,skin of lobe of tail,descendant
+UBERON:0015790,autopod skin,descendant
+UBERON:0003532,hindlimb skin,descendant
+UBERON:0003531,forelimb skin,descendant
+UBERON:0001471,skin of prepuce of penis,descendant
+UBERON:0034726,trunk taste bud,descendant
+UBERON:0003836,abdominal segment skin,descendant
+UBERON:0001418,skin of thorax,descendant
+UBERON:0001068,skin of back,descendant
+UBERON:0018233,gland of Zeis,descendant
+UBERON:0001818,tarsal gland,descendant
+UBERON:4000055,polypteroid scale,descendant
+UBERON:4000051,lepidosteoid scale,descendant
+UBERON:4000074,palaeoniscoid scale,descendant
+UBERON:4000105,limiting layer of elasmoid scale,descendant
+UBERON:4300235,spinoid scale,descendant
+UBERON:2002274,transforming ctenoid scale,descendant
+UBERON:2002249,ctenius,descendant
+UBERON:4300242,lateral line scale 6,descendant
+UBERON:4300238,pored lateral line scale,descendant
+UBERON:0011255,Eimer's organ,descendant
+UBERON:0008999,hoof lamina,descendant
+UBERON:4200165,basal scute,descendant
+UBERON:0018317,dorsal osteoderm,descendant
+UBERON:0018309,central figure of scute,descendant
+UBERON:0011673,plastron scute,descendant
+UBERON:0011936,vibrissa hair bulb,descendant
+UBERON:0005933,hair root sheath,descendant
+UBERON:1000022,Zymbal's gland,descendant
+UBERON:0000359,preputial gland,descendant
+UBERON:0011854,acinus of areolar gland,descendant
+UBERON:0004000,tarsal gland acinus,descendant
+UBERON:0011844,duct of areolar gland,descendant
+UBERON:0011281,nail of pedal digit 4,descendant
+UBERON:0011280,nail of pedal digit 3,descendant
+UBERON:0011279,nail of pedal digit 2,descendant
+UBERON:0011278,nail of pedal digit 1,descendant
+UBERON:0011282,nail of pedal digit 5,descendant
+UBERON:0011277,nail of manual digit 5,descendant
+UBERON:0011276,nail of manual digit 4,descendant
+UBERON:0011275,nail of manual digit 3,descendant
+UBERON:0011274,nail of manual digit 2,descendant
+UBERON:0011273,nail of manual digit 1,descendant
+UBERON:0005278,nail bed of finger,descendant
+UBERON:0005279,nail bed of toe,descendant
+UBERON:0037464,androgenic hair,descendant
+UBERON:0015144,autopod hair,descendant
+UBERON:0010513,strand of zigzag hair,descendant
+UBERON:8420000,hair of scalp,descendant
+UBERON:0022279,strand of hair on external ear,descendant
+UBERON:0010171,strand of hair of face,descendant
+UBERON:0013496,unbarbed keratin-coated spine,descendant
+UBERON:0013495,barbed keratin-coated spine,descendant
+UBERON:0013196,strand of wool,descendant
+UBERON:0010512,strand of guard hair,descendant
+UBERON:0010511,strand of awl hair,descendant
+UBERON:0010510,strand of auchene hair,descendant
+UBERON:0011940,arrector pili muscle of vibrissa,descendant
+UBERON:0002076,cuticle of hair,descendant
+UBERON:0019255,lower eyelash,descendant
+UBERON:0019254,upper eyelash,descendant
+UBERON:0018134,rugal fold of scrotum,descendant
+UBERON:0011375,skin of prepuce of clitoris,descendant
+UBERON:0004085,labium majora,descendant
+UBERON:0004014,labium minora,descendant
+UBERON:0011805,cavity of feather follicle,descendant
+UBERON:0010880,gular fold,descendant
+UBERON:8480028,skin of temple,descendant
+UBERON:8300000,skin of scalp,descendant
+UBERON:1000021,skin of face,descendant
+UBERON:0034720,head taste bud,descendant
+UBERON:0012458,antler velvet,descendant
+UBERON:0001459,skin of external ear,descendant
+UBERON:0015249,digit skin,descendant
+UBERON:0013776,skin of palmar/plantar part of autopod,descendant
+UBERON:0012348,autopod pad,descendant
+UBERON:0001519,skin of manus,descendant
+UBERON:0001513,skin of pes,descendant
+UBERON:0001511,skin of leg,descendant
+UBERON:0010855,skin of forelimb wing,descendant
+UBERON:0002427,arm skin,descendant
+UBERON:8410021,inguinal region skin,descendant
+UBERON:0009014,lower back skin,descendant
+UBERON:0001416,skin of abdomen,descendant
+UBERON:0001415,skin of pelvis,descendant
+UBERON:0009015,upper back skin,descendant
+UBERON:0001868,skin of chest,descendant
+UBERON:8480052,skin of thoracolumbar junction,descendant
+UBERON:0011674,carapace scute,descendant
+UBERON:0011939,vibrissa outer root sheath,descendant
+UBERON:0011938,vibrissa inner root sheath,descendant
+UBERON:0011937,vibrissa root sheath,descendant
+UBERON:0005942,hair outer root sheath,descendant
+UBERON:0005941,hair inner root sheath,descendant
+UBERON:0005943,hair root sheath matrix,descendant
+UBERON:0005302,female preputial gland,descendant
+UBERON:0005301,male preputial gland,descendant
+UBERON:0015145,pes hair,descendant
+UBERON:0015146,manus hair,descendant
+UBERON:0015147,pinna hair,descendant
+UBERON:0011931,nasal hair,descendant
+UBERON:0013720,dartos muscle of labia majora,descendant
+UBERON:1000015,skin of snout,descendant
+UBERON:1000003,dewlap,descendant
+UBERON:0016475,skin of forehead,descendant
+UBERON:0016462,periorbital skin,descendant
+UBERON:0015476,nose skin,descendant
+UBERON:0012304,nasal diverticulum,descendant
+UBERON:0010515,brille,descendant
+UBERON:0008803,skin of cheek,descendant
+UBERON:0001457,skin of eyelid,descendant
+UBERON:0001458,skin of lip,descendant
+UBERON:0012305,marginal cutaneous pouch of ear,descendant
+UBERON:0036219,ungulate coronary band,descendant
+UBERON:0014931,periungual skin,descendant
+UBERON:0005275,dorsal skin of digit,descendant
+UBERON:0003533,manual digit skin,descendant
+UBERON:0003530,pedal digit skin,descendant
+UBERON:0013778,skin of sole of pes,descendant
+UBERON:0013777,skin of palm of manus,descendant
+UBERON:0013623,pedal autopod pad,descendant
+UBERON:0013622,manual autopod pad,descendant
+UBERON:0012349,digital pad,descendant
+UBERON:0008838,metapodial pad,descendant
+UBERON:0008839,palmar pad,descendant
+UBERON:0001518,skin of wrist,descendant
+UBERON:0008840,plantar pad,descendant
+UBERON:0001512,skin of ankle,descendant
+UBERON:0004264,lower leg skin,descendant
+UBERON:0004262,upper leg skin,descendant
+UBERON:0001510,skin of knee,descendant
+UBERON:0010878,humeral patagium,descendant
+UBERON:0004263,upper arm skin,descendant
+UBERON:0003403,skin of forearm,descendant
+UBERON:0001517,skin of elbow,descendant
+UBERON:8480023,skin of lateral lumbar region of abdomen,descendant
+UBERON:8480053,skin of umbilical area,descendant
+UBERON:0036149,suprapubic skin,descendant
+UBERON:8480026,skin of iliac crest region,descendant
+UBERON:8480024,skin of sacral region,descendant
+UBERON:8480014,skin of buttock,descendant
+UBERON:0012336,perianal skin,descendant
+UBERON:8480073,skin of scapula region,descendant
+UBERON:8480030,skin of breast,descendant
+UBERON:0019200,skin of anterior chest,descendant
+UBERON:0035609,outer root sheath companion layer,descendant
+UBERON:0034765,glabella skin,descendant
+UBERON:0008802,cheek pouch,descendant
+UBERON:0013766,epicanthal fold,descendant
+UBERON:0018151,skin of upper lip,descendant
+UBERON:0018150,skin of lower lip,descendant
+UBERON:0005277,dorsal skin of toe,descendant
+UBERON:0005276,dorsal skin of finger,descendant
+UBERON:0013628,pollical pad,descendant
+UBERON:0013629,hallical pad,descendant
+UBERON:0012350,carpal pad,descendant
+UBERON:0013627,lateral metatarsal pad,descendant
+UBERON:0013626,medial metatarsal pad,descendant
+UBERON:0015873,heel skin,descendant
+UBERON:8480072,skin of shin,descendant
+UBERON:8480050,skin of calf,descendant
+UBERON:0014482,ischial callosity,descendant
+UBERON:0013641,external cheek pouch,descendant
+UBERON:0013640,internal cheek pouch,descendant
