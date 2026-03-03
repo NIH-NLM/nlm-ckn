@@ -1,0 +1,746 @@
+{
+  "queries": [
+    "min_age=15.0"
+  ],
+  "root_terms": [
+    {
+      "obo_id": "HsapDv:0000109",
+      "label": "15-year-old stage"
+    },
+    {
+      "obo_id": "HsapDv:0000226",
+      "label": "prime adult stage"
+    },
+    {
+      "obo_id": "HsapDv:0000258",
+      "label": "adult stage"
+    },
+    {
+      "obo_id": "HsapDv:0000266",
+      "label": "young adult stage"
+    },
+    {
+      "obo_id": "HsapDv:0000268",
+      "label": "15-19 year-old"
+    }
+  ],
+  "obo_ids": [
+    "HsapDv:0000095",
+    "HsapDv:0000109",
+    "HsapDv:0000110",
+    "HsapDv:0000111",
+    "HsapDv:0000112",
+    "HsapDv:0000113",
+    "HsapDv:0000114",
+    "HsapDv:0000115",
+    "HsapDv:0000116",
+    "HsapDv:0000117",
+    "HsapDv:0000118",
+    "HsapDv:0000119",
+    "HsapDv:0000120",
+    "HsapDv:0000121",
+    "HsapDv:0000122",
+    "HsapDv:0000123",
+    "HsapDv:0000124",
+    "HsapDv:0000125",
+    "HsapDv:0000126",
+    "HsapDv:0000127",
+    "HsapDv:0000128",
+    "HsapDv:0000129",
+    "HsapDv:0000130",
+    "HsapDv:0000131",
+    "HsapDv:0000132",
+    "HsapDv:0000133",
+    "HsapDv:0000134",
+    "HsapDv:0000135",
+    "HsapDv:0000136",
+    "HsapDv:0000137",
+    "HsapDv:0000138",
+    "HsapDv:0000139",
+    "HsapDv:0000140",
+    "HsapDv:0000141",
+    "HsapDv:0000142",
+    "HsapDv:0000143",
+    "HsapDv:0000144",
+    "HsapDv:0000145",
+    "HsapDv:0000146",
+    "HsapDv:0000147",
+    "HsapDv:0000148",
+    "HsapDv:0000149",
+    "HsapDv:0000150",
+    "HsapDv:0000151",
+    "HsapDv:0000152",
+    "HsapDv:0000153",
+    "HsapDv:0000154",
+    "HsapDv:0000155",
+    "HsapDv:0000156",
+    "HsapDv:0000157",
+    "HsapDv:0000158",
+    "HsapDv:0000159",
+    "HsapDv:0000160",
+    "HsapDv:0000161",
+    "HsapDv:0000162",
+    "HsapDv:0000163",
+    "HsapDv:0000164",
+    "HsapDv:0000165",
+    "HsapDv:0000166",
+    "HsapDv:0000167",
+    "HsapDv:0000168",
+    "HsapDv:0000169",
+    "HsapDv:0000170",
+    "HsapDv:0000171",
+    "HsapDv:0000172",
+    "HsapDv:0000173",
+    "HsapDv:0000206",
+    "HsapDv:0000207",
+    "HsapDv:0000208",
+    "HsapDv:0000209",
+    "HsapDv:0000210",
+    "HsapDv:0000211",
+    "HsapDv:0000212",
+    "HsapDv:0000213",
+    "HsapDv:0000214",
+    "HsapDv:0000215",
+    "HsapDv:0000216",
+    "HsapDv:0000217",
+    "HsapDv:0000218",
+    "HsapDv:0000219",
+    "HsapDv:0000220",
+    "HsapDv:0000221",
+    "HsapDv:0000222",
+    "HsapDv:0000223",
+    "HsapDv:0000224",
+    "HsapDv:0000225",
+    "HsapDv:0000226",
+    "HsapDv:0000227",
+    "HsapDv:0000228",
+    "HsapDv:0000229",
+    "HsapDv:0000230",
+    "HsapDv:0000231",
+    "HsapDv:0000232",
+    "HsapDv:0000233",
+    "HsapDv:0000234",
+    "HsapDv:0000237",
+    "HsapDv:0000238",
+    "HsapDv:0000239",
+    "HsapDv:0000240",
+    "HsapDv:0000241",
+    "HsapDv:0000242",
+    "HsapDv:0000243",
+    "HsapDv:0000244",
+    "HsapDv:0000245",
+    "HsapDv:0000247",
+    "HsapDv:0000248",
+    "HsapDv:0000249",
+    "HsapDv:0000250",
+    "HsapDv:0000251",
+    "HsapDv:0000252",
+    "HsapDv:0000253",
+    "HsapDv:0000254",
+    "HsapDv:0000255",
+    "HsapDv:0000258",
+    "HsapDv:0000266",
+    "HsapDv:0000267",
+    "HsapDv:0000268",
+    "HsapDv:0000272",
+    "HsapDv:0000274"
+  ],
+  "terms": [
+    {
+      "obo_id": "HsapDv:0000095",
+      "label": "80 year-old and over stage",
+      "start_years_post_birth": 80.0
+    },
+    {
+      "obo_id": "HsapDv:0000109",
+      "label": "15-year-old stage",
+      "start_years_post_birth": 15.0
+    },
+    {
+      "obo_id": "HsapDv:0000110",
+      "label": "16-year-old stage",
+      "start_years_post_birth": 16.0
+    },
+    {
+      "obo_id": "HsapDv:0000111",
+      "label": "17-year-old stage",
+      "start_years_post_birth": 17.0
+    },
+    {
+      "obo_id": "HsapDv:0000112",
+      "label": "18-year-old stage",
+      "start_years_post_birth": 18.0
+    },
+    {
+      "obo_id": "HsapDv:0000113",
+      "label": "19-year-old stage",
+      "start_years_post_birth": 19.0
+    },
+    {
+      "obo_id": "HsapDv:0000114",
+      "label": "20-year-old stage",
+      "start_years_post_birth": 20.0
+    },
+    {
+      "obo_id": "HsapDv:0000115",
+      "label": "21-year-old stage",
+      "start_years_post_birth": 21.0
+    },
+    {
+      "obo_id": "HsapDv:0000116",
+      "label": "22-year-old stage",
+      "start_years_post_birth": 22.0
+    },
+    {
+      "obo_id": "HsapDv:0000117",
+      "label": "23-year-old stage",
+      "start_years_post_birth": 23.0
+    },
+    {
+      "obo_id": "HsapDv:0000118",
+      "label": "24-year-old stage",
+      "start_years_post_birth": 24.0
+    },
+    {
+      "obo_id": "HsapDv:0000119",
+      "label": "25-year-old stage",
+      "start_years_post_birth": 25.0
+    },
+    {
+      "obo_id": "HsapDv:0000120",
+      "label": "26-year-old stage",
+      "start_years_post_birth": 26.0
+    },
+    {
+      "obo_id": "HsapDv:0000121",
+      "label": "27-year-old stage",
+      "start_years_post_birth": 27.0
+    },
+    {
+      "obo_id": "HsapDv:0000122",
+      "label": "28-year-old stage",
+      "start_years_post_birth": 28.0
+    },
+    {
+      "obo_id": "HsapDv:0000123",
+      "label": "29-year-old stage",
+      "start_years_post_birth": 29.0
+    },
+    {
+      "obo_id": "HsapDv:0000124",
+      "label": "30-year-old stage",
+      "start_years_post_birth": 30.0
+    },
+    {
+      "obo_id": "HsapDv:0000125",
+      "label": "31-year-old stage",
+      "start_years_post_birth": 31.0
+    },
+    {
+      "obo_id": "HsapDv:0000126",
+      "label": "32-year-old stage",
+      "start_years_post_birth": 32.0
+    },
+    {
+      "obo_id": "HsapDv:0000127",
+      "label": "33-year-old stage",
+      "start_years_post_birth": 33.0
+    },
+    {
+      "obo_id": "HsapDv:0000128",
+      "label": "34-year-old stage",
+      "start_years_post_birth": 34.0
+    },
+    {
+      "obo_id": "HsapDv:0000129",
+      "label": "35-year-old stage",
+      "start_years_post_birth": 35.0
+    },
+    {
+      "obo_id": "HsapDv:0000130",
+      "label": "36-year-old stage",
+      "start_years_post_birth": 36.0
+    },
+    {
+      "obo_id": "HsapDv:0000131",
+      "label": "37-year-old stage",
+      "start_years_post_birth": 37.0
+    },
+    {
+      "obo_id": "HsapDv:0000132",
+      "label": "38-year-old stage",
+      "start_years_post_birth": 38.0
+    },
+    {
+      "obo_id": "HsapDv:0000133",
+      "label": "39-year-old stage",
+      "start_years_post_birth": 39.0
+    },
+    {
+      "obo_id": "HsapDv:0000134",
+      "label": "40-year-old stage",
+      "start_years_post_birth": 40.0
+    },
+    {
+      "obo_id": "HsapDv:0000135",
+      "label": "41-year-old stage",
+      "start_years_post_birth": 41.0
+    },
+    {
+      "obo_id": "HsapDv:0000136",
+      "label": "42-year-old stage",
+      "start_years_post_birth": 42.0
+    },
+    {
+      "obo_id": "HsapDv:0000137",
+      "label": "43-year-old stage",
+      "start_years_post_birth": 43.0
+    },
+    {
+      "obo_id": "HsapDv:0000138",
+      "label": "44-year-old stage",
+      "start_years_post_birth": 44.0
+    },
+    {
+      "obo_id": "HsapDv:0000139",
+      "label": "45-year-old stage",
+      "start_years_post_birth": 45.0
+    },
+    {
+      "obo_id": "HsapDv:0000140",
+      "label": "46-year-old stage",
+      "start_years_post_birth": 46.0
+    },
+    {
+      "obo_id": "HsapDv:0000141",
+      "label": "47-year-old stage",
+      "start_years_post_birth": 47.0
+    },
+    {
+      "obo_id": "HsapDv:0000142",
+      "label": "48-year-old stage",
+      "start_years_post_birth": 48.0
+    },
+    {
+      "obo_id": "HsapDv:0000143",
+      "label": "49-year-old stage",
+      "start_years_post_birth": 49.0
+    },
+    {
+      "obo_id": "HsapDv:0000144",
+      "label": "50-year-old stage",
+      "start_years_post_birth": 50.0
+    },
+    {
+      "obo_id": "HsapDv:0000145",
+      "label": "51-year-old stage",
+      "start_years_post_birth": 51.0
+    },
+    {
+      "obo_id": "HsapDv:0000146",
+      "label": "52-year-old stage",
+      "start_years_post_birth": 52.0
+    },
+    {
+      "obo_id": "HsapDv:0000147",
+      "label": "53-year-old stage",
+      "start_years_post_birth": 53.0
+    },
+    {
+      "obo_id": "HsapDv:0000148",
+      "label": "54-year-old stage",
+      "start_years_post_birth": 54.0
+    },
+    {
+      "obo_id": "HsapDv:0000149",
+      "label": "55-year-old stage",
+      "start_years_post_birth": 55.0
+    },
+    {
+      "obo_id": "HsapDv:0000150",
+      "label": "56-year-old stage",
+      "start_years_post_birth": 56.0
+    },
+    {
+      "obo_id": "HsapDv:0000151",
+      "label": "57-year-old stage",
+      "start_years_post_birth": 57.0
+    },
+    {
+      "obo_id": "HsapDv:0000152",
+      "label": "58-year-old stage",
+      "start_years_post_birth": 58.0
+    },
+    {
+      "obo_id": "HsapDv:0000153",
+      "label": "59-year-old stage",
+      "start_years_post_birth": 59.0
+    },
+    {
+      "obo_id": "HsapDv:0000154",
+      "label": "60-year-old stage",
+      "start_years_post_birth": 60.0
+    },
+    {
+      "obo_id": "HsapDv:0000155",
+      "label": "61-year-old stage",
+      "start_years_post_birth": 61.0
+    },
+    {
+      "obo_id": "HsapDv:0000156",
+      "label": "62-year-old stage",
+      "start_years_post_birth": 62.0
+    },
+    {
+      "obo_id": "HsapDv:0000157",
+      "label": "63-year-old stage",
+      "start_years_post_birth": 63.0
+    },
+    {
+      "obo_id": "HsapDv:0000158",
+      "label": "64-year-old stage",
+      "start_years_post_birth": 64.0
+    },
+    {
+      "obo_id": "HsapDv:0000159",
+      "label": "65-year-old stage",
+      "start_years_post_birth": 65.0
+    },
+    {
+      "obo_id": "HsapDv:0000160",
+      "label": "66-year-old stage",
+      "start_years_post_birth": 66.0
+    },
+    {
+      "obo_id": "HsapDv:0000161",
+      "label": "67-year-old stage",
+      "start_years_post_birth": 67.0
+    },
+    {
+      "obo_id": "HsapDv:0000162",
+      "label": "68-year-old stage",
+      "start_years_post_birth": 68.0
+    },
+    {
+      "obo_id": "HsapDv:0000163",
+      "label": "69-year-old stage",
+      "start_years_post_birth": 69.0
+    },
+    {
+      "obo_id": "HsapDv:0000164",
+      "label": "70-year-old stage",
+      "start_years_post_birth": 70.0
+    },
+    {
+      "obo_id": "HsapDv:0000165",
+      "label": "71-year-old stage",
+      "start_years_post_birth": 71.0
+    },
+    {
+      "obo_id": "HsapDv:0000166",
+      "label": "72-year-old stage",
+      "start_years_post_birth": 72.0
+    },
+    {
+      "obo_id": "HsapDv:0000167",
+      "label": "73-year-old stage",
+      "start_years_post_birth": 73.0
+    },
+    {
+      "obo_id": "HsapDv:0000168",
+      "label": "74-year-old stage",
+      "start_years_post_birth": 74.0
+    },
+    {
+      "obo_id": "HsapDv:0000169",
+      "label": "75-year-old stage",
+      "start_years_post_birth": 75.0
+    },
+    {
+      "obo_id": "HsapDv:0000170",
+      "label": "76-year-old stage",
+      "start_years_post_birth": 76.0
+    },
+    {
+      "obo_id": "HsapDv:0000171",
+      "label": "77-year-old stage",
+      "start_years_post_birth": 77.0
+    },
+    {
+      "obo_id": "HsapDv:0000172",
+      "label": "78-year-old stage",
+      "start_years_post_birth": 78.0
+    },
+    {
+      "obo_id": "HsapDv:0000173",
+      "label": "79-year-old stage",
+      "start_years_post_birth": 79.0
+    },
+    {
+      "obo_id": "HsapDv:0000206",
+      "label": "80-year-old stage",
+      "start_years_post_birth": 80.0
+    },
+    {
+      "obo_id": "HsapDv:0000207",
+      "label": "81-year-old stage",
+      "start_years_post_birth": 81.0
+    },
+    {
+      "obo_id": "HsapDv:0000208",
+      "label": "82-year-old stage",
+      "start_years_post_birth": 82.0
+    },
+    {
+      "obo_id": "HsapDv:0000209",
+      "label": "83-year-old stage",
+      "start_years_post_birth": 83.0
+    },
+    {
+      "obo_id": "HsapDv:0000210",
+      "label": "84-year-old stage",
+      "start_years_post_birth": 84.0
+    },
+    {
+      "obo_id": "HsapDv:0000211",
+      "label": "85-year-old stage",
+      "start_years_post_birth": 85.0
+    },
+    {
+      "obo_id": "HsapDv:0000212",
+      "label": "86-year-old stage",
+      "start_years_post_birth": 86.0
+    },
+    {
+      "obo_id": "HsapDv:0000213",
+      "label": "87-year-old stage",
+      "start_years_post_birth": 87.0
+    },
+    {
+      "obo_id": "HsapDv:0000214",
+      "label": "88-year-old stage",
+      "start_years_post_birth": 88.0
+    },
+    {
+      "obo_id": "HsapDv:0000215",
+      "label": "89-year-old stage",
+      "start_years_post_birth": 89.0
+    },
+    {
+      "obo_id": "HsapDv:0000216",
+      "label": "90-year-old stage",
+      "start_years_post_birth": 90.0
+    },
+    {
+      "obo_id": "HsapDv:0000217",
+      "label": "91-year-old stage",
+      "start_years_post_birth": 91.0
+    },
+    {
+      "obo_id": "HsapDv:0000218",
+      "label": "92-year-old stage",
+      "start_years_post_birth": 92.0
+    },
+    {
+      "obo_id": "HsapDv:0000219",
+      "label": "93-year-old stage",
+      "start_years_post_birth": 93.0
+    },
+    {
+      "obo_id": "HsapDv:0000220",
+      "label": "94-year-old stage",
+      "start_years_post_birth": 94.0
+    },
+    {
+      "obo_id": "HsapDv:0000221",
+      "label": "95-year-old stage",
+      "start_years_post_birth": 95.0
+    },
+    {
+      "obo_id": "HsapDv:0000222",
+      "label": "96-year-old stage",
+      "start_years_post_birth": 96.0
+    },
+    {
+      "obo_id": "HsapDv:0000223",
+      "label": "97-year-old stage",
+      "start_years_post_birth": 97.0
+    },
+    {
+      "obo_id": "HsapDv:0000224",
+      "label": "98-year-old stage",
+      "start_years_post_birth": 98.0
+    },
+    {
+      "obo_id": "HsapDv:0000225",
+      "label": "99-year-old stage",
+      "start_years_post_birth": 99.0
+    },
+    {
+      "obo_id": "HsapDv:0000226",
+      "label": "prime adult stage",
+      "start_years_post_birth": 15.0
+    },
+    {
+      "obo_id": "HsapDv:0000227",
+      "label": "late adult stage",
+      "start_years_post_birth": 60.0
+    },
+    {
+      "obo_id": "HsapDv:0000228",
+      "label": "100-year-old stage",
+      "start_years_post_birth": 100.0
+    },
+    {
+      "obo_id": "HsapDv:0000229",
+      "label": "101-year-old stage",
+      "start_years_post_birth": 101.0
+    },
+    {
+      "obo_id": "HsapDv:0000230",
+      "label": "102-year-old stage",
+      "start_years_post_birth": 102.0
+    },
+    {
+      "obo_id": "HsapDv:0000231",
+      "label": "103-year-old stage",
+      "start_years_post_birth": 103.0
+    },
+    {
+      "obo_id": "HsapDv:0000232",
+      "label": "104-year-old stage",
+      "start_years_post_birth": 104.0
+    },
+    {
+      "obo_id": "HsapDv:0000233",
+      "label": "105-year-old stage",
+      "start_years_post_birth": 105.0
+    },
+    {
+      "obo_id": "HsapDv:0000234",
+      "label": "106-year-old stage",
+      "start_years_post_birth": 106.0
+    },
+    {
+      "obo_id": "HsapDv:0000237",
+      "label": "third decade stage",
+      "start_years_post_birth": 20.0
+    },
+    {
+      "obo_id": "HsapDv:0000238",
+      "label": "fourth decade stage",
+      "start_years_post_birth": 30.0
+    },
+    {
+      "obo_id": "HsapDv:0000239",
+      "label": "fifth decade stage",
+      "start_years_post_birth": 40.0
+    },
+    {
+      "obo_id": "HsapDv:0000240",
+      "label": "sixth decade stage",
+      "start_years_post_birth": 50.0
+    },
+    {
+      "obo_id": "HsapDv:0000241",
+      "label": "seventh decade stage",
+      "start_years_post_birth": 60.0
+    },
+    {
+      "obo_id": "HsapDv:0000242",
+      "label": "eighth decade stage",
+      "start_years_post_birth": 70.0
+    },
+    {
+      "obo_id": "HsapDv:0000243",
+      "label": "ninth decade stage",
+      "start_years_post_birth": 80.0
+    },
+    {
+      "obo_id": "HsapDv:0000244",
+      "label": "tenth decade stage",
+      "start_years_post_birth": 90.0
+    },
+    {
+      "obo_id": "HsapDv:0000245",
+      "label": "eleventh decade stage",
+      "start_years_post_birth": 100.0
+    },
+    {
+      "obo_id": "HsapDv:0000247",
+      "label": "centenarian stage",
+      "start_years_post_birth": 100.0
+    },
+    {
+      "obo_id": "HsapDv:0000248",
+      "label": "107-year-old stage",
+      "start_years_post_birth": 107.0
+    },
+    {
+      "obo_id": "HsapDv:0000249",
+      "label": "108-year-old stage",
+      "start_years_post_birth": 108.0
+    },
+    {
+      "obo_id": "HsapDv:0000250",
+      "label": "109-year-old stage",
+      "start_years_post_birth": 109.0
+    },
+    {
+      "obo_id": "HsapDv:0000251",
+      "label": "110-year-old stage",
+      "start_years_post_birth": 110.0
+    },
+    {
+      "obo_id": "HsapDv:0000252",
+      "label": "111-year-old stage",
+      "start_years_post_birth": 111.0
+    },
+    {
+      "obo_id": "HsapDv:0000253",
+      "label": "112-year-old stage",
+      "start_years_post_birth": 112.0
+    },
+    {
+      "obo_id": "HsapDv:0000254",
+      "label": "113-year-old stage",
+      "start_years_post_birth": 113.0
+    },
+    {
+      "obo_id": "HsapDv:0000255",
+      "label": "114-year-old stage",
+      "start_years_post_birth": 114.0
+    },
+    {
+      "obo_id": "HsapDv:0000258",
+      "label": "adult stage",
+      "start_years_post_birth": 15.0
+    },
+    {
+      "obo_id": "HsapDv:0000266",
+      "label": "young adult stage",
+      "start_years_post_birth": 15.0
+    },
+    {
+      "obo_id": "HsapDv:0000267",
+      "label": "middle aged stage",
+      "start_years_post_birth": 40.0
+    },
+    {
+      "obo_id": "HsapDv:0000268",
+      "label": "15-19 year-old",
+      "start_years_post_birth": 15.0
+    },
+    {
+      "obo_id": "HsapDv:0000272",
+      "label": "60-79 year-old stage",
+      "start_years_post_birth": 60.0
+    },
+    {
+      "obo_id": "HsapDv:0000274",
+      "label": "90 year-old and over stage",
+      "start_years_post_birth": 90.0
+    }
+  ],
+  "total": 119
+}

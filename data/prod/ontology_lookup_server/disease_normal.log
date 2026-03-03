@@ -1,0 +1,30 @@
+======================================================================
+CellxGene Harvester - 0C Resolve Disease
+======================================================================
+Started : 2026-02-27 19:46:45
+Log file: data/disease_normal.log
+Command : python /mnt/libraries/envs/cellxgene/bin/cellxgene-harvester resolve-disease normal
+
+
+Resolving: 'normal'
+  Searching OLS4 (pato) for: 'normal'
+  Exact match : PATO:0000461  normal
+  Root term: PATO:0000461  normal
+  Found 0 descendants for PATO:0000461
+  [terms resolved for 'normal']
+    Before :        1 terms
+    After  :        1 terms
+    Removed:        0 terms  (0.0%)
+  [deduplication]
+    Before :        1 terms
+    After  :        1 terms
+    Removed:        0 terms  (0.0%)
+
+Saved JSON: data/disease_normal.json
+Saved CSV : data/disease_normal.csv
+Total terms: 1  (root + descendants)
+
+======================================================================
+Finished: 2026-02-27 19:46:46
+Output  : data/disease_normal.csv
+======================================================================

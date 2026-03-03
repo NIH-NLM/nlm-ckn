@@ -1,0 +1,50 @@
+======================================================================
+CellxGene Harvester - 4 Filter Datasets
+======================================================================
+Started : 2026-03-02 16:35:33
+Log file: data/homo_sapiens_heart_plus_pericardium.log
+Command : python /mnt/libraries/envs/cellxgene/bin/cellxgene-harvester filter-datasets data/all_datasets_complete.csv --uberon data/uberon_heart_plus_pericardium.json --output data/homo_sapiens_heart_plus_pericardium.csv --disease data/disease_normal.json --organism Homo sapiens --no-preprints --exclude-cancer --exclude-spatial
+
+Input : data/all_datasets_complete.csv
+Loaded 2,070 datasets
+
+  Loaded UBERON JSON : data/uberon_heart_plus_pericardium.json
+  Root terms          : heart plus pericardium
+  Total obo_ids       : 263
+  [UBERON ontology ID tissue filter]
+    Before :    2,070 datasets
+    After  :      145 datasets
+    Removed:    1,925 datasets  (93.0%)
+  Loaded disease JSON : data/disease_normal.json
+  Root terms          : normal
+  Total obo_ids       : 1
+  [disease ontology ID filter (inclusive)]
+    Before :      145 datasets
+    After  :      119 datasets
+    Removed:       26 datasets  (17.9%)
+  [organism filter (Homo sapiens)]
+    Before :      119 datasets
+    After  :      106 datasets
+    Removed:       13 datasets  (10.9%)
+  [preprint exclusion]
+    Before :      106 datasets
+    After  :      106 datasets
+    Removed:        0 datasets  (0.0%)
+  [cancer exclusion]
+    Before :      106 datasets
+    After  :      106 datasets
+    Removed:        0 datasets  (0.0%)
+  [spatial exclusion]
+    Before :      106 datasets
+    After  :       47 datasets
+    Removed:       59 datasets  (55.7%)
+
+  [TOTAL]
+    Before :    2,070 datasets
+    After  :       47 datasets
+    Removed:    2,023 datasets  (97.7%)
+
+======================================================================
+Finished: 2026-03-02 16:35:33
+Output  : data/homo_sapiens_heart_plus_pericardium.csv
+======================================================================

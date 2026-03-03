@@ -1,0 +1,23 @@
+{
+  "queries": [
+    "normal"
+  ],
+  "root_terms": [
+    {
+      "obo_id": "PATO:0000461",
+      "label": "normal",
+      "level": "root"
+    }
+  ],
+  "obo_ids": [
+    "PATO:0000461"
+  ],
+  "terms": [
+    {
+      "obo_id": "PATO:0000461",
+      "label": "normal",
+      "level": "root"
+    }
+  ],
+  "total": 1
+}

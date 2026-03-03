@@ -1,5 +1,13 @@
 obo_id,label,level
-UBERON:0000948,heart,root
+UBERON:0015410,heart plus pericardium,root
+UBERON:0002407,pericardium,descendant
+UBERON:0000948,heart,descendant
+UBERON:0007187,pericardial parietal mesothelium,descendant
+UBERON:0007186,pericardial visceral mesothelium,descendant
+UBERON:0004271,outflow tract pericardium,descendant
+UBERON:0003388,mesothelium of pericardial cavity,descendant
+UBERON:0002359,fibrous pericardium,descendant
+UBERON:0002406,pericardial sac,descendant
 UBERON:8920010,left marginal vein,descendant
 UBERON:8920003,right marginal artery,descendant
 UBERON:8600055,atrioventricular nodal artery,descendant
@@ -14,8 +22,8 @@ UBERON:0013152,interventricular foramen of heart,descendant
 UBERON:0011820,atrioventricular region,descendant
 UBERON:0010277,mesocardium,descendant
 UBERON:0009751,cardiac mesenchyme,descendant
-UBERON:0008307,heart endothelium,descendant
 UBERON:0006966,coronary capillary,descendant
+UBERON:0008307,heart endothelium,descendant
 UBERON:0006212,bulbo-ventricular groove,descendant
 UBERON:0006008,fibrous ring of heart,descendant
 UBERON:0005985,coronary vessel,descendant
@@ -24,21 +32,24 @@ UBERON:0005438,coronary sinus,descendant
 UBERON:0004706,bulbus cordis,descendant
 UBERON:0004292,cardiac skeleton,descendant
 UBERON:0004151,cardiac chamber,descendant
-UBERON:0004148,cardiac vein,descendant
 UBERON:0004145,outflow tract,descendant
 UBERON:0003906,cardiac jelly,descendant
 UBERON:0003610,heart elastic tissue,descendant
 UBERON:0003498,heart blood vessel,descendant
+UBERON:0004148,cardiac vein,descendant
 UBERON:0003282,mesentery of heart,descendant
+UBERON:0002511,trabecula carnea,descendant
 UBERON:0002349,myocardium,descendant
 UBERON:0002348,epicardium,descendant
-UBERON:0002511,trabecula carnea,descendant
 UBERON:0002165,endocardium,descendant
 UBERON:0002099,cardiac septum,descendant
 UBERON:0002098,apex of heart,descendant
 UBERON:0002062,endocardial cushion,descendant
 UBERON:0001621,coronary artery,descendant
 UBERON:0000946,cardiac valve,descendant
+UBERON:0007188,mesothelium of serous pericardium,descendant
+UBERON:0002357,serous pericardium,descendant
+UBERON:0001074,pericardial cavity,descendant
 UBERON:0036328,wall of coronary artery,descendant
 UBERON:0004784,heart ventricle wall,descendant
 UBERON:0034699,inflow tract of atrium,descendant
@@ -48,8 +59,8 @@ UBERON:0002087,atrioventricular canal,descendant
 UBERON:0010279,pericardial sinus,descendant
 UBERON:0005601,dorsal mesocardium,descendant
 UBERON:0005967,conotruncal ridge,descendant
-UBERON:0005316,endocardial endothelium,descendant
 UBERON:0004699,outflow tract endothelium,descendant
+UBERON:0005316,endocardial endothelium,descendant
 UBERON:0005997,tricuspid valve anulus,descendant
 UBERON:0005995,mitral valve anulus,descendant
 UBERON:0005993,pulmonary valve anulus,descendant
@@ -72,26 +83,29 @@ UBERON:0003983,conus arteriosus,descendant
 UBERON:0002082,cardiac ventricle,descendant
 UBERON:0002081,cardiac atrium,descendant
 UBERON:0002063,sinus venosus,descendant
-UBERON:0035374,small cardiac vein,descendant
-UBERON:0009687,middle cardiac vein,descendant
-UBERON:0006958,great vein of heart,descendant
 UBERON:0006207,aortico-pulmonary spiral septum,descendant
 UBERON:0005946,outflow tract of atrium,descendant
 UBERON:0005440,ductus arteriosus,descendant
-UBERON:0005432,aortic sac,descendant
 UBERON:0005339,outflow tract pulmonary component,descendant
 UBERON:0005338,outflow tract aortic component,descendant
 UBERON:0005337,outflow tract of ventricle,descendant
-UBERON:0004271,outflow tract pericardium,descendant
-UBERON:0004265,outflow tract myocardium,descendant
 UBERON:0005263,outflow tract cardiac jelly,descendant
-UBERON:0004142,outflow tract septum,descendant
+UBERON:0005432,aortic sac,descendant
+UBERON:0004265,outflow tract myocardium,descendant
 UBERON:0004246,outflow tract smooth muscle,descendant
+UBERON:0004142,outflow tract septum,descendant
 UBERON:0002061,truncus arteriosus,descendant
 UBERON:0005262,ventricle cardiac jelly,descendant
 UBERON:0005261,atrium cardiac jelly,descendant
 UBERON:0035422,circumflex branch of left coronary artery,descendant
 UBERON:0006829,remnant of left anterior vena cava,descendant
+UBERON:0035374,small cardiac vein,descendant
+UBERON:0009687,middle cardiac vein,descendant
+UBERON:0006958,great vein of heart,descendant
+UBERON:0006828,trabecula carnea of atrium,descendant
+UBERON:0006571,trabecula carnea of left ventricle,descendant
+UBERON:0006570,trabecula carnea of right ventricle,descendant
+UBERON:0003452,trabecula carnea cardiac muscle tissue,descendant
 UBERON:0004493,cardiac muscle tissue of myocardium,descendant
 UBERON:0004162,pulmonary myocardium,descendant
 UBERON:0002350,conducting system of heart,descendant
@@ -99,10 +113,6 @@ UBERON:0002302,myocardium of atrium,descendant
 UBERON:0001083,myocardium of ventricle,descendant
 UBERON:0015128,subepicardial layer of epicardium,descendant
 UBERON:0001082,epicardium of ventricle,descendant
-UBERON:0006828,trabecula carnea of atrium,descendant
-UBERON:0006571,trabecula carnea of left ventricle,descendant
-UBERON:0006570,trabecula carnea of right ventricle,descendant
-UBERON:0003452,trabecula carnea cardiac muscle tissue,descendant
 UBERON:2005072,endocardial ring,descendant
 UBERON:0005243,interventricular septum endocardium,descendant
 UBERON:0003930,atrioventricular canal endocardium,descendant
@@ -110,8 +120,8 @@ UBERON:0002166,endocardium of atrium,descendant
 UBERON:0001081,endocardium of ventricle,descendant
 UBERON:0005989,atrioventricular septum,descendant
 UBERON:0004492,cardiac muscle tissue of cardiac septum,descendant
-UBERON:0002085,interatrial septum,descendant
 UBERON:0002094,interventricular septum,descendant
+UBERON:0002085,interatrial septum,descendant
 UBERON:0036067,superior endocardial cushion,descendant
 UBERON:0036066,inferior endocardial cushion,descendant
 UBERON:0039232,conus artery,descendant
@@ -124,6 +134,8 @@ UBERON:0005485,valve of inferior vena cava,descendant
 UBERON:0004150,coronary sinus valve,descendant
 UBERON:0004149,ventriculo bulbo valve,descendant
 UBERON:0002086,sinoatrial valve,descendant
+UBERON:0002425,visceral serous pericardium,descendant
+UBERON:0002408,parietal serous pericardium,descendant
 UBERON:0036286,wall of right ventricle,descendant
 UBERON:0036285,wall of left ventricle,descendant
 UBERON:0004126,trabecular layer of ventricle,descendant
@@ -142,9 +154,9 @@ UBERON:0014851,chorda tendinea of left ventricle,descendant
 UBERON:0004125,myocardial compact layer,descendant
 UBERON:0004124,myocardium trabecular layer,descendant
 UBERON:0016522,cavity of right atrium,descendant
+UBERON:0016509,cavity of right ventricle,descendant
 UBERON:0016514,cavity of left ventricle,descendant
 UBERON:0016513,cavity of left atrium,descendant
-UBERON:0016509,cavity of right ventricle,descendant
 UBERON:0002080,heart right ventricle,descendant
 UBERON:0002078,right cardiac atrium,descendant
 UBERON:0002084,heart left ventricle,descendant
@@ -167,6 +179,8 @@ UBERON:0005966,outflow part of left atrium,descendant
 UBERON:0005965,outflow part of right atrium,descendant
 UBERON:0005956,outflow part of left ventricle,descendant
 UBERON:0005953,outflow part of right ventricle,descendant
+UBERON:0004526,cardiac muscle tissue of trabecula carnea of left ventricle,descendant
+UBERON:0004525,cardiac muscle tissue of trabecula carnea of right ventricle,descendant
 UBERON:0009966,internodal tract,descendant
 UBERON:0005982,Bachmann's bundle,descendant
 UBERON:0002352,atrioventricular node,descendant
@@ -183,8 +197,6 @@ UBERON:0005980,pectinate muscle,descendant
 UBERON:0006567,right ventricle myocardium,descendant
 UBERON:0006566,left ventricle myocardium,descendant
 UBERON:0015129,epicardial fat,descendant
-UBERON:0004526,cardiac muscle tissue of trabecula carnea of left ventricle,descendant
-UBERON:0004525,cardiac muscle tissue of trabecula carnea of right ventricle,descendant
 UBERON:0034903,left atrium endocardium,descendant
 UBERON:0011005,endocardium of auricle,descendant
 UBERON:0009129,right atrium endocardium,descendant
@@ -192,12 +204,12 @@ UBERON:0009713,endocardium of left ventricle,descendant
 UBERON:0009712,endocardium of right ventricle,descendant
 UBERON:0004491,cardiac muscle tissue of interatrial septum,descendant
 UBERON:0003383,cardiac muscle tissue of interventricular septum,descendant
+UBERON:0004153,ventricular septum intermedium,descendant
+UBERON:0004667,interventricular septum muscular part,descendant
 UBERON:0004754,foramen ovale of heart,descendant
 UBERON:0004159,atrial septum intermedium,descendant
 UBERON:0004155,atrial septum secundum,descendant
 UBERON:0004154,atrial septum primum,descendant
-UBERON:0004153,ventricular septum intermedium,descendant
-UBERON:0004667,interventricular septum muscular part,descendant
 UBERON:0011745,pulmonary valve leaflets,descendant
 UBERON:0011742,aortic valve leaflet,descendant
 UBERON:0007151,mitral valve leaflet,descendant
@@ -241,23 +253,12 @@ UBERON:0036291,myocardium of anterior wall of right ventricle,descendant
 UBERON:0036290,myocardium of anterior wall of left ventricle,descendant
 UBERON:0011006,endocardium of left auricle,descendant
 UBERON:0011007,endocardium of right auricle,descendant
+UBERON:0015224,interventricular foramen intermedium,descendant
 UBERON:0035186,valve of foramen ovale,descendant
 UBERON:0015225,atrial foramen intermedium,descendant
 UBERON:0009149,foramen primum,descendant
 UBERON:0006678,foramen secundum,descendant
-UBERON:0015224,interventricular foramen intermedium,descendant
 UBERON:0014854,anterior leaflet of mitral valve,descendant
 UBERON:0014853,commissural leaflet of mitral valve,descendant
 UBERON:0009779,cardiac muscle tissue of right auricle,descendant
 UBERON:0009780,cardiac muscle tissue of left auricle,descendant
-UBERON:0002407,pericardium,root
-UBERON:0007187,pericardial parietal mesothelium,descendant
-UBERON:0007186,pericardial visceral mesothelium,descendant
-UBERON:0003388,mesothelium of pericardial cavity,descendant
-UBERON:0002359,fibrous pericardium,descendant
-UBERON:0002406,pericardial sac,descendant
-UBERON:0007188,mesothelium of serous pericardium,descendant
-UBERON:0002357,serous pericardium,descendant
-UBERON:0001074,pericardial cavity,descendant
-UBERON:0002425,visceral serous pericardium,descendant
-UBERON:0002408,parietal serous pericardium,descendant

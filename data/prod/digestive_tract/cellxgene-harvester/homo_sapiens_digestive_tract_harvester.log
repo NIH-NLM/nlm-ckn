@@ -1,46 +1,50 @@
 ======================================================================
 CellxGene Harvester - 4 Filter Datasets
 ======================================================================
-Started : 2026-02-20 18:21:53
+Started : 2026-03-01 14:56:58
 Log file: data/homo_sapiens_digestive_tract_harvester.log
-Command : python /mnt/libraries/envs/cellxgene/bin/cellxgene-harvester filter-datasets --input data/all_datasets_complete.csv --uberon data/uberon_digestive_tract.json --organism Homo sapiens --no-preprints --exclude-cancer --exclude-spatial --output data/homo_sapiens_digestive_tract_harvester.csv
+Command : python /mnt/libraries/envs/cellxgene/bin/cellxgene-harvester filter-datasets data/all_datasets_complete.csv --uberon data/uberon_digestive_tract.json --output data/homo_sapiens_digestive_tract_harvester.csv --disease data/disease_normal.json --organism Homo sapiens --no-preprints --exclude-cancer --exclude-spatial
 
 Input : data/all_datasets_complete.csv
-Loaded 2,067 datasets
+Loaded 2,070 datasets
 
-  Loaded UBERON terms : data/uberon_digestive_tract.json
-  Queries             : digestive tract
+  Loaded UBERON JSON : data/uberon_digestive_tract.json
   Root terms          : digestive tract
-  Total labels        : 1,296 (root + all descendants)
-  Note: label text matching on 'tissue' column
-        (tissue_ontology_term_id precision applied in step 5)
-  [UBERON label tissue filter]
-    Before :    2,067 datasets
-    After  :      341 datasets
-    Removed:    1,726 datasets  (83.5%)
+  Total obo_ids       : 1,296
+  [UBERON ontology ID tissue filter]
+    Before :    2,070 datasets
+    After  :      240 datasets
+    Removed:    1,830 datasets  (88.4%)
+  Loaded disease JSON : data/disease_normal.json
+  Root terms          : normal
+  Total obo_ids       : 1
+  [disease ontology ID filter (inclusive)]
+    Before :      240 datasets
+    After  :      200 datasets
+    Removed:       40 datasets  (16.7%)
   [organism filter (Homo sapiens)]
-    Before :      341 datasets
-    After  :      285 datasets
-    Removed:       56 datasets  (16.4%)
+    Before :      200 datasets
+    After  :      165 datasets
+    Removed:       35 datasets  (17.5%)
   [preprint exclusion]
-    Before :      285 datasets
-    After  :      241 datasets
-    Removed:       44 datasets  (15.4%)
+    Before :      165 datasets
+    After  :      138 datasets
+    Removed:       27 datasets  (16.4%)
   [cancer exclusion]
-    Before :      241 datasets
-    After  :      193 datasets
-    Removed:       48 datasets  (19.9%)
+    Before :      138 datasets
+    After  :      110 datasets
+    Removed:       28 datasets  (20.3%)
   [spatial exclusion]
-    Before :      193 datasets
-    After  :      170 datasets
-    Removed:       23 datasets  (11.9%)
+    Before :      110 datasets
+    After  :      110 datasets
+    Removed:        0 datasets  (0.0%)
 
   [TOTAL]
-    Before :    2,067 datasets
-    After  :      170 datasets
-    Removed:    1,897 datasets  (91.8%)
+    Before :    2,070 datasets
+    After  :      110 datasets
+    Removed:    1,960 datasets  (94.7%)
 
 ======================================================================
-Finished: 2026-02-20 18:21:53
+Finished: 2026-03-01 14:56:58
 Output  : data/homo_sapiens_digestive_tract_harvester.csv
 ======================================================================

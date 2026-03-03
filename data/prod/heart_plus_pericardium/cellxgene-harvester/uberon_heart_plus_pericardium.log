@@ -1,0 +1,30 @@
+======================================================================
+CellxGene Harvester - 0 Resolve Uberon
+======================================================================
+Started : 2026-03-02 16:13:32
+Log file: data/uberon_heart_plus_pericardium.log
+Command : python /mnt/libraries/envs/cellxgene/bin/cellxgene-harvester resolve-uberon heart plus pericardium
+
+
+Resolving: 'heart plus pericardium'
+  Searching OLS4 for: 'heart plus pericardium'
+  Exact match: UBERON:0015410  heart plus pericardium
+  Root term: UBERON:0015410  heart plus pericardium
+  Found 262 descendants for UBERON:0015410
+  [terms resolved for 'heart plus pericardium']
+    Before :        1 terms
+    After  :      263 terms
+    Removed:     -262 terms  (-26200.0%)
+  [deduplication]
+    Before :      263 terms
+    After  :      263 terms
+    Removed:        0 terms  (0.0%)
+
+Saved JSON: data/uberon_heart_plus_pericardium.json
+Saved CSV : data/uberon_heart_plus_pericardium.csv
+Total terms: 263  (root + descendants)
+
+======================================================================
+Finished: 2026-03-02 16:13:35
+Output  : data/uberon_heart_plus_pericardium.csv
+======================================================================
