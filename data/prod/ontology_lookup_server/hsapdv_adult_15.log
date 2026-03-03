@@ -1,0 +1,35 @@
+======================================================================
+CellxGene Harvester - 0C Resolve Hsapdv
+======================================================================
+Started : 2026-02-28 16:08:58
+Log file: data/hsapdv_adult_15.log
+Command : python /mnt/libraries/envs/cellxgene/bin/cellxgene-harvester resolve-hsapdv --min-age 15
+
+Min age : 15.0
+Output  : data/hsapdv_adult_15
+
+Fetching HsapDv terms from OLS4 API...
+  Page 0: 200 terms (running total: 182)
+  Page 1: 60 terms (running total: 239)
+Fetched 239 HsapDv terms total
+
+  start age >= 15.0 yr → included : 119
+  start age <  15.0 yr → excluded : 22
+  no age annotation        → excluded : 98
+
+  Spot-checks:
+    OK   'seventh decade stage'              included  start=60.0
+    OK   'eighth decade stage'               included  start=70.0
+    OK   '29-year-old stage'                 included  start=29.0
+    OK   '15-year-old stage'                 included  start=15.0
+    OK   '14-year-old stage'                 excluded
+    OK   'newborn stage'                     excluded
+
+Saved JSON: data/hsapdv_adult_15.json
+Saved CSV : data/hsapdv_adult_15.csv
+Total included terms: 119  (start age >= 15.0 yr)
+
+======================================================================
+Finished: 2026-02-28 16:09:00
+Output  : data/hsapdv_adult_15.csv
+======================================================================

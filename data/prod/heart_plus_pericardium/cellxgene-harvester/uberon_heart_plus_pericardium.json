@@ -1,22 +1,24 @@
 {
   "queries": [
-    "heart",
-    "pericardium"
+    "heart plus pericardium"
   ],
   "root_terms": [
     {
-      "obo_id": "UBERON:0000948",
-      "label": "heart",
-      "level": "root"
-    },
-    {
-      "obo_id": "UBERON:0002407",
-      "label": "pericardium",
+      "obo_id": "UBERON:0015410",
+      "label": "heart plus pericardium",
       "level": "root"
     }
   ],
   "obo_ids": [
+    "UBERON:0015410",
+    "UBERON:0002407",
     "UBERON:0000948",
+    "UBERON:0007187",
+    "UBERON:0007186",
+    "UBERON:0004271",
+    "UBERON:0003388",
+    "UBERON:0002359",
+    "UBERON:0002406",
     "UBERON:8920010",
     "UBERON:8920003",
     "UBERON:8600055",
@@ -31,8 +33,8 @@
     "UBERON:0011820",
     "UBERON:0010277",
     "UBERON:0009751",
-    "UBERON:0008307",
     "UBERON:0006966",
+    "UBERON:0008307",
     "UBERON:0006212",
     "UBERON:0006008",
     "UBERON:0005985",
@@ -41,21 +43,24 @@
     "UBERON:0004706",
     "UBERON:0004292",
     "UBERON:0004151",
-    "UBERON:0004148",
     "UBERON:0004145",
     "UBERON:0003906",
     "UBERON:0003610",
     "UBERON:0003498",
+    "UBERON:0004148",
     "UBERON:0003282",
+    "UBERON:0002511",
     "UBERON:0002349",
     "UBERON:0002348",
-    "UBERON:0002511",
     "UBERON:0002165",
     "UBERON:0002099",
     "UBERON:0002098",
     "UBERON:0002062",
     "UBERON:0001621",
     "UBERON:0000946",
+    "UBERON:0007188",
+    "UBERON:0002357",
+    "UBERON:0001074",
     "UBERON:0036328",
     "UBERON:0004784",
     "UBERON:0034699",
@@ -65,8 +70,8 @@
     "UBERON:0010279",
     "UBERON:0005601",
     "UBERON:0005967",
-    "UBERON:0005316",
     "UBERON:0004699",
+    "UBERON:0005316",
     "UBERON:0005997",
     "UBERON:0005995",
     "UBERON:0005993",
@@ -89,26 +94,29 @@
     "UBERON:0002082",
     "UBERON:0002081",
     "UBERON:0002063",
-    "UBERON:0035374",
-    "UBERON:0009687",
-    "UBERON:0006958",
     "UBERON:0006207",
     "UBERON:0005946",
     "UBERON:0005440",
-    "UBERON:0005432",
     "UBERON:0005339",
     "UBERON:0005338",
     "UBERON:0005337",
-    "UBERON:0004271",
-    "UBERON:0004265",
     "UBERON:0005263",
-    "UBERON:0004142",
+    "UBERON:0005432",
+    "UBERON:0004265",
     "UBERON:0004246",
+    "UBERON:0004142",
     "UBERON:0002061",
     "UBERON:0005262",
     "UBERON:0005261",
     "UBERON:0035422",
     "UBERON:0006829",
+    "UBERON:0035374",
+    "UBERON:0009687",
+    "UBERON:0006958",
+    "UBERON:0006828",
+    "UBERON:0006571",
+    "UBERON:0006570",
+    "UBERON:0003452",
     "UBERON:0004493",
     "UBERON:0004162",
     "UBERON:0002350",
@@ -116,10 +124,6 @@
     "UBERON:0001083",
     "UBERON:0015128",
     "UBERON:0001082",
-    "UBERON:0006828",
-    "UBERON:0006571",
-    "UBERON:0006570",
-    "UBERON:0003452",
     "UBERON:2005072",
     "UBERON:0005243",
     "UBERON:0003930",
@@ -127,8 +131,8 @@
     "UBERON:0001081",
     "UBERON:0005989",
     "UBERON:0004492",
-    "UBERON:0002085",
     "UBERON:0002094",
+    "UBERON:0002085",
     "UBERON:0036067",
     "UBERON:0036066",
     "UBERON:0039232",
@@ -141,6 +145,8 @@
     "UBERON:0004150",
     "UBERON:0004149",
     "UBERON:0002086",
+    "UBERON:0002425",
+    "UBERON:0002408",
     "UBERON:0036286",
     "UBERON:0036285",
     "UBERON:0004126",
@@ -159,9 +165,9 @@
     "UBERON:0004125",
     "UBERON:0004124",
     "UBERON:0016522",
+    "UBERON:0016509",
     "UBERON:0016514",
     "UBERON:0016513",
-    "UBERON:0016509",
     "UBERON:0002080",
     "UBERON:0002078",
     "UBERON:0002084",
@@ -184,6 +190,8 @@
     "UBERON:0005965",
     "UBERON:0005956",
     "UBERON:0005953",
+    "UBERON:0004526",
+    "UBERON:0004525",
     "UBERON:0009966",
     "UBERON:0005982",
     "UBERON:0002352",
@@ -200,8 +208,6 @@
     "UBERON:0006567",
     "UBERON:0006566",
     "UBERON:0015129",
-    "UBERON:0004526",
-    "UBERON:0004525",
     "UBERON:0034903",
     "UBERON:0011005",
     "UBERON:0009129",
@@ -209,12 +215,12 @@
     "UBERON:0009712",
     "UBERON:0004491",
     "UBERON:0003383",
+    "UBERON:0004153",
+    "UBERON:0004667",
     "UBERON:0004754",
     "UBERON:0004159",
     "UBERON:0004155",
     "UBERON:0004154",
-    "UBERON:0004153",
-    "UBERON:0004667",
     "UBERON:0011745",
     "UBERON:0011742",
     "UBERON:0007151",
@@ -258,32 +264,61 @@
     "UBERON:0036290",
     "UBERON:0011006",
     "UBERON:0011007",
+    "UBERON:0015224",
     "UBERON:0035186",
     "UBERON:0015225",
     "UBERON:0009149",
     "UBERON:0006678",
-    "UBERON:0015224",
     "UBERON:0014854",
     "UBERON:0014853",
     "UBERON:0009779",
-    "UBERON:0009780",
-    "UBERON:0002407",
-    "UBERON:0007187",
-    "UBERON:0007186",
-    "UBERON:0003388",
-    "UBERON:0002359",
-    "UBERON:0002406",
-    "UBERON:0007188",
-    "UBERON:0002357",
-    "UBERON:0001074",
-    "UBERON:0002425",
-    "UBERON:0002408"
+    "UBERON:0009780"
   ],
   "terms": [
     {
+      "obo_id": "UBERON:0015410",
+      "label": "heart plus pericardium",
+      "level": "root"
+    },
+    {
+      "obo_id": "UBERON:0002407",
+      "label": "pericardium",
+      "level": "descendant"
+    },
+    {
       "obo_id": "UBERON:0000948",
       "label": "heart",
-      "level": "root"
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007187",
+      "label": "pericardial parietal mesothelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007186",
+      "label": "pericardial visceral mesothelium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004271",
+      "label": "outflow tract pericardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003388",
+      "label": "mesothelium of pericardial cavity",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002359",
+      "label": "fibrous pericardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002406",
+      "label": "pericardial sac",
+      "level": "descendant"
     },
     {
       "obo_id": "UBERON:8920010",
@@ -356,13 +391,13 @@
       "level": "descendant"
     },
     {
-      "obo_id": "UBERON:0008307",
-      "label": "heart endothelium",
+      "obo_id": "UBERON:0006966",
+      "label": "coronary capillary",
       "level": "descendant"
     },
     {
-      "obo_id": "UBERON:0006966",
-      "label": "coronary capillary",
+      "obo_id": "UBERON:0008307",
+      "label": "heart endothelium",
       "level": "descendant"
     },
     {
@@ -406,11 +441,6 @@
       "level": "descendant"
     },
     {
-      "obo_id": "UBERON:0004148",
-      "label": "cardiac vein",
-      "level": "descendant"
-    },
-    {
       "obo_id": "UBERON:0004145",
       "label": "outflow tract",
       "level": "descendant"
@@ -431,8 +461,18 @@
       "level": "descendant"
     },
     {
+      "obo_id": "UBERON:0004148",
+      "label": "cardiac vein",
+      "level": "descendant"
+    },
+    {
       "obo_id": "UBERON:0003282",
       "label": "mesentery of heart",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002511",
+      "label": "trabecula carnea",
       "level": "descendant"
     },
     {
@@ -443,11 +483,6 @@
     {
       "obo_id": "UBERON:0002348",
       "label": "epicardium",
-      "level": "descendant"
-    },
-    {
-      "obo_id": "UBERON:0002511",
-      "label": "trabecula carnea",
       "level": "descendant"
     },
     {
@@ -478,6 +513,21 @@
     {
       "obo_id": "UBERON:0000946",
       "label": "cardiac valve",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007188",
+      "label": "mesothelium of serous pericardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002357",
+      "label": "serous pericardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001074",
+      "label": "pericardial cavity",
       "level": "descendant"
     },
     {
@@ -526,13 +576,13 @@
       "level": "descendant"
     },
     {
-      "obo_id": "UBERON:0005316",
-      "label": "endocardial endothelium",
+      "obo_id": "UBERON:0004699",
+      "label": "outflow tract endothelium",
       "level": "descendant"
     },
     {
-      "obo_id": "UBERON:0004699",
-      "label": "outflow tract endothelium",
+      "obo_id": "UBERON:0005316",
+      "label": "endocardial endothelium",
       "level": "descendant"
     },
     {
@@ -646,21 +696,6 @@
       "level": "descendant"
     },
     {
-      "obo_id": "UBERON:0035374",
-      "label": "small cardiac vein",
-      "level": "descendant"
-    },
-    {
-      "obo_id": "UBERON:0009687",
-      "label": "middle cardiac vein",
-      "level": "descendant"
-    },
-    {
-      "obo_id": "UBERON:0006958",
-      "label": "great vein of heart",
-      "level": "descendant"
-    },
-    {
       "obo_id": "UBERON:0006207",
       "label": "aortico-pulmonary spiral septum",
       "level": "descendant"
@@ -673,11 +708,6 @@
     {
       "obo_id": "UBERON:0005440",
       "label": "ductus arteriosus",
-      "level": "descendant"
-    },
-    {
-      "obo_id": "UBERON:0005432",
-      "label": "aortic sac",
       "level": "descendant"
     },
     {
@@ -696,8 +726,13 @@
       "level": "descendant"
     },
     {
-      "obo_id": "UBERON:0004271",
-      "label": "outflow tract pericardium",
+      "obo_id": "UBERON:0005263",
+      "label": "outflow tract cardiac jelly",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0005432",
+      "label": "aortic sac",
       "level": "descendant"
     },
     {
@@ -706,18 +741,13 @@
       "level": "descendant"
     },
     {
-      "obo_id": "UBERON:0005263",
-      "label": "outflow tract cardiac jelly",
+      "obo_id": "UBERON:0004246",
+      "label": "outflow tract smooth muscle",
       "level": "descendant"
     },
     {
       "obo_id": "UBERON:0004142",
       "label": "outflow tract septum",
-      "level": "descendant"
-    },
-    {
-      "obo_id": "UBERON:0004246",
-      "label": "outflow tract smooth muscle",
       "level": "descendant"
     },
     {
@@ -743,6 +773,41 @@
     {
       "obo_id": "UBERON:0006829",
       "label": "remnant of left anterior vena cava",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0035374",
+      "label": "small cardiac vein",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009687",
+      "label": "middle cardiac vein",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006958",
+      "label": "great vein of heart",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006828",
+      "label": "trabecula carnea of atrium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006571",
+      "label": "trabecula carnea of left ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006570",
+      "label": "trabecula carnea of right ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003452",
+      "label": "trabecula carnea cardiac muscle tissue",
       "level": "descendant"
     },
     {
@@ -781,26 +846,6 @@
       "level": "descendant"
     },
     {
-      "obo_id": "UBERON:0006828",
-      "label": "trabecula carnea of atrium",
-      "level": "descendant"
-    },
-    {
-      "obo_id": "UBERON:0006571",
-      "label": "trabecula carnea of left ventricle",
-      "level": "descendant"
-    },
-    {
-      "obo_id": "UBERON:0006570",
-      "label": "trabecula carnea of right ventricle",
-      "level": "descendant"
-    },
-    {
-      "obo_id": "UBERON:0003452",
-      "label": "trabecula carnea cardiac muscle tissue",
-      "level": "descendant"
-    },
-    {
       "obo_id": "UBERON:2005072",
       "label": "endocardial ring",
       "level": "descendant"
@@ -836,13 +881,13 @@
       "level": "descendant"
     },
     {
-      "obo_id": "UBERON:0002085",
-      "label": "interatrial septum",
+      "obo_id": "UBERON:0002094",
+      "label": "interventricular septum",
       "level": "descendant"
     },
     {
-      "obo_id": "UBERON:0002094",
-      "label": "interventricular septum",
+      "obo_id": "UBERON:0002085",
+      "label": "interatrial septum",
       "level": "descendant"
     },
     {
@@ -903,6 +948,16 @@
     {
       "obo_id": "UBERON:0002086",
       "label": "sinoatrial valve",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002425",
+      "label": "visceral serous pericardium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002408",
+      "label": "parietal serous pericardium",
       "level": "descendant"
     },
     {
@@ -996,6 +1051,11 @@
       "level": "descendant"
     },
     {
+      "obo_id": "UBERON:0016509",
+      "label": "cavity of right ventricle",
+      "level": "descendant"
+    },
+    {
       "obo_id": "UBERON:0016514",
       "label": "cavity of left ventricle",
       "level": "descendant"
@@ -1003,11 +1063,6 @@
     {
       "obo_id": "UBERON:0016513",
       "label": "cavity of left atrium",
-      "level": "descendant"
-    },
-    {
-      "obo_id": "UBERON:0016509",
-      "label": "cavity of right ventricle",
       "level": "descendant"
     },
     {
@@ -1121,6 +1176,16 @@
       "level": "descendant"
     },
     {
+      "obo_id": "UBERON:0004526",
+      "label": "cardiac muscle tissue of trabecula carnea of left ventricle",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004525",
+      "label": "cardiac muscle tissue of trabecula carnea of right ventricle",
+      "level": "descendant"
+    },
+    {
       "obo_id": "UBERON:0009966",
       "label": "internodal tract",
       "level": "descendant"
@@ -1201,16 +1266,6 @@
       "level": "descendant"
     },
     {
-      "obo_id": "UBERON:0004526",
-      "label": "cardiac muscle tissue of trabecula carnea of left ventricle",
-      "level": "descendant"
-    },
-    {
-      "obo_id": "UBERON:0004525",
-      "label": "cardiac muscle tissue of trabecula carnea of right ventricle",
-      "level": "descendant"
-    },
-    {
       "obo_id": "UBERON:0034903",
       "label": "left atrium endocardium",
       "level": "descendant"
@@ -1246,6 +1301,16 @@
       "level": "descendant"
     },
     {
+      "obo_id": "UBERON:0004153",
+      "label": "ventricular septum intermedium",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004667",
+      "label": "interventricular septum muscular part",
+      "level": "descendant"
+    },
+    {
       "obo_id": "UBERON:0004754",
       "label": "foramen ovale of heart",
       "level": "descendant"
@@ -1263,16 +1328,6 @@
     {
       "obo_id": "UBERON:0004154",
       "label": "atrial septum primum",
-      "level": "descendant"
-    },
-    {
-      "obo_id": "UBERON:0004153",
-      "label": "ventricular septum intermedium",
-      "level": "descendant"
-    },
-    {
-      "obo_id": "UBERON:0004667",
-      "label": "interventricular septum muscular part",
       "level": "descendant"
     },
     {
@@ -1491,6 +1546,11 @@
       "level": "descendant"
     },
     {
+      "obo_id": "UBERON:0015224",
+      "label": "interventricular foramen intermedium",
+      "level": "descendant"
+    },
+    {
       "obo_id": "UBERON:0035186",
       "label": "valve of foramen ovale",
       "level": "descendant"
@@ -1508,11 +1568,6 @@
     {
       "obo_id": "UBERON:0006678",
       "label": "foramen secundum",
-      "level": "descendant"
-    },
-    {
-      "obo_id": "UBERON:0015224",
-      "label": "interventricular foramen intermedium",
       "level": "descendant"
     },
     {
@@ -1534,62 +1589,7 @@
       "obo_id": "UBERON:0009780",
       "label": "cardiac muscle tissue of left auricle",
       "level": "descendant"
-    },
-    {
-      "obo_id": "UBERON:0002407",
-      "label": "pericardium",
-      "level": "root"
-    },
-    {
-      "obo_id": "UBERON:0007187",
-      "label": "pericardial parietal mesothelium",
-      "level": "descendant"
-    },
-    {
-      "obo_id": "UBERON:0007186",
-      "label": "pericardial visceral mesothelium",
-      "level": "descendant"
-    },
-    {
-      "obo_id": "UBERON:0003388",
-      "label": "mesothelium of pericardial cavity",
-      "level": "descendant"
-    },
-    {
-      "obo_id": "UBERON:0002359",
-      "label": "fibrous pericardium",
-      "level": "descendant"
-    },
-    {
-      "obo_id": "UBERON:0002406",
-      "label": "pericardial sac",
-      "level": "descendant"
-    },
-    {
-      "obo_id": "UBERON:0007188",
-      "label": "mesothelium of serous pericardium",
-      "level": "descendant"
-    },
-    {
-      "obo_id": "UBERON:0002357",
-      "label": "serous pericardium",
-      "level": "descendant"
-    },
-    {
-      "obo_id": "UBERON:0001074",
-      "label": "pericardial cavity",
-      "level": "descendant"
-    },
-    {
-      "obo_id": "UBERON:0002425",
-      "label": "visceral serous pericardium",
-      "level": "descendant"
-    },
-    {
-      "obo_id": "UBERON:0002408",
-      "label": "parietal serous pericardium",
-      "level": "descendant"
     }
   ],
-  "total": 262
+  "total": 263
 }
