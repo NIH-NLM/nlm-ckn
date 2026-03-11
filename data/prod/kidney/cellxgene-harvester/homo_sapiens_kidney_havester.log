@@ -1,0 +1,46 @@
+======================================================================
+CellxGene Harvester - 4 Filter Datasets
+======================================================================
+Started : 2026-02-20 17:28:38
+Log file: data/homo_sapiens_kidney_haverster.log
+Command : python /mnt/libraries/envs/cellxgene/bin/cellxgene-harvester filter-datasets --input data/all_datasets_complete.csv --output data/homo_sapiens_kidney_haverster.csv --uberon data/uberon_kidney.json --organism Homo sapiens --no-preprints --exclude-cancer --exclude-spatial
+
+Input : data/all_datasets_complete.csv
+Loaded 2,067 datasets
+
+  Loaded UBERON terms : data/uberon_kidney.json
+  Queries             : kidney
+  Root terms          : kidney
+  Total labels        : 295 (root + all descendants)
+  Note: label text matching on 'tissue' column
+        (tissue_ontology_term_id precision applied in step 5)
+  [UBERON label tissue filter]
+    Before :    2,067 datasets
+    After  :      216 datasets
+    Removed:    1,851 datasets  (89.6%)
+  [organism filter (Homo sapiens)]
+    Before :      216 datasets
+    After  :      115 datasets
+    Removed:      101 datasets  (46.8%)
+  [preprint exclusion]
+    Before :      115 datasets
+    After  :      108 datasets
+    Removed:        7 datasets  (6.1%)
+  [cancer exclusion]
+    Before :      108 datasets
+    After  :       83 datasets
+    Removed:       25 datasets  (23.1%)
+  [spatial exclusion]
+    Before :       83 datasets
+    After  :       38 datasets
+    Removed:       45 datasets  (54.2%)
+
+  [TOTAL]
+    Before :    2,067 datasets
+    After  :       38 datasets
+    Removed:    2,029 datasets  (98.2%)
+
+======================================================================
+Finished: 2026-02-20 17:28:39
+Output  : data/homo_sapiens_kidney_haverster.csv
+======================================================================
