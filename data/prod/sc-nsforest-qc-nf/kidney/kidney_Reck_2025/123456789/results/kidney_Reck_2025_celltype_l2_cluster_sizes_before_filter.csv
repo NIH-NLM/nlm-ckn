@@ -1,0 +1,60 @@
+cluster,count
+Naïve Th Cell,3658
+Memory B Cell,3356
+cTAL2,2753
+mTAL,2199
+PT Injured,2019
+cTAL1,1912
+TAL Injured,1869
+Effector Tc Cell,1821
+PT S1,1815
+Naïve Tc Cell,1802
+CNT,1562
+DCT1,1330
+TAL Inflammatory,1179
+PT S2,1160
+Treg,1160
+PT S3,1002
+Macrophage Activated,982
+DCT2,932
+Peritubular Capillary Endothelia,825
+cPC,805
+Effector Th Cell,794
+DCT Injured,724
+IC-B,691
+cIC-A,629
+Naïve B Cell,620
+ATL,617
+PT Inflammatory,613
+Myofibroblast,585
+NK CD56dim,561
+NKT Cell,480
+CD14 Monocyte,424
+MAIT,395
+NK CD56bright,381
+Endothelia Glomerular,363
+IC-A Injured,360
+Plasma Cell,356
+Ascending Vasa Recta,354
+mPC,347
+PC Injured,337
+PEC,333
+cDC2,294
+Macrophage Resident,292
+Monocyte Transitioning,287
+DTL,269
+CNT Injured,240
+pDC,228
+CD16 Monocyte,210
+Mast Cell,142
+Fibroblast,141
+mIC-A,114
+Macula Densa,111
+Podocyte,108
+Macrophage HIF1A+,93
+Pericyte,87
+vSMC,60
+Descending Vasa Recta,55
+cDC1,51
+cDC CCR7+,38
+JG Cell,32

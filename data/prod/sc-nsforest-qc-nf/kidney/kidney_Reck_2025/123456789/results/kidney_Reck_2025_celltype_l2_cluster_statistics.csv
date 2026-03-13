@@ -1,0 +1,57 @@
+cluster,n_cells,percentage
+ATL,190,1.26
+Ascending Vasa Recta,90,0.59
+CD14 Monocyte,33,0.22
+CD16 Monocyte,50,0.33
+CNT,1089,7.2
+CNT Injured,16,0.11
+DCT1,1057,6.99
+DCT2,720,4.76
+DCT Injured,40,0.26
+DTL,91,0.6
+Descending Vasa Recta,24,0.16
+Effector Tc Cell,83,0.55
+Effector Th Cell,89,0.59
+Endothelia Glomerular,76,0.5
+Fibroblast,139,0.92
+IC-A Injured,11,0.07
+IC-B,442,2.92
+JG Cell,22,0.15
+MAIT,16,0.11
+Macrophage Activated,32,0.21
+Macrophage HIF1A+,6,0.04
+Macrophage Resident,279,1.84
+Macula Densa,77,0.51
+Mast Cell,13,0.09
+Memory B Cell,41,0.27
+Monocyte Transitioning,18,0.12
+Myofibroblast,28,0.19
+NK CD56bright,12,0.08
+NK CD56dim,173,1.14
+NKT Cell,67,0.44
+Naïve B Cell,8,0.05
+Naïve Tc Cell,42,0.28
+Naïve Th Cell,91,0.6
+PEC,211,1.39
+PT Inflammatory,63,0.42
+PT Injured,511,3.38
+PT S1,1222,8.08
+PT S2,770,5.09
+PT S3,647,4.28
+Pericyte,34,0.22
+Peritubular Capillary Endothelia,501,3.31
+Plasma Cell,10,0.07
+Podocyte,35,0.23
+TAL Inflammatory,87,0.57
+TAL Injured,137,0.91
+Treg,15,0.1
+cDC2,15,0.1
+cIC-A,418,2.76
+cPC,468,3.09
+cTAL1,1246,8.23
+cTAL2,1950,12.89
+mIC-A,98,0.65
+mPC,210,1.39
+mTAL,1309,8.65
+pDC,5,0.03
+vSMC,5,0.03
