@@ -1,0 +1,13 @@
+cluster,n_cells,percentage
+PP,121,0.46
+alpha_MHC II,110,0.42
+alpha_immature,1961,7.41
+alpha_mature,5755,21.74
+alpha_stress II,3715,14.03
+beta_MHC/autoantigen,349,1.32
+beta_immature,1711,6.46
+beta_mature,6999,26.44
+beta_mtDNA deficient,274,1.03
+beta_stress I,1331,5.03
+beta_stress II,1259,4.76
+delta,2889,10.91
