@@ -1,0 +1,18 @@
+Broad cell type,mean_silhouette,std_silhouette,median_silhouette,count
+Adipocyte,0.7843963,0.3155618,0.84499675,62
+Endothelial cell (lymphatic),0.8805143,0.20562015,0.9110166,293
+Endothelial cell (vascular),0.80919516,0.23459634,0.86409247,730
+Epithelial cell (basal keratinocyte),0.37113833,0.2816285,0.50414133,1320
+Epithelial cell (cornified keratinocyte),-0.33404413,0.25175577,-0.26349,72
+Epithelial cell (mature keratinocyte),0.59427947,0.20111679,0.6591909,195
+Epithelial cell (suprabasal keratinocyte),0.009017353,0.30180717,0.080904186,432
+Fibroblast,0.6644842,0.3384878,0.76930314,529
+Immune (DC/macrophage),-0.16800886,0.344528,-0.12591481,121
+Immune (Langerhans),0.62607145,0.36826372,0.73595214,48
+Immune (T cell),0.5414801,0.54420286,0.7425489,75
+Immune (mast cell),-0.623245,0.22595243,-0.48637998,10
+Melanocyte,0.9234878,0.19080764,0.953032,272
+Pericyte/SMC,0.3408277,0.33547702,0.4635053,186
+Sebaceous gland cell,0.15306838,0.47861594,0.44409788,230
+Sweat gland cell,0.56973565,0.32261196,0.7130321,300
+Unknown,-0.42481467,0.15296231,-0.4438449,452

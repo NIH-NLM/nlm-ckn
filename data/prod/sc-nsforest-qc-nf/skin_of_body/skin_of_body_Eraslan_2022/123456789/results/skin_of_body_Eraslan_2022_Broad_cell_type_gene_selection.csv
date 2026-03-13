@@ -1,0 +1,28 @@
+clusterName,gene
+Sebaceous gland cell,ENSG00000103740
+Sebaceous gland cell,ENSG00000185640
+Sweat gland cell,ENSG00000064651
+Adipocyte,ENSG00000166819
+Fibroblast,ENSG00000196569
+Pericyte/SMC,ENSG00000122367
+Endothelial cell (vascular),ENSG00000085276
+Endothelial cell (vascular),ENSG00000261371
+Endothelial cell (lymphatic),ENSG00000205038
+Immune (DC/macrophage),ENSG00000177575
+Immune (Langerhans),ENSG00000198324
+Immune (Langerhans),ENSG00000165646
+Immune (mast cell),ENSG00000172236
+Immune (T cell),ENSG00000152495
+Immune (T cell),ENSG00000081237
+Melanocyte,ENSG00000080166
+Melanocyte,ENSG00000104044
+Epithelial cell (basal keratinocyte),ENSG00000065618
+Epithelial cell (basal keratinocyte),ENSG00000091128
+Epithelial cell (suprabasal keratinocyte),ENSG00000103319
+Epithelial cell (suprabasal keratinocyte),ENSG00000137699
+Epithelial cell (mature keratinocyte),ENSG00000136155
+Epithelial cell (mature keratinocyte),ENSG00000143797
+Epithelial cell (cornified keratinocyte),ENSG00000143369
+Epithelial cell (cornified keratinocyte),ENSG00000181652
+Unknown,ENSG00000156508
+Unknown,ENSG00000133112
