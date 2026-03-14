@@ -1,0 +1,28 @@
+cluster,count
+regular ventricular cardiac myocyte,125289
+pericyte,77856
+fibroblast,59341
+capillary endothelial cell,57759
+unknown,34621
+regular atrial cardiac myocyte,23483
+endothelial cell of artery,20317
+smooth muscle cell,16242
+macrophage,14640
+endothelial cell,13263
+vein endothelial cell,8486
+neural cell,3961
+epicardial adipocyte,3799
+natural killer cell,3628
+"CD14-positive, CD16-positive monocyte",3278
+"CD4-positive, alpha-beta cytotoxic T cell",3113
+"activated CD8-positive, alpha-beta T cell",3001
+"CD8-positive, alpha-beta cytotoxic T cell",2956
+CD14-positive monocyte,1883
+monocyte,1684
+mast cell,1543
+mature NK T cell,1463
+B cell,1195
+"activated CD4-positive, alpha-beta T cell",1047
+dendritic cell,814
+endothelial cell of lymphatic vessel,754
+mesothelial cell,718
