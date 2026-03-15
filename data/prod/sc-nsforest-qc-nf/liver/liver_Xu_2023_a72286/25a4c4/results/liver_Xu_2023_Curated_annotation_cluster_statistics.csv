@@ -1,0 +1,30 @@
+cluster,n_cells,percentage
+B cells,2513,0.97
+CD4 T cells,5879,2.26
+CD16+ NK cells,11831,4.56
+CD16- NK cells,11492,4.43
+Central venous LSECs,10747,4.14
+Cholangiocytes,3631,1.4
+Classical monocytes,18034,6.94
+DC1,1216,0.47
+DC2,1308,0.5
+Fibroblasts,1248,0.48
+Immune mix,4861,1.87
+Inflammatory macrophages,8426,3.24
+Interzonal hepatocytes,10200,3.93
+MAIT cells,25463,9.81
+Macrophages,3510,1.35
+Migratory DCs,42,0.02
+NK cells,1248,0.48
+Neutrophils,3002,1.16
+Non-classical monocytes,11186,4.31
+Non-inflammatory macrophages,3976,1.53
+Pericentral hepatocytes,27012,10.4
+Periportal LSECs,1153,0.44
+Periportal hepatocytes,34031,13.11
+Plasma cells,1994,0.77
+Portal endothelial cells,747,0.29
+Stellate cells,1997,0.77
+Tem/Temra cytotoxic T cells,12662,4.88
+Tem/Trm cytotoxic T cells,39056,15.04
+pDC,1213,0.47
