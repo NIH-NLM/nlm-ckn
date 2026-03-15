@@ -1,0 +1,51 @@
+{
+  "available_obs_keys": [
+    "assay_ontology_term_id",
+    "cell_type_ontology_term_id",
+    "development_stage_ontology_term_id",
+    "disease_ontology_term_id",
+    "donor_id",
+    "is_primary_data",
+    "self_reported_ethnicity_ontology_term_id",
+    "sex_ontology_term_id",
+    "suspension_type",
+    "tissue_ontology_term_id",
+    "tissue_type",
+    "biospsy_or_surgical_resection_area",
+    "disease_location_or_extension",
+    "disease_duration_years",
+    "treatment",
+    "total_CDEIS",
+    "partial_CDEIS",
+    "endoscopic_mayo_score",
+    "cell_type",
+    "assay",
+    "disease",
+    "sex",
+    "tissue",
+    "self_reported_ethnicity",
+    "development_stage",
+    "observation_joinid",
+    "silhouette_score"
+  ],
+  "available_obsm_keys": [
+    "X_pca",
+    "X_umap"
+  ],
+  "cluster_header": "cell_type",
+  "embedding_key": "X_umap",
+  "dataset_summary": {
+    "median_of_medians": 0.682785664567827,
+    "median_of_means": 0.6049527494687897,
+    "median_of_stds": 0.18041247106141695,
+    "n_cells": 15170,
+    "n_clusters": 5,
+    "organism": "human",
+    "organ": "digestive_tract",
+    "disease": "normal",
+    "filter_normal": false,
+    "uberon_json": null,
+    "disease_json": "Crohn disease | normal | ulcerative colitis",
+    "hsapdv_json": null
+  }
+}
