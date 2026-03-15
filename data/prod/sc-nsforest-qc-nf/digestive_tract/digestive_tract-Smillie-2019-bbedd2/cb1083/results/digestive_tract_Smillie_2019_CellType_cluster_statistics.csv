@@ -1,0 +1,35 @@
+cluster,n_cells,percentage
+Best4+ Enterocytes,1097,3.16
+CD4+ Activated Fos-hi,28,0.08
+CD4+ Activated Fos-lo,25,0.07
+CD4+ Memory,79,0.23
+CD4+ PD1+,8,0.02
+CD8+ IELs,1063,3.06
+CD8+ IL17+,10,0.03
+CD8+ LP,55,0.16
+CD69+ Mast,14,0.04
+CD69- Mast,48,0.14
+Cycling B,29,0.08
+Cycling T,19,0.05
+Cycling TA,5343,15.37
+DC2,7,0.02
+Enterocyte Progenitors,2533,7.29
+Enterocytes,1839,5.29
+Enteroendocrine,117,0.34
+Follicular,171,0.49
+GC,35,0.1
+Goblet,777,2.23
+Immature Enterocytes 1,3230,9.29
+Immature Enterocytes 2,3760,10.81
+Immature Goblet,2252,6.48
+M cells,15,0.04
+MT-hi,14,0.04
+Macrophages,38,0.11
+NKs,25,0.07
+Plasma,80,0.23
+Secretory TA,1834,5.28
+Stem,694,2.0
+TA 1,4881,14.04
+TA 2,4413,12.69
+Tregs,6,0.02
+Tuft,228,0.66
