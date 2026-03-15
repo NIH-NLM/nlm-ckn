@@ -1,0 +1,40 @@
+cluster_order
+Naive B cells
+Memory B cells
+MNP/B doublets
+ABCs
+pDC
+T/B doublets
+Plasma cells
+Plasmablasts
+Mast cells
+Tfh
+T_CD4/CD8
+Trm_Tgd
+Tnaive/CM_CD4_activated
+Tnaive/CM_CD8
+Tnaive/CM_CD4
+Teffector/EM_CD4
+ILC3
+Tregs
+Trm_gut_CD8
+MAIT
+Tem/emra_CD8
+Trm/em_CD8
+Tgd_CRTAM+
+Trm_Th1/Th17
+NK_CD56bright_CD16-
+NK_CD16+
+Cycling T&NK
+Erythroid
+Progenitor
+DC1
+DC2
+Erythrophagocytic macrophages
+Alveolar macrophages
+Cycling
+MNP/T doublets
+Classical monocytes
+Nonclassical monocytes
+Intermediate macrophages
+Intestinal macrophages
