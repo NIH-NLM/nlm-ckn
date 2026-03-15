@@ -1,0 +1,43 @@
+cluster,count
+NK_CD16+,7394
+Tem/emra_CD8,6684
+Classical monocytes,5032
+Tnaive/CM_CD4,4410
+Trm/em_CD8,2895
+Teffector/EM_CD4,2637
+Progenitor,1312
+Tgd_CRTAM+,1028
+Cycling,848
+NK_CD56bright_CD16-,832
+Cycling T&NK,798
+Naive B cells,765
+Tnaive/CM_CD8,629
+Memory B cells,608
+Nonclassical monocytes,586
+Tregs,435
+MAIT,427
+Erythroid,413
+pDC,374
+T_CD4/CD8,301
+Tfh,267
+MNP/T doublets,245
+Plasma cells,239
+Tnaive/CM_CD4_activated,180
+Plasmablasts,175
+Trm_Th1/Th17,167
+DC2,149
+Megakaryocytes,108
+Mast cells,86
+ABCs,77
+Pre-B,72
+Trm_gut_CD8,63
+DC1,51
+T/B doublets,50
+Pro-B,37
+Erythrophagocytic macrophages,36
+ILC3,31
+Intermediate macrophages,25
+Alveolar macrophages,19
+MNP/B doublets,9
+GC_B (I),8
+Intestinal macrophages,5
