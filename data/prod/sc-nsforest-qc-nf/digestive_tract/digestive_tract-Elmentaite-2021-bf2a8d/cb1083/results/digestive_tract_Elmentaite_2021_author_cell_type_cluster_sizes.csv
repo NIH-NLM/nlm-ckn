@@ -1,0 +1,67 @@
+cluster,count
+TA,43485
+IgA plasma cell,14494
+Colonocyte,11969
+Enterocyte,9649
+BEST4+ epithelial,3822
+Transitional Stromal 3 (C3+),3638
+BEST2+ Goblet cell,3007
+Paneth,2655
+Activated CD8 T,2256
+Mature venous EC,1673
+Mature arterial EC,1224
+gdT,1047
+Memory B,1039
+Contractile pericyte (PLN+),1028
+Stem cells,1022
+Goblet cell,699
+Macrophages,638
+Stromal 1 (CCL11+),573
+Tuft,569
+Activated CD4 T,567
+TRGV5/7 gdT,552
+Naive B,517
+TRGV2 gdT,502
+LEC6 (ADAMTS4+),489
+TRGV4 gdT,468
+arterial capillary,439
+IgG plasma cell,422
+LYVE1+ Macrophage,420
+Microfold cell,348
+cDC2,318
+SELL+ CD4 T,305
+Adult Glia,275
+Stromal 2 (NPY+),226
+ILC3,208
+LEC3 (ADGRG3+),198
+Treg,198
+LEC1 (ACKR4+),194
+CD8 Tmem,191
+Cycling B cell,178
+Stromal 3 (C7+),173
+Stromal 1 (ADAMDEC1+),165
+Monocytes,164
+Mast cell,151
+mLN Stroma (FMO2+),129
+myofibroblast,126
+myofibroblast (RSPO2+),114
+SELL+ CD8 T,78
+CX3CR1+ CD8 Tmem,73
+NK cell,73
+cDC1,56
+T reticular,53
+MAIT cell,48
+LEC5 (CLDN11+),47
+Pericyte,45
+EC cells (TAC1+),42
+L cells (PYY+),33
+Mesothelium (PRG4+),25
+Lymphoid DC,24
+Th17,14
+EECs,14
+venous capillary,7
+I cells (CCK+),6
+N cells (NTS+),5
+cycling EC,5
+LEC4 (STAB2+),5
+D cells (SST+),5
