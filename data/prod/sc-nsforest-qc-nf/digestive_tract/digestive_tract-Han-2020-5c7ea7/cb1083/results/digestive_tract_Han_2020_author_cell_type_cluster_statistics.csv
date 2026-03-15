@@ -1,0 +1,35 @@
+cluster,n_cells,percentage
+B cell,3067,4.26
+B cell (Plasmocyte),13094,18.17
+Basal cell,3712,5.15
+CB CD34+,6,0.01
+Dendritic cell,972,1.35
+Endothelial cell,174,0.24
+Endothelial cell (APC),1483,2.06
+Endothelial cell (endothelial to mesenchymal transition),37,0.05
+Enterocyte,8668,12.03
+Enterocyte progenitor,12163,16.88
+Epithelial cell,2306,3.2
+Epithelial cell (intermediated),6,0.01
+Fetal Neuron,19,0.03
+Fetal endocrine cell,676,0.94
+Fetal enterocyte,58,0.08
+Fetal epithelial progenitor,11,0.02
+Fetal mesenchymal progenitor,7,0.01
+Fetal neuron,13,0.02
+Fetal stromal cell,48,0.07
+Fibroblast,3958,5.49
+Gastric chief cell,4973,6.9
+Gastric endocrine cell,5,0.01
+Goblet cell,4620,6.41
+Hepatocyte/Endodermal cell,12,0.02
+M2 Macrophage,6,0.01
+Macrophage,1898,2.63
+Mast cell,600,0.83
+Monocyte,136,0.19
+Neutrophil,75,0.1
+Primordial germ cell,5,0.01
+Smooth muscle cell,409,0.57
+Stratified epithelial cell,838,1.16
+Stromal cell,5284,7.33
+T cell,2727,3.78
