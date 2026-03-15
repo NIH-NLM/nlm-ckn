@@ -1,0 +1,49 @@
+{
+  "available_obs_keys": [
+    "sample_id",
+    "Status",
+    "Site",
+    "Location",
+    "donor_id",
+    "full_clustering",
+    "assay_ontology_term_id",
+    "cell_type_ontology_term_id",
+    "development_stage_ontology_term_id",
+    "disease_ontology_term_id",
+    "is_primary_data",
+    "self_reported_ethnicity_ontology_term_id",
+    "sex_ontology_term_id",
+    "suspension_type",
+    "tissue_ontology_term_id",
+    "tissue_type",
+    "cell_type",
+    "assay",
+    "disease",
+    "sex",
+    "tissue",
+    "self_reported_ethnicity",
+    "development_stage",
+    "observation_joinid",
+    "silhouette_score"
+  ],
+  "available_obsm_keys": [
+    "X_pca",
+    "X_umap"
+  ],
+  "cluster_header": "full_clustering",
+  "embedding_key": "X_umap",
+  "dataset_summary": {
+    "median_of_medians": 0.38010406494140625,
+    "median_of_means": 0.24246147274971008,
+    "median_of_stds": 0.23967644572257996,
+    "n_cells": 195739,
+    "n_clusters": 34,
+    "organism": "human",
+    "organ": "skin_of_body",
+    "disease": "normal",
+    "filter_normal": false,
+    "uberon_json": null,
+    "disease_json": "normal",
+    "hsapdv_json": null
+  }
+}
