@@ -1,0 +1,18 @@
+cluster,n_cells,percentage
+B cells,2350,1.4
+Basophils,389,0.23
+Cholangiocytes,657,0.39
+Circulating NK/NKT,12567,7.5
+Endothelial cells,2834,1.69
+Fibroblasts,1273,0.76
+Hepatocytes,10996,6.56
+Macrophages,7076,4.22
+Mig.cDCs,78,0.05
+Mono+mono derived cells,29639,17.68
+Neutrophils,5340,3.19
+Plasma cells,1125,0.67
+Resident NK,10894,6.5
+T cells,77355,46.16
+cDC1s,1180,0.7
+cDC2s,2629,1.57
+pDCs,1216,0.73
