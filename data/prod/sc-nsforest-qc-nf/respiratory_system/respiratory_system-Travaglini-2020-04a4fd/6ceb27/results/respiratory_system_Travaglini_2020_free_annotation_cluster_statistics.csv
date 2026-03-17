@@ -1,0 +1,58 @@
+cluster,n_cells,percentage
+Adventitial Fibroblast,557,0.91
+Airway Smooth Muscle,693,1.14
+Alveolar Epithelial Type 1,972,1.59
+Alveolar Epithelial Type 2,3814,6.25
+Alveolar Fibroblast,1296,2.12
+Artery,1484,2.43
+B,250,0.41
+Basal,430,0.7
+Basophil/Mast 1,1349,2.21
+Basophil/Mast 2,552,0.91
+Bronchial Vessel 1,455,0.75
+Bronchial Vessel 2,235,0.39
+CD4+ Memory/Effector T,2419,3.97
+CD4+ Naive T,288,0.47
+CD8+ Memory/Effector T,771,1.26
+CD8+ Naive T,1411,2.31
+Capillary,7391,12.12
+Capillary Aerocyte,4352,7.14
+Capillary Intermediate 1,628,1.03
+Capillary Intermediate 2,464,0.76
+Ciliated,1321,2.17
+Classical Monocyte,1013,1.66
+Club,926,1.52
+Differentiating Basal,249,0.41
+EREG+ Dendritic,142,0.23
+Fibromyocyte,98,0.16
+Goblet,159,0.26
+IGSF21+ Dendritic,278,0.46
+Intermediate Monocyte,188,0.31
+Ionocyte,22,0.04
+Lipofibroblast,35,0.06
+Lymphatic,467,0.77
+Macrophage,14734,24.16
+Mesothelial,29,0.05
+Mucous,491,0.81
+Myeloid Dendritic Type 1,130,0.21
+Myeloid Dendritic Type 2,236,0.39
+Myofibroblast,248,0.41
+Natural Killer,4250,6.97
+Natural Killer T,335,0.55
+Neuroendocrine,11,0.02
+Nonclassical Monocyte,604,0.99
+OLR1+ Classical Monocyte,207,0.34
+Pericyte,1608,2.64
+Plasma,181,0.3
+Plasmacytoid Dendritic,116,0.19
+Platelet/Megakaryocyte,11,0.02
+Proliferating Basal,45,0.07
+Proliferating Macrophage,226,0.37
+Proliferating NK/T,101,0.17
+Proximal Basal,157,0.26
+Proximal Ciliated,88,0.14
+Serous,24,0.04
+Signaling Alveolar Epithelial Type 2,669,1.1
+TREM2+ Dendritic,159,0.26
+Vascular Smooth Muscle,469,0.77
+Vein,1155,1.89
