@@ -1,0 +1,96 @@
+clusterName,gene
+Plasma cells,ENSG00000099958
+Plasma cells,ENSG00000170476
+gamma-delta T cells,ENSG00000205810
+Type 17 helper T cells,ENSG00000069667
+Type 17 helper T cells,ENSG00000206560
+Type 17 helper T cells,ENSG00000111796
+Type 17 helper T cells,ENSG00000168685
+Type 1 helper T cells,ENSG00000069493
+Type 1 helper T cells,ENSG00000111796
+Type 1 helper T cells,ENSG00000118503
+Type 1 helper T cells,ENSG00000169508
+Follicular helper T cells,ENSG00000115687
+Follicular helper T cells,ENSG00000081059
+Follicular helper T cells,ENSG00000113580
+ILC,ENSG00000109321
+ILC,ENSG00000215788
+Tcm/Naive helper T cells,ENSG00000234741
+Tcm/Naive helper T cells,ENSG00000132465
+Tcm/Naive helper T cells,ENSG00000173762
+Regulatory T cells,ENSG00000101745
+Regulatory T cells,ENSG00000277734
+Regulatory T cells,ENSG00000008517
+Trm cytotoxic T cells,ENSG00000213402
+Trm cytotoxic T cells,ENSG00000167286
+Tem/Effector helper T cells,ENSG00000105373
+Tem/Effector helper T cells,ENSG00000102760
+Tem/Effector helper T cells,ENSG00000169508
+Tem/Effector helper T cells,ENSG00000008517
+Monocytes,ENSG00000163220
+Macrophages,ENSG00000173369
+Macrophages,ENSG00000173372
+Intestinal macrophages,ENSG00000010327
+Intestinal macrophages,ENSG00000177675
+Intestinal macrophages,ENSG00000165029
+Intestinal macrophages,ENSG00000177575
+Capillary endothelial cells,ENSG00000135218
+Capillary endothelial cells,ENSG00000102755
+Venous endothelial cells,ENSG00000213088
+Arterial endothelial cells,ENSG00000173269
+Arterial endothelial cells,ENSG00000146674
+Lymphatic endothelial cells,ENSG00000138722
+Lymphatic endothelial cells,ENSG00000133800
+Stromal 3,ENSG00000125730
+Stromal 3,ENSG00000188783
+Myofibroblasts,ENSG00000163017
+Myofibroblasts,ENSG00000065534
+Pericytes,ENSG00000074181
+Pericytes,ENSG00000111404
+Tem/Trm cytotoxic T cells,ENSG00000113088
+Tem/Trm cytotoxic T cells,ENSG00000077984
+NK cells,ENSG00000169583
+NK cells,ENSG00000143184
+Mast cells,ENSG00000172236
+Follicular B cells,ENSG00000156738
+Follicular B cells,ENSG00000105373
+Naive B cells,ENSG00000247982
+Naive B cells,ENSG00000100721
+Memory B cells,ENSG00000153064
+Memory B cells,ENSG00000156738
+Germinal center B cells,ENSG00000170054
+Germinal center B cells,ENSG00000140398
+Cycling B cells,ENSG00000166803
+Cycling B cells,ENSG00000164032
+Cycling B cells,ENSG00000127074
+DC1,ENSG00000197992
+DC1,ENSG00000131203
+DC2,ENSG00000126759
+DC2,ENSG00000132514
+Stromal 1,ENSG00000108700
+Stromal 1,ENSG00000118526
+Stromal 2,ENSG00000170419
+Glia,ENSG00000123560
+Colonocytes,ENSG00000071203
+Colonocytes,ENSG00000091138
+BEST4+ enterocytes,ENSG00000142959
+BEST4+ enterocytes,ENSG00000183034
+TA,ENSG00000272398
+TA,ENSG00000166920
+Stem cells,ENSG00000139292
+Stem cells,ENSG00000132329
+Enteroendocrine cells,ENSG00000079689
+Enteroendocrine cells,ENSG00000104112
+Tuft cells,ENSG00000152292
+Goblet cells,ENSG00000137501
+Goblet cells,ENSG00000174236
+Enterocytes,ENSG00000114113
+Enterocytes,ENSG00000100170
+Paneth,ENSG00000172016
+Paneth,ENSG00000170231
+Cycling/Secretory TA,ENSG00000103495
+Cycling/Secretory TA,ENSG00000164032
+Cycling/Secretory TA,ENSG00000159199
+Cycling/Secretory TA,ENSG00000101443
+Immature goblet cells,ENSG00000179914
+Immature goblet cells,ENSG00000016490
