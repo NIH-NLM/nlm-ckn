@@ -1,0 +1,51 @@
+{
+  "available_obs_keys": [
+    "donor_id",
+    "nCount_RNA",
+    "nFeature_RNA",
+    "percent.mt",
+    "integrated_snn_res.1.2",
+    "seurat_clusters",
+    "smoking_status",
+    "development_stage_ontology_term_id",
+    "sex_ontology_term_id",
+    "self_reported_ethnicity_ontology_term_id",
+    "cell_type_ontology_term_id",
+    "disease_ontology_term_id",
+    "tissue_type",
+    "tissue_ontology_term_id",
+    "assay_ontology_term_id",
+    "suspension_type",
+    "is_primary_data",
+    "sample_id",
+    "cell_type",
+    "assay",
+    "disease",
+    "sex",
+    "tissue",
+    "self_reported_ethnicity",
+    "development_stage",
+    "observation_joinid",
+    "silhouette_score"
+  ],
+  "available_obsm_keys": [
+    "X_pca",
+    "X_umap"
+  ],
+  "cluster_header": "cell_type",
+  "embedding_key": "X_umap",
+  "dataset_summary": {
+    "median_of_medians": 0.707473865038935,
+    "median_of_means": 0.6784272925771365,
+    "median_of_stds": 0.1915521505156416,
+    "n_cells": 34833,
+    "n_clusters": 11,
+    "organism": "human",
+    "organ": "respiratory_system",
+    "disease": "normal",
+    "filter_normal": false,
+    "uberon_json": null,
+    "disease_json": "normal",
+    "hsapdv_json": null
+  }
+}
