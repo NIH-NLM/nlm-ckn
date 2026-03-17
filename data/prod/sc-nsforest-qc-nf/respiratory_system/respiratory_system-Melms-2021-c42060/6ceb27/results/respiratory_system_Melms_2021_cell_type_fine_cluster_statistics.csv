@@ -1,0 +1,42 @@
+cluster,n_cells,percentage
+AT1,4939,13.47
+AT2,6911,18.84
+Activated B cells,623,1.7
+Adventitial FB,923,2.52
+Airway basal,169,0.46
+Airway ciliated,1150,3.14
+Airway club,376,1.03
+Airway goblet,1015,2.77
+Airway mucous,1049,2.86
+Airway smooth muscle,398,1.09
+Alveolar FB,1940,5.29
+Alveolar macrophages,1645,4.49
+Arterial endothelial cells,413,1.13
+B cells,481,1.31
+CD4+ T cells,2711,7.39
+CD8+ T cells,803,2.19
+Capillary endothelial cells,581,1.58
+Cycling NK/T cells,635,1.73
+Cycling epithelial,192,0.52
+Dendritic cells,546,1.49
+ECM-high epithelial,331,0.9
+Endothelial cells (general),612,1.67
+Endothelial cells (other),208,0.57
+Inflamed endothelial cells,50,0.14
+Intermediate pathological FB,1246,3.4
+Mast cells,555,1.51
+Mesothelial FB,36,0.1
+Monocyte-derived macrophages,2030,5.53
+Monocytes,652,1.78
+NK cells,727,1.98
+Neuronal cells,331,0.9
+Other FB,334,0.91
+Pathological FB,120,0.33
+Pericytes,160,0.44
+Plasma cells,880,2.4
+Pulmonary venous endothelial cells,149,0.41
+Systemic venous endothelial cells,65,0.18
+Transitioning MDM,305,0.83
+Tregs,216,0.59
+Tuft-like,41,0.11
+Vascular smooth muscle,129,0.35
