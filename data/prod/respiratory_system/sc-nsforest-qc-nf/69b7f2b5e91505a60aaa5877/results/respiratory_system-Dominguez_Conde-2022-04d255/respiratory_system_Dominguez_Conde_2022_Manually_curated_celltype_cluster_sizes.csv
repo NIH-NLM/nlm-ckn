@@ -1,0 +1,40 @@
+cluster,count
+Alveolar macrophages,16976
+Classical monocytes,3380
+NK_CD16+,2771
+Intermediate macrophages,2139
+Trm_Th1/Th17,1876
+MNP/T doublets,1313
+Teffector/EM_CD4,947
+Tem/emra_CD8,945
+Mast cells,823
+Nonclassical monocytes,752
+NK_CD56bright_CD16-,462
+Trm/em_CD8,417
+DC2,329
+Tregs,256
+T_CD4/CD8,248
+Cycling T&NK,216
+Cycling,200
+Tnaive/CM_CD4,176
+Tgd_CRTAM+,148
+Memory B cells,133
+MAIT,124
+migDC,84
+Trm_gut_CD8,82
+Naive B cells,79
+Tfh,79
+DC1,79
+pDC,63
+Intestinal macrophages,42
+ILC3,40
+Erythrophagocytic macrophages,40
+Tnaive/CM_CD8,39
+Plasmablasts,36
+Plasma cells,33
+T/B doublets,24
+Progenitor,18
+Trm_Tgd,17
+MNP/B doublets,10
+ABCs,10
+Tnaive/CM_CD4_activated,9
