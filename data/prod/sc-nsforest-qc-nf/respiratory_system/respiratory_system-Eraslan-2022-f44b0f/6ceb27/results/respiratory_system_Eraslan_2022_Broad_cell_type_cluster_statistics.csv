@@ -1,0 +1,16 @@
+cluster,n_cells,percentage
+Endothelial cell (lymphatic),334,0.95
+Endothelial cell (vascular),2412,6.84
+Epithelial cell (alveolar type I),7274,20.62
+Epithelial cell (alveolar type II),15103,42.8
+Epithelial cell (basal),142,0.4
+Epithelial cell (ciliated),896,2.54
+Epithelial cell (club),660,1.87
+Fibroblast,1476,4.18
+Immune (B cell),56,0.16
+Immune (DC/macrophage),921,2.61
+Immune (NK cell),56,0.16
+Immune (T cell),613,1.74
+Immune (alveolar macrophage),5121,14.51
+Immune (mast cell),57,0.16
+Pericyte/SMC,163,0.46
