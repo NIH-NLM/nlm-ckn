@@ -1,0 +1,128 @@
+/* Cell-KN Custom Styles */
+
+/* Dataset summary tables */
+table.dataset-summary {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9em;
+}
+
+table.dataset-summary th {
+    background-color: #2980b9;
+    color: white;
+    padding: 8px 12px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+table.dataset-summary td {
+    padding: 6px 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+table.dataset-summary tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table.dataset-summary tr:hover {
+    background-color: #eef5fb;
+}
+
+/* Score cells - color code by quality */
+td.score-high {
+    color: #27ae60;
+    font-weight: bold;
+}
+
+td.score-medium {
+    color: #f39c12;
+    font-weight: bold;
+}
+
+td.score-low {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+/* Reference selection form */
+.reference-form {
+    margin-top: 2em;
+    padding: 1.5em;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+}
+
+.reference-form h3 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.reviewer-name {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+
+table.reference-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+table.reference-table th {
+    background-color: #34495e;
+    color: white;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+table.reference-table td {
+    padding: 6px 12px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: top;
+}
+
+table.reference-table tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.notes-input {
+    width: 100%;
+    min-width: 200px;
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+.ref-checkbox {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.download-csv-btn {
+    display: inline-block;
+    padding: 10px 24px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.download-csv-btn:hover {
+    background-color: #1a6da3;
+}
+
+/* Responsive table wrapper */
+.table-wrapper {
+    overflow-x: auto;
+    margin: 1em 0;
+}
