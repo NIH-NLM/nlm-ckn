@@ -1,6 +1,6 @@
 # NLM Cell Knowledge Network
 
-The __National Library of Medicine (NLM) Cell Knowledge Network__ [`http://cell-kn-mvp.org/`](http://cell-kn-mvp.org/) is a knowledgebase about cell characteristics (phenotypes) emerging from single cell technologies, integrated with other sources of trusted knowledge, sourced from:
+The __National Library of Medicine (NLM) Cell Knowledge Network__ [`https://cell-kn.org/`](https://cell-kn.org/) is a knowledgebase about cell characteristics (phenotypes) emerging from single cell technologies, integrated with other sources of trusted knowledge, sourced from:
 
 * Validated data processing and analysis pipelines
 * Reference ontologies
