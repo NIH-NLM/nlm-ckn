@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: liver_MacParland_Nat_Commun_2018_CellType_X_umap_hm_9f00be_adata_filtered.h5ad
+Loaded: 8444 cells x 32088 genes
+Cluster header: CellType (15 clusters)
+Computing cluster statistics...
+Total cells: 8444
+Number of clusters: 15
+Cells per cluster - Min: 20, Max: 3498, Mean: 562.9
+Saved: liver_MacParland_Nat_Commun_2018_CellType_X_umap_hm_9f00be_cluster_statistics.csv
+Cluster statistics complete!
