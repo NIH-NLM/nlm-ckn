@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: liver_Guilliams_Cell_2022_author_cell_type_X_umap_ec5dd4_adata_filtered.h5ad
+Loaded: 167598 cells x 30172 genes
+Cluster header: author_cell_type (17 clusters)
+Computing cluster statistics...
+Total cells: 167598
+Number of clusters: 17
+Cells per cluster - Min: 78, Max: 77355, Mean: 9858.7
+Saved: liver_Guilliams_Cell_2022_author_cell_type_X_umap_ec5dd4_cluster_statistics.csv
+Cluster statistics complete!
