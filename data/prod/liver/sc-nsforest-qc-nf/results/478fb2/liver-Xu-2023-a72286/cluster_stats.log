@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: liver_Xu_Cell_2023_Curated_annotation_X_umap_a72286_adata_filtered.h5ad
+Loaded: 259678 cells x 35659 genes
+Cluster header: Curated_annotation (29 clusters)
+Computing cluster statistics...
+Total cells: 259678
+Number of clusters: 29
+Cells per cluster - Min: 42, Max: 39056, Mean: 8954.4
+Saved: liver_Xu_Cell_2023_Curated_annotation_X_umap_a72286_cluster_statistics.csv
+Cluster statistics complete!
