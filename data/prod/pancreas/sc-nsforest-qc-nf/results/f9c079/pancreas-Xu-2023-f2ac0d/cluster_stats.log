@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: pancreas_Xu_Cell_2023_Curated_annotation_X_umap_f2ac0d_adata_filtered.h5ad
+Loaded: 79367 cells x 32356 genes
+Cluster header: Curated_annotation (13 clusters)
+Computing cluster statistics...
+Total cells: 79367
+Number of clusters: 13
+Cells per cluster - Min: 62, Max: 35308, Mean: 6105.2
+Saved: pancreas_Xu_Cell_2023_Curated_annotation_X_umap_f2ac0d_cluster_statistics.csv
+Cluster statistics complete!
