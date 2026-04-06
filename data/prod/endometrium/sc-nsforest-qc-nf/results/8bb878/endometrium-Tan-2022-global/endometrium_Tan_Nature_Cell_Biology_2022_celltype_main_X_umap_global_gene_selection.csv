@@ -1,0 +1,9 @@
+clusterName,gene
+stromal,DCN
+epithelial,EPCAM
+epithelial,CLDN3
+endothelial,VWF
+endothelial,CLEC14A
+myeloid,AIF1
+myeloid,CYBB
+lymphocytes,CD3E

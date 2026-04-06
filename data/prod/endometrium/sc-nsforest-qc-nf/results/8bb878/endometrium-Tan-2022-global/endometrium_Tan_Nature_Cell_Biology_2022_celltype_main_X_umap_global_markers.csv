@@ -1,0 +1,6 @@
+clusterName,NSForest_markers,f_score
+stromal,['DCN'],0.9299642604665777
+epithelial,"['EPCAM', 'CLDN3']",0.961015466820017
+endothelial,"['VWF', 'CLEC14A']",0.962555019691258
+myeloid,"['AIF1', 'CYBB']",0.9618768871681824
+lymphocytes,['CD3E'],0.9262214583844832
