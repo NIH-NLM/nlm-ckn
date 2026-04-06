@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: liver_Wells_Nat_Immunol_2025_author_cell_type_X_umap_74e9e1_adata_filtered.h5ad
+Loaded: 6858 cells x 35475 genes
+Cluster header: author_cell_type (25 clusters)
+Computing cluster statistics...
+Total cells: 6858
+Number of clusters: 25
+Cells per cluster - Min: 5, Max: 1454, Mean: 274.3
+Saved: liver_Wells_Nat_Immunol_2025_author_cell_type_X_umap_74e9e1_cluster_statistics.csv
+Cluster statistics complete!
