@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: endometrium_Tan_Nature_Cell_Biology_2022_celltype_X_umap_global_adata_filtered.h5ad
+Loaded: 108497 cells x 26636 genes
+Cluster header: celltype (18 clusters)
+Computing cluster statistics...
+Total cells: 108497
+Number of clusters: 18
+Cells per cluster - Min: 185, Max: 37143, Mean: 6027.6
+Saved: endometrium_Tan_Nature_Cell_Biology_2022_celltype_X_umap_global_cluster_statistics.csv
+Cluster statistics complete!

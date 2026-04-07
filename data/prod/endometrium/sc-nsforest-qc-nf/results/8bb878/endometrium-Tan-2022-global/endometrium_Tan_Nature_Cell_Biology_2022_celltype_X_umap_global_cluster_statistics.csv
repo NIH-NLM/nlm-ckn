@@ -1,0 +1,19 @@
+cluster,n_cells,percentage
+B-lymphocytes,1626,1.5
+NK cells,7677,7.08
+T-lymphocytes,12553,11.57
+cilliated epithelial,848,0.78
+endothelial,10883,10.03
+epithelial 1,559,0.52
+epithelial 2,16467,15.18
+fibroblast 1,37143,34.23
+fibroblast 2,375,0.35
+fibroblast 3,425,0.39
+mast cells,361,0.33
+mesothelial,1371,1.26
+mural cells,5773,5.32
+myeloid 1,4859,4.48
+myeloid 2,3205,2.95
+myeloid 3,3761,3.47
+pDC,185,0.17
+plasma B-lymphocyte,426,0.39

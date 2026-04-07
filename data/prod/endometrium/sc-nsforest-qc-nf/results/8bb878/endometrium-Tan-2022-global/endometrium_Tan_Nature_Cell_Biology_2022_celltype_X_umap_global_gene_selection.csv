@@ -1,0 +1,39 @@
+clusterName,gene
+T-lymphocytes,CD3D
+T-lymphocytes,CD3G
+NK cells,KLRD1
+NK cells,TRDC
+pDC,CLEC4C
+pDC,LILRA4
+B-lymphocytes,MS4A1
+B-lymphocytes,BANK1
+plasma B-lymphocyte,IGLV3-1
+plasma B-lymphocyte,FCRL5
+myeloid 3,C1QC
+myeloid 3,C1QB
+myeloid 3,MS4A4A
+myeloid 2,CLEC10A
+myeloid 2,FCER1A
+myeloid 1,FCN1
+myeloid 1,S100A12
+fibroblast 3,SFRP2
+fibroblast 3,OGN
+fibroblast 1,PDGFRA
+fibroblast 2,TGM2
+fibroblast 2,FOSB
+fibroblast 2,LAMB1
+mural cells,PLN
+endothelial,VWF
+endothelial,CLEC14A
+mesothelial,ANXA8
+mesothelial,AC245041.2
+epithelial 1,CD24
+epithelial 1,KRT19
+epithelial 2,LINC01541
+epithelial 2,UCA1
+cilliated epithelial,FAM81B
+cilliated epithelial,CAPSL
+cilliated epithelial,CFAP52
+mast cells,CPA3
+mast cells,TPSB2
+mast cells,TPSAB1
