@@ -1,0 +1,38 @@
+{
+  "available_obs_keys": [
+    "sequencing_saturation",
+    "stage",
+    "n_genes_by_counts",
+    "total_counts",
+    "pct_counts_mitochondrial",
+    "pct_counts_hemoglobin",
+    "celltype",
+    "celltype_main",
+    "sample_type_rename",
+    "PID",
+    "G2M_score",
+    "phase",
+    "silhouette_score"
+  ],
+  "available_obsm_keys": [
+    "X_pca",
+    "X_pca_uncorrected",
+    "X_umap"
+  ],
+  "cluster_header": "celltype",
+  "embedding_key": "X_umap",
+  "dataset_summary": {
+    "median_of_medians": 0.7262716293334961,
+    "median_of_means": 0.6843121647834778,
+    "median_of_stds": 0.13575142621994019,
+    "n_cells": 108497,
+    "n_clusters": 18,
+    "organism": "human",
+    "organ": "endometrium",
+    "disease": "normal",
+    "filter_normal": false,
+    "uberon_json": null,
+    "disease_json": "endometriosis | normal",
+    "hsapdv_json": null
+  }
+}
