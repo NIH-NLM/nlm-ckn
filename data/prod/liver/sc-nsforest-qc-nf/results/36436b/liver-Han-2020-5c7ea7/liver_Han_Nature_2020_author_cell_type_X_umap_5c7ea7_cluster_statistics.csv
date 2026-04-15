@@ -1,0 +1,17 @@
+cluster,n_cells,percentage
+Antigen presenting cell (RPS high),33,0.31
+B cell,81,0.77
+B cell (Plasmocyte),707,6.7
+Dendritic cell,1816,17.2
+Endothelial cell,15,0.14
+Endothelial cell (APC),116,1.1
+Enterocyte progenitor,6,0.06
+Erythroid progenitor cell (RP high),20,0.19
+Goblet cell,7,0.07
+Macrophage,2018,19.11
+Mast cell,10,0.09
+Monocyte,583,5.52
+Neutrophil,364,3.45
+Sinusoidal endothelial cell,3847,36.43
+Smooth muscle cell,15,0.14
+T cell,922,8.73
