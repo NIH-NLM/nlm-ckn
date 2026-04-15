@@ -1,0 +1,40 @@
+cluster,n_cells,percentage
+ABCs,31,0.23
+Alveolar macrophages,11,0.08
+Classical monocytes,1495,11.19
+Cycling,16,0.12
+Cycling T&NK,142,1.06
+DC1,32,0.24
+DC2,92,0.69
+Erythroid,5,0.04
+Erythrophagocytic macrophages,433,3.24
+ILC3,9,0.07
+Intermediate macrophages,38,0.28
+Intestinal macrophages,5,0.04
+MAIT,2239,16.76
+MNP/B doublets,113,0.85
+MNP/T doublets,92,0.69
+Mast cells,5,0.04
+Memory B cells,149,1.12
+NK_CD16+,1882,14.08
+NK_CD56bright_CD16-,1705,12.76
+Naive B cells,106,0.79
+Nonclassical monocytes,458,3.43
+Plasma cells,171,1.28
+Plasmablasts,37,0.28
+Progenitor,9,0.07
+T/B doublets,28,0.21
+T_CD4/CD8,331,2.48
+Teffector/EM_CD4,259,1.94
+Tem/emra_CD8,750,5.61
+Tfh,8,0.06
+Tgd_CRTAM+,1036,7.75
+Tnaive/CM_CD4,55,0.41
+Tnaive/CM_CD4_activated,7,0.05
+Tnaive/CM_CD8,24,0.18
+Tregs,49,0.37
+Trm/em_CD8,806,6.03
+Trm_Tgd,7,0.05
+Trm_Th1/Th17,587,4.39
+Trm_gut_CD8,115,0.86
+pDC,25,0.19
