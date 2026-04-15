@@ -1,0 +1,47 @@
+{
+  "available_obs_keys": [
+    "CellType",
+    "BroadCellType",
+    "assay_ontology_term_id",
+    "cell_type_ontology_term_id",
+    "development_stage_ontology_term_id",
+    "disease_ontology_term_id",
+    "donor_id",
+    "is_primary_data",
+    "self_reported_ethnicity_ontology_term_id",
+    "sex_ontology_term_id",
+    "suspension_type",
+    "tissue_ontology_term_id",
+    "tissue_type",
+    "cell_type",
+    "assay",
+    "disease",
+    "sex",
+    "tissue",
+    "self_reported_ethnicity",
+    "development_stage",
+    "observation_joinid",
+    "silhouette_score"
+  ],
+  "available_obsm_keys": [
+    "X_pca",
+    "X_pca_hm",
+    "X_umap_hm"
+  ],
+  "cluster_header": "CellType",
+  "embedding_key": "X_umap_hm",
+  "dataset_summary": {
+    "median_of_medians": 0.577475905418396,
+    "median_of_means": 0.50455242395401,
+    "median_of_stds": 0.166298046708107,
+    "n_cells": 8444,
+    "n_clusters": 15,
+    "organism": "human",
+    "organ": "liver",
+    "disease": "normal",
+    "filter_normal": false,
+    "uberon_json": null,
+    "disease_json": "normal",
+    "hsapdv_json": null
+  }
+}
