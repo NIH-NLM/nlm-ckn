@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: liver_Andrews_Hepatol_Commun_2022_author_cell_type_X_umap_3d10a5_adata_filtered.h5ad
+Loaded: 73295 cells x 32596 genes
+Cluster header: author_cell_type (12 clusters)
+Computing cluster statistics...
+Total cells: 73295
+Number of clusters: 12
+Cells per cluster - Min: 66, Max: 23509, Mean: 6107.9
+Saved: liver_Andrews_Hepatol_Commun_2022_author_cell_type_X_umap_3d10a5_cluster_statistics.csv
+Cluster statistics complete!
