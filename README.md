@@ -42,6 +42,7 @@ __*This resource is under active development. To contribute, please open an [iss
     * Production data and visualizations are published to this repository and are viewable via this repository's GitHub Pages.  This includes all the datasets for each tissue that are:
         * loaded into the [NLM-CKN](https://cell-kn.org/)
         * additional visualizations for all datasets for each tissue visible here [https://nih-nlm.github.io/cell-kn/](https://nih-nlm.github.io/cell-kn/)
+        * or you can find the production data directly on GitHub here: [https://github.com/NIH-NLM/cell-kn/tree/main/data/prod](https://github.com/NIH-NLM/cell-kn/tree/main/data/prod)
 
 * [NLM Cell KN Extract Transform Load Ontologies](https://github.com/NIH-NLM/cell-kn-mvp-etl-ontologies#README)
 
