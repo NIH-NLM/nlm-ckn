@@ -15,10 +15,14 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Create tar.gz of data/prod
+        env:
+          FILENAME: "prod-data-${{ github.ref_name }}.tar.gz"
         run: |
-          tar -czf "prod-data-${{ github.ref_name }}.tar.gz" data/prod/
+          SAFE_FILENAME="${FILENAME//\//-}"
+          tar -czf "$SAFE_FILENAME" data/prod/
+          echo "FILENAME=$SAFE_FILENAME" >> "$GITHUB_ENV"
 
       - name: Upload to release
         uses: softprops/action-gh-release@v2
         with:
-          files: "prod-data-${{ github.ref_name }}.tar.gz"
+          files: ${{ env.FILENAME }}
