@@ -1,0 +1,24 @@
+name: Package Production Data
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create tar.gz of data/prod
+        run: |
+          tar -czf "prod-data-${{ github.ref_name }}.tar.gz" data/prod/
+
+      - name: Upload to release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: "prod-data-${{ github.ref_name }}.tar.gz"
