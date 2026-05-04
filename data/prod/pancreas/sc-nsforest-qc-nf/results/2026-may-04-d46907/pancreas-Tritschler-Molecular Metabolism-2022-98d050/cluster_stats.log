@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: pancreas_Tritschler_Molecular_Metabolism_2022_louvain_anno_fine_X_umap_98d050_adata_filtered.h5ad
+Loaded: 26474 cells x 30172 genes
+Cluster header: louvain_anno_fine (12 clusters)
+Computing cluster statistics...
+Total cells: 26474
+Number of clusters: 12
+Cells per cluster - Min: 110, Max: 6999, Mean: 2206.2
+Saved: pancreas_Tritschler_Molecular_Metabolism_2022_louvain_anno_fine_X_umap_98d050_cluster_statistics.csv
+Cluster statistics complete!

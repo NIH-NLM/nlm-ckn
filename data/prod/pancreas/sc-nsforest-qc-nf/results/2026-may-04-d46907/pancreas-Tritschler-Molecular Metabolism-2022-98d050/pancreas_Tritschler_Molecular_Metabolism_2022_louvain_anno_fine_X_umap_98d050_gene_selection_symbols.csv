@@ -1,0 +1,23 @@
+clusterName,gene
+alpha_immature,ANXA10
+alpha_immature,PLAUR
+alpha_stress II,ABCB1
+alpha_stress II,PDK4
+beta_stress I,ASB9
+beta_stress II,TRIB3
+beta_immature,NDRG4
+beta_immature,ENDOD1
+beta_immature,ADM
+beta_MHC/autoantigen,C1GALT1C1
+beta_mature,CDKN1C
+beta_mature,IGF2
+beta_mtDNA deficient,GPX2
+beta_mtDNA deficient,FAM162A
+delta,LY6H
+delta,CD9
+PP,PPY
+PP,TUBB2A
+alpha_MHC II,P4HA2
+alpha_MHC II,FXYD3
+alpha_mature,ENSG00000186493
+alpha_mature,KCTD12

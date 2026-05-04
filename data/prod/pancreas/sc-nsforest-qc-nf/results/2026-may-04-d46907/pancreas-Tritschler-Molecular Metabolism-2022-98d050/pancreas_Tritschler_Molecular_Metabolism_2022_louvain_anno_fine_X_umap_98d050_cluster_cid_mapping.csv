@@ -1,0 +1,13 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+PP,,,CL:0002275
+alpha_MHC II,,,CL:0000171
+alpha_immature,,,CL:0000171
+alpha_mature,,,CL:0000171
+alpha_stress II,,,CL:0000171
+beta_MHC/autoantigen,,,CL:0000169
+beta_immature,,,CL:0000169
+beta_mature,,,CL:0000169
+beta_mtDNA deficient,,,CL:0000169
+beta_stress I,,,CL:0000169
+beta_stress II,,,CL:0000169
+delta,,,CL:0000173
