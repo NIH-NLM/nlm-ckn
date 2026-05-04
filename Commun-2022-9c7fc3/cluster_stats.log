@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: kidney_Wilson_Nat_Commun_2022_author_cell_type_X_umap_9c7fc3_adata_filtered.h5ad
+Loaded: 27667 cells x 35469 genes
+Cluster header: author_cell_type (16 clusters)
+Computing cluster statistics...
+Total cells: 27667
+Number of clusters: 16
+Cells per cluster - Min: 54, Max: 7919, Mean: 1729.2
+Saved: kidney_Wilson_Nat_Commun_2022_author_cell_type_X_umap_9c7fc3_cluster_statistics.csv
+Cluster statistics complete!
