@@ -1,0 +1,10 @@
+clusterName,NSForest_markers,f_score
+alpha,['GCG'],0.9942614770459082
+acinar,"['CTRB2', 'REG1B']",0.9530791788856304
+unclear,['RIOK3'],0.625
+mesenchymal,['COL1A1'],0.9605911330049262
+endothelial,['ESAM'],1.0
+duct,"['CFTR', 'SLC4A4']",0.8932346723044398
+beta,['INS'],0.927858439201452
+pp,['PPY'],0.945945945945946
+delta,['SST'],0.9833506763787722
