@@ -1,0 +1,23 @@
+clusterName,NSForest_markers,f_score
+Mature enterocyte subset 1,"['CTSE', 'APOA1']",0.8017103153393907
+BEST4+ cell,['BEST4'],0.8442829186469109
+Enterocyte progenitor cell subset 2,"['DTL', 'ADH4']",0.2220998531571218
+Stem cell,"['LGR5', 'SMOC2']",0.5889423076923077
+Transit amplifying cell subset 3,"['EPHA2', 'HBEGF', 'PHLDA2']",0.3777292576419214
+Transit amplifying cell subset 2,"['CCNB1', 'PTTG1']",0.6791656319841073
+Transit amplifying cell subset 1,"['H3C7', 'H3C2']",0.7336435806186696
+Enterocyte progenitor cell subset 3,"['UNG', 'FOLH1', 'MCM5', 'MCM6']",0.3490531006312662
+enterocyte progenitor subset 1,"['KCNJ13', 'LINC03057', 'SAMD5']",0.4369295226694598
+Enterocyte subset 1,"['ENSG00000282408', 'GSTA2']",0.5575459023734886
+Enterocyte subset 2,"['KCNJ13', 'FABP6']",0.6366723259762309
+Mature enterocyte subset 2,"['TMIGD1', 'APOC3']",0.9289176090468496
+Microfold cell,['CD163'],0.9776536312849162
+Goblet cell subset 3,"['GABRA2', 'SELENOM']",0.5513370749422252
+Goblet cell subset 1,"['MUC2', 'ITLN1']",0.8649977648636566
+Goblet progenitor,"['SPDEF', 'H3C2', 'H1-5', 'SELENOM']",0.7142857142857143
+Tuft cell,"['POU2F3', 'AVIL']",0.9313991323210412
+Goblet cell subset 2,"['ENSG00000233452', 'FER1L6']",0.2677998717126363
+Paneth cell,"['PLA2G2A', 'PRSS2']",0.8085106382978723
+Enteroendocrine cell subset 1,"['CDKN1C', 'RIMBP2']",0.7701492537313432
+Enteroendocrine cell subset 2,"['TPH1', 'LINC00907']",0.9558067831449126
+Mixed cell types,"['ENSG00000189229', 'APOB', 'MUC2', 'ENSG00000231424', 'TOP2A']",0.4084442404772831
