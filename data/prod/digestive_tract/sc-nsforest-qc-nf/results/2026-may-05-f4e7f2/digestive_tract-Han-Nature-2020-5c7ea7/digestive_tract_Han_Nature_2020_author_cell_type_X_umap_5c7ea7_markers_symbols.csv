@@ -1,0 +1,35 @@
+clusterName,NSForest_markers,f_score
+Monocyte,"['FCN1', 'S100A9', 'S100A4']",0.3094059405940594
+Macrophage,"['C1QA', 'C1QB']",0.6702392047219633
+M2 Macrophage,"['LIPA', 'DBNL']",0.7142857142857143
+Dendritic cell,"['HLA-DQA1', 'HLA-DPA1', 'HLA-DPB1']",0.540722761596548
+Fetal neuron,"['UCHL1', 'SYT1']",0.9433962264150944
+Endothelial cell,"['PCAT19', 'TM4SF1']",0.3021148036253776
+Endothelial cell (APC),"['ACKR1', 'IFI27']",0.6988069150231312
+Smooth muscle cell,['ACTA2'],0.8275645059786029
+Fetal Neuron,"['VMP1', 'S100B']",0.6410256410256411
+Fetal stromal cell,"['HSPA1B', 'COL1A1']",0.1875
+Fetal mesenchymal progenitor,"['HSP90B1', 'COL1A1']",0.4545454545454545
+Endothelial cell (endothelial to mesenchymal transition),"['COL6A1', 'COL3A1']",0.5072463768115942
+Fibroblast,"['TIMP3', 'CFD']",0.7518579686209744
+Stromal cell,"['C3', 'IFITM2']",0.510958904109589
+Enterocyte progenitor,['LGALS4'],0.4481363304158719
+Fetal enterocyte,"['MT1G', 'TXN', 'RPLP2', 'COX7C']",0.0641025641025641
+Hepatocyte/Endodermal cell,"['APOC3', 'NEAT1']",0.3125
+Fetal epithelial progenitor,"['SRP14', 'RPL10A', 'RPL13']",0.3333333333333333
+B cell (Plasmocyte),['JCHAIN'],0.9263403263403264
+B cell,"['CD52', 'CD74']",0.5666985036612544
+T cell,"['CCL5', 'TMSB4X']",0.6356288937531571
+CB CD34+,"['UBE2I', 'LSM8', 'TUBB']",0.5
+Mast cell,['TPSB2'],0.8497088791848617
+Neutrophil,"['S100A12', 'S100P']",0.6129032258064516
+Epithelial cell (intermediated),"['IGFBP3', 'ACOT7']",0.6818181818181818
+Primordial germ cell,"['MDK', 'ENSG00000227081']",0.5555555555555556
+Basal cell,['S100A2'],0.8631697546319479
+Stratified epithelial cell,['SCGB3A1'],0.8506616257088847
+Goblet cell,['TFF2'],0.7825563719280466
+Gastric endocrine cell,"['PTBP1', 'NOL7', 'HSPA9', 'KLF10']",0.5555555555555556
+Gastric chief cell,"['PGA5', 'PGC']",0.9682176343707356
+Fetal endocrine cell,['CHGA'],0.8765060240963856
+Epithelial cell,"['CEACAM7', 'SLC26A3']",0.7198221092757306
+Enterocyte,"['ANPEP', 'PHGR1']",0.6817008090893442
