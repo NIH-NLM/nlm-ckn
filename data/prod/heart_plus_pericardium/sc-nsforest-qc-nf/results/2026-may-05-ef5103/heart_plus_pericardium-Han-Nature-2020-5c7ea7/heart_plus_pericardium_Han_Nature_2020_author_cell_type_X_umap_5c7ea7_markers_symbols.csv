@@ -1,0 +1,13 @@
+clusterName,NSForest_markers,f_score
+Antigen presenting cell (RPS high),"['FCGR3A', 'DPYSL2']",0.8823529411764706
+B cell (Plasmocyte),['ENSG00000211892'],0.9523809523809524
+Fibroblast,"['CCDC80', 'FN1']",0.4545454545454545
+Stromal cell,['DCN'],0.8837111670864819
+Smooth muscle cell,['ACTA2'],0.8572247706422018
+Ventricle cardiomyocyte,['MYL2'],0.9722222222222222
+Endothelial cell (APC),"['TM4SF1', 'GNG11']",0.4340836012861736
+Mast cell,['TPSB2'],0.945945945945946
+T cell,['GNLY'],0.7167235494880546
+Macrophage,"['SELENOP', 'C1QA']",0.7199576495500265
+Dendritic cell,"['GPR183', 'MS4A6A']",0.3529411764705882
+Monocyte,"['S100A8', 'S100A9']",0.5405405405405406

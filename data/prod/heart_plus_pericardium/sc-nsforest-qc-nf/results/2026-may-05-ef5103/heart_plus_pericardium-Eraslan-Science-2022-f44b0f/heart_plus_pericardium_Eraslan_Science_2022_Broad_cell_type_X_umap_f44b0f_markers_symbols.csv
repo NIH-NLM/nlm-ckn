@@ -1,0 +1,13 @@
+clusterName,NSForest_markers,f_score
+Adipocyte,"['PLIN1', 'ADIPOQ']",0.8652482269503546
+Myocyte (cardiac),"['CTNNA3', 'RBM20']",0.9438898340448753
+Immune (DC/macrophage),['RBM47'],0.8782060623724861
+Immune (mast cell),['TPSB2'],0.876010781671159
+Immune (B cell),['MS4A1'],0.7142857142857143
+Immune (T cell),['THEMIS'],0.7177615571776156
+Immune (NK cell),['GNLY'],0.7984790874524715
+Endothelial cell (lymphatic),"['MMRN1', 'CCL21']",0.9287211740041929
+Endothelial cell (vascular),['VWF'],0.8587683165642515
+Pericyte/SMC,['KCNAB1'],0.7027225901398086
+Schwann cell,"['NRXN1', 'NRXN3']",0.8790170132325141
+Fibroblast,['DCN'],0.8903446428939291

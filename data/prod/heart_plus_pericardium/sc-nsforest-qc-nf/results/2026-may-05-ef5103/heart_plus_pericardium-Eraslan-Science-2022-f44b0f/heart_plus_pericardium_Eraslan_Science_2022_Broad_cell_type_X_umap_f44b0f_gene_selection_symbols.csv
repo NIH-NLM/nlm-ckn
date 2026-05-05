@@ -1,0 +1,17 @@
+clusterName,gene
+Adipocyte,PLIN1
+Adipocyte,ADIPOQ
+Myocyte (cardiac),CTNNA3
+Myocyte (cardiac),RBM20
+Immune (DC/macrophage),RBM47
+Immune (mast cell),TPSB2
+Immune (B cell),MS4A1
+Immune (T cell),THEMIS
+Immune (NK cell),GNLY
+Endothelial cell (lymphatic),MMRN1
+Endothelial cell (lymphatic),CCL21
+Endothelial cell (vascular),VWF
+Pericyte/SMC,KCNAB1
+Schwann cell,NRXN1
+Schwann cell,NRXN3
+Fibroblast,DCN

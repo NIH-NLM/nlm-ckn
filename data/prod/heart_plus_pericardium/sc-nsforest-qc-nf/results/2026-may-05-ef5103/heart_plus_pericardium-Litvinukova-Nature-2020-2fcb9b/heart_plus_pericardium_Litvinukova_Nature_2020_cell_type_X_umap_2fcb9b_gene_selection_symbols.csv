@@ -1,0 +1,40 @@
+clusterName,gene
+regular atrial cardiac myocyte,MYL7
+regular atrial cardiac myocyte,KCNJ3
+neural cell,NRXN1
+fibroblast,ABCA6
+unknown,DCN
+unknown,LAMA2
+unknown,RYR2
+epicardial adipocyte,GPAM
+smooth muscle cell,MYH11
+smooth muscle cell,ACTA2
+pericyte,EGFLAM
+endothelial cell of artery,HEY1
+endothelial cell of artery,IGFBP3
+endothelial cell,ST6GALNAC3
+endothelial cell,EMCN
+endothelial cell,LDB2
+capillary endothelial cell,RGCC
+capillary endothelial cell,CLDN5
+vein endothelial cell,ACKR1
+endothelial cell of lymphatic vessel,CCL21
+endothelial cell of lymphatic vessel,MMRN1
+mesothelial cell,ITLN1
+CD14-positive monocyte,S100A12
+CD14-positive monocyte,ENSG00000257764
+monocyte,LST1
+monocyte,JUND
+macrophage,VSIG4
+dendritic cell,NUCKS1
+dendritic cell,HMGB2
+mast cell,CPA3
+mast cell,NTM
+B cell,HLA-DPA1
+mature NK T cell,CD7
+mature NK T cell,KLRD1
+natural killer cell,FGFBP2
+natural killer cell,KLRB1
+natural killer cell,GZMB
+regular ventricular cardiac myocyte,FHL2
+regular ventricular cardiac myocyte,TRDN-AS1

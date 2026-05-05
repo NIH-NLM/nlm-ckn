@@ -1,0 +1,17 @@
+clusterName,gene
+Adipocyte,ENSG00000166819
+Adipocyte,ENSG00000181092
+Myocyte (cardiac),ENSG00000183230
+Myocyte (cardiac),ENSG00000203867
+Immune (DC/macrophage),ENSG00000163694
+Immune (mast cell),ENSG00000197253
+Immune (B cell),ENSG00000156738
+Immune (T cell),ENSG00000172673
+Immune (NK cell),ENSG00000115523
+Endothelial cell (lymphatic),ENSG00000138722
+Endothelial cell (lymphatic),ENSG00000137077
+Endothelial cell (vascular),ENSG00000110799
+Pericyte/SMC,ENSG00000169282
+Schwann cell,ENSG00000179915
+Schwann cell,ENSG00000021645
+Fibroblast,ENSG00000011465

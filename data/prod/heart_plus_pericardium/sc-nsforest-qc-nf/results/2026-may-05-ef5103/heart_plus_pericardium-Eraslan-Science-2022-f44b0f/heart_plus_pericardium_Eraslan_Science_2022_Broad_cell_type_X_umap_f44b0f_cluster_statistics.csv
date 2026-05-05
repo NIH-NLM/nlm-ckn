@@ -1,0 +1,14 @@
+cluster,n_cells,percentage
+Adipocyte,193,0.53
+Endothelial cell (lymphatic),565,1.54
+Endothelial cell (vascular),7070,19.33
+Fibroblast,9287,25.39
+Immune (B cell),22,0.06
+Immune (DC/macrophage),6320,17.28
+Immune (NK cell),319,0.87
+Immune (T cell),357,0.98
+Immune (mast cell),79,0.22
+Myocyte (cardiac),7041,19.25
+"Myocyte (cardiac, cytoplasmic)",2585,7.07
+Pericyte/SMC,2438,6.67
+Schwann cell,298,0.81

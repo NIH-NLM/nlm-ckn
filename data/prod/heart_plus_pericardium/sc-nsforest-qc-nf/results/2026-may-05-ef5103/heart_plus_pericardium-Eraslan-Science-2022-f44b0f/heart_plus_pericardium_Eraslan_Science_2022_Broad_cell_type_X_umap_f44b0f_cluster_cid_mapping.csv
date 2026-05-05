@@ -1,0 +1,78 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+Adipocyte,,,CL:0000057
+Adipocyte,,,CL:0000183
+Adipocyte,,,CL:0000746
+Adipocyte,,,CL:0002139
+Adipocyte,,,CL:0002521
+Endothelial cell (lymphatic),,,CL:0000235
+Endothelial cell (lymphatic),,,CL:0000746
+Endothelial cell (lymphatic),,,CL:0002138
+Endothelial cell (lymphatic),,,CL:0002139
+Endothelial cell (lymphatic),,,CL:0002548
+Endothelial cell (vascular),,,CL:0000057
+Endothelial cell (vascular),,,CL:0000183
+Endothelial cell (vascular),,,CL:0000235
+Endothelial cell (vascular),,,CL:0000746
+Endothelial cell (vascular),,,CL:0002139
+Endothelial cell (vascular),,,CL:0002548
+Endothelial cell (vascular),,,CL:0010008
+Fibroblast,,,CL:0000057
+Fibroblast,,,CL:0000145
+Fibroblast,,,CL:0000183
+Fibroblast,,,CL:0000192
+Fibroblast,,,CL:0000235
+Fibroblast,,,CL:0000746
+Fibroblast,,,CL:0002139
+Fibroblast,,,CL:0002548
+Fibroblast,,,CL:0010008
+Immune (B cell),,,CL:0000057
+Immune (B cell),,,CL:0000236
+Immune (B cell),,,CL:0000746
+Immune (B cell),,,CL:0002139
+Immune (DC/macrophage),,,CL:0000057
+Immune (DC/macrophage),,,CL:0000145
+Immune (DC/macrophage),,,CL:0000183
+Immune (DC/macrophage),,,CL:0000192
+Immune (DC/macrophage),,,CL:0000235
+Immune (DC/macrophage),,,CL:0000746
+Immune (DC/macrophage),,,CL:0002139
+Immune (DC/macrophage),,,CL:0002548
+Immune (DC/macrophage),,,CL:0010008
+Immune (NK cell),,,CL:0000814
+Immune (T cell),,,CL:0000057
+Immune (T cell),,,CL:0000084
+Immune (T cell),,,CL:0000145
+Immune (T cell),,,CL:0000235
+Immune (T cell),,,CL:0000746
+Immune (T cell),,,CL:0002139
+Immune (T cell),,,CL:0010008
+Immune (mast cell),,,CL:0000057
+Immune (mast cell),,,CL:0000097
+Immune (mast cell),,,CL:0000145
+Immune (mast cell),,,CL:0000183
+Immune (mast cell),,,CL:0000235
+Immune (mast cell),,,CL:0000746
+Immune (mast cell),,,CL:0002139
+Myocyte (cardiac),,,CL:0000057
+Myocyte (cardiac),,,CL:0000145
+Myocyte (cardiac),,,CL:0000183
+Myocyte (cardiac),,,CL:0000192
+Myocyte (cardiac),,,CL:0000235
+Myocyte (cardiac),,,CL:0000746
+Myocyte (cardiac),,,CL:0002139
+"Myocyte (cardiac, cytoplasmic)",,,CL:0000057
+"Myocyte (cardiac, cytoplasmic)",,,CL:0000145
+"Myocyte (cardiac, cytoplasmic)",,,CL:0000183
+"Myocyte (cardiac, cytoplasmic)",,,CL:0000235
+"Myocyte (cardiac, cytoplasmic)",,,CL:0000746
+"Myocyte (cardiac, cytoplasmic)",,,CL:0002139
+"Myocyte (cardiac, cytoplasmic)",,,CL:0002548
+Pericyte/SMC,,,CL:0000057
+Pericyte/SMC,,,CL:0000183
+Pericyte/SMC,,,CL:0000235
+Pericyte/SMC,,,CL:0000746
+Pericyte/SMC,,,CL:0002139
+Pericyte/SMC,,,CL:0002548
+Schwann cell,,,CL:0000746
+Schwann cell,,,CL:0002139
+Schwann cell,,,CL:0002573

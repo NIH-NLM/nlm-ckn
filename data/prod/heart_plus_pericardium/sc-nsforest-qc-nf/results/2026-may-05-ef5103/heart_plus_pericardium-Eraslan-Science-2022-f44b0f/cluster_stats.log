@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: heart_plus_pericardium_Eraslan_Science_2022_Broad_cell_type_X_umap_f44b0f_adata_filtered.h5ad
+Loaded: 36574 cells x 32088 genes
+Cluster header: Broad cell type (13 clusters)
+Computing cluster statistics...
+Total cells: 36574
+Number of clusters: 13
+Cells per cluster - Min: 22, Max: 9287, Mean: 2813.4
+Saved: heart_plus_pericardium_Eraslan_Science_2022_Broad_cell_type_X_umap_f44b0f_cluster_statistics.csv
+Cluster statistics complete!

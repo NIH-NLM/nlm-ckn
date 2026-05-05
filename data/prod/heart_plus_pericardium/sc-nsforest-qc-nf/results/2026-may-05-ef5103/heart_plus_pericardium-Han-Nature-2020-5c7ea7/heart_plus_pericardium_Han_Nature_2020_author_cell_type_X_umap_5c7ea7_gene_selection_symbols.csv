@@ -1,0 +1,19 @@
+clusterName,gene
+Antigen presenting cell (RPS high),FCGR3A
+Antigen presenting cell (RPS high),DPYSL2
+B cell (Plasmocyte),ENSG00000211892
+Fibroblast,CCDC80
+Fibroblast,FN1
+Stromal cell,DCN
+Smooth muscle cell,ACTA2
+Ventricle cardiomyocyte,MYL2
+Endothelial cell (APC),TM4SF1
+Endothelial cell (APC),GNG11
+Mast cell,TPSB2
+T cell,GNLY
+Macrophage,SELENOP
+Macrophage,C1QA
+Dendritic cell,GPR183
+Dendritic cell,MS4A6A
+Monocyte,S100A8
+Monocyte,S100A9

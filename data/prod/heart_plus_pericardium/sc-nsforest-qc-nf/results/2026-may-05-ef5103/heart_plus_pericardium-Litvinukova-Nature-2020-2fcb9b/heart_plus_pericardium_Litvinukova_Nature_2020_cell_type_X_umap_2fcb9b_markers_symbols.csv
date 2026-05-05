@@ -1,0 +1,23 @@
+clusterName,NSForest_markers,f_score
+regular atrial cardiac myocyte,"['MYL7', 'KCNJ3']",0.7620843145529042
+neural cell,['NRXN1'],0.7725298879536804
+fibroblast,['ABCA6'],0.6684263490439976
+unknown,"['DCN', 'LAMA2', 'RYR2']",0.2699693432260512
+epicardial adipocyte,['GPAM'],0.852939060364055
+smooth muscle cell,"['MYH11', 'ACTA2']",0.6505447781025777
+pericyte,['EGFLAM'],0.738681393103647
+endothelial cell of artery,"['HEY1', 'IGFBP3']",0.5326839790364166
+endothelial cell,"['ST6GALNAC3', 'EMCN', 'LDB2']",0.2955799297847751
+capillary endothelial cell,"['RGCC', 'CLDN5']",0.6632324684415505
+vein endothelial cell,['ACKR1'],0.6694023702389251
+endothelial cell of lymphatic vessel,"['CCL21', 'MMRN1']",0.7081911262798635
+mesothelial cell,['ITLN1'],0.7853757616790792
+CD14-positive monocyte,"['S100A12', 'ENSG00000257764']",0.5507976490344249
+monocyte,"['LST1', 'JUND']",0.2577433628318584
+macrophage,['VSIG4'],0.586792513923067
+dendritic cell,"['NUCKS1', 'HMGB2']",0.2553542009884679
+mast cell,"['CPA3', 'NTM']",0.7557748374074905
+B cell,['HLA-DPA1'],0.2334630350194552
+mature NK T cell,"['CD7', 'KLRD1']",0.271164952810255
+natural killer cell,"['FGFBP2', 'KLRB1', 'GZMB']",0.6989815526518063
+regular ventricular cardiac myocyte,"['FHL2', 'TRDN-AS1']",0.8725618418587392

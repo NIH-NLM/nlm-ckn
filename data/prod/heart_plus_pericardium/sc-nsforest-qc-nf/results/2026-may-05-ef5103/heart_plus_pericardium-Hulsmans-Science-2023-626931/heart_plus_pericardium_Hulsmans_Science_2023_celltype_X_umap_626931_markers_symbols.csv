@@ -1,0 +1,7 @@
+clusterName,NSForest_markers,f_score
+Lymphocyte,['CCL5'],0.9426745051729006
+Mural cell,"['ACTA2', 'TPM2']",0.9155908639523336
+Fibroblast,"['DCN', 'SERPINF1']",0.96994730095428
+Endothelia,"['EGFL7', 'IFI27']",0.9109225874867444
+Neutrophil,['ALOX5AP'],0.4166666666666667
+MP & DC,"['AIF1', 'LYZ']",0.962159434914228

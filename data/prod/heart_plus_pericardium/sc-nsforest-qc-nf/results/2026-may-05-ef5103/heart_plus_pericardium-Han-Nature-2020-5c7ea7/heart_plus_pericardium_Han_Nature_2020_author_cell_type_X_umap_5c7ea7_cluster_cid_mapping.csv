@@ -1,0 +1,13 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+Antigen presenting cell (RPS high),,,CL:0000145
+B cell (Plasmocyte),,,CL:0000786
+Dendritic cell,,,CL:0000451
+Endothelial cell (APC),,,CL:0000115
+Fibroblast,,,CL:0000057
+Macrophage,,,CL:0000235
+Mast cell,,,CL:0000097
+Monocyte,,,CL:0000576
+Smooth muscle cell,,,CL:0000192
+Stromal cell,,,CL:0000499
+T cell,,,CL:0000084
+Ventricle cardiomyocyte,,,CL:2000046

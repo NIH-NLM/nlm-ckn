@@ -1,0 +1,8 @@
+clusterName,NSForest_markers,f_score
+cardiac muscle cell,"['TTN', 'MYBPC3']",0.9815785416987822
+smooth muscle cell,"['MYH11', 'NTRK3']",0.8536585365853658
+mesothelial cell of epicardium,['FHL5'],0.86775713889659
+neuron,"['NRXN1', 'XKR4']",0.9807692307692308
+fibroblast,"['BICC1', 'DCN']",0.9518672199170124
+endothelial cell,"['PTPRB', 'SHANK3']",0.9444339085909348
+leukocyte,['DOCK2'],0.9395973154362416
