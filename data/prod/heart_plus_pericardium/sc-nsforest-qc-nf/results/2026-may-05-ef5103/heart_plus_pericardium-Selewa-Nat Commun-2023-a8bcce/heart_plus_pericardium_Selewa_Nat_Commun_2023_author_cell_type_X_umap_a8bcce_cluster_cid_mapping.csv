@@ -1,0 +1,9 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+Cardiomyocyte,,,CL:0000746
+Endothelial,,,CL:0010008
+Fibroblast,,,CL:0002548
+Lymphoid,,,CL:0000542
+Myeloid,,,CL:0000763
+Neuronal,,,CL:0010022
+Pericyte,,,CL:0000669
+Smooth Muscle,,,CL:0000192

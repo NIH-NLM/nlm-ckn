@@ -1,0 +1,9 @@
+clusterName,NSForest_markers,f_score
+Cardiomyocyte,"['CMYA5', 'NEBL']",0.9721177608251852
+Neuronal,['NRXN1'],0.986085094995986
+Lymphoid,"['SKAP1', 'CD247']",0.884373211219233
+Myeloid,['F13A1'],0.9346055979643766
+Endothelial,['VWF'],0.935759279504399
+Smooth Muscle,['NTRK3'],0.6594563552833078
+Pericyte,"['FRMD3', 'GUCY1A2']",0.8304181242711978
+Fibroblast,"['BICC1', 'DCN']",0.9235654343388524
