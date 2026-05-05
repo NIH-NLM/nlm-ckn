@@ -1,0 +1,72 @@
+clusterName,gene
+CD4+ PD1+,FYN
+CD4+ PD1+,DUSP2
+CD4+ PD1+,PTPN7
+Tregs,SLC25A45
+Tregs,CACYBP
+CD69- Mast,CLU
+CD69+ Mast,CPA3
+Plasma,JCHAIN
+TA 1,MT-ND3
+Tuft,SH2D6
+Immature Goblet,CLCA1
+M cells,ICAM2
+M cells,CTSE
+M cells,SRCAP
+Secretory TA,CLCA1
+Secretory TA,RETNLB
+GC,SMIM14
+GC,TCL1A
+Follicular,CXCR4
+Follicular,CD79A
+MT-hi,ZFP36L2
+MT-hi,CCL5
+NKs,XCL1
+NKs,CCL4
+CD8+ IELs,HOPX
+CD8+ IELs,NKG7
+CD8+ LP,CD8A
+CD8+ IL17+,CD3G
+CD4+ Activated Fos-hi,TSC22D3
+CD4+ Activated Fos-hi,CXCR4
+CD4+ Activated Fos-hi,CCL5
+CD4+ Activated Fos-lo,ANAPC16
+CD4+ Activated Fos-lo,GIMAP7
+CD4+ Activated Fos-lo,CD2
+CD4+ Activated Fos-lo,ANXA1
+CD4+ Activated Fos-lo,LTB
+CD4+ Memory,ZFP36L2
+CD4+ Memory,LTB
+CD4+ Memory,ENSG00000277734
+Cycling TA,UBE2C
+Cycling TA,PTTG1
+TA 2,GOLM1
+TA 2,PPP1R1B
+TA 2,MGST1
+TA 2,FABP5
+Stem,ASCL2
+Stem,RGMB
+Stem,ETS2
+Enteroendocrine,SCGN
+Enteroendocrine,CRYBA2
+Best4+ Enterocytes,BEST4
+Best4+ Enterocytes,CA7
+Immature Enterocytes 2,SLC26A2
+Immature Enterocytes 2,CA1
+Immature Enterocytes 2,MALL
+Immature Enterocytes 2,SLC51B
+Enterocyte Progenitors,CA1
+Enterocyte Progenitors,CA2
+Enterocytes,NLN
+Enterocytes,EMP1
+Enterocytes,CYTOR
+Immature Enterocytes 1,MDK
+Immature Enterocytes 1,AQP8
+Goblet,TFF1
+Goblet,ZG16
+Cycling T,TYMS
+Cycling B,AURKB
+Cycling B,TCL1A
+Macrophages,C1QC
+DC2,CFP
+DC2,LST1

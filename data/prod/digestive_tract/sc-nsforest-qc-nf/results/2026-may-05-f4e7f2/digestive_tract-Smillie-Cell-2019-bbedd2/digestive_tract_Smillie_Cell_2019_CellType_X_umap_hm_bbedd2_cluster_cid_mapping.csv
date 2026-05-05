@@ -1,0 +1,35 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+Best4+ Enterocytes,,,CL:0000584
+CD4+ Activated Fos-hi,,,CL:0000896
+CD4+ Activated Fos-lo,,,CL:0000896
+CD4+ Memory,,,CL:0000897
+CD4+ PD1+,,,CL:0000624
+CD69+ Mast,,,CL:0000097
+CD69- Mast,,,CL:0000097
+CD8+ IELs,,,CL:0000796
+CD8+ IL17+,,,CL:0000811
+CD8+ LP,,,CL:0000811
+Cycling B,,,CL:0000236
+Cycling T,,,CL:0000084
+Cycling TA,,,CL:0009011
+DC2,,,CL:0000451
+Enterocyte Progenitors,,,CL:0000584
+Enterocytes,,,CL:0000584
+Enteroendocrine,,,CL:0000164
+Follicular,,,CL:0000843
+GC,,,CL:0000160
+Goblet,,,CL:0000160
+Immature Enterocytes 1,,,CL:0000584
+Immature Enterocytes 2,,,CL:0000584
+Immature Goblet,,,CL:0000160
+M cells,,,CL:0000682
+MT-hi,,,CL:0000084
+Macrophages,,,CL:0000235
+NKs,,,CL:0000623
+Plasma,,,CL:0000786
+Secretory TA,,,CL:0009011
+Stem,,,CL:0002250
+TA 1,,,CL:0009011
+TA 2,,,CL:0009011
+Tregs,,,CL:0000815
+Tuft,,,CL:0019032
