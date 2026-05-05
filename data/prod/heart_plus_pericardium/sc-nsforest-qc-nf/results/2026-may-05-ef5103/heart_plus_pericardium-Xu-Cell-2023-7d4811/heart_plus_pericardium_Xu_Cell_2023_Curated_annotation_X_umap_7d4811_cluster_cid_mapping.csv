@@ -1,0 +1,27 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+Adipocytes,,,CL:0000136
+Arterial SMC,,,CL:0000359
+Arterial endothelial cells,,,CL:1000413
+Atria-enriched endothelial cells,,,CL:0000115
+Atria-enriched pericytes,,,CL:0000669
+Atrial cardiomyocytes,,,CL:0002129
+Basic SMC,,,CL:0000192
+CMC-like endothelial cells,,,CL:0000115
+CMC-like pericytes,,,CL:0000669
+Capillary endothelial cells,,,CL:0002144
+Cytoplasmic cardiomyocytes,,,CL:0000746
+Fibroblast-like endothelial cells,,,CL:0000115
+Fibroblasts,,,CL:0000057
+Immune-related endothelial cells,,,CL:0000115
+Lymphatic endothelial cells,,,CL:0002138
+Lymphoid,,,CL:0000542
+MT-high fibroblasts,,,CL:0000057
+Mast cells,,,CL:0000097
+Mesothelial cells,,,CL:0000077
+Myeloid,,,CL:0000763
+NK cells,,,CL:0000623
+Neuronal cells,,,CL:0000540
+Stromal pericytes,,,CL:0000669
+Venous endothelial cells,,,CL:0002543
+Ventricle-enriched pericytes,,,CL:0000669
+Ventricular cardiomyocytes,,,CL:0002131

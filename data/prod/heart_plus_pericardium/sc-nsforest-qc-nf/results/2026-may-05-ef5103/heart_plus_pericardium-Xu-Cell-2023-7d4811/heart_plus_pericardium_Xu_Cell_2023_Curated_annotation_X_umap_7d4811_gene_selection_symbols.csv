@@ -1,0 +1,61 @@
+clusterName,gene
+Stromal pericytes,AGT
+Stromal pericytes,NDUFA4L2
+MT-high fibroblasts,MT-ATP8
+MT-high fibroblasts,MFAP4
+Basic SMC,ZFHX3
+Arterial SMC,ITGA8
+Atria-enriched pericytes,STEAP4
+Atria-enriched pericytes,RBMS3-AS3
+Atria-enriched pericytes,MAP1B
+Ventricle-enriched pericytes,EGFLAM
+Ventricle-enriched pericytes,FRMD3
+CMC-like pericytes,FHL2
+CMC-like pericytes,AOPEP
+CMC-like pericytes,EGFLAM
+CMC-like pericytes,GUCY1A2
+CMC-like pericytes,FHOD3
+CMC-like pericytes,TTN-AS1
+Ventricular cardiomyocytes,TENM2
+Ventricular cardiomyocytes,FHL2
+Atrial cardiomyocytes,ZNF385B
+Atrial cardiomyocytes,CADPS
+Cytoplasmic cardiomyocytes,NPPA
+Cytoplasmic cardiomyocytes,MYL4
+Neuronal cells,NRXN1
+Mast cells,CPA3
+Mast cells,KIT
+Myeloid,MS4A6A
+Myeloid,CD163
+Mesothelial cells,HAS1
+Mesothelial cells,NTNG1
+Fibroblast-like endothelial cells,GMDS
+Fibroblast-like endothelial cells,ABCA6
+Fibroblast-like endothelial cells,ANO2
+Fibroblast-like endothelial cells,NEGR1
+Fibroblast-like endothelial cells,PITPNC1
+Fibroblast-like endothelial cells,CDH19
+Fibroblasts,BICC1
+Adipocytes,ADIPOQ
+Adipocytes,PLIN1
+Atria-enriched endothelial cells,PCDH15
+Atria-enriched endothelial cells,POSTN
+Lymphatic endothelial cells,CCL21
+Lymphatic endothelial cells,MMRN1
+Venous endothelial cells,RAMP3
+Venous endothelial cells,SLCO2A1
+CMC-like endothelial cells,ANO2
+CMC-like endothelial cells,MB
+CMC-like endothelial cells,PITPNC1
+CMC-like endothelial cells,CRYAB
+Lymphoid,PARP8
+NK cells,PRF1
+NK cells,GZMB
+NK cells,CD247
+Arterial endothelial cells,HEY1
+Arterial endothelial cells,TM4SF1
+Capillary endothelial cells,RGCC
+Capillary endothelial cells,CLDN5
+Immune-related endothelial cells,CCL2
+Immune-related endothelial cells,CX3CL1
+Immune-related endothelial cells,IL32

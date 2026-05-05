@@ -1,0 +1,27 @@
+clusterName,NSForest_markers,f_score
+Stromal pericytes,"['AGT', 'NDUFA4L2']",0.3811892380737056
+MT-high fibroblasts,"['MT-ATP8', 'MFAP4']",0.8227649913887585
+Basic SMC,['ZFHX3'],0.4238791845747407
+Arterial SMC,['ITGA8'],0.5246993238011666
+Atria-enriched pericytes,"['STEAP4', 'RBMS3-AS3', 'MAP1B']",0.1791230988593156
+Ventricle-enriched pericytes,"['EGFLAM', 'FRMD3']",0.6650829080411803
+CMC-like pericytes,"['FHL2', 'AOPEP', 'EGFLAM', 'GUCY1A2', 'FHOD3', 'TTN-AS1']",0.3977350252421885
+Ventricular cardiomyocytes,"['TENM2', 'FHL2']",0.8765305092598964
+Atrial cardiomyocytes,"['ZNF385B', 'CADPS']",0.610385955304033
+Cytoplasmic cardiomyocytes,"['NPPA', 'MYL4']",0.4926038976285513
+Neuronal cells,['NRXN1'],0.835008480432188
+Mast cells,"['CPA3', 'KIT']",0.8323501018985305
+Myeloid,"['MS4A6A', 'CD163']",0.7775482965332351
+Mesothelial cells,"['HAS1', 'NTNG1']",0.6925837320574163
+Fibroblast-like endothelial cells,"['GMDS', 'ABCA6', 'ANO2', 'NEGR1', 'PITPNC1', 'CDH19']",0.2028258887876025
+Fibroblasts,['BICC1'],0.7067878102241392
+Adipocytes,"['ADIPOQ', 'PLIN1']",0.7463609688740579
+Atria-enriched endothelial cells,"['PCDH15', 'POSTN']",0.661408121530821
+Lymphatic endothelial cells,"['CCL21', 'MMRN1']",0.647800886464371
+Venous endothelial cells,"['RAMP3', 'SLCO2A1']",0.4610051753244956
+CMC-like endothelial cells,"['ANO2', 'MB', 'PITPNC1', 'CRYAB']",0.1392363241610421
+Lymphoid,['PARP8'],0.4747936760465348
+NK cells,"['PRF1', 'GZMB', 'CD247']",0.713070115724983
+Arterial endothelial cells,"['HEY1', 'TM4SF1']",0.5325255484971119
+Capillary endothelial cells,"['RGCC', 'CLDN5']",0.632976812866664
+Immune-related endothelial cells,"['CCL2', 'CX3CL1', 'IL32']",0.3028383172833249
