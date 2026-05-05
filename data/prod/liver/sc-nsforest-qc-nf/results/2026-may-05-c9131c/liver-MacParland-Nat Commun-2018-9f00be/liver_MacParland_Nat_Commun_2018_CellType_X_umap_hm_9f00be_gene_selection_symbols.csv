@@ -1,0 +1,31 @@
+clusterName,gene
+NK-like,CMC1
+NK-like,KLRC1
+abT cell,CD3D
+abT cell,ENSG00000277734
+B cell,CD79A
+B cell,MS4A1
+Plasma,DERL3
+Plasma,TNFRSF17
+gdT cell 2,MKI67
+gdT cell 2,TOP2A
+Hepatocyte,TF
+Hepatocyte,APOH
+Cholangiocyte,KRT7
+Cholangiocyte,FXYD2
+Stellate,COL3A1
+Stellate,MYL9
+LSEC 1,SPARCL1
+LSEC 1,MGP
+Portal endothelial,RSPO3
+Portal endothelial,INMT
+Non-inflammatory Macs,VCAM1
+Non-inflammatory Macs,MARCO
+Inflammatory Macs,ENSG00000257764
+Inflammatory Macs,LYZ
+Erythroid,HBA1
+Erythroid,SLC25A37
+Erythroid,SLC4A1
+Erythroid,AHSP
+gdT cell 1,GNLY
+gdT cell 1,FGFBP2

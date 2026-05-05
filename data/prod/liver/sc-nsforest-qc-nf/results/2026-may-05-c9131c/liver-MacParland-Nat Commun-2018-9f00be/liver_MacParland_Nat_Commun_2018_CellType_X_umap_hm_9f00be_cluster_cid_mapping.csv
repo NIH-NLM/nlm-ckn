@@ -1,0 +1,16 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+B cell,,,CL:0000236
+Cholangiocyte,,,CL:1000488
+Erythroid,,,CL:0000232
+Hepatocyte,,,CL:0000182
+Inflammatory Macs,,,CL:0000863
+LSEC 1,,,CL:1000398
+"LSEC 2,3",,,CL:1000398
+NK-like,,,CL:0001065
+Non-inflammatory Macs,,,CL:0000235
+Plasma,,,CL:0000786
+Portal endothelial,,,CL:0019021
+Stellate,,,CL:0000632
+abT cell,,,CL:0000789
+gdT cell 1,,,CL:0000798
+gdT cell 2,,,CL:0000798
