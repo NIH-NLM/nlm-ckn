@@ -1,0 +1,30 @@
+clusterName,gene
+Mucous,BPIFB2
+Mucous,AGR2
+Schwann Cells,NRXN1
+Fibroblasts,DCN
+Fibroblasts,APOD
+Myofibroblasts,NOTCH3
+Myofibroblasts,TAGLN
+Myoepithelial,KRT17
+Myoepithelial,MYH11
+Endothelial,IFI27
+Endothelial,EPAS1
+Serous,PPP1R1B
+Serous,CLDN10
+Serous,LINC01829
+Serous,SMCO4
+Seromucous,LPO
+RBCs,HBB
+RBCs,HBA2
+B Cells,ENSG00000211895
+B Cells,JCHAIN
+T Cells,CCL5
+Macrophages,C1QA
+Macrophages,TYROBP
+Ionocytes,ASCL3
+Striated,HSD11B2
+Basal,S100A2
+Basal,KRT5
+Intercalated,LCN2
+Intercalated,DMBT1

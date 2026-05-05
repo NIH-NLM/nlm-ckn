@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: digestive_tract_Horeth_J_Dent_Res_2023_author_cell_type_X_umap_ae6cbe_adata_filtered.h5ad
+Loaded: 15684 cells x 20170 genes
+Cluster header: author_cell_type (16 clusters)
+Computing cluster statistics...
+Total cells: 15684
+Number of clusters: 16
+Cells per cluster - Min: 32, Max: 5097, Mean: 980.2
+Saved: digestive_tract_Horeth_J_Dent_Res_2023_author_cell_type_X_umap_ae6cbe_cluster_statistics.csv
+Cluster statistics complete!
