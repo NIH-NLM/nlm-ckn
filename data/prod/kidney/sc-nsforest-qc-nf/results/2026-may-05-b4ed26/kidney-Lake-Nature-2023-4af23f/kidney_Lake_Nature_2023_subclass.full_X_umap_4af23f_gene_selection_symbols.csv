@@ -1,0 +1,159 @@
+clusterName,gene
+Medullary Fibroblast,MOXD1
+Medullary Fibroblast,SYT1
+Ascending Vasa Recta Endothelial Cell,GPM6A
+Ascending Vasa Recta Endothelial Cell,PLAT
+Degenerative Peritubular Capilary Endothelial Cell,FLT1
+Degenerative Peritubular Capilary Endothelial Cell,ST6GALNAC3
+Degenerative Peritubular Capilary Endothelial Cell,GPX3
+Cycling Endothelial Cell,SMC4
+Cycling Endothelial Cell,MELK
+Cycling Endothelial Cell,ANKRD36C
+Lymphatic Endothelial Cell,MMRN1
+Descending Vasa Recta Endothelial Cell,PALMD
+Descending Vasa Recta Endothelial Cell,ADAMTS6
+Afferent / Efferent Arteriole Endothelial Cell,LTBP4
+Afferent / Efferent Arteriole Endothelial Cell,JAG2
+Glomerular Capillary Endothelial Cell,SOST
+Glomerular Capillary Endothelial Cell,EHD3
+Podocyte,PTPRQ
+Podocyte,PTPRO
+Neutrophil,S100A8
+Neutrophil,S100A9
+Non-classical Monocyte,LST1
+Monocyte-derived Cell,HLA-DRA
+M2 Macrophage,MRC1
+M2 Macrophage,CD163
+Cycling Mononuclear Phagocyte,HDAC9
+Cycling Mononuclear Phagocyte,DOCK10
+Classical Dendritic Cell,RAB7B
+Classical Dendritic Cell,CD83
+Plasmacytoid Dendritic Cell,LINC01478
+Mast Cell,CPA3
+Mast Cell,SLC24A3
+Plasma Cell,FCRL5
+Plasma Cell,IFNG-AS1
+B Cell,BANK1
+Degenerative Podocyte,HTRA1
+Degenerative Cortical Thick Ascending Limb Cell,SERPINA1
+Degenerative Cortical Thick Ascending Limb Cell,SLPI
+Degenerative Endothelial Cell,IFITM3
+Degenerative Endothelial Cell,APOO
+Degenerative Endothelial Cell,UBC
+Degenerative Medullary Fibroblast,LTBP1
+Degenerative Medullary Fibroblast,AKR1B1
+Degenerative Medullary Fibroblast,AQP2
+Natural Killer Cell / Natural Killer T Cell,NKG7
+Natural Killer Cell / Natural Killer T Cell,CCL4
+Cycling Natural Killer Cell / Natural Killer T Cell,HMGB2
+Cycling Natural Killer Cell / Natural Killer T Cell,UBE2C
+Degenerative Fibroblast,TIMP1
+Degenerative Vascular Smooth Muscle Cell,TPM2
+Degenerative Vascular Smooth Muscle Cell,PLN
+Degenerative Distal Convoluted Tubule Cell,ENSG00000263146
+Degenerative Distal Convoluted Tubule Cell,KNG1
+Degenerative Cortical Intercalated Cell Type A,APOC1
+Degenerative Cortical Intercalated Cell Type A,ATP6V1G3
+Degenerative Cortical Intercalated Cell Type A,LGALS3
+T Cell,IL7R
+Renin-positive Juxtaglomerular Granular Cell,REN
+Renin-positive Juxtaglomerular Granular Cell,NTRK3
+Schwann Cell / Neural,NRXN1
+Adaptive / Maladaptive / Repairing Fibroblast,FBLN1
+Adaptive / Maladaptive / Repairing Fibroblast,FLRT2
+Cycling Myofibroblast,BRIP1
+Cycling Myofibroblast,CENPK
+Cycling Myofibroblast,CENPI
+Myofibroblast,PDLIM3
+Myofibroblast,DMD
+Fibroblast,C7
+Fibroblast,NEGR1
+Mesangial Cell,PIEZO2
+Mesangial Cell,ROBO1
+Vascular Smooth Muscle Cell / Pericyte,ADCY3
+Vascular Smooth Muscle Cell / Pericyte,NOTCH3
+Vascular Smooth Muscle Cell,KCNAB1
+Vascular Smooth Muscle Cell,LDB3
+Degenerative Connecting Tubule Cell,CALB1
+Degenerative Connecting Tubule Cell,SCN2A
+Degenerative Connecting Tubule Cell,WFDC2
+Degenerative Outer Medullary Collecting Duct Principal Cell,PTGER1
+Degenerative Outer Medullary Collecting Duct Principal Cell,AQP3
+Degenerative Outer Medullary Collecting Duct Principal Cell,IGFBP2
+Transitional Principal-Intercalated Cell,SLC26A7
+Transitional Principal-Intercalated Cell,SCNN1G
+Transitional Principal-Intercalated Cell,KIT
+Transitional Principal-Intercalated Cell,FXYD4
+Connecting Tubule Principal Cell,STC1
+Connecting Tubule Principal Cell,CALB1
+Cortical Thick Ascending Limb Cell,CLDN16
+Cortical Thick Ascending Limb Cell,UMOD
+Distal Convoluted Tubule Cell Type 2,EPB41L3
+Distal Convoluted Tubule Cell Type 2,GPC5
+Distal Convoluted Tubule Cell Type 2,SLC12A3
+Distal Convoluted Tubule Cell Type 2,UNC5C
+Distal Convoluted Tubule Cell Type 1,ENSG00000242029
+Distal Convoluted Tubule Cell Type 1,TRPM6
+Cycling Distal Convoluted Tubule Cell,ASPM
+Cycling Distal Convoluted Tubule Cell,SNRPC
+Macula Densa Cell,PPFIA2
+Macula Densa Cell,NOS1
+Adaptive / Maladaptive / Repairing Thick Ascending Limb Cell,ITGB6
+Adaptive / Maladaptive / Repairing Thick Ascending Limb Cell,CASR
+Medullary Thick Ascending Limb Cell,VAT1L
+Medullary Thick Ascending Limb Cell,ENSG00000242029
+Degenerative Medullary Thick Ascending Limb Cell,UMOD
+Degenerative Medullary Thick Ascending Limb Cell,SLC12A1
+Degenerative Medullary Thick Ascending Limb Cell,CKB
+Degenerative Medullary Thick Ascending Limb Cell,DHFR
+Degenerative Medullary Thick Ascending Limb Cell,PEBP1
+Degenerative Descending Thin Limb Cell Type 3,FUT9
+Degenerative Descending Thin Limb Cell Type 3,FHL2
+Descending Thin Limb Cell Type 1,ADGRL3
+Descending Thin Limb Cell Type 1,PROM1
+Descending Thin Limb Cell Type 2,UNC5D
+Descending Thin Limb Cell Type 2,LINC01435
+Parietal Epithelial Cell,CFH
+Parietal Epithelial Cell,LINC01435
+Adaptive / Maladaptive / Repairing Proximal Tubule Epithelial Cell,ENSG00000284377
+Adaptive / Maladaptive / Repairing Proximal Tubule Epithelial Cell,DLGAP1
+Proximal Tubule Epithelial Cell Segment 3,C1QTNF7-AS1
+Proximal Tubule Epithelial Cell Segment 3,ANKS1B
+Proximal Tubule Epithelial Cell Segment 3,CUBN
+Degenerative Proximal Tubule Epithelial Cell,SLC22A5
+Degenerative Proximal Tubule Epithelial Cell,SLC13A3
+Proximal Tubule Epithelial Cell Segment 1 / Segment 2,PRODH2
+Proximal Tubule Epithelial Cell Segment 1 / Segment 2,PAH
+Papillary Tip Epithelial Cell,GPX2
+Papillary Tip Epithelial Cell,TP63
+Degenerative Inner Medullary Collecting Duct Cell,SLC14A2
+Degenerative Inner Medullary Collecting Duct Cell,MMP7
+Degenerative Inner Medullary Collecting Duct Cell,FXYD4
+Degenerative Ascending Thin Limb Cell,SOD3
+Degenerative Ascending Thin Limb Cell,SH3GL3
+Degenerative Ascending Thin Limb Cell,AKR1B1
+Descending Thin Limb Cell Type 3,ENSG00000249776
+Descending Thin Limb Cell Type 3,KLRG2
+Ascending Thin Limb Cell,BCAS1
+Ascending Thin Limb Cell,SH3GL3
+Cycling Proximal Tubule Epithelial Cell,DIAPH3
+Cycling Proximal Tubule Epithelial Cell,NSD2
+Cycling Proximal Tubule Epithelial Cell,SDK1
+Inner Medullary Collecting Duct Cell,HS3ST5
+Inner Medullary Collecting Duct Cell,LINC01924
+Outer Medullary Collecting Duct Principal Cell,ENSG00000254789
+Outer Medullary Collecting Duct Principal Cell,CPAMD8
+Cycling Connecting Tubule Cell,ZNF675
+Cycling Connecting Tubule Cell,G2E3
+Cycling Connecting Tubule Cell,GLDC
+Cortical Collecting Duct Principal Cell,PAPPA
+Cortical Collecting Duct Principal Cell,PWRN1
+Outer Medullary Collecting Duct Intercalated Cell Type A,LINC01687
+Outer Medullary Collecting Duct Intercalated Cell Type A,HYAL4
+Connecting Tubule Intercalated Cell Type A,SLIT2
+Connecting Tubule Intercalated Cell Type A,CLNK
+Cortical Collecting Duct Intercalated Cell Type A,NXPH2
+Cortical Collecting Duct Intercalated Cell Type A,GALNT17
+Intercalated Cell Type B,SLC4A9
+Connecting Tubule Cell,LINC01099
+Connecting Tubule Cell,SCN2A

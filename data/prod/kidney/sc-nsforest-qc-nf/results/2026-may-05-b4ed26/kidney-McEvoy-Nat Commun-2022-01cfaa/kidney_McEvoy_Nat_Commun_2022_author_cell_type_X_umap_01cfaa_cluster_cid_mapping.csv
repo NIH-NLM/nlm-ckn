@@ -1,0 +1,20 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+B,,,CL:0000236
+CCDlike,,,CL:1000549
+CNT,,,CL:1000768
+CTAL,,,CL:1001109
+DCT,,,CL:1000849
+Endothelial,,,CL:1000892
+ICA,,,CL:0005011
+ICB,,,CL:0002201
+LOHlike,,,CL:1001021
+MNP,,,CL:0000113
+Mesangial,,,CL:0000650
+NK,,,CL:0000623
+PC,,,CL:0005009
+PEC,,,CL:1000452
+PT,,,CL:0002306
+Podocytes,,,CL:0000653
+T cell,,,CL:0000084
+VCAM1_PT,,,CL:0002306
+unknown,,,unknown

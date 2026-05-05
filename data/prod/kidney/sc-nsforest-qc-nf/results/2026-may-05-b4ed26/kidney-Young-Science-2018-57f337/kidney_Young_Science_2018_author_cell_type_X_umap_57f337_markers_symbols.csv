@@ -1,0 +1,33 @@
+clusterName,NSForest_markers,f_score
+NKT cell,"['CD3G', 'FGFBP2']",0.7557117750439367
+NK cell,"['KLRF1', 'KLRB1', 'CD7']",0.8738296923762817
+Proximal tubule,['GATM'],0.9286888355038564
+Proliferating Proximal Tubule,"['CTXN3', 'PRODH2']",0.081967213114754
+Thick ascending limb of Loop of Henle,['DUSP9'],0.7404021937842779
+Indistinct intercalated cell,"['ZDHHC3', 'ATP6V1G3']",0.5833333333333334
+Type A intercalated cell,"['SLC4A1', 'SLC26A7']",0.8695652173913043
+Type B intercalated cell,"['SLC26A4', 'SLC4A9']",0.9138381201044388
+Connecting tubule,"['CALB1', 'SLC8A1']",0.7602339181286549
+Principal cell,"['PTGS1', 'AQP2']",0.8531746031746031
+Epithelial progenitor cell,"['S100A14', 'CLDN3']",0.6293103448275862
+Pelvic epithelium,['PSCA'],0.9
+Neutrophil,"['FCGR3B', 'CSF3R']",0.7983193277310925
+MNP-a/classical monocyte derived,"['VCAN', 'FCN1']",0.8156028368794326
+MNP-b/non-classical monocyte derived,"['PELATON', 'LILRB2', 'LRRC25']",0.7905337361530715
+MNP-c/dendritic cell,"['CSF2RA', 'FCER1A']",0.7274590163934426
+MNP-d/Tissue macrophage,['C1QC'],0.7744107744107744
+Mast cell,['TPSAB1'],1.0
+Plasmacytoid dendritic cell,"['SMPD3', 'JCHAIN']",0.975609756097561
+B cell,['CD79A'],0.8979000724112962
+CD4 T cell,"['IL7R', 'LTB']",0.7540156644099296
+CD8 T cell,"['GZMK', 'ENSG00000277734']",0.6317917614354309
+Distinct proximal tubule 1,"['VCAM1', 'PROM1']",0.7467532467532467
+Podocyte,['NPHS2'],0.9195402298850576
+Fibroblast,['LUM'],0.925925925925926
+Myofibroblast,"['TAGLN', 'FRZB']",0.9164733178654292
+Peritubular capillary endothelium 2,"['PI16', 'ADAMTS6']",0.8155339805825242
+Descending vasa recta endothelium,"['CLDN5', 'FN1']",0.4918032786885246
+Ascending vasa recta endothelium,"['PRCP', 'TFPI', 'PLVAP']",0.488
+Glomerular endothelium,"['SOST', 'MEG3']",0.894808743169399
+Peritubular capillary endothelium 1,"['CA4', 'PLVAP']",0.7537046499744506
+Distinct proximal tubule 2,"['C11orf54', 'IFI27', 'ALDOB', 'APOE']",0.195729537366548

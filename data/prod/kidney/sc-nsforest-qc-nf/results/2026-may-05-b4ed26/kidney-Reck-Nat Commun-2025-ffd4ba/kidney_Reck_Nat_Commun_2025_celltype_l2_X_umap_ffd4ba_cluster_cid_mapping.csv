@@ -1,0 +1,57 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+ATL,,,CL:1001107
+Ascending Vasa Recta,,,CL:0000115
+CD14 Monocyte,,,CL:0000763
+CD16 Monocyte,,,CL:0000763
+CNT,,,CL:1000768
+CNT Injured,,,CL:1000768
+DCT Injured,,,CL:1000849
+DCT1,,,CL:1000849
+DCT2,,,CL:1000849
+DTL,,,CL:1001111
+Descending Vasa Recta,,,CL:0000115
+Effector Tc Cell,,,CL:0000084
+Effector Th Cell,,,CL:0000084
+Endothelia Glomerular,,,CL:0000115
+Fibroblast,,,CL:4030031
+IC-A Injured,,,CL:0005010
+IC-B,,,CL:0005010
+JG Cell,,,CL:4030031
+MAIT,,,CL:0000084
+Macrophage Activated,,,CL:0000763
+Macrophage HIF1A+,,,CL:0000763
+Macrophage Resident,,,CL:0000763
+Macula Densa,,,CL:1001016
+Mast Cell,,,CL:0000763
+Memory B Cell,,,CL:0000236
+Monocyte Transitioning,,,CL:0000763
+Myofibroblast,,,CL:4030031
+NK CD56bright,,,CL:0000084
+NK CD56dim,,,CL:0000084
+NKT Cell,,,CL:0000084
+Naïve B Cell,,,CL:0000236
+Naïve Tc Cell,,,CL:0000084
+Naïve Th Cell,,,CL:0000084
+PEC,,,CL:1000452
+PT Inflammatory,,,CL:1000838
+PT Injured,,,CL:1000838
+PT S1,,,CL:1000838
+PT S2,,,CL:1000838
+PT S3,,,CL:1000838
+Pericyte,,,CL:4030031
+Peritubular Capillary Endothelia,,,CL:0000115
+Plasma Cell,,,CL:0000236
+Podocyte,,,CL:0000653
+TAL Inflammatory,,,CL:1001016
+TAL Injured,,,CL:1001016
+Treg,,,CL:0000084
+cDC2,,,CL:0000763
+cIC-A,,,CL:0005010
+cPC,,,CL:0005009
+cTAL1,,,CL:1001016
+cTAL2,,,CL:1001016
+mIC-A,,,CL:0005010
+mPC,,,CL:0005009
+mTAL,,,CL:1001016
+pDC,,,CL:0000763
+vSMC,,,CL:4030031

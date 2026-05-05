@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: kidney_Reck_Nat_Commun_2025_celltype_l2_X_umap_ffd4ba_adata_filtered.h5ad
+Loaded: 15132 cells x 29702 genes
+Cluster header: celltype_l2 (56 clusters)
+Computing cluster statistics...
+Total cells: 15132
+Number of clusters: 56
+Cells per cluster - Min: 5, Max: 1950, Mean: 270.2
+Saved: kidney_Reck_Nat_Commun_2025_celltype_l2_X_umap_ffd4ba_cluster_statistics.csv
+Cluster statistics complete!

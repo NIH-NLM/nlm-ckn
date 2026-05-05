@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: kidney_Xu_Cell_2023_Curated_annotation_X_umap_71ffd1_adata_filtered.h5ad
+Loaded: 194504 cells x 32691 genes
+Cluster header: Curated_annotation (41 clusters)
+Computing cluster statistics...
+Total cells: 194504
+Number of clusters: 41
+Cells per cluster - Min: 246, Max: 19500, Mean: 4744.0
+Saved: kidney_Xu_Cell_2023_Curated_annotation_X_umap_71ffd1_cluster_statistics.csv
+Cluster statistics complete!

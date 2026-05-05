@@ -1,0 +1,44 @@
+clusterName,gene
+Antigen presenting cell (RPS high),RIPOR2
+Antigen presenting cell (RPS high),COTL1
+Macrophage,C5AR1
+Macrophage,CXCL8
+Monocyte,FCN1
+Monocyte,S100A8
+Dendritic cell,HLA-DQA1
+Dendritic cell,HLA-DPB1
+B cell,ENSG00000211592
+B cell,GPR183
+T cell,CCL5
+T cell,CXCR4
+Mast cell,TPSB2
+Mast cell,CPA3
+Neutrophil,S100P
+Sinusoidal endothelial cell,ISG20
+Sinusoidal endothelial cell,SRSF7
+Sinusoidal endothelial cell,CXCL8
+Endothelial cell (APC),IGFBP5
+Endothelial cell (APC),TGFBR2
+Endothelial cell (endothelial to mesenchymal transition),COL3A1
+Stromal cell,DCN
+Endothelial cell,EMP1
+Endothelial cell,RNASE1
+Ureteric bud cell,UMOD
+Ureteric bud cell,BEX3
+Fetal epithelial progenitor,DAD1
+Fetal epithelial progenitor,PRDX1
+Fetal epithelial progenitor,NDUFS5
+Fetal epithelial progenitor,TMBIM6
+Proximal tubule progenitor,SOX4
+Proximal tubule progenitor,CETN2
+Proximal tubule progenitor,IL6ST
+B cell (Plasmocyte),ENSG00000211896
+Epithelial cell,NAT8
+Epithelial cell,PDZK1IP1
+Intercalated cell,ATP6V1G3
+Intercalated cell,TMEM213
+Loop of Henle,WFDC2
+Enterocyte progenitor,TPM1
+Enterocyte progenitor,TMEM51
+Smooth muscle cell,MYL9
+Smooth muscle cell,PLN

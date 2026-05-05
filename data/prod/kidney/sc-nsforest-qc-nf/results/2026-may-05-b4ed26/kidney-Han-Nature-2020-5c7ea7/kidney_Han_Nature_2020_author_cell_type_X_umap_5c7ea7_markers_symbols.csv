@@ -1,0 +1,23 @@
+clusterName,NSForest_markers,f_score
+Antigen presenting cell (RPS high),"['RIPOR2', 'COTL1']",0.7692307692307693
+Macrophage,"['C5AR1', 'CXCL8']",0.5844155844155844
+Monocyte,"['FCN1', 'S100A8']",0.281195079086116
+Dendritic cell,"['HLA-DQA1', 'HLA-DPB1']",0.7328482328482329
+B cell,"['ENSG00000211592', 'GPR183']",0.5555555555555556
+T cell,"['CCL5', 'CXCR4']",0.4385964912280701
+Mast cell,"['TPSB2', 'CPA3']",0.9577922077922078
+Neutrophil,['S100P'],0.7236842105263158
+Sinusoidal endothelial cell,"['ISG20', 'SRSF7', 'CXCL8']",0.5555555555555556
+Endothelial cell (APC),"['IGFBP5', 'TGFBR2']",0.675017397355602
+Endothelial cell (endothelial to mesenchymal transition),['COL3A1'],0.7692307692307693
+Stromal cell,['DCN'],0.625
+Endothelial cell,"['EMP1', 'RNASE1']",0.2806122448979591
+Ureteric bud cell,"['UMOD', 'BEX3']",0.1162790697674418
+Fetal epithelial progenitor,"['DAD1', 'PRDX1', 'NDUFS5', 'TMBIM6']",0.1041666666666666
+Proximal tubule progenitor,"['SOX4', 'CETN2', 'IL6ST']",0.6666666666666666
+B cell (Plasmocyte),['ENSG00000211896'],0.8752327746741154
+Epithelial cell,"['NAT8', 'PDZK1IP1']",0.8460195530726257
+Intercalated cell,"['ATP6V1G3', 'TMEM213']",0.858836777954425
+Loop of Henle,['WFDC2'],0.6712031180116287
+Enterocyte progenitor,"['TPM1', 'TMEM51']",0.5555555555555556
+Smooth muscle cell,"['MYL9', 'PLN']",0.787292817679558

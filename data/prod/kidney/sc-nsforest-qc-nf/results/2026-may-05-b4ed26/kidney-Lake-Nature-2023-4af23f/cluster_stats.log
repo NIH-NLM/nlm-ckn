@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: kidney_Lake_Nature_2023_subclass.full_X_umap_4af23f_adata_filtered.h5ad
+Loaded: 105445 cells x 33140 genes
+Cluster header: subclass.full (75 clusters)
+Computing cluster statistics...
+Total cells: 105445
+Number of clusters: 75
+Cells per cluster - Min: 6, Max: 8551, Mean: 1405.9
+Saved: kidney_Lake_Nature_2023_subclass.full_X_umap_4af23f_cluster_statistics.csv
+Cluster statistics complete!

@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: kidney_McEvoy_Nat_Commun_2022_author_cell_type_X_umap_01cfaa_adata_filtered.h5ad
+Loaded: 27675 cells x 26791 genes
+Cluster header: author_cell_type (19 clusters)
+Computing cluster statistics...
+Total cells: 27675
+Number of clusters: 19
+Cells per cluster - Min: 16, Max: 20769, Mean: 1456.6
+Saved: kidney_McEvoy_Nat_Commun_2022_author_cell_type_X_umap_01cfaa_cluster_statistics.csv
+Cluster statistics complete!

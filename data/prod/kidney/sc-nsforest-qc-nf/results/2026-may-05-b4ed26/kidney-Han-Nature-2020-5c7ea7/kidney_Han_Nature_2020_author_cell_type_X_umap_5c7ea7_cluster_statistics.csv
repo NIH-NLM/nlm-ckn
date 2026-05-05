@@ -1,0 +1,23 @@
+cluster,n_cells,percentage
+Antigen presenting cell (RPS high),5,0.02
+B cell,66,0.29
+B cell (Plasmocyte),153,0.67
+Dendritic cell,930,4.05
+Endothelial cell,84,0.37
+Endothelial cell (APC),2657,11.58
+Endothelial cell (endothelial to mesenchymal transition),10,0.04
+Enterocyte progenitor,5,0.02
+Epithelial cell,4396,19.16
+Fetal epithelial progenitor,40,0.17
+Intercalated cell,4392,19.14
+Loop of Henle,8434,36.76
+Macrophage,845,3.68
+Mast cell,68,0.3
+Monocyte,157,0.68
+Neutrophil,24,0.1
+Proximal tubule progenitor,7,0.03
+Sinusoidal endothelial cell,11,0.05
+Smooth muscle cell,244,1.06
+Stromal cell,16,0.07
+T cell,299,1.3
+Ureteric bud cell,102,0.44

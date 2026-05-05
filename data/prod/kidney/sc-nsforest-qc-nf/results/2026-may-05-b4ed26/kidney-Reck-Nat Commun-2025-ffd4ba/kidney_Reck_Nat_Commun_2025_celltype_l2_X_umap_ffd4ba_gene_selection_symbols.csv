@@ -1,0 +1,105 @@
+clusterName,gene
+DCT Injured,PHACTR2
+DCT Injured,SLC12A3
+DCT Injured,ENSG00000227681
+TAL Injured,DEPTOR
+TAL Injured,SLC12A1
+TAL Injured,KCNIP4
+Macula Densa,ROBO2
+Macula Densa,PDK4
+cTAL2,ENSG00000259754
+cTAL2,UMOD
+cTAL1,CLDN16
+cTAL1,TMEM52B
+mTAL,BMP6
+mTAL,ESRRB
+TAL Inflammatory,ITGB6
+TAL Inflammatory,SIM2
+ATL,SLC44A5
+DTL,UNC5D
+DTL,LINC01435
+PT Injured,DCC
+PT Injured,ACSM2A
+NKT Cell,KLRD1
+NKT Cell,THEMIS
+NK CD56dim,KLRF1
+NK CD56dim,PYHIN1
+Naïve Tc Cell,TC2N
+Naïve Tc Cell,ENSG00000234663
+Naïve Tc Cell,SLFN12L
+Naïve Tc Cell,EMB
+Effector Tc Cell,ARAP2
+Effector Tc Cell,HSP90AA1
+Effector Tc Cell,THEMIS
+Effector Th Cell,CD69
+Effector Th Cell,CD96
+MAIT,BTG1
+MAIT,IL7R
+Naïve Th Cell,CAMK4
+Naïve Th Cell,IL7R
+Treg,RTKN2
+Treg,ENSG00000227240
+CD16 Monocyte,PAG1
+CD16 Monocyte,LYN
+CD14 Monocyte,VCAN
+CD14 Monocyte,CSF3R
+JG Cell,ENSG00000250049
+Ascending Vasa Recta,GPM6A
+Ascending Vasa Recta,LINC02147
+Peritubular Capillary Endothelia,FLT1
+Peritubular Capillary Endothelia,SLCO2A1
+Descending Vasa Recta,ADAMTS6
+Endothelia Glomerular,BTNL9
+Endothelia Glomerular,ITGA8
+Memory B Cell,BLK
+Memory B Cell,BANK1
+Naïve B Cell,FCRL1
+pDC,IRF4
+Mast Cell,SLC24A3
+Mast Cell,CPA3
+NK CD56bright,RASA1
+NK CD56bright,SCAF8
+PT Inflammatory,KCNQ3
+PT Inflammatory,SULT1C4
+PEC,CFH
+PEC,LINC01435
+PT S1,PCDH15
+PT S1,SLC36A2
+PT S2,ENSG00000259579
+PT S2,ANKS1B
+PT S2,LINC01622
+PT S3,ABCC3
+PT S3,ENSG00000232310
+Podocyte,PTPRQ
+Podocyte,NPHS1
+vSMC,CD46
+Pericyte,GUCY1A2
+Pericyte,PDGFRB
+Myofibroblast,COL1A2
+Myofibroblast,LTBP1
+Fibroblast,NEGR1
+Monocyte Transitioning,RTN1
+Monocyte Transitioning,HDAC9
+cDC2,TRIM22
+Macrophage HIF1A+,MAT2A
+Macrophage Resident,MRC1
+Macrophage Activated,SELENOP
+Macrophage Activated,F13A1
+Plasma Cell,FCRL5
+IC-B,SLC26A4
+mIC-A,MIR31HG
+mIC-A,DMRT2
+cIC-A,NXPH2
+cIC-A,ENSG00000228791
+IC-A Injured,SLIT2
+IC-A Injured,RALGAPA2
+mPC,ENSG00000285876
+mPC,H2AC6
+cPC,SQSTM1
+CNT,SNTG1
+CNT,TEX41
+CNT Injured,ENSG00000227028
+DCT1,ZNF385D
+DCT1,ENSG00000271945
+DCT2,ENSG00000227028
+DCT2,SLC12A3

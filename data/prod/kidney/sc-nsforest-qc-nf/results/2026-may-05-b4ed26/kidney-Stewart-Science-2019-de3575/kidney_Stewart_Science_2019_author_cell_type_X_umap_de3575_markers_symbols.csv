@@ -1,0 +1,33 @@
+clusterName,NSForest_markers,f_score
+Myofibroblast,['TAGLN'],0.9145129224652088
+Fibroblast,['LUM'],0.925925925925926
+Podocyte,['NPHS2'],0.9195402298850576
+Pelvic epithelium,"['GPX2', 'CYP4B1']",0.9482758620689656
+Distinct proximal tubule 1,"['VCAM1', 'PROM1']",0.8080808080808081
+Epithelial progenitor cell,"['TCIM', 'CLDN3']",0.7194244604316546
+Principal cell,"['PTGER1', 'MNS1']",0.8461538461538461
+Connecting tubule,"['CALB1', 'TMEM52B']",0.8149779735682819
+Type B intercalated cell,"['SLC26A4', 'TSPAN8']",0.9367945823927766
+Type A intercalated cell,"['SLC4A1', 'SLC26A7']",0.8616010854816825
+CD4 T cell,"['IL7R', 'LTB']",0.7607722797596216
+CD8 T cell,"['GZMK', 'ENSG00000277734']",0.6388075592227841
+NKT cell,"['CD3G', 'GZMH', 'GNLY']",0.7697876447876448
+NK cell,"['KLRF1', 'KLRB1']",0.8678440925700366
+Distinct proximal tubule 2,"['NDUFAF3', 'C11orf54', 'CRYAB']",0.017910447761194
+Glomerular endothelium,"['SOST', 'CRHBP']",0.8940972222222222
+Peritubular capillary endothelium 1,"['CA4', 'PLVAP']",0.7647345348270823
+Ascending vasa recta endothelium,"['TFPI', 'PLVAP']",0.4845154845154845
+Descending vasa recta endothelium,['CLDN5'],0.4915514592933948
+Peritubular capillary endothelium 2,"['PI16', 'ADAMTS6']",0.8286252354048964
+Indistinct intercalated cell,"['ZDHHC3', 'COX7A1']",0.4166666666666667
+Thick ascending limb of Loop of Henle,['DUSP9'],0.7414104882459313
+Proximal tubule,['MIOX'],0.8818152916865363
+Proliferating Proximal Tubule,"['RIDA', 'GATM', 'GPX3', 'APOE']",0.0284629981024667
+Neutrophil,"['FCGR3B', 'CSF3R']",0.7983193277310925
+B cell,['CD79A'],0.8985786557456035
+Plasmacytoid dendritic cell,"['PTCRA', 'SMPD3']",0.9615384615384616
+MNP-a/classical monocyte derived,"['VCAN', 'CSTA']",0.8111702127659575
+MNP-b/non-classical monocyte derived,"['PELATON', 'LILRB2', 'HCK']",0.7928642220019821
+MNP-c/dendritic cell,"['CSF2RA', 'FCER1A']",0.746268656716418
+MNP-d/Tissue macrophage,['C1QC'],0.7942238267148014
+Mast cell,['TPSAB1'],0.9803921568627452

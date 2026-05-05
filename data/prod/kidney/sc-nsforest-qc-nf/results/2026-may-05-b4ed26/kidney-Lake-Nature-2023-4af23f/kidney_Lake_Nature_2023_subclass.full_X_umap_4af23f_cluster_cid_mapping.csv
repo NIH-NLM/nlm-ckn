@@ -1,0 +1,76 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+Adaptive / Maladaptive / Repairing Fibroblast,,,CL:1000692
+Adaptive / Maladaptive / Repairing Proximal Tubule Epithelial Cell,,,CL:0002306
+Adaptive / Maladaptive / Repairing Thick Ascending Limb Cell,,,CL:1001106
+Afferent / Efferent Arteriole Endothelial Cell,,,CL:0000115
+Ascending Thin Limb Cell,,,CL:1001107
+Ascending Vasa Recta Endothelial Cell,,,CL:0000115
+B Cell,,,CL:0000236
+Classical Dendritic Cell,,,CL:0000990
+Connecting Tubule Cell,,,CL:1000768
+Connecting Tubule Intercalated Cell Type A,,,CL:1001432
+Connecting Tubule Principal Cell,,,CL:1000768
+Cortical Collecting Duct Intercalated Cell Type A,,,CL:1001432
+Cortical Collecting Duct Principal Cell,,,CL:1001431
+Cortical Thick Ascending Limb Cell,,,CL:1001106
+Cycling Connecting Tubule Cell,,,CL:1000768
+Cycling Distal Convoluted Tubule Cell,,,CL:1000849
+Cycling Endothelial Cell,,,CL:0000115
+Cycling Mononuclear Phagocyte,,,CL:0000113
+Cycling Myofibroblast,,,CL:1000692
+Cycling Natural Killer Cell / Natural Killer T Cell,,,CL:0000542
+Cycling Proximal Tubule Epithelial Cell,,,CL:0002306
+Degenerative Ascending Thin Limb Cell,,,CL:1001107
+Degenerative Connecting Tubule Cell,,,CL:1000768
+Degenerative Cortical Intercalated Cell Type A,,,CL:1001432
+Degenerative Cortical Thick Ascending Limb Cell,,,CL:1001106
+Degenerative Descending Thin Limb Cell Type 3,,,CL:1001111
+Degenerative Distal Convoluted Tubule Cell,,,CL:1000849
+Degenerative Endothelial Cell,,,CL:0000115
+Degenerative Fibroblast,,,CL:1000692
+Degenerative Inner Medullary Collecting Duct Cell,,,CL:1001431
+Degenerative Medullary Fibroblast,,,CL:1000692
+Degenerative Medullary Thick Ascending Limb Cell,,,CL:1001106
+Degenerative Outer Medullary Collecting Duct Principal Cell,,,CL:1001431
+Degenerative Peritubular Capilary Endothelial Cell,,,CL:0000115
+Degenerative Podocyte,,,CL:0000653
+Degenerative Proximal Tubule Epithelial Cell,,,CL:0002306
+Degenerative Vascular Smooth Muscle Cell,,,CL:1001318
+Descending Thin Limb Cell Type 1,,,CL:1001111
+Descending Thin Limb Cell Type 2,,,CL:1001111
+Descending Thin Limb Cell Type 3,,,CL:1001111
+Descending Vasa Recta Endothelial Cell,,,CL:0000115
+Distal Convoluted Tubule Cell Type 1,,,CL:1000849
+Distal Convoluted Tubule Cell Type 2,,,CL:1000849
+Fibroblast,,,CL:1000692
+Glomerular Capillary Endothelial Cell,,,CL:0000115
+Inner Medullary Collecting Duct Cell,,,CL:1001431
+Intercalated Cell Type B,,,CL:1001432
+Lymphatic Endothelial Cell,,,CL:0000115
+M2 Macrophage,,,CL:1000695
+Macula Densa Cell,,,CL:1001106
+Mast Cell,,,CL:0000097
+Medullary Fibroblast,,,CL:1000692
+Medullary Thick Ascending Limb Cell,,,CL:1001106
+Mesangial Cell,,,CL:1001318
+Monocyte-derived Cell,,,CL:0000113
+Myofibroblast,,,CL:1000692
+Natural Killer Cell / Natural Killer T Cell,,,CL:0000542
+Neutrophil,,,CL:0000775
+Non-classical Monocyte,,,CL:0000875
+Outer Medullary Collecting Duct Intercalated Cell Type A,,,CL:1001432
+Outer Medullary Collecting Duct Principal Cell,,,CL:1001431
+Papillary Tip Epithelial Cell,,,CL:1000597
+Parietal Epithelial Cell,,,CL:1000452
+Peritubular Capilary Endothelial Cell ,,,CL:0000115
+Plasma Cell,,,CL:0000786
+Plasmacytoid Dendritic Cell,,,CL:0001058
+Podocyte,,,CL:0000653
+Proximal Tubule Epithelial Cell Segment 1 / Segment 2,,,CL:0002306
+Proximal Tubule Epithelial Cell Segment 3,,,CL:0002306
+Renin-positive Juxtaglomerular Granular Cell,,,CL:1001318
+Schwann Cell / Neural,,,CL:0002319
+T Cell,,,CL:0000084
+Transitional Principal-Intercalated Cell,,,CL:1001432
+Vascular Smooth Muscle Cell,,,CL:1001318
+Vascular Smooth Muscle Cell / Pericyte,,,CL:1001318

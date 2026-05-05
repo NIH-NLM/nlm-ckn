@@ -1,0 +1,61 @@
+clusterName,gene
+Myofibroblast,TAGLN
+Fibroblast,LUM
+Podocyte,NPHS2
+Pelvic epithelium,GPX2
+Pelvic epithelium,CYP4B1
+Distinct proximal tubule 1,VCAM1
+Distinct proximal tubule 1,PROM1
+Epithelial progenitor cell,TCIM
+Epithelial progenitor cell,CLDN3
+Principal cell,PTGER1
+Principal cell,MNS1
+Connecting tubule,CALB1
+Connecting tubule,TMEM52B
+Type B intercalated cell,SLC26A4
+Type B intercalated cell,TSPAN8
+Type A intercalated cell,SLC4A1
+Type A intercalated cell,SLC26A7
+CD4 T cell,IL7R
+CD4 T cell,LTB
+CD8 T cell,GZMK
+CD8 T cell,ENSG00000277734
+NKT cell,CD3G
+NKT cell,GZMH
+NKT cell,GNLY
+NK cell,KLRF1
+NK cell,KLRB1
+Distinct proximal tubule 2,NDUFAF3
+Distinct proximal tubule 2,C11orf54
+Distinct proximal tubule 2,CRYAB
+Glomerular endothelium,SOST
+Glomerular endothelium,CRHBP
+Peritubular capillary endothelium 1,CA4
+Peritubular capillary endothelium 1,PLVAP
+Ascending vasa recta endothelium,TFPI
+Ascending vasa recta endothelium,PLVAP
+Descending vasa recta endothelium,CLDN5
+Peritubular capillary endothelium 2,PI16
+Peritubular capillary endothelium 2,ADAMTS6
+Indistinct intercalated cell,ZDHHC3
+Indistinct intercalated cell,COX7A1
+Thick ascending limb of Loop of Henle,DUSP9
+Proximal tubule,MIOX
+Proliferating Proximal Tubule,RIDA
+Proliferating Proximal Tubule,GATM
+Proliferating Proximal Tubule,GPX3
+Proliferating Proximal Tubule,APOE
+Neutrophil,FCGR3B
+Neutrophil,CSF3R
+B cell,CD79A
+Plasmacytoid dendritic cell,PTCRA
+Plasmacytoid dendritic cell,SMPD3
+MNP-a/classical monocyte derived,VCAN
+MNP-a/classical monocyte derived,CSTA
+MNP-b/non-classical monocyte derived,PELATON
+MNP-b/non-classical monocyte derived,LILRB2
+MNP-b/non-classical monocyte derived,HCK
+MNP-c/dendritic cell,CSF2RA
+MNP-c/dendritic cell,FCER1A
+MNP-d/Tissue macrophage,C1QC
+Mast cell,TPSAB1

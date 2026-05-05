@@ -1,0 +1,62 @@
+clusterName,gene
+NKT cell,CD3G
+NKT cell,FGFBP2
+NK cell,KLRF1
+NK cell,KLRB1
+NK cell,CD7
+Proximal tubule,GATM
+Proliferating Proximal Tubule,CTXN3
+Proliferating Proximal Tubule,PRODH2
+Thick ascending limb of Loop of Henle,DUSP9
+Indistinct intercalated cell,ZDHHC3
+Indistinct intercalated cell,ATP6V1G3
+Type A intercalated cell,SLC4A1
+Type A intercalated cell,SLC26A7
+Type B intercalated cell,SLC26A4
+Type B intercalated cell,SLC4A9
+Connecting tubule,CALB1
+Connecting tubule,SLC8A1
+Principal cell,PTGS1
+Principal cell,AQP2
+Epithelial progenitor cell,S100A14
+Epithelial progenitor cell,CLDN3
+Pelvic epithelium,PSCA
+Neutrophil,FCGR3B
+Neutrophil,CSF3R
+MNP-a/classical monocyte derived,VCAN
+MNP-a/classical monocyte derived,FCN1
+MNP-b/non-classical monocyte derived,PELATON
+MNP-b/non-classical monocyte derived,LILRB2
+MNP-b/non-classical monocyte derived,LRRC25
+MNP-c/dendritic cell,CSF2RA
+MNP-c/dendritic cell,FCER1A
+MNP-d/Tissue macrophage,C1QC
+Mast cell,TPSAB1
+Plasmacytoid dendritic cell,SMPD3
+Plasmacytoid dendritic cell,JCHAIN
+B cell,CD79A
+CD4 T cell,IL7R
+CD4 T cell,LTB
+CD8 T cell,GZMK
+CD8 T cell,ENSG00000277734
+Distinct proximal tubule 1,VCAM1
+Distinct proximal tubule 1,PROM1
+Podocyte,NPHS2
+Fibroblast,LUM
+Myofibroblast,TAGLN
+Myofibroblast,FRZB
+Peritubular capillary endothelium 2,PI16
+Peritubular capillary endothelium 2,ADAMTS6
+Descending vasa recta endothelium,CLDN5
+Descending vasa recta endothelium,FN1
+Ascending vasa recta endothelium,PRCP
+Ascending vasa recta endothelium,TFPI
+Ascending vasa recta endothelium,PLVAP
+Glomerular endothelium,SOST
+Glomerular endothelium,MEG3
+Peritubular capillary endothelium 1,CA4
+Peritubular capillary endothelium 1,PLVAP
+Distinct proximal tubule 2,C11orf54
+Distinct proximal tubule 2,IFI27
+Distinct proximal tubule 2,ALDOB
+Distinct proximal tubule 2,APOE
