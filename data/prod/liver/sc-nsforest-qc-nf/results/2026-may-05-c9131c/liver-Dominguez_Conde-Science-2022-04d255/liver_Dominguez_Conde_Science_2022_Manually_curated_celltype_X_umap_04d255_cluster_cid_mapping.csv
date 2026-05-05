@@ -1,0 +1,40 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+ABCs,,,CL:0000787
+Alveolar macrophages,,,CL:0000583
+Classical monocytes,,,CL:0000860
+Cycling,,,unknown
+Cycling T&NK,,,CL:0000542
+DC1,,,CL:0000990
+DC2,,,CL:0000990
+Erythroid,,,CL:0000764
+Erythrophagocytic macrophages,,,CL:0000235
+ILC3,,,CL:0001071
+Intermediate macrophages,,,CL:0000235
+Intestinal macrophages,,,CL:0000235
+MAIT,,,CL:0000940
+MNP/B doublets,,,unknown
+MNP/T doublets,,,unknown
+Mast cells,,,CL:0000097
+Memory B cells,,,CL:0000787
+NK_CD16+,,,CL:0000939
+NK_CD56bright_CD16-,,,CL:0000938
+Naive B cells,,,CL:0000788
+Nonclassical monocytes,,,CL:0000875
+Plasma cells,,,CL:0000786
+Plasmablasts,,,CL:0000980
+Progenitor,,,CL:0011026
+T/B doublets,,,CL:0000542
+T_CD4/CD8,,,CL:0000789
+Teffector/EM_CD4,,,CL:0000905
+Tem/emra_CD8,,,CL:0001062
+Tfh,,,CL:0002038
+Tgd_CRTAM+,,,CL:0000798
+Tnaive/CM_CD4,,,CL:0000895
+Tnaive/CM_CD4_activated,,,CL:0000895
+Tnaive/CM_CD8,,,CL:0000900
+Tregs,,,CL:0000815
+Trm/em_CD8,,,CL:0001203
+Trm_Tgd,,,CL:0000798
+Trm_Th1/Th17,,,CL:0000492
+Trm_gut_CD8,,,CL:0000909
+pDC,,,CL:0000784

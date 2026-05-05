@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: liver_Dominguez_Conde_Science_2022_Manually_curated_celltype_X_umap_04d255_adata_filtered.h5ad
+Loaded: 13362 cells x 35469 genes
+Cluster header: Manually_curated_celltype (39 clusters)
+Computing cluster statistics...
+Total cells: 13362
+Number of clusters: 39
+Cells per cluster - Min: 5, Max: 2239, Mean: 342.6
+Saved: liver_Dominguez_Conde_Science_2022_Manually_curated_celltype_X_umap_04d255_cluster_statistics.csv
+Cluster statistics complete!

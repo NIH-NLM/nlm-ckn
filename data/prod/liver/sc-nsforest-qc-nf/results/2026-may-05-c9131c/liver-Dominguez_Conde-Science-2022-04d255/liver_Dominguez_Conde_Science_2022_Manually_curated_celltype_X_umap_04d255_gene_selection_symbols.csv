@@ -1,0 +1,91 @@
+clusterName,gene
+Naive B cells,TCL1A
+Naive B cells,ENSG00000211899
+Memory B cells,LY9
+Memory B cells,MS4A1
+MNP/B doublets,ALB
+MNP/B doublets,LINC00926
+ABCs,CD19
+ABCs,FCRLA
+ABCs,CYB561A3
+ABCs,CD82
+pDC,LILRA4
+T/B doublets,ITCH
+T/B doublets,PHC3
+T/B doublets,MS4A1
+Plasma cells,ENSG00000211592
+Plasmablasts,TXNDC5
+Plasmablasts,TPX2
+Mast cells,MS4A2
+Tfh,ENSG00000272447
+Tfh,SERINC5
+Tfh,STUB1
+DC2,CD1C
+DC2,JAML
+Erythrophagocytic macrophages,SELENOP
+Erythrophagocytic macrophages,C1QB
+Alveolar macrophages,MS4A4A
+Alveolar macrophages,SLC7A7
+Cycling,CDC20
+MNP/T doublets,LYZ
+MNP/T doublets,CD68
+MNP/T doublets,CTSS
+MNP/T doublets,GZMA
+Classical monocytes,S100A12
+Classical monocytes,VCAN
+Nonclassical monocytes,PELATON
+Nonclassical monocytes,TCF7L2
+Nonclassical monocytes,LILRA5
+Intermediate macrophages,ERO1A
+Intermediate macrophages,HK2
+Intestinal macrophages,SRGAP3
+Intestinal macrophages,NRP1
+Tem/emra_CD8,LYAR
+Tem/emra_CD8,GZMH
+Tem/emra_CD8,GZMB
+Tem/emra_CD8,CD3G
+Trm/em_CD8,GZMK
+Trm/em_CD8,CD8A
+Trm/em_CD8,GZMH
+Tgd_CRTAM+,KLRC2
+Tgd_CRTAM+,DUSP5
+Tgd_CRTAM+,TUBA4A
+Trm_Th1/Th17,DUSP4
+Trm_Th1/Th17,PBX4
+Trm_Th1/Th17,PBXIP1
+Trm_Th1/Th17,CYTOR
+NK_CD56bright_CD16-,XCL1
+NK_CD56bright_CD16-,CMC1
+NK_CD16+,SPON2
+NK_CD16+,GNLY
+Cycling T&NK,RRM2
+Cycling T&NK,TK1
+Erythroid,KCNH2
+Progenitor,BEX1
+Progenitor,CYTL1
+DC1,CLEC9A
+DC1,IDO1
+T_CD4/CD8,ANKRD44
+T_CD4/CD8,SYNE2
+Trm_Tgd,NXT1
+Trm_Tgd,DNAJB2
+Tnaive/CM_CD4_activated,FAAH2
+Tnaive/CM_CD4_activated,SLAMF1
+Tnaive/CM_CD8,LINC02446
+Tnaive/CM_CD8,CCR7
+Tnaive/CM_CD8,TRABD2A
+Tnaive/CM_CD4,TSHZ2
+Tnaive/CM_CD4,MAL
+Tnaive/CM_CD4,CCR7
+Teffector/EM_CD4,CD28
+Teffector/EM_CD4,LEF1
+Teffector/EM_CD4,LMNA
+ILC3,HHEX
+ILC3,IL4I1
+Tregs,FOXP3
+Tregs,STAM
+Trm_gut_CD8,CISH
+Trm_gut_CD8,SIT1
+Trm_gut_CD8,XCL1
+MAIT,KLRB1
+MAIT,IL7R
