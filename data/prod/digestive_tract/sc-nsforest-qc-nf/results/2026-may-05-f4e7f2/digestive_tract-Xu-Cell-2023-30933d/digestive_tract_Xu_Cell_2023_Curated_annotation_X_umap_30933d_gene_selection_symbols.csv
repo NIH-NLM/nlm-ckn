@@ -1,0 +1,96 @@
+clusterName,gene
+Enterocytes,RBP2
+Enterocytes,SLC5A1
+Paneth,REG3A
+Paneth,FABP6
+Cycling/Secretory TA,MAZ
+Cycling/Secretory TA,H2AZ1
+Cycling/Secretory TA,ATP5MC1
+Cycling/Secretory TA,WFDC2
+Immature goblet cells,ITLN1
+Immature goblet cells,CLCA1
+Plasma cells,DERL3
+Plasma cells,MZB1
+gamma-delta T cells,KLRC3
+Type 17 helper T cells,RORA
+Type 17 helper T cells,ANKRD28
+Type 17 helper T cells,KLRB1
+Type 17 helper T cells,IL7R
+Type 1 helper T cells,CLEC2D
+Type 1 helper T cells,KLRB1
+Type 1 helper T cells,TNFAIP3
+Type 1 helper T cells,GPR183
+Follicular helper T cells,PASK
+Follicular helper T cells,TCF7
+Follicular helper T cells,NR3C1
+ILC,AREG
+ILC,TNFRSF25
+Tcm/Naive helper T cells,GAS5
+Tcm/Naive helper T cells,JCHAIN
+Tcm/Naive helper T cells,CD7
+Regulatory T cells,ANKRD12
+Regulatory T cells,ENSG00000277734
+Regulatory T cells,IL32
+Trm cytotoxic T cells,PTPRCAP
+Trm cytotoxic T cells,CD3D
+Tem/Effector helper T cells,NOP53
+Tem/Effector helper T cells,RGCC
+Tem/Effector helper T cells,GPR183
+Tem/Effector helper T cells,IL32
+Tem/Trm cytotoxic T cells,GZMK
+Tem/Trm cytotoxic T cells,CST7
+NK cells,CLIC3
+NK cells,XCL1
+Mast cells,TPSAB1
+Follicular B cells,MS4A1
+Follicular B cells,NOP53
+Naive B cells,LINC00926
+Naive B cells,TCL1A
+Memory B cells,BANK1
+Memory B cells,MS4A1
+Germinal center B cells,SERPINA9
+Germinal center B cells,NEIL1
+Cycling B cells,PCLAF
+Cycling B cells,H2AZ1
+Cycling B cells,RGS13
+DC1,CLEC9A
+DC1,IDO1
+DC2,CFP
+DC2,CLEC10A
+Monocytes,S100A9
+Macrophages,C1QB
+Macrophages,C1QA
+Intestinal macrophages,STAB1
+Intestinal macrophages,CD163L1
+Intestinal macrophages,ABCA1
+Intestinal macrophages,CD163
+Capillary endothelial cells,CD36
+Capillary endothelial cells,FLT1
+Venous endothelial cells,ACKR1
+Arterial endothelial cells,MMRN2
+Arterial endothelial cells,IGFBP3
+Lymphatic endothelial cells,MMRN1
+Lymphatic endothelial cells,LYVE1
+Stromal 3,C3
+Stromal 3,PRELP
+Myofibroblasts,ACTG2
+Myofibroblasts,MYLK
+Pericytes,NOTCH3
+Pericytes,RERGL
+Stromal 1,CCL8
+Stromal 1,TCF21
+Stromal 2,VSTM2A
+Glia,PLP1
+Colonocytes,MS4A12
+Colonocytes,SLC26A3
+BEST4+ enterocytes,BEST4
+BEST4+ enterocytes,OTOP2
+TA,CD24
+TA,C15orf48
+Stem cells,LGR5
+Stem cells,RAMP1
+Enteroendocrine cells,SCGN
+Enteroendocrine cells,SCG3
+Tuft cells,SH2D6
+Goblet cells,SYTL2
+Goblet cells,REP15

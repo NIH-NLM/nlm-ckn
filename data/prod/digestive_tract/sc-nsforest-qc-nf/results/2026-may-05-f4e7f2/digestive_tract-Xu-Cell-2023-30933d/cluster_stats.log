@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: digestive_tract_Xu_Cell_2023_Curated_annotation_X_umap_30933d_adata_filtered.h5ad
+Loaded: 263275 cells x 30636 genes
+Cluster header: Curated_annotation (44 clusters)
+Computing cluster statistics...
+Total cells: 263275
+Number of clusters: 44
+Cells per cluster - Min: 183, Max: 75596, Mean: 5983.5
+Saved: digestive_tract_Xu_Cell_2023_Curated_annotation_X_umap_30933d_cluster_statistics.csv
+Cluster statistics complete!
