@@ -1,0 +1,46 @@
+cluster,n_cells,percentage
+Age-associated B cells,135,0.2
+CD16+ NK cells,8779,13.18
+CD16- NK cells,498,0.75
+CD24 neutrophils,2333,3.5
+CMP,636,0.95
+CRTAM+ gamma-delta T cells,1371,2.06
+Classical monocytes,7615,11.43
+Cycling T&NK,816,1.22
+DC1,73,0.11
+DC2,201,0.3
+DC precursor,238,0.36
+ELP,154,0.23
+ETP,105,0.16
+Early MK,216,0.32
+Early erythroid,1889,2.84
+Erythrocytes,48,0.07
+Follicular helper T cells,280,0.42
+GMP,467,0.7
+HSC/MPP,4448,6.68
+Late erythroid,77,0.12
+MAIT cells,704,1.06
+MEMP,766,1.15
+Mast cells,259,0.39
+Megakaryocyte precursor,397,0.6
+Megakaryocytes/platelets,53,0.08
+Memory B cells,1061,1.59
+Mid erythroid,894,1.34
+NAMPT neutrophils,443,0.67
+Naive B cells,1211,1.82
+Neutrophil-myeloid progenitor,2022,3.04
+Neutrophils,334,0.5
+Non-classical monocytes,961,1.44
+Plasma cells,1033,1.55
+Plasmablasts,249,0.37
+Pro-B cells,1751,2.63
+Promyelocytes,400,0.6
+Regulatory T cells,580,0.87
+Small pre-B cells,42,0.06
+Tcm/Naive cytotoxic T cells,698,1.05
+Tcm/Naive helper T cells,7982,11.98
+Tem/Effector helper T cells,1604,2.41
+Tem/Temra cytotoxic T cells,7013,10.53
+Tem/Trm cytotoxic T cells,4771,7.16
+pDC,482,0.72
+pDC precursor,524,0.79

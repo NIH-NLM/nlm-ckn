@@ -1,0 +1,48 @@
+{
+  "available_obs_keys": [
+    "Dataset",
+    "donor_id",
+    "suspension_type",
+    "Original_annotation",
+    "CellHint_harmonised_group",
+    "Curated_annotation",
+    "assay_ontology_term_id",
+    "cell_type_ontology_term_id",
+    "development_stage_ontology_term_id",
+    "disease_ontology_term_id",
+    "is_primary_data",
+    "self_reported_ethnicity_ontology_term_id",
+    "sex_ontology_term_id",
+    "tissue_type",
+    "tissue_ontology_term_id",
+    "cell_type",
+    "assay",
+    "disease",
+    "sex",
+    "tissue",
+    "self_reported_ethnicity",
+    "development_stage",
+    "observation_joinid",
+    "silhouette_score"
+  ],
+  "available_obsm_keys": [
+    "X_pca",
+    "X_umap"
+  ],
+  "cluster_header": "Curated_annotation",
+  "embedding_key": "X_umap",
+  "dataset_summary": {
+    "median_of_medians": 0.17103509604930878,
+    "median_of_means": 0.07822579145431519,
+    "median_of_stds": 0.23895131051540375,
+    "n_cells": 66613,
+    "n_clusters": 45,
+    "organism": "human",
+    "organ": "bone_marrow",
+    "disease": "normal",
+    "filter_normal": false,
+    "uberon_json": null,
+    "disease_json": "normal",
+    "hsapdv_json": null
+  }
+}

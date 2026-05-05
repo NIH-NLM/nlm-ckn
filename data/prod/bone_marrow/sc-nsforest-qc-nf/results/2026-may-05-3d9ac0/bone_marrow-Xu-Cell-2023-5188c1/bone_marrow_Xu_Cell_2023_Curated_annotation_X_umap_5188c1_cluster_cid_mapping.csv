@@ -1,0 +1,46 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+Age-associated B cells,,,CL:0000787
+CD16+ NK cells,,,CL:0000939
+CD16- NK cells,,,CL:0000938
+CD24 neutrophils,,,CL:0000775
+CMP,,,CL:0000049
+CRTAM+ gamma-delta T cells,,,CL:0000798
+Classical monocytes,,,CL:0000860
+Cycling T&NK,,,CL:0000814
+DC precursor,,,CL:0001029
+DC1,,,CL:0000990
+DC2,,,CL:0000990
+ELP,,,CL:0000936
+ETP,,,CL:0000893
+Early MK,,,CL:0000553
+Early erythroid,,,CL:0000764
+Erythrocytes,,,CL:0000232
+Follicular helper T cells,,,CL:0002038
+GMP,,,CL:0000557
+HSC/MPP,,,CL:0000837
+Late erythroid,,,CL:0000764
+MAIT cells,,,CL:0000940
+MEMP,,,CL:0000050
+Mast cells,,,CL:0000097
+Megakaryocyte precursor,,,CL:0000553
+Megakaryocytes/platelets,,,CL:0000556
+Memory B cells,,,CL:0000787
+Mid erythroid,,,CL:0000764
+NAMPT neutrophils,,,CL:0000775
+Naive B cells,,,CL:0000788
+Neutrophil-myeloid progenitor,,,CL:0000834
+Neutrophils,,,CL:0000775
+Non-classical monocytes,,,CL:0000875
+Plasma cells,,,CL:0000786
+Plasmablasts,,,CL:0000980
+Pro-B cells,,,CL:0000826
+Promyelocytes,,,CL:0000836
+Regulatory T cells,,,CL:0000815
+Small pre-B cells,,,CL:0000954
+Tcm/Naive cytotoxic T cells,,,CL:0000907
+Tcm/Naive helper T cells,,,CL:0000904
+Tem/Effector helper T cells,,,CL:0000905
+Tem/Temra cytotoxic T cells,,,CL:0001062
+Tem/Trm cytotoxic T cells,,,CL:0000913
+pDC,,,CL:0000784
+pDC precursor,,,CL:0001058

@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: bone_marrow_Xu_Cell_2023_Curated_annotation_X_umap_5188c1_adata_filtered.h5ad
+Loaded: 66613 cells x 49082 genes
+Cluster header: Curated_annotation (45 clusters)
+Computing cluster statistics...
+Total cells: 66613
+Number of clusters: 45
+Cells per cluster - Min: 42, Max: 8779, Mean: 1480.3
+Saved: bone_marrow_Xu_Cell_2023_Curated_annotation_X_umap_5188c1_cluster_statistics.csv
+Cluster statistics complete!

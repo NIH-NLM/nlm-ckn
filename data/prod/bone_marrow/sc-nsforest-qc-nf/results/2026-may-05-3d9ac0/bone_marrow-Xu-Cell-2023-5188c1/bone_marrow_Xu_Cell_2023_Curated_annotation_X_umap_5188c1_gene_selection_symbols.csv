@@ -1,0 +1,113 @@
+clusterName,gene
+Pro-B cells,DNTT
+Pro-B cells,VPREB1
+ELP,ACY3
+ELP,DNTT
+ELP,VPREB1
+ELP,SPINK2
+ETP,ACY3
+pDC precursor,NIBAN3
+pDC precursor,PLD4
+pDC precursor,UGCG
+DC precursor,MTMR11
+DC precursor,SPATS2L
+DC precursor,SEPTIN9
+DC precursor,CFP
+Promyelocytes,MPO
+Promyelocytes,S100A8
+Promyelocytes,EREG
+GMP,KCNE5
+GMP,CSF1R
+GMP,MPO
+Neutrophil-myeloid progenitor,CTSG
+Neutrophil-myeloid progenitor,MPO
+CMP,CPA3
+CMP,CTSG
+CMP,MPO
+CMP,CEBPA
+CMP,SPINK2
+Erythrocytes,ENSG00000189316
+Erythrocytes,ENSG00000253154
+Erythrocytes,WNK3
+Erythrocytes,HIF3A
+Erythrocytes,ACKR1
+Small pre-B cells,DTX1
+Small pre-B cells,LHPP
+Naive B cells,TCL1A
+Memory B cells,COBLL1
+Memory B cells,MS4A1
+Age-associated B cells,ENSG00000184293
+Age-associated B cells,CD72
+DC2,ENHO
+DC2,PKIB
+DC2,IL13RA1
+DC1,C1orf54
+DC1,XCR1
+pDC,PTCRA
+pDC,ENSG00000230138
+Mast cells,HDC
+Mast cells,CLC
+Megakaryocyte precursor,PCDH9
+Megakaryocyte precursor,CPA3
+Megakaryocyte precursor,EMID1
+HSC/MPP,AVP
+Mid erythroid,ADD2
+Mid erythroid,MYL4
+Early erythroid,APOC1
+Early erythroid,FAM178B
+MEMP,IL1B
+MEMP,ITGA2B
+MEMP,CNRIP1
+MEMP,CPA3
+Early MK,WFDC1
+Early MK,LTBP1
+Plasmablasts,TNFRSF17
+Plasmablasts,RRM2
+Plasma cells,SDC1
+Plasma cells,DERL3
+Late erythroid,TMCC2
+Late erythroid,SLC4A1
+CD24 neutrophils,MMP8
+NAMPT neutrophils,ALPL
+NAMPT neutrophils,VNN2
+Neutrophils,ENSG00000210082
+Neutrophils,RNF149
+Neutrophils,S100A8
+Megakaryocytes/platelets,TUBB1
+Megakaryocytes/platelets,PPBP
+Classical monocytes,VCAN
+Classical monocytes,S100A12
+Non-classical monocytes,MS4A7
+Non-classical monocytes,IFITM3
+Cycling T&NK,NUSAP1
+Cycling T&NK,FGFBP2
+CD16+ NK cells,GNLY
+CD16+ NK cells,CLIC3
+CD16- NK cells,CD160
+CD16- NK cells,TLE1
+CD16- NK cells,GZMK
+Tem/Temra cytotoxic T cells,FGFBP2
+Tem/Temra cytotoxic T cells,CD8B
+Tem/Temra cytotoxic T cells,GNLY
+Tem/Trm cytotoxic T cells,CD8B
+Tem/Trm cytotoxic T cells,GZMK
+CRTAM+ gamma-delta T cells,KLRC3
+CRTAM+ gamma-delta T cells,ENSG00000227191
+CRTAM+ gamma-delta T cells,GZMK
+MAIT cells,KLRB1
+MAIT cells,KLRG1
+MAIT cells,GZMK
+Regulatory T cells,CTLA4
+Regulatory T cells,CD27
+Regulatory T cells,RGS1
+Tem/Effector helper T cells,TRADD
+Tem/Effector helper T cells,AQP3
+Tem/Effector helper T cells,TOB1
+Follicular helper T cells,CD40LG
+Follicular helper T cells,IL6ST
+Follicular helper T cells,ODF2L
+Tcm/Naive helper T cells,PRKCQ-AS1
+Tcm/Naive helper T cells,SOCS3
+Tcm/Naive cytotoxic T cells,LINC02446
+Tcm/Naive cytotoxic T cells,CCR7
+Tcm/Naive cytotoxic T cells,CD8B
