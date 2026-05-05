@@ -1,0 +1,17 @@
+clusterName,NSForest_markers,f_score
+B cell,"['JCHAIN', 'HLA-DPB1']",0.2658486707566462
+Mast cell,"['TPSB2', 'CMA1']",0.9523809523809524
+T cell,['GZMA'],0.4726118904475618
+Sinusoidal endothelial cell,['FCN3'],0.6759759982220905
+Neutrophil,['DEFA3'],0.8457095709570958
+B cell (Plasmocyte),['ENSG00000211592'],0.8092848180677541
+Erythroid progenitor cell (RP high),['HBB'],0.7692307692307693
+Goblet cell,"['TFF1', 'AGR2']",0.925925925925926
+Enterocyte progenitor,"['MMP7', 'ACAT2', 'NDUFA2']",0.5555555555555556
+Smooth muscle cell,"['MYL9', 'TAGLN']",0.873015873015873
+Endothelial cell (APC),['MGP'],0.4094827586206896
+Endothelial cell,"['SPARC', 'ID1', 'MGP']",0.4838709677419355
+Macrophage,['C1QB'],0.9253929599291564
+Monocyte,"['FTH1', 'FCN1']",0.4701627486437613
+Antigen presenting cell (RPS high),"['PRR13', 'CSTA', 'LST1']",0.2247191011235955
+Dendritic cell,"['HLA-DQB1', 'HLA-DPB1']",0.7297163588390502

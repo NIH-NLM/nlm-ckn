@@ -1,0 +1,17 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+Antigen presenting cell (RPS high),,,CL:0000145
+B cell,,,CL:0000236
+B cell (Plasmocyte),,,CL:0000786
+Dendritic cell,,,CL:0000451
+Endothelial cell,,,CL:0000115
+Endothelial cell (APC),,,CL:0000115
+Enterocyte progenitor,,,CL:0000584
+Erythroid progenitor cell (RP high),,,CL:0000038
+Goblet cell,,,CL:0000160
+Macrophage,,,CL:0000235
+Mast cell,,,CL:0000097
+Monocyte,,,CL:0000576
+Neutrophil,,,CL:0000775
+Sinusoidal endothelial cell,,,CL:0000066
+Smooth muscle cell,,,CL:0000192
+T cell,,,CL:0000084

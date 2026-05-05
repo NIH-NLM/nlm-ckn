@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: liver_Han_Nature_2020_author_cell_type_X_umap_5c7ea7_adata_filtered.h5ad
+Loaded: 10560 cells x 26069 genes
+Cluster header: author_cell_type (16 clusters)
+Computing cluster statistics...
+Total cells: 10560
+Number of clusters: 16
+Cells per cluster - Min: 6, Max: 3847, Mean: 660.0
+Saved: liver_Han_Nature_2020_author_cell_type_X_umap_5c7ea7_cluster_statistics.csv
+Cluster statistics complete!

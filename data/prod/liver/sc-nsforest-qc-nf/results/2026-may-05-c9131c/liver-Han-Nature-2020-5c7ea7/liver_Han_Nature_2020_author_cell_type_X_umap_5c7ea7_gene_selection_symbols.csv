@@ -1,0 +1,29 @@
+clusterName,gene
+B cell,JCHAIN
+B cell,HLA-DPB1
+Mast cell,TPSB2
+Mast cell,CMA1
+T cell,GZMA
+Sinusoidal endothelial cell,FCN3
+Neutrophil,DEFA3
+B cell (Plasmocyte),ENSG00000211592
+Erythroid progenitor cell (RP high),HBB
+Goblet cell,TFF1
+Goblet cell,AGR2
+Enterocyte progenitor,MMP7
+Enterocyte progenitor,ACAT2
+Enterocyte progenitor,NDUFA2
+Smooth muscle cell,MYL9
+Smooth muscle cell,TAGLN
+Endothelial cell (APC),MGP
+Endothelial cell,SPARC
+Endothelial cell,ID1
+Endothelial cell,MGP
+Macrophage,C1QB
+Monocyte,FTH1
+Monocyte,FCN1
+Antigen presenting cell (RPS high),PRR13
+Antigen presenting cell (RPS high),CSTA
+Antigen presenting cell (RPS high),LST1
+Dendritic cell,HLA-DQB1
+Dendritic cell,HLA-DPB1
