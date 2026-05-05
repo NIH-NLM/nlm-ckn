@@ -1,0 +1,28 @@
+clusterName,gene
+Erythroid cell,HBA1
+Erythroid cell,GYPB
+Erythroid progenitor cell (RP high),HSPD1
+Erythroid progenitor cell (RP high),HSPE1
+Erythroid progenitor cell (RP high),AHSP
+CB CD34+,SPINK2
+CB CD34+,NUCKS1
+CB CD34+,PPDPF
+CB CD34+,MACROH2A1
+B cell,VPREB1
+B cell,CD79A
+Neutrophil (RPS high),ENO1
+Neutrophil (RPS high),GAS5
+T cell,ENSG00000277734
+T cell,CD2
+Neutrophil,SRGN
+Dendritic cell,HLA-DQA1
+Dendritic cell,HLA-DPB1
+Dendritic cell,HLA-DPA1
+Antigen presenting cell (RPS high),FCN1
+Antigen presenting cell (RPS high),ANXA2
+Monocyte,GPX1
+Monocyte,FCN1
+Monocyte,FOS
+Macrophage,SELENOP
+Macrophage,CD5L
+B cell (Plasmocyte),MZB1

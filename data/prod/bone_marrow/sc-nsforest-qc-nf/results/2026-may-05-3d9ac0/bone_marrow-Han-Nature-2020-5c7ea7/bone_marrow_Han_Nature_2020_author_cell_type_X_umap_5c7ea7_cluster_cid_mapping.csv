@@ -1,0 +1,13 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+Antigen presenting cell (RPS high),,,CL:0000145
+B cell,,,CL:0000236
+B cell (Plasmocyte),,,CL:0000786
+CB CD34+,,,CL:2000095
+Dendritic cell,,,CL:0000451
+Erythroid cell,,,CL:0000764
+Erythroid progenitor cell (RP high),,,CL:0000038
+Macrophage,,,CL:0000235
+Monocyte,,,CL:0000576
+Neutrophil,,,CL:0000775
+Neutrophil (RPS high),,,CL:0000775
+T cell,,,CL:0000084

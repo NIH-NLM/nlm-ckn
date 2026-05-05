@@ -1,0 +1,13 @@
+clusterName,NSForest_markers,f_score
+Erythroid cell,"['HBA1', 'GYPB']",0.891245487364621
+Erythroid progenitor cell (RP high),"['HSPD1', 'HSPE1', 'AHSP']",0.567744854105406
+CB CD34+,"['SPINK2', 'NUCKS1', 'PPDPF', 'MACROH2A1']",0.4901960784313725
+B cell,"['VPREB1', 'CD79A']",0.625
+Neutrophil (RPS high),"['ENO1', 'GAS5']",0.210691823899371
+T cell,"['ENSG00000277734', 'CD2']",0.6486486486486487
+Neutrophil,['SRGN'],0.8252081702369938
+Dendritic cell,"['HLA-DQA1', 'HLA-DPB1', 'HLA-DPA1']",0.5389221556886228
+Antigen presenting cell (RPS high),"['FCN1', 'ANXA2']",0.5683217070168239
+Monocyte,"['GPX1', 'FCN1', 'FOS']",0.4385964912280701
+Macrophage,"['SELENOP', 'CD5L']",0.8333333333333334
+B cell (Plasmocyte),['MZB1'],0.7696897374701671
