@@ -1,0 +1,67 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+Activated CD4 T,,,CL:0000896
+Activated CD8 T,,,CL:0000906
+Adult Glia,,,CL:0000125
+BEST2+ Goblet cell,,,CL:0019031
+BEST4+ epithelial,,,CL:0000066
+CD8 Tmem,,,CL:0000909
+CX3CR1+ CD8 Tmem,,,CL:0000909
+Colonocyte,,,CL:0011108
+Contractile pericyte (PLN+),,,CL:0000669
+Cycling B cell,,,CL:0000236
+D cells (SST+),,,CL:0000502
+EC cells (TAC1+),,,CL:0000577
+EECs,,,CL:0000164
+Enterocyte,,,CL:1000347
+Goblet cell,,,CL:0019031
+I cells (CCK+),,,CL:0002277
+ILC3,,,CL:0001071
+IgA plasma cell,,,CL:0000987
+IgG plasma cell,,,CL:0000985
+L cells (PYY+),,,CL:0002279
+LEC1 (ACKR4+),,,CL:0002138
+LEC3 (ADGRG3+),,,CL:0002138
+LEC4 (STAB2+),,,CL:0002138
+LEC5 (CLDN11+),,,CL:0002138
+LEC6 (ADAMTS4+),,,CL:0002138
+LYVE1+ Macrophage,,,CL:0000235
+Lymphoid DC,,,CL:0000784
+MAIT cell,,,CL:0000940
+Macrophages,,,CL:0000125
+Mast cell,,,CL:0000097
+Mature arterial EC,,,CL:1000413
+Mature venous EC,,,CL:0002543
+Memory B,,,CL:0000787
+Mesothelium (PRG4+),,,CL:0000077
+Microfold cell,,,CL:0000682
+Monocytes,,,CL:0000576
+N cells (NTS+),,,CL:0002280
+NK cell,,,CL:0000623
+Naive B,,,CL:0000788
+Paneth,,,CL:0000125
+Pericyte,,,CL:0000669
+SELL+ CD4 T,,,CL:0000624
+SELL+ CD8 T,,,CL:0000625
+Stem cells,,,CL:0000034
+Stromal 1 (ADAMDEC1+),,,CL:0000499
+Stromal 1 (CCL11+),,,CL:0000499
+Stromal 2 (NPY+),,,CL:0000499
+Stromal 3 (C7+),,,CL:0000499
+T reticular,,,CL:0000432
+TA,,,CL:0009010
+TRGV2 gdT,,,CL:0000798
+TRGV4 gdT,,,CL:0000798
+TRGV5/7 gdT,,,CL:0000798
+Th17,,,CL:0000899
+Transitional Stromal 3 (C3+),,,CL:0000499
+Treg,,,CL:0000815
+Tuft,,,CL:0019032
+arterial capillary,,,CL:0002144
+cDC1,,,CL:0000990
+cDC2,,,CL:0000990
+cycling EC,,,CL:0000577
+gdT,,,CL:0000798
+mLN Stroma (FMO2+),,,CL:0000499
+myofibroblast,,,CL:0000186
+myofibroblast (RSPO2+),,,CL:0000186
+venous capillary,,,CL:0002144

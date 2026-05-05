@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: digestive_tract_Oliver_Nature_2024_level_3_annot_X_umap_a60caa_adata_filtered.h5ad
+Loaded: 650679 cells x 35461 genes
+Cluster header: level_3_annot (114 clusters)
+Computing cluster statistics...
+Total cells: 650679
+Number of clusters: 114
+Cells per cluster - Min: 5, Max: 61929, Mean: 5707.7
+Saved: digestive_tract_Oliver_Nature_2024_level_3_annot_X_umap_a60caa_cluster_statistics.csv
+Cluster statistics complete!

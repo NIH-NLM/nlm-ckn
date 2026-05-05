@@ -1,0 +1,15 @@
+clusterName,NSForest_markers,f_score
+Pericyte/SMC,"['RGS6', 'CACNA1C']",0.5955334987593052
+Myocyte (smooth muscle),['MYH11'],0.9275315621430036
+Fibroblast,['LAMA2'],0.8888444926460795
+Adipocyte,"['PLIN1', 'AQP7']",0.9097978227060654
+Endothelial cell (lymphatic),['MMRN1'],0.8760724499523356
+Endothelial cell (vascular),['PTPRB'],0.7320620555914673
+Immune (T cell),['PARP8'],0.5935613682092555
+Immune (NK cell),"['GNLY', 'AOAH']",0.6862745098039216
+Immune (B cell),['BANK1'],0.7017543859649122
+Immune (mast cell),"['TPSB2', 'TPSAB1']",0.8295886622882821
+Immune (DC/macrophage),['RBM47'],0.815474963939831
+Neuronal,"['NPY', 'PRPH']",0.8641975308641975
+Schwann cell,['CDH19'],0.8240701154339461
+ICCs,['DPP10'],0.7796610169491526

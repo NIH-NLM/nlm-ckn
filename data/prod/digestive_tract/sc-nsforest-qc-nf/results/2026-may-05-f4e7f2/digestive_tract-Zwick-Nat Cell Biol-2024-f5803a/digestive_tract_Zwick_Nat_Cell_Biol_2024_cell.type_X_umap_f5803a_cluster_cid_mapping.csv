@@ -1,0 +1,23 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+BEST4+ cell,,,CL:4030026
+Enterocyte progenitor cell subset 2,,,CL:1000334
+Enterocyte progenitor cell subset 3,,,CL:1000334
+Enterocyte subset 1,,,CL:1000334
+Enterocyte subset 2,,,CL:1000334
+Enteroendocrine cell subset 1,,,CL:0009006
+Enteroendocrine cell subset 2,,,CL:0009006
+Goblet cell subset 1,,,CL:1000495
+Goblet cell subset 2,,,CL:1000495
+Goblet cell subset 3,,,CL:1000495
+Goblet progenitor,,,CL:1000495
+Mature enterocyte subset 1,,,CL:1000334
+Mature enterocyte subset 2,,,CL:1000334
+Microfold cell,,,CL:0000682
+Mixed cell types,,,CL:0000000
+Paneth cell,,,CL:1000343
+Stem cell,,,CL:0000034
+Transit amplifying cell subset 1,,,CL:0009012
+Transit amplifying cell subset 2,,,CL:0009012
+Transit amplifying cell subset 3,,,CL:0009012
+Tuft cell,,,CL:0009080
+enterocyte progenitor subset 1,,,CL:1000334

@@ -1,0 +1,22 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+ACKR1+ endothelium,,,CL:0000115
+B cells,,,CL:0000236
+CD36+ endothelium,,,CL:0000115
+Cycling,,,unknown
+Doublets,,,unknown
+Enterocytes,,,CL:1000342
+Enteroendocrines,,,CL:0009006
+Fibs,,,CL:0000057
+Glial cells,,,CL:0000125
+Goblets,,,CL:1000326
+ILC,,,CL:0001065
+Lymphatics,,,CL:0002138
+MNP,,,CL:0000113
+Mast cells,,,CL:0000097
+Paneth cells,,,CL:1000343
+Pericytes,,,CL:0000669
+Plasma cells,,,CL:0000786
+Progenitors,,,CL:0011026
+SM,,,CL:1000278
+T cells,,,CL:0000789
+TA,,,CL:0009012

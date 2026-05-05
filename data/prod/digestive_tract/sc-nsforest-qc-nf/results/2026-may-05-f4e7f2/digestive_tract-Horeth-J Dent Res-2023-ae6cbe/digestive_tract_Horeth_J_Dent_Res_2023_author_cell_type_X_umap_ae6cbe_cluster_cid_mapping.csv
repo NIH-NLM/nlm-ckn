@@ -1,0 +1,17 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+B Cells,,,CL:0000236
+Basal,,,CL:0000646
+Endothelial,,,CL:0000115
+Fibroblasts,,,CL:0000057
+Intercalated,,,CL:4052048
+Ionocytes,,,CL:0005006
+Macrophages,,,CL:0000235
+Mucous,,,CL:0000319
+Myoepithelial,,,CL:0000185
+Myofibroblasts,,,CL:0000186
+RBCs,,,CL:0000232
+Schwann Cells,,,CL:0002573
+Seromucous,,,CL:0000159
+Serous,,,CL:0000313
+Striated,,,CL:4052049
+T Cells,,,CL:0000084

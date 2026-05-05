@@ -1,0 +1,69 @@
+clusterName,gene
+Monocyte,FCN1
+Monocyte,S100A9
+Monocyte,S100A4
+Macrophage,C1QA
+Macrophage,C1QB
+M2 Macrophage,LIPA
+M2 Macrophage,DBNL
+Dendritic cell,HLA-DQA1
+Dendritic cell,HLA-DPA1
+Dendritic cell,HLA-DPB1
+Fetal neuron,UCHL1
+Fetal neuron,SYT1
+Endothelial cell,PCAT19
+Endothelial cell,TM4SF1
+Endothelial cell (APC),ACKR1
+Endothelial cell (APC),IFI27
+Smooth muscle cell,ACTA2
+Fetal Neuron,VMP1
+Fetal Neuron,S100B
+Fetal stromal cell,HSPA1B
+Fetal stromal cell,COL1A1
+Fetal mesenchymal progenitor,HSP90B1
+Fetal mesenchymal progenitor,COL1A1
+Endothelial cell (endothelial to mesenchymal transition),COL6A1
+Endothelial cell (endothelial to mesenchymal transition),COL3A1
+Fibroblast,TIMP3
+Fibroblast,CFD
+Stromal cell,C3
+Stromal cell,IFITM2
+Enterocyte progenitor,LGALS4
+Fetal enterocyte,MT1G
+Fetal enterocyte,TXN
+Fetal enterocyte,RPLP2
+Fetal enterocyte,COX7C
+Hepatocyte/Endodermal cell,APOC3
+Hepatocyte/Endodermal cell,NEAT1
+Fetal epithelial progenitor,SRP14
+Fetal epithelial progenitor,RPL10A
+Fetal epithelial progenitor,RPL13
+B cell (Plasmocyte),JCHAIN
+B cell,CD52
+B cell,CD74
+T cell,CCL5
+T cell,TMSB4X
+CB CD34+,UBE2I
+CB CD34+,LSM8
+CB CD34+,TUBB
+Mast cell,TPSB2
+Neutrophil,S100A12
+Neutrophil,S100P
+Epithelial cell (intermediated),IGFBP3
+Epithelial cell (intermediated),ACOT7
+Primordial germ cell,MDK
+Primordial germ cell,ENSG00000227081
+Basal cell,S100A2
+Stratified epithelial cell,SCGB3A1
+Goblet cell,TFF2
+Gastric endocrine cell,PTBP1
+Gastric endocrine cell,NOL7
+Gastric endocrine cell,HSPA9
+Gastric endocrine cell,KLF10
+Gastric chief cell,PGA5
+Gastric chief cell,PGC
+Fetal endocrine cell,CHGA
+Epithelial cell,CEACAM7
+Epithelial cell,SLC26A3
+Enterocyte,ANPEP
+Enterocyte,PHGR1

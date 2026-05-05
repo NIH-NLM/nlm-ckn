@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: digestive_tract_Smillie_Cell_2019_CellType_X_umap_hm_bbedd2_adata_filtered.h5ad
+Loaded: 34767 cells x 59474 genes
+Cluster header: CellType (34 clusters)
+Computing cluster statistics...
+Total cells: 34767
+Number of clusters: 34
+Cells per cluster - Min: 6, Max: 5343, Mean: 1022.6
+Saved: digestive_tract_Smillie_Cell_2019_CellType_X_umap_hm_bbedd2_cluster_statistics.csv
+Cluster statistics complete!

@@ -1,0 +1,35 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+B cell,,,CL:0000236
+B cell (Plasmocyte),,,CL:0000786
+Basal cell,,,CL:0000646
+CB CD34+,,,CL:2000095
+Dendritic cell,,,CL:0000451
+Endothelial cell,,,CL:0000115
+Endothelial cell (APC),,,CL:0000115
+Endothelial cell (endothelial to mesenchymal transition),,,CL:0000115
+Enterocyte,,,CL:0000584
+Enterocyte progenitor,,,CL:0000584
+Epithelial cell,,,CL:0000066
+Epithelial cell (intermediated),,,CL:0000066
+Fetal Neuron,,,CL:0000540
+Fetal endocrine cell,,,CL:0000163
+Fetal enterocyte,,,CL:0000584
+Fetal epithelial progenitor,,,CL:0000066
+Fetal mesenchymal progenitor,,,CL:0000134
+Fetal neuron,,,CL:0000540
+Fetal stromal cell,,,CL:0000499
+Fibroblast,,,CL:0000057
+Gastric chief cell,,,CL:0000155
+Gastric endocrine cell,,,CL:0000163
+Goblet cell,,,CL:0000160
+Hepatocyte/Endodermal cell,,,CL:0000066
+M2 Macrophage,,,CL:0000890
+Macrophage,,,CL:0000235
+Mast cell,,,CL:0000097
+Monocyte,,,CL:0000576
+Neutrophil,,,CL:0000775
+Primordial germ cell,,,CL:0000670
+Smooth muscle cell,,,CL:0000192
+Stratified epithelial cell,,,CL:0000079
+Stromal cell,,,CL:0000499
+T cell,,,CL:0000084

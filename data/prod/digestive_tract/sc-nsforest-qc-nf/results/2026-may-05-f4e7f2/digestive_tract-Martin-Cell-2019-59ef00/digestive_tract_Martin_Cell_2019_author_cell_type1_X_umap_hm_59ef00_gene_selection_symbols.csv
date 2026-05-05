@@ -1,0 +1,37 @@
+clusterName,gene
+Mast cells,TPSAB1
+Enterocytes,FABP6
+Enterocytes,DPEP1
+Progenitors,OLFM4
+Progenitors,REG1A
+Enteroendocrines,CHGA
+TA,CENPW
+TA,PTTG1
+Goblets,REG4
+Paneth cells,PLA2G2A
+Paneth cells,REG3A
+Plasma cells,ENSG00000211677
+Plasma cells,ENSG00000211890
+Doublets,MZB1
+Doublets,SEC11C
+Doublets,DNAJB1
+T cells,CD3D
+ILC,KLRB1
+ILC,TYROBP
+Cycling,BIRC5
+Cycling,TYMS
+B cells,VPREB3
+MNP,AIF1
+MNP,MS4A6A
+CD36+ endothelium,FLT1
+CD36+ endothelium,NHERF2
+ACKR1+ endothelium,ACKR1
+Lymphatics,CCL21
+Lymphatics,LYVE1
+Pericytes,COX4I2
+Pericytes,CSRP2
+SM,ACTG2
+SM,MYH11
+Fibs,ADAMDEC1
+Glial cells,CRYAB
+Glial cells,PLP1

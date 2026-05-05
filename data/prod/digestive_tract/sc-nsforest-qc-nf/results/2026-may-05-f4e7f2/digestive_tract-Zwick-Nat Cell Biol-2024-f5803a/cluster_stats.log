@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: digestive_tract_Zwick_Nat_Cell_Biol_2024_cell.type_X_umap_f5803a_adata_filtered.h5ad
+Loaded: 19200 cells x 27359 genes
+Cluster header: cell.type (22 clusters)
+Computing cluster statistics...
+Total cells: 19200
+Number of clusters: 22
+Cells per cluster - Min: 35, Max: 2119, Mean: 872.7
+Saved: digestive_tract_Zwick_Nat_Cell_Biol_2024_cell.type_X_umap_f5803a_cluster_statistics.csv
+Cluster statistics complete!

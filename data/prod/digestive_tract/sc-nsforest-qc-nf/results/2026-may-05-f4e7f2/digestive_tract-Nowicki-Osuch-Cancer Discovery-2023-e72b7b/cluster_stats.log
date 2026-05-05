@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: digestive_tract_Nowicki-Osuch_Cancer_Discovery_2023_Detailed_Cell_Type_umap_MinDist_0.5_N_Neighbors_15_e72b7b_adata_filtered.h5ad
+Loaded: 54840 cells x 32383 genes
+Cluster header: Detailed_Cell_Type (47 clusters)
+Computing cluster statistics...
+Total cells: 54840
+Number of clusters: 47
+Cells per cluster - Min: 5, Max: 6441, Mean: 1166.8
+Saved: digestive_tract_Nowicki-Osuch_Cancer_Discovery_2023_Detailed_Cell_Type_umap_MinDist_0.5_N_Neighbors_15_e72b7b_cluster_statistics.csv
+Cluster statistics complete!

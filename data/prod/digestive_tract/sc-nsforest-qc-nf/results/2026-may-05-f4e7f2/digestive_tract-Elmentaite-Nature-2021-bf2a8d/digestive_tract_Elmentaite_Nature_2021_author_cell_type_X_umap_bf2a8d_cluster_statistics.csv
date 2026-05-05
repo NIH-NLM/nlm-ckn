@@ -1,0 +1,67 @@
+cluster,n_cells,percentage
+Activated CD4 T,567,0.5
+Activated CD8 T,2256,1.99
+Adult Glia,275,0.24
+BEST2+ Goblet cell,3007,2.66
+BEST4+ epithelial,3822,3.38
+CD8 Tmem,191,0.17
+CX3CR1+ CD8 Tmem,73,0.06
+Colonocyte,11969,10.58
+Contractile pericyte (PLN+),1028,0.91
+Cycling B cell,178,0.16
+D cells (SST+),5,0.0
+EC cells (TAC1+),42,0.04
+EECs,14,0.01
+Enterocyte,9649,8.53
+Goblet cell,699,0.62
+I cells (CCK+),6,0.01
+ILC3,208,0.18
+IgA plasma cell,14494,12.81
+IgG plasma cell,422,0.37
+L cells (PYY+),33,0.03
+LEC1 (ACKR4+),194,0.17
+LEC3 (ADGRG3+),198,0.17
+LEC4 (STAB2+),5,0.0
+LEC5 (CLDN11+),47,0.04
+LEC6 (ADAMTS4+),489,0.43
+LYVE1+ Macrophage,420,0.37
+Lymphoid DC,24,0.02
+MAIT cell,48,0.04
+Macrophages,638,0.56
+Mast cell,151,0.13
+Mature arterial EC,1224,1.08
+Mature venous EC,1673,1.48
+Memory B,1039,0.92
+Mesothelium (PRG4+),25,0.02
+Microfold cell,348,0.31
+Monocytes,164,0.14
+N cells (NTS+),5,0.0
+NK cell,73,0.06
+Naive B,517,0.46
+Paneth,2655,2.35
+Pericyte,45,0.04
+SELL+ CD4 T,305,0.27
+SELL+ CD8 T,78,0.07
+Stem cells,1022,0.9
+Stromal 1 (ADAMDEC1+),165,0.15
+Stromal 1 (CCL11+),573,0.51
+Stromal 2 (NPY+),226,0.2
+Stromal 3 (C7+),173,0.15
+T reticular,53,0.05
+TA,43485,38.42
+TRGV2 gdT,502,0.44
+TRGV4 gdT,468,0.41
+TRGV5/7 gdT,552,0.49
+Th17,14,0.01
+Transitional Stromal 3 (C3+),3638,3.21
+Treg,198,0.17
+Tuft,569,0.5
+arterial capillary,439,0.39
+cDC1,56,0.05
+cDC2,318,0.28
+cycling EC,5,0.0
+gdT,1047,0.93
+mLN Stroma (FMO2+),129,0.11
+myofibroblast,126,0.11
+myofibroblast (RSPO2+),114,0.1
+venous capillary,7,0.01

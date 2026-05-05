@@ -1,0 +1,136 @@
+clusterName,gene
+EC cells (TAC1+),TPH1
+EC cells (TAC1+),SLC18A1
+L cells (PYY+),GCG
+L cells (PYY+),PYY
+N cells (NTS+),INSL5
+N cells (NTS+),LRRC36
+EECs,SLC29A4
+EECs,RAB3B
+Tuft,SH2D6
+Enterocyte,RBP2
+Naive B,FCER2
+Naive B,TCL1A
+Memory B,BANK1
+Memory B,MS4A1
+Cycling B cell,RGS13
+Cycling B cell,BCL7A
+IgG plasma cell,ENSG00000211897
+IgG plasma cell,ENSG00000211893
+IgA plasma cell,ENSG00000211890
+LEC4 (STAB2+),ITGA9
+LEC4 (STAB2+),KLHL4
+LEC3 (ADGRG3+),CCL14
+LEC3 (ADGRG3+),RELN
+LEC6 (ADAMTS4+),CCL21
+LEC6 (ADAMTS4+),LYVE1
+LEC1 (ACKR4+),IL33
+LEC1 (ACKR4+),NTS
+LEC5 (CLDN11+),SLC41A1
+gdT,ENSG00000211829
+gdT,GZMA
+TRGV4 gdT,ENSG00000211698
+TRGV4 gdT,NR4A3
+TRGV4 gdT,TENT5C
+TRGV5/7 gdT,ENSG00000211697
+TRGV5/7 gdT,ENSG00000211810
+TRGV5/7 gdT,ENSG00000249978
+TRGV5/7 gdT,TRG-AS1
+Activated CD8 T,CD8B
+Activated CD8 T,CCL5
+MAIT cell,ENSG00000256553
+MAIT cell,KLRG1
+MAIT cell,GZMK
+Th17,CCR6
+Th17,CD6
+Th17,CXCR6
+CD8 Tmem,GZMH
+CD8 Tmem,GZMK
+CX3CR1+ CD8 Tmem,FGFBP2
+CX3CR1+ CD8 Tmem,KLRG1
+Treg,CTLA4
+Treg,TBC1D4
+SELL+ CD4 T,CCR7
+SELL+ CD4 T,GIMAP7
+SELL+ CD4 T,LTB
+SELL+ CD4 T,FYB1
+Activated CD4 T,GPR183
+Activated CD4 T,LEF1
+SELL+ CD8 T,LINC02446
+SELL+ CD8 T,LEF1
+ILC3,PCDH9
+ILC3,LST1
+Mast cell,TPSAB1
+Mast cell,TPSB2
+Monocytes,S100A8
+Monocytes,S100A9
+Monocytes,S100A12
+LYVE1+ Macrophage,F13A1
+LYVE1+ Macrophage,FOLR2
+Macrophages,MS4A7
+Macrophages,DNASE1L3
+cDC2,LST1
+cDC2,MS4A6A
+cDC2,JAML
+cDC1,CLEC9A
+cDC1,IDO1
+Lymphoid DC,LAMP3
+Stromal 1 (CCL11+),ADAMDEC1
+Stromal 1 (CCL11+),APOE
+Stromal 1 (ADAMDEC1+),ADAMDEC1
+Stromal 1 (ADAMDEC1+),MEG3
+Stromal 1 (ADAMDEC1+),ZBTB16
+Stromal 2 (NPY+),TRPA1
+Stromal 2 (NPY+),F3
+myofibroblast,HHIP
+myofibroblast (RSPO2+),GREM2
+myofibroblast (RSPO2+),GREM1
+Contractile pericyte (PLN+),RERGL
+Contractile pericyte (PLN+),PLN
+Pericyte,STEAP4
+Pericyte,COX4I2
+Adult Glia,PLP1
+Adult Glia,SPP1
+D cells (SST+),SST
+I cells (CCK+),CCK
+Mature venous EC,ACKR1
+venous capillary,MNAT1
+venous capillary,DCAF8
+venous capillary,PCSK7
+arterial capillary,COL15A1
+arterial capillary,KDR
+cycling EC,TMEM273
+cycling EC,GAPVD1
+Mature arterial EC,SERPINE2
+Mature arterial EC,KCTD12
+Mesothelium (PRG4+),UPK3B
+Transitional Stromal 3 (C3+),CFD
+Transitional Stromal 3 (C3+),C3
+mLN Stroma (FMO2+),FMO2
+mLN Stroma (FMO2+),APOD
+Stromal 3 (C7+),SCN7A
+Stromal 3 (C7+),DPT
+T reticular,C7
+T reticular,ADAMDEC1
+T reticular,CCL21
+BEST4+ epithelial,BEST4
+BEST4+ epithelial,OTOP2
+Colonocyte,MS4A12
+Colonocyte,SLC26A3
+TA,PIGR
+Microfold cell,CTSE
+Microfold cell,C12orf75
+Microfold cell,GPX2
+BEST2+ Goblet cell,ZG16
+BEST2+ Goblet cell,MUC2
+Goblet cell,CLCA1
+Goblet cell,SPINK4
+Paneth,REG3A
+Paneth,DEFA5
+Stem cells,LGR5
+Stem cells,CDCA7
+NK cell,KLRF1
+NK cell,GZMK
+TRGV2 gdT,ENSG00000233306
+TRGV2 gdT,ENSG00000211804
+TRGV2 gdT,SYTL2

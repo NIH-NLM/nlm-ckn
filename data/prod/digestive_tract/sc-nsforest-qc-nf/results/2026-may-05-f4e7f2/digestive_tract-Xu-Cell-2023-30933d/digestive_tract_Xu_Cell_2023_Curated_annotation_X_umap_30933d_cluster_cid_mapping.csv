@@ -1,0 +1,45 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+Arterial endothelial cells,,,CL:1000413
+BEST4+ enterocytes,,,CL:4030026
+Capillary endothelial cells,,,CL:0002144
+Colonocytes,,,CL:0002071
+Cycling B cells,,,CL:0000236
+Cycling/Secretory TA,,,CL:0009010
+DC1,,,CL:0000990
+DC2,,,CL:0000990
+Enterocytes,,,CL:0000584
+Enteroendocrine cells,,,CL:0000164
+Follicular B cells,,,CL:0000843
+Follicular helper T cells,,,CL:0002038
+Germinal center B cells,,,CL:0000844
+Glia,,,CL:0000125
+Goblet cells,,,CL:0000160
+ILC,,,CL:0001065
+Immature goblet cells,,,CL:0000160
+Intestinal macrophages,,,CL:0009008
+Lymphatic endothelial cells,,,CL:0002138
+Macrophages,,,CL:0000235
+Mast cells,,,CL:0000097
+Memory B cells,,,CL:0000787
+Monocytes,,,CL:0000576
+Myofibroblasts,,,CL:0000186
+NK cells,,,CL:0000623
+Naive B cells,,,CL:0000788
+Paneth,,,CL:0000510
+Pericytes,,,CL:0000669
+Plasma cells,,,CL:0000786
+Regulatory T cells,,,CL:0000815
+Stem cells,,,CL:0000034
+Stromal 1,,,CL:0000499
+Stromal 2,,,CL:0000499
+Stromal 3,,,CL:0000499
+TA,,,CL:0009010
+Tcm/Naive helper T cells,,,CL:0000904
+Tem/Effector helper T cells,,,CL:0000905
+Tem/Trm cytotoxic T cells,,,CL:0000913
+Trm cytotoxic T cells,,,CL:0000913
+Tuft cells,,,CL:0009041
+Type 1 helper T cells,,,CL:0000545
+Type 17 helper T cells,,,CL:0000899
+Venous endothelial cells,,,CL:0002543
+gamma-delta T cells,,,CL:0000798

@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: digestive_tract_Garrido-Trigo_Nat_Commun_2023_cell_type_X_umap_7e7800_adata_filtered.h5ad
+Loaded: 15170 cells x 32354 genes
+Cluster header: cell_type (5 clusters)
+Computing cluster statistics...
+Total cells: 15170
+Number of clusters: 5
+Cells per cluster - Min: 677, Max: 6713, Mean: 3034.0
+Saved: digestive_tract_Garrido-Trigo_Nat_Commun_2023_cell_type_X_umap_7e7800_cluster_statistics.csv
+Cluster statistics complete!

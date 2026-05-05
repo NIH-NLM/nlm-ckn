@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: digestive_tract_Martin_Cell_2019_author_cell_type1_X_umap_hm_59ef00_adata_filtered.h5ad
+Loaded: 32458 cells x 21752 genes
+Cluster header: author_cell_type1 (21 clusters)
+Computing cluster statistics...
+Total cells: 32458
+Number of clusters: 21
+Cells per cluster - Min: 18, Max: 14957, Mean: 1545.6
+Saved: digestive_tract_Martin_Cell_2019_author_cell_type1_X_umap_hm_59ef00_cluster_statistics.csv
+Cluster statistics complete!

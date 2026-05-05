@@ -1,0 +1,52 @@
+clusterName,gene
+Mature enterocyte subset 1,CTSE
+Mature enterocyte subset 1,APOA1
+BEST4+ cell,BEST4
+Enterocyte progenitor cell subset 2,DTL
+Enterocyte progenitor cell subset 2,ADH4
+Stem cell,LGR5
+Stem cell,SMOC2
+Transit amplifying cell subset 3,EPHA2
+Transit amplifying cell subset 3,HBEGF
+Transit amplifying cell subset 3,PHLDA2
+Transit amplifying cell subset 2,CCNB1
+Transit amplifying cell subset 2,PTTG1
+Transit amplifying cell subset 1,H3C7
+Transit amplifying cell subset 1,H3C2
+Enterocyte progenitor cell subset 3,UNG
+Enterocyte progenitor cell subset 3,FOLH1
+Enterocyte progenitor cell subset 3,MCM5
+Enterocyte progenitor cell subset 3,MCM6
+enterocyte progenitor subset 1,KCNJ13
+enterocyte progenitor subset 1,LINC03057
+enterocyte progenitor subset 1,SAMD5
+Enterocyte subset 1,ENSG00000282408
+Enterocyte subset 1,GSTA2
+Enterocyte subset 2,KCNJ13
+Enterocyte subset 2,FABP6
+Mature enterocyte subset 2,TMIGD1
+Mature enterocyte subset 2,APOC3
+Microfold cell,CD163
+Goblet cell subset 3,GABRA2
+Goblet cell subset 3,SELENOM
+Goblet cell subset 1,MUC2
+Goblet cell subset 1,ITLN1
+Goblet progenitor,SPDEF
+Goblet progenitor,H3C2
+Goblet progenitor,H1-5
+Goblet progenitor,SELENOM
+Tuft cell,POU2F3
+Tuft cell,AVIL
+Goblet cell subset 2,ENSG00000233452
+Goblet cell subset 2,FER1L6
+Paneth cell,PLA2G2A
+Paneth cell,PRSS2
+Enteroendocrine cell subset 1,CDKN1C
+Enteroendocrine cell subset 1,RIMBP2
+Enteroendocrine cell subset 2,TPH1
+Enteroendocrine cell subset 2,LINC00907
+Mixed cell types,ENSG00000189229
+Mixed cell types,APOB
+Mixed cell types,MUC2
+Mixed cell types,ENSG00000231424
+Mixed cell types,TOP2A
