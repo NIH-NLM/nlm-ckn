@@ -1,0 +1,18 @@
+clusterName,NSForest_markers,f_score
+Immune (DC/macrophage),['CD163'],0.7654320987654321
+Immune (Langerhans),"['PHETA1', 'SLC18A2']",0.7954545454545454
+Immune (mast cell),['TPSAB1'],0.8333333333333334
+Immune (T cell),"['CAMK4', 'PTPRC']",0.6748466257668712
+Melanocyte,"['DCT', 'OCA2']",0.9285714285714286
+Epithelial cell (basal keratinocyte),"['COL17A1', 'LAMB4']",0.8221225710014948
+Epithelial cell (suprabasal keratinocyte),"['EEF2K', 'TRIM29']",0.3397212543554007
+Epithelial cell (mature keratinocyte),"['SCEL', 'MBOAT2']",0.7544141252006421
+Epithelial cell (cornified keratinocyte),"['ECM1', 'ATG9B']",0.8254716981132075
+Unknown,"['EEF1A1', 'TPT1']",0.694888178913738
+Sebaceous gland cell,"['ACSBG1', 'KRT79']",0.894919168591224
+Sweat gland cell,['SLC12A2'],0.8056478405315615
+Adipocyte,['PLIN1'],0.8157894736842105
+Fibroblast,['LAMA2'],0.899491591709034
+Pericyte/SMC,['LDB3'],0.7662538699690402
+Endothelial cell (vascular),"['MECOM', 'PECAM1']",0.8705179282868526
+Endothelial cell (lymphatic),['PKHD1L1'],0.9487179487179488

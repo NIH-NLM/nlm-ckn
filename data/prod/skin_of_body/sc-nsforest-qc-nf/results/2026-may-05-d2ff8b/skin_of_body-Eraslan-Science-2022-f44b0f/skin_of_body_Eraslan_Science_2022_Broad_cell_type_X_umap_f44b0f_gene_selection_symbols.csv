@@ -1,0 +1,28 @@
+clusterName,gene
+Immune (DC/macrophage),CD163
+Immune (Langerhans),PHETA1
+Immune (Langerhans),SLC18A2
+Immune (mast cell),TPSAB1
+Immune (T cell),CAMK4
+Immune (T cell),PTPRC
+Melanocyte,DCT
+Melanocyte,OCA2
+Epithelial cell (basal keratinocyte),COL17A1
+Epithelial cell (basal keratinocyte),LAMB4
+Epithelial cell (suprabasal keratinocyte),EEF2K
+Epithelial cell (suprabasal keratinocyte),TRIM29
+Epithelial cell (mature keratinocyte),SCEL
+Epithelial cell (mature keratinocyte),MBOAT2
+Epithelial cell (cornified keratinocyte),ECM1
+Epithelial cell (cornified keratinocyte),ATG9B
+Unknown,EEF1A1
+Unknown,TPT1
+Sebaceous gland cell,ACSBG1
+Sebaceous gland cell,KRT79
+Sweat gland cell,SLC12A2
+Adipocyte,PLIN1
+Fibroblast,LAMA2
+Pericyte/SMC,LDB3
+Endothelial cell (vascular),MECOM
+Endothelial cell (vascular),PECAM1
+Endothelial cell (lymphatic),PKHD1L1

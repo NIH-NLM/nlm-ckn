@@ -1,0 +1,56 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+Adipocyte,,,CL:0000097
+Adipocyte,,,CL:0000362
+Adipocyte,,,CL:0002187
+Adipocyte,,,CL:0002521
+Adipocyte,,,CL:2000021
+Endothelial cell (lymphatic),,,CL:0000084
+Endothelial cell (lymphatic),,,CL:0000097
+Endothelial cell (lymphatic),,,CL:0002138
+Endothelial cell (lymphatic),,,CL:0002620
+Endothelial cell (vascular),,,CL:0000183
+Endothelial cell (vascular),,,CL:0000362
+Endothelial cell (vascular),,,CL:0002139
+Endothelial cell (vascular),,,CL:0002187
+Endothelial cell (vascular),,,CL:1000448
+Epithelial cell (basal keratinocyte),,,CL:0002139
+Epithelial cell (basal keratinocyte),,,CL:0002187
+Epithelial cell (cornified keratinocyte),,,CL:0000312
+Epithelial cell (cornified keratinocyte),,,CL:0002187
+Epithelial cell (mature keratinocyte),,,CL:0000312
+Epithelial cell (suprabasal keratinocyte),,,CL:0002187
+Fibroblast,,,CL:0000084
+Fibroblast,,,CL:0000097
+Fibroblast,,,CL:0000183
+Fibroblast,,,CL:0000362
+Fibroblast,,,CL:0002187
+Fibroblast,,,CL:0002620
+Fibroblast,,,CL:1000458
+Immune (DC/macrophage),,,CL:0000097
+Immune (DC/macrophage),,,CL:0000145
+Immune (DC/macrophage),,,CL:0000183
+Immune (DC/macrophage),,,CL:0002139
+Immune (DC/macrophage),,,CL:0002187
+Immune (DC/macrophage),,,CL:0002620
+Immune (Langerhans),,,CL:0002457
+Immune (T cell),,,CL:0000084
+Immune (T cell),,,CL:0000362
+Immune (T cell),,,CL:0002139
+Immune (T cell),,,CL:0002187
+Immune (mast cell),,,CL:0000097
+Immune (mast cell),,,CL:0002187
+Melanocyte,,,CL:0000084
+Melanocyte,,,CL:0000145
+Melanocyte,,,CL:0000362
+Melanocyte,,,CL:0002187
+Melanocyte,,,CL:0002521
+Melanocyte,,,CL:1000458
+Pericyte/SMC,,,CL:0000183
+Pericyte/SMC,,,CL:0000362
+Pericyte/SMC,,,CL:0002187
+Pericyte/SMC,,,CL:0002620
+Pericyte/SMC,,,CL:1000458
+Sebaceous gland cell,,,CL:2000021
+Sweat gland cell,,,CL:1000448
+Unknown,,,CL:0000362
+Unknown,,,CL:0002187
