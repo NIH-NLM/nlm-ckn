@@ -1,0 +1,56 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+ASDC,,,CL:0000451
+BFU-E,,,CL:0000038
+Basophilic Erythroblast,,,CL:0000549
+CD14 Mono,,,CL:0001054
+CD16 Mono,,,CL:0002397
+CD4 Central Memory,,,CL:0000904
+CD4 Effector Memory,,,CL:0000905
+CD4 Naive,,,CL:0000895
+CD4 Regulatory,,,CL:0000792
+CD8 Central Memory,,,CL:0000907
+CD8 Effector Memory 1,,,CL:0000913
+CD8 Effector Memory 2,,,CL:0000913
+CD8 Naive,,,CL:0000900
+CD8 Tissue Resident Memory,,,CL:0000909
+CFU-E,,,CL:0000038
+CLP,,,CL:0000051
+Cycling Progenitor,,,CL:0000049
+Early GMP,,,CL:0000557
+Early ProMono,,,CL:0000559
+EoBasoMast Precursor,,,CL:0002028
+GMP-Cycle,,,CL:0000557
+GMP-Mono,,,CL:0000557
+GMP-Neut,,,CL:0000557
+HSC,,,CL:0000037
+Immature B,,,CL:0000816
+LMPP,,,CL:0002032
+Large Pre-B,,,CL:0000957
+Late ProMono,,,CL:0000559
+MEP,,,CL:0000050
+MLP,,,CL:0000051
+MLP-II,,,CL:0000051
+MPP-MkEry,,,CL:0000837
+MPP-MyLy,,,CL:0000837
+Mature B,,,CL:0000785
+Megakaryocyte,,,CL:0000556
+Megakaryocyte Precursor,,,CL:0000553
+NK,,,CL:0000623
+NK CD56high,,,CL:0000938
+NK Proliferating,,,CL:0000623
+Orthochromatic Erythroblast,,,CL:0000552
+Plasma Cell,,,CL:0000786
+Polychromatic Erythroblast,,,CL:0000550
+Pre-ProB,,,CL:0000826
+Pre-cDC,,,CL:0002010
+Pre-pDC,,,CL:0001058
+Pre-pDC Cycling,,,CL:0001058
+Pro-B Cycling,,,CL:0002048
+Pro-B VDJ,,,CL:0002048
+Pro-Erythroblast,,,CL:0000038
+Small Pre-B,,,CL:0000954
+Stromal,,,CL:0010001
+T Proliferating,,,CL:0000084
+cDC1,,,CL:0000990
+cDC2,,,CL:0000990
+pDC,,,CL:0001058

@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: bone_marrow_Zeng_Blood_Cancer_Discovery_2025_AuthorCellType_X_umap_bba832_adata_filtered.h5ad
+Loaded: 263159 cells x 27571 genes
+Cluster header: AuthorCellType (55 clusters)
+Computing cluster statistics...
+Total cells: 263159
+Number of clusters: 55
+Cells per cluster - Min: 54, Max: 24063, Mean: 4784.7
+Saved: bone_marrow_Zeng_Blood_Cancer_Discovery_2025_AuthorCellType_X_umap_bba832_cluster_statistics.csv
+Cluster statistics complete!

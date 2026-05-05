@@ -1,0 +1,148 @@
+clusterName,gene
+CD4 Effector Memory,RORA
+CD4 Effector Memory,IL7R
+CD4 Effector Memory,KLRB1
+CD4 Naive,CD7
+CD4 Naive,NOSIP
+CD8 Naive,CD8B
+CD8 Naive,CD27
+CD8 Naive,CD7
+Cycling Progenitor,ENSG00000237819
+Cycling Progenitor,PHGDH
+Cycling Progenitor,MDK
+Cycling Progenitor,CSF3R
+Early GMP,ENSG00000237819
+Early GMP,MYC
+Early GMP,MPO
+LMPP,CD34
+LMPP,CSF3R
+LMPP,SMIM24
+LMPP,FAM30A
+HSC,CRHBP
+HSC,CLU
+MPP-MyLy,CRHBP
+MPP-MyLy,CSF3R
+MPP-MyLy,FAM30A
+MPP-MkEry,ZBTB20
+MPP-MkEry,CRHBP
+MPP-MkEry,CYTL1
+MEP,CPPED1
+MEP,MALRD1-AS1
+NK Proliferating,KLRF1
+NK Proliferating,GNLY
+NK Proliferating,MKI67
+NK,SPON2
+NK,FGFBP2
+NK,KLRF1
+NK CD56high,KLRC1
+NK CD56high,XCL2
+NK CD56high,KLRF1
+CD8 Tissue Resident Memory,GZMK
+CD8 Tissue Resident Memory,KLRB1
+CD8 Tissue Resident Memory,IL7R
+CD8 Central Memory,CD8B
+CD8 Central Memory,IL7R
+CD8 Central Memory,CCL5
+CD8 Effector Memory 1,CD8A
+CD8 Effector Memory 1,GZMK
+CD8 Effector Memory 1,CCL4
+CD8 Effector Memory 2,GZMH
+CD8 Effector Memory 2,CD3G
+T Proliferating,MT1E
+T Proliferating,CXCR3
+T Proliferating,GZMK
+T Proliferating,CD3D
+CD4 Regulatory,CD27
+CD4 Regulatory,CD2
+CD4 Regulatory,ITGB1
+CD4 Regulatory,ISG20
+CD4 Central Memory,IL7R
+CD4 Central Memory,TNFAIP3
+CD4 Central Memory,CRIP1
+Megakaryocyte Precursor,CMTM5
+Megakaryocyte Precursor,SELP
+Megakaryocyte,ACRBP
+Stromal,CXCL12
+Small Pre-B,IRF4
+Small Pre-B,BCL7A
+Large Pre-B,TCL1A
+Large Pre-B,CD24
+Large Pre-B,PDLIM1
+Pro-B Cycling,AKAP12
+Pro-B Cycling,UHRF1
+Pre-ProB,AGPS
+Pre-ProB,CYGB
+Pre-ProB,BLNK
+Pro-B VDJ,ARPP21
+Pro-B VDJ,AKAP12
+CLP,JCHAIN
+CLP,DNTT
+CLP,VPREB1
+MLP,DNTT
+MLP,FAM30A
+cDC2,CLEC10A
+cDC2,CD1C
+Pre-cDC,IGSF6
+Pre-cDC,FCER1A
+Pre-cDC,MKI67
+Early ProMono,S100A8
+Early ProMono,AZU1
+Early ProMono,ELANE
+Early ProMono,S100A9
+Late ProMono,RETN
+Late ProMono,S100A12
+Late ProMono,S100A8
+Late ProMono,S100A9
+CD14 Mono,S100A12
+CD14 Mono,SERPINA1
+CFU-E,CSF1
+CFU-E,APOC1
+BFU-E,PKIG
+BFU-E,CNRIP1
+BFU-E,IL1B
+EoBasoMast Precursor,CLC
+GMP-Cycle,ELANE
+GMP-Cycle,MS4A3
+GMP-Cycle,MPO
+GMP-Neut,ELANE
+GMP-Neut,AZU1
+GMP-Mono,PRTN3
+GMP-Mono,MS4A3
+GMP-Mono,MPO
+Orthochromatic Erythroblast,IFIT1B
+Orthochromatic Erythroblast,ALAS2
+Polychromatic Erythroblast,HBM
+Polychromatic Erythroblast,GYPA
+Polychromatic Erythroblast,HEMGN
+Basophilic Erythroblast,FAM178B
+Basophilic Erythroblast,HBM
+Basophilic Erythroblast,ALAS2
+Basophilic Erythroblast,GYPA
+Pro-Erythroblast,FAM178B
+Pro-Erythroblast,EPCAM
+Pro-Erythroblast,KCNH2
+Pro-Erythroblast,APOC1
+MLP-II,ACY3
+Pre-pDC,TASL
+Pre-pDC,RUNX2
+Pre-pDC,SPNS3
+Pre-pDC,BLNK
+Pre-pDC,IRF8
+Pre-pDC Cycling,LGMN
+Pre-pDC Cycling,AURKB
+Pre-pDC Cycling,SPIB
+pDC,LILRA4
+pDC,SERPINF1
+ASDC,AXL
+ASDC,LILRA4
+Immature B,ENSG00000211898
+Immature B,MS4A1
+Immature B,TCL1A
+Mature B,MS4A1
+Mature B,CD79A
+Plasma Cell,TNFRSF17
+Plasma Cell,TNFRSF13B
+CD16 Mono,SERPINA1
+CD16 Mono,FCGR3A
+cDC1,IDO1
+cDC1,BATF3
