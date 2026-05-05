@@ -1,0 +1,9 @@
+clusterName,NSForest_markers,f_score
+Smooth Muscle,"['RAMP1', 'MYH10']",0.8898968803028325
+Microvasculature,['COX4I2'],0.8398692810457516
+Uncharacterized,"['FOXD1', 'CLDN1']",0.807799442896936
+Fibroblast,['FBLN1'],0.9485688145340478
+Endothelial2,"['SELP', 'DKK2']",0.849802371541502
+Endothelial1,"['EMCN', 'ADGRL4']",0.9368884540117416
+Lymphocyte,['CD69'],0.7366771159874608
+Macrophage,"['TYROBP', 'AIF1']",0.9770328988206084

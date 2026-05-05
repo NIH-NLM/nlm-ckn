@@ -1,0 +1,9 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+Endothelial1,,,CL:1000413
+Endothelial2,,,CL:1000413
+Fibroblast,,,CL:0000057
+Lymphocyte,,,CL:0000542
+Macrophage,,,CL:0000235
+Microvasculature,,,CL:0008035
+Smooth Muscle,,,CL:0019018
+Uncharacterized,,,unknown
