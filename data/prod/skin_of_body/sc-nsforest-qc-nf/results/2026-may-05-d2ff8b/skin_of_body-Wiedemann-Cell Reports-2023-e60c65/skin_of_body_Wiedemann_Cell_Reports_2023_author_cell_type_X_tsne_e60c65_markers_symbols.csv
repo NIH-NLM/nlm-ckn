@@ -1,0 +1,12 @@
+clusterName,NSForest_markers,f_score
+Melanocytes/melanocyte-like,['PLP1'],0.8345428156748912
+Terminally differentiated keratinocytes,"['SLURP1', 'KLK7']",0.7664106145251397
+Differentiated keratinocytes I,"['CHP2', 'DSC1', 'KCNK7', 'DEFB1']",0.6182065217391305
+Differentiated keratinocytes II,"['MAP3K8', 'STX11']",0.4560909267534486
+Undifferentiated keratinocytes II,"['PCLAF', 'STMN1']",0.7721382289416847
+Undifferentiated keratinocytes I,"['LAMB3', 'TGFBI']",0.7092291557420032
+Fibroblasts I,"['DCN', 'C1S']",0.5772985033001766
+Fibroblasts II,"['MFAP4', 'SERPINF1', 'FBLN1']",0.5770833333333333
+Pericytes,"['ACTA2', 'TAGLN', 'TPM2']",0.7906542056074767
+Endothelial cells,"['PLVAP', 'IFI27']",0.830804248861912
+Immune,['CD52'],0.7713754646840149

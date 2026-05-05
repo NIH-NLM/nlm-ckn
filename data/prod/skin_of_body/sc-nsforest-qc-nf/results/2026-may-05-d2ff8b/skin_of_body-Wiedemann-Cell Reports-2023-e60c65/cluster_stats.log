@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: skin_of_body_Wiedemann_Cell_Reports_2023_author_cell_type_X_tsne_e60c65_adata_filtered.h5ad
+Loaded: 15243 cells x 30172 genes
+Cluster header: author_cell_type (11 clusters)
+Computing cluster statistics...
+Total cells: 15243
+Number of clusters: 11
+Cells per cluster - Min: 370, Max: 3100, Mean: 1385.7
+Saved: skin_of_body_Wiedemann_Cell_Reports_2023_author_cell_type_X_tsne_e60c65_cluster_statistics.csv
+Cluster statistics complete!

@@ -1,0 +1,12 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+Differentiated keratinocytes I,,,CL:0000312
+Differentiated keratinocytes II,,,CL:0000312
+Endothelial cells,,,CL:0000115
+Fibroblasts I,,,CL:0002620
+Fibroblasts II,,,CL:0002620
+Immune,,,CL:0000738
+Melanocytes/melanocyte-like,,,CL:0000148
+Pericytes,,,CL:0000669
+Terminally differentiated keratinocytes,,,CL:0000312
+Undifferentiated keratinocytes I,,,CL:0000312
+Undifferentiated keratinocytes II,,,CL:0000312
