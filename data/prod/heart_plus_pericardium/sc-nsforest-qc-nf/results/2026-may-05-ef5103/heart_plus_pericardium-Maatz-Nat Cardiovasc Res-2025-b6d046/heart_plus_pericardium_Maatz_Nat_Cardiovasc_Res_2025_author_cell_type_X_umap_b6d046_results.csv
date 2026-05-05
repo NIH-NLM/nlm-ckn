@@ -1,0 +1,2 @@
+software_version,cluster_header,clusterName,clusterSize,f_score,precision,recall,TN,FP,FN,TP,marker_count,NSForest_markers,binary_genes,onTarget
+4.1,author_cell_type,Myel,5172,0.5499282897095733,0.5726954492415403,0.4744779582366589,135888,1831,2718,2454,1,['ENSG00000081237'],['ENSG00000081237'],0.009020981
