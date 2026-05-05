@@ -1,0 +1,11 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+WNT1,,,CL:0000312
+basal1,,,CL:0002187
+basal2,,,CL:0002187
+channel,,,CL:0000242
+folicular,,,CL:2000092
+granular,,,CL:0002189
+immune,,,CL:0000988
+melanocyte,,,CL:0000148
+mitotic,,,CL:0000312
+spinous,,,CL:0000649

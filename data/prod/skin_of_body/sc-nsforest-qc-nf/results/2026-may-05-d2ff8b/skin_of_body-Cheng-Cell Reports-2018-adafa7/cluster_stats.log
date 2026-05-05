@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: skin_of_body_Cheng_Cell_Reports_2018_Re-annotation_X_umap_hm_adafa7_adata_filtered.h5ad
+Loaded: 43054 cells x 19358 genes
+Cluster header: Re-annotation (10 clusters)
+Computing cluster statistics...
+Total cells: 43054
+Number of clusters: 10
+Cells per cluster - Min: 209, Max: 16939, Mean: 4305.4
+Saved: skin_of_body_Cheng_Cell_Reports_2018_Re-annotation_X_umap_hm_adafa7_cluster_statistics.csv
+Cluster statistics complete!
