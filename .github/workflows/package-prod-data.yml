@@ -19,7 +19,65 @@ jobs:
           FILENAME: "prod-data-${{ github.ref_name }}.tar.gz"
         run: |
           SAFE_FILENAME="${FILENAME//\//-}"
-          tar -czf "$SAFE_FILENAME" data/prod/
+          tar -czf "$SAFE_FILENAME" \
+            --exclude="*.html" \
+            --exclude="*.svg" \
+            --exclude="*.pkl" \
+            data/prod/
+          echo "FILENAME=$SAFE_FILENAME" >> "$GITHUB_ENV"
+
+      - name: Upload to release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ${{ env.FILENAME }}
+
+  discover-authors:
+    runs-on: ubuntu-latest
+    outputs:
+      authors: ${{ steps.get-authors.outputs.authors }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Extract unique authors from master CSVs
+        id: get-authors
+        run: |
+          authors=$(python3 - <<'EOF'
+          import csv, glob, json
+          authors = set()
+          for f in glob.glob("data/prod/**/*master_dataset_summary.csv", recursive=True):
+              with open(f) as fh:
+                  for row in csv.DictReader(fh):
+                      a = row.get("first_author", "").strip()
+                      if a:
+                          authors.add(a)
+          print(json.dumps(sorted(authors)))
+          EOF
+          )
+          echo "authors=$authors" >> "$GITHUB_OUTPUT"
+
+  package-small:
+    needs: discover-authors
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        author: ${{ fromJson(needs.discover-authors.outputs.authors) }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create tar.gz for ${{ matrix.author }} datasets
+        env:
+          AUTHOR: ${{ matrix.author }}
+          FILENAME: "prod-data-${{ matrix.author }}-${{ github.ref_name }}.tar.gz"
+        run: |
+          SAFE_FILENAME="${FILENAME//\//-}"
+          find data/prod -type d -name "*${AUTHOR}*" -print0 \
+            | tar -czf "$SAFE_FILENAME" \
+                --exclude="*.html" \
+                --exclude="*.svg" \
+                --exclude="*.pkl" \
+                --null -T -
           echo "FILENAME=$SAFE_FILENAME" >> "$GITHUB_ENV"
 
       - name: Upload to release
