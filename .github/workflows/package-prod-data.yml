@@ -18,9 +18,67 @@ jobs:
         env:
           FILENAME: "prod-data-${{ github.ref_name }}.tar.gz"
         run: |
-          SAFE_FILENAME="${FILENAME//\//-}"
-          tar -czf "$SAFE_FILENAME" data/prod/
-          echo "FILENAME=$SAFE_FILENAME" >> "$GITHUB_ENV"
+          SAFE_FILENAME=$(printf '%s' "${FILENAME//\//-}" | tr -cd 'A-Za-z0-9._-')
+          tar -czf "$SAFE_FILENAME" \
+            --exclude="*.html" \
+            --exclude="*.svg" \
+            --exclude="*.pkl" \
+            data/prod/
+          printf 'FILENAME=%s\n' "$SAFE_FILENAME" >> "$GITHUB_ENV"
+
+      - name: Upload to release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ${{ env.FILENAME }}
+
+  discover-authors:
+    runs-on: ubuntu-latest
+    outputs:
+      authors: ${{ steps.get-authors.outputs.authors }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Extract unique authors from master CSVs
+        id: get-authors
+        run: |
+          authors=$(python3 - <<'EOF'
+          import csv, glob, json
+          authors = set()
+          for f in glob.glob("data/prod/**/*master_dataset_summary.csv", recursive=True):
+              with open(f) as fh:
+                  for row in csv.DictReader(fh):
+                      a = row.get("first_author", "").strip()
+                      if a:
+                          authors.add(a)
+          print(json.dumps(sorted(authors)))
+          EOF
+          )
+          echo "authors=$authors" >> "$GITHUB_OUTPUT"
+
+  package-small:
+    needs: discover-authors
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        author: ${{ fromJson(needs.discover-authors.outputs.authors) }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create tar.gz for ${{ matrix.author }} datasets
+        env:
+          AUTHOR: ${{ matrix.author }}
+          FILENAME: "prod-data-${{ matrix.author }}-${{ github.ref_name }}.tar.gz"
+        run: |
+          SAFE_FILENAME=$(printf '%s' "${FILENAME//\//-}" | tr -cd 'A-Za-z0-9._-')
+          find data/prod -type d -name "*${AUTHOR}*" -print0 \
+            | tar -czf "$SAFE_FILENAME" \
+                --exclude="*.html" \
+                --exclude="*.svg" \
+                --exclude="*.pkl" \
+                --null -T -
+          printf 'FILENAME=%s\n' "$SAFE_FILENAME" >> "$GITHUB_ENV"
 
       - name: Upload to release
         uses: softprops/action-gh-release@v2
