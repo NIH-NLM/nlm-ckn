@@ -1,0 +1,42 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+Adventitial Fibroblast,,,CL:0000057
+Airway Smooth Muscle,,,CL:0002598
+Alveolar Epithelial Type 1,,,CL:0002062
+Alveolar Epithelial Type 2,,,CL:0002063
+Alveolar Fibroblast,,,CL:0000057
+Artery,,,CL:1000413
+B,,,CL:0000236
+Basal,,,CL:0002633
+Basophil/Mast 1,,,CL:0000766
+Bronchial Vessel 1,,,CL:0000115
+CD4+ Memory/Effector T,,,CL:0000905
+CD4+ Naive T,,,CL:0000895
+CD8+ Naive T,,,CL:0000900
+Capillary,,,CL:0002144
+Capillary Aerocyte,,,CL:0000115
+Capillary Intermediate 1,,,CL:0000115
+Ciliated,,,CL:1000271
+Classical Monocyte,,,CL:0000860
+Club,,,CL:0000158
+Dendritic,,,CL:0001056
+Differentiating Basal,,,CL:0000646
+Fibromyocyte,,,CL:0000057
+Goblet,,,CL:1000143
+IGSF21+ Dendritic,,,CL:0000451
+Intermediate Monocyte,,,CL:0002393
+Lipofibroblast,,,CL:0002241
+Lymphatic,,,CL:0002138
+Macrophage,,,CL:0000583
+Myeloid Dendritic Type 2,,,CL:0002399
+Myofibroblast,,,CL:0000186
+Natural Killer,,,CL:0000623
+Natural Killer T,,,CL:0000814
+Neuroendocrine,,,CL:1000223
+Neutrophil,,,CL:0000775
+Nonclassical Monocyte,,,CL:0000875
+Pericyte,,,CL:0000669
+Plasmacytoid Dendritic,,,CL:0001058
+Proliferating NK/T,,,CL:0000542
+Signaling Alveolar Epithelial Type 2,,,CL:0000066
+Vascular Smooth Muscle,,,CL:0000359
+Vein,,,CL:0002543

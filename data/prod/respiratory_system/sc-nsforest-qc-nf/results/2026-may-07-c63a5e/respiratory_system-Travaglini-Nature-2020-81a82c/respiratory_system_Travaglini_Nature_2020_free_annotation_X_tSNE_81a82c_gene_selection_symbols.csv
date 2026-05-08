@@ -1,0 +1,89 @@
+clusterName,gene
+Intermediate Monocyte,C8B
+Intermediate Monocyte,ENSG00000241886
+Macrophage,MCEMP1
+Macrophage,VSIG4
+IGSF21+ Dendritic,GFRA2
+IGSF21+ Dendritic,F13A1
+Myeloid Dendritic Type 2,LY86
+Myeloid Dendritic Type 2,NLRP3
+Classical Monocyte,RNASE2
+Classical Monocyte,FCN1
+Nonclassical Monocyte,CLEC12A
+Nonclassical Monocyte,SIGLEC10
+Nonclassical Monocyte,SLC24A4
+Dendritic,PLD4
+Dendritic,CD33
+Plasmacytoid Dendritic,CLEC4C
+Plasmacytoid Dendritic,JCHAIN
+CD8+ Naive T,ENSG00000227191
+CD8+ Naive T,MIAT
+CD4+ Naive T,TCF7
+CD4+ Naive T,CD3D
+CD4+ Naive T,MCUB
+CD4+ Memory/Effector T,CD3E
+Proliferating NK/T,ASF1B
+Proliferating NK/T,BIRC5
+Natural Killer,SH2D1B
+Natural Killer,KLRD1
+Natural Killer T,XCL1
+Natural Killer T,ENSG00000237499
+B,CD79A
+B,MS4A1
+Neutrophil,FCGR3B
+Capillary,FCN3
+Capillary,EDN1
+Capillary Aerocyte,SOSTDC1
+Capillary Aerocyte,HPGD
+Capillary Intermediate 1,ENSG00000214455
+Capillary Intermediate 1,SOSTDC1
+Capillary Intermediate 1,S100A3
+Capillary Intermediate 1,FZD4
+Vein,ACKR1
+Vein,LYVE1
+Alveolar Epithelial Type 1,RTKN2
+Alveolar Epithelial Type 1,SCEL
+Club,CTSE
+Club,SCGB3A2
+Signaling Alveolar Epithelial Type 2,SLC22A3
+Signaling Alveolar Epithelial Type 2,ENSG00000235584
+Signaling Alveolar Epithelial Type 2,PGC
+Signaling Alveolar Epithelial Type 2,SCGB3A2
+Alveolar Epithelial Type 2,ALPL
+Alveolar Epithelial Type 2,ABCA3
+Ciliated,SPMIP6
+Ciliated,CIBAR2
+Goblet,BPIFB1
+Goblet,MUC5B
+Differentiating Basal,SERPINB3
+Differentiating Basal,CLCA2
+Differentiating Basal,SERPINB4
+Basal,KRT17
+Basal,MIR205HG
+Neuroendocrine,GRP
+Basophil/Mast 1,MS4A2
+Basophil/Mast 1,TPSAB1
+Artery,AIF1L
+Artery,SERPINE2
+Bronchial Vessel 1,FOXC1
+Bronchial Vessel 1,CYYR1
+Lymphatic,CCL21
+Lipofibroblast,PI15
+Lipofibroblast,CPXM1
+Adventitial Fibroblast,SFRP2
+Adventitial Fibroblast,PI16
+Alveolar Fibroblast,VEGFD
+Alveolar Fibroblast,SVEP1
+Myofibroblast,PAMR1
+Myofibroblast,FGF18
+Myofibroblast,BCHE
+Fibromyocyte,PRUNE2
+Fibromyocyte,FNDC1
+Fibromyocyte,RAMP1
+Airway Smooth Muscle,TNNT2
+Airway Smooth Muscle,ATP1A2
+Vascular Smooth Muscle,SLC2A4
+Vascular Smooth Muscle,ADAMTS4
+Vascular Smooth Muscle,GJA4
+Pericyte,PTN
+Pericyte,HIGD1B

@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: respiratory_system_Travaglini_Nature_2020_free_annotation_X_tSNE_81a82c_adata_filtered.h5ad
+Loaded: 8653 cells x 53514 genes
+Cluster header: free_annotation (41 clusters)
+Computing cluster statistics...
+Total cells: 8653
+Number of clusters: 41
+Cells per cluster - Min: 6, Max: 1095, Mean: 211.0
+Saved: respiratory_system_Travaglini_Nature_2020_free_annotation_X_tSNE_81a82c_cluster_statistics.csv
+Cluster statistics complete!
