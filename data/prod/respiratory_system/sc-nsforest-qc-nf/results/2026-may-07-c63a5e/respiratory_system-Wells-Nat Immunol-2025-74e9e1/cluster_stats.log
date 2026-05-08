@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: respiratory_system_Wells_Nat_Immunol_2025_author_cell_type_X_umap_74e9e1_adata_filtered.h5ad
+Loaded: 213154 cells x 35475 genes
+Cluster header: author_cell_type (33 clusters)
+Computing cluster statistics...
+Total cells: 213154
+Number of clusters: 33
+Cells per cluster - Min: 22, Max: 111047, Mean: 6459.2
+Saved: respiratory_system_Wells_Nat_Immunol_2025_author_cell_type_X_umap_74e9e1_cluster_statistics.csv
+Cluster statistics complete!
