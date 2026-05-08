@@ -1,0 +1,10 @@
+clusterName,gene
+rest_CD4,GIMAP7
+rest_CD4,TLE5
+rest_CD8,PLAAT4
+rest_CD8,CCL5
+act_CD8,GZMB
+act_CD8,HOPX
+act_CD4,TNFRSF4
+act_CD4,ENSG00000234883
+act_unassigned,ENSG00000189343

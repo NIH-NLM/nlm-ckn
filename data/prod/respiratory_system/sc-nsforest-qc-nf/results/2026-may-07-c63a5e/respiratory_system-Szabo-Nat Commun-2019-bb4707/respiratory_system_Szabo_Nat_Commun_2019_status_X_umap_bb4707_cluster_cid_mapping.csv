@@ -1,0 +1,7 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+act_CD4,,,CL:0000624
+act_CD8,,,CL:0000625
+act_unassigned,,,CL:0000791
+rest_CD4,,,CL:0000810
+rest_CD8,,,CL:0000811
+rest_unassigned,,,CL:0000790

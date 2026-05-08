@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: respiratory_system_Szabo_Nat_Commun_2019_status_X_umap_bb4707_adata_filtered.h5ad
+Loaded: 11059 cells x 53792 genes
+Cluster header: status (6 clusters)
+Computing cluster statistics...
+Total cells: 11059
+Number of clusters: 6
+Cells per cluster - Min: 98, Max: 3350, Mean: 1843.2
+Saved: respiratory_system_Szabo_Nat_Commun_2019_status_X_umap_bb4707_cluster_statistics.csv
+Cluster statistics complete!
