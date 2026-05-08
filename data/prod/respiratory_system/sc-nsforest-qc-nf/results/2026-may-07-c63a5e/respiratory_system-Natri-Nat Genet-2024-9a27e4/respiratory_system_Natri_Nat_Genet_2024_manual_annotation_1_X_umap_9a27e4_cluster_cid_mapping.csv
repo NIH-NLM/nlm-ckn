@@ -1,0 +1,44 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+AT1,,,CL:0002062
+AT2,,,CL:0002063
+Adventitial FB,,,CL:4052030
+Alveolar FB,,,CL:4028004
+Alveolar macrophage,,,CL:0000583
+Arteriole,,,CL:1000412
+B cells,,,CL:0000236
+Basal,,,CL:0000646
+CD4,,,CL:0000912
+CD8/NKT,,,CL:0000794
+Ciliated,,,CL:0000064
+Differentiating ciliated,,,CL:0000064
+Inflamed,,,CL:4052021
+Inflammatory monocyte,,,CL:0000860
+Interstitial macrophage,,,CL:4033043
+KRT5-/KRT17+,,,CL:0000646
+Lymphatic,,,CL:0009086
+Mast,,,CL:0000097
+Mesothelial,,,CL:1000491
+Monocyte,,,CL:0000576
+Monocyte-derived macrophage,,,CL:0000235
+MyoFB,,,CL:0000186
+MyoFB - Activated,,,CL:0000186
+NK,,,CL:0000623
+PLIN2+ FB,,,CL:4052030
+PNEC,,,CL:1000223
+Pericyte,,,CL:0000669
+Plasma,,,CL:0000786
+Proliferating - Epi,,,CL:0000082
+Proliferating - Imm,,,CL:0000988
+SMC,,,CL:0000192
+Secretory - SCGB1A1+/MUC5B+,,,CL:1000272
+Secretory - SCGB1A1+/SCGB3A2+,,,CL:1000272
+Secretory - SCGB3A2+,,,CL:1000272
+Systemic venous,,,CL:4033008
+Transitional AT2,,,CL:0002063
+Venule,,,CL:4033008
+aCap,,,CL:4028001
+cDC1,,,CL:0000990
+cDC2,,,CL:0000990
+gCap,,,CL:4028001
+moDC,,,CL:0001057
+pDC,,,CL:0000784

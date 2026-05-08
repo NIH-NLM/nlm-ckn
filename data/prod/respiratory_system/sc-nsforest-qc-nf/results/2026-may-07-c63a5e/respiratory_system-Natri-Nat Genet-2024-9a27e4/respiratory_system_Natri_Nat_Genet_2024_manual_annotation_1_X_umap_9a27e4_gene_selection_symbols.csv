@@ -1,0 +1,91 @@
+clusterName,gene
+Interstitial macrophage,TM4SF19
+Interstitial macrophage,DCSTAMP
+Monocyte-derived macrophage,MARCO
+Monocyte-derived macrophage,ACP5
+Alveolar macrophage,GPD1
+Alveolar macrophage,INHBA
+Alveolar macrophage,MCEMP1
+KRT5-/KRT17+,DEFB4A
+KRT5-/KRT17+,ITGA2
+KRT5-/KRT17+,PMEPA1
+AT1,ANKRD29
+AT1,AGER
+Mesothelial,CALB2
+Mesothelial,PRG4
+Adventitial FB,MFAP5
+Adventitial FB,FBLN2
+Alveolar FB,MOXD1
+Alveolar FB,CDH11
+PLIN2+ FB,MEDAG
+PLIN2+ FB,GFPT2
+PLIN2+ FB,CCL2
+MyoFB - Activated,CTHRC1
+MyoFB - Activated,MXRA5
+MyoFB - Activated,FAP
+Pericyte,HIGD1B
+Pericyte,NDUFA4L2
+SMC,MYH11
+SMC,PLN
+MyoFB,IGFBP5
+MyoFB,CFH
+Ciliated,CCDC78
+Ciliated,ZMYND10
+Differentiating ciliated,BPIFB1
+Differentiating ciliated,CXCL1
+Differentiating ciliated,CAPS
+Differentiating ciliated,CFAP276
+PNEC,HEPACAM2
+Basal,KRT5
+Basal,S100A2
+Secretory - SCGB1A1+/MUC5B+,BPIFB1
+Secretory - SCGB1A1+/SCGB3A2+,SCGB3A2
+Secretory - SCGB1A1+/SCGB3A2+,KLK11
+Proliferating - Epi,CDK1
+Proliferating - Epi,CENPU
+Secretory - SCGB3A2+,HSD17B6
+Secretory - SCGB3A2+,AQP5
+Secretory - SCGB3A2+,GDF15
+Secretory - SCGB3A2+,SCGB3A2
+AT2,SFTPA1
+Transitional AT2,SFN
+Transitional AT2,IL32
+CD8/NKT,CD8A
+CD8/NKT,CD3D
+CD8/NKT,CCL5
+NK,SH2D1B
+NK,PRF1
+cDC1,CCL19
+cDC1,CCL22
+pDC,CLEC4C
+pDC,LILRA4
+Plasma,TNFRSF17
+Monocyte,S100A12
+Monocyte,S100A8
+Inflammatory monocyte,LILRB1
+Inflammatory monocyte,LILRB2
+moDC,F13A1
+moDC,GPR34
+cDC2,CD1E
+cDC2,FCER1A
+Proliferating - Imm,MKI67
+Proliferating - Imm,NUDT1
+Lymphatic,CCL21
+Systemic venous,PLVAP
+Systemic venous,CCL14
+Systemic venous,ADGRL4
+Systemic venous,ACKR1
+Venule,PLAT
+Venule,ACKR1
+Arteriole,IGFBP3
+Arteriole,FAM107A
+gCap,CA4
+gCap,FCN3
+aCap,HPGD
+Inflamed,CCL2
+Inflamed,BCL3
+Mast,CPA3
+Mast,TPSAB1
+B cells,MS4A1
+CD4,CD3E
+CD4,SPOCK2
