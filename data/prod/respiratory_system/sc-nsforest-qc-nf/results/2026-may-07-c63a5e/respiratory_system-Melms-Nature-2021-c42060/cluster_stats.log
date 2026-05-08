@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: respiratory_system_Melms_Nature_2021_cell_type_fine_X_UMAP_c42060_adata_filtered.h5ad
+Loaded: 36677 cells x 33523 genes
+Cluster header: cell_type_fine (41 clusters)
+Computing cluster statistics...
+Total cells: 36677
+Number of clusters: 41
+Cells per cluster - Min: 36, Max: 6911, Mean: 894.6
+Saved: respiratory_system_Melms_Nature_2021_cell_type_fine_X_UMAP_c42060_cluster_statistics.csv
+Cluster statistics complete!

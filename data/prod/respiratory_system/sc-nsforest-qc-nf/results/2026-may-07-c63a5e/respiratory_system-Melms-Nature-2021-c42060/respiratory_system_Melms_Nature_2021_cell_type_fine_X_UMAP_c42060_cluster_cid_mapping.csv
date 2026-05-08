@@ -1,0 +1,42 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+AT1,,,CL:0002063
+AT2,,,CL:0002063
+Activated B cells,,,CL:0000236
+Adventitial FB,,,CL:0000057
+Airway basal,,,CL:0002633
+Airway ciliated,,,CL:1000271
+Airway club,,,CL:0000158
+Airway goblet,,,CL:1000143
+Airway mucous,,,CL:0000319
+Airway smooth muscle,,,CL:0019019
+Alveolar FB,,,CL:4028006
+Alveolar macrophages,,,CL:0000583
+Arterial endothelial cells,,,CL:1000413
+B cells,,,CL:0000236
+CD4+ T cells,,,CL:0000624
+CD8+ T cells,,,CL:0000625
+Capillary endothelial cells,,,CL:0002144
+Cycling NK/T cells,,,CL:0000623
+Cycling epithelial,,,CL:0000066
+Dendritic cells,,,CL:0000451
+ECM-high epithelial,,,CL:0000066
+Endothelial cells (general),,,CL:0000115
+Endothelial cells (other),,,CL:0000115
+Inflamed endothelial cells,,,CL:0000115
+Intermediate pathological FB,,,CL:0000057
+Mast cells,,,CL:0000097
+Mesothelial FB,,,CL:4023054
+Monocyte-derived macrophages,,,CL:0000235
+Monocytes,,,CL:0000576
+NK cells,,,CL:0000623
+Neuronal cells,,,CL:0000540
+Other FB,,,CL:0000057
+Pathological FB,,,CL:0000057
+Pericytes,,,CL:0000669
+Plasma cells,,,CL:0000786
+Pulmonary venous endothelial cells,,,CL:0002543
+Systemic venous endothelial cells,,,CL:0002543
+Transitioning MDM,,,CL:0000576
+Tregs,,,CL:0000815
+Tuft-like,,,CL:0002075
+Vascular smooth muscle,,,CL:0000359

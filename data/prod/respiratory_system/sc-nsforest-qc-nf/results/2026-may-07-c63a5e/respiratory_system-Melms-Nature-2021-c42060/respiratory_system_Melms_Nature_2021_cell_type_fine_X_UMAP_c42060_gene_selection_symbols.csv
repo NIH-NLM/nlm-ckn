@@ -1,0 +1,88 @@
+clusterName,gene
+Alveolar macrophages,PPARG
+Alveolar macrophages,INHBA
+Monocyte-derived macrophages,F13A1
+Transitioning MDM,ATP1B3
+Transitioning MDM,CSF2RA
+Dendritic cells,CSF2RA
+Dendritic cells,HDAC9
+Monocytes,MTSS1
+Monocytes,TBC1D8
+Plasma cells,ENSG00000211592
+Cycling NK/T cells,NSD2
+Cycling NK/T cells,XPO1
+Cycling NK/T cells,XKR6
+Cycling NK/T cells,PVT1
+B cells,BACH2
+B cells,BANK1
+Activated B cells,BANK1
+Activated B cells,IFNG-AS1
+Tregs,ENSG00000227240
+Tregs,IKZF2
+CD4+ T cells,THEMIS
+CD8+ T cells,AOAH
+CD8+ T cells,CDC42SE2
+NK cells,KLRD1
+NK cells,CD247
+Mast cells,KIT
+Mast cells,SLC24A3
+Cycling epithelial,RPL13A
+Cycling epithelial,PTMA
+Tuft-like,TAGLN2
+Tuft-like,TACSTD2
+Tuft-like,AGR2
+Airway goblet,FER1L6
+Airway goblet,MIR31HG
+Airway mucous,GNGT1
+Airway ciliated,DNAH12
+Airway ciliated,CFAP299
+Airway basal,MIR205HG
+Airway basal,KRT17
+AT2,AGBL1
+Airway club,ENSG00000285801
+Airway club,LINC02889
+Airway club,SFTPB
+ECM-high epithelial,ANK3
+ECM-high epithelial,COL4A2
+ECM-high epithelial,DLG2
+ECM-high epithelial,RBM47
+ECM-high epithelial,ARGLU1
+AT1,ENSG00000257894
+AT1,RTKN2
+Neuronal cells,RELN
+Arterial endothelial cells,DKK2
+Pulmonary venous endothelial cells,NALF1
+Pulmonary venous endothelial cells,HDAC9
+Systemic venous endothelial cells,ADGRL4
+Systemic venous endothelial cells,ZNF385D
+Endothelial cells (other),BTNL9
+Endothelial cells (other),GALNT18
+Endothelial cells (other),VWF
+Endothelial cells (other),ADGRL2
+Inflamed endothelial cells,NOTCH4
+Inflamed endothelial cells,ADGRF5
+Pathological FB,LUM
+Endothelial cells (general),NOSTRIN
+Endothelial cells (general),BTNL9
+Capillary endothelial cells,HPGD
+Capillary endothelial cells,FENDRR
+Vascular smooth muscle,FMO2
+Vascular smooth muscle,CCBE1
+Vascular smooth muscle,PLEKHH2
+Vascular smooth muscle,SCN7A
+Vascular smooth muscle,ENSG00000247809
+Vascular smooth muscle,SLIT3
+Mesothelial FB,VCAM1
+Mesothelial FB,MYO16
+Mesothelial FB,ITIH5
+Pericytes,ADARB2
+Airway smooth muscle,MYH11
+Airway smooth muscle,ENSG00000249669
+Alveolar FB,ADGRB3
+Alveolar FB,MYH10
+Other FB,FGF14
+Intermediate pathological FB,COL6A3
+Intermediate pathological FB,CDH11
+Intermediate pathological FB,COL1A2
+Adventitial FB,CCDC80
+Adventitial FB,PID1
