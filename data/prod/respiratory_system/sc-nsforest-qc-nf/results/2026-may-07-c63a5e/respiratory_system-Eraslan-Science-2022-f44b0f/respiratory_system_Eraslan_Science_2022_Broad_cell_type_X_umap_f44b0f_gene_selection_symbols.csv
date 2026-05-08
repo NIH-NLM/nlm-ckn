@@ -1,0 +1,24 @@
+clusterName,gene
+Fibroblast,SCN7A
+Pericyte/SMC,ACTA2
+Endothelial cell (vascular),PTPRB
+Endothelial cell (lymphatic),MMRN1
+Endothelial cell (lymphatic),PKHD1L1
+Immune (alveolar macrophage),SLC11A1
+Immune (alveolar macrophage),PPARG
+Immune (DC/macrophage),RBPJ
+Immune (mast cell),TPSB2
+Immune (mast cell),KIT
+Immune (B cell),RALGPS2
+Immune (NK cell),GNLY
+Immune (T cell),THEMIS
+Immune (T cell),SKAP1
+Epithelial cell (ciliated),CFAP299
+Epithelial cell (ciliated),LRRIQ1
+Epithelial cell (alveolar type II),SFTPC
+Epithelial cell (alveolar type II),ZNF385B
+Epithelial cell (club),CDK14
+Epithelial cell (club),ERBB4
+Epithelial cell (basal),EYA2
+Epithelial cell (alveolar type I),NCKAP5
+Epithelial cell (alveolar type I),EMP2

@@ -1,0 +1,16 @@
+clusterName,NSForest_markers,f_score
+Fibroblast,['SCN7A'],0.8294753086419753
+Pericyte/SMC,['ACTA2'],0.5568445475638051
+Endothelial cell (vascular),['PTPRB'],0.8184651762682718
+Endothelial cell (lymphatic),"['MMRN1', 'PKHD1L1']",0.8243243243243243
+Immune (alveolar macrophage),"['SLC11A1', 'PPARG']",0.8979826536968709
+Immune (DC/macrophage),['RBPJ'],0.4726622381195707
+Immune (mast cell),"['TPSB2', 'KIT']",0.8011049723756906
+Immune (B cell),['RALGPS2'],0.4444444444444444
+Immune (NK cell),['GNLY'],0.78125
+Immune (T cell),"['THEMIS', 'SKAP1']",0.7249190938511327
+Epithelial cell (ciliated),"['CFAP299', 'LRRIQ1']",0.8924010217113666
+Epithelial cell (alveolar type II),"['SFTPC', 'ZNF385B']",0.9374016043181648
+Epithelial cell (club),"['CDK14', 'ERBB4']",0.2933673469387755
+Epithelial cell (basal),['EYA2'],0.2826086956521739
+Epithelial cell (alveolar type I),"['NCKAP5', 'EMP2']",0.8963699799569446
