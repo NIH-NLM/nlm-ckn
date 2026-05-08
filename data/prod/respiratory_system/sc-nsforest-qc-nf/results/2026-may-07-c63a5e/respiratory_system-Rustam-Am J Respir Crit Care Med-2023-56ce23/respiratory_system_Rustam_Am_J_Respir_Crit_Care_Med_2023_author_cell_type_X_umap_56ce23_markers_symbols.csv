@@ -1,0 +1,18 @@
+clusterName,NSForest_markers,f_score
+Ionocytes,"['TMPRSS11E', 'FOXI1']",0.7627118644067796
+Neuroendocrine cells,"['GRP', 'CHGA']",0.925925925925926
+Pericytes,['LAMC3'],0.74235807860262
+Undetermined or mixed,"['PLCG2', 'MAFB']",0.4013157894736842
+Mast cells,"['TPSB2', 'TPSAB1']",0.964898716561002
+T-NK intermediate cells,"['NKG7', 'TUBA4A']",0.4285134037367993
+Natural killer cells,"['PRF1', 'FGFBP2']",0.6981309879063924
+B cells,['MS4A1'],0.903471856917412
+Plasma cells,['ENSG00000211895'],0.8848314606741573
+Intermediate cells,"['SERPINB5', 'SERPINB3']",0.7881332599118943
+Basal cells,"['KRT15', 'KRT5']",0.8340493433165582
+Monocytes,"['FCN1', 'EREG']",0.792844386969641
+Neutrophils,['CSF3R'],0.8163128191346413
+Myoepithelial cells,"['KRT17', 'ACTG2']",0.8024691358024691
+Pre-ciliated (deuterosomal) cells,"['CDC20B', 'CDC20']",0.7790697674418605
+Hybrid cells,"['CYP2F1', 'CXCL6', 'SCNN1B', 'CEACAM6']",0.232406955956444
+Terminal airway-enriched secretory cells,"['TMEM45A', 'SFTPB']",0.6593406593406593

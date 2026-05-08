@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: respiratory_system_Rustam_Am_J_Respir_Crit_Care_Med_2023_author_cell_type_X_umap_56ce23_adata_filtered.h5ad
+Loaded: 85976 cells x 35468 genes
+Cluster header: author_cell_type (50 clusters)
+Computing cluster statistics...
+Total cells: 85976
+Number of clusters: 50
+Cells per cluster - Min: 29, Max: 8947, Mean: 1719.5
+Saved: respiratory_system_Rustam_Am_J_Respir_Crit_Care_Med_2023_author_cell_type_X_umap_56ce23_cluster_statistics.csv
+Cluster statistics complete!

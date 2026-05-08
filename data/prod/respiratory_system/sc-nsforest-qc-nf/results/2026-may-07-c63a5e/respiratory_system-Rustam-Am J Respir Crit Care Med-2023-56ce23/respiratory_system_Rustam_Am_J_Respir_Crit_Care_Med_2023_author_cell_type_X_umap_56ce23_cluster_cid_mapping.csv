@@ -1,0 +1,51 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+"Alveolar epithelial cells, type 1",,,CL:0002062
+"Alveolar epithelial cells, type 2",,,CL:0002063
+B cells,,,CL:0000236
+Basal cells,,,CL:0002633
+"CD8+ enriched T, common subtype",,,CL:0000625
+"Chondrocytes, cartilage cells",,,CL:0000138
+"Ciliated cells, major (common) subtype",,,CL:0002145
+"Ciliated cells, secretory-like",,,CL:0002145
+"Dendritic cells, conventional (myeloid)",,,CL:0000990
+"Dendritic cells, plasmacytoid",,,CL:0000784
+"Endothelial cells, arterial",,,CL:1000413
+"Endothelial cells, capillary, aerocyte-enriched",,,CL:4028001
+"Endothelial cells, capillary, common",,,CL:2000016
+"Endothelial cells, lymphatic",,,CL:0002138
+"Endothelial cells, smooth muscle-like",,,CL:0000359
+"Endothelial cells, venous; fenestrated",,,CL:4033008
+"Fibroblasts, adventitial-enriched",,,CL:0000057
+"Fibroblasts, alveolar-enriched",,,CL:0002553
+"Fibroblasts, common subtype",,,CL:2000093
+"Fibroblasts, matrix and myofibroblasts",,,CL:0000057
+"Glandular, mucous cells",,,CL:4033022
+"Glandular, serous cells",,,CL:4033005
+"Glial, Schwann cells",,,CL:0002573
+Hybrid cells,,,CL:0002145
+Intermediate cells,,,CL:4033048
+Ionocytes,,,CL:0017000
+"Macrophages, M1-2 intermediate",,,CL:0000235
+"Macrophages, inflammatory, M1-like",,,CL:0000235
+"Macrophages, non-inflammatory, M2-like",,,CL:0000890
+Mast cells,,,CL:0000097
+Monocytes,,,CL:0000576
+Myoepithelial cells,,,CL:4033003
+Natural killer cells,,,CL:0000623
+Neuroendocrine cells,,,CL:1000223
+Neutrophils,,,CL:0000775
+Pericytes,,,CL:0000669
+Plasma cells,,,CL:0000786
+Pre-ciliated (deuterosomal) cells,,,CL:4033044
+"Secretory cells, major (common) subtype",,,CL:0019001
+"Secretory cells, mucous",,,CL:0002370
+"Smooth muscle cells, airway-enriched",,,CL:4033017
+"Smooth muscle cells, vascular enriched 1",,,CL:0019018
+"Smooth muscle cells, vascular enriched 2",,,CL:0019018
+"T cells, central memory and naïve",,,CL:0000624
+"T cells, interferon-stimulated",,,CL:0000624
+"T cells, resident memory",,,CL:4033039
+"T cells, undefined",,,CL:0000084
+T-NK intermediate cells,,,CL:0000814
+Terminal airway-enriched secretory cells,,,CL:1000333
+Undetermined or mixed,,,unknown
