@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: respiratory_system_Berg_Journal_of_Cystic_Fibrosis_2025_Level_5_X_umap_17763a_adata_filtered.h5ad
+Loaded: 80610 cells x 35461 genes
+Cluster header: Level_5 (41 clusters)
+Computing cluster statistics...
+Total cells: 80610
+Number of clusters: 41
+Cells per cluster - Min: 5, Max: 45246, Mean: 1966.1
+Saved: respiratory_system_Berg_Journal_of_Cystic_Fibrosis_2025_Level_5_X_umap_17763a_cluster_statistics.csv
+Cluster statistics complete!

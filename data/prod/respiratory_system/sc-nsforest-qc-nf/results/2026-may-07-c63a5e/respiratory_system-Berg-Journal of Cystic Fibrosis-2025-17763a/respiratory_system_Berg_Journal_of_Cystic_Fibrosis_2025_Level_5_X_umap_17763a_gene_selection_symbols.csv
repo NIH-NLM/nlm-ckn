@@ -1,0 +1,87 @@
+clusterName,gene
+4_Pericytes,COX4I2
+4_Pericytes,RGS5
+4_Pericytes,HIGD1B
+3_Lymphatic EC mature,GPRC5B
+3_Lymphatic EC mature,DMXL1
+4_EC venous pulmonary,ENG
+4_EC venous pulmonary,AQP1
+4_EC general capillary,ZNF507
+4_EC general capillary,RBP7
+4_Alveolar fibroblasts,ITGA8
+4_Alveolar fibroblasts,SLC24A3
+4_Alveolar fibroblasts,PDZRN3
+4_Adventitial fibroblasts,OGN
+4_Adventitial fibroblasts,PI16
+4_Peribronchial fibroblasts,COL1A1
+4_Peribronchial fibroblasts,MFAP4
+SMG serous (bronchial),S100A1
+SMG serous (bronchial),LTF
+SMG serous (nasal),C5orf46
+SMG serous (nasal),ODAM
+SMG serous (nasal),TESC
+4_Plasma cells,MZB1
+4_Plasma cells,ENSG00000211897
+Goblet (bronchial),SLC26A4
+Goblet (bronchial),XIST
+Goblet (bronchial),PDZK1IP1
+Club (non-nasal),C16orf89
+Club (non-nasal),S100P
+Goblet (nasal),LYPD2
+Goblet (nasal),MAL2
+Club (nasal),SERPINB3
+Goblet (subsegmental),C16orf89
+Goblet (subsegmental),LYPD2
+Multiciliated (nasal),ANKRD36
+Multiciliated (non-nasal),RP1
+Multiciliated (non-nasal),DNAH9
+4_Deuterosomal,CDC20B
+4_Deuterosomal,FOXN4
+4_Deuterosomal,EPIST
+4_Ionocyte,ASCL3
+4_Neuroendocrine,PHGR1
+4_Neuroendocrine,PCSK1N
+4_SMG mucous,BPIFB2
+4_SMG duct,MMP7
+Unknown,MIR205HG
+Unknown,MT1X
+Unknown,KRT17
+4_Basal resting,ADH7
+4_Basal resting,KRT15
+4_Basal resting,S100A2
+4_Suprabasal,SERPINB4
+4_Suprabasal,MT1X
+4_Tuft,NREP
+4_Tuft,ST18
+4_Tuft,STMN1
+4_EC venous systemic,NRN1
+4_EC venous systemic,PLVAP
+4_EC venous systemic,ACKR1
+3_EC arterial,SOX17
+3_EC arterial,CLDN5
+3_Fibromyocytes,ACTG2
+3_Fibromyocytes,DES
+2_Smooth muscle,RERGL
+2_Smooth muscle,NDUFA4L2
+,JUNB
+4_CD8 T cells,ENSG00000277734
+4_CD4 T cells,LTB
+4_CD4 T cells,IL32
+4_CD4 T cells,CD3D
+4_B cells,BANK1
+4_B cells,LTB
+4_DC2,FCER1A
+4_DC2,LY86
+4_DC2,LST1
+4_Classical monocytes,S100A12
+4_Classical monocytes,SELL
+3_Mast cells,TPSB2
+4_Alveolar macrophages,AGRP
+4_Alveolar macrophages,APOC1
+Alveolar Mφ CCL3+,CCL18
+Alveolar Mφ CCL3+,NR1H3
+Alveolar Mφ CCL3+,CCL4
+Monocyte-derived Mφ,APOC1
+Monocyte-derived Mφ,DAB2
+Interstitial Mφ perivascular,F13A1
+Interstitial Mφ perivascular,LGMN

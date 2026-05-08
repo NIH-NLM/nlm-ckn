@@ -1,0 +1,72 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+2_Smooth muscle,,,CL:0000499
+3_EC arterial,,,CL:0002350
+3_Fibromyocytes,,,CL:0000499
+3_Lymphatic EC mature,,,CL:0002350
+3_Mast cells,,,CL:0000097
+4_Adventitial fibroblasts,,,CL:4028006
+4_Alveolar fibroblasts,,,CL:4028004
+4_Alveolar macrophages,,,CL:0000235
+4_B cells,,,CL:0000236
+4_Basal resting,,,CL:0000646
+4_CD4 T cells,,,CL:0000492
+4_CD8 T cells,,,CL:0000625
+4_Classical monocytes,,,CL:0000576
+4_DC2,,,CL:0001056
+4_Deuterosomal,,,CL:4030034
+4_EC general capillary,,,CL:0002350
+4_EC venous pulmonary,,,CL:0002350
+4_EC venous systemic,,,CL:0002350
+4_Ionocyte,,,CL:0005006
+4_Neuroendocrine,,,CL:1000223
+4_Peribronchial fibroblasts,,,CL:0002553
+4_Pericytes,,,CL:0000669
+4_Plasma cells,,,CL:0000786
+4_SMG duct,,,CL:4033022
+4_SMG mucous,,,CL:4033022
+4_Suprabasal,,,CL:4033048
+4_Tuft,,,CL:0000082
+Alveolar Mφ CCL3+,,,CL:0000235
+Club (nasal),,,CL:0000158
+Club (non-nasal),,,CL:0000158
+Goblet (bronchial),,,CL:1000312
+Goblet (nasal),,,CL:0002480
+Goblet (subsegmental),,,CL:0002370
+Interstitial Mφ perivascular,,,CL:0000235
+Monocyte-derived Mφ,,,CL:0000235
+Multiciliated (nasal),,,CL:4030034
+Multiciliated (non-nasal),,,CL:4030034
+None,,,CL:0000082
+None,,,CL:0000097
+None,,,CL:0000151
+None,,,CL:0000235
+None,,,CL:0000236
+None,,,CL:0000492
+None,,,CL:0000499
+None,,,CL:0000576
+None,,,CL:0000646
+None,,,CL:0000669
+None,,,CL:0000910
+None,,,CL:0001056
+None,,,CL:0001065
+None,,,CL:0002350
+None,,,CL:0002419
+None,,,CL:0002553
+None,,,CL:0005006
+None,,,CL:4028004
+None,,,CL:4028006
+None,,,CL:4030034
+None,,,CL:4033022
+SMG serous (bronchial),,,CL:4033022
+SMG serous (nasal),,,CL:4033022
+Unknown,,,CL:0000082
+Unknown,,,CL:0000151
+Unknown,,,CL:0000235
+Unknown,,,CL:0000499
+Unknown,,,CL:0000576
+Unknown,,,CL:0000646
+Unknown,,,CL:0000910
+Unknown,,,CL:0001056
+Unknown,,,CL:0002350
+Unknown,,,CL:4030034
+Unknown,,,CL:4033022

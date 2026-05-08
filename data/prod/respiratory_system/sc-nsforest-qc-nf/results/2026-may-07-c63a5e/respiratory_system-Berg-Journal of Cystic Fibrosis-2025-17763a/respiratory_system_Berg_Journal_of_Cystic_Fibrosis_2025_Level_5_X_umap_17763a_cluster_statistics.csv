@@ -1,0 +1,42 @@
+cluster,n_cells,percentage
+2_Smooth muscle,200,0.25
+3_EC arterial,36,0.04
+3_Fibromyocytes,85,0.11
+3_Lymphatic EC mature,6,0.01
+3_Mast cells,58,0.07
+4_Adventitial fibroblasts,6,0.01
+4_Alveolar fibroblasts,7,0.01
+4_Alveolar macrophages,14,0.02
+4_B cells,12,0.01
+4_Basal resting,10362,12.85
+4_CD4 T cells,47,0.06
+4_CD8 T cells,739,0.92
+4_Classical monocytes,11,0.01
+4_DC2,242,0.3
+4_Deuterosomal,28,0.03
+4_EC general capillary,6,0.01
+4_EC venous pulmonary,15,0.02
+4_EC venous systemic,1011,1.25
+4_Ionocyte,19,0.02
+4_Neuroendocrine,23,0.03
+4_Peribronchial fibroblasts,224,0.28
+4_Pericytes,6,0.01
+4_Plasma cells,114,0.14
+4_SMG duct,60,0.07
+4_SMG mucous,259,0.32
+4_Suprabasal,4464,5.54
+4_Tuft,12,0.01
+Alveolar Mφ CCL3+,14,0.02
+Club (nasal),105,0.13
+Club (non-nasal),2436,3.02
+Goblet (bronchial),327,0.41
+Goblet (nasal),371,0.46
+Goblet (subsegmental),23,0.03
+Interstitial Mφ perivascular,73,0.09
+Monocyte-derived Mφ,20,0.02
+Multiciliated (nasal),12,0.01
+Multiciliated (non-nasal),9428,11.7
+None,45246,56.13
+SMG serous (bronchial),1610,2.0
+SMG serous (nasal),5,0.01
+Unknown,2874,3.57

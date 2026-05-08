@@ -1,0 +1,42 @@
+clusterName,NSForest_markers,f_score
+4_Pericytes,"['COX4I2', 'RGS5', 'HIGD1B']",0.5769230769230769
+3_Lymphatic EC mature,"['GPRC5B', 'DMXL1']",0.7142857142857143
+4_EC venous pulmonary,"['ENG', 'AQP1']",0.4347826086956521
+4_EC general capillary,"['ZNF507', 'RBP7']",0.7142857142857143
+4_Alveolar fibroblasts,"['ITGA8', 'SLC24A3', 'PDZRN3']",0.6666666666666666
+4_Adventitial fibroblasts,"['OGN', 'PI16']",0.5
+4_Peribronchial fibroblasts,"['COL1A1', 'MFAP4']",0.6169871794871795
+SMG serous (bronchial),"['S100A1', 'LTF']",0.9076809453471196
+SMG serous (nasal),"['C5orf46', 'ODAM', 'TESC']",0.7692307692307693
+4_Plasma cells,"['MZB1', 'ENSG00000211897']",0.4533678756476684
+Goblet (bronchial),"['SLC26A4', 'XIST', 'PDZK1IP1']",0.5959475566150179
+Club (non-nasal),"['C16orf89', 'S100P']",0.6442039106145251
+Goblet (nasal),"['LYPD2', 'MAL2']",0.3129445234708393
+Club (nasal),['SERPINB3'],0.0867052023121387
+Goblet (subsegmental),"['C16orf89', 'LYPD2']",0.1851851851851851
+Multiciliated (nasal),['ANKRD36'],0.3125
+Multiciliated (non-nasal),"['RP1', 'DNAH9']",0.9487216317150244
+4_Deuterosomal,"['CDC20B', 'FOXN4', 'EPIST']",0.6666666666666666
+4_Ionocyte,['ASCL3'],0.4651162790697674
+4_Neuroendocrine,"['PHGR1', 'PCSK1N']",0.9223300970873788
+4_SMG mucous,['BPIFB2'],0.8316151202749141
+4_SMG duct,['MMP7'],0.3409090909090909
+Unknown,"['MIR205HG', 'MT1X', 'KRT17']",0.1296566837107377
+4_Basal resting,"['ADH7', 'KRT15', 'S100A2']",0.6140276120674961
+4_Suprabasal,"['SERPINB4', 'MT1X']",0.6073281452658884
+4_Tuft,"['NREP', 'ST18', 'STMN1']",0.7142857142857143
+4_EC venous systemic,"['NRN1', 'PLVAP', 'ACKR1']",0.4875100725221595
+3_EC arterial,"['SOX17', 'CLDN5']",0.4017857142857143
+3_Fibromyocytes,"['ACTG2', 'DES']",0.7673860911270983
+2_Smooth muscle,"['RERGL', 'NDUFA4L2']",0.5043859649122807
+,['JUNB'],0.8106254519576221
+4_CD8 T cells,['ENSG00000277734'],0.3515028018339277
+4_CD4 T cells,"['LTB', 'IL32', 'CD3D']",0.202020202020202
+4_B cells,"['BANK1', 'LTB']",0.4166666666666667
+4_DC2,"['FCER1A', 'LY86', 'LST1']",0.4545454545454545
+4_Classical monocytes,"['S100A12', 'SELL']",0.5263157894736842
+3_Mast cells,['TPSB2'],0.569620253164557
+4_Alveolar macrophages,"['AGRP', 'APOC1']",0.7894736842105263
+Alveolar Mφ CCL3+,"['CCL18', 'NR1H3', 'CCL4']",0.7894736842105263
+Monocyte-derived Mφ,"['APOC1', 'DAB2']",0.25
+Interstitial Mφ perivascular,"['F13A1', 'LGMN']",0.2752293577981651
