@@ -1,0 +1,17 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+Basal II cells,,,CL:1000349
+Basal cells,,,CL:1000349
+Ciliated cells,,,CL:0002332
+Club cells,,,CL:0000158
+Dendritic cells,,,CL:0000451
+Goblet cells,,,CL:1000312
+Ionocytes,,,CL:0017000
+MT gene enriched cells,,,CL:0002368
+Mast cells,,,CL:0000097
+Maturing ciliated cells,,,CL:4033044
+NK cells,,,CL:0000623
+Neutrophils & macrophages,,,CL:0000763
+Peri-goblet cells,,,CL:1000272
+Secretory cells (HLA-DQA1),,,CL:1000272
+Suprabasal cells,,,CL:4033048
+T cells,,,CL:0000084
