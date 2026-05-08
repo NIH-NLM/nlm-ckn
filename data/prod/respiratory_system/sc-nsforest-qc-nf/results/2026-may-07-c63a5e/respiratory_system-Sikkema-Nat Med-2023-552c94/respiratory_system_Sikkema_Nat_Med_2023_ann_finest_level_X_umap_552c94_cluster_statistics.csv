@@ -1,0 +1,62 @@
+cluster,n_cells,percentage
+Basal resting,38805,6.7
+Suprabasal,39491,6.82
+Hillock-like,4345,0.75
+Deuterosomal,982,0.17
+Multiciliated (nasal),4867,0.84
+Multiciliated (non-nasal),34541,5.96
+Club (non-nasal),9947,1.72
+Club (nasal),25487,4.4
+Goblet (nasal),33707,5.82
+Goblet (bronchial),1630,0.28
+Goblet (subsegmental),966,0.17
+AT0,1440,0.25
+pre-TB secretory,4391,0.76
+Ionocyte,551,0.1
+Tuft,161,0.03
+Neuroendocrine,155,0.03
+SMG serous (nasal),1472,0.25
+SMG serous (bronchial),1417,0.24
+SMG mucous,537,0.09
+SMG duct,1227,0.21
+AT1,7937,1.37
+AT2,61429,10.6
+AT2 proliferating,976,0.17
+EC arterial,7391,1.28
+EC aerocyte capillary,7157,1.24
+EC general capillary,16048,2.77
+EC venous systemic,6556,1.13
+EC venous pulmonary,6418,1.11
+Lymphatic EC mature,3999,0.69
+Lymphatic EC proliferating,28,0.0
+Lymphatic EC differentiating,566,0.1
+Peribronchial fibroblasts,1558,0.27
+Adventitial fibroblasts,10312,1.78
+Alveolar fibroblasts,5182,0.89
+Pericytes,3032,0.52
+Subpleural fibroblasts,276,0.05
+Myofibroblasts,716,0.12
+Smooth muscle,2996,0.52
+Smooth muscle FAM83D+,335,0.06
+SM activated stress response,556,0.1
+Mesothelium,230,0.04
+Hematopoietic stem cells,60,0.01
+B cells,4509,0.78
+Plasma cells,1773,0.31
+CD4 T cells,21285,3.67
+CD8 T cells,29070,5.02
+T cells proliferating,500,0.09
+NK cells,16978,2.93
+DC1,322,0.06
+DC2,9122,1.57
+Migratory DCs,312,0.05
+Plasmacytoid DCs,552,0.1
+Alveolar macrophages,68484,11.82
+Alveolar Mph CCL3+,8065,1.39
+Alveolar Mph MT-positive,1203,0.21
+Alveolar Mph proliferating,1061,0.18
+Monocyte-derived Mph,28217,4.87
+Interstitial Mph perivascular,4805,0.83
+Classical monocytes,17694,3.05
+Non-classical monocytes,8833,1.52
+Mast cells,6623,1.14

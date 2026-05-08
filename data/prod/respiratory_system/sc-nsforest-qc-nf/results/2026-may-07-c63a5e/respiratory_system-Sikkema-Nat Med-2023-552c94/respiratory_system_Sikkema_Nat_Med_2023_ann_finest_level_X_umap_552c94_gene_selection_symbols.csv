@@ -1,0 +1,126 @@
+clusterName,gene
+EC venous systemic,PLVAP
+EC venous systemic,EMCN
+Migratory DCs,CCL22
+Plasma cells,JCHAIN
+Plasmacytoid DCs,LILRA4
+Plasmacytoid DCs,JCHAIN
+B cells,MS4A1
+B cells,CD79A
+NK cells,KLRF1
+NK cells,PRF1
+CD8 T cells,CCL5
+CD8 T cells,CD3D
+CD4 T cells,LTB
+CD4 T cells,CD3D
+T cells proliferating,CD3G
+T cells proliferating,MKI67
+T cells proliferating,PCLAF
+T cells proliferating,CD3D
+Hematopoietic stem cells,CYTL1
+Hematopoietic stem cells,FAM30A
+Mast cells,TPSAB1
+Myofibroblasts,ASPN
+Myofibroblasts,DKK3
+Myofibroblasts,BCHE
+SM activated stress response,RERGL
+SM activated stress response,C11orf96
+SM activated stress response,NR4A3
+Smooth muscle FAM83D+,ACTG2
+Smooth muscle,ACTA2
+Smooth muscle,TAGLN
+Pericytes,HIGD1B
+Pericytes,KCNK3
+Lymphatic EC differentiating,SEMA3D
+Lymphatic EC differentiating,KALRN
+EC general capillary,FCN3
+EC general capillary,CA4
+EC aerocyte capillary,EDNRB
+EC arterial,DKK2
+EC venous pulmonary,ACKR1
+EC venous pulmonary,SRPX
+Neuroendocrine,GRP
+Neuroendocrine,CHGA
+Ionocyte,ASCL3
+Ionocyte,BSND
+AT1,AGER
+Lymphatic EC mature,CCL21
+Lymphatic EC proliferating,CENPF
+Lymphatic EC proliferating,CCL21
+Mesothelium,CALB2
+Mesothelium,PRG4
+Subpleural fibroblasts,WT1
+Subpleural fibroblasts,EGFL6
+Adventitial fibroblasts,SCARA5
+Adventitial fibroblasts,CD248
+Peribronchial fibroblasts,DPT
+Peribronchial fibroblasts,APOD
+Alveolar fibroblasts,GPC3
+Alveolar fibroblasts,TCF21
+Alveolar Mph MT-positive,HMOX1
+Alveolar Mph MT-positive,HPGD
+Alveolar Mph CCL3+,TNIP3
+Alveolar Mph CCL3+,CXCL5
+Alveolar macrophages,MCEMP1
+Alveolar macrophages,FABP4
+Alveolar Mph proliferating,PCLAF
+Alveolar Mph proliferating,CDKN3
+Alveolar Mph proliferating,RRM2
+Alveolar Mph proliferating,MKI67
+Alveolar Mph proliferating,UBE2C
+Classical monocytes,S100A12
+Classical monocytes,FCN1
+Non-classical monocytes,LILRB2
+Non-classical monocytes,LILRB1
+Interstitial Mph perivascular,F13A1
+Interstitial Mph perivascular,STAB1
+Interstitial Mph perivascular,FCGR2B
+Monocyte-derived Mph,C15orf48
+Monocyte-derived Mph,CD68
+DC2,CLEC10A
+DC2,HLA-DQA1
+DC1,CLEC9A
+DC1,DNASE1L3
+AT2 proliferating,PRC1
+AT2 proliferating,NAPSA
+AT2 proliferating,TOP2A
+Goblet (subsegmental),MUC5B
+Goblet (subsegmental),SCGB1A1
+Goblet (bronchial),PLCG2
+Goblet (bronchial),ANKRD36C
+Goblet (nasal),LYPD2
+Goblet (nasal),MUC5AC
+Club (nasal),TFCP2L1
+Club (nasal),PSCA
+SMG duct,GLYATL2
+SMG duct,DMBT1
+Club (non-nasal),CYP2F1
+Club (non-nasal),SCGB1A1
+Multiciliated (nasal),FMO3
+Multiciliated (nasal),MRLN
+Multiciliated (nasal),OMG
+Multiciliated (non-nasal),CFAP276
+Multiciliated (non-nasal),MS4A8
+Deuterosomal,CDC20B
+Deuterosomal,CEP78
+Hillock-like,KRT14
+Hillock-like,KRT13
+Suprabasal,KRT15
+Suprabasal,SERPINB4
+Suprabasal,KRT5
+Tuft,POU2F3
+Tuft,IL23A
+Tuft,MYB
+Basal resting,KRT15
+Basal resting,KRT17
+SMG serous (bronchial),PRR4
+SMG serous (bronchial),C6orf58
+SMG serous (nasal),STATH
+SMG mucous,BPIFB2
+pre-TB secretory,SCGB1A1
+pre-TB secretory,SFTPB
+AT0,HSD17B6
+AT0,XIST
+AT0,SCGB3A2
+AT2,SFTPA1
+AT2,SFTPA2

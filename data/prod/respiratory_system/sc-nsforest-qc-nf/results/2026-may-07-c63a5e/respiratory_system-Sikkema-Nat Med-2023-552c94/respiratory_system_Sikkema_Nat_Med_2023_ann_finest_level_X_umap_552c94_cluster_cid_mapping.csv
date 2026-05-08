@@ -1,0 +1,62 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+AT0,,,CL:0000322
+AT1,,,CL:0002062
+AT2,,,CL:0002063
+AT2 proliferating,,,CL:0002063
+Adventitial fibroblasts,,,CL:4028006
+Alveolar Mph CCL3+,,,CL:0000583
+Alveolar Mph MT-positive,,,CL:0000583
+Alveolar Mph proliferating,,,CL:0000583
+Alveolar fibroblasts,,,CL:4028004
+Alveolar macrophages,,,CL:0000583
+B cells,,,CL:0000236
+Basal resting,,,CL:0002633
+CD4 T cells,,,CL:0000624
+CD8 T cells,,,CL:0000625
+Classical monocytes,,,CL:0000860
+Club (nasal),,,CL:0000158
+Club (non-nasal),,,CL:0000158
+DC1,,,CL:0000990
+DC2,,,CL:0002399
+Deuterosomal,,,CL:0005012
+EC aerocyte capillary,,,CL:0002144
+EC arterial,,,CL:1001568
+EC general capillary,,,CL:0002144
+EC venous pulmonary,,,CL:0002543
+EC venous systemic,,,CL:0002543
+Goblet (bronchial),,,CL:1000312
+Goblet (nasal),,,CL:0002480
+Goblet (subsegmental),,,CL:0019003
+Hematopoietic stem cells,,,CL:0000037
+Hillock-like,,,CL:4030023
+Interstitial Mph perivascular,,,CL:1001603
+Ionocyte,,,CL:0005006
+Lymphatic EC differentiating,,,CL:0002138
+Lymphatic EC mature,,,CL:0002138
+Lymphatic EC proliferating,,,CL:0002138
+Mast cells,,,CL:0000097
+Mesothelium,,,CL:0000077
+Migratory DCs,,,CL:0000451
+Monocyte-derived Mph,,,CL:0000861
+Multiciliated (nasal),,,CL:0005012
+Multiciliated (non-nasal),,,CL:0002145
+Myofibroblasts,,,CL:0000186
+NK cells,,,CL:0000623
+Neuroendocrine,,,CL:1000223
+Non-classical monocytes,,,CL:0000875
+Peribronchial fibroblasts,,,CL:2000093
+Pericytes,,,CL:0009089
+Plasma cells,,,CL:0000786
+Plasmacytoid DCs,,,CL:0000784
+SM activated stress response,,,CL:0000192
+SMG duct,,,CL:0000622
+SMG mucous,,,CL:0000319
+SMG serous (bronchial),,,CL:0019001
+SMG serous (nasal),,,CL:0000313
+Smooth muscle,,,CL:0019019
+Smooth muscle FAM83D+,,,CL:0000499
+Subpleural fibroblasts,,,CL:0000057
+Suprabasal,,,CL:0002633
+T cells proliferating,,,CL:0000084
+Tuft,,,CL:0002075
+pre-TB secretory,,,CL:0002632

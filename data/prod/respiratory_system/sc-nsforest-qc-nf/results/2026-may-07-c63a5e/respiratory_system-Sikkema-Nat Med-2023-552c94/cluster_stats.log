@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: respiratory_system_Sikkema_Nat_Med_2023_ann_finest_level_X_umap_552c94_adata_filtered.h5ad
+Loaded: 579285 cells x 27402 genes
+Cluster header: ann_finest_level (61 clusters)
+Computing cluster statistics...
+Total cells: 579285
+Number of clusters: 61
+Cells per cluster - Min: 28, Max: 68484, Mean: 9496.5
+Saved: respiratory_system_Sikkema_Nat_Med_2023_ann_finest_level_X_umap_552c94_cluster_statistics.csv
+Cluster statistics complete!

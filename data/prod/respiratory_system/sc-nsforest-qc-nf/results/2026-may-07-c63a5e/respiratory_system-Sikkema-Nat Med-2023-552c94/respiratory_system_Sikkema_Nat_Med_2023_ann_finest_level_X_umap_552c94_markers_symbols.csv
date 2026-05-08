@@ -1,0 +1,62 @@
+clusterName,NSForest_markers,f_score
+EC venous systemic,"['PLVAP', 'EMCN']",0.6298502075437646
+Migratory DCs,['CCL22'],0.501432664756447
+Plasma cells,['JCHAIN'],0.905737183564432
+Plasmacytoid DCs,"['LILRA4', 'JCHAIN']",0.7901554404145078
+B cells,"['MS4A1', 'CD79A']",0.8570866915667388
+NK cells,"['KLRF1', 'PRF1']",0.7891496323400063
+CD8 T cells,"['CCL5', 'CD3D']",0.758457155529777
+CD4 T cells,"['LTB', 'CD3D']",0.5941352882372543
+T cells proliferating,"['CD3G', 'MKI67', 'PCLAF', 'CD3D']",0.7258064516129032
+Hematopoietic stem cells,"['CYTL1', 'FAM30A']",0.6648936170212766
+Mast cells,['TPSAB1'],0.964171853651131
+Myofibroblasts,"['ASPN', 'DKK3', 'BCHE']",0.4752994011976048
+SM activated stress response,"['RERGL', 'C11orf96', 'NR4A3']",0.6008771929824561
+Smooth muscle FAM83D+,['ACTG2'],0.773286467486819
+Smooth muscle,"['ACTA2', 'TAGLN']",0.69098768666492
+Pericytes,"['HIGD1B', 'KCNK3']",0.842040273556231
+Lymphatic EC differentiating,"['SEMA3D', 'KALRN']",0.4211663066954643
+EC general capillary,"['FCN3', 'CA4']",0.781395265679754
+EC aerocyte capillary,['EDNRB'],0.8346962443129442
+EC arterial,['DKK2'],0.7092710715288643
+EC venous pulmonary,"['ACKR1', 'SRPX']",0.7358505756380324
+Neuroendocrine,"['GRP', 'CHGA']",0.9370424597364568
+Ionocyte,"['ASCL3', 'BSND']",0.8174316658071171
+AT1,['AGER'],0.8511396952008663
+Lymphatic EC mature,['CCL21'],0.8831029734278574
+Lymphatic EC proliferating,"['CENPF', 'CCL21']",0.7291666666666666
+Mesothelium,"['CALB2', 'PRG4']",0.8872901678657075
+Subpleural fibroblasts,"['WT1', 'EGFL6']",0.6632653061224489
+Adventitial fibroblasts,"['SCARA5', 'CD248']",0.8492255821304394
+Peribronchial fibroblasts,"['DPT', 'APOD']",0.5803331542181622
+Alveolar fibroblasts,"['GPC3', 'TCF21']",0.6899557462786643
+Alveolar Mph MT-positive,"['HMOX1', 'HPGD']",0.4091084523350058
+Alveolar Mph CCL3+,"['TNIP3', 'CXCL5']",0.6722647567300568
+Alveolar macrophages,"['MCEMP1', 'FABP4']",0.8088830945268594
+Alveolar Mph proliferating,"['PCLAF', 'CDKN3', 'RRM2', 'MKI67', 'UBE2C']",0.3259911894273127
+Classical monocytes,"['S100A12', 'FCN1']",0.7743712040627252
+Non-classical monocytes,"['LILRB2', 'LILRB1']",0.4608499463697895
+Interstitial Mph perivascular,"['F13A1', 'STAB1', 'FCGR2B']",0.4635482511588706
+Monocyte-derived Mph,"['C15orf48', 'CD68']",0.3680835673836971
+DC2,"['CLEC10A', 'HLA-DQA1']",0.5326889096767488
+DC1,"['CLEC9A', 'DNASE1L3']",0.7704160246533128
+AT2 proliferating,"['PRC1', 'NAPSA', 'TOP2A']",0.7047477744807121
+Goblet (subsegmental),"['MUC5B', 'SCGB1A1']",0.5808690404345203
+Goblet (bronchial),"['PLCG2', 'ANKRD36C']",0.5608308605341247
+Goblet (nasal),"['LYPD2', 'MUC5AC']",0.8105015982928689
+Club (nasal),"['TFCP2L1', 'PSCA']",0.4388717568435236
+SMG duct,"['GLYATL2', 'DMBT1']",0.454786528772209
+Club (non-nasal),"['CYP2F1', 'SCGB1A1']",0.6823263206098645
+Multiciliated (nasal),"['FMO3', 'MRLN', 'OMG']",0.5888614493740952
+Multiciliated (non-nasal),"['CFAP276', 'MS4A8']",0.8611768347964531
+Deuterosomal,"['CDC20B', 'CEP78']",0.7070707070707071
+Hillock-like,"['KRT14', 'KRT13']",0.5739612567595318
+Suprabasal,"['KRT15', 'SERPINB4', 'KRT5']",0.6462207419742807
+Tuft,"['POU2F3', 'IL23A', 'MYB']",0.5643044619422573
+Basal resting,"['KRT15', 'KRT17']",0.7580677792014442
+SMG serous (bronchial),"['PRR4', 'C6orf58']",0.7529018921927174
+SMG serous (nasal),['STATH'],0.9196224256292906
+SMG mucous,['BPIFB2'],0.9347408829174664
+pre-TB secretory,"['SCGB1A1', 'SFTPB']",0.7314008532522939
+AT0,"['HSD17B6', 'XIST', 'SCGB3A2']",0.2763728323699422
+AT2,"['SFTPA1', 'SFTPA2']",0.9586183739710556
