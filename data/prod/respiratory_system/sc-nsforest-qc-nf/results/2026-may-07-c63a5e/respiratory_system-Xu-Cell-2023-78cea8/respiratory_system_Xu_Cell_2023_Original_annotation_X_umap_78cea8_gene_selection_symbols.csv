@@ -1,0 +1,427 @@
+clusterName,gene
+VE_Arterial,DKK2
+VE_Arterial,ANO2
+VE_Capillary_B,KIAA1217
+VE_Capillary_B,ANO2
+VE_Capillary_A,ADGRL2
+VE_Capillary_A,PRKG1
+SMC,ENSG00000236060
+SMC,ACTG2
+Mesothelial,ITLN1
+Mesothelial,WT1
+ATII,ZNF385B
+ATII,ERBB4
+ATI,GPC5
+ATI,LINC01290
+Ionocyte_n_Brush,AMACR
+Ionocyte_n_Brush,CFTR
+Dividing_Basal,HELLS
+Dividing_Basal,H2AX
+Dividing_Basal,CENPU
+Dividing_Basal,BIRC5
+Dividing_Basal,PTTG1
+Secretory_Goblet,TMPRSS4
+Secretory_Goblet,MSMB
+Macrophage_Alveolar,ATP10A
+Macrophage_Alveolar,KLHL29
+Macrophage,SLC16A10
+Macrophage,DOCK4
+cMonocyte,S100A12
+cMonocyte,VCAN
+cMonocyte,JARID2
+ncMonocyte,MTSS1
+ncMonocyte,RNF144B
+DC_Langerhans,CD1A
+DC_Langerhans,TRPC6
+DC_Langerhans,PKIB
+DC_Langerhans,S100B
+cDC2,ATP8B4
+cDC2,ENTPD1
+cDC2,PKIB
+cDC1,CLEC9A
+cDC1,SIPA1L3
+DC_Mature,ANKRD33B
+DC_Mature,SLC22A23
+Mast,TPSAB1
+Mast,SCHLAP1
+T_Regulatory,IL2RA
+T,RORA-AS1
+T,PBX4
+T_Cytotoxic,ENSG00000255819
+T_Cytotoxic,PBX4
+ILC_A,MCTP2
+ILC_A,KLRC1
+ILC_A,ENSG00000255819
+ILC_B,RUNX2
+ILC_B,SSBP2
+ILC_B,XCL1
+B,TNFRSF13C
+B,EBF1
+pDC,LINC01478
+pDC,PTPRS
+B_Plasma,TXNDC5
+PNEC,GRP
+PNEC,NRG1
+VE_Peribronchial,ZNF385D
+VE_Peribronchial,PVT1
+VE_Venous,PLA1A
+VE_Venous,ANO2
+Suprabasal,LY6D
+Suprabasal,CLCA2
+SMG_Basal,KRT14
+SMG_Basal,SOX9
+SMG_Basal,SLC1A5
+Basal,KRT15
+Basal,KRT17
+Goblet,CYP2F1
+Goblet,TSPAN8
+Differentiating Basal,MIR205HG
+Differentiating Basal,CLCA2
+Differentiating Basal,FAM3D
+Proximal Basal,MIR205HG
+Proximal Basal,SEMA5A
+Proximal Basal,KRT5
+Proximal Basal,IGFBP3
+Proliferating Basal,PBK
+Proliferating Basal,MIR205HG
+Ionocyte,TMEM61
+Ionocyte,ASCL3
+Proximal Ciliated,TP53AIP1
+Proximal Ciliated,DYNLT2B
+Proximal Ciliated,DHRS9
+Ciliated,SPMIP6
+Ciliated,CFAP276
+Fibro_myofibroblast,MFAP2
+Fibro_myofibroblast,CTHRC1
+Fibro_myofibroblast,COL6A3
+Fibro_adventitial,SFRP2
+Fibro_adventitial,PODN
+Mesothelia,PRG4
+Mesothelia,ITLN1
+Muscle_pericyte_airway,ECRG4
+Muscle_pericyte_airway,STEAP4
+Muscle_perivascular_immune_recruiting,RGS5
+Muscle_smooth_syst_arterial,MT1A
+Muscle_smooth_pulmonary,ECRG4
+Muscle_smooth_pulmonary,ACTA2
+Muscle_smooth_pulmonary,TAGLN
+Muscle_pericyte_parenchyma,RGS5
+Muscle_pericyte_parenchyma,HIGD1B
+Pericyte,HIGD1B
+Pericyte,OTULINL
+Airway Smooth Muscle,TNNT2
+Airway Smooth Muscle,CCN5
+Alveolar_Type1,S100A14
+Alveolar_Type2,HHIP-AS1
+Alveolar_Type2,CENPX
+Alveolar_Type2,SFTPA1
+AT2,SFTA3
+AT2,SFTPA1
+Dividing_AT2,CTSE
+Dividing_AT2,MET
+AT1,SFTA3
+AT1,RTKN2
+Alveolar Epithelial Type 1,RTKN2
+Alveolar Epithelial Type 1,CCN1
+NAF_endoneurial,PI16
+NAF_endoneurial,APOD
+Fibro_peribronchial,NR2F1
+Fibro_peribronchial,F2R
+Fibro_peribronchial,APOD
+Fibro_alveolar,NBL1
+Fibro_alveolar,LMCD1
+Fibro_immune_recruiting,CCL19
+Fibro_immune_recruiting,DPT
+Deuterosomal,CDC20B
+Deuterosomal,TMPO-AS1
+SMG_Mucous,BPIFB2
+SMG_Duct,TCN1
+SMG_Duct,SAA2
+SMG_Duct,B3GNT5
+Secretory_Club,SCGB1A1
+Secretory_Club,SFTPB
+Secretory_Club,GPRC5A
+SMG_Serous,HSD17B2
+SMG_Serous,PIP
+Serous,C6orf58
+Serous,S100A1
+Mucous,SLC5A5
+Mucous,SMIM31
+Mucous,SAA2
+Signaling Alveolar Epithelial Type 2,AK1
+Signaling Alveolar Epithelial Type 2,SFTPD
+Signaling Alveolar Epithelial Type 2,SFTPA2
+Alveolar Epithelial Type 2,ENSG00000203878
+Alveolar Epithelial Type 2,NAPSA
+Club,ENSG00000256612
+Club,SCGB3A2
+Endothelia_vascular_Cap_g,FCN3
+Endothelia_vascular_Cap_g,WARS1
+Endothelia_vascular_Cap_a,NES
+Endothelia_vascular_Cap_a,IL1RL1
+Capillary Aerocyte,S100A3
+Capillary Aerocyte,EDNRB
+Capillary Intermediate 1,WASHC2A
+Capillary Intermediate 1,SOSTDC1
+Capillary Intermediate 1,S100A3
+Capillary Intermediate 1,GPIHBP1
+Capillary,EDN1
+Capillary,CA4
+Capillary Intermediate 2,CAVIN2
+Capillary Intermediate 2,NHERF2
+Capillary Intermediate 2,MT1M
+Erythrocyte,HBB
+Erythrocyte,ALAS2
+B_plasma_IgA,ENSG00000211592
+B_plasma_IgA,JCHAIN
+B_plasma_IgG,ENSG00000211592
+B_plasma_IgG,PRDX4
+Plasma_cells,H1-2
+Plasma_cells,ENSG00000211592
+T_CD4,ENSG00000277734
+T_CD4,IL7R
+T_CD4,CXCR4
+T_CD8_CytT,ENSG00000277734
+T_CD8_CytT,NKG7
+T_CD8_CytT,PLAAT4
+CD8_EM/EMRA,CD3G
+CD8_EM/EMRA,CD8A
+CD8_EM/EMRA,TLE5
+CD8_EM/EMRA,GZMH
+NKT,GNLY
+NKT,CD3D
+NKT,NKG7
+NKT,CST7
+NKT,CD3E
+gdT,KLRC2
+gdT,GNLY
+gdT,CD2
+NK_CD56bright,PIK3R1
+NK_CD56bright,XCL1
+NK_CD56bright,KLRB1
+ILC,XCL1
+ILC,KLRB1
+ILC,IL7R
+MAIT,KLRB1
+MAIT,IL7R
+CD8_TRM/EM,GZMK
+CD8_TRM/EM,CD8A
+CD8_TRM/EM,CST7
+T_reg,IL32
+T_reg,FXYD5
+Mast_cells,TPSAB1
+Mast_cells,TPSB2
+Mast_cell,TPSD1
+DC_activated,RASSF4
+DC_activated,CCR7
+DC_1,CLEC9A
+DC_1,DNASE1L3
+DC_plasmacytoid,PLD4
+DC_plasmacytoid,ENSG00000211592
+B_plasmablast,TNFRSF17
+B_plasmablast,TYMS
+B_naive,TCL1A
+B_naive,NCF1
+B_memory,MS4A1
+B_memory,BANK1
+B_cells,MS4A1
+B_cells,ENSG00000211592
+T_regulatory,TIGIT
+T_regulatory,ENSG00000277734
+Vascular Smooth Muscle,NTN4
+Vascular Smooth Muscle,ACTA2
+Vascular Smooth Muscle,MFAP4
+Fibromyocyte,SBSPON
+Fibromyocyte,BCHE
+Muscle_cells,PCSK7
+Muscle_cells,PLN
+Muscle_cells,ACTA2
+Fibroblast,STEAP1
+Fibroblast,NBL1
+Adventitial Fibroblast,CCN5
+Adventitial Fibroblast,SERPINA3
+Adventitial Fibroblast,CCDC80
+Lipofibroblast,TFPI2
+Lipofibroblast,ALDH1A3
+Lipofibroblast,PTN
+Alveolar Fibroblast,CCN2
+Alveolar Fibroblast,LUM
+Myofibroblast,SLIT2
+Lymphatic,STOX2
+Lymphatic,MMRN1
+Endothelia_Lymphatic,SHC1
+Endothelia_Lymphatic,MMRN1
+CD4_naive/CM,IL7R
+CD4_naive/CM,CD3E
+CD4_naive/CM,KLF2
+CD4_EM/Effector,IL7R
+CD4_EM/Effector,TNFAIP3
+CD4_TRM,IL32
+CD4_TRM,DNAJB1
+CD4_TRM,ALOX5AP
+CD4_TRM,COTL1
+CD8_TRM,CD8A
+CD8_TRM,PARP8
+CD8_TRM,CD2
+CD8_TRM,GZMB
+CD8_EM,CD8B
+CD8_EM,CD7
+CD8_EM,IL7R
+NK_CD11d,GZMH
+NK_CD11d,CD247
+NK_CD11d,KLRD1
+NK_CD11d,NR4A2
+NK_CD16hi,TLE5
+NK_CD16hi,CD7
+NK_CD16hi,NKG7
+NK,KLRF1
+NK,KLRB1
+NK,KLRD1
+NK_Dividing,ENSG00000211829
+NK_Dividing,CENPU
+NK_Dividing,TYMS
+T_cells_Dividing,CDT1
+T_cells_Dividing,ENSG00000277734
+T_cells_Dividing,RRM2
+Lymph_vessel,VPS35L
+Lymph_vessel,MMRN1
+Lymph_vessel,PYURF
+Artery,DKK2
+Artery,DEPP1
+Vein,ACKR1
+Vein,PTGDS
+Vein,CLEC3B
+Bronchial Vessel 2,GJA1
+Bronchial Vessel 2,ARID5A
+Bronchial Vessel 2,CD36
+Bronchial Vessel 1,TM4SF18
+Bronchial Vessel 1,SPRY1
+Bronchial Vessel 1,ADGRL4
+Blood_vessel,FAM167B
+Blood_vessel,PCAT19
+Blood_vessel,SPARCL1
+Blood_vessel,IGFBP7
+Endothelia_vascular_venous_systemic,COL15A1
+Endothelia_vascular_venous_systemic,ACKR1
+Endothelia_vascular_venous_pulmonary,PLVAP
+Endothelia_vascular_venous_pulmonary,C7
+Endothelia_vascular_venous_pulmonary,VWF
+Endothelia_vascular_arterial_systemic,PODXL
+Endothelia_vascular_arterial_systemic,FBLN2
+Endothelia_vascular_arterial_pulmonary,GJA5
+Endothelia_vascular_arterial_pulmonary,IGFBP3
+Basophil/Mast 2,TNFRSF9
+Basophil/Mast 2,ENSG00000171101
+Basophil/Mast 1,ENSG00000171101
+Basophil/Mast 1,TPSB2
+Plasma,ENSG00000230006
+Plasma,TNFRSF13B
+Plasma,TNFRSF17
+CD4+ Memory/Effector T,LIME1
+CD4+ Memory/Effector T,PTPRCAP
+CD4+ Memory/Effector T,CD2
+CD4+ Memory/Effector T,CD3D
+CD8+ Memory/Effector T,GZMK
+CD8+ Memory/Effector T,PTPRCAP
+CD8+ Memory/Effector T,CD3D
+CD8+ Memory/Effector T,NKG7
+CD4+ Naive T,PRKCQ-AS1
+CD4+ Naive T,LIME1
+CD4+ Naive T,GAS5
+Natural Killer,PTPRCAP
+Natural Killer,KLRB1
+Natural Killer,GZMB
+CD8+ Naive T,GZMH
+CD8+ Naive T,PTPRCAP
+CD8+ Naive T,CD3D
+CD8+ Naive T,NKG7
+Natural Killer T,KLRC2
+Natural Killer T,KLRC1
+Natural Killer T,XCL1
+Natural Killer T,PTPRCAP
+Proliferating NK/T,LAT
+Proliferating NK/T,MKI67
+Plasmacytoid Dendritic,SPIB
+Plasmacytoid Dendritic,PPP1R14B
+Myeloid Dendritic Type 2,CD1C
+Myeloid Dendritic Type 2,PLD4
+Myeloid Dendritic Type 2,ENSG00000131401
+Myeloid Dendritic Type 1,ENSG00000131401
+Myeloid Dendritic Type 1,ENSG00000261040
+IGSF21+ Dendritic,GGTA1
+IGSF21+ Dendritic,SELENOP
+OLR1+ Classical Monocyte,TNFSF8
+OLR1+ Classical Monocyte,TNIP1
+OLR1+ Classical Monocyte,PELATON
+EREG+ Dendritic,CLEC5A
+EREG+ Dendritic,FPR3
+EREG+ Dendritic,ENSG00000235655
+EREG+ Dendritic,CD93
+Classical Monocyte,S100A12
+Classical Monocyte,ENSG00000235655
+Intermediate Monocyte,ADGRE2
+Intermediate Monocyte,RIPOR2
+Intermediate Monocyte,CALHM6
+Intermediate Monocyte,CD300E
+Intermediate Monocyte,IL1B
+Nonclassical Monocyte,PELATON
+Nonclassical Monocyte,FCGR3A
+TREM2+ Dendritic,PLA2G7
+TREM2+ Dendritic,GGTA1
+TREM2+ Dendritic,TREM2
+TREM2+ Dendritic,TMEM176A
+Macro_CCL,CCL20
+Macro_CCL,NCF1
+Macro_CCL,CXCL3
+Macro_CCL,C15orf48
+Macro_interstitial,CXCL10
+Macro_interstitial,GNG10
+Monocyte_CD16,WARS1
+Monocyte_CD16,FCGR3A
+Monocyte_CD14,S100A12
+Monocyte_CD14,VCAN
+Monocyte_CD14,LYZ
+Monocyte,ENSG00000257764
+Monocyte,FCN1
+DC_2,FCGR2B
+DC_2,CD1C
+DC_Monocyte_Dividing,H3-3A
+DC_Monocyte_Dividing,AURKB
+DC_Monocyte_Dividing,PKIB
+DC_Monocyte_Dividing,MKI67
+Macrophage_MARCOneg,F13A1
+Macrophage_MARCOneg,FOLR2
+Proliferating Macrophage,TMEM35B
+Proliferating Macrophage,STMN1
+Proliferating Macrophage,CD68
+Macrophage_Dividing,ENSG00000243961
+Macrophage_Dividing,RAB5IF
+Macrophage_Dividing,PCLAF
+Macrophage_MARCOpos,BOLA2B
+Macrophage_MARCOpos,PELATON
+Macrophage_MARCOpos,FBP1
+Macro_alveolar_metallothioneins,MT1G
+Macro_alveolar_metallothioneins,CD68
+Macro_alveolar_metallothioneins,NME2
+Macro_alv,FBP1
+Macro_alv,LTA4H
+Macro_alv,CD68
+Macro_dividing,MME
+Macro_dividing,FBP1
+Macro_dividing,C1QB
+Macro_dividing,HNRNPAB
+Macro_dividing,FN1
+Macro_dividing,C1QA
+Macro_CHIT1,CHIT1
+Macro_CHIT1,GPNMB
+Macro_int,LGMN
+Macro_int,DAB2
+Macro_AW_CX3CR1,CXCL3
+Macro_AW_CX3CR1,C1QC
+Macro_AW_CX3CR1,NME2
+Macro_AW_CX3CR1,C1QB
+Macro_AW_CX3CR1,CD83
+Macrophage_intermediate,EREG
+Macrophage_intermediate,OLR1
+Macrophage_intermediate,NR4A2
+Macrophage_intermediate,CD68

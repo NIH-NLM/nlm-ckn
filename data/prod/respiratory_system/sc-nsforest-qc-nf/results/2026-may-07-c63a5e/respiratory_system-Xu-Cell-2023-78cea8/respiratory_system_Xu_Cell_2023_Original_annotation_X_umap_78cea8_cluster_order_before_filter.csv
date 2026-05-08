@@ -1,0 +1,169 @@
+cluster_order
+Macrophage_Alveolar
+Macrophage
+cMonocyte
+ncMonocyte
+DC_Langerhans
+cDC2
+cDC1
+DC_Mature
+Mast
+T_Regulatory
+T
+T_Cytotoxic
+ILC_A
+ILC_B
+B
+pDC
+B_Plasma
+PNEC
+VE_Peribronchial
+VE_Venous
+VE_Arterial
+VE_Capillary_B
+VE_Capillary_A
+SMC
+Mesothelial
+ATII
+ATI
+Ionocyte_n_Brush
+Dividing_Basal
+Secretory_Goblet
+Suprabasal
+SMG_Basal
+Basal
+Goblet
+Differentiating Basal
+Proximal Basal
+Proliferating Basal
+Ionocyte
+Proximal Ciliated
+Ciliated
+Deuterosomal
+SMG_Mucous
+SMG_Duct
+Secretory_Club
+SMG_Serous
+Serous
+Mucous
+Signaling Alveolar Epithelial Type 2
+Alveolar Epithelial Type 2
+Club
+Alveolar_Type1
+Alveolar_Type2
+AT2
+Dividing_AT2
+AT1
+Alveolar Epithelial Type 1
+NAF_endoneurial
+Fibro_peribronchial
+Fibro_alveolar
+Fibro_immune_recruiting
+Fibro_myofibroblast
+Fibro_adventitial
+Mesothelia
+Muscle_pericyte_airway
+Muscle_perivascular_immune_recruiting
+Muscle_smooth_syst_arterial
+Muscle_smooth_pulmonary
+Muscle_pericyte_parenchyma
+Pericyte
+Airway Smooth Muscle
+Vascular Smooth Muscle
+Fibromyocyte
+Muscle_cells
+Fibroblast
+Adventitial Fibroblast
+Lipofibroblast
+Alveolar Fibroblast
+Myofibroblast
+Lymphatic
+Endothelia_Lymphatic
+Lymph_vessel
+Artery
+Vein
+Bronchial Vessel 2
+Bronchial Vessel 1
+Blood_vessel
+Endothelia_vascular_venous_systemic
+Endothelia_vascular_venous_pulmonary
+Endothelia_vascular_arterial_systemic
+Endothelia_vascular_arterial_pulmonary
+Endothelia_vascular_Cap_g
+Endothelia_vascular_Cap_a
+Capillary Aerocyte
+Capillary Intermediate 1
+Capillary
+Capillary Intermediate 2
+Erythrocyte
+B_plasma_IgA
+B_plasma_IgG
+Plasma_cells
+Mast_cells
+Mast_cell
+DC_activated
+DC_1
+DC_plasmacytoid
+B_plasmablast
+B_naive
+B_memory
+B_cells
+T_regulatory
+T_CD4
+T_CD8_CytT
+CD8_EM/EMRA
+NKT
+gdT
+NK_CD56bright
+ILC
+MAIT
+CD8_TRM/EM
+T_reg
+CD4_naive/CM
+CD4_EM/Effector
+CD4_TRM
+CD8_TRM
+CD8_EM
+NK_CD11d
+NK_CD16hi
+NK
+NK_Dividing
+T_cells_Dividing
+Basophil/Mast 2
+Basophil/Mast 1
+Plasma
+CD4+ Memory/Effector T
+CD8+ Memory/Effector T
+CD4+ Naive T
+Natural Killer
+CD8+ Naive T
+Natural Killer T
+Proliferating NK/T
+Plasmacytoid Dendritic
+Myeloid Dendritic Type 2
+Myeloid Dendritic Type 1
+IGSF21+ Dendritic
+OLR1+ Classical Monocyte
+EREG+ Dendritic
+Classical Monocyte
+Intermediate Monocyte
+Nonclassical Monocyte
+TREM2+ Dendritic
+Proliferating Macrophage
+Macrophage_Dividing
+Macrophage_MARCOpos
+Macro_alveolar_metallothioneins
+Macro_alv
+Macro_dividing
+Macro_CHIT1
+Macro_int
+Macro_AW_CX3CR1
+Macrophage_intermediate
+Macro_CCL
+Macro_interstitial
+Monocyte_CD16
+Monocyte_CD14
+Monocyte
+DC_2
+DC_Monocyte_Dividing
+Macrophage_MARCOneg

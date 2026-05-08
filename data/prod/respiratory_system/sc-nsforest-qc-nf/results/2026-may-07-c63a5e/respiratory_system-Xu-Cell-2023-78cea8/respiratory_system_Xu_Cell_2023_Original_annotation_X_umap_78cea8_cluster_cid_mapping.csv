@@ -1,0 +1,649 @@
+cluster_name,skos,manual_mapped_cid,cell_ontology_id
+AT1,,,CL:0000646
+AT1,,,CL:0000786
+AT1,,,CL:0002062
+AT1,,,CL:0002063
+AT2,,,CL:0000646
+AT2,,,CL:0000786
+AT2,,,CL:0002062
+AT2,,,CL:0002063
+ATI,,,CL:0002062
+ATI,,,CL:0002063
+ATII,,,CL:0000646
+ATII,,,CL:0002062
+ATII,,,CL:0002063
+Adventitial Fibroblast,,,CL:0000057
+Adventitial Fibroblast,,,CL:0000077
+Adventitial Fibroblast,,,CL:0000186
+Adventitial Fibroblast,,,CL:0002553
+Airway Smooth Muscle,,,CL:0000669
+Airway Smooth Muscle,,,CL:0002553
+Airway Smooth Muscle,,,CL:0002591
+Alveolar Epithelial Type 1,,,CL:0002062
+Alveolar Epithelial Type 2,,,CL:0000158
+Alveolar Epithelial Type 2,,,CL:0000646
+Alveolar Epithelial Type 2,,,CL:0000786
+Alveolar Epithelial Type 2,,,CL:0002062
+Alveolar Epithelial Type 2,,,CL:0002063
+Alveolar Fibroblast,,,CL:0000057
+Alveolar Fibroblast,,,CL:0000077
+Alveolar Fibroblast,,,CL:0000186
+Alveolar Fibroblast,,,CL:0000669
+Alveolar Fibroblast,,,CL:0002553
+Alveolar Fibroblast,,,CL:0002591
+Alveolar_Type1,,,CL:0000158
+Alveolar_Type1,,,CL:0000646
+Alveolar_Type1,,,CL:0000786
+Alveolar_Type1,,,CL:0002062
+Alveolar_Type1,,,CL:0002063
+Alveolar_Type2,,,CL:0000786
+Alveolar_Type2,,,CL:0002062
+Alveolar_Type2,,,CL:0002063
+Artery,,,CL:0002144
+Artery,,,CL:0002543
+Artery,,,CL:1000413
+Artery,,,CL:4028003
+B,,,CL:0000784
+B,,,CL:0000786
+B,,,CL:0000787
+B,,,CL:0000788
+B_Plasma,,,CL:0000786
+B_Plasma,,,CL:0000787
+B_Plasma,,,CL:0000815
+B_Plasma,,,CL:0000939
+B_Plasma,,,CL:0000980
+B_cells,,,CL:0000786
+B_cells,,,CL:0000787
+B_cells,,,CL:0000788
+B_cells,,,CL:0000815
+B_cells,,,CL:0000913
+B_memory,,,CL:0000786
+B_memory,,,CL:0000787
+B_memory,,,CL:0000788
+B_memory,,,CL:0000939
+B_naive,,,CL:0000787
+B_naive,,,CL:0000788
+B_plasma_IgA,,,CL:0000786
+B_plasma_IgA,,,CL:0000787
+B_plasma_IgA,,,CL:0000788
+B_plasma_IgA,,,CL:0000980
+B_plasma_IgG,,,CL:0000786
+B_plasma_IgG,,,CL:0000787
+B_plasma_IgG,,,CL:0000788
+B_plasma_IgG,,,CL:0000980
+B_plasmablast,,,CL:0000786
+B_plasmablast,,,CL:0000787
+B_plasmablast,,,CL:0000980
+Basal,,,CL:0000057
+Basal,,,CL:0000646
+Basal,,,CL:0002063
+Basophil/Mast 1,,,CL:0000097
+Basophil/Mast 2,,,CL:0000097
+Blood_vessel,,,CL:0000786
+Blood_vessel,,,CL:0000787
+Blood_vessel,,,CL:0000905
+Blood_vessel,,,CL:0000939
+Blood_vessel,,,CL:0002144
+Blood_vessel,,,CL:0002543
+Blood_vessel,,,CL:0002591
+Blood_vessel,,,CL:1000413
+Blood_vessel,,,CL:4028003
+Bronchial Vessel 1,,,CL:0002144
+Bronchial Vessel 1,,,CL:0002543
+Bronchial Vessel 1,,,CL:1000413
+Bronchial Vessel 2,,,CL:0002144
+Bronchial Vessel 2,,,CL:0002543
+Bronchial Vessel 2,,,CL:1000413
+Bronchial Vessel 2,,,CL:4028003
+CD4+ Memory/Effector T,,,CL:0000815
+CD4+ Memory/Effector T,,,CL:0000904
+CD4+ Memory/Effector T,,,CL:0000905
+CD4+ Memory/Effector T,,,CL:0000913
+CD4+ Memory/Effector T,,,CL:0000938
+CD4+ Memory/Effector T,,,CL:0000939
+CD4+ Memory/Effector T,,,CL:0001062
+CD4+ Naive T,,,CL:0000815
+CD4+ Naive T,,,CL:0000904
+CD4+ Naive T,,,CL:0000905
+CD4+ Naive T,,,CL:0000913
+CD4+ Naive T,,,CL:0000939
+CD4_EM/Effector,,,CL:0000815
+CD4_EM/Effector,,,CL:0000904
+CD4_EM/Effector,,,CL:0000905
+CD4_EM/Effector,,,CL:0000913
+CD4_EM/Effector,,,CL:0000938
+CD4_EM/Effector,,,CL:0000939
+CD4_EM/Effector,,,CL:0001062
+CD4_EM/Effector,,,CL:0002038
+CD4_TRM,,,CL:0000815
+CD4_TRM,,,CL:0000904
+CD4_TRM,,,CL:0000905
+CD4_TRM,,,CL:0000913
+CD4_TRM,,,CL:0000938
+CD4_TRM,,,CL:0000939
+CD4_TRM,,,CL:0001062
+CD4_naive/CM,,,CL:0000815
+CD4_naive/CM,,,CL:0000904
+CD4_naive/CM,,,CL:0000905
+CD4_naive/CM,,,CL:0000913
+CD4_naive/CM,,,CL:0000938
+CD4_naive/CM,,,CL:0000939
+CD4_naive/CM,,,CL:0001062
+CD4_naive/CM,,,CL:0002038
+CD8+ Memory/Effector T,,,CL:0000815
+CD8+ Memory/Effector T,,,CL:0000904
+CD8+ Memory/Effector T,,,CL:0000905
+CD8+ Memory/Effector T,,,CL:0000913
+CD8+ Memory/Effector T,,,CL:0000938
+CD8+ Memory/Effector T,,,CL:0000939
+CD8+ Memory/Effector T,,,CL:0001062
+CD8+ Naive T,,,CL:0000815
+CD8+ Naive T,,,CL:0000904
+CD8+ Naive T,,,CL:0000905
+CD8+ Naive T,,,CL:0000913
+CD8+ Naive T,,,CL:0000938
+CD8+ Naive T,,,CL:0000939
+CD8+ Naive T,,,CL:0001062
+CD8_EM,,,CL:0000815
+CD8_EM,,,CL:0000904
+CD8_EM,,,CL:0000905
+CD8_EM,,,CL:0000913
+CD8_EM,,,CL:0000938
+CD8_EM,,,CL:0000939
+CD8_EM,,,CL:0001062
+CD8_EM,,,CL:0002038
+CD8_EM/EMRA,,,CL:0000815
+CD8_EM/EMRA,,,CL:0000904
+CD8_EM/EMRA,,,CL:0000905
+CD8_EM/EMRA,,,CL:0000913
+CD8_EM/EMRA,,,CL:0000938
+CD8_EM/EMRA,,,CL:0000939
+CD8_EM/EMRA,,,CL:0001062
+CD8_TRM,,,CL:0000815
+CD8_TRM,,,CL:0000904
+CD8_TRM,,,CL:0000905
+CD8_TRM,,,CL:0000913
+CD8_TRM,,,CL:0000938
+CD8_TRM,,,CL:0000939
+CD8_TRM,,,CL:0001062
+CD8_TRM/EM,,,CL:0000815
+CD8_TRM/EM,,,CL:0000904
+CD8_TRM/EM,,,CL:0000905
+CD8_TRM/EM,,,CL:0000913
+CD8_TRM/EM,,,CL:0000938
+CD8_TRM/EM,,,CL:0000939
+CD8_TRM/EM,,,CL:0001062
+Capillary,,,CL:0000815
+Capillary,,,CL:0000905
+Capillary,,,CL:0000939
+Capillary,,,CL:0002144
+Capillary,,,CL:0002543
+Capillary,,,CL:1000413
+Capillary,,,CL:4028003
+Capillary Aerocyte,,,CL:0002144
+Capillary Aerocyte,,,CL:4028003
+Capillary Intermediate 1,,,CL:0002144
+Capillary Intermediate 1,,,CL:4028003
+Capillary Intermediate 2,,,CL:0002144
+Capillary Intermediate 2,,,CL:0002543
+Capillary Intermediate 2,,,CL:1000413
+Capillary Intermediate 2,,,CL:4028003
+Ciliated,,,CL:0000158
+Ciliated,,,CL:0000646
+Ciliated,,,CL:0002063
+Ciliated,,,CL:1000271
+Classical Monocyte,,,CL:0000235
+Classical Monocyte,,,CL:0000860
+Classical Monocyte,,,CL:0000875
+Club,,,CL:0000158
+Club,,,CL:0000646
+Club,,,CL:0000786
+Club,,,CL:0002062
+Club,,,CL:0002063
+DC_1,,,CL:0000235
+DC_1,,,CL:0000583
+DC_1,,,CL:0000786
+DC_1,,,CL:0000860
+DC_1,,,CL:0000875
+DC_1,,,CL:0000990
+DC_2,,,CL:0000235
+DC_2,,,CL:0000583
+DC_2,,,CL:0000860
+DC_2,,,CL:0000875
+DC_2,,,CL:0000990
+DC_Langerhans,,,CL:0000235
+DC_Langerhans,,,CL:0000990
+DC_Langerhans,,,CL:0001056
+DC_Mature,,,CL:0000235
+DC_Mature,,,CL:0000860
+DC_Mature,,,CL:0000990
+DC_Mature,,,CL:0001056
+DC_Monocyte_Dividing,,,CL:0000235
+DC_Monocyte_Dividing,,,CL:0000583
+DC_Monocyte_Dividing,,,CL:0000990
+DC_activated,,,CL:0000235
+DC_activated,,,CL:0000583
+DC_activated,,,CL:0000784
+DC_activated,,,CL:0000860
+DC_activated,,,CL:0000875
+DC_activated,,,CL:0000990
+DC_activated,,,CL:0001056
+DC_plasmacytoid,,,CL:0000235
+DC_plasmacytoid,,,CL:0000784
+DC_plasmacytoid,,,CL:0000786
+DC_plasmacytoid,,,CL:0000875
+DC_plasmacytoid,,,CL:0000990
+Deuterosomal,,,CL:1000271
+Differentiating Basal,,,CL:0000160
+Differentiating Basal,,,CL:0000646
+Dividing_AT2,,,CL:0002062
+Dividing_AT2,,,CL:0002063
+Dividing_Basal,,,CL:0000646
+Dividing_Basal,,,CL:0002063
+EREG+ Dendritic,,,CL:0000235
+EREG+ Dendritic,,,CL:0000583
+EREG+ Dendritic,,,CL:0000860
+EREG+ Dendritic,,,CL:0000875
+EREG+ Dendritic,,,CL:0000990
+Endothelia_Lymphatic,,,CL:0002063
+Endothelia_Lymphatic,,,CL:0002138
+Endothelia_Lymphatic,,,CL:0002144
+Endothelia_vascular_Cap_a,,,CL:0002144
+Endothelia_vascular_Cap_a,,,CL:0002543
+Endothelia_vascular_Cap_a,,,CL:4028003
+Endothelia_vascular_Cap_g,,,CL:0002144
+Endothelia_vascular_Cap_g,,,CL:0002543
+Endothelia_vascular_Cap_g,,,CL:1000413
+Endothelia_vascular_Cap_g,,,CL:4028003
+Endothelia_vascular_arterial_pulmonary,,,CL:0002144
+Endothelia_vascular_arterial_pulmonary,,,CL:0002543
+Endothelia_vascular_arterial_pulmonary,,,CL:1000413
+Endothelia_vascular_arterial_systemic,,,CL:0002144
+Endothelia_vascular_arterial_systemic,,,CL:0002543
+Endothelia_vascular_arterial_systemic,,,CL:1000413
+Endothelia_vascular_venous_pulmonary,,,CL:0002144
+Endothelia_vascular_venous_pulmonary,,,CL:0002543
+Endothelia_vascular_venous_pulmonary,,,CL:1000413
+Endothelia_vascular_venous_systemic,,,CL:0002144
+Endothelia_vascular_venous_systemic,,,CL:0002543
+Endothelia_vascular_venous_systemic,,,CL:1000413
+Endothelia_vascular_venous_systemic,,,CL:4028003
+Erythrocyte,,,CL:0000232
+Erythrocyte,,,CL:0000786
+Erythrocyte,,,CL:0000904
+Erythrocyte,,,CL:0000913
+Erythrocyte,,,CL:0000939
+Erythrocyte,,,CL:0000980
+Fibro_adventitial,,,CL:0000057
+Fibro_adventitial,,,CL:0002591
+Fibro_adventitial,,,CL:4028004
+Fibro_alveolar,,,CL:0000057
+Fibro_alveolar,,,CL:0002553
+Fibro_alveolar,,,CL:0002591
+Fibro_immune_recruiting,,,CL:0000057
+Fibro_immune_recruiting,,,CL:4028004
+Fibro_myofibroblast,,,CL:0000186
+Fibro_myofibroblast,,,CL:4028004
+Fibro_peribronchial,,,CL:0000057
+Fibroblast,,,CL:0000057
+Fibroblast,,,CL:0000077
+Fibroblast,,,CL:0000186
+Fibroblast,,,CL:0002543
+Fibroblast,,,CL:0002553
+Fibroblast,,,CL:4028004
+Fibromyocyte,,,CL:0000057
+Fibromyocyte,,,CL:0000186
+Fibromyocyte,,,CL:0000187
+Goblet,,,CL:0000158
+Goblet,,,CL:0000160
+Goblet,,,CL:0000646
+Goblet,,,CL:0002063
+IGSF21+ Dendritic,,,CL:0000235
+IGSF21+ Dendritic,,,CL:0000860
+IGSF21+ Dendritic,,,CL:0000990
+ILC,,,CL:0000786
+ILC,,,CL:0000815
+ILC,,,CL:0000904
+ILC,,,CL:0000905
+ILC,,,CL:0000913
+ILC,,,CL:0000938
+ILC,,,CL:0000939
+ILC,,,CL:0001062
+ILC_A,,,CL:0000904
+ILC_A,,,CL:0000905
+ILC_A,,,CL:0000913
+ILC_A,,,CL:0000938
+ILC_A,,,CL:0000939
+ILC_A,,,CL:0002038
+ILC_B,,,CL:0000786
+ILC_B,,,CL:0000904
+ILC_B,,,CL:0000938
+ILC_B,,,CL:0000939
+ILC_B,,,CL:0002038
+Intermediate Monocyte,,,CL:0000235
+Intermediate Monocyte,,,CL:0000860
+Intermediate Monocyte,,,CL:0000875
+Ionocyte,,,CL:0005006
+Ionocyte_n_Brush,,,CL:0005006
+Lipofibroblast,,,CL:4028004
+Lymph_vessel,,,CL:0002138
+Lymphatic,,,CL:0002063
+Lymphatic,,,CL:0002138
+Lymphatic,,,CL:4028003
+MAIT,,,CL:0000815
+MAIT,,,CL:0000904
+MAIT,,,CL:0000905
+MAIT,,,CL:0000913
+MAIT,,,CL:0000938
+MAIT,,,CL:0000939
+MAIT,,,CL:0001062
+Macro_AW_CX3CR1,,,CL:0000235
+Macro_AW_CX3CR1,,,CL:0000583
+Macro_AW_CX3CR1,,,CL:0000990
+Macro_CCL,,,CL:0000235
+Macro_CCL,,,CL:0000583
+Macro_CCL,,,CL:0000860
+Macro_CCL,,,CL:0000875
+Macro_CCL,,,CL:0000990
+Macro_CHIT1,,,CL:0000235
+Macro_CHIT1,,,CL:0000860
+Macro_alv,,,CL:0000235
+Macro_alv,,,CL:0000583
+Macro_alv,,,CL:0000860
+Macro_alv,,,CL:0000875
+Macro_alv,,,CL:0000990
+Macro_alv,,,CL:0001056
+Macro_alveolar_metallothioneins,,,CL:0000235
+Macro_alveolar_metallothioneins,,,CL:0000583
+Macro_alveolar_metallothioneins,,,CL:0000860
+Macro_alveolar_metallothioneins,,,CL:0000875
+Macro_alveolar_metallothioneins,,,CL:0000990
+Macro_dividing,,,CL:0000235
+Macro_dividing,,,CL:0000583
+Macro_int,,,CL:0000235
+Macro_int,,,CL:0000583
+Macro_int,,,CL:0000860
+Macro_int,,,CL:0000875
+Macro_int,,,CL:0000990
+Macro_interstitial,,,CL:0000235
+Macro_interstitial,,,CL:0000860
+Macro_interstitial,,,CL:0000875
+Macro_interstitial,,,CL:0000990
+Macrophage,,,CL:0000235
+Macrophage,,,CL:0000583
+Macrophage,,,CL:0000860
+Macrophage,,,CL:0000875
+Macrophage,,,CL:0000990
+Macrophage,,,CL:0001056
+Macrophage_Alveolar,,,CL:0000235
+Macrophage_Alveolar,,,CL:0000583
+Macrophage_Alveolar,,,CL:0000860
+Macrophage_Alveolar,,,CL:0000875
+Macrophage_Dividing,,,CL:0000235
+Macrophage_Dividing,,,CL:0000583
+Macrophage_MARCOneg,,,CL:0000235
+Macrophage_MARCOneg,,,CL:0000583
+Macrophage_MARCOneg,,,CL:0000860
+Macrophage_MARCOneg,,,CL:0000990
+Macrophage_MARCOpos,,,CL:0000235
+Macrophage_MARCOpos,,,CL:0000583
+Macrophage_MARCOpos,,,CL:0000860
+Macrophage_MARCOpos,,,CL:0000875
+Macrophage_MARCOpos,,,CL:0000990
+Macrophage_MARCOpos,,,CL:0001056
+Macrophage_intermediate,,,CL:0000235
+Macrophage_intermediate,,,CL:0000583
+Macrophage_intermediate,,,CL:0000860
+Macrophage_intermediate,,,CL:0000875
+Macrophage_intermediate,,,CL:0000990
+Mast,,,CL:0000097
+Mast_cell,,,CL:0000097
+Mast_cell,,,CL:0000905
+Mast_cells,,,CL:0000097
+Mast_cells,,,CL:0000786
+Mast_cells,,,CL:0000905
+Mast_cells,,,CL:0000913
+Mast_cells,,,CL:0000939
+Mast_cells,,,CL:0001062
+Mesothelia,,,CL:0000077
+Mesothelial,,,CL:0000057
+Mesothelial,,,CL:0000077
+Mesothelial,,,CL:0000186
+Monocyte,,,CL:0000235
+Monocyte,,,CL:0000583
+Monocyte,,,CL:0000860
+Monocyte,,,CL:0000875
+Monocyte,,,CL:0000990
+Monocyte_CD14,,,CL:0000235
+Monocyte_CD14,,,CL:0000583
+Monocyte_CD14,,,CL:0000860
+Monocyte_CD14,,,CL:0000875
+Monocyte_CD14,,,CL:0000990
+Monocyte_CD16,,,CL:0000235
+Monocyte_CD16,,,CL:0000583
+Monocyte_CD16,,,CL:0000860
+Monocyte_CD16,,,CL:0000875
+Mucous,,,CL:0000158
+Mucous,,,CL:0000646
+Mucous,,,CL:0002063
+Muscle_cells,,,CL:0000057
+Muscle_cells,,,CL:0000186
+Muscle_cells,,,CL:0000187
+Muscle_cells,,,CL:0000669
+Muscle_cells,,,CL:0002553
+Muscle_cells,,,CL:0002591
+Muscle_pericyte_airway,,,CL:0002591
+Muscle_pericyte_parenchyma,,,CL:0000057
+Muscle_pericyte_parenchyma,,,CL:0000669
+Muscle_perivascular_immune_recruiting,,,CL:0002591
+Muscle_smooth_pulmonary,,,CL:0000057
+Muscle_smooth_pulmonary,,,CL:0000187
+Muscle_smooth_pulmonary,,,CL:0002591
+Muscle_smooth_syst_arterial,,,CL:0002591
+Myeloid Dendritic Type 1,,,CL:0000235
+Myeloid Dendritic Type 1,,,CL:0000990
+Myeloid Dendritic Type 1,,,CL:0001056
+Myeloid Dendritic Type 2,,,CL:0000235
+Myeloid Dendritic Type 2,,,CL:0000990
+Myofibroblast,,,CL:0000057
+Myofibroblast,,,CL:0000186
+Myofibroblast,,,CL:0002553
+Myofibroblast,,,CL:0002591
+NAF_endoneurial,,,CL:0000057
+NK,,,CL:0000623
+NK,,,CL:0000815
+NK,,,CL:0000904
+NK,,,CL:0000905
+NK,,,CL:0000913
+NK,,,CL:0000938
+NK,,,CL:0000939
+NK,,,CL:0001062
+NK,,,CL:0002038
+NKT,,,CL:0000815
+NKT,,,CL:0000904
+NKT,,,CL:0000905
+NKT,,,CL:0000913
+NKT,,,CL:0000938
+NKT,,,CL:0000939
+NKT,,,CL:0001062
+NK_CD11d,,,CL:0000904
+NK_CD11d,,,CL:0000913
+NK_CD11d,,,CL:0000938
+NK_CD11d,,,CL:0000939
+NK_CD11d,,,CL:0001062
+NK_CD16hi,,,CL:0000623
+NK_CD16hi,,,CL:0000815
+NK_CD16hi,,,CL:0000904
+NK_CD16hi,,,CL:0000905
+NK_CD16hi,,,CL:0000913
+NK_CD16hi,,,CL:0000938
+NK_CD16hi,,,CL:0000939
+NK_CD16hi,,,CL:0001062
+NK_CD56bright,,,CL:0000905
+NK_CD56bright,,,CL:0000913
+NK_CD56bright,,,CL:0000938
+NK_CD56bright,,,CL:0000939
+NK_CD56bright,,,CL:0001062
+NK_Dividing,,,CL:0000235
+NK_Dividing,,,CL:0000583
+NK_Dividing,,,CL:0000623
+NK_Dividing,,,CL:0000938
+NK_Dividing,,,CL:0000939
+NK_Dividing,,,CL:0001062
+Natural Killer,,,CL:0000623
+Natural Killer,,,CL:0000938
+Natural Killer,,,CL:0000939
+Natural Killer,,,CL:0001062
+Natural Killer T,,,CL:0000815
+Natural Killer T,,,CL:0000905
+Natural Killer T,,,CL:0000913
+Natural Killer T,,,CL:0000938
+Natural Killer T,,,CL:0000939
+Natural Killer T,,,CL:0001062
+Nonclassical Monocyte,,,CL:0000860
+Nonclassical Monocyte,,,CL:0000875
+OLR1+ Classical Monocyte,,,CL:0000235
+OLR1+ Classical Monocyte,,,CL:0000860
+OLR1+ Classical Monocyte,,,CL:0000875
+PNEC,,,CL:0000646
+PNEC,,,CL:0005006
+Pericyte,,,CL:0000057
+Pericyte,,,CL:0000669
+Pericyte,,,CL:0002591
+Plasma,,,CL:0000786
+Plasma_cells,,,CL:0000786
+Plasma_cells,,,CL:0000787
+Plasma_cells,,,CL:0000980
+Plasmacytoid Dendritic,,,CL:0000235
+Plasmacytoid Dendritic,,,CL:0000784
+Proliferating Basal,,,CL:0000160
+Proliferating Basal,,,CL:0000646
+Proliferating Macrophage,,,CL:0000235
+Proliferating Macrophage,,,CL:0000583
+Proliferating NK/T,,,CL:0000084
+Proliferating NK/T,,,CL:0000623
+Proliferating NK/T,,,CL:0000939
+Proximal Basal,,,CL:0000160
+Proximal Basal,,,CL:0000646
+Proximal Basal,,,CL:0005006
+Proximal Ciliated,,,CL:1000271
+SMC,,,CL:0000057
+SMC,,,CL:0000669
+SMC,,,CL:0002553
+SMC,,,CL:0002591
+SMG_Basal,,,CL:0000646
+SMG_Duct,,,CL:0000646
+SMG_Duct,,,CL:0002063
+SMG_Mucous,,,CL:0000646
+SMG_Mucous,,,CL:0002063
+SMG_Serous,,,CL:0002063
+Secretory_Club,,,CL:0000158
+Secretory_Club,,,CL:0000646
+Secretory_Club,,,CL:0002062
+Secretory_Goblet,,,CL:0000160
+Serous,,,CL:0002063
+Signaling Alveolar Epithelial Type 2,,,CL:0000158
+Signaling Alveolar Epithelial Type 2,,,CL:0000646
+Signaling Alveolar Epithelial Type 2,,,CL:0002062
+Signaling Alveolar Epithelial Type 2,,,CL:0002063
+Suprabasal,,,CL:0000646
+T,,,CL:0000815
+T,,,CL:0000904
+T,,,CL:0000905
+T,,,CL:0000913
+T,,,CL:0000938
+T,,,CL:0000939
+T,,,CL:0002038
+TREM2+ Dendritic,,,CL:0000235
+TREM2+ Dendritic,,,CL:0000583
+TREM2+ Dendritic,,,CL:0000990
+T_CD4,,,CL:0000815
+T_CD4,,,CL:0000904
+T_CD4,,,CL:0000905
+T_CD4,,,CL:0000913
+T_CD4,,,CL:0000938
+T_CD4,,,CL:0000939
+T_CD4,,,CL:0001062
+T_CD4,,,CL:0002038
+T_CD8_CytT,,,CL:0000815
+T_CD8_CytT,,,CL:0000904
+T_CD8_CytT,,,CL:0000905
+T_CD8_CytT,,,CL:0000913
+T_CD8_CytT,,,CL:0000938
+T_CD8_CytT,,,CL:0000939
+T_CD8_CytT,,,CL:0001062
+T_Cytotoxic,,,CL:0000815
+T_Cytotoxic,,,CL:0000904
+T_Cytotoxic,,,CL:0000905
+T_Cytotoxic,,,CL:0000913
+T_Cytotoxic,,,CL:0000938
+T_Cytotoxic,,,CL:0000939
+T_Cytotoxic,,,CL:0001062
+T_Cytotoxic,,,CL:0002038
+T_Regulatory,,,CL:0000815
+T_Regulatory,,,CL:0000904
+T_Regulatory,,,CL:0000905
+T_Regulatory,,,CL:0000913
+T_Regulatory,,,CL:0000938
+T_Regulatory,,,CL:0000939
+T_Regulatory,,,CL:0002038
+T_cells_Dividing,,,CL:0000084
+T_cells_Dividing,,,CL:0000235
+T_cells_Dividing,,,CL:0000583
+T_cells_Dividing,,,CL:0000939
+T_reg,,,CL:0000815
+T_reg,,,CL:0000904
+T_reg,,,CL:0000905
+T_reg,,,CL:0000913
+T_reg,,,CL:0000939
+T_regulatory,,,CL:0000815
+T_regulatory,,,CL:0000905
+T_regulatory,,,CL:0000913
+T_regulatory,,,CL:0000939
+VE_Arterial,,,CL:0002144
+VE_Arterial,,,CL:0002543
+VE_Arterial,,,CL:1000413
+VE_Capillary_A,,,CL:0002144
+VE_Capillary_A,,,CL:4028003
+VE_Capillary_B,,,CL:0002144
+VE_Capillary_B,,,CL:0002543
+VE_Capillary_B,,,CL:1000413
+VE_Capillary_B,,,CL:4028003
+VE_Peribronchial,,,CL:0002144
+VE_Peribronchial,,,CL:0002543
+VE_Peribronchial,,,CL:1000413
+VE_Venous,,,CL:0002144
+VE_Venous,,,CL:0002543
+VE_Venous,,,CL:1000413
+Vascular Smooth Muscle,,,CL:0000057
+Vascular Smooth Muscle,,,CL:0000669
+Vascular Smooth Muscle,,,CL:0002591
+Vein,,,CL:0002144
+Vein,,,CL:0002543
+Vein,,,CL:1000413
+Vein,,,CL:4028003
+cDC1,,,CL:0000235
+cDC1,,,CL:0000860
+cDC1,,,CL:0000990
+cDC1,,,CL:0001056
+cDC2,,,CL:0000235
+cDC2,,,CL:0000583
+cDC2,,,CL:0000860
+cDC2,,,CL:0000990
+cDC2,,,CL:0001056
+cMonocyte,,,CL:0000235
+cMonocyte,,,CL:0000583
+cMonocyte,,,CL:0000860
+cMonocyte,,,CL:0000875
+cMonocyte,,,CL:0000990
+gdT,,,CL:0000815
+gdT,,,CL:0000904
+gdT,,,CL:0000905
+gdT,,,CL:0000913
+gdT,,,CL:0000938
+gdT,,,CL:0000939
+gdT,,,CL:0001062
+ncMonocyte,,,CL:0000235
+ncMonocyte,,,CL:0000860
+ncMonocyte,,,CL:0000875
+pDC,,,CL:0000784
