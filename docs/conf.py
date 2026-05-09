@@ -1,9 +1,9 @@
 # Configuration file for the Sphinx documentation builder.
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
-project = "Cell Knowledge Network (Cell-KN)"
-copyright = "2025, Cell-KN Team"
-author = "Cell-KN Team"
+project = "NLM Cell Knowledge Network (NLM-CKN)"
+copyright = "2026, NLM-CKN"
+author = "NLM-CKN"
 
 extensions = []
 
@@ -12,6 +12,10 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 # -- Options for HTML output -------------------------------------------------
 html_theme = "sphinx_rtd_theme"
+
+html_static_path = ["_static"]
+html_logo = "_static/nlm-ckn-logo-light-sm.png"
+
 html_static_path = ["_static"]
 
 html_theme_options = {

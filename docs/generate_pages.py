@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 """
-Generate Sphinx RST pages from cell-kn master_dataset_summary.csv files.
+Generate Sphinx RST pages from nlm-ckn master_dataset_summary.csv files.
 
 This script:
-1. Finds all master_dataset_summary.csv files under data/prod/
-2. Groups datasets by tissue/organ
+1. Finds the latest sc-nsforest-qc-nf/results/{date-id}/ run per tissue
+2. Groups all datasets by tissue
 3. Generates per-tissue RST pages with summary tables and reference forms
-4. Generates the index.rst landing page
-5. Copies silhouette_fscore_summary.html reports to _static/reports/
+4. Generates the main index.rst landing page
 
 Usage:
     python docs/generate_pages.py
@@ -19,8 +18,8 @@ import os
 from pathlib import Path
 
 # Paths relative to repo root
-GITHUB_RAW = "https://raw.githubusercontent.com/NIH-NLM/cell-kn/main"
-GITHUB_PREVIEW = "https://htmlpreview.github.io/?https://github.com/NIH-NLM/cell-kn/blob/main"
+GITHUB_RAW = "https://raw.githubusercontent.com/NIH-NLM/nlm-ckn/main"
+GITHUB_PREVIEW = "https://htmlpreview.github.io/?https://github.com/NIH-NLM/nlm-ckn/blob/main"
 
 REPO_ROOT = Path(__file__).parent.parent
 DATA_DIR = REPO_ROOT / "data" / "prod"
@@ -45,20 +44,44 @@ COLUMNS = [
     "dataset",
 ]
 
+# Subdirs of data/prod/ that are not anatomical tissue runs
+SKIP_DIRS = {"biomart", "ontology_lookup_server"}
 
-def find_master_csvs():
-    """Find all master_dataset_summary.csv files."""
-    pattern = str(DATA_DIR / "**" / "*master_dataset_summary.csv")
-    return sorted(glob.glob(pattern, recursive=True))
 
-def find_all_viz_files(csv_path):
-    """Find all HTML and SVG files in the same directory as the CSV."""
-    csv_dir = os.path.dirname(csv_path)
-    htmls = glob.glob(os.path.join(csv_dir, "*.html"))
-    svgs = glob.glob(os.path.join(csv_dir, "*.svg"))
-    return sorted(htmls + svgs)
+def find_latest_run_roots() -> dict[str, Path]:
+    """Return the latest sc-nsforest-qc-nf/results/{date-id}/ run per tissue."""
+    latest_runs: dict[str, Path] = {}
+    for tissue_dir in sorted(DATA_DIR.iterdir()):
+        if not tissue_dir.is_dir() or tissue_dir.name in SKIP_DIRS:
+            continue
+        results_dir = tissue_dir / "sc-nsforest-qc-nf" / "results"
+        if not results_dir.is_dir():
+            continue
+        candidates = [d for d in results_dir.iterdir()
+                      if d.is_dir() and not d.name.startswith('.')]
+        if candidates:
+            latest = max(candidates, key=lambda p: p.stat().st_mtime)
+            latest_runs[tissue_dir.name] = latest
+            print(f"  {tissue_dir.name}: run → {latest.name}")
+    return latest_runs
 
-def github_url(filepath):
+
+def find_datasets_in_run(run_root: Path) -> list[Path]:
+    """Return sorted dataset directories within a run root."""
+    return sorted(d for d in run_root.iterdir()
+                  if d.is_dir() and not d.name.startswith('.'))
+
+
+def find_files_in_dataset(dataset_dir: Path) -> dict[str, list[Path]]:
+    """Return all relevant files in a dataset directory, grouped by type."""
+    return {
+        "csv":  sorted(dataset_dir.glob("*master_dataset_summary.csv")),
+        "html": sorted(dataset_dir.glob("*.html")),
+        "svg":  sorted(dataset_dir.glob("*.svg")),
+    }
+
+
+def github_url(filepath: str) -> str:
     """Build a GitHub URL for a file in the repo."""
     rel = os.path.relpath(filepath, REPO_ROOT)
     if filepath.endswith('.html'):
@@ -66,7 +89,7 @@ def github_url(filepath):
     return f"{GITHUB_RAW}/{rel}"
 
 
-def read_csv_row(csv_path):
+def read_csv_row(csv_path: str) -> dict | None:
     """Read the first data row from a master_dataset_summary.csv."""
     with open(csv_path, "r", newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
@@ -75,7 +98,7 @@ def read_csv_row(csv_path):
     return None
 
 
-def format_number(val):
+def format_number(val) -> str:
     """Format a number string nicely."""
     try:
         num = float(val)
@@ -86,12 +109,25 @@ def format_number(val):
         return str(val)
 
 
-def get_tissue_label(tissue_name):
+def get_tissue_label(tissue_name: str) -> str:
     """Convert tissue directory name to a display label."""
     return tissue_name.replace("_", " ").title()
 
 
-def generate_tissue_rst(tissue, datasets):
+def avg_score(datasets: list, key: str) -> str:
+    """Compute average of a score field across datasets."""
+    vals = []
+    for ds in datasets:
+        try:
+            vals.append(float(ds.get(key, 0)))
+        except (ValueError, TypeError):
+            pass
+    if not vals:
+        return "N/A"
+    return f"{sum(vals) / len(vals):.4f}"
+
+
+def generate_tissue_rst(tissue: str, datasets: list) -> str:
     """Generate RST content for a single tissue page."""
     label = get_tissue_label(tissue)
     lines = []
@@ -145,13 +181,9 @@ def generate_tissue_rst(tissue, datasets):
         mean_sil = format_number(ds.get("mean_silhouette", ""))
         med_f = format_number(ds.get("median_fscore", ""))
         mean_f = format_number(ds.get("mean_fscore", ""))
-
-        # Report link
         report_link = ""
         if ds.get("_report_url"):
             report_link = f'<a href="{ds["_report_url"]}" target="_blank">View Report</a>'
-
-        # Truncate collection name for display
         coll_display = collection_name[:50] + "..." if len(collection_name) > 50 else collection_name
 
         lines.append("   <tr>")
@@ -186,23 +218,22 @@ def generate_tissue_rst(tissue, datasets):
         dt = ds.get("dataset_title", "")
         label = f"{author} ({journal}) {year} - {dt}" if journal else f"{author} {year} - {dt}"
 
-        viz_files = ds.get("_viz_files", {})
+        viz_files = ds.get("_viz_files", [])
         if not viz_files:
             continue
 
         lines.append(f'   <details><summary><strong>{label}</strong></summary>')
         lines.append('   <div class="viz-links">')
 
-        # Group by category
         categories = {
             "Quality Boxplots": [f for f in viz_files if "boxplot_" in os.path.basename(f)],
-            "Scatter Plots": [f for f in viz_files if "scatter_" in os.path.basename(f)],
-            "Distributions": [f for f in viz_files if "distribution_" in os.path.basename(f)],
-            "Gene Expression": [f for f in viz_files if any(x in os.path.basename(f) for x in ["dotplot", "matrixplot"])],
-            "Violin Plots": [f for f in viz_files if "stacked_violin" in os.path.basename(f)],
-            "Histograms": [f for f in viz_files if "hist_" in os.path.basename(f)],
-            "Dendrogram": [f for f in viz_files if "dendrogram" in os.path.basename(f)],
-            "Summary": [f for f in viz_files if "silhouette_fscore" in os.path.basename(f)],
+            "Scatter Plots":    [f for f in viz_files if "scatter_" in os.path.basename(f)],
+            "Distributions":    [f for f in viz_files if "distribution_" in os.path.basename(f)],
+            "Gene Expression":  [f for f in viz_files if any(x in os.path.basename(f) for x in ["dotplot", "matrixplot"])],
+            "Violin Plots":     [f for f in viz_files if "stacked_violin" in os.path.basename(f)],
+            "Histograms":       [f for f in viz_files if "hist_" in os.path.basename(f)],
+            "Dendrogram":       [f for f in viz_files if "dendrogram" in os.path.basename(f)],
+            "Summary":          [f for f in viz_files if "silhouette_fscore" in os.path.basename(f)],
         }
         for cat_name, files in categories.items():
             if files:
@@ -211,10 +242,10 @@ def generate_tissue_rst(tissue, datasets):
                     for f in sorted(files)
                 )
                 lines.append(f'   <p><strong>{cat_name}:</strong> {links}</p>')
-                
+
         lines.append('   </div>')
         lines.append('   </details>')
-        
+
     lines.append("")
 
     # --- Reference Selection Form ---
@@ -227,7 +258,7 @@ def generate_tissue_rst(tissue, datasets):
     lines.append("")
     lines.append(f'   <div class="reference-form" id="form-{tissue}">')
     lines.append(f'   <h3>Reference Selection: {label}</h3>')
-    lines.append('   <label for="reviewer-{tissue}"><strong>Your Name:</strong></label><br>')
+    lines.append(f'   <label for="reviewer-{tissue}"><strong>Your Name:</strong></label><br>')
     lines.append(f'   <input type="text" class="reviewer-name" id="reviewer-{tissue}" placeholder="Enter your name">')
     lines.append('   <br><br>')
     lines.append('   <table class="reference-table">')
@@ -271,7 +302,7 @@ def generate_tissue_rst(tissue, datasets):
     return "\n".join(lines)
 
 
-def generate_index_rst(tissues):
+def generate_index_rst(tissues: dict) -> str:
     """Generate the main index.rst with toctree."""
     label = "Cell Knowledge Network (Cell-KN)"
     lines = []
@@ -288,7 +319,6 @@ def generate_index_rst(tissues):
     lines.append("tissue and download your selections as a CSV.")
     lines.append("")
 
-    # Summary table
     lines.append("Tissue Overview")
     lines.append("-" * len("Tissue Overview"))
     lines.append("")
@@ -303,17 +333,12 @@ def generate_index_rst(tissues):
 
     for tissue_name, datasets in sorted(tissues.items()):
         tissue_label = get_tissue_label(tissue_name)
-        n_ds = len(datasets)
-        avg_sil = avg_score(datasets, "median_silhouette")
-        avg_f = avg_score(datasets, "median_fscore")
         lines.append(f"   * - :doc:`tissues/{tissue_name}`")
-        lines.append(f"     - {n_ds}")
-        lines.append(f"     - {avg_sil}")
-        lines.append(f"     - {avg_f}")
+        lines.append(f"     - {len(datasets)}")
+        lines.append(f"     - {avg_score(datasets, 'median_silhouette')}")
+        lines.append(f"     - {avg_score(datasets, 'median_fscore')}")
 
     lines.append("")
-
-    # Toctree
     lines.append(".. toctree::")
     lines.append("   :maxdepth: 2")
     lines.append("   :caption: Tissues")
@@ -326,81 +351,51 @@ def generate_index_rst(tissues):
     return "\n".join(lines)
 
 
-def avg_score(datasets, key):
-    """Compute average of a score field across datasets."""
-    vals = []
-    for ds in datasets:
-        try:
-            vals.append(float(ds.get(key, 0)))
-        except (ValueError, TypeError):
-            pass
-    if not vals:
-        return "N/A"
-    return f"{sum(vals) / len(vals):.4f}"
-
-
 def main():
-    print("Cell-KN Sphinx Page Generator")
+    print("NLM-CKN Sphinx Page Generator")
     print("=" * 40)
 
-    # Create output directories
     TISSUES_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Find all master CSV files
-    csv_files = find_master_csvs()
-    print(f"Found {len(csv_files)} master_dataset_summary.csv files")
+    # Step 1: find the latest run root per tissue
+    print("\nDiscovering latest run per tissue...")
+    latest_runs = find_latest_run_roots()
 
-    # Group datasets by tissue
-    tissues = {}
-    for csv_path in csv_files:
-        row = read_csv_row(csv_path)
-        if not row:
-            print(f"  WARNING: Empty CSV: {csv_path}")
-            continue
-
-        # Determine tissue from the organ column or directory structure
-        tissue = row.get("organ", "").strip()
-        if not tissue:
-            # Fallback: extract from path
-            parts = Path(csv_path).parts
-            for i, p in enumerate(parts):
-                if p == "prod" and i + 1 < len(parts):
-                    tissue = parts[i + 1]
-                    break
-
-        if not tissue:
-            print(f"  WARNING: Cannot determine tissue for: {csv_path}")
-            continue
-
-        # Find all viz files and build GitHub URLs
-        viz_files = find_all_viz_files(csv_path)
-        row["_viz_files"] = viz_files
-
-        # Find silhouette_fscore_summary for the report link
-        summary_html = [f for f in viz_files if "silhouette_fscore_summary.html" in f]
-        row["_report_url"] = github_url(summary_html[0]) if summary_html else ""
-
-        tissues.setdefault(tissue, []).append(row)
+    # Step 2: collect all datasets from the latest run of each tissue
+    tissues: dict[str, list] = {}
+    for tissue, run_root in sorted(latest_runs.items()):
+        for dataset_dir in find_datasets_in_run(run_root):
+            files = find_files_in_dataset(dataset_dir)
+            if not files["csv"]:
+                continue
+            row = read_csv_row(str(files["csv"][0]))
+            if not row:
+                print(f"  WARNING: Empty CSV in {dataset_dir}")
+                continue
+            all_viz = files["html"] + files["svg"]
+            row["_viz_files"] = [str(f) for f in all_viz]
+            summary_html = [f for f in files["html"]
+                            if "silhouette_fscore_summary" in f.name]
+            row["_report_url"] = github_url(str(summary_html[0])) if summary_html else ""
+            tissues.setdefault(tissue, []).append(row)
 
     print(f"\nFound {len(tissues)} tissues:")
     for t, ds in sorted(tissues.items()):
         print(f"  {t}: {len(ds)} datasets")
 
-    # Generate per-tissue RST files
+    # Step 3: generate per-tissue RST files
     for tissue, datasets in sorted(tissues.items()):
-        rst_content = generate_tissue_rst(tissue, datasets)
         rst_path = TISSUES_DIR / f"{tissue}.rst"
-        rst_path.write_text(rst_content, encoding="utf-8")
+        rst_path.write_text(generate_tissue_rst(tissue, datasets), encoding="utf-8")
         print(f"  Generated: {rst_path.name}")
 
-    # Generate index.rst
-    index_content = generate_index_rst(tissues)
+    # Step 4: generate index.rst
     index_path = DOCS_DIR / "index.rst"
-    index_path.write_text(index_content, encoding="utf-8")
+    index_path.write_text(generate_index_rst(tissues), encoding="utf-8")
     print(f"  Generated: index.rst")
 
     print(f"\nDone! Generated {len(tissues)} tissue pages + index.rst")
-    print(f"\nNext: cd docs && make html")
+    print(f"Next: cd docs && make html")
 
 
 if __name__ == "__main__":

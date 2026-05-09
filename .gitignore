@@ -1,3 +1,7 @@
 ### Mac OS ###
 .DS_Store
+data/archive/
+docs/.DS_Store
+docs/_build/
+docs/_static/reports/
 data/test/kidney/h5ad/adata_normal_n3566.h5ad 
