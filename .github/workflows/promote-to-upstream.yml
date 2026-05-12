@@ -1,0 +1,88 @@
+name: Promote to NIH-NLM upstream
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Serialize runs so concurrent pushes can't both pass the EXISTING-empty check
+# and race on PR creation (which would 422 the loser). Don't cancel the
+# in-flight run — its commits still need promoting.
+concurrency:
+  group: promote-to-upstream
+  cancel-in-progress: false
+
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Open or update upstream PR
+        env:
+          GH_TOKEN: ${{ secrets.UPSTREAM_PR_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "${GH_TOKEN:-}" ]; then
+            echo "::error::UPSTREAM_PR_TOKEN secret is not configured on this fork — see this repo's promote-to-upstream PR for setup instructions."
+            exit 1
+          fi
+
+          UPSTREAM=NIH-NLM/nlm-ckn
+          FORK=Springbok-LLC/nlm-ckn
+
+          # Unlike the nlm-ckn-ui workflow, this repo's upstream requires an
+          # approving review (no admin bypass). We open or update the PR and
+          # stop — Anne (or whoever owns review) merges it upstream when
+          # ready. No fast-forward via the Refs API either, since that would
+          # bypass the approval gate entirely.
+
+          COMPARE=$(gh api "repos/$UPSTREAM/compare/main...Springbok-LLC:main")
+          AHEAD=$(echo "$COMPARE" | jq -r '.ahead_by')
+          BEHIND=$(echo "$COMPARE" | jq -r '.behind_by')
+          echo "Compare upstream/main...fork/main: ahead_by=$AHEAD, behind_by=$BEHIND"
+
+          if [ "$AHEAD" = "0" ]; then
+            echo "Fork is not ahead of upstream — nothing to promote."
+            exit 0
+          fi
+
+          if [ "$BEHIND" != "0" ]; then
+            echo "::warning::Fork is $BEHIND commits behind upstream — the promoted PR may have conflicts requiring manual resolution."
+          fi
+
+          EXISTING=$(gh api -X GET "repos/$UPSTREAM/pulls" \
+            -F head=Springbok-LLC:main \
+            -F base=main \
+            -F state=open \
+            --jq '.[0].number // empty')
+
+          if [ -n "$EXISTING" ]; then
+            echo "Upstream PR already open: #$EXISTING ($AHEAD ahead, $BEHIND behind). Fork pushes will append to it automatically."
+            exit 0
+          fi
+
+          echo "Opening upstream PR ($AHEAD ahead, $BEHIND behind)."
+          BODY=$(cat <<EOF
+          Automated promotion from Springbok-LLC fork ($AHEAD commit(s) ahead, $BEHIND behind).
+
+          Awaits the upstream approval requirement; this workflow does not merge.
+
+          Workflow run: https://github.com/$FORK/actions/runs/$GITHUB_RUN_ID
+          EOF
+          )
+          for i in 1 2 3; do
+            if PR_NUM=$(gh api "repos/$UPSTREAM/pulls" \
+                 -f title="Promote Springbok-LLC main to upstream" \
+                 -f head="Springbok-LLC:main" \
+                 -f base="main" \
+                 -f body="$BODY" \
+                 --jq '.number'); then
+              echo "Created upstream PR #$PR_NUM."
+              exit 0
+            fi
+            echo "PR creation attempt $i failed; sleeping $((i * 10))s before retry."
+            sleep $((i * 10))
+          done
+
+          echo "::error::Failed to open upstream PR after 3 attempts."
+          exit 1

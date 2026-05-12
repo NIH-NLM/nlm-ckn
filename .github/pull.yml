@@ -1,0 +1,7 @@
+version: "1"
+rules:
+  - base: main
+    upstream: NIH-NLM:main
+    mergeMethod: merge
+    mergeUnstable: false
+    label: "sync from upstream"
