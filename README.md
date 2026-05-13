@@ -1,5 +1,5 @@
 # NLM Cell Knowledge (NLM-CKN) Network
-[<img src="docs/_static/nlm-ckn-logo-light-sm.png" width="750"  align=left>](https://cell-kn.org/)
+[<img src="docs/_static/nlm-ckn-logo-light-sm.png" width="150"  align=left>](https://cell-kn.org/)
 
 The __National Library of Medicine (NLM) Cell Knowledge Network (**NLM-CKN**)__ is a knowledgebase focused on cell characteristics (phenotypes) derived from single-cell technologies. It integrates this information with data from reference ontologies, NCBI resources, and text mining efforts.
 
