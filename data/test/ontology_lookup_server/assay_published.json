@@ -1,0 +1,17 @@
+{
+  "queries": [
+    "10x 3' v3"
+  ],
+  "assays": [
+    {
+      "query": "10x 3' v3",
+      "obo_id": "EFO:0009922",
+      "label": "10x 3' v3"
+    }
+  ],
+  "unresolved": [],
+  "obo_ids": [
+    "EFO:0009922"
+  ],
+  "total": 1
+}

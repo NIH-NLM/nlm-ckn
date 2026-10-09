@@ -1,0 +1,734 @@
+[
+  {
+    "schema_version": "1.0",
+    "dataset": {
+      "dataset_id": "0b75c598-0893-4216-afe8-5414cab7739d",
+      "dataset_version_id": "4cd166f1-ef51-4137-869d-0a3688bc2bc8",
+      "collection_id": "bcb61471-2a44-4d00-a0af-ff085512674c",
+      "collection_version_id": "379e9a9b-8436-496f-9370-042491bc27d6",
+      "collection_name": "An atlas of healthy and injured cell states and niches in the human kidney",
+      "dataset_title": "Integrated Single-nucleus and Single-cell RNA-seq of the Adult Human Kidney",
+      "first_author": "Lake",
+      "journal": "Nature",
+      "doi": "10.1038/s41586-023-05769-3",
+      "collection_url": "https://cellxgene.cziscience.com/collections/bcb61471-2a44-4d00-a0af-ff085512674c",
+      "explorer_url": "https://cellxgene.cziscience.com/e/0b75c598-0893-4216-afe8-5414cab7739d.cxg/",
+      "h5ad_url": "https://datasets.cellxgene.cziscience.com/4cd166f1-ef51-4137-869d-0a3688bc2bc8.h5ad",
+      "organism": "Homo sapiens",
+      "visibility": "PUBLIC",
+      "year": 2023,
+      "is_preprint": false
+    },
+    "curation": {
+      "reference": "unk",
+      "author_cell_type": "",
+      "embedding": ""
+    },
+    "organ": {
+      "name": "kidney",
+      "uberon_id": "UBERON:0002113"
+    },
+    "filter_choices": {
+      "organism": "Homo sapiens",
+      "no_preprints": false,
+      "uberon": {
+        "file": "uberon_kidney.json",
+        "queries": [
+          "kidney"
+        ],
+        "root_terms": [
+          {
+            "obo_id": "UBERON:0002113",
+            "label": "kidney"
+          }
+        ],
+        "term_count": 297,
+        "sha256": "eb55b78da4bf08122e2f6015fdf115a991baf48e3da339e85fcde69835a8e9b1"
+      },
+      "disease": {
+        "file": "disease_normal.json",
+        "queries": [
+          "normal"
+        ],
+        "root_terms": [
+          {
+            "obo_id": "PATO:0000461",
+            "label": "normal"
+          }
+        ],
+        "term_count": 1,
+        "sha256": "2df67a878c51cf4013503da40494cd4c322412a6d5643275369d21a832f3fff2"
+      },
+      "hsapdv": {
+        "file": "hsapdv_adult_15.json",
+        "queries": [
+          "min_age=15.0"
+        ],
+        "root_terms": [
+          {
+            "obo_id": "HsapDv:0000109",
+            "label": "15-year-old stage"
+          },
+          {
+            "obo_id": "HsapDv:0000226",
+            "label": "prime adult stage"
+          },
+          {
+            "obo_id": "HsapDv:0000258",
+            "label": "adult stage"
+          },
+          {
+            "obo_id": "HsapDv:0000266",
+            "label": "young adult stage"
+          },
+          {
+            "obo_id": "HsapDv:0000268",
+            "label": "15-19 year-old"
+          }
+        ],
+        "term_count": 119,
+        "sha256": "a2be5c22e7e29f0691fc82489497f148330d27cfafb1ca7136f453f4c6b812fd",
+        "min_age": 15.0
+      },
+      "assay": {
+        "file": "assay_published.json",
+        "queries": [
+          "10x 3' v3"
+        ],
+        "assays": [
+          {
+            "obo_id": "EFO:0009922",
+            "label": "10x 3' v3"
+          }
+        ],
+        "unresolved": [],
+        "term_count": 1,
+        "sha256": "5334c5c65058cdf93aa378c11b92ec0ecede779991f34805533ac042618b01af"
+      },
+      "harvester_version": "1.0.0",
+      "run_date": "2026-10-09",
+      "h5ad": {
+        "file": "adata_normal_n3566.h5ad"
+      }
+    },
+    "source_cell_count": 3566,
+    "filtered_cell_count": 3514,
+    "source_donor_count": 31,
+    "filtered_donor_count": 30,
+    "filtered_h5ad_url": "h5ad_out/0b75c598-0893-4216-afe8-5414cab7739d.filtered.h5ad",
+    "source_tissue": [
+      {
+        "ontology_id": "UBERON:0001225",
+        "label": "cortex of kidney",
+        "source_count": 1672
+      },
+      {
+        "ontology_id": "UBERON:0001228",
+        "label": "renal papilla",
+        "source_count": 721
+      },
+      {
+        "ontology_id": "UBERON:0002113",
+        "label": "kidney",
+        "source_count": 673
+      },
+      {
+        "ontology_id": "UBERON:0000362",
+        "label": "renal medulla",
+        "source_count": 500
+      }
+    ],
+    "filtered_tissue": [
+      {
+        "ontology_id": "UBERON:0001225",
+        "label": "cortex of kidney",
+        "filtered_count": 1672
+      },
+      {
+        "ontology_id": "UBERON:0001228",
+        "label": "renal papilla",
+        "filtered_count": 721
+      },
+      {
+        "ontology_id": "UBERON:0002113",
+        "label": "kidney",
+        "filtered_count": 673
+      },
+      {
+        "ontology_id": "UBERON:0000362",
+        "label": "renal medulla",
+        "filtered_count": 448
+      }
+    ],
+    "source_assay": [
+      {
+        "ontology_id": "EFO:0009922",
+        "label": "10x 3' v3",
+        "source_count": 3566
+      }
+    ],
+    "filtered_assay": [
+      {
+        "ontology_id": "EFO:0009922",
+        "label": "10x 3' v3",
+        "filtered_count": 3514
+      }
+    ],
+    "source_cell_type": [
+      {
+        "ontology_id": "CL:0000115",
+        "label": "endothelial cell",
+        "source_count": 450
+      },
+      {
+        "ontology_id": "CL:1000692",
+        "label": "kidney interstitial fibroblast",
+        "source_count": 318
+      },
+      {
+        "ontology_id": "CL:1001106",
+        "label": "kidney loop of Henle thick ascending limb epithelial cell",
+        "source_count": 300
+      },
+      {
+        "ontology_id": "CL:1001432",
+        "label": "kidney collecting duct intercalated cell",
+        "source_count": 300
+      },
+      {
+        "ontology_id": "CL:0002306",
+        "label": "epithelial cell of proximal tubule",
+        "source_count": 250
+      },
+      {
+        "ontology_id": "CL:1001318",
+        "label": "renal interstitial pericyte",
+        "source_count": 250
+      },
+      {
+        "ontology_id": "CL:1001431",
+        "label": "kidney collecting duct principal cell",
+        "source_count": 250
+      },
+      {
+        "ontology_id": "CL:1001111",
+        "label": "kidney loop of Henle thin descending limb epithelial cell",
+        "source_count": 200
+      },
+      {
+        "ontology_id": "CL:1000768",
+        "label": "kidney connecting tubule epithelial cell",
+        "source_count": 162
+      },
+      {
+        "ontology_id": "CL:1000849",
+        "label": "kidney distal convoluted tubule epithelial cell",
+        "source_count": 156
+      },
+      {
+        "ontology_id": "CL:0000653",
+        "label": "podocyte",
+        "source_count": 100
+      },
+      {
+        "ontology_id": "CL:1001107",
+        "label": "kidney loop of Henle thin ascending limb epithelial cell",
+        "source_count": 100
+      },
+      {
+        "ontology_id": "CL:0000113",
+        "label": "mononuclear phagocyte",
+        "source_count": 98
+      },
+      {
+        "ontology_id": "CL:0000542",
+        "label": "lymphocyte",
+        "source_count": 66
+      },
+      {
+        "ontology_id": "CL:0000084",
+        "label": "T cell",
+        "source_count": 50
+      },
+      {
+        "ontology_id": "CL:0000097",
+        "label": "mast cell",
+        "source_count": 50
+      },
+      {
+        "ontology_id": "CL:0000236",
+        "label": "B cell",
+        "source_count": 50
+      },
+      {
+        "ontology_id": "CL:0000775",
+        "label": "neutrophil",
+        "source_count": 50
+      },
+      {
+        "ontology_id": "CL:0000786",
+        "label": "plasma cell",
+        "source_count": 50
+      },
+      {
+        "ontology_id": "CL:0000875",
+        "label": "non-classical monocyte",
+        "source_count": 50
+      },
+      {
+        "ontology_id": "CL:0000990",
+        "label": "conventional dendritic cell",
+        "source_count": 50
+      },
+      {
+        "ontology_id": "CL:1000452",
+        "label": "parietal epithelial cell",
+        "source_count": 50
+      },
+      {
+        "ontology_id": "CL:1000597",
+        "label": "papillary tips cell",
+        "source_count": 50
+      },
+      {
+        "ontology_id": "CL:1000695",
+        "label": "kidney interstitial alternatively activated macrophage",
+        "source_count": 50
+      },
+      {
+        "ontology_id": "CL:0002319",
+        "label": "neural cell",
+        "source_count": 35
+      },
+      {
+        "ontology_id": "CL:0001058",
+        "label": "plasmacytoid dendritic cell, human",
+        "source_count": 31
+      }
+    ],
+    "filtered_cell_type": [
+      {
+        "ontology_id": "CL:0000115",
+        "label": "endothelial cell",
+        "filtered_count": 446
+      },
+      {
+        "ontology_id": "CL:1000692",
+        "label": "kidney interstitial fibroblast",
+        "filtered_count": 316
+      },
+      {
+        "ontology_id": "CL:1001106",
+        "label": "kidney loop of Henle thick ascending limb epithelial cell",
+        "filtered_count": 281
+      },
+      {
+        "ontology_id": "CL:1001432",
+        "label": "kidney collecting duct intercalated cell",
+        "filtered_count": 300
+      },
+      {
+        "ontology_id": "CL:0002306",
+        "label": "epithelial cell of proximal tubule",
+        "filtered_count": 248
+      },
+      {
+        "ontology_id": "CL:1001318",
+        "label": "renal interstitial pericyte",
+        "filtered_count": 248
+      },
+      {
+        "ontology_id": "CL:1001431",
+        "label": "kidney collecting duct principal cell",
+        "filtered_count": 248
+      },
+      {
+        "ontology_id": "CL:1001111",
+        "label": "kidney loop of Henle thin descending limb epithelial cell",
+        "filtered_count": 185
+      },
+      {
+        "ontology_id": "CL:1000768",
+        "label": "kidney connecting tubule epithelial cell",
+        "filtered_count": 161
+      },
+      {
+        "ontology_id": "CL:1000849",
+        "label": "kidney distal convoluted tubule epithelial cell",
+        "filtered_count": 156
+      },
+      {
+        "ontology_id": "CL:0000653",
+        "label": "podocyte",
+        "filtered_count": 100
+      },
+      {
+        "ontology_id": "CL:1001107",
+        "label": "kidney loop of Henle thin ascending limb epithelial cell",
+        "filtered_count": 100
+      },
+      {
+        "ontology_id": "CL:0000113",
+        "label": "mononuclear phagocyte",
+        "filtered_count": 96
+      },
+      {
+        "ontology_id": "CL:0000542",
+        "label": "lymphocyte",
+        "filtered_count": 66
+      },
+      {
+        "ontology_id": "CL:0000084",
+        "label": "T cell",
+        "filtered_count": 50
+      },
+      {
+        "ontology_id": "CL:0000097",
+        "label": "mast cell",
+        "filtered_count": 50
+      },
+      {
+        "ontology_id": "CL:0000236",
+        "label": "B cell",
+        "filtered_count": 50
+      },
+      {
+        "ontology_id": "CL:0000775",
+        "label": "neutrophil",
+        "filtered_count": 50
+      },
+      {
+        "ontology_id": "CL:0000786",
+        "label": "plasma cell",
+        "filtered_count": 49
+      },
+      {
+        "ontology_id": "CL:0000875",
+        "label": "non-classical monocyte",
+        "filtered_count": 50
+      },
+      {
+        "ontology_id": "CL:0000990",
+        "label": "conventional dendritic cell",
+        "filtered_count": 49
+      },
+      {
+        "ontology_id": "CL:1000452",
+        "label": "parietal epithelial cell",
+        "filtered_count": 50
+      },
+      {
+        "ontology_id": "CL:1000597",
+        "label": "papillary tips cell",
+        "filtered_count": 49
+      },
+      {
+        "ontology_id": "CL:1000695",
+        "label": "kidney interstitial alternatively activated macrophage",
+        "filtered_count": 50
+      },
+      {
+        "ontology_id": "CL:0002319",
+        "label": "neural cell",
+        "filtered_count": 35
+      },
+      {
+        "ontology_id": "CL:0001058",
+        "label": "plasmacytoid dendritic cell, human",
+        "filtered_count": 31
+      }
+    ],
+    "source_disease": [
+      {
+        "ontology_id": "PATO:0000461",
+        "label": "normal",
+        "source_count": 3566
+      }
+    ],
+    "filtered_disease": [
+      {
+        "ontology_id": "PATO:0000461",
+        "label": "normal",
+        "filtered_count": 3514
+      }
+    ],
+    "source_development_stage": [
+      {
+        "ontology_id": "HsapDv:0000170",
+        "label": "76-year-old stage",
+        "source_count": 732
+      },
+      {
+        "ontology_id": "HsapDv:0000157",
+        "label": "63-year-old stage",
+        "source_count": 401
+      },
+      {
+        "ontology_id": "HsapDv:0000160",
+        "label": "66-year-old stage",
+        "source_count": 364
+      },
+      {
+        "ontology_id": "HsapDv:0000241",
+        "label": "seventh decade stage",
+        "source_count": 347
+      },
+      {
+        "ontology_id": "HsapDv:0000242",
+        "label": "eighth decade stage",
+        "source_count": 324
+      },
+      {
+        "ontology_id": "HsapDv:0000163",
+        "label": "69-year-old stage",
+        "source_count": 214
+      },
+      {
+        "ontology_id": "HsapDv:0000153",
+        "label": "59-year-old stage",
+        "source_count": 208
+      },
+      {
+        "ontology_id": "HsapDv:0000151",
+        "label": "57-year-old stage",
+        "source_count": 115
+      },
+      {
+        "ontology_id": "HsapDv:0000123",
+        "label": "29-year-old stage",
+        "source_count": 114
+      },
+      {
+        "ontology_id": "HsapDv:0000129",
+        "label": "35-year-old stage",
+        "source_count": 92
+      },
+      {
+        "ontology_id": "HsapDv:0000147",
+        "label": "53-year-old stage",
+        "source_count": 89
+      },
+      {
+        "ontology_id": "HsapDv:0000139",
+        "label": "45-year-old stage",
+        "source_count": 71
+      },
+      {
+        "ontology_id": "HsapDv:0000125",
+        "label": "31-year-old stage",
+        "source_count": 68
+      },
+      {
+        "ontology_id": "HsapDv:0000150",
+        "label": "56-year-old stage",
+        "source_count": 59
+      },
+      {
+        "ontology_id": "HsapDv:0000124",
+        "label": "30-year-old stage",
+        "source_count": 55
+      },
+      {
+        "ontology_id": "HsapDv:0000108",
+        "label": "14-year-old stage",
+        "source_count": 52
+      },
+      {
+        "ontology_id": "HsapDv:0000143",
+        "label": "49-year-old stage",
+        "source_count": 46
+      },
+      {
+        "ontology_id": "HsapDv:0000148",
+        "label": "54-year-old stage",
+        "source_count": 39
+      },
+      {
+        "ontology_id": "HsapDv:0000134",
+        "label": "40-year-old stage",
+        "source_count": 38
+      },
+      {
+        "ontology_id": "HsapDv:0000136",
+        "label": "42-year-old stage",
+        "source_count": 37
+      },
+      {
+        "ontology_id": "HsapDv:0000146",
+        "label": "52-year-old stage",
+        "source_count": 35
+      },
+      {
+        "ontology_id": "HsapDv:0000133",
+        "label": "39-year-old stage",
+        "source_count": 20
+      },
+      {
+        "ontology_id": "HsapDv:0000141",
+        "label": "47-year-old stage",
+        "source_count": 17
+      },
+      {
+        "ontology_id": "HsapDv:0000135",
+        "label": "41-year-old stage",
+        "source_count": 16
+      },
+      {
+        "ontology_id": "HsapDv:0000142",
+        "label": "48-year-old stage",
+        "source_count": 13
+      }
+    ],
+    "filtered_development_stage": [
+      {
+        "ontology_id": "HsapDv:0000170",
+        "label": "76-year-old stage",
+        "filtered_count": 732
+      },
+      {
+        "ontology_id": "HsapDv:0000157",
+        "label": "63-year-old stage",
+        "filtered_count": 401
+      },
+      {
+        "ontology_id": "HsapDv:0000160",
+        "label": "66-year-old stage",
+        "filtered_count": 364
+      },
+      {
+        "ontology_id": "HsapDv:0000241",
+        "label": "seventh decade stage",
+        "filtered_count": 347
+      },
+      {
+        "ontology_id": "HsapDv:0000242",
+        "label": "eighth decade stage",
+        "filtered_count": 324
+      },
+      {
+        "ontology_id": "HsapDv:0000163",
+        "label": "69-year-old stage",
+        "filtered_count": 214
+      },
+      {
+        "ontology_id": "HsapDv:0000153",
+        "label": "59-year-old stage",
+        "filtered_count": 208
+      },
+      {
+        "ontology_id": "HsapDv:0000151",
+        "label": "57-year-old stage",
+        "filtered_count": 115
+      },
+      {
+        "ontology_id": "HsapDv:0000123",
+        "label": "29-year-old stage",
+        "filtered_count": 114
+      },
+      {
+        "ontology_id": "HsapDv:0000129",
+        "label": "35-year-old stage",
+        "filtered_count": 92
+      },
+      {
+        "ontology_id": "HsapDv:0000147",
+        "label": "53-year-old stage",
+        "filtered_count": 89
+      },
+      {
+        "ontology_id": "HsapDv:0000139",
+        "label": "45-year-old stage",
+        "filtered_count": 71
+      },
+      {
+        "ontology_id": "HsapDv:0000125",
+        "label": "31-year-old stage",
+        "filtered_count": 68
+      },
+      {
+        "ontology_id": "HsapDv:0000150",
+        "label": "56-year-old stage",
+        "filtered_count": 59
+      },
+      {
+        "ontology_id": "HsapDv:0000124",
+        "label": "30-year-old stage",
+        "filtered_count": 55
+      },
+      {
+        "ontology_id": "HsapDv:0000108",
+        "label": "14-year-old stage",
+        "filtered_count": 0
+      },
+      {
+        "ontology_id": "HsapDv:0000143",
+        "label": "49-year-old stage",
+        "filtered_count": 46
+      },
+      {
+        "ontology_id": "HsapDv:0000148",
+        "label": "54-year-old stage",
+        "filtered_count": 39
+      },
+      {
+        "ontology_id": "HsapDv:0000134",
+        "label": "40-year-old stage",
+        "filtered_count": 38
+      },
+      {
+        "ontology_id": "HsapDv:0000136",
+        "label": "42-year-old stage",
+        "filtered_count": 37
+      },
+      {
+        "ontology_id": "HsapDv:0000146",
+        "label": "52-year-old stage",
+        "filtered_count": 35
+      },
+      {
+        "ontology_id": "HsapDv:0000133",
+        "label": "39-year-old stage",
+        "filtered_count": 20
+      },
+      {
+        "ontology_id": "HsapDv:0000141",
+        "label": "47-year-old stage",
+        "filtered_count": 17
+      },
+      {
+        "ontology_id": "HsapDv:0000135",
+        "label": "41-year-old stage",
+        "filtered_count": 16
+      },
+      {
+        "ontology_id": "HsapDv:0000142",
+        "label": "48-year-old stage",
+        "filtered_count": 13
+      }
+    ],
+    "source_sex": [
+      {
+        "ontology_id": "PATO:0000383",
+        "label": "female",
+        "source_count": 1816
+      },
+      {
+        "ontology_id": "PATO:0000384",
+        "label": "male",
+        "source_count": 1750
+      }
+    ],
+    "filtered_sex": [
+      {
+        "ontology_id": "PATO:0000383",
+        "label": "female",
+        "filtered_count": 1764
+      },
+      {
+        "ontology_id": "PATO:0000384",
+        "label": "male",
+        "filtered_count": 1750
+      }
+    ]
+  }
+]
