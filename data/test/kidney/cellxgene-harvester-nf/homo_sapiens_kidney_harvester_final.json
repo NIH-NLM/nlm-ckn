@@ -20,9 +20,9 @@
       "is_preprint": false
     },
     "curation": {
-      "reference": "unk",
-      "author_cell_type": "",
-      "embedding": ""
+      "reference": "yes",
+      "author_cell_type": "subclass.full",
+      "embedding": "X_umap"
     },
     "organ": {
       "name": "kidney",
