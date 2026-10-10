@@ -1,0 +1,166 @@
+clusterName,gene
+B Cell,ENSG00000156738
+Plasma Cell,ENSG00000167077
+Plasma Cell,ENSG00000183508
+Parietal Epithelial Cell,ENSG00000112414
+Parietal Epithelial Cell,ENSG00000000971
+Adaptive / Maladaptive / Repairing Proximal Tubule Epithelial Cell,ENSG00000284377
+Adaptive / Maladaptive / Repairing Proximal Tubule Epithelial Cell,ENSG00000170579
+Cycling Proximal Tubule Epithelial Cell,ENSG00000165304
+Cycling Proximal Tubule Epithelial Cell,ENSG00000186472
+Natural Killer Cell / Natural Killer T Cell,ENSG00000275302
+Natural Killer Cell / Natural Killer T Cell,ENSG00000271503
+Cycling Natural Killer Cell / Natural Killer T Cell,ENSG00000183918
+Cycling Natural Killer Cell / Natural Killer T Cell,ENSG00000166803
+Degenerative Vascular Smooth Muscle Cell,ENSG00000198467
+Degenerative Vascular Smooth Muscle Cell,ENSG00000109610
+Degenerative Fibroblast,ENSG00000139329
+Degenerative Fibroblast,ENSG00000142173
+Podocyte,ENSG00000139304
+Podocyte,ENSG00000178038
+Non-classical Monocyte,ENSG00000085265
+Non-classical Monocyte,ENSG00000028137
+Neutrophil,ENSG00000143546
+Classical Dendritic Cell,ENSG00000131203
+Plasmacytoid Dendritic Cell,ENSG00000267337
+T Cell,ENSG00000168685
+Degenerative Podocyte,ENSG00000166033
+Degenerative Podocyte,ENSG00000107742
+Mast Cell,ENSG00000185052
+M2 Macrophage,ENSG00000260314
+M2 Macrophage,ENSG00000137491
+Cycling Mononuclear Phagocyte,ENSG00000146143
+Cycling Mononuclear Phagocyte,ENSG00000185811
+Cycling Mononuclear Phagocyte,ENSG00000101639
+Monocyte-derived Cell,ENSG00000198223
+Monocyte-derived Cell,ENSG00000136250
+Monocyte-derived Cell,ENSG00000059377
+Proximal Tubule Epithelial Cell Segment 3,ENSG00000156222
+Proximal Tubule Epithelial Cell Segment 3,ENSG00000249252
+Degenerative Proximal Tubule Epithelial Cell,ENSG00000259579
+Degenerative Proximal Tubule Epithelial Cell,ENSG00000164626
+Degenerative Proximal Tubule Epithelial Cell,ENSG00000227258
+Proximal Tubule Epithelial Cell Segment 1 / Segment 2,ENSG00000149452
+Proximal Tubule Epithelial Cell Segment 1 / Segment 2,ENSG00000171759
+Proximal Tubule Epithelial Cell Segment 1 / Segment 2,ENSG00000130707
+Lymphatic Endothelial Cell,ENSG00000138722
+Ascending Vasa Recta Endothelial Cell,ENSG00000148488
+Ascending Vasa Recta Endothelial Cell,ENSG00000283632
+Myofibroblast,ENSG00000198542
+Myofibroblast,ENSG00000133392
+Cycling Myofibroblast,ENSG00000143476
+Cycling Myofibroblast,ENSG00000104415
+Fibroblast,ENSG00000140092
+Fibroblast,ENSG00000112936
+Fibroblast,ENSG00000116962
+Vascular Smooth Muscle Cell,ENSG00000156113
+Vascular Smooth Muscle Cell,ENSG00000122367
+Renin-positive Juxtaglomerular Granular Cell,ENSG00000143839
+Degenerative Peritubular Capilary Endothelial Cell,ENSG00000102755
+Degenerative Peritubular Capilary Endothelial Cell,ENSG00000211445
+Cycling Endothelial Cell,ENSG00000178878
+Cycling Endothelial Cell,ENSG00000165304
+Descending Vasa Recta Endothelial Cell,ENSG00000175471
+Descending Vasa Recta Endothelial Cell,ENSG00000099260
+Afferent / Efferent Arteriole Endothelial Cell,ENSG00000135919
+Afferent / Efferent Arteriole Endothelial Cell,ENSG00000125810
+Glomerular Capillary Endothelial Cell,ENSG00000167941
+Glomerular Capillary Endothelial Cell,ENSG00000145708
+Vascular Smooth Muscle Cell / Pericyte,ENSG00000131711
+Vascular Smooth Muscle Cell / Pericyte,ENSG00000113721
+Mesangial Cell,ENSG00000144891
+Mesangial Cell,ENSG00000154864
+Outer Medullary Collecting Duct Intercalated Cell Type A,ENSG00000258881
+Outer Medullary Collecting Duct Intercalated Cell Type A,ENSG00000253675
+Cortical Collecting Duct Intercalated Cell Type A,ENSG00000278961
+Cortical Collecting Duct Intercalated Cell Type A,ENSG00000185274
+Connecting Tubule Intercalated Cell Type A,ENSG00000185274
+Connecting Tubule Intercalated Cell Type A,ENSG00000166960
+Peritubular Capilary Endothelial Cell,ENSG00000163687
+Peritubular Capilary Endothelial Cell,ENSG00000102755
+Degenerative Endothelial Cell,ENSG00000142089
+Degenerative Endothelial Cell,ENSG00000184831
+Degenerative Medullary Fibroblast,ENSG00000085662
+Degenerative Medullary Fibroblast,ENSG00000171345
+Medullary Fibroblast,ENSG00000182256
+Medullary Fibroblast,ENSG00000259275
+Adaptive / Maladaptive / Repairing Fibroblast,ENSG00000168477
+Adaptive / Maladaptive / Repairing Fibroblast,ENSG00000077942
+Adaptive / Maladaptive / Repairing Fibroblast,ENSG00000185070
+Degenerative Cortical Intercalated Cell Type A,ENSG00000213185
+Degenerative Cortical Intercalated Cell Type A,ENSG00000013306
+Degenerative Cortical Intercalated Cell Type A,ENSG00000130203
+Intercalated Cell Type B,ENSG00000091137
+Intercalated Cell Type B,ENSG00000188175
+Connecting Tubule Cell,ENSG00000251504
+Connecting Tubule Cell,ENSG00000136531
+Connecting Tubule Cell,ENSG00000135638
+Degenerative Connecting Tubule Cell,ENSG00000162896
+Degenerative Connecting Tubule Cell,ENSG00000145536
+Degenerative Connecting Tubule Cell,ENSG00000104327
+Transitional Principal-Intercalated Cell,ENSG00000259120
+Transitional Principal-Intercalated Cell,ENSG00000151418
+Transitional Principal-Intercalated Cell,ENSG00000137331
+Ascending Thin Limb Cell,ENSG00000184374
+Ascending Thin Limb Cell,ENSG00000275395
+Descending Thin Limb Cell Type 3,ENSG00000249776
+Descending Thin Limb Cell Type 3,ENSG00000145721
+Descending Thin Limb Cell Type 1,ENSG00000150471
+Descending Thin Limb Cell Type 1,ENSG00000007062
+Descending Thin Limb Cell Type 2,ENSG00000235139
+Descending Thin Limb Cell Type 2,ENSG00000188883
+Degenerative Descending Thin Limb Cell Type 3,ENSG00000188596
+Degenerative Descending Thin Limb Cell Type 3,ENSG00000154914
+Degenerative Descending Thin Limb Cell Type 3,ENSG00000166741
+Medullary Thick Ascending Limb Cell,ENSG00000066230
+Medullary Thick Ascending Limb Cell,ENSG00000282278
+Medullary Thick Ascending Limb Cell,ENSG00000165973
+Degenerative Medullary Thick Ascending Limb Cell,ENSG00000169344
+Degenerative Medullary Thick Ascending Limb Cell,ENSG00000074803
+Degenerative Medullary Thick Ascending Limb Cell,ENSG00000128849
+Cortical Thick Ascending Limb Cell,ENSG00000113946
+Cortical Thick Ascending Limb Cell,ENSG00000036672
+Cortical Thick Ascending Limb Cell,ENSG00000123572
+Adaptive / Maladaptive / Repairing Thick Ascending Limb Cell,ENSG00000115221
+Adaptive / Maladaptive / Repairing Thick Ascending Limb Cell,ENSG00000132359
+Adaptive / Maladaptive / Repairing Thick Ascending Limb Cell,ENSG00000036828
+Macula Densa Cell,ENSG00000004948
+Macula Densa Cell,ENSG00000087495
+Inner Medullary Collecting Duct Cell,ENSG00000249853
+Inner Medullary Collecting Duct Cell,ENSG00000137766
+Inner Medullary Collecting Duct Cell,ENSG00000172139
+Degenerative Inner Medullary Collecting Duct Cell,ENSG00000196878
+Degenerative Inner Medullary Collecting Duct Cell,ENSG00000095303
+Degenerative Inner Medullary Collecting Duct Cell,ENSG00000171303
+Degenerative Inner Medullary Collecting Duct Cell,ENSG00000155893
+Degenerative Cortical Thick Ascending Limb Cell,ENSG00000198431
+Degenerative Cortical Thick Ascending Limb Cell,ENSG00000124107
+Papillary Tip Epithelial Cell,ENSG00000174226
+Papillary Tip Epithelial Cell,ENSG00000142973
+Degenerative Ascending Thin Limb Cell,ENSG00000197249
+Degenerative Ascending Thin Limb Cell,ENSG00000275395
+Degenerative Ascending Thin Limb Cell,ENSG00000140600
+Connecting Tubule Principal Cell,ENSG00000159167
+Connecting Tubule Principal Cell,ENSG00000121064
+Degenerative Outer Medullary Collecting Duct Principal Cell,ENSG00000114315
+Degenerative Outer Medullary Collecting Duct Principal Cell,ENSG00000002726
+Degenerative Outer Medullary Collecting Duct Principal Cell,ENSG00000204323
+Cycling Connecting Tubule Cell,ENSG00000102870
+Cycling Connecting Tubule Cell,ENSG00000197372
+Cycling Connecting Tubule Cell,ENSG00000081181
+Cortical Collecting Duct Principal Cell,ENSG00000155761
+Cortical Collecting Duct Principal Cell,ENSG00000117266
+Cortical Collecting Duct Principal Cell,ENSG00000184672
+Outer Medullary Collecting Duct Principal Cell,ENSG00000254695
+Outer Medullary Collecting Duct Principal Cell,ENSG00000267659
+Schwann Cell / Neural,ENSG00000179915
+Cycling Distal Convoluted Tubule Cell,ENSG00000152359
+Cycling Distal Convoluted Tubule Cell,ENSG00000066279
+Distal Convoluted Tubule Cell Type 1,ENSG00000140470
+Distal Convoluted Tubule Cell Type 1,ENSG00000182389
+Distal Convoluted Tubule Cell Type 2,ENSG00000165973
+Distal Convoluted Tubule Cell Type 2,ENSG00000182389
+Distal Convoluted Tubule Cell Type 2,ENSG00000182168
+Degenerative Distal Convoluted Tubule Cell,ENSG00000178343
+Degenerative Distal Convoluted Tubule Cell,ENSG00000121769
+Degenerative Distal Convoluted Tubule Cell,ENSG00000137731
