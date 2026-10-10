@@ -1,0 +1,76 @@
+clusterName,NSForest_markers,f_score
+B Cell,['MS4A1'],0.7731958762886598
+Plasma Cell,"['MEI1', 'TENT5C']",0.7894736842105263
+Parietal Epithelial Cell,"['ADGRG6', 'CFH']",0.6372549019607843
+Adaptive / Maladaptive / Repairing Proximal Tubule Epithelial Cell,"['ENSG00000284377', 'DLGAP1']",0.6790123456790124
+Cycling Proximal Tubule Epithelial Cell,"['MELK', 'PCLO']",0.5357142857142857
+Natural Killer Cell / Natural Killer T Cell,"['CCL4', 'CCL5']",0.7911392405063291
+Cycling Natural Killer Cell / Natural Killer T Cell,"['SH2D1A', 'PCLAF']",0.8928571428571429
+Degenerative Vascular Smooth Muscle Cell,"['TPM2', 'SOD3']",0.8620689655172413
+Degenerative Fibroblast,"['LUM', 'COL6A2']",0.8116883116883117
+Podocyte,"['PTPRQ', 'ALS2CL']",0.9020618556701032
+Non-classical Monocyte,"['FCN1', 'TNFRSF1B']",0.635593220338983
+Neutrophil,['S100A8'],0.8168316831683168
+Classical Dendritic Cell,['IDO1'],0.8536585365853658
+Plasmacytoid Dendritic Cell,['LINC01478'],0.9009009009009008
+T Cell,['IL7R'],0.6470588235294118
+Degenerative Podocyte,"['HTRA1', 'SPOCK2']",0.8734939759036144
+Mast Cell,['SLC24A3'],0.8908045977011494
+M2 Macrophage,"['MRC1', 'SLCO2B1']",0.7142857142857143
+Cycling Mononuclear Phagocyte,"['PRIM2', 'IKZF1', 'CEP192']",0.4878048780487805
+Monocyte-derived Cell,"['CSF2RA', 'AOAH', 'TBXAS1']",0.3875968992248062
+Proximal Tubule Epithelial Cell Segment 3,"['SLC28A1', 'C1QTNF7-AS1']",0.7246376811594203
+Degenerative Proximal Tubule Epithelial Cell,"['ENSG00000259579', 'KCNK5', 'SMIM2-AS1']",0.6884057971014492
+Proximal Tubule Epithelial Cell Segment 1 / Segment 2,"['SLC22A8', 'PAH', 'ASS1']",0.7394366197183099
+Lymphatic Endothelial Cell,['MMRN1'],0.8883248730964467
+Ascending Vasa Recta Endothelial Cell,"['ST8SIA6', 'EXOC3L2']",0.72
+Myofibroblast,"['ITGBL1', 'MYH11']",0.6818181818181818
+Cycling Myofibroblast,"['DTL', 'CCN4']",0.7608695652173914
+Fibroblast,"['FBLN5', 'C7', 'NID1']",0.5737704918032787
+Vascular Smooth Muscle Cell,"['KCNMA1', 'LDB3']",0.7666666666666667
+Renin-positive Juxtaglomerular Granular Cell,['REN'],0.9541984732824428
+Degenerative Peritubular Capilary Endothelial Cell,"['FLT1', 'GPX3']",0.3076923076923077
+Cycling Endothelial Cell,"['APOLD1', 'MELK']",0.5454545454545454
+Descending Vasa Recta Endothelial Cell,"['MCTP1', 'PALMD']",0.7070707070707071
+Afferent / Efferent Arteriole Endothelial Cell,"['SERPINE2', 'CD93']",0.7518796992481203
+Glomerular Capillary Endothelial Cell,"['SOST', 'CRHBP']",0.746268656716418
+Vascular Smooth Muscle Cell / Pericyte,"['MAP1B', 'PDGFRB']",0.5067567567567568
+Mesangial Cell,"['AGTR1', 'PIEZO2']",0.6338028169014085
+Outer Medullary Collecting Duct Intercalated Cell Type A,"['ENSG00000258881', 'ENSG00000253675']",0.7758620689655172
+Cortical Collecting Duct Intercalated Cell Type A,"['ENSG00000278961', 'GALNT17']",0.5797101449275363
+Connecting Tubule Intercalated Cell Type A,"['GALNT17', 'CCDC178']",0.5379746835443038
+Peritubular Capilary Endothelial Cell,"['DNASE1L3', 'FLT1']",0.5844155844155844
+Degenerative Endothelial Cell,"['IFITM3', 'APOO']",0.425531914893617
+Degenerative Medullary Fibroblast,"['AKR1B1', 'KRT19']",0.2406417112299465
+Medullary Fibroblast,"['GABRG3', 'ENSG00000259275']",0.7092198581560284
+Adaptive / Maladaptive / Repairing Fibroblast,"['TNXB', 'FBLN1', 'FLRT2']",0.594059405940594
+Degenerative Cortical Intercalated Cell Type A,"['FAM24B', 'SLC25A39', 'APOE']",0.660377358490566
+Intercalated Cell Type B,"['SLC26A4', 'HEPACAM2']",0.7746478873239436
+Connecting Tubule Cell,"['LINC01099', 'SCN2A', 'EMX1']",0.4477611940298507
+Degenerative Connecting Tubule Cell,"['PIGR', 'ADAMTS16', 'CALB1']",0.5
+Transitional Principal-Intercalated Cell,"['ERLN', 'ATP6V1G3', 'IER3']",0.5769230769230769
+Ascending Thin Limb Cell,"['COLEC10', 'FCGBP']",0.6159420289855072
+Descending Thin Limb Cell Type 3,"['ENSG00000249776', 'LIX1']",0.5459770114942529
+Descending Thin Limb Cell Type 1,"['ADGRL3', 'PROM1']",0.6796116504854369
+Descending Thin Limb Cell Type 2,"['LINC03017', 'KLRG2']",0.6626506024096386
+Degenerative Descending Thin Limb Cell Type 3,"['CFAP54', 'USP43', 'NNMT']",0.821917808219178
+Medullary Thick Ascending Limb Cell,"['SLC9A3', 'ENSG00000282278', 'NELL1']",0.75
+Degenerative Medullary Thick Ascending Limb Cell,"['UMOD', 'SLC12A1', 'CGNL1']",0.4710144927536231
+Cortical Thick Ascending Limb Cell,"['CLDN16', 'USP2', 'NRK']",0.6015037593984962
+Adaptive / Maladaptive / Repairing Thick Ascending Limb Cell,"['ITGB6', 'RAP1GAP2', 'CASR']",0.6666666666666666
+Macula Densa Cell,"['CALCR', 'PHACTR3']",0.6645569620253164
+Inner Medullary Collecting Duct Cell,"['HS3ST5', 'UNC13C', 'SLC9C1']",0.6818181818181818
+Degenerative Inner Medullary Collecting Duct Cell,"['LAMB3', 'PTGS1', 'KCNK3', 'PXYLP1']",0.6557377049180327
+Degenerative Cortical Thick Ascending Limb Cell,"['TXNRD1', 'SLPI']",0.635593220338983
+Papillary Tip Epithelial Cell,"['SNX31', 'CYP4B1']",0.7894736842105263
+Degenerative Ascending Thin Limb Cell,"['SERPINA1', 'FCGBP', 'SH3GL3']",0.5985915492957746
+Connecting Tubule Principal Cell,"['STC1', 'SCPEP1']",0.5327868852459017
+Degenerative Outer Medullary Collecting Duct Principal Cell,"['HES1', 'AOC1', 'SMIM5']",0.4891304347826087
+Cycling Connecting Tubule Cell,"['ZNF629', 'ZNF675', 'ARG2']",0.4347826086956521
+Cortical Collecting Duct Principal Cell,"['SPAG17', 'CDK18', 'RALYL']",0.5844155844155844
+Outer Medullary Collecting Duct Principal Cell,"['ENSG00000254695', 'LINC01482']",0.6666666666666666
+Schwann Cell / Neural,['NRXN1'],0.9523809523809524
+Cycling Distal Convoluted Tubule Cell,"['POC5', 'ASPM']",0.5
+Distal Convoluted Tubule Cell Type 1,"['ADAMTS17', 'CACNB4']",0.635593220338983
+Distal Convoluted Tubule Cell Type 2,"['NELL1', 'CACNB4', 'UNC5C']",0.5617977528089888
+Degenerative Distal Convoluted Tubule Cell,"['SHISA3', 'FABP3', 'FXYD2']",0.7746478873239436
