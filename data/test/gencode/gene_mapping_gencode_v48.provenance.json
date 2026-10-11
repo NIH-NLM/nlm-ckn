@@ -1,0 +1,22 @@
+{
+  "gencode_release": 48,
+  "description": "##description: made-up annotation for the tests of cellxgene-harvester-nf (not GENCODE)",
+  "source_url": null,
+  "source_file": "gene_annotation_mini.gtf.gz",
+  "source_md5": "192da4e45ad41e6663960b8993cd34a5",
+  "source_md5_published": null,
+  "source_md5_verified": false,
+  "source_sha256": "960217597d521d378f2dd614f7b11788dfc11975bdf6e395a4f4e6f743710636",
+  "built_at": "2026-10-11T02:07:56+00:00",
+  "table_file": "gene_mapping_gencode_v48.csv",
+  "table_sha256": "ad1a6007973754b08ce8b249d6014b17483b6d012765839a8a45e6971e47ba96",
+  "genes": 4,
+  "genes_with_symbol": 3,
+  "genes_without_symbol": 1,
+  "cellxgene_schema_versions": [
+    "7.0.0",
+    "7.1.0"
+  ],
+  "cellxgene_schema_source": "https://github.com/chanzuckerberg/single-cell-curation/tree/main/schema",
+  "script": "cellxgene-harvester 1.0.0 build-gene-mapping"
+}

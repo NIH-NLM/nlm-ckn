@@ -19,6 +19,12 @@
       "year": 2023,
       "is_preprint": false
     },
+    "gene_annotation": {
+      "cellxgene_schema_version": null,
+      "h5ad_schema_version": "6.0.0",
+      "gencode_release": 44,
+      "required_gencode_release": 48
+    },
     "curation": {
       "reference": "yes",
       "author_cell_type": "subclass.full",
@@ -106,7 +112,7 @@
         "sha256": "5334c5c65058cdf93aa378c11b92ec0ecede779991f34805533ac042618b01af"
       },
       "harvester_version": "1.0.0",
-      "run_date": "2026-10-09",
+      "run_date": "2026-10-11",
       "h5ad": {
         "file": "adata_normal_n3566.h5ad"
       }

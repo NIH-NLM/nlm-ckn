@@ -1,0 +1,5 @@
+ensembl_gene_id,gene_name,gene_type,hgnc_id,has_symbol,gencode_release
+ENSG00000000001,GENEA,protein_coding,HGNC:1,True,48
+ENSG00000000002,GENEB,protein_coding,HGNC:2,True,48
+ENSG00000000003,ENSG00000000003,lncRNA,,False,48
+ENSG00000000004,GENED-AS1,lncRNA,,True,48
