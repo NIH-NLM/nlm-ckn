@@ -1,0 +1,14 @@
+======================================================================
+CellxGene Harvester - Build Gene Mapping
+======================================================================
+Started : 2026-10-11 13:22:56
+Log file: ./gene_mapping_gencode_v48.log
+Command : python /opt/conda/bin/cellxgene-harvester build-gene-mapping --output-dir .
+
+Downloading https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_48/gencode.v48.primary_assembly.annotation.gtf.gz
+78894 genes, 42760 with a symbol, 36134 without
+Wrote ./gene_mapping_gencode_v48.csv and ./gene_mapping_gencode_v48.provenance.json
+
+======================================================================
+Finished: 2026-10-11 13:24:38
+======================================================================
