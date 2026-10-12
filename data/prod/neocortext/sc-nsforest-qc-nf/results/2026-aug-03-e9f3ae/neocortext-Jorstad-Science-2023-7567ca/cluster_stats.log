@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: adata_filtered_neocortext_Jorstad_Science_2023_CrossArea_cluster_X_UMAP_7567ca.h5ad
+Loaded: 516544 cells x 30377 genes
+Cluster header: CrossArea_cluster (146 clusters)
+Computing cluster statistics...
+Total cells: 516544
+Number of clusters: 146
+Cells per cluster - Min: 7, Max: 105133, Mean: 3538.0
+Saved: cluster_statistics_neocortext_Jorstad_Science_2023_CrossArea_cluster_X_UMAP_7567ca.csv
+Cluster statistics complete!
