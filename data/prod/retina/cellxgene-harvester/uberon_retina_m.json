@@ -1,0 +1,347 @@
+{
+  "queries": [
+    "chorioretinal region"
+  ],
+  "root_terms": [
+    {
+      "obo_id": "UBERON:0019207",
+      "label": "chorioretinal region",
+      "level": "root"
+    }
+  ],
+    "obo_ids": [
+    "UBERON:0019207",
+    "UBERON:0000966",
+    "UBERON:8000005",
+    "UBERON:8000004",
+    "UBERON:0013682",
+    "UBERON:0010245",
+    "UBERON:0009740",
+    "UBERON:0008921",
+    "UBERON:0006253",
+    "UBERON:0004864",
+    "UBERON:0003065",
+    "UBERON:0003501",
+    "UBERON:0001783",
+    "UBERON:0001781",
+    "UBERON:0000053",
+    "UBERON:0009852",
+    "UBERON:0009851",
+    "UBERON:0009739",
+    "UBERON:0009738",
+    "UBERON:0009737",
+    "UBERON:0009736",
+    "UBERON:0009735",
+    "UBERON:0009734",
+    "UBERON:0009733",
+    "UBERON:0009732",
+    "UBERON:0009731",
+    "UBERON:0008929",
+    "UBERON:0008928",
+    "UBERON:0008927",
+    "UBERON:0001620",
+    "UBERON:0007619",
+    "UBERON:0003926",
+    "UBERON:0003925",
+    "UBERON:0003902",
+    "UBERON:0001795",
+    "UBERON:0001793",
+    "UBERON:0001792",
+    "UBERON:0001791",
+    "UBERON:0001789",
+    "UBERON:0001787",
+    "UBERON:0001782",
+    "UBERON:0001790",
+    "UBERON:0018105",
+    "UBERON:0018104",
+    "UBERON:0002822",
+    "UBERON:0001786",
+    "UBERON:0008925",
+    "UBERON:0008924",
+    "UBERON:0008923",
+    "UBERON:0008922",
+    "UBERON:0008926",
+    "UBERON:0001794",
+    "UBERON:0001788",
+    "UBERON:0018107",
+    "UBERON:0002823"
+  ],
+  "terms": [
+    {
+      "obo_id": "UBERON:0019207",
+      "label": "chorioretinal region",
+      "level": "root"
+    },
+    {
+      "obo_id": "UBERON:0000966",
+      "label": "retina",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8000005",
+      "label": "Henle's fiber layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:8000004",
+      "label": "central retina",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0013682",
+      "label": "peripheral region of retina",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0010245",
+      "label": "retinal tapetum lucidum",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009740",
+      "label": "border between sublaminar layers",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008921",
+      "label": "substratum of layer of retina",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0006253",
+      "label": "embryonic intraretinal space",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0004864",
+      "label": "vasculature of retina",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003065",
+      "label": "ciliary marginal zone",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003501",
+      "label": "retina blood vessel",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001783",
+      "label": "optic disc",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001781",
+      "label": "layer of retina",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0000053",
+      "label": "macula lutea",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009852",
+      "label": "border of sublaminar layers S2 and S3",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009851",
+      "label": "border of sublaminar layers S4 and S5",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009739",
+      "label": "border of sublaminar layers S3 and S4",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009738",
+      "label": "border of sublaminar layers S1 and S2",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009737",
+      "label": "sublaminar layers S1 or S2 or S3 or S4",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009736",
+      "label": "sublaminar layers S3 or S4 or S5",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009735",
+      "label": "sublaminar layers S1 or S3 or S4",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009734",
+      "label": "sublaminar layers S2 or S3 or S4",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009733",
+      "label": "sublaminar layers S1 or S2 or S3",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009732",
+      "label": "sublaminar layers S1 or S2 or S5",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0009731",
+      "label": "sublaminar layers S3 or S4",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008929",
+      "label": "sublaminar layers S4 or S5",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008928",
+      "label": "sublaminar layers S2 or S3",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008927",
+      "label": "sublaminar layers S1 or S2",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001620",
+      "label": "central retinal artery",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0007619",
+      "label": "limiting membrane of retina",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003926",
+      "label": "photoreceptor outer segment layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003925",
+      "label": "photoreceptor inner segment layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0003902",
+      "label": "retinal neural layer",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001795",
+      "label": "inner plexiform layer of retina",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001793",
+      "label": "nerve fiber layer of retina",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001792",
+      "label": "ganglionic layer of retina",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001791",
+      "label": "inner nuclear layer of retina",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001789",
+      "label": "outer nuclear layer of retina",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001787",
+      "label": "photoreceptor layer of retina",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001782",
+      "label": "pigmented layer of retina",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001790",
+      "label": "outer plexiform layer of retina",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018105",
+      "label": "perifoveal part of retina",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018104",
+      "label": "parafoveal part of retina",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002822",
+      "label": "macula lutea proper",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001786",
+      "label": "fovea centralis",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008925",
+      "label": "sublaminar layer S4",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008924",
+      "label": "sublaminar layer S3",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008923",
+      "label": "sublaminar layer S2",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008922",
+      "label": "sublaminar layer S1",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0008926",
+      "label": "sublaminar layer S5",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001794",
+      "label": "inner limiting layer of retina",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0001788",
+      "label": "outer limiting layer of retina",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0018107",
+      "label": "foveola of retina",
+      "level": "descendant"
+    },
+    {
+      "obo_id": "UBERON:0002823",
+      "label": "clivus of fovea centralis",
+      "level": "descendant"
+    }
+  ],
+  "total": 55
+}

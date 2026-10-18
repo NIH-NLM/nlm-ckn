@@ -1,0 +1,56 @@
+obo_id,label,level
+UBERON:0019207,chorioretinal region,root
+UBERON:0000966,retina,descendant
+UBERON:8000005,Henle's fiber layer,descendant
+UBERON:8000004,central retina,descendant
+UBERON:0013682,peripheral region of retina,descendant
+UBERON:0010245,retinal tapetum lucidum,descendant
+UBERON:0009740,border between sublaminar layers,descendant
+UBERON:0008921,substratum of layer of retina,descendant
+UBERON:0006253,embryonic intraretinal space,descendant
+UBERON:0004864,vasculature of retina,descendant
+UBERON:0003065,ciliary marginal zone,descendant
+UBERON:0003501,retina blood vessel,descendant
+UBERON:0001783,optic disc,descendant
+UBERON:0001781,layer of retina,descendant
+UBERON:0000053,macula lutea,descendant
+UBERON:0009852,border of sublaminar layers S2 and S3,descendant
+UBERON:0009851,border of sublaminar layers S4 and S5,descendant
+UBERON:0009739,border of sublaminar layers S3 and S4,descendant
+UBERON:0009738,border of sublaminar layers S1 and S2,descendant
+UBERON:0009737,sublaminar layers S1 or S2 or S3 or S4,descendant
+UBERON:0009736,sublaminar layers S3 or S4 or S5,descendant
+UBERON:0009735,sublaminar layers S1 or S3 or S4,descendant
+UBERON:0009734,sublaminar layers S2 or S3 or S4,descendant
+UBERON:0009733,sublaminar layers S1 or S2 or S3,descendant
+UBERON:0009732,sublaminar layers S1 or S2 or S5,descendant
+UBERON:0009731,sublaminar layers S3 or S4,descendant
+UBERON:0008929,sublaminar layers S4 or S5,descendant
+UBERON:0008928,sublaminar layers S2 or S3,descendant
+UBERON:0008927,sublaminar layers S1 or S2,descendant
+UBERON:0001620,central retinal artery,descendant
+UBERON:0007619,limiting membrane of retina,descendant
+UBERON:0003926,photoreceptor outer segment layer,descendant
+UBERON:0003925,photoreceptor inner segment layer,descendant
+UBERON:0003902,retinal neural layer,descendant
+UBERON:0001795,inner plexiform layer of retina,descendant
+UBERON:0001793,nerve fiber layer of retina,descendant
+UBERON:0001792,ganglionic layer of retina,descendant
+UBERON:0001791,inner nuclear layer of retina,descendant
+UBERON:0001789,outer nuclear layer of retina,descendant
+UBERON:0001787,photoreceptor layer of retina,descendant
+UBERON:0001782,pigmented layer of retina,descendant
+UBERON:0001790,outer plexiform layer of retina,descendant
+UBERON:0018105,perifoveal part of retina,descendant
+UBERON:0018104,parafoveal part of retina,descendant
+UBERON:0002822,macula lutea proper,descendant
+UBERON:0001786,fovea centralis,descendant
+UBERON:0008925,sublaminar layer S4,descendant
+UBERON:0008924,sublaminar layer S3,descendant
+UBERON:0008923,sublaminar layer S2,descendant
+UBERON:0008922,sublaminar layer S1,descendant
+UBERON:0008926,sublaminar layer S5,descendant
+UBERON:0001794,inner limiting layer of retina,descendant
+UBERON:0001788,outer limiting layer of retina,descendant
+UBERON:0018107,foveola of retina,descendant
+UBERON:0002823,clivus of fovea centralis,descendant
