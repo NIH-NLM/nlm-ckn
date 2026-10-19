@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: adata_filtered_retina_Li_Nat_Genet_2026_author_cell_type_X_umap_cbd4aa.h5ad
+Loaded: 3169280 cells x 35475 genes
+Cluster header: author_cell_type (140 clusters)
+Computing cluster statistics...
+Total cells: 3169280
+Number of clusters: 140
+Cells per cluster - Min: 38, Max: 1047085, Mean: 22637.7
+Saved: cluster_statistics_retina_Li_Nat_Genet_2026_author_cell_type_X_umap_62ed94.csv
+Cluster statistics complete!
