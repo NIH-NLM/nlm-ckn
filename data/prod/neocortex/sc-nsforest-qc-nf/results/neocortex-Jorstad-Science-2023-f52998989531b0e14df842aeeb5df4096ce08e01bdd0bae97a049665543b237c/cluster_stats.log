@@ -1,0 +1,12 @@
+================================================================================
+NSForest: Cluster Statistics
+================================================================================
+Loading h5ad: adata_sampled_AIBS_human_neocortex_plainstrings.h5ad
+Loaded: 73144 cells x 28189 genes
+Cluster header: CrossArea_subclass (24 clusters)
+Computing cluster statistics...
+Total cells: 73144
+Number of clusters: 24
+Cells per cluster - Min: 500, Max: 18095, Mean: 3047.7
+Saved: cluster_statistics_neocortex_Jorstad_Science_2023_CrossArea_subclass_X_UMAP_3b237c.csv
+Cluster statistics complete!
