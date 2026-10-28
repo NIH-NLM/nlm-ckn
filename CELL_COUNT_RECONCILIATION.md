@@ -1,9 +1,9 @@
 # Cell Count Reconciliation: harvester `normal_cell_count` vs summary `filtered_cell_count`
 
-_Generated 2026-08-03, revised 2026-10-27 against `sync/upstream-2026-oct-27-neocortex-retina`
-(neocortex and retina data mirrored from `upstream/main` at `fb459b3a`). Regenerate with
-`python3 tools/reconcile_cell_counts.py` from the repository root; results land in
-`cell_count_reconciliation.csv`._
+_Generated 2026-08-03, revised 2026-10-28 against `sync/upstream-2026-oct-27-neocortex-retina`
+(neocortex and retina data from `upstream/main`, including the five-row neocortex summary of
+`07b2d7ca`/#372). Regenerate with `python3 tools/reconcile_cell_counts.py` from the repository root;
+results land in `cell_count_reconciliation.csv`._
 
 ## Question
 
@@ -33,32 +33,34 @@ therefore prefers the largest non-zero value and records every candidate in
 
 ## Result
 
-85 summary rows across 85 `master_dataset_summary` files; 84 join to a harvester row in the same
-organ. (The count was 89 rows before the 2026-10-26 sync: the recovered neocortex summary had five
-rows, the new run has one.)
+89 summary rows across 85 `master_dataset_summary` files (neocortex has five rows, one per
+supercluster, the other 84 datasets one each); all 89 join to a harvester row in the same organ.
+(The count was 85 rows, one unjoined, before upstream's #372 split the neocortex summary.)
 
 | Comparison | Rows |
 |---|---|
 | `filtered_cell_count` **==** `normal_cell_count` | 54 |
 | short by 1–29 cells (median 6.5, worst 99.03% of normal) | 28 |
-| **exceeds** `normal_cell_count` | 2 |
-| no harvester row to join against | 1 |
+| **exceeds** `normal_cell_count` | 7 |
+| no harvester row to join against | 0 |
 
-The two sources agree exactly about two-thirds of the time. Where they disagree, the gap is almost
-always a handful of cells. Two datasets overshoot, described below, and one (neocortex) cannot be checked at all.
+The two sources agree exactly on about three rows in five. Where they disagree, the gap is almost
+always a handful of cells. Seven rows exceed the harvester's normal count, in three datasets
+(respiratory Guo, retina Li and the five neocortex superclusters), described below. Only Guo looks
+like a clear defect.
 
 ### The pipeline side is internally consistent
 
 Before comparing across sources, the results files agree with each other perfectly:
 
-- `filtered_cell_count` == `summary_normal.n_obs` — **84/85**
-- `filtered_cell_count` == sum of post-filter cluster sizes — **84/85**
+- `filtered_cell_count` == `summary_normal.n_obs` — **84/89**
+- `filtered_cell_count` == sum of post-filter cluster sizes — **84/89**
 
-The one exception is the neocortex Jorstad run: `filtered_cell_count` is 1,155,822, while
-`summary_normal.n_obs` and the sum of its 153 cluster sizes are both 73,144. The run is a custom
-dataset "downsampled to 73144 cells (K=500 per cluster from the 5 superclusters)", and 1,155,822 is the
-sum of the five source supercluster totals, so the field reports the source size rather than what was
-analyzed. It is outside the comparison below because it does not join. Everywhere else `filtered_cell_count` is a faithful record of what each run analyzed,
+The five exceptions are the neocortex Jorstad rows. All five carry `filtered_cell_count` 1,155,822,
+while `summary_normal.n_obs` and the sum of the run's 153 cluster sizes are both 73,144. The run is a
+custom dataset "downsampled to 73144 cells (K=500 per cluster from the 5 superclusters)", and 1,155,822
+is the sum of the five source supercluster totals, so the field reports the source size rather than
+what was analyzed, and repeats it on every row. See "Neocortex" below. Everywhere else `filtered_cell_count` is a faithful record of what each run analyzed,
 and any disagreement with the harvester is a genuine cross-source difference rather than a
 bookkeeping error inside a run.
 
@@ -67,9 +69,9 @@ bookkeeping error inside a run.
 Splitting on whether the run removed any cells at all — `summary_before_filter.n_obs` vs
 `filtered_cell_count` — separates two populations:
 
-| Population | Datasets | Exact | Short | Exceeds |
+| Population | Rows | Exact | Short | Exceeds |
 |---|---|---|---|---|
-| Run removed nothing (already wholly normal upstream, or unfiltered) | 31 | 29 | 0 | 2 (Guo, retina Li) |
+| Run removed nothing (already wholly normal upstream, or unfiltered) | 36 | 29 | 0 | 7 (Guo, retina Li, 5 neocortex) |
 | Run filtered down to the normal subset | 53 | 25 | 28 | 0 |
 
 Every shortfall is in the second group, and **every shortfall dataset has a small minimum
@@ -92,10 +94,10 @@ minimum cluster size, so the threshold value could not be read directly — the 
 uniform association between shortfalls and small surviving clusters across all 28 cases. Confirming
 it requires the `sc-nsforest-qc-nf` pipeline configuration.
 
-## The two discrepancies
+## The discrepancies
 
-Two datasets analyze *more* cells than the harvester says exist in the normal subset. Both are runs
-that removed nothing.
+Three datasets (seven rows) report *more* cells than the harvester says exist in the normal subset. All
+are runs that removed nothing.
 
 ### `respiratory_system-Guo-Nat Commun-2023.0-3058a2` — probable filter failure
 
@@ -133,20 +135,31 @@ say which. The earlier retina run (`cbd4aa`, removed 2026-10-26) overshot by onl
 filtered; this one did not filter at all. Worth asking the maintainer whether the retina run was meant
 to be filtered to normal.
 
-## Datasets that cannot be checked
+### Neocortex Jorstad — joins now, but the comparison is not meaningful
 
-**Retina is now resolved.** As of upstream #369 the harvester carries a `homo_sapiens_retina_harvester_final.csv`
-row for the run's `dataset_version_id` (`829243b7`), so retina joins and appears above. Before that, the
-harvester knew only `25f1558d`, a different version of the same CELLxGENE dataset.
+Upstream's #372 (2026-10-27) replaced the one-row summary with five rows, one per supercluster, using
+the five 2023 dataset IDs that the reference mapping and the harvester (`…_harvester_final.csv`) already
+carry. So all three sources now agree on the IDs and every row joins. Each of the five rows still
+repeats the whole run's values, though (`filtered_cell_count` 1,155,822, 153 clusters, the same title and
+statistics), so each compares a run-wide figure against one supercluster's harvester count. The five
+"exceeds" (447% to 2,312%) are an artifact of that, not five filter failures.
 
-**Neocortex still does not join.** The run's `dataset_version_id` is the 64-hex sha256 of a custom h5ad
-(`f52998989531…b237c`), which is in no harvester file. The harvester's ETL-readable file
-(`homo_sapiens_neocortex_harvester_final.csv`) and the reference mapping carry the same five 2023
-supercluster IDs (`3280113b`, `c4959ded`, `0476ef54`, `8b09695a`, `f72b8175`), so those two agree with
-each other but not with the run. The run's `filtered_cell_count` (1,155,822) is the sum of the five
-source supercluster totals (the `normal_cell_count` sum is 516,565); the analyzed count is 73,144. Even
-with a matching ID the comparison would be between the source datasets and a 73,144-cell downsample.
-Reconciling it needs the maintainer to say which IDs are authoritative.
+What the data supports instead (analyzed cells are the sum of the run's cluster sizes for the
+clusters the mapping assigns to that supercluster):
+
+| Supercluster | `dataset_version_id` | Clusters | Analyzed cells | Harvester normal | Harvester total |
+|---|---|---|---|---|---|
+| IT-projecting excitatory | `0476ef54` | 22 | 11,000 | 258,604 | 638,941 |
+| MGE-derived interneurons | `8b09695a` | 48 | 23,595 | 90,190 | 185,477 |
+| CGE-derived interneurons | `3280113b` | 49 | 23,552 | 67,475 | 129,495 |
+| Non-neuronal | `f72b8175` | 15 | 6,277 | 50,300 | 108,940 |
+| Deep layer (non-IT) excitatory | `c4959ded` | 19 | 8,720 | 49,996 | 92,969 |
+| **Total** | | **153** | **73,144** | **516,565** | **1,155,822** |
+
+The analyzed counts are a deliberate downsample (K=500 per cluster), so they are expected to be far
+below the harvester's counts; the 1,155,822 in the summary equals the harvester total column. A
+meaningful comparison would need `filtered_cell_count` to carry the analyzed count (or a separate
+field for the source size), per supercluster.
 
 ## Other harvester data-quality issues surfaced
 
@@ -176,8 +189,8 @@ Reconciling it needs the maintainer to say which IDs are authoritative.
 
 ## Output columns
 
-`cell_count_reconciliation.csv` — 85 rows, 21 columns, sorted worst-discrepancy first. Filter on
-`status != 'unjoined'` for the 84-row comparison proper.
+`cell_count_reconciliation.csv` — 89 rows, 21 columns, sorted worst-discrepancy first. Every row now
+joins; `status = 'unjoined'` would appear only for a summary whose ID is in no harvester file.
 
 | Column | Meaning |
 |---|---|

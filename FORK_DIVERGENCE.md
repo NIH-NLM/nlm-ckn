@@ -1,19 +1,19 @@
 # Fork Divergence Summary: `Springbok-LLC/nlm-ckn` vs `NIH-NLM/nlm-ckn`
 
-_Generated 2026-07-17, revised 2026-10-27 after the neocortex/retina data sync from
-`upstream/main` (`fb459b3a`). Compares `origin/main` (Springbok-LLC fork) against `upstream/main`
+_Generated 2026-07-17, revised 2026-10-28 after the neocortex/retina data sync from
+`upstream/main` (`07b2d7ca`). Compares `origin/main` (Springbok-LLC fork) against `upstream/main`
 (NIH-NLM)._
 
 ## Headline
 
 The fork has **not** structurally diverged, but it is no longer merge-current. Since the
-2026-08-05 merge base (`ec287fb3`) upstream has added 11 commits, all under `data/` (retina,
+2026-08-05 merge base (`ec287fb3`) upstream has added 12 commits, all under `data/` (retina,
 neocortex, liver, kidney test data, gencode). The fork took only the neocortex and retina parts,
 **by copying those trees rather than merging** (`5c9c04b2`): `data/prod/neocortex` and
 `data/prod/retina` match `upstream/main` exactly, apart from the two files removed in `9ec78f62`
 (§2). Kidney test data, liver and `data/prod/gencode/gene_mapping_gencode_v48.csv` were deliberately
-left out for now; the gencode file will be needed later. By history the branch stands **70 commits
-ahead and 11 behind** `upstream/main` (the behind count includes the deliberately-skipped commits).
+left out for now; the gencode file will be needed later. By history the branch stands **72 commits
+ahead and 12 behind** `upstream/main` (the behind count includes the deliberately-skipped commits).
 A trial merge of the 8 earlier commits produced about 134 conflicts, mostly rename/delete noise from
 retina and kidney results folders, so a full sync will hit the same overlap unless the fork's
 remaining deletions are settled upstream.
@@ -25,13 +25,14 @@ analysis (`CELL_COUNT_RECONCILIATION.md`, `cell_count_reconciliation.csv`,
 `promote-to-upstream.yml`, `publish-plot-assets.yml`; see §10). Otherwise no code or tooling differs
 on `main`.
 
-Tree difference against `upstream/main` as of 2026-10-27, excluding the paths deliberately not synced
-(`data/test/`, `data/prod/gencode/`, `data/prod/liver/`):
+Tree difference against `upstream/main` as of 2026-10-28, excluding the paths deliberately not synced
+(`data/test/`, `data/prod/gencode/`, `data/prod/liver/`) and the three analysis files this commit
+rewrites (`FORK_DIVERGENCE.md`, `CELL_COUNT_RECONCILIATION.md`, `cell_count_reconciliation.csv`):
 
 ```
-97 files changed, 7927 insertions(+), 3596 deletions(-)
-  72 deleted   14 modified   11 added
-  88 under data/prod/  +  9 process, analysis and workflow files
+94 files changed, 7339 insertions(+), 3596 deletions(-)
+  72 deleted   14 modified   8 added
+  88 under data/prod/  +  6 process and workflow files
 ```
 
 Liver is excluded because it differs in 80 files that mix the fork's own liver curation with
@@ -56,8 +57,8 @@ Upstream keeps **reintroducing files the fork deletes.** Concretely:
   `reference/` mapping. The release flattens `data/prod` to one directory and keeps the last file
   written, so either could survive. The ETL validator reports `flatten-collision`. The results copy
   has `manual_mapped_cid` and `skos` blank but `cell_ontology_id` filled, so if it survived the ETL
-  would use the automatic IDs, drop the SKOS relations, and for neocortex attach every cluster to the
-  run's own dataset ID. See talking point 18.
+  would use the automatic IDs, drop the SKOS relations, and for neocortex carry a single dataset ID
+  (the run's sha256) that the five-row summary no longer contains. See talking point 18.
 - They keep coming back. The PR #32 upstream merge included a *revert* of an upstream
   "Remove redundant results" change, which resurfaced 9 under `heart_plus_pericardium/`; the fork
   had to re-delete them (commit `71b44807`). Upstream PR #261 then shipped an 82nd for retina Li,
@@ -176,26 +177,31 @@ list._
 
 The replacement `results/neocortex-Jorstad-Science-2023-f52998…37c/` (75 files) differs from the
 recovered version in ways that matter downstream:
-- **One custom dataset, not five.** Its `dataset_title` says "Human neocortex cross-area atlas
-  downsampled to 73144 cells (K=500 per cluster from the 5 superclusters)". The folder name and
-  `dataset_version_id` are the 64-hex sha256 of that custom h5ad rather than a CELLxGENE UUID, and the
-  summary has one row instead of five. Its tissue, assay, disease, sex and development-stage rollups
-  are all `NA`.
-- `filtered_cell_count` is 1,155,822 but `summary_normal.n_obs` and the sum of cluster sizes are both
-  **73,144** across 153 clusters (smallest 71). 1,155,822 is the sum of the five source supercluster
-  totals (129,495 + 92,969 + 638,941 + 185,477 + 108,940), so the field reports the source size, not
-  the analyzed size. It is the only one of 85 summaries where these numbers disagree.
-- **The reference mapping and the harvester agree with each other but not with the run.** The
-  reference mapping keeps the five per-cluster IDs (`3280113b`, `c4959ded`, `0476ef54`, `8b09695a`,
-  `f72b8175`; the 2023-10-20 versions of the five supercluster datasets) on all 153 rows, and as of
-  #370 the ETL-readable `homo_sapiens_neocortex_harvester_final.csv` carries the same five. By the
-  code, the ETL should therefore build five reference dataset nodes with harvester metadata (not yet
-  run). The run's own `f52998…` is in
-  neither file, so it has no harvester row and the validator reports `mapping-dvid-orphan` for the
-  five. This is the one ID mismatch still open.
+- **One custom dataset, five dataset IDs.** Its `dataset_title` says "Human neocortex cross-area atlas
+  downsampled to 73144 cells (K=500 per cluster from the 5 superclusters)". The folder name and file
+  tokens are the 64-hex sha256 of that custom h5ad rather than a CELLxGENE UUID. Its tissue, assay,
+  disease, sex and development-stage rollups are all `NA` (read as missing, so the harvester can fill
+  them).
+- **IDs aligned as of upstream #372** (2026-10-27, `07b2d7ca`). The master summary has one row per
+  supercluster, with the five 2023-10-20 dataset versions (`3280113b`, `c4959ded`, `0476ef54`,
+  `8b09695a`, `f72b8175`) that the reference mapping carries on all 153 rows and that the ETL-readable
+  `homo_sapiens_neocortex_harvester_final.csv` also carries. Summary, mapping and harvester now share
+  one ID set. By the code, the ETL's multi-dataset path then applies: each cell set attaches to its own
+  supercluster's dataset node, all five nodes are flagged as reference datasets, and the harvester
+  supplies their metadata (not yet run).
+- **The five summary rows repeat run-level values.** Every row has the same `dataset_title`,
+  `filtered_cell_count` (1,155,822), 153 clusters, and run-wide silhouette and f-score statistics. In
+  the ETL the summary takes precedence over the harvester, so all five dataset nodes would likely get the
+  run's title instead of "Supercluster: …" and the same cell count. The per-supercluster figures are
+  22 / 48 / 49 / 15 / 19 clusters and 11,000 / 23,595 / 23,552 / 6,277 / 8,720 analyzed cells (73,144
+  in all). See talking point 21 and `CELL_COUNT_RECONCILIATION.md`.
+- `filtered_cell_count` is the sum of the five source supercluster totals (129,495 + 92,969 + 638,941 +
+  185,477 + 108,940 = 1,155,822), not the analyzed 73,144, which is why the reconciliation reports the
+  five rows as "exceeds".
 - **Manifest names do not match the files.** `master_s3_manifest.csv` lists the results files with the
   short token `3b237c`, but the files on disk use the full 64-hex name. The validator reports this as
-  an ERROR (`manifest-missing-file`), the only error left on `data/prod`.
+  an ERROR (`manifest-missing-file`), the only error left on `data/prod`. In an actual ETL run it is a
+  non-fatal warning: the manifest is only an integrity cross-check and does not decide what loads.
 - `results_ensg` now has `binary_genes` and `cluster_header` (#370), which the ETL requires and the
   2026-10-26 publish lacked.
 
@@ -325,12 +331,9 @@ even though the file itself now differs in the two repositories.
    rather than `normal_cell_count` (332,335) despite `filter_normal = True`, so 15,635 non-normal
    cells appear to be included in a run flagged as normal-filtered. The only such case in the repo.
    See [CELL_COUNT_RECONCILIATION.md](CELL_COUNT_RECONCILIATION.md).
-5. **Neocortex: settle which `dataset_version_id`s are authoritative.** Retina is aligned as of #369.
-   For neocortex the reference mapping and harvester share the five 2023 supercluster IDs, but the
-   run's summary carries only the sha256 `f52998…`, so the run has no harvester row and the five
-   reference nodes have no summary row. Either the summary should list the five superclusters (the
-   ETL's multi-dataset path is keyed on a summary with several rows),
-   or the project should accept a single custom run and say which ID the reference nodes belong to.
+5. ~~**Neocortex: settle which `dataset_version_id`s are authoritative.**~~ **Done** — upstream #372
+   split the summary into five rows with the five 2023 supercluster IDs, matching the mapping and the
+   harvester. The run's own sha256 survives only in the `sha256` column and in file and folder names.
 6. ~~**Consider adopting `cell_ontology_term` repo-wide.**~~ **Moot** — upstream dropped the column from
    the neocortex reference in #370, so all 11 files are uniform again.
 7. ~~**Stop the misspelled `neocortext/` path from returning.**~~ **Done** — upstream #361 renamed it.
@@ -356,13 +359,13 @@ even though the file itself now differs in the two repositories.
 15. ~~**Retina: make the reference mapping and the run agree.**~~ **Done** — #369 rewrote the mapping to
    the run's 123 clusters with `dataset_version_id` `829243b7`.
 16. **Neocortex: report the analyzed cell count.** `filtered_cell_count` is the sum of the five source
-   totals (1,155,822), while the run analyzed 73,144 downsampled cells (K=500 per cluster). Put the
-   analyzed count in `filtered_cell_count` or add a separate field for the source size.
-17. **Settle on one identifier format, and make the manifest match.** Neocortex uses a 64-hex sha256 in
-   both the folder name and `dataset_version_id`, where every other dataset uses a UUID and a 6-hex
-   suffix. The manifest lists the short token `3b237c` while the files use the full name, which is the
-   one remaining validator ERROR. The CELLxGENE API rejects the hash (HTTP 403), so the ETL's
-   per-dataset fetch returns nothing for it.
+   totals (1,155,822) on every row, while the run analyzed 73,144 downsampled cells (K=500 per cluster).
+   Put the per-supercluster analyzed count in `filtered_cell_count` (or add a separate field for the
+   source size), so the reconciliation can compare like with like.
+17. **Make the manifest match the files.** The neocortex manifest lists the short token `3b237c` while the
+   files and folder use the full 64-hex name; this is the one remaining validator ERROR (a non-fatal
+   warning in an actual ETL run). The run's 64-hex sha256 is also still the folder and file token where
+   every other dataset uses a 6-hex suffix.
 18. **Stop publishing a second `cluster_cid_mapping` in each run folder, or have the ETL prefer
    `reference/`.** The retina `c44109` publish (`1f4b4b94`, 2026-10-25) and the neocortex publish (#368) each
    added a results-folder mapping with the same basename as the reference one (blank
@@ -378,8 +381,15 @@ even though the file itself now differs in the two repositories.
 20. **Harvester files the ETL does not read.** The ETL reads only `*_harvester_final.csv`. The heart
    files (`…_heart_plus_pericardium_final.csv`, no `harvester`) and respiratory Guo
    (`…_harvester_guo.csv`) do not match, so those 8 datasets get no harvester metadata (donor counts,
-   disease status, collection version). Nine of 85 datasets had no harvester row on 2026-10-27 (7 heart, Guo and
-   neocortex), and neocortex is the only one of the nine that is new.
+   disease status, collection version). Those 8 (7 heart and Guo) are the only datasets of 85 with no
+   harvester row since upstream #372 aligned the neocortex IDs.
+21. **Neocortex: give each supercluster row its own values.** The five rows of the #372 summary repeat
+   the run's `dataset_title`, `filtered_cell_count` (1,155,822), `n_clusters` (153) and silhouette and
+   f-score statistics. Because the ETL prefers the summary to the harvester, all five dataset nodes
+   would carry the run's title and count rather than "Supercluster: …" and their own totals. Fill the
+   per-supercluster title, cluster count and analyzed cell count (22 / 48 / 49 / 15 / 19 clusters;
+   11,000 / 23,595 / 23,552 / 6,277 / 8,720 cells), or leave those fields empty so the harvester fills
+   them.
 
 ---
 
@@ -389,6 +399,7 @@ These are all upstreamable as PRs; nothing here is a hard fork.
 
 | Commit | Date | Summary |
 |---|---|---|
+| `9ca5c4c0` | 2026-10-28 | Take upstream's corrected neocortex master_dataset_summary (#372) |
 | `9ec78f62` | 2026-10-27 | Remove results-folder cluster_cid_mapping for retina c44109 and neocortex Jorstad |
 | `5c9c04b2` | 2026-10-27 | Sync neocortex and retina data with upstream/main (drops retina `cbd4aa`) |
 | `8796d593` | 2026-08-19 | Add publish-plot-assets workflow (#53) |
