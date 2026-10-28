@@ -12,7 +12,7 @@ neocortex, liver, kidney test data, gencode). The fork took only the neocortex a
 **by copying those trees rather than merging** (`5c9c04b2`): `data/prod/neocortex` and
 `data/prod/retina` match `upstream/main` exactly, apart from the two files removed in `9ec78f62`
 (§2). Kidney test data, liver and `data/prod/gencode/gene_mapping_gencode_v48.csv` were deliberately
-left out for now; the gencode file will be needed later. By history the branch stands **72 commits
+left out for now; the gencode file will be needed later. By history the branch stands **73 commits
 ahead and 12 behind** `upstream/main` (the behind count includes the deliberately-skipped commits).
 A trial merge of the 8 earlier commits produced about 134 conflicts, mostly rename/delete noise from
 retina and kidney results folders, so a full sync will hit the same overlap unless the fork's
@@ -186,13 +186,15 @@ recovered version in ways that matter downstream:
   supercluster, with the five 2023-10-20 dataset versions (`3280113b`, `c4959ded`, `0476ef54`,
   `8b09695a`, `f72b8175`) that the reference mapping carries on all 153 rows and that the ETL-readable
   `homo_sapiens_neocortex_harvester_final.csv` also carries. Summary, mapping and harvester now share
-  one ID set. By the code, the ETL's multi-dataset path then applies: each cell set attaches to its own
-  supercluster's dataset node, all five nodes are flagged as reference datasets, and the harvester
-  supplies their metadata (not yet run).
+  one ID set. A local run of the tuple writers (see "What a local ETL run showed") confirms the
+  ETL's multi-dataset path then applies: each cell set attaches to its own supercluster's dataset
+  node (22 / 49 / 48 / 19 / 15), all five nodes are flagged as reference datasets, and the harvester
+  supplies their metadata.
 - **The five summary rows repeat run-level values.** Every row has the same `dataset_title`,
   `filtered_cell_count` (1,155,822), 153 clusters, and run-wide silhouette and f-score statistics. In
-  the ETL the summary takes precedence over the harvester, so all five dataset nodes would likely get the
-  run's title instead of "Supercluster: …" and the same cell count. The per-supercluster figures are
+  the ETL the summary takes precedence over the harvester, so all five dataset nodes carry the run's
+  `filtered_cell_count` and cluster count, and the run's title unless the CELLxGENE API's
+  "Supercluster: …" name overrides it (it does when `cellxgene.json` loads last; see talking point 22). The per-supercluster figures are
   22 / 48 / 49 / 15 / 19 clusters and 11,000 / 23,595 / 23,552 / 6,277 / 8,720 analyzed cells (73,144
   in all). See talking point 21 and `CELL_COUNT_RECONCILIATION.md`.
 - `filtered_cell_count` is the sum of the five source supercluster totals (129,495 + 92,969 + 638,941 +
@@ -317,6 +319,27 @@ even though the file itself now differs in the two repositories.
   moving it breaks AssumeRole until the IAM stack is updated. Per the file's own header it follows a
   proposal in `nlm-ckn-rnd`; I have not checked whether upstream has a counterpart.
 
+## What a local ETL run showed
+
+On 2026-10-28 I staged this branch's neocortex and retina trees as a local ETL run and ran the three
+tuple writers that create dataset nodes (`NSForestTupleWriter`, `MappingTupleWriter`,
+`CellxGeneTupleWriter`), using the ETL's own release extractor and a copy of its external cache. The
+tuple files were inspected directly. **Not exercised:** the Java loader, ArangoDB, every other organ,
+and the other tuple writers (Open Targets, Gene, UniProt). Only the retina dataset ID needed fetching;
+the cache already held the five neocortex IDs.
+
+- **The three writers agree on identity.** Dataset nodes are keyed `CSD_<dataset_version_id>__<organ>`
+  by all three: five for neocortex, one for retina. Neocortex cell sets attach to their own supercluster
+  (22 / 49 / 48 / 19 / 15, summing to the mapping's 153), retina has 123, and every cell type's
+  exemplar edge points at the same node. All six are reference datasets. Both summary-driven writers
+  agree on every attribute, and on every cell set's `cellxgene_dataset`.
+- **The CELLxGENE-API writer disagrees with them on some attributes** (talking point 22): the neocortex
+  dataset name (5 nodes) and, for retina, the publication, citation and collection version.
+- **The ETL's manifest cross-check is only a warning at extraction**, as expected: the neocortex
+  `3b237c` token is reported and processing continues.
+- **Counts formatted with thousands separators** (`17,929`) appear in the deep-layer neocortex node's
+  `donor_age`, `tissue_annotation` and `assay_summary` (talking point 23).
+
 ## Suggested talking points for the maintainer
 
 1. **Adopt the reference-mapping schema normalization upstream** so all 11 files share one schema
@@ -373,7 +396,8 @@ even though the file itself now differs in the two repositories.
    flatten only one survives, which is why the validator reports `flatten-collision`. The fork
    deletes them (`9ec78f62`). Related: the loader reads tuples files in unsorted `Files.list` order, so
    when two writers set the same attribute on a dataset node the winner depends on the filesystem
-   (nlm-ckn-etl#166).
+   (nlm-ckn-etl#166, with a follow-up comment on why "load `cellxgene.json` first" is a trade-off, see
+   point 22).
 19. **Retina: explain the 40,016-cell overshoot.** The run analyzed all 3,177,310 cells with
    `filter = False`, while the harvester's `normal_cell_count` is 3,137,294. The summary's own
    disease rollup reports every cell as normal, so one of the two sources is wrong, or the harvester
@@ -386,10 +410,27 @@ even though the file itself now differs in the two repositories.
 21. **Neocortex: give each supercluster row its own values.** The five rows of the #372 summary repeat
    the run's `dataset_title`, `filtered_cell_count` (1,155,822), `n_clusters` (153) and silhouette and
    f-score statistics. Because the ETL prefers the summary to the harvester, all five dataset nodes
-   would carry the run's title and count rather than "Supercluster: …" and their own totals. Fill the
+   carry the run's count (and, if the summary wins, its title) rather than "Supercluster: …" and their
+   own totals. Fill the
    per-supercluster title, cluster count and analyzed cell count (22 / 48 / 49 / 15 / 19 clusters;
    11,000 / 23,595 / 23,552 / 6,277 / 8,720 cells), or leave those fields empty so the harvester fills
    them.
+
+22. **Decide attribute precedence between the CELLxGENE API and the summary.** The three dataset-node
+   writers set some of the same attributes to different values, and the loader keeps whichever file it
+   reads last (unsorted `Files.list` order; in the 2026-07-27 release log `cellxgene.json` was 102nd of
+   113, after the NSForest and mapping files). Observed conflicts: neocortex `dataset_name` / `Name`
+   (API "Supercluster: IT-projecting excitatory neurons" etc. vs the summary's repeated run title, 5
+   nodes), and retina `publication` / `Citation` (API `10.1038/s41588-025-02454-1`, "Li (2026) Nat Genet",
+   because it reports the dataset's *current* collection, vs the summary's `10.1101/2023.11.07.566105`,
+   "Li (2023) bioRxiv") and `dataset_collection_version`. The retina node's `described_in` edge targets
+   the 2026 paper whatever the order. With the API last, neocortex gets the better names and retina is
+   labelled with a paper published after its dataset version; with the summary last it is the reverse.
+   Posted on nlm-ckn-etl#166.
+23. **Harvester count formatting.** The deep-layer neocortex row (`c4959ded`) has thousands separators
+   in `donor_age`, `tissue_annotation` and `assay_summary` (`UBERON:0009835: 17,929`), where the other
+   four use plain integers. The ETL copies them verbatim onto the dataset node, so a consumer parsing
+   those counts would handle that node differently.
 
 ---
 
