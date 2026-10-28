@@ -12,7 +12,7 @@ neocortex, liver, kidney test data, gencode). The fork took only the neocortex a
 **by copying those trees rather than merging** (`5c9c04b2`): `data/prod/neocortex` and
 `data/prod/retina` match `upstream/main` exactly, apart from the two files removed in `9ec78f62`
 (§2). Kidney test data, liver and `data/prod/gencode/gene_mapping_gencode_v48.csv` were deliberately
-left out for now; the gencode file will be needed later. By history the branch stands **73 commits
+left out for now; the gencode file will be needed later. By history the branch stands **74 commits
 ahead and 12 behind** `upstream/main` (the behind count includes the deliberately-skipped commits).
 A trial merge of the 8 earlier commits produced about 134 conflicts, mostly rename/delete noise from
 retina and kidney results folders, so a full sync will hit the same overlap unless the fork's
@@ -339,6 +339,15 @@ the cache already held the five neocortex IDs.
   `3b237c` token is reported and processing continues.
 - **Counts formatted with thousands separators** (`17,929`) appear in the deep-layer neocortex node's
   `donor_age`, `tissue_annotation` and `assay_summary` (talking point 23).
+- **The summary-driven writers emit the literal string `nan`** as the `cellxgene_dataset` URL of all five
+  neocortex nodes: the summary's `explorer_url` is empty, pandas reads it as NaN, and the ETL's
+  `if ds_url:` test treats NaN as present (talking point 24, nlm-ckn-etl#167). The API's real URL
+  overwrites it only because `cellxgene.json` loads last in the logged runs.
+- **Loading the API data last repairs only the descriptive attributes.** Per-supercluster name,
+  `cellxgene_dataset`, `cell_count` and tissue breakdown come out right. `filtered_cell_count`
+  (1,155,822), `cluster_summary` (153) and the silhouette and f-score statistics stay identical on all
+  five nodes, because no later file supplies them. So the repeated summary values (talking point 21)
+  still matter whatever the load order.
 
 ## Suggested talking points for the maintainer
 
@@ -419,7 +428,8 @@ the cache already held the five neocortex IDs.
 22. **Decide attribute precedence between the CELLxGENE API and the summary.** The three dataset-node
    writers set some of the same attributes to different values, and the loader keeps whichever file it
    reads last (unsorted `Files.list` order; in the 2026-07-27 release log `cellxgene.json` was 102nd of
-   113, after the NSForest and mapping files). Observed conflicts: neocortex `dataset_name` / `Name`
+   113, after the NSForest and mapping files — but those logs are local macOS runs (paths under
+   `/Users/…`), and the production release runs in a Linux container whose order is not known). Observed conflicts: neocortex `dataset_name` / `Name`
    (API "Supercluster: IT-projecting excitatory neurons" etc. vs the summary's repeated run title, 5
    nodes), and retina `publication` / `Citation` (API `10.1038/s41588-025-02454-1`, "Li (2026) Nat Genet",
    because it reports the dataset's *current* collection, vs the summary's `10.1101/2023.11.07.566105`,
@@ -432,6 +442,12 @@ the cache already held the five neocortex IDs.
    four use plain integers. The ETL copies them verbatim onto the dataset node, so a consumer parsing
    those counts would handle that node differently.
 
+24. **`nan` written as a string in dataset nodes** (nlm-ckn-etl#167). `build_cell_set_dataset` tests
+   `if ds_url:`, `if coll_url:` and `dataset_title or collection_name` on values pandas reads as NaN
+   when a summary cell is blank; NaN is truthy, so `"nan"` is emitted. Today only the five neocortex rows
+   (empty `explorer_url`) trigger it, of 85 summaries. Order-independent correctness needs the NaN checks
+   fixed in the ETL as well as the load order (point 22) and per-supercluster summary values (point 21);
+   until then the API's URL happens to mask it.
 ---
 
 These are all upstreamable as PRs; nothing here is a hard fork.
