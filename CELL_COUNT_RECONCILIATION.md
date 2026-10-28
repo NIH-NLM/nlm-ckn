@@ -1,8 +1,8 @@
 # Cell Count Reconciliation: harvester `normal_cell_count` vs summary `filtered_cell_count`
 
-_Generated 2026-08-03, revised 2026-10-28 against `sync/upstream-2026-oct-27-neocortex-retina`
+_Generated 2026-08-03, revised 2026-10-28 against `sync/upstream-2026-oct-28-neocortex-summary`
 (neocortex and retina data from `upstream/main`, including the five-row neocortex summary of
-`07b2d7ca`/#372). Regenerate with `python3 tools/reconcile_cell_counts.py` from the repository root;
+`07b2d7ca`/#372 and its per-supercluster correction, `4c8164ab`/#374). Regenerate with `python3 tools/reconcile_cell_counts.py` from the repository root;
 results land in `cell_count_reconciliation.csv`._
 
 ## Question
@@ -56,11 +56,12 @@ Before comparing across sources, the results files agree with each other perfect
 - `filtered_cell_count` == `summary_normal.n_obs` — **84/89**
 - `filtered_cell_count` == sum of post-filter cluster sizes — **84/89**
 
-The five exceptions are the neocortex Jorstad rows. All five carry `filtered_cell_count` 1,155,822,
-while `summary_normal.n_obs` and the sum of the run's 153 cluster sizes are both 73,144. The run is a
-custom dataset "downsampled to 73144 cells (K=500 per cluster from the 5 superclusters)", and 1,155,822
-is the sum of the five source supercluster totals, so the field reports the source size rather than
-what was analyzed, and repeats it on every row. See "Neocortex" below. Everywhere else `filtered_cell_count` is a faithful record of what each run analyzed,
+The five exceptions are the neocortex Jorstad rows. Their `filtered_cell_count` values (638,941 /
+185,477 / 129,495 / 108,940 / 92,969, summing to 1,155,822) are each supercluster's source size, while
+`summary_normal.n_obs` and the sum of the run's 153 cluster sizes are both 73,144. The run is a
+custom dataset "downsampled to 73144 cells (K=500 per cluster from the 5 superclusters)", so the field
+reports the source size rather than what was analyzed (before upstream's #374 it repeated the 1,155,822
+total on every row). See "Neocortex" below. Everywhere else `filtered_cell_count` is a faithful record of what each run analyzed,
 and any disagreement with the harvester is a genuine cross-source difference rather than a
 bookkeeping error inside a run.
 
@@ -135,14 +136,17 @@ say which. The earlier retina run (`cbd4aa`, removed 2026-10-26) overshot by onl
 filtered; this one did not filter at all. Worth asking the maintainer whether the retina run was meant
 to be filtered to normal.
 
-### Neocortex Jorstad — joins now, but the comparison is not meaningful
+### Neocortex Jorstad — joins, and now per supercluster, but still the source size
 
 Upstream's #372 (2026-10-27) replaced the one-row summary with five rows, one per supercluster, using
 the five 2023 dataset IDs that the reference mapping and the harvester (`…_harvester_final.csv`) already
 carry. So all three sources now agree on the IDs and every row joins. Each of the five rows still
-repeats the whole run's values, though (`filtered_cell_count` 1,155,822, 153 clusters, the same title and
-statistics), so each compares a run-wide figure against one supercluster's harvester count. The five
-"exceeds" (447% to 2,312%) are an artifact of that, not five filter failures.
+repeated the whole run's values then (`filtered_cell_count` 1,155,822, 153 clusters, the same title and
+statistics), giving "exceeds" of 447% to 2,312%. Upstream's #374 (`4c8164ab`, 2026-10-28) replaced those
+with per-supercluster values: titles, cluster counts (22 / 48 / 49 / 15 / 19) and `filtered_cell_count`
+now equal each supercluster's harvester *total* count. The five rows still "exceed" the harvester's
+normal count (185% to 247%), because the summary's figure is the source size, not what the run analyzed,
+and the harvester's normal count is smaller than its total. They are not five filter failures.
 
 What the data supports instead (analyzed cells are the sum of the run's cluster sizes for the
 clusters the mapping assigns to that supercluster):
@@ -157,9 +161,9 @@ clusters the mapping assigns to that supercluster):
 | **Total** | | **153** | **73,144** | **516,565** | **1,155,822** |
 
 The analyzed counts are a deliberate downsample (K=500 per cluster), so they are expected to be far
-below the harvester's counts; the 1,155,822 in the summary equals the harvester total column. A
-meaningful comparison would need `filtered_cell_count` to carry the analyzed count (or a separate
-field for the source size), per supercluster.
+below the harvester's counts; the summary's per-supercluster `filtered_cell_count` equals the harvester
+total column. A meaningful comparison would need `filtered_cell_count` to carry the analyzed count (or a
+separate field for the source size).
 
 ## Other harvester data-quality issues surfaced
 
