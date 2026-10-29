@@ -36,8 +36,10 @@ rewrites (`FORK_DIVERGENCE.md`, `CELL_COUNT_RECONCILIATION.md`, `cell_count_reco
 ```
 
 Liver is excluded because it differs in 80 files that mix the fork's own liver curation with
-upstream's #371 (removal of a duplicated Healthy and IFALD liver dataset), which has not been
-synced. The retina and neocortex trees contribute almost nothing: they are upstream's. What is left
+upstream's #371 (removal of a duplicated Healthy and IFALD liver dataset). Only the duplicate's
+results folder (`liver-Edgar-Hepatology Communications-2025-90971d`, dataset `feca90bb`) has been
+removed here; #371 also removed its row from `homo_sapiens_liver_harvester_final.csv`, which the fork
+still carries, and the rest of liver is not synced. The retina and neocortex trees contribute almost nothing: they are upstream's. What is left
 under `data/prod/` is the non-reference `cluster_cid_mapping` deletions, the schema normalization, and
 the respiratory-system reclassification.
 
