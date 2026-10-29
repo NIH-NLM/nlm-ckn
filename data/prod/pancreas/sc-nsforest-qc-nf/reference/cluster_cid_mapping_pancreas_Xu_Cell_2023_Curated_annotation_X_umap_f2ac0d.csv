@@ -1,15 +1,15 @@
-cluster_name,skos,manual_mapped_cid,cell_ontology_id
-Acinar-mix,relatedMatch,CL:0002064,CL:0002064
-Activated stellate cells,relatedMatch,CL:0002410,CL:0002410
-Alpha cells,relatedMatch,CL:0000171,CL:0000171
-Beta cells,relatedMatch,CL:0000169,CL:0000169
-Delta cells,exactMatch,CL:0000173,CL:0000173
-Ductal cells,exactMatch,CL:0002079,CL:0002079
-Endothelial cells,exactMatch,CL:0000115,CL:0000115
-Gamma cells,exactMatch,CL:0002275,CL:0002275
-Idling acinar cells,exactMatch,CL:0002064,CL:0002064
-MUC5B+ ductal cells,exactMatch,CL:0002079,CL:0002079
-Macrophages,exactMatch,CL:0000235,CL:0000235
-Quiescent stellate cells,relatedMatch,CL:0002410,CL:0002410
-Secretory acinar cells,relatedMatch,CL:0002064,CL:0002064
-Stressed beta cells,exactMatch,CL:0000169,CL:0000169
+dataset_version_id,cluster_name,skos,manual_mapped_cid,cell_ontology_id
+72e6a74d-8804-4305-81d7-a12b93f2ac0d,Acinar-mix,relatedMatch,CL:0002064,CL:0002064
+72e6a74d-8804-4305-81d7-a12b93f2ac0d,Activated stellate cells,relatedMatch,CL:0002410,CL:0002410
+72e6a74d-8804-4305-81d7-a12b93f2ac0d,Alpha cells,relatedMatch,CL:0000171,CL:0000171
+72e6a74d-8804-4305-81d7-a12b93f2ac0d,Beta cells,relatedMatch,CL:0000169,CL:0000169
+72e6a74d-8804-4305-81d7-a12b93f2ac0d,Delta cells,exactMatch,CL:0000173,CL:0000173
+72e6a74d-8804-4305-81d7-a12b93f2ac0d,Ductal cells,exactMatch,CL:0002079,CL:0002079
+72e6a74d-8804-4305-81d7-a12b93f2ac0d,Endothelial cells,exactMatch,CL:0000115,CL:0000115
+72e6a74d-8804-4305-81d7-a12b93f2ac0d,Gamma cells,exactMatch,CL:0002275,CL:0002275
+72e6a74d-8804-4305-81d7-a12b93f2ac0d,Idling acinar cells,exactMatch,CL:0002064,CL:0002064
+72e6a74d-8804-4305-81d7-a12b93f2ac0d,MUC5B+ ductal cells,exactMatch,CL:0002079,CL:0002079
+72e6a74d-8804-4305-81d7-a12b93f2ac0d,Macrophages,exactMatch,CL:0000235,CL:0000235
+72e6a74d-8804-4305-81d7-a12b93f2ac0d,Quiescent stellate cells,relatedMatch,CL:0002410,CL:0002410
+72e6a74d-8804-4305-81d7-a12b93f2ac0d,Secretory acinar cells,relatedMatch,CL:0002064,CL:0002064
+72e6a74d-8804-4305-81d7-a12b93f2ac0d,Stressed beta cells,exactMatch,CL:0000169,CL:0000169

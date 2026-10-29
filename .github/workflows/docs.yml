@@ -21,10 +21,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.11"
 
@@ -37,15 +37,21 @@ jobs:
       - name: Build Sphinx documentation
         run: sphinx-build -b html docs docs/_build/html
 
+      # Hits the Pages REST API, which 404s on forks without Pages enabled.
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        if: github.repository_owner == 'NIH-NLM'
+        uses: actions/configure-pages@v6
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        if: github.repository_owner == 'NIH-NLM'
+        uses: actions/upload-pages-artifact@v5
         with:
           path: docs/_build/html
 
+  # Only the NIH-NLM upstream publishes the site; forks don't have Pages
+  # enabled, so deploying there fails.
   deploy:
+    if: github.repository_owner == 'NIH-NLM'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -54,4 +60,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

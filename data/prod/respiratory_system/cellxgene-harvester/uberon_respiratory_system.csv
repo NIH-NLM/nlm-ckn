@@ -540,7 +540,7 @@ UBERON:3000088,cavum praenasale,descendant
 UBERON:3000087,cavum medius,descendant
 UBERON:0004110,midnasal cavity,descendant
 UBERON:0000402,nasal vestibule,descendant
-UBERON:0000004,nose,root
+UBERON:0000004,nose,descendant
 UBERON:8600089,transverse nasal root vein,descendant
 UBERON:2001428,olfactory rosette,descendant
 UBERON:0019306,nose epithelium,descendant

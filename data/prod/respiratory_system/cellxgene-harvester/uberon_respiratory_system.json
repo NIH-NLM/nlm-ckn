@@ -8,11 +8,6 @@
       "obo_id": "UBERON:0001004",
       "label": "respiratory system",
       "level": "root"
-    },
-    {
-      "obo_id": "UBERON:0000004",
-      "label": "nose",
-      "level": "root"
     }
   ],
   "obo_ids": [
@@ -3386,7 +3381,7 @@
     {
       "obo_id": "UBERON:0000004",
       "label": "nose",
-      "level": "root"
+      "level": "descendant"
     },
     {
       "obo_id": "UBERON:8600089",
