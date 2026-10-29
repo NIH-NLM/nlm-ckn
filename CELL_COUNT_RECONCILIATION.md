@@ -33,13 +33,13 @@ therefore prefers the largest non-zero value and records every candidate in
 
 ## Result
 
-89 summary rows across 85 `master_dataset_summary` files (neocortex has five rows, one per
-supercluster, the other 84 datasets one each); all 89 join to a harvester row in the same organ.
+88 summary rows across 84 `master_dataset_summary` files (neocortex has five rows, one per
+supercluster, the other 83 datasets one each); all 88 join to a harvester row in the same organ.
 (The count was 85 rows, one unjoined, before upstream's #372 split the neocortex summary.)
 
 | Comparison | Rows |
 |---|---|
-| `filtered_cell_count` **==** `normal_cell_count` | 54 |
+| `filtered_cell_count` **==** `normal_cell_count` | 53 |
 | short by 1–29 cells (median 6.5, worst 99.03% of normal) | 28 |
 | **exceeds** `normal_cell_count` | 7 |
 | no harvester row to join against | 0 |
@@ -53,8 +53,8 @@ like a clear defect.
 
 Before comparing across sources, the results files agree with each other perfectly:
 
-- `filtered_cell_count` == `summary_normal.n_obs` — **84/89**
-- `filtered_cell_count` == sum of post-filter cluster sizes — **84/89**
+- `filtered_cell_count` == `summary_normal.n_obs` — **83/88**
+- `filtered_cell_count` == sum of post-filter cluster sizes — **83/88**
 
 The five exceptions are the neocortex Jorstad rows. Their `filtered_cell_count` values (638,941 /
 185,477 / 129,495 / 108,940 / 92,969, summing to 1,155,822) are each supercluster's source size, while
@@ -193,7 +193,7 @@ separate field for the source size).
 
 ## Output columns
 
-`cell_count_reconciliation.csv` — 89 rows, 21 columns, sorted worst-discrepancy first. Every row now
+`cell_count_reconciliation.csv` — 88 rows, 21 columns, sorted worst-discrepancy first. Every row now
 joins; `status = 'unjoined'` would appear only for a summary whose ID is in no harvester file.
 
 | Column | Meaning |
