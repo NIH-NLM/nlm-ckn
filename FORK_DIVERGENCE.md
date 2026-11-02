@@ -12,7 +12,7 @@ neocortex, liver, kidney test data, gencode). The fork took only the neocortex a
 **by copying those trees rather than merging** (`5c9c04b2`): `data/prod/neocortex` and
 `data/prod/retina` match `upstream/main` exactly, apart from the two files removed in `9ec78f62`
 (§2). Kidney test data, liver and `data/prod/gencode/gene_mapping_gencode_v48.csv` were deliberately
-left out for now; the gencode file will be needed later. By history the branch stands **76 commits
+left out for now; the gencode file will be needed later. By history the branch stands **82 commits
 ahead and 13 behind** `upstream/main` (the behind count includes the deliberately-skipped commits).
 A trial merge of the 8 earlier commits produced about 134 conflicts, mostly rename/delete noise from
 retina and kidney results folders, so a full sync will hit the same overlap unless the fork's
@@ -354,6 +354,28 @@ the cache already held the five neocortex IDs.
   and the silhouette and f-score statistics were identical on all five nodes. #374 fixed that for the
   summary; this run has not been repeated on the corrected file.
 
+## Releases and ETL runs of this data
+
+Each data release was run through the ETL (a Batch run named after the ETL tag, about 45 minutes), which
+then opened an `ETL_VERSION` bump PR in `nlm-ckn-ui` that a person merges (it restores the dump on dev).
+
+| nlm-ckn release | Contents | ETL release | Result |
+|---|---|---|---|
+| `v1.0.0-rc.11` (#56) | neocortex and retina sync | `v1.8.0-rc.6` | first run failed in Phase 2 (a local ArangoDB call timed out after 60 s, nlm-ckn-etl#169); the re-run succeeded |
+| `v1.0.0-rc.12` (#57) | upstream's per-supercluster neocortex summary (#374) | `v1.8.0-rc.7` | succeeded |
+| `v1.0.0-rc.13` (#58) | liver Edgar `90971d` results folder removed | none | superseded by rc.14 |
+| `v1.0.0-rc.14` (#59) | `90971d` row removed from the liver harvester final file | `v1.8.0-rc.8` (with nlm-ckn-etl#172) | succeeded in 47 min |
+
+**Stale datasets in the ETL's cache (nlm-ckn-etl#171, fixed in #172).** The CELLxGENE metadata cache is
+reused across releases, and `CellxGeneTupleWriter` made a dataset node for every cached ID. When a
+release dropped a dataset, its cached entry stayed and the writer minted a bare-ID node (`CSD_<id>`, no
+organ) for it. Two datasets were affected: retina `25f1558d` (Li Nat Genet 2026, `cbd4aa`, replaced in
+`v1.0.0-rc.11`), so retina showed two datasets where one is expected, and liver `feca90bb` (the Edgar
+duplicate removed in rc.13/rc.14). The writer now skips cached IDs that no summary mentions. Checked
+locally on the rc.14 data with the rc.10 cache: 88 dataset nodes, one retina, five neocortex, none stale.
+Not checked: the loaded graph on dev, and whether the `v1.8.0-rc.6` and `rc.7` outputs carried the stray
+retina node (they predate the fix).
+
 ## Suggested talking points for the maintainer
 
 1. **Adopt the reference-mapping schema normalization upstream** so all 11 files share one schema
@@ -457,6 +479,8 @@ These are all upstreamable as PRs; nothing here is a hard fork.
 
 | Commit | Date | Summary |
 |---|---|---|
+| `57dadefb` | 2026-10-29 | Remove the duplicate Edgar 90971d row from the liver harvester final file |
+| `3a76da29` | 2026-10-29 | Remove duplicate liver Edgar 90971d results folder |
 | `d85a31fa` | 2026-10-28 | Take upstream's corrected neocortex master_dataset_summary (#374) |
 | `9ca5c4c0` | 2026-10-28 | Take upstream's corrected neocortex master_dataset_summary (#372) |
 | `9ec78f62` | 2026-10-27 | Remove results-folder cluster_cid_mapping for retina c44109 and neocortex Jorstad |
