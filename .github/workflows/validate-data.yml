@@ -1,0 +1,127 @@
+name: Validate Data
+
+# PR gate: run the nlm-ckn-etl ProductionDataValidator against the data trees.
+# The validator and its spec module live in nlm-ckn-etl and encode the ETL
+# readers' assumptions; they are checked out from there rather than copied so
+# the two repos cannot drift. Any ERROR fails the job; warnings are reported
+# but do not fail it.
+
+on:
+  pull_request:
+    paths:
+      - "data/**"
+      - ".github/workflows/validate-data.yml"
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - ".github/workflows/validate-data.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  ETL_REPOSITORY: NIH-NLM/nlm-ckn-etl
+  # Branch, tag or SHA of nlm-ckn-etl to take the validator from.
+  ETL_REF: main
+
+jobs:
+  validate:
+    name: Validate data/${{ matrix.tree }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        tree: [prod, test]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Checkout ETL validator
+        uses: actions/checkout@v7
+        with:
+          repository: ${{ env.ETL_REPOSITORY }}
+          ref: ${{ env.ETL_REF }}
+          path: .etl
+          sparse-checkout: |
+            python/src/ProductionDataSpecification.py
+            python/src/ProductionDataValidator.py
+          sparse-checkout-cone-mode: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pandas
+
+      - name: Run validator
+        id: validate
+        env:
+          DATA_DIR: ${{ github.workspace }}/data/${{ matrix.tree }}
+          FINDINGS: ${{ runner.temp }}/findings.json
+        working-directory: .etl/python/src
+        run: |
+          set +e
+          python ProductionDataValidator.py --data-dir "$DATA_DIR" --json > "$FINDINGS"
+          printf 'rc=%s\n' "$?" >> "$GITHUB_OUTPUT"
+
+      - name: Report findings
+        env:
+          TREE: data/${{ matrix.tree }}
+          FINDINGS: ${{ runner.temp }}/findings.json
+          VALIDATOR_RC: ${{ steps.validate.outputs.rc }}
+        run: |
+          python3 - <<'EOF'
+          import json, os, sys
+
+          tree = os.environ["TREE"]
+          rc = int(os.environ.get("VALIDATOR_RC") or 1)
+
+          def esc_data(s):
+              return s.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
+
+          def esc_prop(s):
+              return esc_data(s).replace(":", "%3A").replace(",", "%2C")
+
+          def cell(s):
+              return s.replace("|", "\\|").replace("\r", " ").replace("\n", " ")
+
+          summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+          out = open(summary_path, "a") if summary_path else sys.stdout
+
+          try:
+              with open(os.environ["FINDINGS"]) as fh:
+                  report = json.load(fh)
+          except (OSError, ValueError) as exc:
+              print(f"::error::Validator produced no readable JSON for {tree} "
+                    f"(exit {rc}): {esc_data(str(exc))}")
+              out.write(f"## Data validation: `{tree}`\n\n"
+                        f"Validator failed to produce JSON (exit {rc}). "
+                        "See the Run validator step log.\n")
+              sys.exit(1)
+
+          findings = report.get("findings", [])
+          errors = sum(f["severity"] == "ERROR" for f in findings)
+          warnings = sum(f["severity"] == "WARN" for f in findings)
+          findings.sort(key=lambda f: (f["severity"] != "ERROR", f["check"], f["path"]))
+
+          for f in findings:
+              level = "error" if f["severity"] == "ERROR" else "warning"
+              loc = f" file={esc_prop(tree + '/' + f['path'])}" if f["path"] else ""
+              print(f"::{level}{loc}::{esc_data(f['check'] + ': ' + f['message'])}")
+
+          out.write(f"## Data validation: `{tree}`\n\n"
+                    f"**{errors} error(s), {warnings} warning(s)**\n\n")
+          if findings:
+              out.write("| Severity | Check | Message | Path |\n|---|---|---|---|\n")
+              for f in findings:
+                  path = f"`{cell(f['path'])}`" if f["path"] else ""
+                  out.write(f"| {f['severity']} | {f['check']} | "
+                            f"{cell(f['message'])} | {path} |\n")
+          out.write("\n")
+
+          sys.exit(1 if errors or rc != 0 else 0)
+          EOF
