@@ -1,0 +1,74 @@
+name: Validate Data
+
+# PR gate: run the nlm-ckn-etl ProductionDataValidator against the data trees.
+# The validator and its spec module live in nlm-ckn-etl and encode the ETL
+# readers' assumptions; they are checked out from there rather than copied so
+# the two repos cannot drift. Any ERROR fails the job; warnings are reported
+# but do not fail it.
+
+on:
+  pull_request:
+    paths:
+      - "data/**"
+      - ".github/workflows/validate-data.yml"
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - ".github/workflows/validate-data.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  ETL_REPOSITORY: NIH-NLM/nlm-ckn-etl
+  # Branch, tag or SHA of nlm-ckn-etl to take the validator from.
+  ETL_REF: main
+
+jobs:
+  validate:
+    name: Validate data/${{ matrix.tree }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        tree: [prod, test]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Checkout ETL validator
+        uses: actions/checkout@v7
+        with:
+          repository: ${{ env.ETL_REPOSITORY }}
+          ref: ${{ env.ETL_REF }}
+          path: .etl
+          sparse-checkout: |
+            python/src/ProductionDataSpecification.py
+            python/src/ProductionDataValidator.py
+          sparse-checkout-cone-mode: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pandas
+
+      - name: Run validator
+        env:
+          DATA_DIR: data/${{ matrix.tree }}
+        working-directory: .etl/python/src
+        run: |
+          set +e
+          {
+            echo "## Data validation: \`$DATA_DIR\`"
+            echo '```text'
+          } >> "$GITHUB_STEP_SUMMARY"
+          python ProductionDataValidator.py --data-dir "$GITHUB_WORKSPACE/$DATA_DIR" \
+            | tee -a "$GITHUB_STEP_SUMMARY"
+          rc=${PIPESTATUS[0]}
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          exit "$rc"
