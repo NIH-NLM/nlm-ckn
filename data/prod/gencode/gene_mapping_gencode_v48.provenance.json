@@ -1,0 +1,32 @@
+{
+  "gencode_release": 48,
+  "description": "##description: evidence-based annotation of the human genome (GRCh38), version 48 (Ensembl 114)",
+  "source_url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_48/gencode.v48.primary_assembly.annotation.gtf.gz",
+  "source_file": "gencode.v48.primary_assembly.annotation.gtf.gz",
+  "source_md5": "1b68ecb47fd4cc3946819fec58a59d8f",
+  "source_md5_published": "1b68ecb47fd4cc3946819fec58a59d8f",
+  "source_md5_verified": true,
+  "source_sha256": "ad15e956fb7643172afca6dcaae176cc76400532392978a191c981d0a052e668",
+  "built_at": "2026-10-12T12:15:35+00:00",
+  "table_file": "gene_mapping_gencode_v48.csv",
+  "table_sha256": "50358a5f8a36a13c8f21cb3c989de98e70b59e21d6541ae093ef9ec8e61f11aa",
+  "genes": 78894,
+  "genes_with_symbol": 42760,
+  "genes_without_symbol": 36134,
+  "genes_with_entrezgene_id": 27613,
+  "genes_with_several_entrezgene_ids": 37,
+  "entrezgene_source": {
+    "file": "gencode.v48.metadata.EntrezGene.gz",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_48/gencode.v48.metadata.EntrezGene.gz",
+    "md5": "4747cfddb6eccae4bd2001314e8dea19",
+    "md5_published": "4747cfddb6eccae4bd2001314e8dea19",
+    "md5_verified": true,
+    "sha256": "6959291925b2368998735828b8c48bb76cc0bcfce8530af8342a5c2fe080c0eb"
+  },
+  "cellxgene_schema_versions": [
+    "7.0.0",
+    "7.1.0"
+  ],
+  "cellxgene_schema_source": "https://github.com/chanzuckerberg/single-cell-curation/tree/main/schema",
+  "script": "cellxgene-harvester 1.0.0 build-gene-mapping"
+}
