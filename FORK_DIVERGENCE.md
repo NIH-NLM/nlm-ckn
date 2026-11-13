@@ -476,6 +476,25 @@ retina node (they predate the fix).
    (empty `explorer_url`) trigger it, of 85 summaries. Order-independent correctness needs the NaN checks
    fixed in the ETL as well as the load order (point 22) and per-supercluster summary values (point 21);
    until then the API's URL happens to mask it.
+
+25. **Five known validator warnings, to discuss.** `ProductionDataValidator` reports 0 errors and 5 warnings
+   on `data/prod`; none fails CI and none was changed.
+
+   **`warnings`**
+   1. **`mapping-cl-curie`, liver Andrews 2024 (`00ddc4`):** 9 of 28 rows have no CL term.
+      Eight are `...Doublet` clusters, which are technical artifacts with no CL term, and one is `Prolif`.
+   2. **`mapping-cl-curie`, digestive Oliver (`a60caa`):** 1 of 114 rows (`SF_like`) has no CL term.
+   3. **`mapping-cl-curie`, heart Litvinukova (`2fcb9b`):** 1 of 27 rows (cluster `unknown`) has no CL term.
+   4. **`mapping-cluster-orphan`, heart Litvinukova (`2fcb9b`):** 5 mapping clusters have no rows
+      in `results_ensg`: activated CD4 and CD8 alpha-beta T cell, CD14-positive CD16-positive monocyte,
+      and CD4 and CD8 alpha-beta cytotoxic T cell. They are in the analyzed `cluster_order` and `cluster_sizes` files.
+      Why NSForest gave them no rows is not yet known.
+   5. **`mapping-cluster-orphan`, liver Andrews 2024 (`00ddc4`):** 1 mapping cluster (`C-Hepato2`) has no rows in `results_ensg`,
+      with the same open question.
+
+    Rows with no CL term are skipped by the ETL, and orphan mapping rows are dropped by the inner merge.
+    To decide: curate CL terms for `Prolif` and `SF_like`, and find out why NSForest gave no rows for the 6 clusters.
+
 ---
 
 These are all upstreamable as PRs; nothing here is a hard fork.
