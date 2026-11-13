@@ -187,9 +187,8 @@ separate field for the source size).
    criteria rather than one being stale. Every analyzed run follows `_final`, so the reconciliation is
    unaffected — but the pair should not be treated as interchangeable, and only respiratory system is
    affected.
-3. **Kidney has no `*_with_normal_counts.csv`** file, and carries two near-identical finals:
-   `homo_sapiens_kidney_harvester_final.csv` and the misspelled
-   `homo_sapiens_kidney_havester_final.csv`, 9 rows each.
+3. **Kidney has no `*_with_normal_counts.csv`** file. It used to carry a second, misspelled final,
+   `homo_sapiens_kidney_havester_final.csv`, with the same 9 rows; that copy was removed.
 
 ## Output columns
 
