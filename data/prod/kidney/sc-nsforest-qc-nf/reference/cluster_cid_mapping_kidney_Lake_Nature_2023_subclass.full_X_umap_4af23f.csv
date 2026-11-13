@@ -1,76 +1,76 @@
-cluster_name,skos,manual:mapped:cid,cell_ontology_id
-Adaptive / Maladaptive / Repairing Fibroblast,relatedMatch,CL:0000766,CL:1000692
-Adaptive / Maladaptive / Repairing Proximal Tubule Epithelial Cell,exactMatch,CL:0000236,CL:0002306
-Adaptive / Maladaptive / Repairing Thick Ascending Limb Cell,exactMatch,CL:0000990,CL:1001106
-Afferent / Efferent Arteriole Endothelial Cell,exactMatch,CL:4033078,CL:0000115
-Ascending Thin Limb Cell,exactMatch,CL:4033071,CL:1001107
-Ascending Vasa Recta Endothelial Cell,exactMatch,CL:0001058,CL:0000115
-B Cell,relatedMatch,CL:0000115,CL:0000236
-Classical Dendritic Cell,relatedMatch,CL:0000115,CL:0000990
-Connecting Tubule Cell,relatedMatch,CL:0000115,CL:1000768
-Connecting Tubule Intercalated Cell Type A,exactMatch,CL:1000412,CL:1001432
-Connecting Tubule Principal Cell,exactMatch,CL:0002138,CL:1000768
-Cortical Collecting Duct Intercalated Cell Type A,exactMatch,CL:4030015,CL:1001432
-Cortical Collecting Duct Principal Cell,exactMatch,CL:1000714,CL:1001431
-Cortical Thick Ascending Limb Cell,relatedMatch,CL:0002306,CL:1001106
-Cycling Connecting Tubule Cell,relatedMatch,CL:0002306,CL:1000768
-Cycling Distal Convoluted Tubule Cell,relatedMatch,CL:0002306,CL:1000849
-Cycling Endothelial Cell,relatedMatch,CL:0000115,CL:0000115
-Cycling Mononuclear Phagocyte,exactMatch,CL:4033078,CL:0000113
-Cycling Myofibroblast,relatedMatch,CL:1000691,CL:1000692
-Cycling Natural Killer Cell / Natural Killer T Cell,exactMatch,CL:1001005,CL:0000542
-Cycling Proximal Tubule Epithelial Cell,exactMatch,CL:0000648,CL:0002306
-Degenerative Ascending Thin Limb Cell,exactMatch,CL:4030015,CL:1001107
-Degenerative Connecting Tubule Cell,exactMatch,CL:4030020,CL:1000768
-Degenerative Cortical Intercalated Cell Type A,exactMatch,CL:4030018,CL:1001432
-Degenerative Cortical Thick Ascending Limb Cell,exactMatch,CL:1000714,CL:1001106
-Degenerative Descending Thin Limb Cell Type 3,exactMatch,CL:1000768,CL:1001111
-Degenerative Distal Convoluted Tubule Cell,relatedMatch,CL:1000849,CL:1000849
-Degenerative Endothelial Cell,relatedMatch,CL:0000115,CL:0000115
-Degenerative Fibroblast,relatedMatch,CL:1000849,CL:1000692
-Degenerative Inner Medullary Collecting Duct Cell,relatedMatch,CL:1000849,CL:1001431
-Degenerative Medullary Fibroblast,relatedMatch,CL:4030022,CL:1000692
-Degenerative Medullary Thick Ascending Limb Cell,relatedMatch,CL:1001108,CL:1001106
-Degenerative Outer Medullary Collecting Duct Principal Cell,relatedMatch,CL:1000692,CL:1001431
-Degenerative Peritubular Capilary Endothelial Cell,exactMatch,CL:1001109,CL:0000115
-Degenerative Podocyte,relatedMatch,CL:1001108,CL:0000653
-Degenerative Proximal Tubule Epithelial Cell,relatedMatch,CL:0002306,CL:0002306
-Degenerative Vascular Smooth Muscle Cell,relatedMatch,CL:1001106,CL:1001318
-Descending Thin Limb Cell Type 1,relatedMatch,CL:1001106,CL:1001111
-Descending Thin Limb Cell Type 2,relatedMatch,CL:1001111,CL:1001111
-Descending Thin Limb Cell Type 3,exactMatch,CL:1001107,CL:1001111
-Descending Vasa Recta Endothelial Cell,relatedMatch,CL:1001111,CL:0000115
-Distal Convoluted Tubule Cell Type 1,relatedMatch,CL:1001111,CL:1000849
-Distal Convoluted Tubule Cell Type 2,relatedMatch,CL:1001111,CL:1000849
-Fibroblast,relatedMatch,CL:1000716,CL:1000692
-Glomerular Capillary Endothelial Cell,exactMatch,CL:1000695,CL:0000115
-Inner Medullary Collecting Duct Cell,exactMatch,CL:1000850,CL:1001431
-Intercalated Cell Type B,exactMatch,CL:0000097,CL:1001432
-Lymphatic Endothelial Cell,exactMatch,CL:1001108,CL:0000115
-M2 Macrophage,exactMatch,CL:1000695,CL:1000695
-Macula Densa Cell,exactMatch,CL:1000850,CL:1001106
-Mast Cell,exactMatch,CL:0000097,CL:0000097
-Medullary Fibroblast,exactMatch,CL:0000775,CL:1000692
-Medullary Thick Ascending Limb Cell,exactMatch,CL:0000623,CL:1001106
-Mesangial Cell,exactMatch,CL:0000875,CL:1001318
-Monocyte-derived Cell,exactMatch,CL:1000717,CL:0000113
-Myofibroblast,exactMatch,CL:1000716,CL:1000692
-Natural Killer Cell / Natural Killer T Cell,exactMatch,CL:1000597,CL:0000542
-Neutrophil,exactMatch,CL:1000452,CL:0000775
-Non-classical Monocyte,relatedMatch,CL:1001033,CL:0000875
-Outer Medullary Collecting Duct Intercalated Cell Type A,exactMatch,CL:1001033,CL:1001432
-Outer Medullary Collecting Duct Principal Cell,exactMatch,CL:0000786,CL:1001431
-Papillary Tip Epithelial Cell,relatedMatch,CL:0000653,CL:1000597
-Parietal Epithelial Cell,exactMatch,CL:0000653,CL:1000452
-Peritubular Capilary Endothelial Cell,exactMatch,CL:4030011,CL:0000115
-Plasma Cell,exactMatch,CL:0000786,CL:0000786
-Plasmacytoid Dendritic Cell,relatedMatch,CL:0005011,CL:0001058
-Podocyte,exactMatch,CL:0002201,CL:0000653
-Proximal Tubule Epithelial Cell Segment 1 / Segment 2,relatedMatch,CL:4030022,CL:0002306
-Proximal Tubule Epithelial Cell Segment 3,exactMatch,CL:0002573,CL:0002306
-Renin-positive Juxtaglomerular Granular Cell,exactMatch,CL:0000084,CL:1001318
-Schwann Cell / Neural,exactMatch,CL:0002573,CL:0002319
-T Cell,exactMatch,CL:0000084,CL:0000084
-Transitional Principal-Intercalated Cell,relatedMatch,CL:0000359,CL:1001432
-Vascular Smooth Muscle Cell,exactMatch,CL:0000359,CL:1001318
-Vascular Smooth Muscle Cell / Pericyte,exactMatch,CL:1001318,CL:1001318
+dataset_version_id,cluster_name,skos,manual_mapped_cid,cell_ontology_id
+25b62707-5933-415b-8000-3369ec4af23f,Adaptive / Maladaptive / Repairing Fibroblast,relatedMatch,CL:0000766,CL:1000692
+25b62707-5933-415b-8000-3369ec4af23f,Adaptive / Maladaptive / Repairing Proximal Tubule Epithelial Cell,exactMatch,CL:0000236,CL:0002306
+25b62707-5933-415b-8000-3369ec4af23f,Adaptive / Maladaptive / Repairing Thick Ascending Limb Cell,exactMatch,CL:0000990,CL:1001106
+25b62707-5933-415b-8000-3369ec4af23f,Afferent / Efferent Arteriole Endothelial Cell,exactMatch,CL:4033078,CL:0000115
+25b62707-5933-415b-8000-3369ec4af23f,Ascending Thin Limb Cell,exactMatch,CL:4033071,CL:1001107
+25b62707-5933-415b-8000-3369ec4af23f,Ascending Vasa Recta Endothelial Cell,exactMatch,CL:0001058,CL:0000115
+25b62707-5933-415b-8000-3369ec4af23f,B Cell,relatedMatch,CL:0000115,CL:0000236
+25b62707-5933-415b-8000-3369ec4af23f,Classical Dendritic Cell,relatedMatch,CL:0000115,CL:0000990
+25b62707-5933-415b-8000-3369ec4af23f,Connecting Tubule Cell,relatedMatch,CL:0000115,CL:1000768
+25b62707-5933-415b-8000-3369ec4af23f,Connecting Tubule Intercalated Cell Type A,exactMatch,CL:1000412,CL:1001432
+25b62707-5933-415b-8000-3369ec4af23f,Connecting Tubule Principal Cell,exactMatch,CL:0002138,CL:1000768
+25b62707-5933-415b-8000-3369ec4af23f,Cortical Collecting Duct Intercalated Cell Type A,exactMatch,CL:4030015,CL:1001432
+25b62707-5933-415b-8000-3369ec4af23f,Cortical Collecting Duct Principal Cell,exactMatch,CL:1000714,CL:1001431
+25b62707-5933-415b-8000-3369ec4af23f,Cortical Thick Ascending Limb Cell,relatedMatch,CL:0002306,CL:1001106
+25b62707-5933-415b-8000-3369ec4af23f,Cycling Connecting Tubule Cell,relatedMatch,CL:0002306,CL:1000768
+25b62707-5933-415b-8000-3369ec4af23f,Cycling Distal Convoluted Tubule Cell,relatedMatch,CL:0002306,CL:1000849
+25b62707-5933-415b-8000-3369ec4af23f,Cycling Endothelial Cell,relatedMatch,CL:0000115,CL:0000115
+25b62707-5933-415b-8000-3369ec4af23f,Cycling Mononuclear Phagocyte,exactMatch,CL:4033078,CL:0000113
+25b62707-5933-415b-8000-3369ec4af23f,Cycling Myofibroblast,relatedMatch,CL:1000691,CL:1000692
+25b62707-5933-415b-8000-3369ec4af23f,Cycling Natural Killer Cell / Natural Killer T Cell,exactMatch,CL:1001005,CL:0000542
+25b62707-5933-415b-8000-3369ec4af23f,Cycling Proximal Tubule Epithelial Cell,exactMatch,CL:0000648,CL:0002306
+25b62707-5933-415b-8000-3369ec4af23f,Degenerative Ascending Thin Limb Cell,exactMatch,CL:4030015,CL:1001107
+25b62707-5933-415b-8000-3369ec4af23f,Degenerative Connecting Tubule Cell,exactMatch,CL:4030020,CL:1000768
+25b62707-5933-415b-8000-3369ec4af23f,Degenerative Cortical Intercalated Cell Type A,exactMatch,CL:4030018,CL:1001432
+25b62707-5933-415b-8000-3369ec4af23f,Degenerative Cortical Thick Ascending Limb Cell,exactMatch,CL:1000714,CL:1001106
+25b62707-5933-415b-8000-3369ec4af23f,Degenerative Descending Thin Limb Cell Type 3,exactMatch,CL:1000768,CL:1001111
+25b62707-5933-415b-8000-3369ec4af23f,Degenerative Distal Convoluted Tubule Cell,relatedMatch,CL:1000849,CL:1000849
+25b62707-5933-415b-8000-3369ec4af23f,Degenerative Endothelial Cell,relatedMatch,CL:0000115,CL:0000115
+25b62707-5933-415b-8000-3369ec4af23f,Degenerative Fibroblast,relatedMatch,CL:1000849,CL:1000692
+25b62707-5933-415b-8000-3369ec4af23f,Degenerative Inner Medullary Collecting Duct Cell,relatedMatch,CL:1000849,CL:1001431
+25b62707-5933-415b-8000-3369ec4af23f,Degenerative Medullary Fibroblast,relatedMatch,CL:4030022,CL:1000692
+25b62707-5933-415b-8000-3369ec4af23f,Degenerative Medullary Thick Ascending Limb Cell,relatedMatch,CL:1001108,CL:1001106
+25b62707-5933-415b-8000-3369ec4af23f,Degenerative Outer Medullary Collecting Duct Principal Cell,relatedMatch,CL:1000692,CL:1001431
+25b62707-5933-415b-8000-3369ec4af23f,Degenerative Peritubular Capilary Endothelial Cell,exactMatch,CL:1001109,CL:0000115
+25b62707-5933-415b-8000-3369ec4af23f,Degenerative Podocyte,relatedMatch,CL:1001108,CL:0000653
+25b62707-5933-415b-8000-3369ec4af23f,Degenerative Proximal Tubule Epithelial Cell,relatedMatch,CL:0002306,CL:0002306
+25b62707-5933-415b-8000-3369ec4af23f,Degenerative Vascular Smooth Muscle Cell,relatedMatch,CL:1001106,CL:1001318
+25b62707-5933-415b-8000-3369ec4af23f,Descending Thin Limb Cell Type 1,relatedMatch,CL:1001106,CL:1001111
+25b62707-5933-415b-8000-3369ec4af23f,Descending Thin Limb Cell Type 2,relatedMatch,CL:1001111,CL:1001111
+25b62707-5933-415b-8000-3369ec4af23f,Descending Thin Limb Cell Type 3,exactMatch,CL:1001107,CL:1001111
+25b62707-5933-415b-8000-3369ec4af23f,Descending Vasa Recta Endothelial Cell,relatedMatch,CL:1001111,CL:0000115
+25b62707-5933-415b-8000-3369ec4af23f,Distal Convoluted Tubule Cell Type 1,relatedMatch,CL:1001111,CL:1000849
+25b62707-5933-415b-8000-3369ec4af23f,Distal Convoluted Tubule Cell Type 2,relatedMatch,CL:1001111,CL:1000849
+25b62707-5933-415b-8000-3369ec4af23f,Fibroblast,relatedMatch,CL:1000716,CL:1000692
+25b62707-5933-415b-8000-3369ec4af23f,Glomerular Capillary Endothelial Cell,exactMatch,CL:1000695,CL:0000115
+25b62707-5933-415b-8000-3369ec4af23f,Inner Medullary Collecting Duct Cell,exactMatch,CL:1000850,CL:1001431
+25b62707-5933-415b-8000-3369ec4af23f,Intercalated Cell Type B,exactMatch,CL:0000097,CL:1001432
+25b62707-5933-415b-8000-3369ec4af23f,Lymphatic Endothelial Cell,exactMatch,CL:1001108,CL:0000115
+25b62707-5933-415b-8000-3369ec4af23f,M2 Macrophage,exactMatch,CL:1000695,CL:1000695
+25b62707-5933-415b-8000-3369ec4af23f,Macula Densa Cell,exactMatch,CL:1000850,CL:1001106
+25b62707-5933-415b-8000-3369ec4af23f,Mast Cell,exactMatch,CL:0000097,CL:0000097
+25b62707-5933-415b-8000-3369ec4af23f,Medullary Fibroblast,exactMatch,CL:0000775,CL:1000692
+25b62707-5933-415b-8000-3369ec4af23f,Medullary Thick Ascending Limb Cell,exactMatch,CL:0000623,CL:1001106
+25b62707-5933-415b-8000-3369ec4af23f,Mesangial Cell,exactMatch,CL:0000875,CL:1001318
+25b62707-5933-415b-8000-3369ec4af23f,Monocyte-derived Cell,exactMatch,CL:1000717,CL:0000113
+25b62707-5933-415b-8000-3369ec4af23f,Myofibroblast,exactMatch,CL:1000716,CL:1000692
+25b62707-5933-415b-8000-3369ec4af23f,Natural Killer Cell / Natural Killer T Cell,exactMatch,CL:1000597,CL:0000542
+25b62707-5933-415b-8000-3369ec4af23f,Neutrophil,exactMatch,CL:1000452,CL:0000775
+25b62707-5933-415b-8000-3369ec4af23f,Non-classical Monocyte,relatedMatch,CL:1001033,CL:0000875
+25b62707-5933-415b-8000-3369ec4af23f,Outer Medullary Collecting Duct Intercalated Cell Type A,exactMatch,CL:1001033,CL:1001432
+25b62707-5933-415b-8000-3369ec4af23f,Outer Medullary Collecting Duct Principal Cell,exactMatch,CL:0000786,CL:1001431
+25b62707-5933-415b-8000-3369ec4af23f,Papillary Tip Epithelial Cell,relatedMatch,CL:0000653,CL:1000597
+25b62707-5933-415b-8000-3369ec4af23f,Parietal Epithelial Cell,exactMatch,CL:0000653,CL:1000452
+25b62707-5933-415b-8000-3369ec4af23f,Peritubular Capilary Endothelial Cell,exactMatch,CL:4030011,CL:0000115
+25b62707-5933-415b-8000-3369ec4af23f,Plasma Cell,exactMatch,CL:0000786,CL:0000786
+25b62707-5933-415b-8000-3369ec4af23f,Plasmacytoid Dendritic Cell,relatedMatch,CL:0005011,CL:0001058
+25b62707-5933-415b-8000-3369ec4af23f,Podocyte,exactMatch,CL:0002201,CL:0000653
+25b62707-5933-415b-8000-3369ec4af23f,Proximal Tubule Epithelial Cell Segment 1 / Segment 2,relatedMatch,CL:4030022,CL:0002306
+25b62707-5933-415b-8000-3369ec4af23f,Proximal Tubule Epithelial Cell Segment 3,exactMatch,CL:0002573,CL:0002306
+25b62707-5933-415b-8000-3369ec4af23f,Renin-positive Juxtaglomerular Granular Cell,exactMatch,CL:0000084,CL:1001318
+25b62707-5933-415b-8000-3369ec4af23f,Schwann Cell / Neural,exactMatch,CL:0002573,CL:0002319
+25b62707-5933-415b-8000-3369ec4af23f,T Cell,exactMatch,CL:0000084,CL:0000084
+25b62707-5933-415b-8000-3369ec4af23f,Transitional Principal-Intercalated Cell,relatedMatch,CL:0000359,CL:1001432
+25b62707-5933-415b-8000-3369ec4af23f,Vascular Smooth Muscle Cell,exactMatch,CL:0000359,CL:1001318
+25b62707-5933-415b-8000-3369ec4af23f,Vascular Smooth Muscle Cell / Pericyte,exactMatch,CL:1001318,CL:1001318

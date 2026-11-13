@@ -1,0 +1,558 @@
+name: Publish Plot Assets
+
+# Ships the SVG/HTML plot files that package-prod-data.yml deliberately leaves
+# out of the release tarball (~1,840 SVG / ~1,006 HTML, ~5.6 GB) to the shared
+# static-assets S3 bucket, so nlm-ckn-ui can do a fast S3->S3 copy into each
+# environment instead of pulling them out of git.
+# See nlm-ckn-rnd/docs/proposals/static-asset-hosting.md (option B).
+#
+# IMPORTANT: this file's *name* is load-bearing. The push role's trust policy
+# pins on the OIDC `job_workflow_ref` claim, which includes the workflow path
+# (PushWorkflowRefs in nlm-ckn-iac shared/cloudformation/static-assets.yaml).
+# Renaming or moving this file breaks AssumeRole until that parameter is
+# updated to match.
+#
+# Objects are keyed <prefix>/<release tag>/<path relative to data/prod>. The
+# tag is what makes the key unique: the 6-hex suffix in the directory names
+# identifies the CELLxGENE source dataset, not the run, so filenames repeat
+# across releases.
+#
+# Every plotly page ships with the plotly.js library inlined, so the raw HTML
+# is 923 byte-identical copies of the same 3.6 MB bundle -- 3.1 GB of the
+# 3.6 GB of HTML. The publish vendors one copy to <prefix>/<tag>/_vendor/ and
+# points each page at it with a *document-relative* src ("../../../../_vendor/
+# plotly-<ver>.min.js"). Relative on purpose: the same objects can be served
+# from any number of domains, and from any path prefix within them, without a
+# hostname or a root path baked into a thousand files. What it does assume is
+# that the served URL path mirrors the S3 key layout, which is what the S3->S3
+# copy preserves.
+#
+# Assets are stored gzipped (~2.5 GB -> ~0.5 GB) under their original .svg /
+# .html keys, with Content-Encoding: gzip. Browsers and CloudFront decode
+# transparently. Two consequences worth knowing:
+#   - Anything copying these objects onward must preserve object metadata.
+#     `aws s3 cp --recursive` does by default (MetadataDirective=COPY), which
+#     is what nlm-ckn-ui's deploy-dataset.sh uses for the S3->S3 copy.
+#   - A client that does not send `Accept-Encoding: gzip` receives gzip bytes
+#     as-is. Every browser sends it; bare `curl` does not (use --compressed).
+
+on:
+  release:
+    types: [published]
+  # Manual re-run, e.g. after a failed publish or once the IaC stack lands.
+  # The trust policy also allows job_workflow_ref @refs/heads/main, so this is
+  # only assumable when dispatched from main.
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Release tag to publish (e.g. v1.0.0-rc.9)'
+        required: true
+        type: string
+
+# One publish at a time. Don't cancel: a run in flight is partway through
+# thousands of uploads and cancelling just leaves the prefix incomplete.
+concurrency:
+  group: publish-plot-assets
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    # Generous relative to the expected ~15 min, but note the separate limit
+    # below: the assumed role's credentials are only good for 1 hour from the
+    # "Configure AWS credentials" step, which is why checkout runs before it.
+    timeout-minutes: 90
+    permissions:
+      contents: read
+      # Required for the OIDC token; without it the AssumeRole never happens.
+      id-token: write
+    env:
+      # Must match the AssetPrefix parameter in static-assets.yaml: the push
+      # role has s3:PutObject on <bucket>/plots/* and nowhere else.
+      ASSET_PREFIX: plots
+      RELEASE_TAG: ${{ github.event.release.tag_name || inputs.tag }}
+
+    steps:
+      - name: Validate release tag
+        run: |
+          set -euo pipefail
+          if [ -z "${RELEASE_TAG:-}" ]; then
+            echo "::error::No release tag resolved from the triggering event."
+            exit 1
+          fi
+          # The tag becomes an S3 key prefix; keep it to characters that need
+          # no escaping anywhere downstream (CloudFront paths, shell, URLs).
+          case "$RELEASE_TAG" in
+            *[!A-Za-z0-9._-]*)
+              echo "::error::Release tag '$RELEASE_TAG' contains characters that are not safe in an S3 key prefix (allowed: A-Z a-z 0-9 . _ -)."
+              exit 1
+              ;;
+          esac
+          echo "Publishing plot assets for tag: $RELEASE_TAG"
+
+      # Sparse, blob-filtered checkout: data/prod is ~7.1 GB on disk (and the
+      # full history is another ~5.6 GB), but only the SVG/HTML are wanted.
+      # --filter=blob:none means git fetches just the blobs the sparse patterns
+      # match, so the h5ad/csv/pkl files are never downloaded at all.
+      - name: Checkout plot assets
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5  # v4
+        with:
+          ref: ${{ env.RELEASE_TAG }}
+          persist-credentials: false
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /data/prod/**/*.svg
+            /data/prod/**/*.html
+
+      - name: Inventory assets
+        run: |
+          set -euo pipefail
+          svg_count=$(find data/prod -type f -name '*.svg' | wc -l)
+          html_count=$(find data/prod -type f -name '*.html' | wc -l)
+          echo "SVG files:  $svg_count"
+          echo "HTML files: $html_count"
+          echo "Total size: $(du -sh data/prod | cut -f1)"
+
+          if [ "$svg_count" -eq 0 ] || [ "$html_count" -eq 0 ]; then
+            echo "::error::Expected both SVG and HTML assets under data/prod but found svg=$svg_count html=$html_count — the sparse checkout patterns are probably wrong for this tag."
+            exit 1
+          fi
+
+          # Stash one of each for the post-upload Content-Type check. `sed -n 1p`
+          # rather than `head -1` so the producer isn't SIGPIPE'd under pipefail.
+          {
+            printf 'SAMPLE_SVG_KEY=%s\n' "$(find data/prod -type f -name '*.svg' | sed -n '1p' | sed 's|^data/prod/||')"
+            printf 'SAMPLE_HTML_KEY=%s\n' "$(find data/prod -type f -name '*.html' | sed -n '1p' | sed 's|^data/prod/||')"
+          } >> "$GITHUB_ENV"
+
+      # Must run before "Compress assets", which rewrites these files as gzip.
+      # Inline rather than a checked-in script: the sparse checkout above pulls
+      # only *.svg / *.html, and it checks out the *release tag*, so a script in
+      # the tree would be both absent and frozen at whatever the tag contained.
+      - name: Vendor plotly.js
+        run: |
+          set -euo pipefail
+          python3 - <<'PYTHON'
+          import hashlib
+          import os
+          import re
+          import sys
+
+          ROOT = "data/prod"
+          VENDOR_SUBDIR = "_vendor"
+
+          # The bundle plotly emits for include_plotlyjs=True. The banner is the
+          # only stable landmark -- the enclosing <script> tag has varied across
+          # plotly versions -- so the span is found by walking out to the tag
+          # delimiters. Safe because minified plotly.js cannot contain a literal
+          # "</script>": the HTML parser would end the script there and no
+          # browser would run the page at all.
+          BANNER = b"* plotly.js v"
+          VERSION_RE = re.compile(rb"\* plotly\.js v([\d.]+)")
+
+          # What include_plotlyjs="cdn" emits, which is how the
+          # silhouette_fscore_summary plots are already built. Repointed at the
+          # vendored copy too, so every plot in a release loads plotly from the
+          # release prefix and none reach out to a third party. Delete this and
+          # its branch below to leave those files on the CDN.
+          CDN_RE = re.compile(
+              rb'<script charset="utf-8" src="https://cdn\.plot\.ly/'
+              rb'plotly-([\d.]+)\.min\.js"></script>'
+          )
+
+          vendored = {}  # version -> md5 of the bytes written to _vendor
+
+
+          def vendor(version, js, path):
+              """Save the library the first time this version is seen."""
+              digest = hashlib.md5(js).hexdigest()
+              if version in vendored:
+                  if vendored[version] != digest:
+                      # Two builds of one version means a single vendored copy
+                      # is wrong for some pages. Refuse rather than serve the
+                      # wrong library.
+                      sys.exit(
+                          "::error::plotly.js v%s is not byte-identical across "
+                          "the tree (%s here, %s earlier): %s"
+                          % (version, digest, vendored[version], path)
+                      )
+                  return
+              dest = os.path.join(ROOT, VENDOR_SUBDIR, "plotly-%s.min.js" % version)
+              os.makedirs(os.path.dirname(dest), exist_ok=True)
+              # Written before any page is rewritten, so an interrupted run can
+              # never leave pages pointing at a library that was never saved.
+              with open(dest, "wb") as fh:
+                  fh.write(js)
+              vendored[version] = digest
+              print("Vendored plotly.js v%s (%.2f MB, md5 %s)"
+                    % (version, len(js) / 1e6, digest))
+
+
+          def script_tag(path, version):
+              """Document-relative, so no domain or root path is baked in."""
+              depth = os.path.relpath(path, ROOT).count(os.sep)
+              src = "/".join(
+                  [".."] * depth + [VENDOR_SUBDIR, "plotly-%s.min.js" % version]
+              )
+              return b'<script charset="utf-8" src="%s"></script>' % src.encode()
+
+
+          pages = sorted(
+              os.path.join(d, n)
+              for d, _dirs, names in os.walk(ROOT)
+              for n in names
+              if n.endswith(".html")
+          )
+
+          inline = untouched = saved = 0
+          deferred = {}  # CDN pages met before any inline copy of their version
+          sample_page = None  # first page actually repointed at _vendor
+
+          for path in pages:
+              with open(path, "rb") as fh:
+                  raw = fh.read()
+              i = raw.find(BANNER)
+
+              if i != -1:
+                  start = raw.rfind(b"<script", 0, i)
+                  end = raw.find(b"</script>", i) + len(b"</script>")
+                  if start == -1 or end < i:
+                      sys.exit("::error::Could not delimit the plotly.js "
+                               "<script> in %s" % path)
+                  version = VERSION_RE.search(raw).group(1).decode()
+                  tag = raw[start:end]
+                  vendor(version,
+                         tag[tag.index(b">") + 1:-len(b"</script>")],
+                         path)
+                  inline += 1
+              else:
+                  match = CDN_RE.search(raw)
+                  if not match:
+                      untouched += 1
+                      continue
+                  version = match.group(1).decode()
+                  if version not in vendored:
+                      deferred[path] = version
+                      continue
+                  start, end = match.span()
+
+              out = raw[:start] + script_tag(path, version) + raw[end:]
+              with open(path, "wb") as fh:
+                  fh.write(out)
+              saved += len(raw) - len(out)
+              if sample_page is None:
+                  sample_page = os.path.relpath(path, ROOT)
+
+          cdn = len(pages) - inline - untouched - len(deferred)
+          for path, version in sorted(deferred.items()):
+              if version not in vendored:
+                  # No inline copy of this version anywhere, so there is nothing
+                  # to point at; leaving the CDN reference is the right outcome.
+                  untouched += 1
+                  continue
+              with open(path, "rb") as fh:
+                  raw = fh.read()
+              match = CDN_RE.search(raw)
+              with open(path, "wb") as fh:
+                  fh.write(raw[:match.start()]
+                           + script_tag(path, version)
+                           + raw[match.end():])
+              cdn += 1
+              if sample_page is None:
+                  sample_page = os.path.relpath(path, ROOT)
+
+          print("HTML pages:                %d" % len(pages))
+          print("  inline bundle stripped:  %d" % inline)
+          print("  cdn reference rewritten: %d" % cdn)
+          print("  left as-is:              %d" % untouched)
+          print("Removed from HTML: %.2f GB" % (saved / 1024 ** 3))
+          if inline == 0 and cdn == 0:
+              # Not an error: re-running the job over an already-vendored tree
+              # lands here, as would a tag whose plots are not plotly output.
+              print("Nothing to vendor.")
+
+          # Consumed by the spot checks in "Verify upload": the vendored bundle
+          # for the Content-Type check, and a page this step actually rewrote
+          # for the relative-src check (an arbitrary page may have no plotly
+          # reference at all). Both are empty when nothing was vendored, which
+          # that step treats as "skip".
+          with open(os.environ["GITHUB_ENV"], "a") as fh:
+              key = ""
+              if vendored:
+                  version = sorted(vendored)[0]
+                  key = "%s/plotly-%s.min.js" % (VENDOR_SUBDIR, version)
+              fh.write("SAMPLE_JS_KEY=%s\n" % key)
+              fh.write("SAMPLE_PLOTLY_HTML_KEY=%s\n" % (sample_page or ""))
+          PYTHON
+
+      # Runs before the credential step so the CPU time comes out of the job
+      # budget rather than the 1-hour credential window.
+      - name: Compress assets
+        run: |
+          set -euo pipefail
+          before=$(du -sm data/prod | cut -f1)
+
+          # Compressed in place, keeping the original filename: the S3 key stays
+          # <name>.svg / <name>.html and the object carries Content-Encoding:
+          # gzip. Renaming to .gz would change every URL in the plot manifest.
+          #
+          # Left at gzip's default level (6) deliberately — measured across a
+          # sample of these files, -9 gives ~1% more compression for ~2.5x the
+          # CPU. Expected ratios: ~4.4x for SVG, ~3.7x for the plotly HTML.
+          # The inner script is single-quoted on purpose: "$@"/"$f" must be
+          # expanded by the bash xargs spawns, not by this shell.
+          # shellcheck disable=SC2016
+          find data/prod -type f \( -name '*.svg' -o -name '*.html' -o -name '*.js' \) -print0 \
+            | xargs -0 -P "$(nproc)" -n 32 bash -euo pipefail -c '
+                for f in "$@"; do
+                  # Skip anything already gzipped, so the step is re-runnable
+                  # and can never double-compress.
+                  if [ "$(head -c 2 "$f" | od -An -tx1 | tr -d " ")" = "1f8b" ]; then
+                    continue
+                  fi
+                  gzip -c -- "$f" > "$f.gztmp"
+                  mv -- "$f.gztmp" "$f"
+                done
+              ' _
+
+          after=$(du -sm data/prod | cut -f1)
+          echo "data/prod: ${before} MB -> ${after} MB"
+
+      - name: Configure AWS credentials
+        id: aws-creds
+        uses: aws-actions/configure-aws-credentials@7474bc4690e29a8392af63c5b98e7449536d5c3a  # v4
+        with:
+          # Output of the nlm-ckn-static-assets stack (AssetPushRoleArn).
+          role-to-assume: ${{ secrets.AWS_ASSET_PUSH_ROLE_ARN }}
+          aws-region: us-east-1
+          # role-duration-seconds is left at the action's 1-hour default, which
+          # is also the role's MaxSessionDuration — asking for more fails.
+
+      - name: Resolve target bucket
+        env:
+          BUCKET_VAR: ${{ vars.STATIC_ASSETS_BUCKET }}
+          # Output name is `aws-account-id`, not `account-id` — the latter is
+          # silently empty, which turns the fallback into an unconditional error.
+          ACCOUNT_ID: ${{ steps.aws-creds.outputs.aws-account-id }}
+        run: |
+          set -euo pipefail
+          # Prefer an explicit repo variable so the bucket can be repointed
+          # without a code change. Otherwise fall back to the stack's naming
+          # convention, ${ProjectName}-static-assets-${AWS::AccountId}, using
+          # the account we just authenticated into rather than a literal id.
+          # (The stack also publishes the name to SSM and as a CloudFormation
+          # export, but the push role has neither ssm:GetParameter nor
+          # cloudformation:ListExports, so neither is readable from here.)
+          if [ -n "${BUCKET_VAR:-}" ]; then
+            bucket="$BUCKET_VAR"
+            echo "Bucket from repo variable STATIC_ASSETS_BUCKET."
+          elif [ -n "${ACCOUNT_ID:-}" ]; then
+            bucket="nlm-ckn-static-assets-${ACCOUNT_ID}"
+            echo "Bucket derived from the authenticated account id."
+          else
+            echo "::error::Could not resolve the static assets bucket — set the STATIC_ASSETS_BUCKET repository variable."
+            exit 1
+          fi
+          echo "Target: s3://${bucket}/${ASSET_PREFIX}/${RELEASE_TAG}/"
+          printf 'BUCKET=%s\n' "$bucket" >> "$GITHUB_ENV"
+
+      - name: Upload SVG assets
+        run: |
+          set -euo pipefail
+          # Default is 10 in-flight requests; these are ~2 MB files and the run
+          # is latency-bound, so raise it to keep the upload well inside the
+          # 1-hour credential window.
+          aws configure set default.s3.max_concurrent_requests 32
+
+          # No --delete anywhere: the role has no s3:DeleteObject by design, so
+          # a release can only add a new tag prefix. --delete would AccessDeny.
+          aws s3 sync data/prod "s3://${BUCKET}/${ASSET_PREFIX}/${RELEASE_TAG}/" \
+            --exclude '*' --include '*.svg' \
+            --content-type 'image/svg+xml' \
+            --content-encoding gzip \
+            --only-show-errors
+
+      # Before the HTML, so the library is in place by the time any page that
+      # references it is reachable.
+      - name: Upload vendored plotly.js
+        run: |
+          set -euo pipefail
+          # text/javascript rather than application/javascript: the latter was
+          # made obsolete by RFC 9239. Sync (not cp) so the step is a no-op when
+          # nothing was vendored -- see the note in "Vendor plotly.js".
+          #
+          # immutable is safe here because the key carries the version
+          # (_vendor/plotly-<ver>.min.js) *and* sits under the release tag, so
+          # the bytes behind a given URL never change: a different library means
+          # a different key. Every page in the release pulls this one object, so
+          # it is the single asset where a long cache actually matters.
+          aws s3 sync data/prod "s3://${BUCKET}/${ASSET_PREFIX}/${RELEASE_TAG}/" \
+            --exclude '*' --include '*.js' \
+            --content-type 'text/javascript; charset=utf-8' \
+            --content-encoding gzip \
+            --cache-control 'public, max-age=31536000, immutable' \
+            --only-show-errors
+
+      - name: Upload HTML assets
+        run: |
+          set -euo pipefail
+          # Set explicitly rather than trusting the CLI's mimetypes guess: these
+          # are served to browsers through CloudFront, and an octet-stream
+          # fallback would make them download instead of render. The files are
+          # plotly output with <meta charset="utf-8">, hence the charset.
+          aws s3 sync data/prod "s3://${BUCKET}/${ASSET_PREFIX}/${RELEASE_TAG}/" \
+            --exclude '*' --include '*.html' \
+            --content-type 'text/html; charset=utf-8' \
+            --content-encoding gzip \
+            --only-show-errors
+
+      - name: Verify upload
+        run: |
+          set -euo pipefail
+          tmpdir=${RUNNER_TEMP:-/tmp}
+
+          # Compare the two key sets, not just their sizes: a count check passes
+          # whenever the remote total is >= the local total, so N missing uploads
+          # plus N objects left under this tag by an earlier or unrelated run
+          # would cancel out and verify clean.
+          # *.js covers the vendored plotly bundle, which is generated rather
+          # than checked out; leaving it out here would report it as surplus.
+          find data/prod -type f \( -name '*.svg' -o -name '*.html' -o -name '*.js' \) \
+            | sed 's|^data/prod/||' \
+            | LC_ALL=C sort > "$tmpdir/local-keys.txt"
+
+          # list-objects-v2 rather than `s3 ls --recursive`: the CLI paginates it
+          # for us and the key comes back as a field of its own, so nothing has
+          # to be parsed back out of the ls line format. Keys within a page are
+          # tab-separated; `None` is what --output text prints for an empty
+          # listing, and is not a key.
+          aws s3api list-objects-v2 \
+            --bucket "$BUCKET" \
+            --prefix "${ASSET_PREFIX}/${RELEASE_TAG}/" \
+            --query 'Contents[].Key' --output text \
+            | tr '\t' '\n' \
+            | sed -e '/^None$/d' -e '/^$/d' -e "s|^${ASSET_PREFIX}/${RELEASE_TAG}/||" \
+            | LC_ALL=C sort > "$tmpdir/remote-keys.txt"
+
+          local_count=$(wc -l < "$tmpdir/local-keys.txt")
+          uploaded=$(wc -l < "$tmpdir/remote-keys.txt")
+          echo "Objects under the release prefix: $uploaded (local assets: $local_count)"
+
+          missing=$(LC_ALL=C comm -23 "$tmpdir/local-keys.txt" "$tmpdir/remote-keys.txt")
+          surplus=$(LC_ALL=C comm -13 "$tmpdir/local-keys.txt" "$tmpdir/remote-keys.txt")
+
+          if [ -n "$missing" ]; then
+            echo "::error::$(printf '%s\n' "$missing" | wc -l) local assets are missing under ${ASSET_PREFIX}/${RELEASE_TAG}/ (first 20 below)."
+            printf '%s\n' "$missing" | sed -n '1,20p'
+          fi
+          if [ -n "$surplus" ]; then
+            # The push role has no s3:DeleteObject by design, so this run cannot
+            # clean the prefix up; removing stale objects is a separate,
+            # privileged operation. Fail rather than publish a prefix that does
+            # not match the tag's tree.
+            echo "::error::$(printf '%s\n' "$surplus" | wc -l) objects under ${ASSET_PREFIX}/${RELEASE_TAG}/ are not in this tag's tree — the prefix was likely written by an earlier or different run. This job cannot delete them (no s3:DeleteObject); clear the prefix out of band, then re-run. First 20 below."
+            printf '%s\n' "$surplus" | sed -n '1,20p'
+          fi
+          if [ -n "$missing" ] || [ -n "$surplus" ]; then
+            exit 1
+          fi
+
+          # Queried one field at a time on purpose: `--output text` is
+          # tab-separated, and the HTML Content-Type contains a space, so a
+          # multi-field query can't be split reliably.
+          head_field() {
+            aws s3api head-object --bucket "$BUCKET" \
+              --key "${ASSET_PREFIX}/${RELEASE_TAG}/$1" \
+              --query "$2" --output text
+          }
+
+          check_asset() {
+            key=$1
+            want_type=$2
+            echo "Checking $key"
+
+            actual_type=$(head_field "$key" 'ContentType')
+            if [ "$actual_type" != "$want_type" ]; then
+              echo "::error::Content-Type for $key is '$actual_type', expected '$want_type'."
+              return 1
+            fi
+
+            actual_enc=$(head_field "$key" 'ContentEncoding')
+            if [ "$actual_enc" != "gzip" ]; then
+              echo "::error::Content-Encoding for $key is '$actual_enc', expected 'gzip'."
+              return 1
+            fi
+
+            # Round-trip the real bytes: get-object does not decode, so a
+            # successful gunzip proves the stored object is valid gzip and not,
+            # say, plaintext mislabelled as compressed.
+            tmp=$(mktemp)
+            aws s3api get-object --bucket "$BUCKET" \
+              --key "${ASSET_PREFIX}/${RELEASE_TAG}/$key" "$tmp" > /dev/null
+            if ! gzip -dc < "$tmp" > /dev/null; then
+              echo "::error::$key is not valid gzip despite Content-Encoding: gzip."
+              rm -f "$tmp"
+              return 1
+            fi
+            echo "  Content-Type=$actual_type Content-Encoding=$actual_enc, decompresses cleanly"
+            rm -f "$tmp"
+          }
+
+          check_asset "$SAMPLE_SVG_KEY" 'image/svg+xml'
+          check_asset "$SAMPLE_HTML_KEY" 'text/html; charset=utf-8'
+          # Empty only when "Vendor plotly.js" found nothing to vendor.
+          if [ -n "${SAMPLE_JS_KEY:-}" ]; then
+            check_asset "$SAMPLE_JS_KEY" 'text/javascript; charset=utf-8'
+          fi
+
+          # The pages are useless if their relative src does not resolve, and a
+          # depth mistake would not show up in any of the checks above: every
+          # object would be present and correctly typed, and every plot would
+          # still fail to load in the browser. So resolve one for real.
+          #
+          # Deliberately a page "Vendor plotly.js" reported rewriting, not the
+          # arbitrary SAMPLE_HTML_KEY: plots that are not plotly output carry no
+          # <script src> at all, so picking the first HTML file in the tree
+          # would fail this check for a tree that is perfectly correct. Empty
+          # only when nothing was rewritten, same as SAMPLE_JS_KEY.
+          if [ -z "${SAMPLE_PLOTLY_HTML_KEY:-}" ]; then
+            echo "No page was repointed at the vendored bundle; skipping the relative-src check."
+            echo "Published to s3://${BUCKET}/${ASSET_PREFIX}/${RELEASE_TAG}/"
+            exit 0
+          fi
+
+          html_dir=$(dirname "$SAMPLE_PLOTLY_HTML_KEY")
+          aws s3api get-object --bucket "$BUCKET" \
+            --key "${ASSET_PREFIX}/${RELEASE_TAG}/${SAMPLE_PLOTLY_HTML_KEY}" \
+            "$tmpdir/sample.html.gz" > /dev/null
+          # `|| true` because grep exits 1 on no match, which pipefail would
+          # otherwise turn into a step failure before the check below runs.
+          # `sed -n 1p` rather than `head -1` so nothing upstream is SIGPIPE'd.
+          src=$(gzip -dc < "$tmpdir/sample.html.gz" \
+                | grep -o 'src="[^"]*plotly[^"]*"' \
+                | sed -e 's|^src="||' -e 's|"$||' \
+                | sed -n '1p' || true)
+          if [ -z "$src" ]; then
+            echo "::error::No plotly <script src> found in $SAMPLE_PLOTLY_HTML_KEY, which the vendor step reported rewriting."
+            exit 1
+          fi
+          case "$src" in
+            http*)
+              echo "Note: $SAMPLE_PLOTLY_HTML_KEY still loads plotly from $src."
+              ;;
+            *)
+              # Normalise "<dir of the page>/<relative src>" the way a browser
+              # would, then confirm that key is actually in the bucket.
+              resolved=$(python3 -c 'import os,sys; print(os.path.normpath(os.path.join(sys.argv[1], sys.argv[2])))' \
+                         "$html_dir" "$src")
+              echo "Resolving $src from $html_dir -> $resolved"
+              if ! grep -qxF "$resolved" "$tmpdir/remote-keys.txt"; then
+                echo "::error::$SAMPLE_PLOTLY_HTML_KEY references '$src', which resolves to '$resolved' — not published under ${ASSET_PREFIX}/${RELEASE_TAG}/."
+                exit 1
+              fi
+              echo "  resolves to a published object"
+              ;;
+          esac
+
+          echo "Published to s3://${BUCKET}/${ASSET_PREFIX}/${RELEASE_TAG}/"

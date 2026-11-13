@@ -1,28 +1,28 @@
-cluster_name,skos,manual_mapped_cid,cell_ontology_id
-"activated CD4-positive, alpha-beta T cell",exactMatch,CL:0000904,CL:0000896
-"activated CD8-positive, alpha-beta T cell",exactMatch,CL:0000907,CL:0000906
-B cell,exactMatch,CL:0000236,CL:0000236
-capillary endothelial cell,exactMatch,CL:0002144,CL:0002144
-CD14-positive monocyte,exactMatch,CL:0001054,CL:0001054
-"CD14-positive, CD16-positive monocyte",exactMatch,CL:0002397,CL:0002397
-"CD4-positive, alpha-beta cytotoxic T cell",exactMatch,CL:0002397,CL:0000934
-"CD8-positive, alpha-beta cytotoxic T cell",exactMatch,CL:0000794,CL:0000794
-dendritic cell,exactMatch,CL:0000451,CL:0000451
-endothelial cell,exactMatch,CL:0000115,CL:0000115
-endothelial cell of artery,exactMatch,CL:1000413,CL:1000413
-endothelial cell of lymphatic vessel,exactMatch,CL:0002138,CL:0002138
-epicardial adipocyte,exactMatch,CL:1000309,CL:1000309
-fibroblast,exactMatch,CL:0000057,CL:0000057
-macrophage,exactMatch,CL:0000235,CL:0000235
-mast cell,exactMatch,CL:0000097,CL:0000097
-mature NK T cell,exactMatch,CL:0000814,CL:0000814
-mesothelial cell,exactMatch,CL:0000077,CL:0000077
-monocyte,exactMatch,CL:0000576,CL:0000576
-natural killer cell,exactMatch,CL:0000623,CL:0000623
-neural cell,exactMatch,CL:0002319,CL:0002319
-pericyte,exactMatch,CL:0000669,CL:0000669
-regular atrial cardiac myocyte,exactMatch,CL:0002129,CL:0002129
-regular ventricular cardiac myocyte,exactMatch,CL:0002131,CL:0002131
-smooth muscle cell,exactMatch,CL:0000192,CL:0000192
-unknown,NA,NA,unknown
-vein endothelial cell,exactMatch,CL:0002543,CL:0002543
+dataset_version_id,cluster_name,skos,manual_mapped_cid,cell_ontology_id
+a7f6822d-0e0e-451e-9858-af81392fcb9b,"activated CD4-positive, alpha-beta T cell",exactMatch,CL:0000904,CL:0000896
+a7f6822d-0e0e-451e-9858-af81392fcb9b,"activated CD8-positive, alpha-beta T cell",exactMatch,CL:0000907,CL:0000906
+a7f6822d-0e0e-451e-9858-af81392fcb9b,B cell,exactMatch,CL:0000236,CL:0000236
+a7f6822d-0e0e-451e-9858-af81392fcb9b,capillary endothelial cell,exactMatch,CL:0002144,CL:0002144
+a7f6822d-0e0e-451e-9858-af81392fcb9b,CD14-positive monocyte,exactMatch,CL:0001054,CL:0001054
+a7f6822d-0e0e-451e-9858-af81392fcb9b,"CD14-positive, CD16-positive monocyte",exactMatch,CL:0002397,CL:0002397
+a7f6822d-0e0e-451e-9858-af81392fcb9b,"CD4-positive, alpha-beta cytotoxic T cell",exactMatch,CL:0002397,CL:0000934
+a7f6822d-0e0e-451e-9858-af81392fcb9b,"CD8-positive, alpha-beta cytotoxic T cell",exactMatch,CL:0000794,CL:0000794
+a7f6822d-0e0e-451e-9858-af81392fcb9b,dendritic cell,exactMatch,CL:0000451,CL:0000451
+a7f6822d-0e0e-451e-9858-af81392fcb9b,endothelial cell,exactMatch,CL:0000115,CL:0000115
+a7f6822d-0e0e-451e-9858-af81392fcb9b,endothelial cell of artery,exactMatch,CL:1000413,CL:1000413
+a7f6822d-0e0e-451e-9858-af81392fcb9b,endothelial cell of lymphatic vessel,exactMatch,CL:0002138,CL:0002138
+a7f6822d-0e0e-451e-9858-af81392fcb9b,epicardial adipocyte,exactMatch,CL:1000309,CL:1000309
+a7f6822d-0e0e-451e-9858-af81392fcb9b,fibroblast,exactMatch,CL:0000057,CL:0000057
+a7f6822d-0e0e-451e-9858-af81392fcb9b,macrophage,exactMatch,CL:0000235,CL:0000235
+a7f6822d-0e0e-451e-9858-af81392fcb9b,mast cell,exactMatch,CL:0000097,CL:0000097
+a7f6822d-0e0e-451e-9858-af81392fcb9b,mature NK T cell,exactMatch,CL:0000814,CL:0000814
+a7f6822d-0e0e-451e-9858-af81392fcb9b,mesothelial cell,exactMatch,CL:0000077,CL:0000077
+a7f6822d-0e0e-451e-9858-af81392fcb9b,monocyte,exactMatch,CL:0000576,CL:0000576
+a7f6822d-0e0e-451e-9858-af81392fcb9b,natural killer cell,exactMatch,CL:0000623,CL:0000623
+a7f6822d-0e0e-451e-9858-af81392fcb9b,neural cell,exactMatch,CL:0002319,CL:0002319
+a7f6822d-0e0e-451e-9858-af81392fcb9b,pericyte,exactMatch,CL:0000669,CL:0000669
+a7f6822d-0e0e-451e-9858-af81392fcb9b,regular atrial cardiac myocyte,exactMatch,CL:0002129,CL:0002129
+a7f6822d-0e0e-451e-9858-af81392fcb9b,regular ventricular cardiac myocyte,exactMatch,CL:0002131,CL:0002131
+a7f6822d-0e0e-451e-9858-af81392fcb9b,smooth muscle cell,exactMatch,CL:0000192,CL:0000192
+a7f6822d-0e0e-451e-9858-af81392fcb9b,unknown,NA,NA,unknown
+a7f6822d-0e0e-451e-9858-af81392fcb9b,vein endothelial cell,exactMatch,CL:0002543,CL:0002543

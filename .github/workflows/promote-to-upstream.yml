@@ -39,9 +39,30 @@ jobs:
           # ready. No fast-forward via the Refs API either, since that would
           # bypass the approval gate entirely.
 
-          COMPARE=$(gh api "repos/$UPSTREAM/compare/main...Springbok-LLC:main")
-          AHEAD=$(echo "$COMPARE" | jq -r '.ahead_by')
-          BEHIND=$(echo "$COMPARE" | jq -r '.behind_by')
+          # Don't use the compare API (repos/$UPSTREAM/compare/main...fork:main)
+          # for this: it always builds a diff, and since this repo is large, this can fail with
+          # "Sorry, this diff is taking too long to generate" (HTTP 422). Count
+          # the divergence with git instead — a commits-only partial fetch
+          # (--filter=tree:0) of the two tips takes a couple of seconds and a
+          # few hundred KB, and needs no working tree.
+          rm -rf divergence.git
+          trap 'rm -rf divergence.git' EXIT
+          git init --bare -q divergence.git
+          AUTH_HEADER="Authorization: Basic $(printf 'x-access-token:%s' "$GH_TOKEN" | base64 | tr -d '\n')"
+          GIT_CONFIG_COUNT=1 GIT_CONFIG_KEY_0=http.extraHeader GIT_CONFIG_VALUE_0="$AUTH_HEADER" \
+            git -C divergence.git fetch -q --filter=tree:0 --no-tags \
+              "https://github.com/$FORK.git" main:refs/remotes/fork/main
+          GIT_CONFIG_COUNT=1 GIT_CONFIG_KEY_0=http.extraHeader GIT_CONFIG_VALUE_0="$AUTH_HEADER" \
+            git -C divergence.git fetch -q --filter=tree:0 --no-tags \
+              "https://github.com/$UPSTREAM.git" main:refs/remotes/upstream/main
+
+          # rev-list --left-right --count prints "<left> <right>": commits on
+          # upstream/main only (behind), then commits on fork/main only (ahead).
+          COUNTS=$(git -C divergence.git rev-list --left-right --count \
+            refs/remotes/upstream/main...refs/remotes/fork/main)
+          set -- $COUNTS
+          BEHIND=$1
+          AHEAD=$2
           echo "Compare upstream/main...fork/main: ahead_by=$AHEAD, behind_by=$BEHIND"
 
           if [ "$AHEAD" = "0" ]; then
@@ -53,11 +74,15 @@ jobs:
             echo "::warning::Fork is $BEHIND commits behind upstream — the promoted PR may have conflicts requiring manual resolution."
           fi
 
-          EXISTING=$(gh api -X GET "repos/$UPSTREAM/pulls" \
-            -F head=Springbok-LLC:main \
-            -F base=main \
-            -F state=open \
-            --jq '.[0].number // empty')
+          find_existing_pr() {
+            gh api -X GET "repos/$UPSTREAM/pulls" \
+              -F head=Springbok-LLC:main \
+              -F base=main \
+              -F state=open \
+              --jq '.[0].number // empty'
+          }
+
+          EXISTING=$(find_existing_pr)
 
           if [ -n "$EXISTING" ]; then
             echo "Upstream PR already open: #$EXISTING ($AHEAD ahead, $BEHIND behind). Fork pushes will append to it automatically."
@@ -83,6 +108,17 @@ jobs:
               echo "Created upstream PR #$PR_NUM."
               exit 0
             fi
+            # The create can succeed server-side and still report an error to
+            # the client (a 502 from the API gateway did exactly this on run
+            # 31621460361, and the retries then failed 422 "already exists",
+            # failing the job over a PR that had in fact been opened). Re-check
+            # before retrying so a phantom failure doesn't fail the job.
+            PR_NUM=$(find_existing_pr || true)
+            if [ -n "$PR_NUM" ]; then
+              echo "Upstream PR #$PR_NUM is open — attempt $i reported an error but the PR exists. Nothing more to do."
+              exit 0
+            fi
+            if [ "$i" = 3 ]; then break; fi
             echo "PR creation attempt $i failed; sleeping $((i * 10))s before retry."
             sleep $((i * 10))
           done
