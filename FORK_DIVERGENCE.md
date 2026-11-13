@@ -177,11 +177,12 @@ list._
   a reduced schema; all other summaries already carry `doi`. Placed before `collection_name` to
   match the canonical column order.
 
-The replacement `results/neocortex-Jorstad-Science-2023-f52998…37c/` (75 files) differs from the
+The replacement `results/neocortex-Jorstad-Science-2023-3b237c/` (74 files) differs from the
 recovered version in ways that matter downstream:
 - **One custom dataset, five dataset IDs.** Its `dataset_title` says "Human neocortex cross-area atlas
-  downsampled to 73144 cells (K=500 per cluster from the 5 superclusters)". The folder name and file
-  tokens are the 64-hex sha256 of that custom h5ad rather than a CELLxGENE UUID. Its tissue, assay,
+  downsampled to 73144 cells (K=500 per cluster from the 5 superclusters)". The dataset IDs are the 64-hex
+  sha256 of that custom h5ad rather than a CELLxGENE UUID; the folder name and file tokens use its last six
+  characters (`3b237c`), like every other dataset. Its tissue, assay,
   disease, sex and development-stage rollups are all `NA` (read as missing, so the harvester can fill
   them).
 - **IDs aligned as of upstream #372** (2026-10-27, `07b2d7ca`). The master summary has one row per
@@ -205,10 +206,12 @@ recovered version in ways that matter downstream:
   counts are written as floats (`22.0`).
 - `explorer_url` is still empty on all five rows, so the `nan` string bug (talking point 24) still
   applies to them.
-- **Manifest names do not match the files.** `master_s3_manifest.csv` lists the results files with the
-  short token `3b237c`, but the files on disk use the full 64-hex name. The validator reports this as
-  an ERROR (`manifest-missing-file`), the only error left on `data/prod`. In an actual ETL run it is a
-  non-fatal warning: the manifest is only an integrity cross-check and does not decide what loads.
+- **Manifest names now match the files.** The files arrived with the full 64-hex token (commit `5c9c04b`,
+  the 2026-10-27 sync with upstream), but S3 and `master_s3_manifest.csv` use the short token `3b237c`.
+  The folder, the files and the reference mapping were renamed to the short token, so the validator no
+  longer reports `manifest-missing-file`.
+  The manifest still lists `adata_sampled_AIBS_human_neocortex_plainstrings.h5ad`, which has no token and
+  was left as it is.
 - `results_ensg` now has `binary_genes` and `cluster_header` (#370), which the ETL requires and the
   2026-10-26 publish lacked.
 
@@ -340,8 +343,6 @@ the cache already held the five neocortex IDs.
   agree on every attribute, and on every cell set's `cellxgene_dataset`.
 - **The CELLxGENE-API writer disagrees with them on some attributes** (talking point 22): the neocortex
   dataset name (5 nodes) and, for retina, the publication, citation and collection version.
-- **The ETL's manifest cross-check is only a warning at extraction**, as expected: the neocortex
-  `3b237c` token is reported and processing continues.
 - **Counts formatted with thousands separators** (`17,929`) appear in the deep-layer neocortex node's
   `donor_age`, `tissue_annotation` and `assay_summary` (talking point 23).
 - **The summary-driven writers emit the literal string `nan`** as the `cellxgene_dataset` URL of all five
@@ -422,10 +423,11 @@ retina node (they predate the fix).
    downsampled cells (K=500 per cluster). Put the per-supercluster analyzed count in
    `filtered_cell_count` (or add a separate field for the source size), so the reconciliation can compare
    like with like.
-17. **Make the manifest match the files.** The neocortex manifest lists the short token `3b237c` while the
-   files and folder use the full 64-hex name; this is the one remaining validator ERROR (a non-fatal
-   warning in an actual ETL run). The run's 64-hex sha256 is also still the folder and file token where
-   every other dataset uses a 6-hex suffix.
+17. **Find out how the neocortex files got the 64-hex name.** In this repo the neocortex folder, files and
+   reference mapping were renamed by hand to the last six characters (`3b237c`) to match S3 and the
+   manifest. `sc-nsforest-qc-nf` `get_output_prefix` already uses the last six characters of the dataset
+   version id, so the long name did not come from that function; the files were added by the sync commit
+   `5c9c04b`. Until the source is known, a resync could bring the long name back.
 18. **Stop publishing a second `cluster_cid_mapping` in each run folder, or have the ETL prefer
    `reference/`.** The retina `c44109` publish (`1f4b4b94`, 2026-10-25) and the neocortex publish (#368) each
    added a results-folder mapping with the same basename as the reference one (blank
@@ -439,11 +441,14 @@ retina node (they predate the fix).
    `filter = False`, while the harvester's `normal_cell_count` is 3,137,294. The summary's own
    disease rollup reports every cell as normal, so one of the two sources is wrong, or the harvester
    counts "normal" differently. The same pattern as `respiratory_system-Guo` (point 4).
-20. **Harvester files the ETL does not read.** The ETL reads only `*_harvester_final.csv`. The heart
-   files (`…_heart_plus_pericardium_final.csv`, no `harvester`) and respiratory Guo
-   (`…_harvester_guo.csv`) do not match, so those 8 datasets get no harvester metadata (donor counts,
-   disease status, collection version). Those 8 (7 heart and Guo) are the only datasets of 85 with no
-   harvester row since upstream #372 aligned the neocortex IDs.
+20. ~~**Harvester files the ETL does not read.**~~ **Done.** The ETL reads only `*_harvester_final.csv`.
+   The heart file (`…_heart_plus_pericardium_final.csv`, no `harvester`) was renamed to
+   `…_heart_plus_pericardium_harvester_final.csv`, and the one respiratory Guo row from
+   `…_harvester_guo.csv` was appended to `…_respiratory_system_harvester_final.csv` (23 rows). The
+   `harvester-dvid-missing` warning for those 8 datasets (7 heart and Guo) should be gone. Also removed,
+   because every row is in a file that is kept: `…_heart_plus_pericardium_kuosmsnen.csv`, the
+   misspelled `…_kidney_havester_final.csv`, and the digestive tract `…_harvester_final_osuch.csv` and
+   `…_harvester_final_no_osuch.csv` (the main `…_harvester_final.csv` already holds all 13 rows).
 21. ~~**Neocortex: give each supercluster row its own values.**~~ **Done** — upstream #374 (2026-10-28)
    gave each of the five rows its own title, cluster count, statistics and ontology summaries. What
    remains is the analyzed cell count (talking point 16) and the empty `explorer_url` (talking point 24).
